@@ -1,0 +1,16 @@
+builds:
+  as:
+    composite: 3111111
+    dungeons: 3131111
+  sc:
+    composite: 3111311
+    dungeons: 3131311
+sims:
+  racials:
+    files:
+      - racials.simc
+  trinkets:
+    files:
+      - raid.simc
+      - dungeons.simc
+      - other.simc
