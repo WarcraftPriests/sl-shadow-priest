@@ -1,5 +1,5 @@
 *.pyc
-secrets.py
+apiSecrets.py
 results/
 profiles/
 __pycache__/

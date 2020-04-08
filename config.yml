@@ -14,3 +14,7 @@ sims:
       - raid.simc
       - dungeons.simc
       - other.simc
+compositeWeights: weightsCastleNathria
+singleTargetWeights: weightsSingle
+simcBuild: nightly
+defaultIterations: 10000
