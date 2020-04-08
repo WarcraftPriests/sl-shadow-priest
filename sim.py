@@ -1,11 +1,11 @@
 import argparse
 import yaml
 import apiSecrets
-from weights import find_weights
 import subprocess
 import sys
 import platform
-
+from weights import find_weights
+from api import raidbots
 from os import listdir
 
 # Check if Mac or PC
@@ -14,13 +14,12 @@ if platform.system() == 'Darwin':
 else:
     pyVar = 'python'
 
-api_key = apiSecrets.apiKey
-
 with open("config.yml", "r") as ymlfile:
     config = yaml.load(ymlfile)
 
 
 def run_sims(args, iterations):
+    api_key = apiSecrets.api_key
     print("Running sims on {0} in {1}".format(config["simcBuild"], args.dir))
 
     # determine existing jsons
@@ -42,16 +41,7 @@ def run_sims(args, iterations):
             profile_location = args.dir + 'profiles/' + profile
             # prefix the profile name with the base file name
             profile_name_with_dir = "{0}{1}".format(args.dir, profile_name)
-            # TODO: should bring this into a function call instead of a subprocess
-            subprocess.call([
-                pyVar, 'api.py',
-                api_key,
-                profile_location,
-                '--simc_version', config["simcBuild"],
-                output_location,
-                profile_name_with_dir,
-                '--iterations', iterations
-            ], shell=False)
+            raidbots(api_key, profile_location, config["simcBuild"], output_location, profile_name_with_dir, iterations)
         elif weight == 0:
             print("{0} has a weight of 0. Skipping file.".format(output_name))
         else:

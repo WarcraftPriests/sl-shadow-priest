@@ -1,129 +1,145 @@
-# USAGE:
-# python3 api.py API_KEY test.simc
-# file is saved to [simId].json
-
-from __future__ import print_function
-
-import time
-import sys
-import argparse
 import json
-import urllib.request
-import urllib.parse
-from urllib.error import URLError
+import requests
+import time
+import yaml
+
+with open("config.yml", "r") as ymlfile:
+    config = yaml.load(ymlfile)
 
 
-def eprint(*args, **kwargs):
-    print(*args, file=sys.stderr, **kwargs)
-
-
-parser = argparse.ArgumentParser()
-parser.add_argument("api_key")
-parser.add_argument("input_file")
-parser.add_argument("--simc_version", default="nightly")
-parser.add_argument("output_file")
-parser.add_argument("report_name")
-parser.add_argument("--iterations", default="smart")
-args = parser.parse_args()
-
-HOST = 'https://www.raidbots.com'
-
-SIM_SUBMIT_URL = "%s/sim" % HOST
-
-simc_file = open(args.input_file, 'r')
-simc_input = simc_file.read()
-
-num_of_retries = 2
-time_interval = 20
-
-reportName = args.input_file[:8] + args.output_file[16:-5]
-
-if args.iterations == "smart":
-    iterations = "smart"
-else:
-    iterations = int(args.iterations)
-
-data = {
-    'apiKey': args.api_key,
-    'type': 'advanced',
-    'advancedInput': simc_input,
-    'simcVersion': args.simc_version,
-    'reportName': args.report_name,
-    'iterations': iterations,
-}
-body = json.dumps(data).encode('utf8')
-
-res = None
-try:
-    eprint("Submitting " + args.report_name)
-    req = urllib.request.Request(
-        SIM_SUBMIT_URL,
-        data=body,
-        headers={
-            'content-type': 'application/json',
-            'User-Agent': 'Publik\'s Raidbots API Script'
-        }
-    )
-    res = urllib.request.urlopen(req)
-except urllib.error.URLError as e:
-    print(e.reason)
-    sys.exit(1)
-
-sim = json.loads(res.read().decode('utf8'))
-simId = sim['simId']
-
-eprint('simId is %s' % simId)
-
-while True:
-    req = urllib.request.Request(
-        "%s/api/job/%s" % (HOST, simId),
-        headers={
-            'content-type': 'application/json',
-            'User-Agent': 'Publik\'s Raidbots API Script'
-        }
-    )
-    for _ in range(num_of_retries):
-        try:
-            res = urllib.request.urlopen(req)
-            break
-        except urllib.error.URLError as e:
-            print(e.reason)
-            time.sleep(time_interval)
-    else:
-        raise Exception
-    sim_status = json.loads(res.read().decode('utf8'))
-    progress = sim_status['job']['progress']
-    state = sim_status['job']['state']
-    if state == "complete":
-        eprint('Done')
-        break
-    if state == "inactive":
-        eprint('In Queue')
-    if state == "active":
-        eprint('Progress: %s' % progress)
-
-    time.sleep(time_interval)
-
-eprint('Retrieving result')
-
-req = urllib.request.Request(
-    "%s/reports/%s/data.json" % (HOST, simId),
-    headers={
+def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name, iterations):
+    if iterations != "smart":
+        iterations = int(iterations)
+    simc_file = open(profile_location, 'r')
+    simc_input = simc_file.read()
+    headers = {
+        'Content-Type': 'application/json',
         'User-Agent': 'Publik\'s Raidbots API Script'
     }
-)
-res = urllib.request.urlopen(req)
-sim_data = json.loads(res.read().decode('utf8'))
-if 'hasFullJson' in sim_data['simbot']:
-    req = urllib.request.Request(
-        "%s/reports/%s/data.full.json" % (HOST, simId),
-        headers={
-            'User-Agent': 'Publik\'s Raidbots API Script'
-        }
-    )
-    res = urllib.request.urlopen(req)
-    sim_data = json.loads(res.read().decode('utf8'))
-output_file = open(args.output_file, 'w')
-output_file.write(json.dumps(sim_data))
+    api_url = '{0}/sim'.format(api_url_base)
+    data = {
+        'apiKey': api_key,
+        'type': 'advanced',
+        'advancedInput': simc_input,
+        'simcVersion': simc_build,
+        'reportName': report_name,
+        'iterations': iterations,
+    }
+    response = requests.post(api_url, headers=headers, json=data)
 
-eprint('Result saved to %s' % args.output_file)
+    if response.status_code >= 500:
+        print('[!] [{0}] Server Error'.format(response.status_code))
+        return None
+    elif response.status_code == 429:
+        print('[!] [{0}] Too many API jobs running"'.format(response.status_code))
+        return None
+    elif response.status_code == 404:
+        print('[!] [{0}] URL not found: [{1}]'.format(response.status_code, api_url))
+        return None
+    elif response.status_code == 401:
+        print('[!] [{0}] Authentication Failed'.format(response.status_code))
+        return None
+    elif response.status_code >= 400:
+        print('[!] [{0}] Bad Request'.format(response.status_code))
+        print(data)
+        print(response.content)
+        return None
+    elif response.status_code == 200:
+        sim = json.loads(response.content)
+        return sim
+    else:
+        print('[?] Unexpected Error: [HTTP {0}]: Content: {1}'.format(response.status_code, response.content))
+        return None
+
+
+def poll_status(api_url_base, sim_id):
+    headers = {
+        'Content-Type': 'application/json',
+        'User-Agent': 'Publik\'s Raidbots API Script'
+    }
+    api_url = '{0}/api/job/{1}'.format(api_url_base, sim_id)
+    num_of_retries = int(config["raidbots"]["numOfRetries"])
+    retry_interval = int(config["raidbots"]["retryInterval"])
+    current_try = 0
+    while True:
+        response = requests.get(api_url, headers=headers)
+        if response.status_code >= 500:
+            current_try += 1
+            print('[!] [{0}] Server Error'.format(response.status_code))
+            time.sleep(retry_interval)
+            if current_try >= num_of_retries:
+                print("Exceeded retries - exiting")
+                break
+        elif response.status_code == 404:
+            print('[!] [{0}] URL not found: [{1}]'.format(response.status_code, api_url))
+            break
+        elif response.status_code == 200:
+            sim_status = json.loads(response.content)
+            progress = sim_status['job']['progress']
+            state = sim_status['job']['state']
+            if state == "complete":
+                print("Sim {0} finished.".format(sim_id))
+                break
+            elif state == "inactive":
+                print("Sim {0} in queue.".format(sim_id))
+                time.sleep(retry_interval)
+            elif state == "active":
+                print("Sim {0} progress: {1}".format(sim_id, progress))
+                time.sleep(retry_interval)
+            else:
+                current_try += 1
+                print("Unknown state: {0} when getting {1}. - Retry {2}".format(state, sim_id, current_try))
+                if current_try >= num_of_retries:
+                    print("Exceeded retries - exiting")
+                    break
+        else:
+            print('[?] Unexpected Error: [HTTP {0}]: Content: {1}'.format(response.status_code, response.content))
+            return None
+
+
+def retrieve_data(api_url_base, sim_id, data_file):
+    headers = {
+        'Content-Type': 'application/json',
+        'User-Agent': 'Publik\'s Raidbots API Script'
+    }
+    api_url = '{0}/reports/{1}/{2}'.format(api_url_base, sim_id, data_file)
+
+    response = requests.get(api_url, headers=headers)
+
+    if response.status_code >= 500:
+        print('[!] [{0}] Server Error'.format(response.status_code))
+        return None
+    elif response.status_code == 404:
+        print('[!] [{0}] URL not found: [{1}]'.format(response.status_code, api_url))
+        return None
+    elif response.status_code == 200:
+        sim_data = json.loads(response.content)
+        return sim_data
+    else:
+        print('[?] Unexpected Error: [HTTP {0}]: Content: {1}'.format(response.status_code, response.content))
+        return None
+
+
+def raidbots(api_key, profile_location, simc_build, output_location, report_name, iterations):
+    api_url_base = config["raidbots"]["apiUrlBase"]
+
+    # submit initial sim -> get back sim_id
+    sim = submit_sim(api_url_base, api_key, profile_location, simc_build, report_name, iterations)
+    if sim is not None:
+        sim_id = sim['simId']
+        # wait for the sim to finish
+        poll_status(api_url_base, sim_id)
+    else:
+        print("Could not find simId in successful response from Raidbots")
+        return None
+    # pull back results from the sim
+    sim_data = retrieve_data(api_url_base, sim_id, 'data.json')
+    if sim_data is not None:
+        # raidbots uses hasFullJson to indicate that there is another file with more info
+        if 'hasFullJson' in sim_data['simbot']:
+            sim_data = retrieve_data(api_url_base, sim_id, 'data.full.json')
+        output_file = open(output_location, 'w')
+        output_file.write(json.dumps(sim_data))
+        print("Saved results to {0}".format(output_location))
+    else:
+        print("Error getting data from Raidbots")
