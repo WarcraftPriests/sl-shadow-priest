@@ -8,10 +8,16 @@ builds:
 sims:
   racials:
     builds: true
+    steps:
+      - DPS
+      - bob
     files:
       - racials.simc
   trinkets:
     builds: true
+    steps:
+      - 415
+      - 420
     files:
       - raid.simc
       - dungeons.simc
@@ -30,3 +36,7 @@ raidbots:
   apiUrlBase: https://www.raidbots.com
   numOfRetries: 2
   retryInterval: 20
+analyze:
+  markdown: true
+  csv: true
+  json: true

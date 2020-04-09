@@ -1,13 +1,14 @@
 import argparse
 import yaml
 import apiSecrets
-import subprocess
 import sys
 import platform
 from os import listdir
 from internal.weights import find_weights
 from internal.api import raidbots
 from internal.sim_parser import parse_json
+from internal.sim_parser import get_timestamp
+from internal.analyze import analyze
 
 # Check if Mac or PC
 if platform.system() == 'Darwin':
@@ -58,20 +59,8 @@ def convert_to_csv(args, weights):
     parse_json(results_dir, weights)
 
 
-def analyze(args):
-    if args.dungeons:
-        script = "analyzeDS.py"
-    else:
-        script = "analyze.py"
-
-    cmd = "{0} {1} {2}".format(pyVar, script, args.dir)
-
-    if args.weights:
-        cmd += " --weights"
-    if args.talents:
-        cmd += " --talents {0}".format(args.talents)
-    # TODO: should bring this into a function call instead of a subprocess
-    subprocess.call(cmd, shell=True)
+def analyze_data(args):
+    analyze(args.talents, args.dir, args.dungeons, args.weights, get_timestamp())
 
 
 def main():
@@ -96,7 +85,7 @@ def main():
 
     run_sims(args, iterations)
     convert_to_csv(args, weights)
-    # analyze(args)
+    analyze_data(args)
 
 
 if __name__ == "__main__":

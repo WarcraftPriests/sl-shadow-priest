@@ -25,3 +25,5 @@ main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=475
 
 # Raid File
+profileset."Vigilants_Bloodshaper_415"+=trinket1=vigilants_bloodshaper,id=160651,ilevel=415
+profileset."Vigilants_Bloodshaper_420"+=trinket1=vigilants_bloodshaper,id=160651,ilevel=420

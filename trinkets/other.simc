@@ -25,3 +25,5 @@ main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=475
 
 # Other File
+profileset."Whirlwings_Plumage_415"+=trinket1=whirlwings_plumage,id=158215,ilevel=415
+profileset."Whirlwings_Plumage_420"+=trinket1=whirlwings_plumage,id=158215,ilevel=420

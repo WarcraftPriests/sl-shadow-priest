@@ -56,3 +56,13 @@ def parse_json(directory, weights):
             parses += parse(filename, weights)
     with open("statweights.csv", "w") as ofile:
         print(parses, file=ofile)
+
+
+def get_timestamp():
+    for filename in os.listdir(os.getcwd()):
+        if filename.endswith('.json'):
+            with open(filename, "r") as f:
+                s = f.read()
+                sim = json.loads(s)
+                timestamp = sim['timestamp']
+                return timestamp

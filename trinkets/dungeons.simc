@@ -25,3 +25,5 @@ main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=475
 
 # Dungeons File
+profileset."Vessel_of_Skittering_Shadows_415"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=415
+profileset."Vessel_of_Skittering_Shadows_420"+=trinket1=vessel_of_skittering_shadows,id=159610,ilevel=420
