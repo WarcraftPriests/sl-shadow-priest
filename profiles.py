@@ -11,7 +11,8 @@ fightExpressions = {
     "1": 'desired_targets="1"',
     "2": 'desired_targets="2"',
     "dungeons": 'fight_style="DungeonSlice"',
-    "ptr": 'ptr=1\n'
+    "ptr": 'ptr=1\n',
+    "weights": 'calculate_scale_factors="1"\nscale_only="intellect,crit,mastery,vers,haste"'
 }
 
 
@@ -32,12 +33,14 @@ def clear_out_folders(path):
             print(e)
 
 
-def build_settings(talent_string, profile_name):
+def build_settings(talent_string, profile_name, weights):
     settings_string = '\n'
     settings_string += "talents={0}\n".format(talent_string)
     for expression in fightExpressions:
         if expression in profile_name:
             settings_string += fightExpressions[expression] + "\n"
+    if weights:
+        settings_string += fightExpressions['weights']
     return settings_string
 
 
@@ -46,6 +49,7 @@ with open("config.yml", "r") as ymlfile:
 
 parser = argparse.ArgumentParser(description='Generates sim profiles.')
 parser.add_argument('dir', help='Directory to generate profiles for.')
+parser.add_argument('--weights', help='Run sims with weights', action='store_true')
 parser.add_argument('--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
 parser.add_argument('--talents', help='indicate talent build for output.', choices=config["builds"].keys())
 parser.add_argument('--ptr', help='indicate if the sim should use ptr data.', action='store_true')
@@ -78,7 +82,7 @@ if __name__ == '__main__':
             else:
                 talents = config["builds"][args.talents]["composite"]
 
-            settings = build_settings(talents, profile)
+            settings = build_settings(talents, profile, args.weights)
             simcFile = "profiles/{0}.simc".format(profile_name)
             with open(args.dir + simcFile, "w+") as file:
                 if args.ptr:

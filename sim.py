@@ -4,9 +4,10 @@ import apiSecrets
 import subprocess
 import sys
 import platform
-from weights import find_weights
-from api import raidbots
 from os import listdir
+from internal.weights import find_weights
+from internal.api import raidbots
+from internal.sim_parser import parse_json
 
 # Check if Mac or PC
 if platform.system() == 'Darwin':
@@ -28,7 +29,10 @@ def run_sims(args, iterations):
     count = 0
 
     for profile in profiles:
-        profile_name = profile[:-5]
+        # profile: racials_hm_ba_1.simc
+        start = profile.index('_') + 1
+        # trim the name to be just hm_ba_1
+        profile_name = profile[start:-5]
         count = count + 1
         if not args.dungeons:
             weight = find_weights(config["compositeWeights"]).get(profile_name)
@@ -51,8 +55,7 @@ def run_sims(args, iterations):
 def convert_to_csv(args, weights):
     # creates results/statweights.txt
     results_dir = args.dir + "results/"
-    # TODO: should bring this into a function call instead of a subprocess
-    subprocess.call([pyVar, 'simParser.py', '-c', weights, '-r', '-d', results_dir], shell=False)
+    parse_json(results_dir, weights)
 
 
 def analyze(args):
@@ -74,8 +77,7 @@ def analyze(args):
 def main():
     parser = argparse.ArgumentParser(description='Parses a list of reports from Raidbots.')
     parser.add_argument('dir', help='Directory you wish to sim.')
-    parser.add_argument('--weights', help='For sims ran with weights this flag will change how simParser is ran.',
-                        action='store_true')
+    parser.add_argument('--weights', help='Run sims with weights', action='store_true')
     parser.add_argument('--iterations', help='Pass through specific iterations to run on. Default is 10000')
     parser.add_argument('--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
     parser.add_argument('--talents', help='indicate talent build for output.', choices=config["builds"].keys())
@@ -84,9 +86,9 @@ def main():
     sys.path.insert(0, args.dir)
 
     if args.weights:
-        weights = ''
+        weights = True
     else:
-        weights = '-s'
+        weights = False
     if args.iterations:
         iterations = args.iterations
     else:
