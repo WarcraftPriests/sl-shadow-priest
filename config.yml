@@ -7,13 +7,21 @@ builds:
     dungeons: 3131311
 sims:
   racials:
+    builds: true
     files:
       - racials.simc
   trinkets:
+    builds: true
     files:
       - raid.simc
       - dungeons.simc
       - other.simc
+  talents:
+    builds: false
+    files:
+      - DA.simc
+      - LotV.simc
+      - STM.simc
 compositeWeights: weightsCastleNathria
 singleTargetWeights: weightsSingle
 simcBuild: nightly

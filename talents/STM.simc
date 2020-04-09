@@ -1,0 +1,228 @@
+priest="Base"
+level=120
+role=spell
+position=back
+spec=shadow
+
+default_actions=1
+# RAIDS: Major: Lucid, Minors: Focused Energy, Blood Soaked, Lethal Strikes
+azerite_essences=27:3:1/5:3:0/23:3:0/35:3:0
+
+head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=405/403/30/13
+neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=80
+shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=480,azerite_powers=403/405/18/13
+back=ashjrakamas_shroud_of_resolve,id=169223,bonus_id=6286
+chest=robe_of_the_fallen_keeper,id=174115,ilevel=480,azerite_powers=236/405/21/13
+wrists=voiddrenched_wristwraps,id=174122,ilevel=475
+hands=emberscale_gloves,id=174125,ilevel=475
+waist=manainfused_sash,id=174124,ilevel=475
+legs=trousers_of_peculiar_potency,id=174121,ilevel=475
+feet=psychics_subtle_slippers,id=174123,ilevel=475
+finger1=ring_of_collective_consciousness,id=174530,ilevel=475,enchant=accord_of_haste
+finger2=ring_of_cosmic_potential,id=174533,ilevel=485,enchant=accord_of_haste
+trinket1=psyche_shredder,id=174060,ilevel=475
+trinket2=forbidden_obsidian_claw,id=173944,ilevel=475
+main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
+off_hand=uhnish_vwah,id=172190,ilevel=475
+# STM
+# LI
+# AS
+# ToF
+# FotM
+profileset."FotM_ToF_AS_LI_STM"+=talents=1111113
+# SI
+profileset."SI_ToF_AS_LI_STM"+=talents=2111113
+# SWV
+profileset."SWV_ToF_AS_LI_STM"+=talents=3111113
+# Mis
+# FotM
+profileset."FotM_Mis_AS_LI_STM"+=talents=1121113
+# SI
+profileset."SI_Mis_AS_LI_STM"+=talents=2121113
+# SWV
+profileset."SWV_Mis_AS_LI_STM"+=talents=3121113
+# DV
+# FotM
+profileset."FotM_DV_AS_LI_STM"+=talents=1131113
+# SI
+profileset."SI_DV_AS_LI_STM"+=talents=2131113
+# SWV
+profileset."SWV_DV_AS_LI_STM"+=talents=3131113
+# SWD
+# ToF
+# FotM
+profileset."FotM_ToF_SWD_LI_STM"+=talents=1111213
+# SI
+profileset."SI_ToF_SWD_LI_STM"+=talents=2111213
+# SWV
+profileset."SWV_ToF_SWD_LI_STM"+=talents=3111213
+# Mis
+# FotM
+profileset."FotM_Mis_SWD_LI_STM"+=talents=1121213
+# SI
+profileset."SI_Mis_SWD_LI_STM"+=talents=2121213
+# SWV
+profileset."SWV_Mis_SWD_LI_STM"+=talents=3121213
+# DV
+# FotM
+profileset."FotM_DV_SWD_LI_STM"+=talents=1131213
+# SI
+profileset."SI_DV_SWD_LI_STM"+=talents=2131213
+# SWV
+profileset."SWV_DV_SWD_LI_STM"+=talents=3131213
+# SC
+# ToF
+# FotM
+profileset."FotM_ToF_SC_LI_STM"+=talents=1111313
+# SI
+profileset."SI_ToF_SC_LI_STM"+=talents=2111313
+# SWV
+profileset."SWV_ToF_SC_LI_STM"+=talents=3111313
+# Mis
+# FotM
+profileset."FotM_Mis_SC_LI_STM"+=talents=1121313
+# SI
+profileset."SI_Mis_SC_LI_STM"+=talents=2121313
+# SWV
+profileset."SWV_Mis_SC_LI_STM"+=talents=3121313
+# DV
+# FotM
+profileset."FotM_DV_SC_LI_STM"+=talents=1131313
+# SI
+profileset."SI_DV_SC_LI_STM"+=talents=2131313
+# SWV
+profileset."SWV_DV_SC_LI_STM"+=talents=3131313
+# MB
+# AS
+# ToF
+# FotM
+profileset."FotM_ToF_AS_MB_STM"+=talents=1111123
+# SI
+profileset."SI_ToF_AS_MB_STM"+=talents=2111123
+# SWV
+profileset."SWV_ToF_AS_MB_STM"+=talents=3111123
+# Mis
+# FotM
+profileset."FotM_Mis_AS_MB_STM"+=talents=1121123
+# SI
+profileset."SI_Mis_AS_MB_STM"+=talents=2121123
+# SWV
+profileset."SWV_Mis_AS_MB_STM"+=talents=3121123
+# DV
+# FotM
+profileset."FotM_DV_AS_MB_STM"+=talents=1131123
+# SI
+profileset."SI_DV_AS_MB_STM"+=talents=2131123
+# SWV
+profileset."SWV_DV_AS_MB_STM"+=talents=3131123
+# SWD
+# ToF
+# FotM
+profileset."FotM_ToF_SWD_MB_STM"+=talents=1111223
+# SI
+profileset."SI_ToF_SWD_MB_STM"+=talents=2111223
+# SWV
+profileset."SWV_ToF_SWD_MB_STM"+=talents=3111223
+# Mis
+# FotM
+profileset."FotM_Mis_SWD_MB_STM"+=talents=1121223
+# SI
+profileset."SI_Mis_SWD_MB_STM"+=talents=2121223
+# SWV
+profileset."SWV_Mis_SWD_MB_STM"+=talents=3121223
+# DV
+# FotM
+profileset."FotM_DV_SWD_MB_STM"+=talents=1131223
+# SI
+profileset."SI_DV_SWD_MB_STM"+=talents=2131223
+# SWV
+profileset."SWV_DV_SWD_MB_STM"+=talents=3131223
+# SC
+# ToF
+# FotM
+profileset."FotM_ToF_SC_MB_STM"+=talents=1111323
+# SI
+profileset."SI_ToF_SC_MB_STM"+=talents=2111323
+# SWV
+profileset."SWV_ToF_SC_MB_STM"+=talents=3111323
+# Mis
+# FotM
+profileset."FotM_Mis_SC_MB_STM"+=talents=1121323
+# SI
+profileset."SI_Mis_SC_MB_STM"+=talents=2121323
+# SWV
+profileset."SWV_Mis_SC_MB_STM"+=talents=3121323
+# DV
+# FotM
+profileset."FotM_DV_SC_MB_STM"+=talents=1131323
+# SI
+profileset."SI_DV_SC_MB_STM"+=talents=2131323
+# SWV
+profileset."SWV_DV_SC_MB_STM"+=talents=3131323
+# VT
+# AS
+# ToF
+# FotM
+profileset."FotM_ToF_AS_VT_STM"+=talents=1111133
+# SI
+profileset."SI_ToF_AS_VT_STM"+=talents=2111133
+# SWV
+profileset."SWV_ToF_AS_VT_STM"+=talents=3111133
+# Mis
+# FotM
+profileset."FotM_Mis_AS_VT_STM"+=talents=1121133
+# SI
+profileset."SI_Mis_AS_VT_STM"+=talents=2121133
+# SWV
+profileset."SWV_Mis_AS_VT_STM"+=talents=3121133
+# DV
+# FotM
+profileset."FotM_DV_AS_VT_STM"+=talents=1131133
+# SI
+profileset."SI_DV_AS_VT_STM"+=talents=2131133
+# SWV
+profileset."SWV_DV_AS_VT_STM"+=talents=3131133
+# SWD
+# ToF
+# FotM
+profileset."FotM_ToF_SWD_VT_STM"+=talents=1111233
+# SI
+profileset."SI_ToF_SWD_VT_STM"+=talents=2111233
+# SWV
+profileset."SWV_ToF_SWD_VT_STM"+=talents=3111233
+# Mis
+# FotM
+profileset."FotM_Mis_SWD_VT_STM"+=talents=1121233
+# SI
+profileset."SI_Mis_SWD_VT_STM"+=talents=2121233
+# SWV
+profileset."SWV_Mis_SWD_VT_STM"+=talents=3121233
+# DV
+# FotM
+profileset."FotM_DV_SWD_VT_STM"+=talents=1131233
+# SI
+profileset."SI_DV_SWD_VT_STM"+=talents=2131233
+# SWV
+profileset."SWV_DV_SWD_VT_STM"+=talents=3131233
+# SC
+# ToF
+# FotM
+profileset."FotM_ToF_SC_VT_STM"+=talents=1111333
+# SI
+profileset."SI_ToF_SC_VT_STM"+=talents=2111333
+# SWV
+profileset."SWV_ToF_SC_VT_STM"+=talents=3111333
+# Mis
+# FotM
+profileset."FotM_Mis_SC_VT_STM"+=talents=1121333
+# SI
+profileset."SI_Mis_SC_VT_STM"+=talents=2121333
+# SWV
+profileset."SWV_Mis_SC_VT_STM"+=talents=3121333
+# DV
+# FotM
+profileset."FotM_DV_SC_VT_STM"+=talents=1131333
+# SI
+profileset."SI_DV_SC_VT_STM"+=talents=2131333
+# SWV
+profileset."SWV_DV_SC_VT_STM"+=talents=3131333
