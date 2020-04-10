@@ -5,6 +5,7 @@ import yaml
 with open("config.yml", "r") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
+
 fightExpressions = {
     "pw": 'fight_style="Patchwerk"',
     "lm": 'fight_style="LightMovement"',
@@ -62,7 +63,7 @@ if __name__ == '__main__':
         print("ERROR: Must provide talents for {0}/ sims.".format(args.dir[:-1]))
         exit()
 
-    clear_out_folders('%sresults/' % args.dir)
+    clear_out_folders('%soutput/' % args.dir)
     clear_out_folders('%sprofiles/' % args.dir)
 
     # build combination list e.g. pw_sa_1

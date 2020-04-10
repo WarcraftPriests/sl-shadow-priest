@@ -12,8 +12,16 @@ with open("config.yml", "r") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 
+def assure_path_exists(path):
+    dir_name = os.path.dirname(path)
+    if not os.path.exists(dir_name):
+        os.makedirs(dir_name)
+
+
 def build_output_string(sim_type, talent_string, file_type):
-    return "Results_{0}{1}.{2}".format(sim_type, talent_string, file_type)
+    output_dir = "results/"
+    assure_path_exists(output_dir)
+    return "{0}Results_{1}{2}.{3}".format(output_dir, sim_type, talent_string, file_type)
 
 
 def get_change(current, previous):
@@ -190,7 +198,7 @@ def build_json(sim_type, talent_string, results, directory, timestamp):
 
 def analyze(talents, directory, dungeons, weights, timestamp):
     os.chdir("..")
-    csv = "results/statweights.csv".format(directory)
+    csv = "output/statweights.csv".format(directory)
     if weights:
         data = pandas.read_csv(csv,
                                usecols=['profile', 'actor', 'DD', 'DPS', 'int', 'haste', 'crit', 'mastery', 'vers'])

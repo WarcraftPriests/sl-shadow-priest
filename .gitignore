@@ -1,7 +1,7 @@
 *.pyc
 apiSecrets.py
 api_secrets.py
-results/
+output/
 profiles/
 __pycache__/
 .idea/

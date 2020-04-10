@@ -3,6 +3,7 @@ import yaml
 import api_secrets
 import sys
 import platform
+
 from os import listdir
 from internal.weights import find_weights
 from internal.api import raidbots
@@ -25,7 +26,7 @@ def run_sims(args, iterations):
     print("Running sims on {0} in {1}".format(config["simcBuild"], args.dir))
 
     # determine existing jsons
-    existing = listdir(args.dir + 'results/')
+    existing = listdir(args.dir + 'output/')
     profiles = listdir(args.dir + 'profiles/')
     count = 0
 
@@ -42,7 +43,7 @@ def run_sims(args, iterations):
         print("Simming {0} out of {1}.".format(count, len(profiles)))
         output_name = profile.replace('simc', 'json')
         if output_name not in existing and weight > 0:
-            output_location = args.dir + 'results/' + output_name
+            output_location = args.dir + 'output/' + output_name
             profile_location = args.dir + 'profiles/' + profile
             # prefix the profile name with the base file name
             profile_name_with_dir = "{0}{1}".format(args.dir, profile_name)
@@ -55,7 +56,7 @@ def run_sims(args, iterations):
 
 def convert_to_csv(args, weights):
     # creates results/statweights.txt
-    results_dir = args.dir + "results/"
+    results_dir = args.dir + "output/"
     parse_json(results_dir, weights)
 
 

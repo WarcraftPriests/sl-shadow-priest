@@ -2,7 +2,6 @@ import os
 import json
 from os import path
 
-
 def parse(filename, weights):
     separator = ','
     ret = ''
