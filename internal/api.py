@@ -4,7 +4,7 @@ import time
 import yaml
 
 with open("config.yml", "r") as ymlfile:
-    config = yaml.load(ymlfile)
+    config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 
 def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name, iterations):

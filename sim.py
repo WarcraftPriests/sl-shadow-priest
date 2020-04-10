@@ -1,6 +1,6 @@
 import argparse
 import yaml
-import apiSecrets
+import api_secrets
 import sys
 import platform
 from os import listdir
@@ -17,11 +17,11 @@ else:
     pyVar = 'python'
 
 with open("config.yml", "r") as ymlfile:
-    config = yaml.load(ymlfile)
+    config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 
 def run_sims(args, iterations):
-    api_key = apiSecrets.api_key
+    api_key = api_secrets.api_key
     print("Running sims on {0} in {1}".format(config["simcBuild"], args.dir))
 
     # determine existing jsons

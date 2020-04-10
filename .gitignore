@@ -1,5 +1,6 @@
 *.pyc
 apiSecrets.py
+api_secrets.py
 results/
 profiles/
 __pycache__/
@@ -136,4 +137,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-

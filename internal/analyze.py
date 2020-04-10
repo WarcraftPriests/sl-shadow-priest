@@ -6,9 +6,10 @@ import json
 import time
 
 from internal.weights import find_weights
+from internal.spell_ids import find_ids
 
 with open("config.yml", "r") as ymlfile:
-    config = yaml.load(ymlfile)
+    config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 
 def build_output_string(sim_type, talent_string, file_type):
@@ -110,12 +111,39 @@ def build_csv(sim_type, talent_string, results, weights, base_dps):
                 results_csv.write("%s,%s,%.0f,%.2f%%,\n" % (sim_type, key, value, get_change(value, base_dps)))
 
 
+def lookup_id(name, directory):
+    type = config["sims"][directory[:-1]]["lookupType"]
+    if type == "spell":
+        return lookup_spell_id(name, directory)
+    elif type == "item":
+        return lookup_item_id(name, directory)
+    else:
+        return None
+
+def lookup_spell_id(spell_name, directory):
+    ids = find_ids(directory[:-1])
+    if ids:
+        return ids[spell_name]
+    else:
+        return None
+
+def lookup_item_id(item_name, directory):
+    # get the list of sim files from config
+    # loop over them and search for the item name line by line
+    for sim_file in config["sims"][directory[:-1]]["files"]:
+        with open(sim_file, 'r') as file:
+            for line in file:
+                if item_name in line:
+                    # find ,id= -> take 2nd half ->
+                    # find , -> take 1st half
+                    return int(line.split(',id=')[1].split(',')[0])
+
 def build_json(sim_type, talent_string, results, directory, timestamp):
     output_file = build_output_string(sim_type, talent_string, "json")
     human_date = time.strftime('%Y-%m-%d', time.localtime(timestamp))
     chart_data = {
         "data": {},
-        "item_ids": {},
+        "ids": {},
         "simulated_steps": [],
         "sorted_data_keys": [],
         "last_updated": human_date
@@ -145,6 +173,7 @@ def build_json(sim_type, talent_string, results, directory, timestamp):
             if unique_key not in unique_profiles and unique_key != "Base" and unique_key != "":
                 unique_profiles.append(unique_key)
                 chart_data["sorted_data_keys"].append(unique_key)
+                chart_data["ids"][unique_key] = lookup_id(unique_key, directory)
         for profile in unique_profiles:
             chart_data["data"][profile] = {}
             for step in steps:

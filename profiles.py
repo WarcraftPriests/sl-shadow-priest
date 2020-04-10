@@ -3,7 +3,7 @@ import argparse
 import yaml
 
 with open("config.yml", "r") as ymlfile:
-    config = yaml.load(ymlfile)
+    config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 fightExpressions = {
     "pw": 'fight_style="Patchwerk"',

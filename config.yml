@@ -8,13 +8,14 @@ builds:
 sims:
   racials:
     builds: true
+    lookupType: spell
     steps:
       - DPS
-      - bob
     files:
       - racials.simc
   trinkets:
     builds: true
+    lookupType: item
     steps:
       - 415
       - 420
@@ -24,6 +25,7 @@ sims:
       - other.simc
   talents:
     builds: false
+    lookupType: spell
     files:
       - DA.simc
       - LotV.simc

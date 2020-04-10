@@ -1,10 +1,10 @@
 # Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Whirlwings_Plumage_420|61920|4.90%|
-|Whirlwings_Plumage_415|61849|4.78%|
-|Vigilants_Bloodshaper_420|61619|4.39%|
-|Vessel_of_Skittering_Shadows_420|61537|4.25%|
-|Vigilants_Bloodshaper_415|61441|4.09%|
-|Vessel_of_Skittering_Shadows_415|61372|3.97%|
-|Base|59027|0.00%|
+|Whirlwings_Plumage_420|61924|4.91%|
+|Whirlwings_Plumage_415|61856|4.80%|
+|Vigilants_Bloodshaper_420|61600|4.37%|
+|Vessel_of_Skittering_Shadows_420|61522|4.23%|
+|Vigilants_Bloodshaper_415|61446|4.11%|
+|Vessel_of_Skittering_Shadows_415|61374|3.98%|
+|Base|59023|0.00%|
