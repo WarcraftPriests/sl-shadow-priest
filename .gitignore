@@ -1,15 +1,14 @@
 *.pyc
-apiSecrets.py
 api_secrets.py
 output/
 profiles/
 __pycache__/
 .idea/
+*.DS_Store
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
 # Byte-compiled / optimized / DLL files
-__pycache__/
 *.py[cod]
 *$py.class
 
