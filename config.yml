@@ -6,6 +6,27 @@ builds:
     composite: 3111311
     dungeons: 3131311
 sims:
+  apl:
+    builds: false
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - apl.simc
+  consumables:
+    builds: true
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - consumables.simc
+  enchants:
+    builds: true
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - enchants.simc
   racials:
     builds: true
     lookupType: spell
@@ -13,6 +34,15 @@ sims:
       - DPS
     files:
       - racials.simc
+  talents:
+    builds: false
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - DA.simc
+      - LotV.simc
+      - STM.simc
   trinkets:
     builds: true
     lookupType: item
@@ -23,13 +53,6 @@ sims:
       - raid.simc
       - dungeons.simc
       - other.simc
-  talents:
-    builds: false
-    lookupType: spell
-    files:
-      - DA.simc
-      - LotV.simc
-      - STM.simc
 compositeWeights: weightsCastleNathria
 singleTargetWeights: weightsSingle
 simcBuild: nightly

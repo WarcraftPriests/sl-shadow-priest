@@ -167,7 +167,7 @@ def build_json(sim_type, talent_string, results, directory, timestamp):
         chart_data["simulated_steps"] = ["DPS"]
         for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             chart_data["data"][key] = {
-                "DPS": value
+                "DPS": int(round(value, 0))
             }
             if key != "Base":
                 chart_data["sorted_data_keys"].append(key)
