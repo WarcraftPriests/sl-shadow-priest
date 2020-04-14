@@ -5,14 +5,12 @@ position=back
 spec=shadow
 
 default_actions=1
-# RAIDS: Major: Lucid, Minors: Focused Energy, Blood Soaked, Lethal Strikes
-azerite_essences=27:3:1/5:3:0/23:3:0/35:3:0
 
-head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=405/403/30/13
-neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=80
-shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=480,azerite_powers=403/405/18/13
+head=cowl_of_unspeakable_horrors,id=174116,ilevel=480
+neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600
+shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=480
 back=ashjrakamas_shroud_of_resolve,id=169223,bonus_id=6286
-chest=robe_of_the_fallen_keeper,id=174115,ilevel=480,azerite_powers=236/405/21/13
+chest=robe_of_the_fallen_keeper,id=174115,ilevel=480
 wrists=voiddrenched_wristwraps,id=174122,ilevel=475
 hands=emberscale_gloves,id=174125,ilevel=475
 waist=manainfused_sash,id=174124,ilevel=475
@@ -48,28 +46,28 @@ profileset."FotM_DV_AS_LI_LotV"+=talents=1131111
 profileset."SI_DV_AS_LI_LotV"+=talents=2131111
 # SWV
 profileset."SWV_DV_AS_LI_LotV"+=talents=3131111
-# SWD
+# DAM
 # ToF
 # FotM
-profileset."FotM_ToF_SWD_LI_LotV"+=talents=1111211
+profileset."FotM_ToF_DAM_LI_LotV"+=talents=1111211
 # SI
-profileset."SI_ToF_SWD_LI_LotV"+=talents=2111211
+profileset."SI_ToF_DAM_LI_LotV"+=talents=2111211
 # SWV
-profileset."SWV_ToF_SWD_LI_LotV"+=talents=3111211
+profileset."SWV_ToF_DAM_LI_LotV"+=talents=3111211
 # Mis
 # FotM
-profileset."FotM_Mis_SWD_LI_LotV"+=talents=1121211
+profileset."FotM_Mis_DAM_LI_LotV"+=talents=1121211
 # SI
-profileset."SI_Mis_SWD_LI_LotV"+=talents=2121211
+profileset."SI_Mis_DAM_LI_LotV"+=talents=2121211
 # SWV
-profileset."SWV_Mis_SWD_LI_LotV"+=talents=3121211
+profileset."SWV_Mis_DAM_LI_LotV"+=talents=3121211
 # DV
 # FotM
-profileset."FotM_DV_SWD_LI_LotV"+=talents=1131211
+profileset."FotM_DV_DAM_LI_LotV"+=talents=1131211
 # SI
-profileset."SI_DV_SWD_LI_LotV"+=talents=2131211
+profileset."SI_DV_DAM_LI_LotV"+=talents=2131211
 # SWV
-profileset."SWV_DV_SWD_LI_LotV"+=talents=3131211
+profileset."SWV_DV_DAM_LI_LotV"+=talents=3131211
 # SC
 # ToF
 # FotM
@@ -115,28 +113,28 @@ profileset."FotM_DV_AS_MB_LotV"+=talents=1131121
 profileset."SI_DV_AS_MB_LotV"+=talents=2131121
 # SWV
 profileset."SWV_DV_AS_MB_LotV"+=talents=3131121
-# SWD
+# DAM
 # ToF
 # FotM
-profileset."FotM_ToF_SWD_MB_LotV"+=talents=1111221
+profileset."FotM_ToF_DAM_MB_LotV"+=talents=1111221
 # SI
-profileset."SI_ToF_SWD_MB_LotV"+=talents=2111221
+profileset."SI_ToF_DAM_MB_LotV"+=talents=2111221
 # SWV
-profileset."SWV_ToF_SWD_MB_LotV"+=talents=3111221
+profileset."SWV_ToF_DAM_MB_LotV"+=talents=3111221
 # Mis
 # FotM
-profileset."FotM_Mis_SWD_MB_LotV"+=talents=1121221
+profileset."FotM_Mis_DAM_MB_LotV"+=talents=1121221
 # SI
-profileset."SI_Mis_SWD_MB_LotV"+=talents=2121221
+profileset."SI_Mis_DAM_MB_LotV"+=talents=2121221
 # SWV
-profileset."SWV_Mis_SWD_MB_LotV"+=talents=3121221
+profileset."SWV_Mis_DAM_MB_LotV"+=talents=3121221
 # DV
 # FotM
-profileset."FotM_DV_SWD_MB_LotV"+=talents=1131221
+profileset."FotM_DV_DAM_MB_LotV"+=talents=1131221
 # SI
-profileset."SI_DV_SWD_MB_LotV"+=talents=2131221
+profileset."SI_DV_DAM_MB_LotV"+=talents=2131221
 # SWV
-profileset."SWV_DV_SWD_MB_LotV"+=talents=3131221
+profileset."SWV_DV_DAM_MB_LotV"+=talents=3131221
 # SC
 # ToF
 # FotM
@@ -182,28 +180,28 @@ profileset."FotM_DV_AS_VT_LotV"+=talents=1131131
 profileset."SI_DV_AS_VT_LotV"+=talents=2131131
 # SWV
 profileset."SWV_DV_AS_VT_LotV"+=talents=3131131
-# SWD
+# DAM
 # ToF
 # FotM
-profileset."FotM_ToF_SWD_VT_LotV"+=talents=1111231
+profileset."FotM_ToF_DAM_VT_LotV"+=talents=1111231
 # SI
-profileset."SI_ToF_SWD_VT_LotV"+=talents=2111231
+profileset."SI_ToF_DAM_VT_LotV"+=talents=2111231
 # SWV
-profileset."SWV_ToF_SWD_VT_LotV"+=talents=3111231
+profileset."SWV_ToF_DAM_VT_LotV"+=talents=3111231
 # Mis
 # FotM
-profileset."FotM_Mis_SWD_VT_LotV"+=talents=1121231
+profileset."FotM_Mis_DAM_VT_LotV"+=talents=1121231
 # SI
-profileset."SI_Mis_SWD_VT_LotV"+=talents=2121231
+profileset."SI_Mis_DAM_VT_LotV"+=talents=2121231
 # SWV
-profileset."SWV_Mis_SWD_VT_LotV"+=talents=3121231
+profileset."SWV_Mis_DAM_VT_LotV"+=talents=3121231
 # DV
 # FotM
-profileset."FotM_DV_SWD_VT_LotV"+=talents=1131231
+profileset."FotM_DV_DAM_VT_LotV"+=talents=1131231
 # SI
-profileset."SI_DV_SWD_VT_LotV"+=talents=2131231
+profileset."SI_DV_DAM_VT_LotV"+=talents=2131231
 # SWV
-profileset."SWV_DV_SWD_VT_LotV"+=talents=3131231
+profileset."SWV_DV_DAM_VT_LotV"+=talents=3131231
 # SC
 # ToF
 # FotM

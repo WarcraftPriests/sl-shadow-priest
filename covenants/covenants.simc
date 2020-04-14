@@ -18,9 +18,12 @@ legs=trousers_of_peculiar_potency,id=174121,ilevel=475
 feet=psychics_subtle_slippers,id=174123,ilevel=475
 finger1=ring_of_collective_consciousness,id=174530,ilevel=475,enchant=accord_of_haste
 finger2=ring_of_cosmic_potential,id=174533,ilevel=485,enchant=accord_of_haste
+trinket1=psyche_shredder,id=174060,ilevel=475
+trinket2=forbidden_obsidian_claw,id=173944,ilevel=475
 main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=475
 
-# Raid File
-profileset."Vigilants_Bloodshaper_415"+=trinket1=vigilants_bloodshaper,id=160651,ilevel=415
-profileset."Vigilants_Bloodshaper_420"+=trinket1=vigilants_bloodshaper,id=160651,ilevel=420
+# Kyrian
+# Necrolords
+# Night Fae
+# Venthyr
