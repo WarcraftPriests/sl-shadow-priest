@@ -120,13 +120,14 @@ def build_csv(sim_type, talent_string, results, weights, base_dps):
 
 
 def lookup_id(name, directory):
-    type = config["sims"][directory[:-1]]["lookupType"]
-    if type == "spell":
+    lookup_type = config["sims"][directory[:-1]]["lookupType"]
+    if lookup_type == "spell":
         return lookup_spell_id(name, directory)
-    elif type == "item":
+    elif lookup_type == "item":
         return lookup_item_id(name, directory)
     else:
         return None
+
 
 def lookup_spell_id(spell_name, directory):
     ids = find_ids(directory[:-1])
@@ -134,6 +135,7 @@ def lookup_spell_id(spell_name, directory):
         return ids[spell_name]
     else:
         return None
+
 
 def lookup_item_id(item_name, directory):
     # get the list of sim files from config
@@ -145,6 +147,7 @@ def lookup_item_id(item_name, directory):
                     # find ,id= -> take 2nd half ->
                     # find , -> take 1st half
                     return int(line.split(',id=')[1].split(',')[0])
+
 
 def build_json(sim_type, talent_string, results, directory, timestamp):
     output_file = build_output_string(sim_type, talent_string, "json")
@@ -171,6 +174,7 @@ def build_json(sim_type, talent_string, results, directory, timestamp):
             }
             if key != "Base":
                 chart_data["sorted_data_keys"].append(key)
+                chart_data["ids"][key] = lookup_id(key, directory)
     else:
         unique_profiles = []
         chart_data["simulated_steps"] = steps

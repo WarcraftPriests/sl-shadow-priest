@@ -20,6 +20,13 @@ sims:
       - DPS
     files:
       - consumables.simc
+  covenants:
+    builds: true
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - covenants.simc
   enchants:
     builds: true
     lookupType: spell
@@ -34,6 +41,13 @@ sims:
       - DPS
     files:
       - racials.simc
+  soulbinds:
+    builds: true
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - necrolord.simc
   talents:
     builds: false
     lookupType: spell

@@ -1,9 +1,13 @@
 # Racial Results
 
 ## Raids
-- [SWV_ToF_AS_LI_LotV](Results_AS.md)
-- [SWV_ToF_SC_LI_LotV](Results_SC.md)
+- [Composite - AS](results/Results_Composite_as.md)
+- [Composite - SC](results/Results_Composite_sc.md)
+
+## Single Target
+- [Single - AS](results/Results_Single_as.md)
+- [Single - SC](results/Results_Single_sc.md)
 
 ## Dungeons
-- [SWV_DV_AS_LI_LotV](Results_Dungeons_AS.md)
-- [SWV_DV_SC_LI_LotV](Results_Dungeons_SC.md)
+- [Dungeons - AS](results/Results_Dungeons_as.md)
+- [Dungeons - SC](results/Results_Dungeons_sc.md)
