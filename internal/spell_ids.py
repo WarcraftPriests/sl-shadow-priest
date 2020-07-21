@@ -6,6 +6,10 @@ enchants = {
     "Ring_Accord_of_Haste": 297989
 }
 
+legendaries = {
+    "Ring_Mindbender": 336143
+}
+
 
 def find_ids(key):
     if key == 'racials':

@@ -34,6 +34,13 @@ sims:
       - DPS
     files:
       - enchants.simc
+  legendaries:
+    builds: true
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - legendaries.simc
   racials:
     builds: true
     lookupType: spell
