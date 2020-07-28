@@ -1,5 +1,5 @@
 priest="Base"
-level=120
+level=60
 role=spell
 position=back
 talents=3111111
@@ -114,22 +114,22 @@ actions.single+=/vampiric_touch,if=refreshable&target.time_to_die>6|(talent.mise
 actions.single+=/mind_flay,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&(cooldown.void_bolt.up|cooldown.mind_blast.up)
 actions.single+=/shadow_word_pain
 
-head=cowl_of_unspeakable_horrors,id=174116,ilevel=480,azerite_powers=405/403/30/13
+head=cowl_of_unspeakable_horrors,id=174116,ilevel=135,azerite_powers=405/403/30/13
 neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600,azerite_level=80
-shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=485,azerite_powers=403/405/18/13
+shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=140,azerite_powers=403/405/18/13
 back=ashjrakamas_shroud_of_resolve,id=169223,bonus_id=6286
-chest=robe_of_the_fallen_keeper,id=174115,ilevel=480,azerite_powers=236/405/21/13
-wrists=voiddrenched_wristwraps,id=174122,ilevel=475
-hands=emberscale_gloves,id=174125,ilevel=475
-waist=binding_of_dark_heresies,id=174126,ilevel=475
-legs=trousers_of_peculiar_potency,id=174121,ilevel=475
-feet=hyperthread_boots,id=168964,ilevel=475
-finger1=ring_of_collective_consciousness,id=174530,ilevel=475,enchant=accord_of_haste
-finger2=peerless_leviathans_eye_loop,id=171075,ilevel=470,gem_id=168641,bonus_id=1760,enchant=accord_of_haste
-trinket1=psyche_shredder,id=174060,ilevel=475
-trinket2=forbidden_obsidian_claw,id=173944,ilevel=475
-main_hand=vorzz_yoqal,id=172196,ilevel=475,enchant=quick_navigation
-off_hand=uhnish_vwah,id=172190,ilevel=475
+chest=robe_of_the_fallen_keeper,id=174115,ilevel=135,azerite_powers=236/405/21/13
+wrists=voiddrenched_wristwraps,id=174122,ilevel=130
+hands=emberscale_gloves,id=174125,ilevel=130
+waist=binding_of_dark_heresies,id=174126,ilevel=130
+legs=trousers_of_peculiar_potency,id=174121,ilevel=130
+feet=hyperthread_boots,id=168964,ilevel=130
+finger1=ring_of_collective_consciousness,id=174530,ilevel=130,enchant=accord_of_haste
+finger2=peerless_leviathans_eye_loop,id=171075,ilevel=125,gem_id=168641,bonus_id=1760,enchant=accord_of_haste
+trinket1=psyche_shredder,id=174060,ilevel=130
+trinket2=forbidden_obsidian_claw,id=173944,ilevel=130
+main_hand=vorzz_yoqal,id=172196,ilevel=130,enchant=quick_navigation
+off_hand=uhnish_vwah,id=172190,ilevel=130
 
 single_actor_batch=1
 optimal_raid=1
