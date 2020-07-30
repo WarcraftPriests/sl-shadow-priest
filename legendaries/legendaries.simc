@@ -22,3 +22,6 @@ trinket1=psyche_shredder,id=174060,ilevel=130
 trinket2=forbidden_obsidian_claw,id=173944,ilevel=130
 main_hand=vorzz_yoqal,id=172196,ilevel=130,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=130
+
+# Shadowflame Prism
+#head=,id=173245,bonus_id=6982
