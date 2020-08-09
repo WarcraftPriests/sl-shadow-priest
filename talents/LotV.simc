@@ -1,226 +1,226 @@
 priest="Base"
 level=60
 role=spell
-position=back
+poDaMtion=back
 spec=shadow
 
 default_actions=1
 
 head=cowl_of_unspeakable_horrors,id=174116,ilevel=135
 neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600
-shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=135
+shoulder=spaulders_of_miasmic_myceDMa,id=174117,ilevel=135
 back=ashjrakamas_shroud_of_resolve,id=169223,bonus_id=6286
 chest=robe_of_the_fallen_keeper,id=174115,ilevel=135
 wrists=voiddrenched_wristwraps,id=174122,ilevel=130
 hands=emberscale_gloves,id=174125,ilevel=130
 waist=manainfused_sash,id=174124,ilevel=130
-legs=trousers_of_peculiar_potency,id=174121,ilevel=130
-feet=psychics_subtle_slippers,id=174123,ilevel=130
+legs=trousers_of_pecuDMar_potency,id=174121,ilevel=130
+feet=psychics_subtle_sDMppers,id=174123,ilevel=130
 finger1=ring_of_collective_consciousness,id=174530,ilevel=130,enchant=accord_of_haste
 finger2=ring_of_cosmic_potential,id=174533,ilevel=140,enchant=accord_of_haste
 trinket1=psyche_shredder,id=174060,ilevel=130
-trinket2=forbidden_obsidian_claw,id=173944,ilevel=130
+trinket2=forbidden_obDaMdian_claw,id=173944,ilevel=130
 main_hand=vorzz_yoqal,id=172196,ilevel=130,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=130
-# LotV
-# LI
+# DA
+# DM
 # AS
 # ToF
 # FotM
-profileset."FotM_ToF_AS_LI_LotV"+=talents=1111111
-# SI
-profileset."SI_ToF_AS_LI_LotV"+=talents=2111111
-# SWV
-profileset."SWV_ToF_AS_LI_LotV"+=talents=3111111
+profileset."FotM_ToF_AS_DM_LotV"+=talents=1111112
+# DaM
+profileset."DaM_ToF_AS_DM_LotV"+=talents=2111112
+# UD
+profileset."UD_ToF_AS_DM_LotV"+=talents=3111112
 # Mis
 # FotM
-profileset."FotM_Mis_AS_LI_LotV"+=talents=1121111
-# SI
-profileset."SI_Mis_AS_LI_LotV"+=talents=2121111
-# SWV
-profileset."SWV_Mis_AS_LI_LotV"+=talents=3121111
-# DV
+profileset."FotM_Mis_AS_DM_LotV"+=talents=1121112
+# DaM
+profileset."DaM_Mis_AS_DM_LotV"+=talents=2121112
+# UD
+profileset."UD_Mis_AS_DM_LotV"+=talents=3121112
+# SN
 # FotM
-profileset."FotM_DV_AS_LI_LotV"+=talents=1131111
-# SI
-profileset."SI_DV_AS_LI_LotV"+=talents=2131111
-# SWV
-profileset."SWV_DV_AS_LI_LotV"+=talents=3131111
-# DAM
+profileset."FotM_SN_AS_DM_LotV"+=talents=1131112
+# DaM
+profileset."DaM_SN_AS_DM_LotV"+=talents=2131112
+# UD
+profileset."UD_SN_AS_DM_LotV"+=talents=3131112
+# PL
 # ToF
 # FotM
-profileset."FotM_ToF_DAM_LI_LotV"+=talents=1111211
-# SI
-profileset."SI_ToF_DAM_LI_LotV"+=talents=2111211
-# SWV
-profileset."SWV_ToF_DAM_LI_LotV"+=talents=3111211
+profileset."FotM_ToF_PL_DM_LotV"+=talents=1111212
+# DaM
+profileset."DaM_ToF_PL_DM_LotV"+=talents=2111212
+# UD
+profileset."UD_ToF_PL_DM_LotV"+=talents=3111212
 # Mis
 # FotM
-profileset."FotM_Mis_DAM_LI_LotV"+=talents=1121211
-# SI
-profileset."SI_Mis_DAM_LI_LotV"+=talents=2121211
-# SWV
-profileset."SWV_Mis_DAM_LI_LotV"+=talents=3121211
-# DV
+profileset."FotM_Mis_PL_DM_LotV"+=talents=1121212
+# DaM
+profileset."DaM_Mis_PL_DM_LotV"+=talents=2121212
+# UD
+profileset."UD_Mis_PL_DM_LotV"+=talents=3121212
+# SN
 # FotM
-profileset."FotM_DV_DAM_LI_LotV"+=talents=1131211
-# SI
-profileset."SI_DV_DAM_LI_LotV"+=talents=2131211
-# SWV
-profileset."SWV_DV_DAM_LI_LotV"+=talents=3131211
+profileset."FotM_SN_PL_DM_LotV"+=talents=1131212
+# DaM
+profileset."DaM_SN_PL_DM_LotV"+=talents=2131212
+# UD
+profileset."UD_SN_PL_DM_LotV"+=talents=3131212
 # SC
 # ToF
 # FotM
-profileset."FotM_ToF_SC_LI_LotV"+=talents=1111311
-# SI
-profileset."SI_ToF_SC_LI_LotV"+=talents=2111311
-# SWV
-profileset."SWV_ToF_SC_LI_LotV"+=talents=3111311
+profileset."FotM_ToF_SC_DM_LotV"+=talents=1111312
+# DaM
+profileset."DaM_ToF_SC_DM_LotV"+=talents=2111312
+# UD
+profileset."UD_ToF_SC_DM_LotV"+=talents=3111312
 # Mis
 # FotM
-profileset."FotM_Mis_SC_LI_LotV"+=talents=1121311
-# SI
-profileset."SI_Mis_SC_LI_LotV"+=talents=2121311
-# SWV
-profileset."SWV_Mis_SC_LI_LotV"+=talents=3121311
-# DV
+profileset."FotM_Mis_SC_DM_LotV"+=talents=1121312
+# DaM
+profileset."DaM_Mis_SC_DM_LotV"+=talents=2121312
+# UD
+profileset."UD_Mis_SC_DM_LotV"+=talents=3121312
+# SN
 # FotM
-profileset."FotM_DV_SC_LI_LotV"+=talents=1131311
-# SI
-profileset."SI_DV_SC_LI_LotV"+=talents=2131311
-# SWV
-profileset."SWV_DV_SC_LI_LotV"+=talents=3131311
+profileset."FotM_SN_SC_DM_LotV"+=talents=1131312
+# DaM
+profileset."DaM_SN_SC_DM_LotV"+=talents=2131312
+# UD
+profileset."UD_SN_SC_DM_LotV"+=talents=3131312
 # MB
 # AS
 # ToF
 # FotM
-profileset."FotM_ToF_AS_MB_LotV"+=talents=1111121
-# SI
-profileset."SI_ToF_AS_MB_LotV"+=talents=2111121
-# SWV
-profileset."SWV_ToF_AS_MB_LotV"+=talents=3111121
+profileset."FotM_ToF_AS_MB_LotV"+=talents=1111122
+# DaM
+profileset."DaM_ToF_AS_MB_LotV"+=talents=2111122
+# UD
+profileset."UD_ToF_AS_MB_LotV"+=talents=3111122
 # Mis
 # FotM
-profileset."FotM_Mis_AS_MB_LotV"+=talents=1121121
-# SI
-profileset."SI_Mis_AS_MB_LotV"+=talents=2121121
-# SWV
-profileset."SWV_Mis_AS_MB_LotV"+=talents=3121121
-# DV
+profileset."FotM_Mis_AS_MB_LotV"+=talents=1121122
+# DaM
+profileset."DaM_Mis_AS_MB_LotV"+=talents=2121122
+# UD
+profileset."UD_Mis_AS_MB_LotV"+=talents=3121122
+# SN
 # FotM
-profileset."FotM_DV_AS_MB_LotV"+=talents=1131121
-# SI
-profileset."SI_DV_AS_MB_LotV"+=talents=2131121
-# SWV
-profileset."SWV_DV_AS_MB_LotV"+=talents=3131121
-# DAM
+profileset."FotM_SN_AS_MB_LotV"+=talents=1131122
+# DaM
+profileset."DaM_SN_AS_MB_LotV"+=talents=2131122
+# UD
+profileset."UD_SN_AS_MB_LotV"+=talents=3131122
+# PL
 # ToF
 # FotM
-profileset."FotM_ToF_DAM_MB_LotV"+=talents=1111221
-# SI
-profileset."SI_ToF_DAM_MB_LotV"+=talents=2111221
-# SWV
-profileset."SWV_ToF_DAM_MB_LotV"+=talents=3111221
+profileset."FotM_ToF_PL_MB_LotV"+=talents=1111222
+# DaM
+profileset."DaM_ToF_PL_MB_LotV"+=talents=2111222
+# UD
+profileset."UD_ToF_PL_MB_LotV"+=talents=3111222
 # Mis
 # FotM
-profileset."FotM_Mis_DAM_MB_LotV"+=talents=1121221
-# SI
-profileset."SI_Mis_DAM_MB_LotV"+=talents=2121221
-# SWV
-profileset."SWV_Mis_DAM_MB_LotV"+=talents=3121221
-# DV
+profileset."FotM_Mis_PL_MB_LotV"+=talents=1121222
+# DaM
+profileset."DaM_Mis_PL_MB_LotV"+=talents=2121222
+# UD
+profileset."UD_Mis_PL_MB_LotV"+=talents=3121222
+# SN
 # FotM
-profileset."FotM_DV_DAM_MB_LotV"+=talents=1131221
-# SI
-profileset."SI_DV_DAM_MB_LotV"+=talents=2131221
-# SWV
-profileset."SWV_DV_DAM_MB_LotV"+=talents=3131221
+profileset."FotM_SN_PL_MB_LotV"+=talents=1131222
+# DaM
+profileset."DaM_SN_PL_MB_LotV"+=talents=2131222
+# UD
+profileset."UD_SN_PL_MB_LotV"+=talents=3131222
 # SC
 # ToF
 # FotM
-profileset."FotM_ToF_SC_MB_LotV"+=talents=1111321
-# SI
-profileset."SI_ToF_SC_MB_LotV"+=talents=2111321
-# SWV
-profileset."SWV_ToF_SC_MB_LotV"+=talents=3111321
+profileset."FotM_ToF_SC_MB_LotV"+=talents=1111322
+# DaM
+profileset."DaM_ToF_SC_MB_LotV"+=talents=2111322
+# UD
+profileset."UD_ToF_SC_MB_LotV"+=talents=3111322
 # Mis
 # FotM
-profileset."FotM_Mis_SC_MB_LotV"+=talents=1121321
-# SI
-profileset."SI_Mis_SC_MB_LotV"+=talents=2121321
-# SWV
-profileset."SWV_Mis_SC_MB_LotV"+=talents=3121321
-# DV
+profileset."FotM_Mis_SC_MB_LotV"+=talents=1121322
+# DaM
+profileset."DaM_Mis_SC_MB_LotV"+=talents=2121322
+# UD
+profileset."UD_Mis_SC_MB_LotV"+=talents=3121322
+# SN
 # FotM
-profileset."FotM_DV_SC_MB_LotV"+=talents=1131321
-# SI
-profileset."SI_DV_SC_MB_LotV"+=talents=2131321
-# SWV
-profileset."SWV_DV_SC_MB_LotV"+=talents=3131321
+profileset."FotM_SN_SC_MB_LotV"+=talents=1131322
+# DaM
+profileset."DaM_SN_SC_MB_LotV"+=talents=2131322
+# UD
+profileset."UD_SN_SC_MB_LotV"+=talents=3131322
 # VT
 # AS
 # ToF
 # FotM
-profileset."FotM_ToF_AS_VT_LotV"+=talents=1111131
-# SI
-profileset."SI_ToF_AS_VT_LotV"+=talents=2111131
-# SWV
-profileset."SWV_ToF_AS_VT_LotV"+=talents=3111131
+profileset."FotM_ToF_AS_VT_LotV"+=talents=1111132
+# DaM
+profileset."DaM_ToF_AS_VT_LotV"+=talents=2111132
+# UD
+profileset."UD_ToF_AS_VT_LotV"+=talents=3111132
 # Mis
 # FotM
-profileset."FotM_Mis_AS_VT_LotV"+=talents=1121131
-# SI
-profileset."SI_Mis_AS_VT_LotV"+=talents=2121131
-# SWV
-profileset."SWV_Mis_AS_VT_LotV"+=talents=3121131
-# DV
+profileset."FotM_Mis_AS_VT_LotV"+=talents=1121132
+# DaM
+profileset."DaM_Mis_AS_VT_LotV"+=talents=2121132
+# UD
+profileset."UD_Mis_AS_VT_LotV"+=talents=3121132
+# SN
 # FotM
-profileset."FotM_DV_AS_VT_LotV"+=talents=1131131
-# SI
-profileset."SI_DV_AS_VT_LotV"+=talents=2131131
-# SWV
-profileset."SWV_DV_AS_VT_LotV"+=talents=3131131
-# DAM
+profileset."FotM_SN_AS_VT_LotV"+=talents=1131132
+# DaM
+profileset."DaM_SN_AS_VT_LotV"+=talents=2131132
+# UD
+profileset."UD_SN_AS_VT_LotV"+=talents=3131132
+# PL
 # ToF
 # FotM
-profileset."FotM_ToF_DAM_VT_LotV"+=talents=1111231
-# SI
-profileset."SI_ToF_DAM_VT_LotV"+=talents=2111231
-# SWV
-profileset."SWV_ToF_DAM_VT_LotV"+=talents=3111231
+profileset."FotM_ToF_PL_VT_LotV"+=talents=1111232
+# DaM
+profileset."DaM_ToF_PL_VT_LotV"+=talents=2111232
+# UD
+profileset."UD_ToF_PL_VT_LotV"+=talents=3111232
 # Mis
 # FotM
-profileset."FotM_Mis_DAM_VT_LotV"+=talents=1121231
-# SI
-profileset."SI_Mis_DAM_VT_LotV"+=talents=2121231
-# SWV
-profileset."SWV_Mis_DAM_VT_LotV"+=talents=3121231
-# DV
+profileset."FotM_Mis_PL_VT_LotV"+=talents=1121232
+# DaM
+profileset."DaM_Mis_PL_VT_LotV"+=talents=2121232
+# UD
+profileset."UD_Mis_PL_VT_LotV"+=talents=3121232
+# SN
 # FotM
-profileset."FotM_DV_DAM_VT_LotV"+=talents=1131231
-# SI
-profileset."SI_DV_DAM_VT_LotV"+=talents=2131231
-# SWV
-profileset."SWV_DV_DAM_VT_LotV"+=talents=3131231
+profileset."FotM_SN_PL_VT_LotV"+=talents=1131232
+# DaM
+profileset."DaM_SN_PL_VT_LotV"+=talents=2131232
+# UD
+profileset."UD_SN_PL_VT_LotV"+=talents=3131232
 # SC
 # ToF
 # FotM
-profileset."FotM_ToF_SC_VT_LotV"+=talents=1111331
-# SI
-profileset."SI_ToF_SC_VT_LotV"+=talents=2111331
-# SWV
-profileset."SWV_ToF_SC_VT_LotV"+=talents=3111331
+profileset."FotM_ToF_SC_VT_LotV"+=talents=1111332
+# DaM
+profileset."DaM_ToF_SC_VT_LotV"+=talents=2111332
+# UD
+profileset."UD_ToF_SC_VT_LotV"+=talents=3111332
 # Mis
 # FotM
-profileset."FotM_Mis_SC_VT_LotV"+=talents=1121331
-# SI
-profileset."SI_Mis_SC_VT_LotV"+=talents=2121331
-# SWV
-profileset."SWV_Mis_SC_VT_LotV"+=talents=3121331
-# DV
+profileset."FotM_Mis_SC_VT_LotV"+=talents=1121332
+# DaM
+profileset."DaM_Mis_SC_VT_LotV"+=talents=2121332
+# UD
+profileset."UD_Mis_SC_VT_LotV"+=talents=3121332
+# SN
 # FotM
-profileset."FotM_DV_SC_VT_LotV"+=talents=1131331
-# SI
-profileset."SI_DV_SC_VT_LotV"+=talents=2131331
-# SWV
-profileset."SWV_DV_SC_VT_LotV"+=talents=3131331
+profileset."FotM_SN_SC_VT_LotV"+=talents=1131332
+# DaM
+profileset."DaM_SN_SC_VT_LotV"+=talents=2131332
+# UD
+profileset."UD_SN_SC_VT_LotV"+=talents=3131332

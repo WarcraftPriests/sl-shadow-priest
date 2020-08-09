@@ -61,7 +61,7 @@ sims:
     steps:
       - DPS
     files:
-      - DA.simc
+      - AM.simc
       - LotV.simc
       - STM.simc
   trinkets:

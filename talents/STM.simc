@@ -1,226 +1,226 @@
 priest="Base"
 level=60
 role=spell
-position=back
+poDaMtion=back
 spec=shadow
 
 default_actions=1
 
 head=cowl_of_unspeakable_horrors,id=174116,ilevel=135
 neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600
-shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=135
+shoulder=spaulders_of_miasmic_myceDMa,id=174117,ilevel=135
 back=ashjrakamas_shroud_of_resolve,id=169223,bonus_id=6286
 chest=robe_of_the_fallen_keeper,id=174115,ilevel=135
 wrists=voiddrenched_wristwraps,id=174122,ilevel=130
 hands=emberscale_gloves,id=174125,ilevel=130
 waist=manainfused_sash,id=174124,ilevel=130
-legs=trousers_of_peculiar_potency,id=174121,ilevel=130
-feet=psychics_subtle_slippers,id=174123,ilevel=130
+legs=trousers_of_pecuDMar_potency,id=174121,ilevel=130
+feet=psychics_subtle_sDMppers,id=174123,ilevel=130
 finger1=ring_of_collective_consciousness,id=174530,ilevel=130,enchant=accord_of_haste
 finger2=ring_of_cosmic_potential,id=174533,ilevel=140,enchant=accord_of_haste
 trinket1=psyche_shredder,id=174060,ilevel=130
-trinket2=forbidden_obsidian_claw,id=173944,ilevel=130
+trinket2=forbidden_obDaMdian_claw,id=173944,ilevel=130
 main_hand=vorzz_yoqal,id=172196,ilevel=130,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=130
 # STM
-# LI
+# DM
 # AS
 # ToF
 # FotM
-profileset."FotM_ToF_AS_LI_STM"+=talents=1111113
-# SI
-profileset."SI_ToF_AS_LI_STM"+=talents=2111113
-# SWV
-profileset."SWV_ToF_AS_LI_STM"+=talents=3111113
+profileset."FotM_ToF_AS_DM_STM"+=talents=1111113
+# DaM
+profileset."DaM_ToF_AS_DM_STM"+=talents=2111113
+# UD
+profileset."UD_ToF_AS_DM_STM"+=talents=3111113
 # Mis
 # FotM
-profileset."FotM_Mis_AS_LI_STM"+=talents=1121113
-# SI
-profileset."SI_Mis_AS_LI_STM"+=talents=2121113
-# SWV
-profileset."SWV_Mis_AS_LI_STM"+=talents=3121113
-# DV
+profileset."FotM_Mis_AS_DM_STM"+=talents=1121113
+# DaM
+profileset."DaM_Mis_AS_DM_STM"+=talents=2121113
+# UD
+profileset."UD_Mis_AS_DM_STM"+=talents=3121113
+# SN
 # FotM
-profileset."FotM_DV_AS_LI_STM"+=talents=1131113
-# SI
-profileset."SI_DV_AS_LI_STM"+=talents=2131113
-# SWV
-profileset."SWV_DV_AS_LI_STM"+=talents=3131113
-# DAM
+profileset."FotM_SN_AS_DM_STM"+=talents=1131113
+# DaM
+profileset."DaM_SN_AS_DM_STM"+=talents=2131113
+# UD
+profileset."UD_SN_AS_DM_STM"+=talents=3131113
+# PL
 # ToF
 # FotM
-profileset."FotM_ToF_DAM_LI_STM"+=talents=1111213
-# SI
-profileset."SI_ToF_DAM_LI_STM"+=talents=2111213
-# SWV
-profileset."SWV_ToF_DAM_LI_STM"+=talents=3111213
+profileset."FotM_ToF_PL_DM_STM"+=talents=1111213
+# DaM
+profileset."DaM_ToF_PL_DM_STM"+=talents=2111213
+# UD
+profileset."UD_ToF_PL_DM_STM"+=talents=3111213
 # Mis
 # FotM
-profileset."FotM_Mis_DAM_LI_STM"+=talents=1121213
-# SI
-profileset."SI_Mis_DAM_LI_STM"+=talents=2121213
-# SWV
-profileset."SWV_Mis_DAM_LI_STM"+=talents=3121213
-# DV
+profileset."FotM_Mis_PL_DM_STM"+=talents=1121213
+# DaM
+profileset."DaM_Mis_PL_DM_STM"+=talents=2121213
+# UD
+profileset."UD_Mis_PL_DM_STM"+=talents=3121213
+# SN
 # FotM
-profileset."FotM_DV_DAM_LI_STM"+=talents=1131213
-# SI
-profileset."SI_DV_DAM_LI_STM"+=talents=2131213
-# SWV
-profileset."SWV_DV_DAM_LI_STM"+=talents=3131213
+profileset."FotM_SN_PL_DM_STM"+=talents=1131213
+# DaM
+profileset."DaM_SN_PL_DM_STM"+=talents=2131213
+# UD
+profileset."UD_SN_PL_DM_STM"+=talents=3131213
 # SC
 # ToF
 # FotM
-profileset."FotM_ToF_SC_LI_STM"+=talents=1111313
-# SI
-profileset."SI_ToF_SC_LI_STM"+=talents=2111313
-# SWV
-profileset."SWV_ToF_SC_LI_STM"+=talents=3111313
+profileset."FotM_ToF_SC_DM_STM"+=talents=1111313
+# DaM
+profileset."DaM_ToF_SC_DM_STM"+=talents=2111313
+# UD
+profileset."UD_ToF_SC_DM_STM"+=talents=3111313
 # Mis
 # FotM
-profileset."FotM_Mis_SC_LI_STM"+=talents=1121313
-# SI
-profileset."SI_Mis_SC_LI_STM"+=talents=2121313
-# SWV
-profileset."SWV_Mis_SC_LI_STM"+=talents=3121313
-# DV
+profileset."FotM_Mis_SC_DM_STM"+=talents=1121313
+# DaM
+profileset."DaM_Mis_SC_DM_STM"+=talents=2121313
+# UD
+profileset."UD_Mis_SC_DM_STM"+=talents=3121313
+# SN
 # FotM
-profileset."FotM_DV_SC_LI_STM"+=talents=1131313
-# SI
-profileset."SI_DV_SC_LI_STM"+=talents=2131313
-# SWV
-profileset."SWV_DV_SC_LI_STM"+=talents=3131313
+profileset."FotM_SN_SC_DM_STM"+=talents=1131313
+# DaM
+profileset."DaM_SN_SC_DM_STM"+=talents=2131313
+# UD
+profileset."UD_SN_SC_DM_STM"+=talents=3131313
 # MB
 # AS
 # ToF
 # FotM
 profileset."FotM_ToF_AS_MB_STM"+=talents=1111123
-# SI
-profileset."SI_ToF_AS_MB_STM"+=talents=2111123
-# SWV
-profileset."SWV_ToF_AS_MB_STM"+=talents=3111123
+# DaM
+profileset."DaM_ToF_AS_MB_STM"+=talents=2111123
+# UD
+profileset."UD_ToF_AS_MB_STM"+=talents=3111123
 # Mis
 # FotM
 profileset."FotM_Mis_AS_MB_STM"+=talents=1121123
-# SI
-profileset."SI_Mis_AS_MB_STM"+=talents=2121123
-# SWV
-profileset."SWV_Mis_AS_MB_STM"+=talents=3121123
-# DV
+# DaM
+profileset."DaM_Mis_AS_MB_STM"+=talents=2121123
+# UD
+profileset."UD_Mis_AS_MB_STM"+=talents=3121123
+# SN
 # FotM
-profileset."FotM_DV_AS_MB_STM"+=talents=1131123
-# SI
-profileset."SI_DV_AS_MB_STM"+=talents=2131123
-# SWV
-profileset."SWV_DV_AS_MB_STM"+=talents=3131123
-# DAM
+profileset."FotM_SN_AS_MB_STM"+=talents=1131123
+# DaM
+profileset."DaM_SN_AS_MB_STM"+=talents=2131123
+# UD
+profileset."UD_SN_AS_MB_STM"+=talents=3131123
+# PL
 # ToF
 # FotM
-profileset."FotM_ToF_DAM_MB_STM"+=talents=1111223
-# SI
-profileset."SI_ToF_DAM_MB_STM"+=talents=2111223
-# SWV
-profileset."SWV_ToF_DAM_MB_STM"+=talents=3111223
+profileset."FotM_ToF_PL_MB_STM"+=talents=1111223
+# DaM
+profileset."DaM_ToF_PL_MB_STM"+=talents=2111223
+# UD
+profileset."UD_ToF_PL_MB_STM"+=talents=3111223
 # Mis
 # FotM
-profileset."FotM_Mis_DAM_MB_STM"+=talents=1121223
-# SI
-profileset."SI_Mis_DAM_MB_STM"+=talents=2121223
-# SWV
-profileset."SWV_Mis_DAM_MB_STM"+=talents=3121223
-# DV
+profileset."FotM_Mis_PL_MB_STM"+=talents=1121223
+# DaM
+profileset."DaM_Mis_PL_MB_STM"+=talents=2121223
+# UD
+profileset."UD_Mis_PL_MB_STM"+=talents=3121223
+# SN
 # FotM
-profileset."FotM_DV_DAM_MB_STM"+=talents=1131223
-# SI
-profileset."SI_DV_DAM_MB_STM"+=talents=2131223
-# SWV
-profileset."SWV_DV_DAM_MB_STM"+=talents=3131223
+profileset."FotM_SN_PL_MB_STM"+=talents=1131223
+# DaM
+profileset."DaM_SN_PL_MB_STM"+=talents=2131223
+# UD
+profileset."UD_SN_PL_MB_STM"+=talents=3131223
 # SC
 # ToF
 # FotM
 profileset."FotM_ToF_SC_MB_STM"+=talents=1111323
-# SI
-profileset."SI_ToF_SC_MB_STM"+=talents=2111323
-# SWV
-profileset."SWV_ToF_SC_MB_STM"+=talents=3111323
+# DaM
+profileset."DaM_ToF_SC_MB_STM"+=talents=2111323
+# UD
+profileset."UD_ToF_SC_MB_STM"+=talents=3111323
 # Mis
 # FotM
 profileset."FotM_Mis_SC_MB_STM"+=talents=1121323
-# SI
-profileset."SI_Mis_SC_MB_STM"+=talents=2121323
-# SWV
-profileset."SWV_Mis_SC_MB_STM"+=talents=3121323
-# DV
+# DaM
+profileset."DaM_Mis_SC_MB_STM"+=talents=2121323
+# UD
+profileset."UD_Mis_SC_MB_STM"+=talents=3121323
+# SN
 # FotM
-profileset."FotM_DV_SC_MB_STM"+=talents=1131323
-# SI
-profileset."SI_DV_SC_MB_STM"+=talents=2131323
-# SWV
-profileset."SWV_DV_SC_MB_STM"+=talents=3131323
+profileset."FotM_SN_SC_MB_STM"+=talents=1131323
+# DaM
+profileset."DaM_SN_SC_MB_STM"+=talents=2131323
+# UD
+profileset."UD_SN_SC_MB_STM"+=talents=3131323
 # VT
 # AS
 # ToF
 # FotM
 profileset."FotM_ToF_AS_VT_STM"+=talents=1111133
-# SI
-profileset."SI_ToF_AS_VT_STM"+=talents=2111133
-# SWV
-profileset."SWV_ToF_AS_VT_STM"+=talents=3111133
+# DaM
+profileset."DaM_ToF_AS_VT_STM"+=talents=2111133
+# UD
+profileset."UD_ToF_AS_VT_STM"+=talents=3111133
 # Mis
 # FotM
 profileset."FotM_Mis_AS_VT_STM"+=talents=1121133
-# SI
-profileset."SI_Mis_AS_VT_STM"+=talents=2121133
-# SWV
-profileset."SWV_Mis_AS_VT_STM"+=talents=3121133
-# DV
+# DaM
+profileset."DaM_Mis_AS_VT_STM"+=talents=2121133
+# UD
+profileset."UD_Mis_AS_VT_STM"+=talents=3121133
+# SN
 # FotM
-profileset."FotM_DV_AS_VT_STM"+=talents=1131133
-# SI
-profileset."SI_DV_AS_VT_STM"+=talents=2131133
-# SWV
-profileset."SWV_DV_AS_VT_STM"+=talents=3131133
-# DAM
+profileset."FotM_SN_AS_VT_STM"+=talents=1131133
+# DaM
+profileset."DaM_SN_AS_VT_STM"+=talents=2131133
+# UD
+profileset."UD_SN_AS_VT_STM"+=talents=3131133
+# PL
 # ToF
 # FotM
-profileset."FotM_ToF_DAM_VT_STM"+=talents=1111233
-# SI
-profileset."SI_ToF_DAM_VT_STM"+=talents=2111233
-# SWV
-profileset."SWV_ToF_DAM_VT_STM"+=talents=3111233
+profileset."FotM_ToF_PL_VT_STM"+=talents=1111233
+# DaM
+profileset."DaM_ToF_PL_VT_STM"+=talents=2111233
+# UD
+profileset."UD_ToF_PL_VT_STM"+=talents=3111233
 # Mis
 # FotM
-profileset."FotM_Mis_DAM_VT_STM"+=talents=1121233
-# SI
-profileset."SI_Mis_DAM_VT_STM"+=talents=2121233
-# SWV
-profileset."SWV_Mis_DAM_VT_STM"+=talents=3121233
-# DV
+profileset."FotM_Mis_PL_VT_STM"+=talents=1121233
+# DaM
+profileset."DaM_Mis_PL_VT_STM"+=talents=2121233
+# UD
+profileset."UD_Mis_PL_VT_STM"+=talents=3121233
+# SN
 # FotM
-profileset."FotM_DV_DAM_VT_STM"+=talents=1131233
-# SI
-profileset."SI_DV_DAM_VT_STM"+=talents=2131233
-# SWV
-profileset."SWV_DV_DAM_VT_STM"+=talents=3131233
+profileset."FotM_SN_PL_VT_STM"+=talents=1131233
+# DaM
+profileset."DaM_SN_PL_VT_STM"+=talents=2131233
+# UD
+profileset."UD_SN_PL_VT_STM"+=talents=3131233
 # SC
 # ToF
 # FotM
 profileset."FotM_ToF_SC_VT_STM"+=talents=1111333
-# SI
-profileset."SI_ToF_SC_VT_STM"+=talents=2111333
-# SWV
-profileset."SWV_ToF_SC_VT_STM"+=talents=3111333
+# DaM
+profileset."DaM_ToF_SC_VT_STM"+=talents=2111333
+# UD
+profileset."UD_ToF_SC_VT_STM"+=talents=3111333
 # Mis
 # FotM
 profileset."FotM_Mis_SC_VT_STM"+=talents=1121333
-# SI
-profileset."SI_Mis_SC_VT_STM"+=talents=2121333
-# SWV
-profileset."SWV_Mis_SC_VT_STM"+=talents=3121333
-# DV
+# DaM
+profileset."DaM_Mis_SC_VT_STM"+=talents=2121333
+# UD
+profileset."UD_Mis_SC_VT_STM"+=talents=3121333
+# SN
 # FotM
-profileset."FotM_DV_SC_VT_STM"+=talents=1131333
-# SI
-profileset."SI_DV_SC_VT_STM"+=talents=2131333
-# SWV
-profileset."SWV_DV_SC_VT_STM"+=talents=3131333
+profileset."FotM_SN_SC_VT_STM"+=talents=1131333
+# DaM
+profileset."DaM_SN_SC_VT_STM"+=talents=2131333
+# UD
+profileset."UD_SN_SC_VT_STM"+=talents=3131333

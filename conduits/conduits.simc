@@ -23,14 +23,16 @@ trinket2=forbidden_obsidian_claw,id=173944,ilevel=130
 main_hand=vorzz_yoqal,id=172196,ilevel=130,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=130
 
-copy="Venthyr","Base"
-covenant=venthyr
+# Shadow Conduits
+copy="Shimmering_Apparitions_1","Base"
+soulbind=theotar_the_mad_duke,107:1
 
-copy="Kyrian","Base"
-covenant=kyrian
+copy="Dissonant_Echoes_1","Base"
+soulbind=theotar_the_mad_duke,115:1
 
-copy="Night_Fae","Base"
-covenant=night_fae
+copy="Mind_Devourer_1","Base"
+soulbind=theotar_the_mad_duke,113:1
 
-copy="Necrolord","Base"
-covenant=necrolord
+# Covenant Ability Conduits
+copy="Courageous_Ascension_1","Base"
+soulbind=theotar_the_mad_duke,87:1
