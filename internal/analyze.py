@@ -132,7 +132,7 @@ def lookup_id(name, directory):
 def lookup_spell_id(spell_name, directory):
     ids = find_ids(directory[:-1])
     if ids:
-        return ids[spell_name]
+        return ids.get(spell_name)
     else:
         return None
 
