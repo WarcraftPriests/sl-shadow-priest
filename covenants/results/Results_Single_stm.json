@@ -1,0 +1,1 @@
+{"data": {"Kyrian": {"DPS": 2475}, "Venthyr": {"DPS": 2455}, "Necrolord": {"DPS": 2426}, "Night_Fae": {"DPS": 2411}, "Base": {"DPS": 2411}}, "ids": {"Kyrian": null, "Venthyr": null, "Necrolord": null, "Night_Fae": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Kyrian", "Venthyr", "Necrolord", "Night_Fae"], "last_updated": "2020-08-16"}

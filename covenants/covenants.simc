@@ -23,14 +23,10 @@ trinket2=forbidden_obsidian_claw,id=173944,ilevel=130
 main_hand=vorzz_yoqal,id=172196,ilevel=130,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=130
 
-copy="Venthyr","Base"
-covenant=venthyr
+profileset."Venthyr"+=covenant=venthyr
 
-copy="Kyrian","Base"
-covenant=kyrian
+profileset."Kyrian"+=covenant=kyrian
 
-copy="Night_Fae","Base"
-covenant=night_fae
+profileset."Night_Fae"+=covenant=night_fae
 
-copy="Necrolord","Base"
-covenant=necrolord
+profileset."Necrolord"+=covenant=necrolord
