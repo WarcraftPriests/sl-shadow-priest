@@ -15,10 +15,34 @@ waist=binding_of_dark_heresies,id=174126,ilevel=130
 legs=trousers_of_peculiar_potency,id=174121,ilevel=130
 feet=hyperthread_boots,id=168964,ilevel=130
 finger1=ring_of_collective_consciousness,id=174530,ilevel=130
-finger2=peerless_leviathans_eye_loop,id=171075,ilevel=125,gem_id=168641,bonus_id=1760,enchant=accord_of_haste
+finger2=peerless_leviathans_eye_loop,id=171075,ilevel=125,gem_id=168641,bonus_id=1760
 trinket1=psyche_shredder,id=174060,ilevel=130
 trinket2=forbidden_obsidian_claw,id=173944,ilevel=130
-main_hand=vorzz_yoqal,id=172196,ilevel=130,enchant=quick_navigation
+main_hand=vorzz_yoqal,id=172196,ilevel=130
 off_hand=uhnish_vwah,id=172190,ilevel=130
 
-profileset."Ring_Accord_of_Haste"+=finger1=ring_of_collective_consciousness,id=174530,ilevel=130,enchant=accord_of_haste
+# Weapons
+profileset."Weapon_Lightless_Force"+=main_hand=vorzz_yoqal,id=172196,ilevel=130,enchant=lightless_force
+profileset."Weapon_Sinful_Revelation"+=main_hand=vorzz_yoqal,id=172196,ilevel=130,enchant=sinful_revelation
+profileset."Weapon_Celestial_Guidance"+=main_hand=vorzz_yoqal,id=172196,ilevel=130,enchant=celestial_guidance
+
+# Bracers
+profileset."Wrists_Illuminated_Soul"+=wrists=voiddrenched_wristwraps,id=174122,ilevel=130,enchant=illuminated_soul
+profileset."Wrists_Eternal_Intellect"+=wrists=voiddrenched_wristwraps,id=174122,ilevel=130,enchant=eternal_intellect
+
+# Chest
+profileset."Chest_Eternal_Bounds"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=135,enchant=eternal_bounds
+profileset."Chest_Eternal_Stats"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=135,enchant=eternal_stats
+profileset."Chest_Eternal_Insight"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=135,enchant=eternal_insight
+profileset."Chest_Sacred_Stats"+=chest=robe_of_the_fallen_keeper,id=174115,ilevel=135,enchant=sacred_stats
+
+# Ring
+profileset."Ring_Tenet_of_Critical_Strike"+=finger1=ring_of_collective_consciousness,id=174530,ilevel=130,enchant=tenet_of_critical_strike
+profileset."Ring_Tenet_of_Versatility"+=finger1=ring_of_collective_consciousness,id=174530,ilevel=130,enchant=tenet_of_versatility
+profileset."Ring_Tenet_of_Haste"+=finger1=ring_of_collective_consciousness,id=174530,ilevel=130,enchant=tenet_of_haste
+profileset."Ring_Tenet_of_Mastery"+=finger1=ring_of_collective_consciousness,id=174530,ilevel=130,enchant=tenet_of_mastery
+
+profileset."Ring_Bargain_of_Critical_Strike"+=finger1=ring_of_collective_consciousness,id=174530,ilevel=130,enchant=bargain_of_critical_strike
+profileset."Ring_Bargain_of_Versatility"+=finger1=ring_of_collective_consciousness,id=174530,ilevel=130,enchant=bargain_of_versatility
+profileset."Ring_Bargain_of_Haste"+=finger1=ring_of_collective_consciousness,id=174530,ilevel=130,enchant=bargain_of_haste
+profileset."Ring_Bargain_of_Mastery"+=finger1=ring_of_collective_consciousness,id=174530,ilevel=130,enchant=bargain_of_mastery

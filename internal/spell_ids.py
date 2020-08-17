@@ -27,7 +27,23 @@ racials = {
 }
 
 enchants = {
-    "Ring_Accord_of_Haste": 297989
+    "Weapon_Lightless_Force": 309620,
+    "Weapon_Sinful_Revelation": 309623,
+    "Weapon_Celestial_Guidance": 309627,
+    "Wrists_Illuminated_Soul": 309608,
+    "Wrists_Eternal_Intellect": 309609,
+    "Chest_Eternal_Bounds": 323761,
+    "Chest_Eternal_Stats": 324773,
+    "Chest_Eternal_Insight": 342316,
+    "Chest_Sacred_Stats": 323762,
+    "Ring_Tenet_of_Critical_Strike": 309616,
+    "Ring_Tenet_of_Versatility": 309619,
+    "Ring_Tenet_of_Haste": 309617,
+    "Ring_Tenet_of_Mastery": 309618,
+    "Ring_Bargain_of_Critical_Strike": 309612,
+    "Ring_Bargain_of_Versatility": 309615,
+    "Ring_Bargain_of_Haste": 309613,
+    "Ring_Bargain_of_Mastery": 309614
 }
 
 legendaries = {
