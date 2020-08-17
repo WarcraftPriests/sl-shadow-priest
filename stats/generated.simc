@@ -26,828 +26,828 @@ gear_crit_rating=250
 gear_haste_rating=250
 gear_mastery_rating=250
 gear_versatility_rating=250
-profileset."M8_V0_H0_C0"+=gear_mastery_rating=650
+profileset."M8_V0_H0_C0"+=gear_mastery_rating=1050
 profileset."M8_V0_H0_C0"+=gear_versatility_rating=250
 profileset."M8_V0_H0_C0"+=gear_haste_rating=250
 profileset."M8_V0_H0_C0"+=gear_crit_rating=250
 
-profileset."M7_V1_H0_C0"+=gear_mastery_rating=600
-profileset."M7_V1_H0_C0"+=gear_versatility_rating=300
+profileset."M7_V1_H0_C0"+=gear_mastery_rating=950
+profileset."M7_V1_H0_C0"+=gear_versatility_rating=350
 profileset."M7_V1_H0_C0"+=gear_haste_rating=250
 profileset."M7_V1_H0_C0"+=gear_crit_rating=250
 
-profileset."M7_V0_H1_C0"+=gear_mastery_rating=600
+profileset."M7_V0_H1_C0"+=gear_mastery_rating=950
 profileset."M7_V0_H1_C0"+=gear_versatility_rating=250
-profileset."M7_V0_H1_C0"+=gear_haste_rating=300
+profileset."M7_V0_H1_C0"+=gear_haste_rating=350
 profileset."M7_V0_H1_C0"+=gear_crit_rating=250
 
-profileset."M7_V0_H0_C1"+=gear_mastery_rating=600
+profileset."M7_V0_H0_C1"+=gear_mastery_rating=950
 profileset."M7_V0_H0_C1"+=gear_versatility_rating=250
 profileset."M7_V0_H0_C1"+=gear_haste_rating=250
-profileset."M7_V0_H0_C1"+=gear_crit_rating=300
+profileset."M7_V0_H0_C1"+=gear_crit_rating=350
 
-profileset."M6_V2_H0_C0"+=gear_mastery_rating=550
-profileset."M6_V2_H0_C0"+=gear_versatility_rating=350
+profileset."M6_V2_H0_C0"+=gear_mastery_rating=850
+profileset."M6_V2_H0_C0"+=gear_versatility_rating=450
 profileset."M6_V2_H0_C0"+=gear_haste_rating=250
 profileset."M6_V2_H0_C0"+=gear_crit_rating=250
 
-profileset."M6_V1_H1_C0"+=gear_mastery_rating=550
-profileset."M6_V1_H1_C0"+=gear_versatility_rating=300
-profileset."M6_V1_H1_C0"+=gear_haste_rating=300
+profileset."M6_V1_H1_C0"+=gear_mastery_rating=850
+profileset."M6_V1_H1_C0"+=gear_versatility_rating=350
+profileset."M6_V1_H1_C0"+=gear_haste_rating=350
 profileset."M6_V1_H1_C0"+=gear_crit_rating=250
 
-profileset."M6_V1_H0_C1"+=gear_mastery_rating=550
-profileset."M6_V1_H0_C1"+=gear_versatility_rating=300
+profileset."M6_V1_H0_C1"+=gear_mastery_rating=850
+profileset."M6_V1_H0_C1"+=gear_versatility_rating=350
 profileset."M6_V1_H0_C1"+=gear_haste_rating=250
-profileset."M6_V1_H0_C1"+=gear_crit_rating=300
+profileset."M6_V1_H0_C1"+=gear_crit_rating=350
 
-profileset."M6_V0_H2_C0"+=gear_mastery_rating=550
+profileset."M6_V0_H2_C0"+=gear_mastery_rating=850
 profileset."M6_V0_H2_C0"+=gear_versatility_rating=250
-profileset."M6_V0_H2_C0"+=gear_haste_rating=350
+profileset."M6_V0_H2_C0"+=gear_haste_rating=450
 profileset."M6_V0_H2_C0"+=gear_crit_rating=250
 
-profileset."M6_V0_H1_C1"+=gear_mastery_rating=550
+profileset."M6_V0_H1_C1"+=gear_mastery_rating=850
 profileset."M6_V0_H1_C1"+=gear_versatility_rating=250
-profileset."M6_V0_H1_C1"+=gear_haste_rating=300
-profileset."M6_V0_H1_C1"+=gear_crit_rating=300
+profileset."M6_V0_H1_C1"+=gear_haste_rating=350
+profileset."M6_V0_H1_C1"+=gear_crit_rating=350
 
-profileset."M6_V0_H0_C2"+=gear_mastery_rating=550
+profileset."M6_V0_H0_C2"+=gear_mastery_rating=850
 profileset."M6_V0_H0_C2"+=gear_versatility_rating=250
 profileset."M6_V0_H0_C2"+=gear_haste_rating=250
-profileset."M6_V0_H0_C2"+=gear_crit_rating=350
+profileset."M6_V0_H0_C2"+=gear_crit_rating=450
 
-profileset."M5_V3_H0_C0"+=gear_mastery_rating=500
-profileset."M5_V3_H0_C0"+=gear_versatility_rating=400
+profileset."M5_V3_H0_C0"+=gear_mastery_rating=750
+profileset."M5_V3_H0_C0"+=gear_versatility_rating=550
 profileset."M5_V3_H0_C0"+=gear_haste_rating=250
 profileset."M5_V3_H0_C0"+=gear_crit_rating=250
 
-profileset."M5_V2_H1_C0"+=gear_mastery_rating=500
-profileset."M5_V2_H1_C0"+=gear_versatility_rating=350
-profileset."M5_V2_H1_C0"+=gear_haste_rating=300
+profileset."M5_V2_H1_C0"+=gear_mastery_rating=750
+profileset."M5_V2_H1_C0"+=gear_versatility_rating=450
+profileset."M5_V2_H1_C0"+=gear_haste_rating=350
 profileset."M5_V2_H1_C0"+=gear_crit_rating=250
 
-profileset."M5_V2_H0_C1"+=gear_mastery_rating=500
-profileset."M5_V2_H0_C1"+=gear_versatility_rating=350
+profileset."M5_V2_H0_C1"+=gear_mastery_rating=750
+profileset."M5_V2_H0_C1"+=gear_versatility_rating=450
 profileset."M5_V2_H0_C1"+=gear_haste_rating=250
-profileset."M5_V2_H0_C1"+=gear_crit_rating=300
+profileset."M5_V2_H0_C1"+=gear_crit_rating=350
 
-profileset."M5_V1_H2_C0"+=gear_mastery_rating=500
-profileset."M5_V1_H2_C0"+=gear_versatility_rating=300
-profileset."M5_V1_H2_C0"+=gear_haste_rating=350
+profileset."M5_V1_H2_C0"+=gear_mastery_rating=750
+profileset."M5_V1_H2_C0"+=gear_versatility_rating=350
+profileset."M5_V1_H2_C0"+=gear_haste_rating=450
 profileset."M5_V1_H2_C0"+=gear_crit_rating=250
 
-profileset."M5_V1_H1_C1"+=gear_mastery_rating=500
-profileset."M5_V1_H1_C1"+=gear_versatility_rating=300
-profileset."M5_V1_H1_C1"+=gear_haste_rating=300
-profileset."M5_V1_H1_C1"+=gear_crit_rating=300
+profileset."M5_V1_H1_C1"+=gear_mastery_rating=750
+profileset."M5_V1_H1_C1"+=gear_versatility_rating=350
+profileset."M5_V1_H1_C1"+=gear_haste_rating=350
+profileset."M5_V1_H1_C1"+=gear_crit_rating=350
 
-profileset."M5_V1_H0_C2"+=gear_mastery_rating=500
-profileset."M5_V1_H0_C2"+=gear_versatility_rating=300
+profileset."M5_V1_H0_C2"+=gear_mastery_rating=750
+profileset."M5_V1_H0_C2"+=gear_versatility_rating=350
 profileset."M5_V1_H0_C2"+=gear_haste_rating=250
-profileset."M5_V1_H0_C2"+=gear_crit_rating=350
+profileset."M5_V1_H0_C2"+=gear_crit_rating=450
 
-profileset."M5_V0_H3_C0"+=gear_mastery_rating=500
+profileset."M5_V0_H3_C0"+=gear_mastery_rating=750
 profileset."M5_V0_H3_C0"+=gear_versatility_rating=250
-profileset."M5_V0_H3_C0"+=gear_haste_rating=400
+profileset."M5_V0_H3_C0"+=gear_haste_rating=550
 profileset."M5_V0_H3_C0"+=gear_crit_rating=250
 
-profileset."M5_V0_H2_C1"+=gear_mastery_rating=500
+profileset."M5_V0_H2_C1"+=gear_mastery_rating=750
 profileset."M5_V0_H2_C1"+=gear_versatility_rating=250
-profileset."M5_V0_H2_C1"+=gear_haste_rating=350
-profileset."M5_V0_H2_C1"+=gear_crit_rating=300
+profileset."M5_V0_H2_C1"+=gear_haste_rating=450
+profileset."M5_V0_H2_C1"+=gear_crit_rating=350
 
-profileset."M5_V0_H1_C2"+=gear_mastery_rating=500
+profileset."M5_V0_H1_C2"+=gear_mastery_rating=750
 profileset."M5_V0_H1_C2"+=gear_versatility_rating=250
-profileset."M5_V0_H1_C2"+=gear_haste_rating=300
-profileset."M5_V0_H1_C2"+=gear_crit_rating=350
+profileset."M5_V0_H1_C2"+=gear_haste_rating=350
+profileset."M5_V0_H1_C2"+=gear_crit_rating=450
 
-profileset."M5_V0_H0_C3"+=gear_mastery_rating=500
+profileset."M5_V0_H0_C3"+=gear_mastery_rating=750
 profileset."M5_V0_H0_C3"+=gear_versatility_rating=250
 profileset."M5_V0_H0_C3"+=gear_haste_rating=250
-profileset."M5_V0_H0_C3"+=gear_crit_rating=400
+profileset."M5_V0_H0_C3"+=gear_crit_rating=550
 
-profileset."M4_V4_H0_C0"+=gear_mastery_rating=450
-profileset."M4_V4_H0_C0"+=gear_versatility_rating=450
+profileset."M4_V4_H0_C0"+=gear_mastery_rating=650
+profileset."M4_V4_H0_C0"+=gear_versatility_rating=650
 profileset."M4_V4_H0_C0"+=gear_haste_rating=250
 profileset."M4_V4_H0_C0"+=gear_crit_rating=250
 
-profileset."M4_V3_H1_C0"+=gear_mastery_rating=450
-profileset."M4_V3_H1_C0"+=gear_versatility_rating=400
-profileset."M4_V3_H1_C0"+=gear_haste_rating=300
+profileset."M4_V3_H1_C0"+=gear_mastery_rating=650
+profileset."M4_V3_H1_C0"+=gear_versatility_rating=550
+profileset."M4_V3_H1_C0"+=gear_haste_rating=350
 profileset."M4_V3_H1_C0"+=gear_crit_rating=250
 
-profileset."M4_V3_H0_C1"+=gear_mastery_rating=450
-profileset."M4_V3_H0_C1"+=gear_versatility_rating=400
+profileset."M4_V3_H0_C1"+=gear_mastery_rating=650
+profileset."M4_V3_H0_C1"+=gear_versatility_rating=550
 profileset."M4_V3_H0_C1"+=gear_haste_rating=250
-profileset."M4_V3_H0_C1"+=gear_crit_rating=300
+profileset."M4_V3_H0_C1"+=gear_crit_rating=350
 
-profileset."M4_V2_H2_C0"+=gear_mastery_rating=450
-profileset."M4_V2_H2_C0"+=gear_versatility_rating=350
-profileset."M4_V2_H2_C0"+=gear_haste_rating=350
+profileset."M4_V2_H2_C0"+=gear_mastery_rating=650
+profileset."M4_V2_H2_C0"+=gear_versatility_rating=450
+profileset."M4_V2_H2_C0"+=gear_haste_rating=450
 profileset."M4_V2_H2_C0"+=gear_crit_rating=250
 
-profileset."M4_V2_H1_C1"+=gear_mastery_rating=450
-profileset."M4_V2_H1_C1"+=gear_versatility_rating=350
-profileset."M4_V2_H1_C1"+=gear_haste_rating=300
-profileset."M4_V2_H1_C1"+=gear_crit_rating=300
+profileset."M4_V2_H1_C1"+=gear_mastery_rating=650
+profileset."M4_V2_H1_C1"+=gear_versatility_rating=450
+profileset."M4_V2_H1_C1"+=gear_haste_rating=350
+profileset."M4_V2_H1_C1"+=gear_crit_rating=350
 
-profileset."M4_V2_H0_C2"+=gear_mastery_rating=450
-profileset."M4_V2_H0_C2"+=gear_versatility_rating=350
+profileset."M4_V2_H0_C2"+=gear_mastery_rating=650
+profileset."M4_V2_H0_C2"+=gear_versatility_rating=450
 profileset."M4_V2_H0_C2"+=gear_haste_rating=250
-profileset."M4_V2_H0_C2"+=gear_crit_rating=350
+profileset."M4_V2_H0_C2"+=gear_crit_rating=450
 
-profileset."M4_V1_H3_C0"+=gear_mastery_rating=450
-profileset."M4_V1_H3_C0"+=gear_versatility_rating=300
-profileset."M4_V1_H3_C0"+=gear_haste_rating=400
+profileset."M4_V1_H3_C0"+=gear_mastery_rating=650
+profileset."M4_V1_H3_C0"+=gear_versatility_rating=350
+profileset."M4_V1_H3_C0"+=gear_haste_rating=550
 profileset."M4_V1_H3_C0"+=gear_crit_rating=250
 
-profileset."M4_V1_H2_C1"+=gear_mastery_rating=450
-profileset."M4_V1_H2_C1"+=gear_versatility_rating=300
-profileset."M4_V1_H2_C1"+=gear_haste_rating=350
-profileset."M4_V1_H2_C1"+=gear_crit_rating=300
+profileset."M4_V1_H2_C1"+=gear_mastery_rating=650
+profileset."M4_V1_H2_C1"+=gear_versatility_rating=350
+profileset."M4_V1_H2_C1"+=gear_haste_rating=450
+profileset."M4_V1_H2_C1"+=gear_crit_rating=350
 
-profileset."M4_V1_H1_C2"+=gear_mastery_rating=450
-profileset."M4_V1_H1_C2"+=gear_versatility_rating=300
-profileset."M4_V1_H1_C2"+=gear_haste_rating=300
-profileset."M4_V1_H1_C2"+=gear_crit_rating=350
+profileset."M4_V1_H1_C2"+=gear_mastery_rating=650
+profileset."M4_V1_H1_C2"+=gear_versatility_rating=350
+profileset."M4_V1_H1_C2"+=gear_haste_rating=350
+profileset."M4_V1_H1_C2"+=gear_crit_rating=450
 
-profileset."M4_V1_H0_C3"+=gear_mastery_rating=450
-profileset."M4_V1_H0_C3"+=gear_versatility_rating=300
+profileset."M4_V1_H0_C3"+=gear_mastery_rating=650
+profileset."M4_V1_H0_C3"+=gear_versatility_rating=350
 profileset."M4_V1_H0_C3"+=gear_haste_rating=250
-profileset."M4_V1_H0_C3"+=gear_crit_rating=400
+profileset."M4_V1_H0_C3"+=gear_crit_rating=550
 
-profileset."M4_V0_H4_C0"+=gear_mastery_rating=450
+profileset."M4_V0_H4_C0"+=gear_mastery_rating=650
 profileset."M4_V0_H4_C0"+=gear_versatility_rating=250
-profileset."M4_V0_H4_C0"+=gear_haste_rating=450
+profileset."M4_V0_H4_C0"+=gear_haste_rating=650
 profileset."M4_V0_H4_C0"+=gear_crit_rating=250
 
-profileset."M4_V0_H3_C1"+=gear_mastery_rating=450
+profileset."M4_V0_H3_C1"+=gear_mastery_rating=650
 profileset."M4_V0_H3_C1"+=gear_versatility_rating=250
-profileset."M4_V0_H3_C1"+=gear_haste_rating=400
-profileset."M4_V0_H3_C1"+=gear_crit_rating=300
+profileset."M4_V0_H3_C1"+=gear_haste_rating=550
+profileset."M4_V0_H3_C1"+=gear_crit_rating=350
 
-profileset."M4_V0_H2_C2"+=gear_mastery_rating=450
+profileset."M4_V0_H2_C2"+=gear_mastery_rating=650
 profileset."M4_V0_H2_C2"+=gear_versatility_rating=250
-profileset."M4_V0_H2_C2"+=gear_haste_rating=350
-profileset."M4_V0_H2_C2"+=gear_crit_rating=350
+profileset."M4_V0_H2_C2"+=gear_haste_rating=450
+profileset."M4_V0_H2_C2"+=gear_crit_rating=450
 
-profileset."M4_V0_H1_C3"+=gear_mastery_rating=450
+profileset."M4_V0_H1_C3"+=gear_mastery_rating=650
 profileset."M4_V0_H1_C3"+=gear_versatility_rating=250
-profileset."M4_V0_H1_C3"+=gear_haste_rating=300
-profileset."M4_V0_H1_C3"+=gear_crit_rating=400
+profileset."M4_V0_H1_C3"+=gear_haste_rating=350
+profileset."M4_V0_H1_C3"+=gear_crit_rating=550
 
-profileset."M4_V0_H0_C4"+=gear_mastery_rating=450
+profileset."M4_V0_H0_C4"+=gear_mastery_rating=650
 profileset."M4_V0_H0_C4"+=gear_versatility_rating=250
 profileset."M4_V0_H0_C4"+=gear_haste_rating=250
-profileset."M4_V0_H0_C4"+=gear_crit_rating=450
+profileset."M4_V0_H0_C4"+=gear_crit_rating=650
 
-profileset."M3_V5_H0_C0"+=gear_mastery_rating=400
-profileset."M3_V5_H0_C0"+=gear_versatility_rating=500
+profileset."M3_V5_H0_C0"+=gear_mastery_rating=550
+profileset."M3_V5_H0_C0"+=gear_versatility_rating=750
 profileset."M3_V5_H0_C0"+=gear_haste_rating=250
 profileset."M3_V5_H0_C0"+=gear_crit_rating=250
 
-profileset."M3_V4_H1_C0"+=gear_mastery_rating=400
-profileset."M3_V4_H1_C0"+=gear_versatility_rating=450
-profileset."M3_V4_H1_C0"+=gear_haste_rating=300
+profileset."M3_V4_H1_C0"+=gear_mastery_rating=550
+profileset."M3_V4_H1_C0"+=gear_versatility_rating=650
+profileset."M3_V4_H1_C0"+=gear_haste_rating=350
 profileset."M3_V4_H1_C0"+=gear_crit_rating=250
 
-profileset."M3_V4_H0_C1"+=gear_mastery_rating=400
-profileset."M3_V4_H0_C1"+=gear_versatility_rating=450
+profileset."M3_V4_H0_C1"+=gear_mastery_rating=550
+profileset."M3_V4_H0_C1"+=gear_versatility_rating=650
 profileset."M3_V4_H0_C1"+=gear_haste_rating=250
-profileset."M3_V4_H0_C1"+=gear_crit_rating=300
+profileset."M3_V4_H0_C1"+=gear_crit_rating=350
 
-profileset."M3_V3_H2_C0"+=gear_mastery_rating=400
-profileset."M3_V3_H2_C0"+=gear_versatility_rating=400
-profileset."M3_V3_H2_C0"+=gear_haste_rating=350
+profileset."M3_V3_H2_C0"+=gear_mastery_rating=550
+profileset."M3_V3_H2_C0"+=gear_versatility_rating=550
+profileset."M3_V3_H2_C0"+=gear_haste_rating=450
 profileset."M3_V3_H2_C0"+=gear_crit_rating=250
 
-profileset."M3_V3_H1_C1"+=gear_mastery_rating=400
-profileset."M3_V3_H1_C1"+=gear_versatility_rating=400
-profileset."M3_V3_H1_C1"+=gear_haste_rating=300
-profileset."M3_V3_H1_C1"+=gear_crit_rating=300
+profileset."M3_V3_H1_C1"+=gear_mastery_rating=550
+profileset."M3_V3_H1_C1"+=gear_versatility_rating=550
+profileset."M3_V3_H1_C1"+=gear_haste_rating=350
+profileset."M3_V3_H1_C1"+=gear_crit_rating=350
 
-profileset."M3_V3_H0_C2"+=gear_mastery_rating=400
-profileset."M3_V3_H0_C2"+=gear_versatility_rating=400
+profileset."M3_V3_H0_C2"+=gear_mastery_rating=550
+profileset."M3_V3_H0_C2"+=gear_versatility_rating=550
 profileset."M3_V3_H0_C2"+=gear_haste_rating=250
-profileset."M3_V3_H0_C2"+=gear_crit_rating=350
+profileset."M3_V3_H0_C2"+=gear_crit_rating=450
 
-profileset."M3_V2_H3_C0"+=gear_mastery_rating=400
-profileset."M3_V2_H3_C0"+=gear_versatility_rating=350
-profileset."M3_V2_H3_C0"+=gear_haste_rating=400
+profileset."M3_V2_H3_C0"+=gear_mastery_rating=550
+profileset."M3_V2_H3_C0"+=gear_versatility_rating=450
+profileset."M3_V2_H3_C0"+=gear_haste_rating=550
 profileset."M3_V2_H3_C0"+=gear_crit_rating=250
 
-profileset."M3_V2_H2_C1"+=gear_mastery_rating=400
-profileset."M3_V2_H2_C1"+=gear_versatility_rating=350
-profileset."M3_V2_H2_C1"+=gear_haste_rating=350
-profileset."M3_V2_H2_C1"+=gear_crit_rating=300
+profileset."M3_V2_H2_C1"+=gear_mastery_rating=550
+profileset."M3_V2_H2_C1"+=gear_versatility_rating=450
+profileset."M3_V2_H2_C1"+=gear_haste_rating=450
+profileset."M3_V2_H2_C1"+=gear_crit_rating=350
 
-profileset."M3_V2_H1_C2"+=gear_mastery_rating=400
-profileset."M3_V2_H1_C2"+=gear_versatility_rating=350
-profileset."M3_V2_H1_C2"+=gear_haste_rating=300
-profileset."M3_V2_H1_C2"+=gear_crit_rating=350
+profileset."M3_V2_H1_C2"+=gear_mastery_rating=550
+profileset."M3_V2_H1_C2"+=gear_versatility_rating=450
+profileset."M3_V2_H1_C2"+=gear_haste_rating=350
+profileset."M3_V2_H1_C2"+=gear_crit_rating=450
 
-profileset."M3_V2_H0_C3"+=gear_mastery_rating=400
-profileset."M3_V2_H0_C3"+=gear_versatility_rating=350
+profileset."M3_V2_H0_C3"+=gear_mastery_rating=550
+profileset."M3_V2_H0_C3"+=gear_versatility_rating=450
 profileset."M3_V2_H0_C3"+=gear_haste_rating=250
-profileset."M3_V2_H0_C3"+=gear_crit_rating=400
+profileset."M3_V2_H0_C3"+=gear_crit_rating=550
 
-profileset."M3_V1_H4_C0"+=gear_mastery_rating=400
-profileset."M3_V1_H4_C0"+=gear_versatility_rating=300
-profileset."M3_V1_H4_C0"+=gear_haste_rating=450
+profileset."M3_V1_H4_C0"+=gear_mastery_rating=550
+profileset."M3_V1_H4_C0"+=gear_versatility_rating=350
+profileset."M3_V1_H4_C0"+=gear_haste_rating=650
 profileset."M3_V1_H4_C0"+=gear_crit_rating=250
 
-profileset."M3_V1_H3_C1"+=gear_mastery_rating=400
-profileset."M3_V1_H3_C1"+=gear_versatility_rating=300
-profileset."M3_V1_H3_C1"+=gear_haste_rating=400
-profileset."M3_V1_H3_C1"+=gear_crit_rating=300
+profileset."M3_V1_H3_C1"+=gear_mastery_rating=550
+profileset."M3_V1_H3_C1"+=gear_versatility_rating=350
+profileset."M3_V1_H3_C1"+=gear_haste_rating=550
+profileset."M3_V1_H3_C1"+=gear_crit_rating=350
 
-profileset."M3_V1_H2_C2"+=gear_mastery_rating=400
-profileset."M3_V1_H2_C2"+=gear_versatility_rating=300
-profileset."M3_V1_H2_C2"+=gear_haste_rating=350
-profileset."M3_V1_H2_C2"+=gear_crit_rating=350
+profileset."M3_V1_H2_C2"+=gear_mastery_rating=550
+profileset."M3_V1_H2_C2"+=gear_versatility_rating=350
+profileset."M3_V1_H2_C2"+=gear_haste_rating=450
+profileset."M3_V1_H2_C2"+=gear_crit_rating=450
 
-profileset."M3_V1_H1_C3"+=gear_mastery_rating=400
-profileset."M3_V1_H1_C3"+=gear_versatility_rating=300
-profileset."M3_V1_H1_C3"+=gear_haste_rating=300
-profileset."M3_V1_H1_C3"+=gear_crit_rating=400
+profileset."M3_V1_H1_C3"+=gear_mastery_rating=550
+profileset."M3_V1_H1_C3"+=gear_versatility_rating=350
+profileset."M3_V1_H1_C3"+=gear_haste_rating=350
+profileset."M3_V1_H1_C3"+=gear_crit_rating=550
 
-profileset."M3_V1_H0_C4"+=gear_mastery_rating=400
-profileset."M3_V1_H0_C4"+=gear_versatility_rating=300
+profileset."M3_V1_H0_C4"+=gear_mastery_rating=550
+profileset."M3_V1_H0_C4"+=gear_versatility_rating=350
 profileset."M3_V1_H0_C4"+=gear_haste_rating=250
-profileset."M3_V1_H0_C4"+=gear_crit_rating=450
+profileset."M3_V1_H0_C4"+=gear_crit_rating=650
 
-profileset."M3_V0_H5_C0"+=gear_mastery_rating=400
+profileset."M3_V0_H5_C0"+=gear_mastery_rating=550
 profileset."M3_V0_H5_C0"+=gear_versatility_rating=250
-profileset."M3_V0_H5_C0"+=gear_haste_rating=500
+profileset."M3_V0_H5_C0"+=gear_haste_rating=750
 profileset."M3_V0_H5_C0"+=gear_crit_rating=250
 
-profileset."M3_V0_H4_C1"+=gear_mastery_rating=400
+profileset."M3_V0_H4_C1"+=gear_mastery_rating=550
 profileset."M3_V0_H4_C1"+=gear_versatility_rating=250
-profileset."M3_V0_H4_C1"+=gear_haste_rating=450
-profileset."M3_V0_H4_C1"+=gear_crit_rating=300
+profileset."M3_V0_H4_C1"+=gear_haste_rating=650
+profileset."M3_V0_H4_C1"+=gear_crit_rating=350
 
-profileset."M3_V0_H3_C2"+=gear_mastery_rating=400
+profileset."M3_V0_H3_C2"+=gear_mastery_rating=550
 profileset."M3_V0_H3_C2"+=gear_versatility_rating=250
-profileset."M3_V0_H3_C2"+=gear_haste_rating=400
-profileset."M3_V0_H3_C2"+=gear_crit_rating=350
+profileset."M3_V0_H3_C2"+=gear_haste_rating=550
+profileset."M3_V0_H3_C2"+=gear_crit_rating=450
 
-profileset."M3_V0_H2_C3"+=gear_mastery_rating=400
+profileset."M3_V0_H2_C3"+=gear_mastery_rating=550
 profileset."M3_V0_H2_C3"+=gear_versatility_rating=250
-profileset."M3_V0_H2_C3"+=gear_haste_rating=350
-profileset."M3_V0_H2_C3"+=gear_crit_rating=400
+profileset."M3_V0_H2_C3"+=gear_haste_rating=450
+profileset."M3_V0_H2_C3"+=gear_crit_rating=550
 
-profileset."M3_V0_H1_C4"+=gear_mastery_rating=400
+profileset."M3_V0_H1_C4"+=gear_mastery_rating=550
 profileset."M3_V0_H1_C4"+=gear_versatility_rating=250
-profileset."M3_V0_H1_C4"+=gear_haste_rating=300
-profileset."M3_V0_H1_C4"+=gear_crit_rating=450
+profileset."M3_V0_H1_C4"+=gear_haste_rating=350
+profileset."M3_V0_H1_C4"+=gear_crit_rating=650
 
-profileset."M3_V0_H0_C5"+=gear_mastery_rating=400
+profileset."M3_V0_H0_C5"+=gear_mastery_rating=550
 profileset."M3_V0_H0_C5"+=gear_versatility_rating=250
 profileset."M3_V0_H0_C5"+=gear_haste_rating=250
-profileset."M3_V0_H0_C5"+=gear_crit_rating=500
+profileset."M3_V0_H0_C5"+=gear_crit_rating=750
 
-profileset."M2_V6_H0_C0"+=gear_mastery_rating=350
-profileset."M2_V6_H0_C0"+=gear_versatility_rating=550
+profileset."M2_V6_H0_C0"+=gear_mastery_rating=450
+profileset."M2_V6_H0_C0"+=gear_versatility_rating=850
 profileset."M2_V6_H0_C0"+=gear_haste_rating=250
 profileset."M2_V6_H0_C0"+=gear_crit_rating=250
 
-profileset."M2_V5_H1_C0"+=gear_mastery_rating=350
-profileset."M2_V5_H1_C0"+=gear_versatility_rating=500
-profileset."M2_V5_H1_C0"+=gear_haste_rating=300
+profileset."M2_V5_H1_C0"+=gear_mastery_rating=450
+profileset."M2_V5_H1_C0"+=gear_versatility_rating=750
+profileset."M2_V5_H1_C0"+=gear_haste_rating=350
 profileset."M2_V5_H1_C0"+=gear_crit_rating=250
 
-profileset."M2_V5_H0_C1"+=gear_mastery_rating=350
-profileset."M2_V5_H0_C1"+=gear_versatility_rating=500
+profileset."M2_V5_H0_C1"+=gear_mastery_rating=450
+profileset."M2_V5_H0_C1"+=gear_versatility_rating=750
 profileset."M2_V5_H0_C1"+=gear_haste_rating=250
-profileset."M2_V5_H0_C1"+=gear_crit_rating=300
+profileset."M2_V5_H0_C1"+=gear_crit_rating=350
 
-profileset."M2_V4_H2_C0"+=gear_mastery_rating=350
-profileset."M2_V4_H2_C0"+=gear_versatility_rating=450
-profileset."M2_V4_H2_C0"+=gear_haste_rating=350
+profileset."M2_V4_H2_C0"+=gear_mastery_rating=450
+profileset."M2_V4_H2_C0"+=gear_versatility_rating=650
+profileset."M2_V4_H2_C0"+=gear_haste_rating=450
 profileset."M2_V4_H2_C0"+=gear_crit_rating=250
 
-profileset."M2_V4_H1_C1"+=gear_mastery_rating=350
-profileset."M2_V4_H1_C1"+=gear_versatility_rating=450
-profileset."M2_V4_H1_C1"+=gear_haste_rating=300
-profileset."M2_V4_H1_C1"+=gear_crit_rating=300
+profileset."M2_V4_H1_C1"+=gear_mastery_rating=450
+profileset."M2_V4_H1_C1"+=gear_versatility_rating=650
+profileset."M2_V4_H1_C1"+=gear_haste_rating=350
+profileset."M2_V4_H1_C1"+=gear_crit_rating=350
 
-profileset."M2_V4_H0_C2"+=gear_mastery_rating=350
-profileset."M2_V4_H0_C2"+=gear_versatility_rating=450
+profileset."M2_V4_H0_C2"+=gear_mastery_rating=450
+profileset."M2_V4_H0_C2"+=gear_versatility_rating=650
 profileset."M2_V4_H0_C2"+=gear_haste_rating=250
-profileset."M2_V4_H0_C2"+=gear_crit_rating=350
+profileset."M2_V4_H0_C2"+=gear_crit_rating=450
 
-profileset."M2_V3_H3_C0"+=gear_mastery_rating=350
-profileset."M2_V3_H3_C0"+=gear_versatility_rating=400
-profileset."M2_V3_H3_C0"+=gear_haste_rating=400
+profileset."M2_V3_H3_C0"+=gear_mastery_rating=450
+profileset."M2_V3_H3_C0"+=gear_versatility_rating=550
+profileset."M2_V3_H3_C0"+=gear_haste_rating=550
 profileset."M2_V3_H3_C0"+=gear_crit_rating=250
 
-profileset."M2_V3_H2_C1"+=gear_mastery_rating=350
-profileset."M2_V3_H2_C1"+=gear_versatility_rating=400
-profileset."M2_V3_H2_C1"+=gear_haste_rating=350
-profileset."M2_V3_H2_C1"+=gear_crit_rating=300
+profileset."M2_V3_H2_C1"+=gear_mastery_rating=450
+profileset."M2_V3_H2_C1"+=gear_versatility_rating=550
+profileset."M2_V3_H2_C1"+=gear_haste_rating=450
+profileset."M2_V3_H2_C1"+=gear_crit_rating=350
 
-profileset."M2_V3_H1_C2"+=gear_mastery_rating=350
-profileset."M2_V3_H1_C2"+=gear_versatility_rating=400
-profileset."M2_V3_H1_C2"+=gear_haste_rating=300
-profileset."M2_V3_H1_C2"+=gear_crit_rating=350
+profileset."M2_V3_H1_C2"+=gear_mastery_rating=450
+profileset."M2_V3_H1_C2"+=gear_versatility_rating=550
+profileset."M2_V3_H1_C2"+=gear_haste_rating=350
+profileset."M2_V3_H1_C2"+=gear_crit_rating=450
 
-profileset."M2_V3_H0_C3"+=gear_mastery_rating=350
-profileset."M2_V3_H0_C3"+=gear_versatility_rating=400
+profileset."M2_V3_H0_C3"+=gear_mastery_rating=450
+profileset."M2_V3_H0_C3"+=gear_versatility_rating=550
 profileset."M2_V3_H0_C3"+=gear_haste_rating=250
-profileset."M2_V3_H0_C3"+=gear_crit_rating=400
+profileset."M2_V3_H0_C3"+=gear_crit_rating=550
 
-profileset."M2_V2_H4_C0"+=gear_mastery_rating=350
-profileset."M2_V2_H4_C0"+=gear_versatility_rating=350
-profileset."M2_V2_H4_C0"+=gear_haste_rating=450
+profileset."M2_V2_H4_C0"+=gear_mastery_rating=450
+profileset."M2_V2_H4_C0"+=gear_versatility_rating=450
+profileset."M2_V2_H4_C0"+=gear_haste_rating=650
 profileset."M2_V2_H4_C0"+=gear_crit_rating=250
 
-profileset."M2_V2_H3_C1"+=gear_mastery_rating=350
-profileset."M2_V2_H3_C1"+=gear_versatility_rating=350
-profileset."M2_V2_H3_C1"+=gear_haste_rating=400
-profileset."M2_V2_H3_C1"+=gear_crit_rating=300
+profileset."M2_V2_H3_C1"+=gear_mastery_rating=450
+profileset."M2_V2_H3_C1"+=gear_versatility_rating=450
+profileset."M2_V2_H3_C1"+=gear_haste_rating=550
+profileset."M2_V2_H3_C1"+=gear_crit_rating=350
 
-profileset."M2_V2_H2_C2"+=gear_mastery_rating=350
-profileset."M2_V2_H2_C2"+=gear_versatility_rating=350
-profileset."M2_V2_H2_C2"+=gear_haste_rating=350
-profileset."M2_V2_H2_C2"+=gear_crit_rating=350
+profileset."M2_V2_H2_C2"+=gear_mastery_rating=450
+profileset."M2_V2_H2_C2"+=gear_versatility_rating=450
+profileset."M2_V2_H2_C2"+=gear_haste_rating=450
+profileset."M2_V2_H2_C2"+=gear_crit_rating=450
 
-profileset."M2_V2_H1_C3"+=gear_mastery_rating=350
-profileset."M2_V2_H1_C3"+=gear_versatility_rating=350
-profileset."M2_V2_H1_C3"+=gear_haste_rating=300
-profileset."M2_V2_H1_C3"+=gear_crit_rating=400
+profileset."M2_V2_H1_C3"+=gear_mastery_rating=450
+profileset."M2_V2_H1_C3"+=gear_versatility_rating=450
+profileset."M2_V2_H1_C3"+=gear_haste_rating=350
+profileset."M2_V2_H1_C3"+=gear_crit_rating=550
 
-profileset."M2_V2_H0_C4"+=gear_mastery_rating=350
-profileset."M2_V2_H0_C4"+=gear_versatility_rating=350
+profileset."M2_V2_H0_C4"+=gear_mastery_rating=450
+profileset."M2_V2_H0_C4"+=gear_versatility_rating=450
 profileset."M2_V2_H0_C4"+=gear_haste_rating=250
-profileset."M2_V2_H0_C4"+=gear_crit_rating=450
+profileset."M2_V2_H0_C4"+=gear_crit_rating=650
 
-profileset."M2_V1_H5_C0"+=gear_mastery_rating=350
-profileset."M2_V1_H5_C0"+=gear_versatility_rating=300
-profileset."M2_V1_H5_C0"+=gear_haste_rating=500
+profileset."M2_V1_H5_C0"+=gear_mastery_rating=450
+profileset."M2_V1_H5_C0"+=gear_versatility_rating=350
+profileset."M2_V1_H5_C0"+=gear_haste_rating=750
 profileset."M2_V1_H5_C0"+=gear_crit_rating=250
 
-profileset."M2_V1_H4_C1"+=gear_mastery_rating=350
-profileset."M2_V1_H4_C1"+=gear_versatility_rating=300
-profileset."M2_V1_H4_C1"+=gear_haste_rating=450
-profileset."M2_V1_H4_C1"+=gear_crit_rating=300
+profileset."M2_V1_H4_C1"+=gear_mastery_rating=450
+profileset."M2_V1_H4_C1"+=gear_versatility_rating=350
+profileset."M2_V1_H4_C1"+=gear_haste_rating=650
+profileset."M2_V1_H4_C1"+=gear_crit_rating=350
 
-profileset."M2_V1_H3_C2"+=gear_mastery_rating=350
-profileset."M2_V1_H3_C2"+=gear_versatility_rating=300
-profileset."M2_V1_H3_C2"+=gear_haste_rating=400
-profileset."M2_V1_H3_C2"+=gear_crit_rating=350
+profileset."M2_V1_H3_C2"+=gear_mastery_rating=450
+profileset."M2_V1_H3_C2"+=gear_versatility_rating=350
+profileset."M2_V1_H3_C2"+=gear_haste_rating=550
+profileset."M2_V1_H3_C2"+=gear_crit_rating=450
 
-profileset."M2_V1_H2_C3"+=gear_mastery_rating=350
-profileset."M2_V1_H2_C3"+=gear_versatility_rating=300
-profileset."M2_V1_H2_C3"+=gear_haste_rating=350
-profileset."M2_V1_H2_C3"+=gear_crit_rating=400
+profileset."M2_V1_H2_C3"+=gear_mastery_rating=450
+profileset."M2_V1_H2_C3"+=gear_versatility_rating=350
+profileset."M2_V1_H2_C3"+=gear_haste_rating=450
+profileset."M2_V1_H2_C3"+=gear_crit_rating=550
 
-profileset."M2_V1_H1_C4"+=gear_mastery_rating=350
-profileset."M2_V1_H1_C4"+=gear_versatility_rating=300
-profileset."M2_V1_H1_C4"+=gear_haste_rating=300
-profileset."M2_V1_H1_C4"+=gear_crit_rating=450
+profileset."M2_V1_H1_C4"+=gear_mastery_rating=450
+profileset."M2_V1_H1_C4"+=gear_versatility_rating=350
+profileset."M2_V1_H1_C4"+=gear_haste_rating=350
+profileset."M2_V1_H1_C4"+=gear_crit_rating=650
 
-profileset."M2_V1_H0_C5"+=gear_mastery_rating=350
-profileset."M2_V1_H0_C5"+=gear_versatility_rating=300
+profileset."M2_V1_H0_C5"+=gear_mastery_rating=450
+profileset."M2_V1_H0_C5"+=gear_versatility_rating=350
 profileset."M2_V1_H0_C5"+=gear_haste_rating=250
-profileset."M2_V1_H0_C5"+=gear_crit_rating=500
+profileset."M2_V1_H0_C5"+=gear_crit_rating=750
 
-profileset."M2_V0_H6_C0"+=gear_mastery_rating=350
+profileset."M2_V0_H6_C0"+=gear_mastery_rating=450
 profileset."M2_V0_H6_C0"+=gear_versatility_rating=250
-profileset."M2_V0_H6_C0"+=gear_haste_rating=550
+profileset."M2_V0_H6_C0"+=gear_haste_rating=850
 profileset."M2_V0_H6_C0"+=gear_crit_rating=250
 
-profileset."M2_V0_H5_C1"+=gear_mastery_rating=350
+profileset."M2_V0_H5_C1"+=gear_mastery_rating=450
 profileset."M2_V0_H5_C1"+=gear_versatility_rating=250
-profileset."M2_V0_H5_C1"+=gear_haste_rating=500
-profileset."M2_V0_H5_C1"+=gear_crit_rating=300
+profileset."M2_V0_H5_C1"+=gear_haste_rating=750
+profileset."M2_V0_H5_C1"+=gear_crit_rating=350
 
-profileset."M2_V0_H4_C2"+=gear_mastery_rating=350
+profileset."M2_V0_H4_C2"+=gear_mastery_rating=450
 profileset."M2_V0_H4_C2"+=gear_versatility_rating=250
-profileset."M2_V0_H4_C2"+=gear_haste_rating=450
-profileset."M2_V0_H4_C2"+=gear_crit_rating=350
+profileset."M2_V0_H4_C2"+=gear_haste_rating=650
+profileset."M2_V0_H4_C2"+=gear_crit_rating=450
 
-profileset."M2_V0_H3_C3"+=gear_mastery_rating=350
+profileset."M2_V0_H3_C3"+=gear_mastery_rating=450
 profileset."M2_V0_H3_C3"+=gear_versatility_rating=250
-profileset."M2_V0_H3_C3"+=gear_haste_rating=400
-profileset."M2_V0_H3_C3"+=gear_crit_rating=400
+profileset."M2_V0_H3_C3"+=gear_haste_rating=550
+profileset."M2_V0_H3_C3"+=gear_crit_rating=550
 
-profileset."M2_V0_H2_C4"+=gear_mastery_rating=350
+profileset."M2_V0_H2_C4"+=gear_mastery_rating=450
 profileset."M2_V0_H2_C4"+=gear_versatility_rating=250
-profileset."M2_V0_H2_C4"+=gear_haste_rating=350
-profileset."M2_V0_H2_C4"+=gear_crit_rating=450
+profileset."M2_V0_H2_C4"+=gear_haste_rating=450
+profileset."M2_V0_H2_C4"+=gear_crit_rating=650
 
-profileset."M2_V0_H1_C5"+=gear_mastery_rating=350
+profileset."M2_V0_H1_C5"+=gear_mastery_rating=450
 profileset."M2_V0_H1_C5"+=gear_versatility_rating=250
-profileset."M2_V0_H1_C5"+=gear_haste_rating=300
-profileset."M2_V0_H1_C5"+=gear_crit_rating=500
+profileset."M2_V0_H1_C5"+=gear_haste_rating=350
+profileset."M2_V0_H1_C5"+=gear_crit_rating=750
 
-profileset."M2_V0_H0_C6"+=gear_mastery_rating=350
+profileset."M2_V0_H0_C6"+=gear_mastery_rating=450
 profileset."M2_V0_H0_C6"+=gear_versatility_rating=250
 profileset."M2_V0_H0_C6"+=gear_haste_rating=250
-profileset."M2_V0_H0_C6"+=gear_crit_rating=550
+profileset."M2_V0_H0_C6"+=gear_crit_rating=850
 
-profileset."M1_V7_H0_C0"+=gear_mastery_rating=300
-profileset."M1_V7_H0_C0"+=gear_versatility_rating=600
+profileset."M1_V7_H0_C0"+=gear_mastery_rating=350
+profileset."M1_V7_H0_C0"+=gear_versatility_rating=950
 profileset."M1_V7_H0_C0"+=gear_haste_rating=250
 profileset."M1_V7_H0_C0"+=gear_crit_rating=250
 
-profileset."M1_V6_H1_C0"+=gear_mastery_rating=300
-profileset."M1_V6_H1_C0"+=gear_versatility_rating=550
-profileset."M1_V6_H1_C0"+=gear_haste_rating=300
+profileset."M1_V6_H1_C0"+=gear_mastery_rating=350
+profileset."M1_V6_H1_C0"+=gear_versatility_rating=850
+profileset."M1_V6_H1_C0"+=gear_haste_rating=350
 profileset."M1_V6_H1_C0"+=gear_crit_rating=250
 
-profileset."M1_V6_H0_C1"+=gear_mastery_rating=300
-profileset."M1_V6_H0_C1"+=gear_versatility_rating=550
+profileset."M1_V6_H0_C1"+=gear_mastery_rating=350
+profileset."M1_V6_H0_C1"+=gear_versatility_rating=850
 profileset."M1_V6_H0_C1"+=gear_haste_rating=250
-profileset."M1_V6_H0_C1"+=gear_crit_rating=300
+profileset."M1_V6_H0_C1"+=gear_crit_rating=350
 
-profileset."M1_V5_H2_C0"+=gear_mastery_rating=300
-profileset."M1_V5_H2_C0"+=gear_versatility_rating=500
-profileset."M1_V5_H2_C0"+=gear_haste_rating=350
+profileset."M1_V5_H2_C0"+=gear_mastery_rating=350
+profileset."M1_V5_H2_C0"+=gear_versatility_rating=750
+profileset."M1_V5_H2_C0"+=gear_haste_rating=450
 profileset."M1_V5_H2_C0"+=gear_crit_rating=250
 
-profileset."M1_V5_H1_C1"+=gear_mastery_rating=300
-profileset."M1_V5_H1_C1"+=gear_versatility_rating=500
-profileset."M1_V5_H1_C1"+=gear_haste_rating=300
-profileset."M1_V5_H1_C1"+=gear_crit_rating=300
+profileset."M1_V5_H1_C1"+=gear_mastery_rating=350
+profileset."M1_V5_H1_C1"+=gear_versatility_rating=750
+profileset."M1_V5_H1_C1"+=gear_haste_rating=350
+profileset."M1_V5_H1_C1"+=gear_crit_rating=350
 
-profileset."M1_V5_H0_C2"+=gear_mastery_rating=300
-profileset."M1_V5_H0_C2"+=gear_versatility_rating=500
+profileset."M1_V5_H0_C2"+=gear_mastery_rating=350
+profileset."M1_V5_H0_C2"+=gear_versatility_rating=750
 profileset."M1_V5_H0_C2"+=gear_haste_rating=250
-profileset."M1_V5_H0_C2"+=gear_crit_rating=350
+profileset."M1_V5_H0_C2"+=gear_crit_rating=450
 
-profileset."M1_V4_H3_C0"+=gear_mastery_rating=300
-profileset."M1_V4_H3_C0"+=gear_versatility_rating=450
-profileset."M1_V4_H3_C0"+=gear_haste_rating=400
+profileset."M1_V4_H3_C0"+=gear_mastery_rating=350
+profileset."M1_V4_H3_C0"+=gear_versatility_rating=650
+profileset."M1_V4_H3_C0"+=gear_haste_rating=550
 profileset."M1_V4_H3_C0"+=gear_crit_rating=250
 
-profileset."M1_V4_H2_C1"+=gear_mastery_rating=300
-profileset."M1_V4_H2_C1"+=gear_versatility_rating=450
-profileset."M1_V4_H2_C1"+=gear_haste_rating=350
-profileset."M1_V4_H2_C1"+=gear_crit_rating=300
+profileset."M1_V4_H2_C1"+=gear_mastery_rating=350
+profileset."M1_V4_H2_C1"+=gear_versatility_rating=650
+profileset."M1_V4_H2_C1"+=gear_haste_rating=450
+profileset."M1_V4_H2_C1"+=gear_crit_rating=350
 
-profileset."M1_V4_H1_C2"+=gear_mastery_rating=300
-profileset."M1_V4_H1_C2"+=gear_versatility_rating=450
-profileset."M1_V4_H1_C2"+=gear_haste_rating=300
-profileset."M1_V4_H1_C2"+=gear_crit_rating=350
+profileset."M1_V4_H1_C2"+=gear_mastery_rating=350
+profileset."M1_V4_H1_C2"+=gear_versatility_rating=650
+profileset."M1_V4_H1_C2"+=gear_haste_rating=350
+profileset."M1_V4_H1_C2"+=gear_crit_rating=450
 
-profileset."M1_V4_H0_C3"+=gear_mastery_rating=300
-profileset."M1_V4_H0_C3"+=gear_versatility_rating=450
+profileset."M1_V4_H0_C3"+=gear_mastery_rating=350
+profileset."M1_V4_H0_C3"+=gear_versatility_rating=650
 profileset."M1_V4_H0_C3"+=gear_haste_rating=250
-profileset."M1_V4_H0_C3"+=gear_crit_rating=400
+profileset."M1_V4_H0_C3"+=gear_crit_rating=550
 
-profileset."M1_V3_H4_C0"+=gear_mastery_rating=300
-profileset."M1_V3_H4_C0"+=gear_versatility_rating=400
-profileset."M1_V3_H4_C0"+=gear_haste_rating=450
+profileset."M1_V3_H4_C0"+=gear_mastery_rating=350
+profileset."M1_V3_H4_C0"+=gear_versatility_rating=550
+profileset."M1_V3_H4_C0"+=gear_haste_rating=650
 profileset."M1_V3_H4_C0"+=gear_crit_rating=250
 
-profileset."M1_V3_H3_C1"+=gear_mastery_rating=300
-profileset."M1_V3_H3_C1"+=gear_versatility_rating=400
-profileset."M1_V3_H3_C1"+=gear_haste_rating=400
-profileset."M1_V3_H3_C1"+=gear_crit_rating=300
+profileset."M1_V3_H3_C1"+=gear_mastery_rating=350
+profileset."M1_V3_H3_C1"+=gear_versatility_rating=550
+profileset."M1_V3_H3_C1"+=gear_haste_rating=550
+profileset."M1_V3_H3_C1"+=gear_crit_rating=350
 
-profileset."M1_V3_H2_C2"+=gear_mastery_rating=300
-profileset."M1_V3_H2_C2"+=gear_versatility_rating=400
-profileset."M1_V3_H2_C2"+=gear_haste_rating=350
-profileset."M1_V3_H2_C2"+=gear_crit_rating=350
+profileset."M1_V3_H2_C2"+=gear_mastery_rating=350
+profileset."M1_V3_H2_C2"+=gear_versatility_rating=550
+profileset."M1_V3_H2_C2"+=gear_haste_rating=450
+profileset."M1_V3_H2_C2"+=gear_crit_rating=450
 
-profileset."M1_V3_H1_C3"+=gear_mastery_rating=300
-profileset."M1_V3_H1_C3"+=gear_versatility_rating=400
-profileset."M1_V3_H1_C3"+=gear_haste_rating=300
-profileset."M1_V3_H1_C3"+=gear_crit_rating=400
+profileset."M1_V3_H1_C3"+=gear_mastery_rating=350
+profileset."M1_V3_H1_C3"+=gear_versatility_rating=550
+profileset."M1_V3_H1_C3"+=gear_haste_rating=350
+profileset."M1_V3_H1_C3"+=gear_crit_rating=550
 
-profileset."M1_V3_H0_C4"+=gear_mastery_rating=300
-profileset."M1_V3_H0_C4"+=gear_versatility_rating=400
+profileset."M1_V3_H0_C4"+=gear_mastery_rating=350
+profileset."M1_V3_H0_C4"+=gear_versatility_rating=550
 profileset."M1_V3_H0_C4"+=gear_haste_rating=250
-profileset."M1_V3_H0_C4"+=gear_crit_rating=450
+profileset."M1_V3_H0_C4"+=gear_crit_rating=650
 
-profileset."M1_V2_H5_C0"+=gear_mastery_rating=300
-profileset."M1_V2_H5_C0"+=gear_versatility_rating=350
-profileset."M1_V2_H5_C0"+=gear_haste_rating=500
+profileset."M1_V2_H5_C0"+=gear_mastery_rating=350
+profileset."M1_V2_H5_C0"+=gear_versatility_rating=450
+profileset."M1_V2_H5_C0"+=gear_haste_rating=750
 profileset."M1_V2_H5_C0"+=gear_crit_rating=250
 
-profileset."M1_V2_H4_C1"+=gear_mastery_rating=300
-profileset."M1_V2_H4_C1"+=gear_versatility_rating=350
-profileset."M1_V2_H4_C1"+=gear_haste_rating=450
-profileset."M1_V2_H4_C1"+=gear_crit_rating=300
+profileset."M1_V2_H4_C1"+=gear_mastery_rating=350
+profileset."M1_V2_H4_C1"+=gear_versatility_rating=450
+profileset."M1_V2_H4_C1"+=gear_haste_rating=650
+profileset."M1_V2_H4_C1"+=gear_crit_rating=350
 
-profileset."M1_V2_H3_C2"+=gear_mastery_rating=300
-profileset."M1_V2_H3_C2"+=gear_versatility_rating=350
-profileset."M1_V2_H3_C2"+=gear_haste_rating=400
-profileset."M1_V2_H3_C2"+=gear_crit_rating=350
+profileset."M1_V2_H3_C2"+=gear_mastery_rating=350
+profileset."M1_V2_H3_C2"+=gear_versatility_rating=450
+profileset."M1_V2_H3_C2"+=gear_haste_rating=550
+profileset."M1_V2_H3_C2"+=gear_crit_rating=450
 
-profileset."M1_V2_H2_C3"+=gear_mastery_rating=300
-profileset."M1_V2_H2_C3"+=gear_versatility_rating=350
-profileset."M1_V2_H2_C3"+=gear_haste_rating=350
-profileset."M1_V2_H2_C3"+=gear_crit_rating=400
+profileset."M1_V2_H2_C3"+=gear_mastery_rating=350
+profileset."M1_V2_H2_C3"+=gear_versatility_rating=450
+profileset."M1_V2_H2_C3"+=gear_haste_rating=450
+profileset."M1_V2_H2_C3"+=gear_crit_rating=550
 
-profileset."M1_V2_H1_C4"+=gear_mastery_rating=300
-profileset."M1_V2_H1_C4"+=gear_versatility_rating=350
-profileset."M1_V2_H1_C4"+=gear_haste_rating=300
-profileset."M1_V2_H1_C4"+=gear_crit_rating=450
+profileset."M1_V2_H1_C4"+=gear_mastery_rating=350
+profileset."M1_V2_H1_C4"+=gear_versatility_rating=450
+profileset."M1_V2_H1_C4"+=gear_haste_rating=350
+profileset."M1_V2_H1_C4"+=gear_crit_rating=650
 
-profileset."M1_V2_H0_C5"+=gear_mastery_rating=300
-profileset."M1_V2_H0_C5"+=gear_versatility_rating=350
+profileset."M1_V2_H0_C5"+=gear_mastery_rating=350
+profileset."M1_V2_H0_C5"+=gear_versatility_rating=450
 profileset."M1_V2_H0_C5"+=gear_haste_rating=250
-profileset."M1_V2_H0_C5"+=gear_crit_rating=500
+profileset."M1_V2_H0_C5"+=gear_crit_rating=750
 
-profileset."M1_V1_H6_C0"+=gear_mastery_rating=300
-profileset."M1_V1_H6_C0"+=gear_versatility_rating=300
-profileset."M1_V1_H6_C0"+=gear_haste_rating=550
+profileset."M1_V1_H6_C0"+=gear_mastery_rating=350
+profileset."M1_V1_H6_C0"+=gear_versatility_rating=350
+profileset."M1_V1_H6_C0"+=gear_haste_rating=850
 profileset."M1_V1_H6_C0"+=gear_crit_rating=250
 
-profileset."M1_V1_H5_C1"+=gear_mastery_rating=300
-profileset."M1_V1_H5_C1"+=gear_versatility_rating=300
-profileset."M1_V1_H5_C1"+=gear_haste_rating=500
-profileset."M1_V1_H5_C1"+=gear_crit_rating=300
+profileset."M1_V1_H5_C1"+=gear_mastery_rating=350
+profileset."M1_V1_H5_C1"+=gear_versatility_rating=350
+profileset."M1_V1_H5_C1"+=gear_haste_rating=750
+profileset."M1_V1_H5_C1"+=gear_crit_rating=350
 
-profileset."M1_V1_H4_C2"+=gear_mastery_rating=300
-profileset."M1_V1_H4_C2"+=gear_versatility_rating=300
-profileset."M1_V1_H4_C2"+=gear_haste_rating=450
-profileset."M1_V1_H4_C2"+=gear_crit_rating=350
+profileset."M1_V1_H4_C2"+=gear_mastery_rating=350
+profileset."M1_V1_H4_C2"+=gear_versatility_rating=350
+profileset."M1_V1_H4_C2"+=gear_haste_rating=650
+profileset."M1_V1_H4_C2"+=gear_crit_rating=450
 
-profileset."M1_V1_H3_C3"+=gear_mastery_rating=300
-profileset."M1_V1_H3_C3"+=gear_versatility_rating=300
-profileset."M1_V1_H3_C3"+=gear_haste_rating=400
-profileset."M1_V1_H3_C3"+=gear_crit_rating=400
+profileset."M1_V1_H3_C3"+=gear_mastery_rating=350
+profileset."M1_V1_H3_C3"+=gear_versatility_rating=350
+profileset."M1_V1_H3_C3"+=gear_haste_rating=550
+profileset."M1_V1_H3_C3"+=gear_crit_rating=550
 
-profileset."M1_V1_H2_C4"+=gear_mastery_rating=300
-profileset."M1_V1_H2_C4"+=gear_versatility_rating=300
-profileset."M1_V1_H2_C4"+=gear_haste_rating=350
-profileset."M1_V1_H2_C4"+=gear_crit_rating=450
+profileset."M1_V1_H2_C4"+=gear_mastery_rating=350
+profileset."M1_V1_H2_C4"+=gear_versatility_rating=350
+profileset."M1_V1_H2_C4"+=gear_haste_rating=450
+profileset."M1_V1_H2_C4"+=gear_crit_rating=650
 
-profileset."M1_V1_H1_C5"+=gear_mastery_rating=300
-profileset."M1_V1_H1_C5"+=gear_versatility_rating=300
-profileset."M1_V1_H1_C5"+=gear_haste_rating=300
-profileset."M1_V1_H1_C5"+=gear_crit_rating=500
+profileset."M1_V1_H1_C5"+=gear_mastery_rating=350
+profileset."M1_V1_H1_C5"+=gear_versatility_rating=350
+profileset."M1_V1_H1_C5"+=gear_haste_rating=350
+profileset."M1_V1_H1_C5"+=gear_crit_rating=750
 
-profileset."M1_V1_H0_C6"+=gear_mastery_rating=300
-profileset."M1_V1_H0_C6"+=gear_versatility_rating=300
+profileset."M1_V1_H0_C6"+=gear_mastery_rating=350
+profileset."M1_V1_H0_C6"+=gear_versatility_rating=350
 profileset."M1_V1_H0_C6"+=gear_haste_rating=250
-profileset."M1_V1_H0_C6"+=gear_crit_rating=550
+profileset."M1_V1_H0_C6"+=gear_crit_rating=850
 
-profileset."M1_V0_H7_C0"+=gear_mastery_rating=300
+profileset."M1_V0_H7_C0"+=gear_mastery_rating=350
 profileset."M1_V0_H7_C0"+=gear_versatility_rating=250
-profileset."M1_V0_H7_C0"+=gear_haste_rating=600
+profileset."M1_V0_H7_C0"+=gear_haste_rating=950
 profileset."M1_V0_H7_C0"+=gear_crit_rating=250
 
-profileset."M1_V0_H6_C1"+=gear_mastery_rating=300
+profileset."M1_V0_H6_C1"+=gear_mastery_rating=350
 profileset."M1_V0_H6_C1"+=gear_versatility_rating=250
-profileset."M1_V0_H6_C1"+=gear_haste_rating=550
-profileset."M1_V0_H6_C1"+=gear_crit_rating=300
+profileset."M1_V0_H6_C1"+=gear_haste_rating=850
+profileset."M1_V0_H6_C1"+=gear_crit_rating=350
 
-profileset."M1_V0_H5_C2"+=gear_mastery_rating=300
+profileset."M1_V0_H5_C2"+=gear_mastery_rating=350
 profileset."M1_V0_H5_C2"+=gear_versatility_rating=250
-profileset."M1_V0_H5_C2"+=gear_haste_rating=500
-profileset."M1_V0_H5_C2"+=gear_crit_rating=350
+profileset."M1_V0_H5_C2"+=gear_haste_rating=750
+profileset."M1_V0_H5_C2"+=gear_crit_rating=450
 
-profileset."M1_V0_H4_C3"+=gear_mastery_rating=300
+profileset."M1_V0_H4_C3"+=gear_mastery_rating=350
 profileset."M1_V0_H4_C3"+=gear_versatility_rating=250
-profileset."M1_V0_H4_C3"+=gear_haste_rating=450
-profileset."M1_V0_H4_C3"+=gear_crit_rating=400
+profileset."M1_V0_H4_C3"+=gear_haste_rating=650
+profileset."M1_V0_H4_C3"+=gear_crit_rating=550
 
-profileset."M1_V0_H3_C4"+=gear_mastery_rating=300
+profileset."M1_V0_H3_C4"+=gear_mastery_rating=350
 profileset."M1_V0_H3_C4"+=gear_versatility_rating=250
-profileset."M1_V0_H3_C4"+=gear_haste_rating=400
-profileset."M1_V0_H3_C4"+=gear_crit_rating=450
+profileset."M1_V0_H3_C4"+=gear_haste_rating=550
+profileset."M1_V0_H3_C4"+=gear_crit_rating=650
 
-profileset."M1_V0_H2_C5"+=gear_mastery_rating=300
+profileset."M1_V0_H2_C5"+=gear_mastery_rating=350
 profileset."M1_V0_H2_C5"+=gear_versatility_rating=250
-profileset."M1_V0_H2_C5"+=gear_haste_rating=350
-profileset."M1_V0_H2_C5"+=gear_crit_rating=500
+profileset."M1_V0_H2_C5"+=gear_haste_rating=450
+profileset."M1_V0_H2_C5"+=gear_crit_rating=750
 
-profileset."M1_V0_H1_C6"+=gear_mastery_rating=300
+profileset."M1_V0_H1_C6"+=gear_mastery_rating=350
 profileset."M1_V0_H1_C6"+=gear_versatility_rating=250
-profileset."M1_V0_H1_C6"+=gear_haste_rating=300
-profileset."M1_V0_H1_C6"+=gear_crit_rating=550
+profileset."M1_V0_H1_C6"+=gear_haste_rating=350
+profileset."M1_V0_H1_C6"+=gear_crit_rating=850
 
-profileset."M1_V0_H0_C7"+=gear_mastery_rating=300
+profileset."M1_V0_H0_C7"+=gear_mastery_rating=350
 profileset."M1_V0_H0_C7"+=gear_versatility_rating=250
 profileset."M1_V0_H0_C7"+=gear_haste_rating=250
-profileset."M1_V0_H0_C7"+=gear_crit_rating=600
+profileset."M1_V0_H0_C7"+=gear_crit_rating=950
 
 profileset."M0_V8_H0_C0"+=gear_mastery_rating=250
-profileset."M0_V8_H0_C0"+=gear_versatility_rating=650
+profileset."M0_V8_H0_C0"+=gear_versatility_rating=1050
 profileset."M0_V8_H0_C0"+=gear_haste_rating=250
 profileset."M0_V8_H0_C0"+=gear_crit_rating=250
 
 profileset."M0_V7_H1_C0"+=gear_mastery_rating=250
-profileset."M0_V7_H1_C0"+=gear_versatility_rating=600
-profileset."M0_V7_H1_C0"+=gear_haste_rating=300
+profileset."M0_V7_H1_C0"+=gear_versatility_rating=950
+profileset."M0_V7_H1_C0"+=gear_haste_rating=350
 profileset."M0_V7_H1_C0"+=gear_crit_rating=250
 
 profileset."M0_V7_H0_C1"+=gear_mastery_rating=250
-profileset."M0_V7_H0_C1"+=gear_versatility_rating=600
+profileset."M0_V7_H0_C1"+=gear_versatility_rating=950
 profileset."M0_V7_H0_C1"+=gear_haste_rating=250
-profileset."M0_V7_H0_C1"+=gear_crit_rating=300
+profileset."M0_V7_H0_C1"+=gear_crit_rating=350
 
 profileset."M0_V6_H2_C0"+=gear_mastery_rating=250
-profileset."M0_V6_H2_C0"+=gear_versatility_rating=550
-profileset."M0_V6_H2_C0"+=gear_haste_rating=350
+profileset."M0_V6_H2_C0"+=gear_versatility_rating=850
+profileset."M0_V6_H2_C0"+=gear_haste_rating=450
 profileset."M0_V6_H2_C0"+=gear_crit_rating=250
 
 profileset."M0_V6_H1_C1"+=gear_mastery_rating=250
-profileset."M0_V6_H1_C1"+=gear_versatility_rating=550
-profileset."M0_V6_H1_C1"+=gear_haste_rating=300
-profileset."M0_V6_H1_C1"+=gear_crit_rating=300
+profileset."M0_V6_H1_C1"+=gear_versatility_rating=850
+profileset."M0_V6_H1_C1"+=gear_haste_rating=350
+profileset."M0_V6_H1_C1"+=gear_crit_rating=350
 
 profileset."M0_V6_H0_C2"+=gear_mastery_rating=250
-profileset."M0_V6_H0_C2"+=gear_versatility_rating=550
+profileset."M0_V6_H0_C2"+=gear_versatility_rating=850
 profileset."M0_V6_H0_C2"+=gear_haste_rating=250
-profileset."M0_V6_H0_C2"+=gear_crit_rating=350
+profileset."M0_V6_H0_C2"+=gear_crit_rating=450
 
 profileset."M0_V5_H3_C0"+=gear_mastery_rating=250
-profileset."M0_V5_H3_C0"+=gear_versatility_rating=500
-profileset."M0_V5_H3_C0"+=gear_haste_rating=400
+profileset."M0_V5_H3_C0"+=gear_versatility_rating=750
+profileset."M0_V5_H3_C0"+=gear_haste_rating=550
 profileset."M0_V5_H3_C0"+=gear_crit_rating=250
 
 profileset."M0_V5_H2_C1"+=gear_mastery_rating=250
-profileset."M0_V5_H2_C1"+=gear_versatility_rating=500
-profileset."M0_V5_H2_C1"+=gear_haste_rating=350
-profileset."M0_V5_H2_C1"+=gear_crit_rating=300
+profileset."M0_V5_H2_C1"+=gear_versatility_rating=750
+profileset."M0_V5_H2_C1"+=gear_haste_rating=450
+profileset."M0_V5_H2_C1"+=gear_crit_rating=350
 
 profileset."M0_V5_H1_C2"+=gear_mastery_rating=250
-profileset."M0_V5_H1_C2"+=gear_versatility_rating=500
-profileset."M0_V5_H1_C2"+=gear_haste_rating=300
-profileset."M0_V5_H1_C2"+=gear_crit_rating=350
+profileset."M0_V5_H1_C2"+=gear_versatility_rating=750
+profileset."M0_V5_H1_C2"+=gear_haste_rating=350
+profileset."M0_V5_H1_C2"+=gear_crit_rating=450
 
 profileset."M0_V5_H0_C3"+=gear_mastery_rating=250
-profileset."M0_V5_H0_C3"+=gear_versatility_rating=500
+profileset."M0_V5_H0_C3"+=gear_versatility_rating=750
 profileset."M0_V5_H0_C3"+=gear_haste_rating=250
-profileset."M0_V5_H0_C3"+=gear_crit_rating=400
+profileset."M0_V5_H0_C3"+=gear_crit_rating=550
 
 profileset."M0_V4_H4_C0"+=gear_mastery_rating=250
-profileset."M0_V4_H4_C0"+=gear_versatility_rating=450
-profileset."M0_V4_H4_C0"+=gear_haste_rating=450
+profileset."M0_V4_H4_C0"+=gear_versatility_rating=650
+profileset."M0_V4_H4_C0"+=gear_haste_rating=650
 profileset."M0_V4_H4_C0"+=gear_crit_rating=250
 
 profileset."M0_V4_H3_C1"+=gear_mastery_rating=250
-profileset."M0_V4_H3_C1"+=gear_versatility_rating=450
-profileset."M0_V4_H3_C1"+=gear_haste_rating=400
-profileset."M0_V4_H3_C1"+=gear_crit_rating=300
+profileset."M0_V4_H3_C1"+=gear_versatility_rating=650
+profileset."M0_V4_H3_C1"+=gear_haste_rating=550
+profileset."M0_V4_H3_C1"+=gear_crit_rating=350
 
 profileset."M0_V4_H2_C2"+=gear_mastery_rating=250
-profileset."M0_V4_H2_C2"+=gear_versatility_rating=450
-profileset."M0_V4_H2_C2"+=gear_haste_rating=350
-profileset."M0_V4_H2_C2"+=gear_crit_rating=350
+profileset."M0_V4_H2_C2"+=gear_versatility_rating=650
+profileset."M0_V4_H2_C2"+=gear_haste_rating=450
+profileset."M0_V4_H2_C2"+=gear_crit_rating=450
 
 profileset."M0_V4_H1_C3"+=gear_mastery_rating=250
-profileset."M0_V4_H1_C3"+=gear_versatility_rating=450
-profileset."M0_V4_H1_C3"+=gear_haste_rating=300
-profileset."M0_V4_H1_C3"+=gear_crit_rating=400
+profileset."M0_V4_H1_C3"+=gear_versatility_rating=650
+profileset."M0_V4_H1_C3"+=gear_haste_rating=350
+profileset."M0_V4_H1_C3"+=gear_crit_rating=550
 
 profileset."M0_V4_H0_C4"+=gear_mastery_rating=250
-profileset."M0_V4_H0_C4"+=gear_versatility_rating=450
+profileset."M0_V4_H0_C4"+=gear_versatility_rating=650
 profileset."M0_V4_H0_C4"+=gear_haste_rating=250
-profileset."M0_V4_H0_C4"+=gear_crit_rating=450
+profileset."M0_V4_H0_C4"+=gear_crit_rating=650
 
 profileset."M0_V3_H5_C0"+=gear_mastery_rating=250
-profileset."M0_V3_H5_C0"+=gear_versatility_rating=400
-profileset."M0_V3_H5_C0"+=gear_haste_rating=500
+profileset."M0_V3_H5_C0"+=gear_versatility_rating=550
+profileset."M0_V3_H5_C0"+=gear_haste_rating=750
 profileset."M0_V3_H5_C0"+=gear_crit_rating=250
 
 profileset."M0_V3_H4_C1"+=gear_mastery_rating=250
-profileset."M0_V3_H4_C1"+=gear_versatility_rating=400
-profileset."M0_V3_H4_C1"+=gear_haste_rating=450
-profileset."M0_V3_H4_C1"+=gear_crit_rating=300
+profileset."M0_V3_H4_C1"+=gear_versatility_rating=550
+profileset."M0_V3_H4_C1"+=gear_haste_rating=650
+profileset."M0_V3_H4_C1"+=gear_crit_rating=350
 
 profileset."M0_V3_H3_C2"+=gear_mastery_rating=250
-profileset."M0_V3_H3_C2"+=gear_versatility_rating=400
-profileset."M0_V3_H3_C2"+=gear_haste_rating=400
-profileset."M0_V3_H3_C2"+=gear_crit_rating=350
+profileset."M0_V3_H3_C2"+=gear_versatility_rating=550
+profileset."M0_V3_H3_C2"+=gear_haste_rating=550
+profileset."M0_V3_H3_C2"+=gear_crit_rating=450
 
 profileset."M0_V3_H2_C3"+=gear_mastery_rating=250
-profileset."M0_V3_H2_C3"+=gear_versatility_rating=400
-profileset."M0_V3_H2_C3"+=gear_haste_rating=350
-profileset."M0_V3_H2_C3"+=gear_crit_rating=400
+profileset."M0_V3_H2_C3"+=gear_versatility_rating=550
+profileset."M0_V3_H2_C3"+=gear_haste_rating=450
+profileset."M0_V3_H2_C3"+=gear_crit_rating=550
 
 profileset."M0_V3_H1_C4"+=gear_mastery_rating=250
-profileset."M0_V3_H1_C4"+=gear_versatility_rating=400
-profileset."M0_V3_H1_C4"+=gear_haste_rating=300
-profileset."M0_V3_H1_C4"+=gear_crit_rating=450
+profileset."M0_V3_H1_C4"+=gear_versatility_rating=550
+profileset."M0_V3_H1_C4"+=gear_haste_rating=350
+profileset."M0_V3_H1_C4"+=gear_crit_rating=650
 
 profileset."M0_V3_H0_C5"+=gear_mastery_rating=250
-profileset."M0_V3_H0_C5"+=gear_versatility_rating=400
+profileset."M0_V3_H0_C5"+=gear_versatility_rating=550
 profileset."M0_V3_H0_C5"+=gear_haste_rating=250
-profileset."M0_V3_H0_C5"+=gear_crit_rating=500
+profileset."M0_V3_H0_C5"+=gear_crit_rating=750
 
 profileset."M0_V2_H6_C0"+=gear_mastery_rating=250
-profileset."M0_V2_H6_C0"+=gear_versatility_rating=350
-profileset."M0_V2_H6_C0"+=gear_haste_rating=550
+profileset."M0_V2_H6_C0"+=gear_versatility_rating=450
+profileset."M0_V2_H6_C0"+=gear_haste_rating=850
 profileset."M0_V2_H6_C0"+=gear_crit_rating=250
 
 profileset."M0_V2_H5_C1"+=gear_mastery_rating=250
-profileset."M0_V2_H5_C1"+=gear_versatility_rating=350
-profileset."M0_V2_H5_C1"+=gear_haste_rating=500
-profileset."M0_V2_H5_C1"+=gear_crit_rating=300
+profileset."M0_V2_H5_C1"+=gear_versatility_rating=450
+profileset."M0_V2_H5_C1"+=gear_haste_rating=750
+profileset."M0_V2_H5_C1"+=gear_crit_rating=350
 
 profileset."M0_V2_H4_C2"+=gear_mastery_rating=250
-profileset."M0_V2_H4_C2"+=gear_versatility_rating=350
-profileset."M0_V2_H4_C2"+=gear_haste_rating=450
-profileset."M0_V2_H4_C2"+=gear_crit_rating=350
+profileset."M0_V2_H4_C2"+=gear_versatility_rating=450
+profileset."M0_V2_H4_C2"+=gear_haste_rating=650
+profileset."M0_V2_H4_C2"+=gear_crit_rating=450
 
 profileset."M0_V2_H3_C3"+=gear_mastery_rating=250
-profileset."M0_V2_H3_C3"+=gear_versatility_rating=350
-profileset."M0_V2_H3_C3"+=gear_haste_rating=400
-profileset."M0_V2_H3_C3"+=gear_crit_rating=400
+profileset."M0_V2_H3_C3"+=gear_versatility_rating=450
+profileset."M0_V2_H3_C3"+=gear_haste_rating=550
+profileset."M0_V2_H3_C3"+=gear_crit_rating=550
 
 profileset."M0_V2_H2_C4"+=gear_mastery_rating=250
-profileset."M0_V2_H2_C4"+=gear_versatility_rating=350
-profileset."M0_V2_H2_C4"+=gear_haste_rating=350
-profileset."M0_V2_H2_C4"+=gear_crit_rating=450
+profileset."M0_V2_H2_C4"+=gear_versatility_rating=450
+profileset."M0_V2_H2_C4"+=gear_haste_rating=450
+profileset."M0_V2_H2_C4"+=gear_crit_rating=650
 
 profileset."M0_V2_H1_C5"+=gear_mastery_rating=250
-profileset."M0_V2_H1_C5"+=gear_versatility_rating=350
-profileset."M0_V2_H1_C5"+=gear_haste_rating=300
-profileset."M0_V2_H1_C5"+=gear_crit_rating=500
+profileset."M0_V2_H1_C5"+=gear_versatility_rating=450
+profileset."M0_V2_H1_C5"+=gear_haste_rating=350
+profileset."M0_V2_H1_C5"+=gear_crit_rating=750
 
 profileset."M0_V2_H0_C6"+=gear_mastery_rating=250
-profileset."M0_V2_H0_C6"+=gear_versatility_rating=350
+profileset."M0_V2_H0_C6"+=gear_versatility_rating=450
 profileset."M0_V2_H0_C6"+=gear_haste_rating=250
-profileset."M0_V2_H0_C6"+=gear_crit_rating=550
+profileset."M0_V2_H0_C6"+=gear_crit_rating=850
 
 profileset."M0_V1_H7_C0"+=gear_mastery_rating=250
-profileset."M0_V1_H7_C0"+=gear_versatility_rating=300
-profileset."M0_V1_H7_C0"+=gear_haste_rating=600
+profileset."M0_V1_H7_C0"+=gear_versatility_rating=350
+profileset."M0_V1_H7_C0"+=gear_haste_rating=950
 profileset."M0_V1_H7_C0"+=gear_crit_rating=250
 
 profileset."M0_V1_H6_C1"+=gear_mastery_rating=250
-profileset."M0_V1_H6_C1"+=gear_versatility_rating=300
-profileset."M0_V1_H6_C1"+=gear_haste_rating=550
-profileset."M0_V1_H6_C1"+=gear_crit_rating=300
+profileset."M0_V1_H6_C1"+=gear_versatility_rating=350
+profileset."M0_V1_H6_C1"+=gear_haste_rating=850
+profileset."M0_V1_H6_C1"+=gear_crit_rating=350
 
 profileset."M0_V1_H5_C2"+=gear_mastery_rating=250
-profileset."M0_V1_H5_C2"+=gear_versatility_rating=300
-profileset."M0_V1_H5_C2"+=gear_haste_rating=500
-profileset."M0_V1_H5_C2"+=gear_crit_rating=350
+profileset."M0_V1_H5_C2"+=gear_versatility_rating=350
+profileset."M0_V1_H5_C2"+=gear_haste_rating=750
+profileset."M0_V1_H5_C2"+=gear_crit_rating=450
 
 profileset."M0_V1_H4_C3"+=gear_mastery_rating=250
-profileset."M0_V1_H4_C3"+=gear_versatility_rating=300
-profileset."M0_V1_H4_C3"+=gear_haste_rating=450
-profileset."M0_V1_H4_C3"+=gear_crit_rating=400
+profileset."M0_V1_H4_C3"+=gear_versatility_rating=350
+profileset."M0_V1_H4_C3"+=gear_haste_rating=650
+profileset."M0_V1_H4_C3"+=gear_crit_rating=550
 
 profileset."M0_V1_H3_C4"+=gear_mastery_rating=250
-profileset."M0_V1_H3_C4"+=gear_versatility_rating=300
-profileset."M0_V1_H3_C4"+=gear_haste_rating=400
-profileset."M0_V1_H3_C4"+=gear_crit_rating=450
+profileset."M0_V1_H3_C4"+=gear_versatility_rating=350
+profileset."M0_V1_H3_C4"+=gear_haste_rating=550
+profileset."M0_V1_H3_C4"+=gear_crit_rating=650
 
 profileset."M0_V1_H2_C5"+=gear_mastery_rating=250
-profileset."M0_V1_H2_C5"+=gear_versatility_rating=300
-profileset."M0_V1_H2_C5"+=gear_haste_rating=350
-profileset."M0_V1_H2_C5"+=gear_crit_rating=500
+profileset."M0_V1_H2_C5"+=gear_versatility_rating=350
+profileset."M0_V1_H2_C5"+=gear_haste_rating=450
+profileset."M0_V1_H2_C5"+=gear_crit_rating=750
 
 profileset."M0_V1_H1_C6"+=gear_mastery_rating=250
-profileset."M0_V1_H1_C6"+=gear_versatility_rating=300
-profileset."M0_V1_H1_C6"+=gear_haste_rating=300
-profileset."M0_V1_H1_C6"+=gear_crit_rating=550
+profileset."M0_V1_H1_C6"+=gear_versatility_rating=350
+profileset."M0_V1_H1_C6"+=gear_haste_rating=350
+profileset."M0_V1_H1_C6"+=gear_crit_rating=850
 
 profileset."M0_V1_H0_C7"+=gear_mastery_rating=250
-profileset."M0_V1_H0_C7"+=gear_versatility_rating=300
+profileset."M0_V1_H0_C7"+=gear_versatility_rating=350
 profileset."M0_V1_H0_C7"+=gear_haste_rating=250
-profileset."M0_V1_H0_C7"+=gear_crit_rating=600
+profileset."M0_V1_H0_C7"+=gear_crit_rating=950
 
 profileset."M0_V0_H8_C0"+=gear_mastery_rating=250
 profileset."M0_V0_H8_C0"+=gear_versatility_rating=250
-profileset."M0_V0_H8_C0"+=gear_haste_rating=650
+profileset."M0_V0_H8_C0"+=gear_haste_rating=1050
 profileset."M0_V0_H8_C0"+=gear_crit_rating=250
 
 profileset."M0_V0_H7_C1"+=gear_mastery_rating=250
 profileset."M0_V0_H7_C1"+=gear_versatility_rating=250
-profileset."M0_V0_H7_C1"+=gear_haste_rating=600
-profileset."M0_V0_H7_C1"+=gear_crit_rating=300
+profileset."M0_V0_H7_C1"+=gear_haste_rating=950
+profileset."M0_V0_H7_C1"+=gear_crit_rating=350
 
 profileset."M0_V0_H6_C2"+=gear_mastery_rating=250
 profileset."M0_V0_H6_C2"+=gear_versatility_rating=250
-profileset."M0_V0_H6_C2"+=gear_haste_rating=550
-profileset."M0_V0_H6_C2"+=gear_crit_rating=350
+profileset."M0_V0_H6_C2"+=gear_haste_rating=850
+profileset."M0_V0_H6_C2"+=gear_crit_rating=450
 
 profileset."M0_V0_H5_C3"+=gear_mastery_rating=250
 profileset."M0_V0_H5_C3"+=gear_versatility_rating=250
-profileset."M0_V0_H5_C3"+=gear_haste_rating=500
-profileset."M0_V0_H5_C3"+=gear_crit_rating=400
+profileset."M0_V0_H5_C3"+=gear_haste_rating=750
+profileset."M0_V0_H5_C3"+=gear_crit_rating=550
 
 profileset."M0_V0_H4_C4"+=gear_mastery_rating=250
 profileset."M0_V0_H4_C4"+=gear_versatility_rating=250
-profileset."M0_V0_H4_C4"+=gear_haste_rating=450
-profileset."M0_V0_H4_C4"+=gear_crit_rating=450
+profileset."M0_V0_H4_C4"+=gear_haste_rating=650
+profileset."M0_V0_H4_C4"+=gear_crit_rating=650
 
 profileset."M0_V0_H3_C5"+=gear_mastery_rating=250
 profileset."M0_V0_H3_C5"+=gear_versatility_rating=250
-profileset."M0_V0_H3_C5"+=gear_haste_rating=400
-profileset."M0_V0_H3_C5"+=gear_crit_rating=500
+profileset."M0_V0_H3_C5"+=gear_haste_rating=550
+profileset."M0_V0_H3_C5"+=gear_crit_rating=750
 
 profileset."M0_V0_H2_C6"+=gear_mastery_rating=250
 profileset."M0_V0_H2_C6"+=gear_versatility_rating=250
-profileset."M0_V0_H2_C6"+=gear_haste_rating=350
-profileset."M0_V0_H2_C6"+=gear_crit_rating=550
+profileset."M0_V0_H2_C6"+=gear_haste_rating=450
+profileset."M0_V0_H2_C6"+=gear_crit_rating=850
 
 profileset."M0_V0_H1_C7"+=gear_mastery_rating=250
 profileset."M0_V0_H1_C7"+=gear_versatility_rating=250
-profileset."M0_V0_H1_C7"+=gear_haste_rating=300
-profileset."M0_V0_H1_C7"+=gear_crit_rating=600
+profileset."M0_V0_H1_C7"+=gear_haste_rating=350
+profileset."M0_V0_H1_C7"+=gear_crit_rating=950
 
 profileset."M0_V0_H0_C8"+=gear_mastery_rating=250
 profileset."M0_V0_H0_C8"+=gear_versatility_rating=250
 profileset."M0_V0_H0_C8"+=gear_haste_rating=250
-profileset."M0_V0_H0_C8"+=gear_crit_rating=650
+profileset."M0_V0_H0_C8"+=gear_crit_rating=1050
 
