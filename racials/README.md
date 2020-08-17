@@ -1,13 +1,13 @@
 # Racial Results
 
 ## Raids
-- [Composite - AS](results/Results_Composite_stm.md)
-- [Composite - SC](results/Results_Composite_am.md)
+- [Composite - STM](results/Results_Composite_stm.md)
+- [Composite - AM](results/Results_Composite_am.md)
 
 ## Single Target
-- [Single - AS](results/Results_Single_as.md)
-- [Single - SC](results/Results_Single_sc.md)
+- [Single - STM](results/Results_Single_stm.md)
+- [Single - AM](results/Results_Single_am.md)
 
 ## Dungeons
-- [Dungeons - AS](results/Results_Dungeons_as.md)
-- [Dungeons - SC](results/Results_Dungeons_sc.md)
+- [Dungeons - STM](results/Results_Dungeons_stm.md)
+- [Dungeons - AM](results/Results_Dungeons_am.md)
