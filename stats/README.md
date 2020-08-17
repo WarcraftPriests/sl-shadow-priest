@@ -1,4 +1,4 @@
-# Racial Results
+# Stat Distribution Results
 
 ## Raids
 - [Composite - AS](results/Results_Composite_stm.md)
