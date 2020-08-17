@@ -2,6 +2,8 @@ import os
 import argparse
 import yaml
 
+from itertools import combinations_with_replacement
+
 with open("config.yml", "r") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
@@ -49,6 +51,49 @@ def build_settings(talent_string, profile_name_string, weights):
     return settings_string
 
 
+def build_stats_files():
+    simFile = 'stats.simc'
+    baseFile = "{0}{1}".format(args.dir, simFile)
+    stats = ['mastery', 'versatility', 'haste', 'crit']
+    statsBase = config["stats"]["base"] / 4
+    statsSteps = config["stats"]["steps"]
+    numOfSteps = (config["stats"]["total"] - config["stats"]["base"]) / statsSteps
+    distributions = combinations_with_replacement(stats, int(numOfSteps))
+    ratingCombinations = []
+    for dist in distributions:
+        mastery = dist.count('mastery')
+        versatility = dist.count('versatility')
+        haste = dist.count('haste')
+        crit = dist.count('crit')
+        masteryString = "gear_mastery_rating={0}".format(int((mastery * statsSteps) + statsBase))
+        versatilityString = "gear_versatility_rating={0}".format(int((versatility * statsSteps) + statsBase))
+        hasteString = "gear_haste_rating={0}".format(int((haste * statsSteps) + statsBase))
+        critString = "gear_crit_rating={0}".format(int((crit * statsSteps) + statsBase))
+        ratingCombinations.append(
+            {
+                "name": "M{0}_V{1}_H{2}_C{3}".format(mastery, versatility, haste, crit),
+                "mastery": masteryString,
+                "vers": versatilityString,
+                "haste": hasteString,
+                "crit": critString
+            }
+        )
+    numberOfCombos = len(ratingCombinations)
+    outputFile = "{0}/generated.simc".format(args.dir)
+    with open(baseFile, 'r') as f:
+        data = f.read()
+        f.close()
+    with open(outputFile, 'w+') as file:
+        file.writelines(data)
+        for combo in ratingCombinations:
+            file.write('profileset."{0}"+={1}\nprofileset."{2}"+={3}\nprofileset."{4}"+={5}\nprofileset."{6}"+={7}\n\n'.format(
+                combo.get('name'), combo.get('mastery'),
+                combo.get('name'), combo.get('vers'),
+                combo.get('name'), combo.get('haste'),
+                combo.get('name'), combo.get('crit')
+            ))
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generates sim profiles.')
     parser.add_argument('dir', help='Directory to generate profiles for.')
@@ -65,6 +110,9 @@ if __name__ == '__main__':
 
     clear_out_folders('%soutput/' % args.dir)
     clear_out_folders('%sprofiles/' % args.dir)
+
+    if args.dir[:-1] == 'stats':
+        build_stats_files()
 
     # build combination list e.g. pw_sa_1
     fightStyles = ["pw", "lm", "hm"]
