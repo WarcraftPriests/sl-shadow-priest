@@ -1,10 +1,10 @@
 builds:
-  as:
-    composite: 3111111
-    dungeons: 3131111
-  sc:
-    composite: 3111311
+  am:
+    composite: 3121121
     dungeons: 3131311
+  stm:
+    composite: 3121123
+    dungeons: 3131313
 sims:
   apl:
     builds: false
@@ -55,6 +55,13 @@ sims:
       - DPS
     files:
       - necrolord.simc
+  stats:
+    builds: true
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - generated.simc
   talents:
     builds: false
     lookupType: spell
@@ -86,3 +93,7 @@ analyze:
   markdown: true
   csv: true
   json: true
+stats:
+  base: 1000
+  steps: 50
+  total: 1400
