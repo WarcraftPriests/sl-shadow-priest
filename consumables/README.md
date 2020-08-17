@@ -1,8 +1,8 @@
 # Consumable Results
 
 ## Raids
-- [Composite - AS](results/Results_Composite_as.md)
-- [Composite - SC](results/Results_Composite_sc.md)
+- [Composite - AS](results/Results_Composite_stm.md)
+- [Composite - SC](results/Results_Composite_am.md)
 
 ## Single Target
 - [Single - AS](results/Results_Single_as.md)
