@@ -3,6 +3,7 @@ level=60
 role=spell
 position=back
 spec=shadow
+covenant=venthyr
 
 default_actions=1
 
@@ -24,16 +25,17 @@ main_hand=vorzz_yoqal,id=172196,ilevel=130,enchant=quick_navigation
 off_hand=uhnish_vwah,id=172190,ilevel=130
 
 # Shadowflame Prism
-# 6982
+profileset."Shadowflame_Prism"+=head=,id=173218,bonus_id=6982
 
 # Painbreaker Psalm
-# 6981
+profileset."Painbreaker_Psalm"+=head=,id=173218,bonus_id=6981
 
 # PI Others
-# 7002
+profileset."Twins_of_the_Sun_Priestess_Conduit_15"+=head=,id=173218,bonus_id=7002
+profileset."Twins_of_the_Sun_Priestess_Conduit_15"+=soulbind=theotar_the_mad_duke,73:15
 
 # Eternal Call to the Void
-# 6983
+profileset."Eternnal_Call_to_the_Void"+=head=,id=173218,bonus_id=6983
 
 # Talbadar's Stratagem
-# 7162
+profileset."Talbadars_Stratagem"+=head=,id=173218,bonus_id=7162
