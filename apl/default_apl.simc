@@ -59,7 +59,9 @@ actions.boon+=/ascended_nova
 
 # Sync up Voidform and Power Infusion Cooldowns.
 actions.main=call_action_list,name=boon,if=buff.boon_of_the_ascended.up
+# Sync up Voidform and Power Infusion Cooldowns.
 actions.main+=/void_eruption,if=cooldown.power_infusion.up
+# Only use Void Bolt if Devouring Plague doesn't need refreshed.
 actions.main+=/void_bolt,if=!dot.devouring_plague.refreshable
 actions.main+=/call_action_list,name=cds
 # Prefer to use Damnation ASAP if any DoT is not up
@@ -77,6 +79,13 @@ actions.main+=/void_torrent,target_if=variable.all_dots_up&!cooldown.void_erupti
 actions.main+=/shadow_word_death,if=(!runeforge.painbreaker_psalm.equipped|(runeforge.painbreaker_psalm.equipped&variable.dots_up))&target.health.pct>30
 # Use Shadow Crash on CD unless there are adds incoming.
 actions.main+=/shadow_crash,if=raid_event.adds.in>5&raid_event.adds.duration<20
+# Use Mind Sear to consume Dark Thoughts procs on AOE. TODO Confirm is this is a higher priority than redotting on AOE unless dark thoughts is about to time out
+actions.main+=/mind_sear,target_if=spell_targets.mind_sear>1&buff.dark_thoughts.up,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
+# Use Mind Flay to consume Dark Thoughts procs on ST. TODO Confirm if this is a higher priority than redotting unless dark thoughts is about to time out
+actions.main+=/mind_flay,if=buff.dark_thoughts.up&variable.dots_up,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&cooldown.void_bolt.up
+actions.main+=/searing_nightmare,use_while_casting=1,if=spell_targets.mind_sear>2
+# TODO change logic on when to use instant blasts
+actions.main+=/mind_blast,use_while_casting=1,if=variable.dots_up
 # TODO Verify target cap
 actions.main+=/mind_blast,if=variable.dots_up&raid_event.movement.in>cast_time+0.5&spell_targets.mind_sear<4
 actions.main+=/shadow_word_pain,target_if=refreshable&target.time_to_die>4&!talent.misery.enabled
