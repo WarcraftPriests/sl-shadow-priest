@@ -80,7 +80,7 @@ actions.main+=/shadow_word_death,if=(!runeforge.painbreaker_psalm.equipped|(rune
 # Use Shadow Crash on CD unless there are adds incoming.
 actions.main+=/shadow_crash,if=raid_event.adds.in>5&raid_event.adds.duration<20
 # Use Mind Sear to consume Dark Thoughts procs on AOE. TODO Confirm is this is a higher priority than redotting on AOE unless dark thoughts is about to time out
-actions.main+=/mind_sear,target_if=spell_targets.mind_sear>1&buff.dark_thoughts.up,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
+actions.main+=/mind_sear,target_if=spell_targets.mind_sear>(1+runeforge.eternal_call_to_the_void.equipped)&buff.dark_thoughts.up,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
 # Use Mind Flay to consume Dark Thoughts procs on ST. TODO Confirm if this is a higher priority than redotting unless dark thoughts is about to time out
 actions.main+=/mind_flay,if=buff.dark_thoughts.up&variable.dots_up,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&cooldown.void_bolt.up
 actions.main+=/searing_nightmare,use_while_casting=1,if=spell_targets.mind_sear>2
@@ -90,6 +90,6 @@ actions.main+=/mind_blast,use_while_casting=1,if=variable.dots_up
 actions.main+=/mind_blast,if=variable.dots_up&raid_event.movement.in>cast_time+0.5&spell_targets.mind_sear<4
 actions.main+=/shadow_word_pain,target_if=refreshable&target.time_to_die>4&!talent.misery.enabled
 actions.main+=/vampiric_touch,target_if=refreshable&target.time_to_die>6|(talent.misery.enabled&dot.shadow_word_pain.refreshable)|buff.unfurling_darkness.up
-actions.main+=/mind_sear,target_if=spell_targets.mind_sear>1,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
+actions.main+=/mind_sear,target_if=spell_targets.mind_sear>(1+runeforge.eternal_call_to_the_void.equipped),chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
 actions.main+=/mind_flay,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&cooldown.void_bolt.up
 actions.main+=/shadow_word_pain
