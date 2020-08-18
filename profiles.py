@@ -54,7 +54,7 @@ def build_settings(talent_string, profile_name_string, weights):
 def build_stats_files():
     simFile = 'stats.simc'
     baseFile = "{0}{1}".format(args.dir, simFile)
-    stats = ['mastery', 'versatility', 'haste', 'crit']
+    stats = config["stats"]["include"]
     statsBase = config["stats"]["base"] / 4
     statsSteps = config["stats"]["steps"]
     numOfSteps = (config["stats"]["total"] - config["stats"]["base"]) / statsSteps

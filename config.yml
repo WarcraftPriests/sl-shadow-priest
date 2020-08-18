@@ -94,6 +94,10 @@ analyze:
   csv: true
   json: true
 stats:
-  base: 1000
+  base: 400
   steps: 50
   total: 1400
+  include:
+    - haste
+    - crit
+    - versatility
