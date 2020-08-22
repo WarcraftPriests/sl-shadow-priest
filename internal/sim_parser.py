@@ -8,6 +8,7 @@ def parse(filename, weights):
     with open(filename, "r") as f:
         s = f.read()
         sim = json.loads(s)
+        print("Parsing: " + filename)
         results = sim['sim']['players']
         for player in sorted(results, key=lambda k: k['name']):
             if not weights or 'Int' in player['scale_factors']:

@@ -13,6 +13,16 @@ sims:
       - DPS
     files:
       - apl.simc
+  conduits:
+    builds: true
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - kyrian.simc
+      - necrolord.simc
+      - night_fae.simc
+      - venthyr.simc
   consumables:
     builds: true
     lookupType: spell
@@ -95,9 +105,10 @@ analyze:
   json: true
 stats:
   base: 400
-  steps: 50
+  steps: 100
   total: 1400
   include:
+    - mastery
     - haste
     - crit
     - versatility

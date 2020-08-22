@@ -80,11 +80,13 @@ def build_stats_files():
         )
     numberOfCombos = len(ratingCombinations)
     outputFile = "{0}/generated.simc".format(args.dir)
+    baseStats = "gear_crit_rating={0}\ngear_haste_rating={0}\ngear_mastery_rating={0}\ngear_versatility_rating={0}\n".format(int(statsBase))
     with open(baseFile, 'r') as f:
         data = f.read()
         f.close()
     with open(outputFile, 'w+') as file:
         file.writelines(data)
+        file.writelines(baseStats)
         for combo in ratingCombinations:
             file.write('profileset."{0}"+={1}\nprofileset."{2}"+={3}\nprofileset."{4}"+={5}\nprofileset."{6}"+={7}\n\n'.format(
                 combo.get('name'), combo.get('mastery'),

@@ -3,6 +3,7 @@ import yaml
 import api_secrets
 import sys
 import platform
+import re
 
 from os import listdir
 from internal.weights import find_weights
@@ -31,10 +32,7 @@ def run_sims(args, iterations):
     count = 0
 
     for profile in profiles:
-        # profile: racials_hm_ba_1.simc
-        start = profile.index('_') + 1
-        # trim the name to be just hm_ba_1
-        profile_name = profile[start:-5]
+        profile_name = re.search('(hm|lm|pw).+?(?=.simc)', profile).group()
         count = count + 1
         if not args.dungeons:
             weight = find_weights(config["compositeWeights"]).get(profile_name)
