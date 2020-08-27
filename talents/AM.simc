@@ -1,7 +1,7 @@
 priest="Base"
 level=60
 role=spell
-poDaMtion=back
+position=back
 spec=shadow
 
 default_actions=1
