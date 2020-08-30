@@ -89,18 +89,24 @@ def build_results(data, weights, sim_type, directory):
     return results
 
 
+def generate_report_name(sim_type, talent_string, covenant_string):
+    talents = " - {0}".format(talent_string.strip("_")) if talent_string else ""
+    covenant = " - {0}".format(covenant_string.strip("_")) if covenant_string else ""
+    return "{0}{1}{2}".format(sim_type, talents, covenant)
+
+
 def build_markdown(sim_type, talent_string, results, weights, base_dps, covenant_string):
     output_file = build_output_string(sim_type, talent_string, covenant_string, "md")
     with open(output_file, 'w+') as results_md:
         if weights:
             results_md.write(
-                '# {0} - {1} - {2}\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight '
-                '|\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n'.format(sim_type, talent_string.strip("_"), covenant_string.strip("_")))
+                '# {0}\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight '
+                '|\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n'.format(generate_report_name(sim_type, talent_string, covenant_string)))
             for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
                 results_md.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (
                     key, value[0], value[1], value[2], value[3], value[4], value[5], value[6]))
         else:
-            results_md.write('# {0} - {1} - {2}\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n'.format(sim_type, talent_string.strip("_"), covenant_string.strip("_")))
+            results_md.write('# {0}\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n'.format(generate_report_name(sim_type, talent_string, covenant_string)))
             for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
                 results_md.write("|%s|%.0f|%.2f%%|\n" % (key, value, get_change(value, base_dps)))
 
@@ -153,7 +159,7 @@ def build_json(sim_type, talent_string, results, directory, timestamp, covenant_
     output_file = build_output_string(sim_type, talent_string, covenant_string, "json")
     human_date = time.strftime('%Y-%m-%d', time.localtime(timestamp))
     chart_data = {
-        "name": "{0} - {1} - {2}".format(sim_type, talent_string.strip("_"), covenant_string.strip("_")),
+        "name": generate_report_name(sim_type, talent_string, covenant_string),
         "data": {},
         "ids": {},
         "simulated_steps": [],
