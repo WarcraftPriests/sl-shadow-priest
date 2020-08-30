@@ -13,6 +13,7 @@ covenants:
 sims:
   apl:
     builds: false
+    covenant: false
     lookupType: none
     steps:
       - DPS
@@ -20,6 +21,7 @@ sims:
       - apl.simc
   conduits:
     builds: true
+    covenant: false
     lookupType: spell
     steps:
       - DPS
@@ -30,6 +32,7 @@ sims:
       - venthyr.simc
   consumables:
     builds: true
+    covenant: false
     lookupType: spell
     steps:
       - DPS
@@ -37,6 +40,7 @@ sims:
       - consumables.simc
   covenants:
     builds: true
+    covenant: false
     lookupType: spell
     steps:
       - DPS
@@ -44,6 +48,7 @@ sims:
       - covenants.simc
   enchants:
     builds: true
+    covenant: false
     lookupType: spell
     steps:
       - DPS
@@ -59,6 +64,7 @@ sims:
       - legendaries.simc
   racials:
     builds: true
+    covenant: false
     lookupType: spell
     steps:
       - DPS
@@ -66,6 +72,7 @@ sims:
       - racials.simc
   soulbinds:
     builds: true
+    covenant: false
     lookupType: spell
     steps:
       - DPS
@@ -73,6 +80,7 @@ sims:
       - necrolord.simc
   stats:
     builds: true
+    covenant: false
     lookupType: none
     steps:
       - DPS
@@ -80,6 +88,7 @@ sims:
       - generated.simc
   talents:
     builds: false
+    covenant: false
     lookupType: spell
     steps:
       - DPS
@@ -89,6 +98,7 @@ sims:
       - STM.simc
   trinkets:
     builds: true
+    covenant: false
     lookupType: item
     steps:
       - 415
