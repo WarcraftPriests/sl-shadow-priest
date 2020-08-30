@@ -1,8 +1,8 @@
-# Dungeons
+# Dungeons - stm - 
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Kyrian|2783|1.61%|
-|Necrolord|2744|0.18%|
-|Base|2739|0.00%|
-|Night_Fae|2738|-0.04%|
-|Venthyr|2709|-1.10%|
+|Kyrian|2687|5.25%|
+|Venthyr|2570|0.67%|
+|Necrolord|2562|0.35%|
+|Base|2553|0.00%|
+|Night_Fae|2541|-0.47%|

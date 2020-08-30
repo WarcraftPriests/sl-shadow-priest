@@ -1,8 +1,8 @@
-# Composite
+# Composite - am - 
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Kyrian|2760|2.57%|
-|Venthyr|2740|1.85%|
-|Necrolord|2720|1.10%|
-|Base|2691|0.00%|
-|Night_Fae|2690|-0.01%|
+|Kyrian|2927|2.79%|
+|Necrolord|2909|2.16%|
+|Venthyr|2908|2.13%|
+|Night_Fae|2858|0.37%|
+|Base|2848|0.00%|
