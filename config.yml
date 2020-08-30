@@ -5,6 +5,11 @@ builds:
   stm:
     composite: 3121123
     dungeons: 3131313
+covenants:
+  - kyrian
+  - night_fae
+  - venthyr
+  - necrolord
 sims:
   apl:
     builds: false
@@ -46,6 +51,7 @@ sims:
       - enchants.simc
   legendaries:
     builds: true
+    covenants: true
     lookupType: spell
     steps:
       - DPS

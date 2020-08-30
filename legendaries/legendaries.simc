@@ -3,7 +3,6 @@ level=60
 role=spell
 position=back
 spec=shadow
-covenant=venthyr
 
 default_actions=1
 
@@ -35,7 +34,7 @@ profileset."Twins_of_the_Sun_Priestess_Conduit_15"+=head=,id=173218,bonus_id=700
 profileset."Twins_of_the_Sun_Priestess_Conduit_15"+=soulbind=theotar_the_mad_duke,73:15
 
 # Eternal Call to the Void
-profileset."Eternnal_Call_to_the_Void"+=head=,id=173218,bonus_id=6983
+profileset."Eternal_Call_to_the_Void"+=head=,id=173218,bonus_id=6983
 
 # Talbadar's Stratagem
 profileset."Talbadars_Stratagem"+=head=,id=173218,bonus_id=7162

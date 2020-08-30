@@ -18,10 +18,10 @@ def assure_path_exists(path):
         os.makedirs(dir_name)
 
 
-def build_output_string(sim_type, talent_string, file_type):
+def build_output_string(sim_type, talent_string, covenant_string, file_type):
     output_dir = "results/"
     assure_path_exists(output_dir)
-    return "{0}Results_{1}{2}.{3}".format(output_dir, sim_type, talent_string, file_type)
+    return "{0}Results_{1}{2}{3}.{4}".format(output_dir, sim_type, talent_string, covenant_string, file_type)
 
 
 def get_change(current, previous):
@@ -89,24 +89,24 @@ def build_results(data, weights, sim_type, directory):
     return results
 
 
-def build_markdown(sim_type, talent_string, results, weights, base_dps):
-    output_file = build_output_string(sim_type, talent_string, "md")
+def build_markdown(sim_type, talent_string, results, weights, base_dps, covenant_string):
+    output_file = build_output_string(sim_type, talent_string, covenant_string, "md")
     with open(output_file, 'w+') as results_md:
         if weights:
             results_md.write(
-                '# {0}\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight '
-                '|\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n'.format(sim_type))
+                '# {0} - {1} - {2}\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight '
+                '|\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n'.format(sim_type, talent_string.strip("_"), covenant_string.strip("_")))
             for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
                 results_md.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (
                     key, value[0], value[1], value[2], value[3], value[4], value[5], value[6]))
         else:
-            results_md.write('# {0}\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n'.format(sim_type))
+            results_md.write('# {0} - {1} - {2}\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n'.format(sim_type, talent_string.strip("_"), covenant_string.strip("_")))
             for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
                 results_md.write("|%s|%.0f|%.2f%%|\n" % (key, value, get_change(value, base_dps)))
 
 
-def build_csv(sim_type, talent_string, results, weights, base_dps):
-    output_file = build_output_string(sim_type, talent_string, "csv")
+def build_csv(sim_type, talent_string, results, weights, base_dps, covenant_string):
+    output_file = build_output_string(sim_type, talent_string, covenant_string, "csv")
     with open(output_file, 'w') as results_csv:
         if weights:
             results_csv.write('profile,actor,DPS,int,haste,crit,mastery,vers,dpsW,\n')
@@ -149,10 +149,11 @@ def lookup_item_id(item_name, directory):
                     return int(line.split(',id=')[1].split(',')[0])
 
 
-def build_json(sim_type, talent_string, results, directory, timestamp):
-    output_file = build_output_string(sim_type, talent_string, "json")
+def build_json(sim_type, talent_string, results, directory, timestamp, covenant_string):
+    output_file = build_output_string(sim_type, talent_string, covenant_string, "json")
     human_date = time.strftime('%Y-%m-%d', time.localtime(timestamp))
     chart_data = {
+        "name": "{0} - {1} - {2}".format(sim_type, talent_string.strip("_"), covenant_string.strip("_")),
         "data": {},
         "ids": {},
         "simulated_steps": [],
@@ -200,9 +201,9 @@ def build_json(sim_type, talent_string, results, directory, timestamp):
         results_json.write(json_data)
 
 
-def analyze(talents, directory, dungeons, weights, timestamp):
+def analyze(talents, directory, dungeons, weights, timestamp, covenant):
     os.chdir("..")
-    csv = "output/statweights.csv".format(directory)
+    csv = "output/statweights.csv"
     if weights:
         data = pandas.read_csv(csv,
                                usecols=['profile', 'actor', 'DD', 'DPS', 'int', 'haste', 'crit', 'mastery', 'vers'])
@@ -210,14 +211,15 @@ def analyze(talents, directory, dungeons, weights, timestamp):
         data = pandas.read_csv(csv, usecols=['profile', 'actor', 'DD', 'DPS'])
 
     talent_string = "_{0}".format(talents) if talents else ""
+    covenant_string = "_{0}".format(covenant) if covenant else ""
     sim_types = ["Dungeons"] if dungeons else ["Composite", "Single"]
 
     for sim_type in sim_types:
         results = build_results(data, weights, sim_type, directory)
         base_dps = results.get('Base')
         if config["analyze"]["markdown"]:
-            build_markdown(sim_type, talent_string, results, weights, base_dps)
+            build_markdown(sim_type, talent_string, results, weights, base_dps, covenant_string)
         if config["analyze"]["csv"]:
-            build_csv(sim_type, talent_string, results, weights, base_dps)
+            build_csv(sim_type, talent_string, results, weights, base_dps, covenant_string)
         if config["analyze"]["json"]:
-            build_json(sim_type, talent_string, results, directory, timestamp)
+            build_json(sim_type, talent_string, results, directory, timestamp, covenant_string)

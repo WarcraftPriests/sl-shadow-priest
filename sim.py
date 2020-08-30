@@ -32,7 +32,7 @@ def run_sims(args, iterations):
     count = 0
 
     for profile in profiles:
-        profile_name = re.search('(hm|lm|pw).+?(?=.simc)', profile).group()
+        profile_name = re.search('((hm|lm|pw).+?(?=.simc)|dungeons.simc)', profile).group()
         count = count + 1
         if not args.dungeons:
             weight = find_weights(config["compositeWeights"]).get(profile_name)
@@ -59,7 +59,7 @@ def convert_to_csv(args, weights):
 
 
 def analyze_data(args):
-    analyze(args.talents, args.dir, args.dungeons, args.weights, get_timestamp())
+    analyze(args.talents, args.dir, args.dungeons, args.weights, get_timestamp(), args.covenant)
 
 
 def main():
@@ -69,6 +69,7 @@ def main():
     parser.add_argument('--iterations', help='Pass through specific iterations to run on. Default is 10000')
     parser.add_argument('--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
     parser.add_argument('--talents', help='indicate talent build for output.', choices=config["builds"].keys())
+    parser.add_argument('--covenant', help='indicate covenant build for output.', choices=config["covenants"])
     args = parser.parse_args()
 
     sys.path.insert(0, args.dir)

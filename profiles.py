@@ -39,10 +39,12 @@ def clear_out_folders(path):
             print(e)
 
 
-def build_settings(talent_string, profile_name_string, weights):
+def build_settings(talent_string, profile_name_string, weights, covenant_string):
     settings_string = '\n'
     if talent_string:
         settings_string += "talents={0}\n".format(talent_string)
+    if covenant_string:
+        settings_string += "covenant={0}\n".format(covenant_string)
     for expression in fightExpressions:
         if expression in profile_name_string:
             settings_string += fightExpressions[expression] + "\n"
@@ -102,12 +104,18 @@ if __name__ == '__main__':
     parser.add_argument('--weights', help='Run sims with weights', action='store_true')
     parser.add_argument('--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
     parser.add_argument('--talents', help='indicate talent build for output.', choices=config["builds"].keys())
+    parser.add_argument('--covenant', help='indicate covenant build for output.', choices=config["covenants"])
     parser.add_argument('--ptr', help='indicate if the sim should use ptr data.', action='store_true')
     args = parser.parse_args()
 
     # check if sim dir requires talents
     if not args.talents and config["sims"][args.dir[:-1]]["builds"]:
         print("ERROR: Must provide talents for {0}/ sims.".format(args.dir[:-1]))
+        exit()
+
+    # check if sim dir requires covenant
+    if not args.covenant and config["sims"][args.dir[:-1]]["covenant"]:
+        print("ERROR: Must provide covenant for {0}/ sims.".format(args.dir[:-1]))
         exit()
 
     clear_out_folders('%soutput/' % args.dir)
@@ -140,7 +148,7 @@ if __name__ == '__main__':
                     talents = config["builds"][args.talents]["composite"]
             else:
                 talents = ''
-            settings = build_settings(talents, profile, args.weights)
+            settings = build_settings(talents, profile, args.weights, args.covenant)
             simcFile = "profiles/{0}.simc".format(profile_name)
             with open(args.dir + simcFile, "w+") as file:
                 if args.ptr:
