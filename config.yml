@@ -123,8 +123,15 @@ sims:
       files: false
     lookupType: item
     steps:
-      - 415
-      - 420
+      - 130
+      - 135
+      - 155
+      - 157
+      - 165
+      - 170
+      - 183
+      - 187
+      - 200
     files:
       - raid.simc
       - dungeons.simc

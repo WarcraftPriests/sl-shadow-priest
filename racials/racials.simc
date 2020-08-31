@@ -4,22 +4,22 @@ role=spell
 position=back
 spec=shadow
 
-head=cowl_of_unspeakable_horrors,id=174116,ilevel=135
-neck=heart_of_azeroth,id=158075,bonus_id=4929/5814/4936/1600
-shoulder=spaulders_of_miasmic_mycelia,id=174117,ilevel=140
-back=ashjrakamas_shroud_of_resolve,id=169223,bonus_id=6286
-chest=robe_of_the_fallen_keeper,id=174115,ilevel=135
-wrists=voiddrenched_wristwraps,id=174122,ilevel=130
-hands=emberscale_gloves,id=174125,ilevel=130
-waist=binding_of_dark_heresies,id=174126,ilevel=130
-legs=trousers_of_peculiar_potency,id=174121,ilevel=130
-feet=hyperthread_boots,id=168964,ilevel=130
-finger1=ring_of_collective_consciousness,id=174530,ilevel=130,enchant=accord_of_haste
-finger2=peerless_leviathans_eye_loop,id=171075,ilevel=125,gem_id=168641,bonus_id=1760,enchant=accord_of_haste
-trinket1=psyche_shredder,id=174060,ilevel=130
-trinket2=forbidden_obsidian_claw,id=173944,ilevel=130
-main_hand=vorzz_yoqal,id=172196,ilevel=130,enchant=quick_navigation
-off_hand=uhnish_vwah,id=172190,ilevel=130
+head=confidants_favored_cap,id=183021,bonus_id=6807
+neck=charm_of_eternal_winter,id=183040,bonus_id=6807
+shoulder=shawl_of_the_penitent,id=183020,bonus_id=6807
+back=crest_of_the_legionnaire_general,id=183032,bonus_id=6807
+chest=robes_of_the_cursed_commando,id=182998,bonus_id=6807
+wrists=acolytes_velvet_bindings,id=183017,bonus_id=6807
+hands=impossibly_oversized_mitts,id=183022,bonus_id=6807
+waist=shadewarped_sash,id=183004,bonus_id=6807
+legs=leggings_of_lethal_reverberations,id=182981,bonus_id=6807
+feet=slippers_of_the_forgotten_heretic,id=182979,bonus_id=6807
+finger1=hyperlight_band,id=183038,bonus_id=6807
+finger1=ritualists_treasured_ring,id=183037,bonus_id=6807
+trinket1=,id=174500,gem_id=168639,bonus_id=4824/1517/4786/6514
+trinket2=,id=175722,bonus_id=6707,drop_level=54
+main_hand=sinful_gladiators_blade,id=176000
+off_hand=sinful_gladiators_focus,id=176008
 
 profileset."Nightborne"+=race=nightborne
 
