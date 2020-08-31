@@ -13,7 +13,9 @@ covenants:
 sims:
   apl:
     builds: false
-    covenant: false
+    covenant:
+      lookup: false
+      files: false
     lookupType: none
     steps:
       - DPS
@@ -21,7 +23,9 @@ sims:
       - apl.simc
   conduits:
     builds: true
-    covenant: false
+    covenant: 
+      lookup: true
+      files: true
     lookupType: spell
     steps:
       - DPS
@@ -32,7 +36,9 @@ sims:
       - venthyr.simc
   consumables:
     builds: true
-    covenant: false
+    covenant:
+      lookup: false
+      files: false
     lookupType: spell
     steps:
       - DPS
@@ -40,7 +46,9 @@ sims:
       - consumables.simc
   covenants:
     builds: true
-    covenant: false
+    covenant:
+      lookup: false
+      files: false
     lookupType: spell
     steps:
       - DPS
@@ -48,7 +56,9 @@ sims:
       - covenants.simc
   enchants:
     builds: true
-    covenant: false
+    covenant:
+      lookup: false
+      files: false
     lookupType: spell
     steps:
       - DPS
@@ -56,7 +66,9 @@ sims:
       - enchants.simc
   legendaries:
     builds: true
-    covenants: true
+    covenants:
+      lookup: true
+      files: false
     lookupType: spell
     steps:
       - DPS
@@ -64,7 +76,9 @@ sims:
       - legendaries.simc
   racials:
     builds: true
-    covenant: false
+    covenant:
+      lookup: false
+      files: false
     lookupType: spell
     steps:
       - DPS
@@ -72,7 +86,9 @@ sims:
       - racials.simc
   soulbinds:
     builds: true
-    covenant: false
+    covenant:
+      lookup: false
+      files: false
     lookupType: spell
     steps:
       - DPS
@@ -80,7 +96,9 @@ sims:
       - necrolord.simc
   stats:
     builds: true
-    covenant: false
+    covenant:
+      lookup: false
+      files: false
     lookupType: none
     steps:
       - DPS
@@ -88,7 +106,9 @@ sims:
       - generated.simc
   talents:
     builds: false
-    covenant: false
+    covenant:
+      lookup: false
+      files: false
     lookupType: spell
     steps:
       - DPS
@@ -98,7 +118,9 @@ sims:
       - STM.simc
   trinkets:
     builds: true
-    covenant: false
+    covenant:
+      lookup: false
+      files: false
     lookupType: item
     steps:
       - 415

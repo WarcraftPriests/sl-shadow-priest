@@ -114,7 +114,7 @@ if __name__ == '__main__':
         exit()
 
     # check if sim dir requires covenant
-    if not args.covenant and config["sims"][args.dir[:-1]]["covenant"]:
+    if not args.covenant and config["sims"][args.dir[:-1]]["covenant"]["lookup"]:
         print("ERROR: Must provide covenant for {0}/ sims.".format(args.dir[:-1]))
         exit()
 
@@ -131,7 +131,12 @@ if __name__ == '__main__':
     combinations = [
         "{0}_{1}_{2}".format(fight, add, tar) for fight in fightStyles for add in addTypes for tar in targets
     ]
-    for simFile in config["sims"][args.dir[:-1]]["files"]:
+    simFiles = config["sims"][args.dir[:-1]]["files"]
+
+    if config["sims"][args.dir[:-1]]["covenant"]["files"]:
+        simFiles = ["{0}.simc".format(args.covenant)]
+
+    for simFile in simFiles:
         baseFile = "{0}{1}".format(args.dir, simFile)
         with open(baseFile, 'r') as f:
             data = f.read()

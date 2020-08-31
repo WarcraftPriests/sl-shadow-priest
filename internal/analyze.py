@@ -84,6 +84,10 @@ def build_results(data, weights, sim_type, directory):
                 results[actor] = weighted_dps
     # Each profile sims "Base" again so we need to divide that to get the real average
     number_of_profiles = len(config["sims"][directory[:-1]]["files"])
+
+    if config["sims"][directory[:-1]]["covenant"]["files"]:
+        number_of_profiles = 1
+
     base_dps = results.get('Base') / number_of_profiles
     results['Base'] = base_dps
     return results
