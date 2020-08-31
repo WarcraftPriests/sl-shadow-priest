@@ -4,6 +4,7 @@ import yaml
 import os
 import json
 import time
+import sys
 
 from internal.weights import find_weights
 from internal.spell_ids import find_ids
@@ -211,9 +212,18 @@ def build_json(sim_type, talent_string, results, directory, timestamp, covenant_
         results_json.write(json_data)
 
 
+def get_simc_dir(talent, covenant, folder_name):
+    if covenant:
+        return "{0}/{1}/{2}/".format(folder_name, talent, covenant)
+    elif talent:
+        return "{0}/{1}/".format(folder_name, talent)
+    else:
+        return "{0}/".format(folder_name)
+
+
 def analyze(talents, directory, dungeons, weights, timestamp, covenant):
-    os.chdir("..")
-    csv = "output/statweights.csv"
+    os.chdir('../../..')
+    csv = "{0}statweights.csv".format(get_simc_dir(talents, covenant, 'output'))
     if weights:
         data = pandas.read_csv(csv,
                                usecols=['profile', 'actor', 'DD', 'DPS', 'int', 'haste', 'crit', 'mastery', 'vers'])
@@ -233,3 +243,4 @@ def analyze(talents, directory, dungeons, weights, timestamp, covenant):
             build_csv(sim_type, talent_string, results, weights, base_dps, covenant_string)
         if config["analyze"]["json"]:
             build_json(sim_type, talent_string, results, directory, timestamp, covenant_string)
+    os.chdir('..')

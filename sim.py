@@ -4,6 +4,7 @@ import api_secrets
 import sys
 import platform
 import re
+import os
 
 from os import listdir
 from internal.weights import find_weights
@@ -22,13 +23,24 @@ with open("config.yml", "r") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 
-def run_sims(args, iterations):
+def get_simc_dir(talent, covenant, folder_name):
+    if covenant:
+        return "{0}/{1}/{2}/".format(folder_name, talent, covenant)
+    elif talent:
+        return "{0}/{1}/".format(folder_name, talent)
+    else:
+        return "{0}/".format(folder_name)
+
+
+def run_sims(args, iterations, talent, covenant):
     api_key = api_secrets.api_key
     print("Running sims on {0} in {1}".format(config["simcBuild"], args.dir))
 
     # determine existing jsons
-    existing = listdir(args.dir + 'output/')
-    profiles = listdir(args.dir + 'profiles/')
+    # for i,j,y in os.walk('.'):
+    #     print(i) 
+    existing = listdir(args.dir + get_simc_dir(talent, covenant, 'output'))
+    profiles = listdir(args.dir + get_simc_dir(talent, covenant, 'profiles'))
     count = 0
 
     for profile in profiles:
@@ -41,8 +53,8 @@ def run_sims(args, iterations):
         print("Simming {0} out of {1}.".format(count, len(profiles)))
         output_name = profile.replace('simc', 'json')
         if output_name not in existing and weight > 0:
-            output_location = args.dir + 'output/' + output_name
-            profile_location = args.dir + 'profiles/' + profile
+            output_location = args.dir + get_simc_dir(talent, covenant, 'output') + output_name
+            profile_location = args.dir + get_simc_dir(talent, covenant, 'profiles') + profile
             # prefix the profile name with the base file name
             profile_name_with_dir = "{0}{1}".format(args.dir, profile_name)
             raidbots(api_key, profile_location, config["simcBuild"], output_location, profile_name_with_dir, iterations)
@@ -52,14 +64,14 @@ def run_sims(args, iterations):
             print("{0} already exists. Skipping file.".format(output_name))
 
 
-def convert_to_csv(args, weights):
+def convert_to_csv(args, weights, talent, covenant):
     # creates results/statweights.txt
-    results_dir = args.dir + "output/"
+    results_dir = args.dir + get_simc_dir(talent, covenant, 'output')
     parse_json(results_dir, weights)
 
 
-def analyze_data(args):
-    analyze(args.talents, args.dir, args.dungeons, args.weights, get_timestamp(), args.covenant)
+def analyze_data(args, talent, covenant):
+    analyze(talent, args.dir, args.dungeons, args.weights, get_timestamp(), covenant)
 
 
 def main():
@@ -83,9 +95,37 @@ def main():
     else:
         iterations = str(config["defaultIterations"])
 
-    run_sims(args, iterations)
-    convert_to_csv(args, weights)
-    analyze_data(args)
+    if args.talents:
+        talents = [args.talents]
+    elif config["sims"][args.dir[:-1]]["builds"]:
+        talents = config["builds"].keys()
+    else:
+        talents = []
+
+    if args.covenant:
+        covenants = [args.covenant]
+    elif config["sims"][args.dir[:-1]]["covenant"]["lookup"]:
+        covenants = config["covenants"]
+    else:
+        covenants = []
+
+    if covenants:
+        for talent, covenant in [(talent, covenant) for talent in talents for covenant in covenants]:
+            print("Simming {0}-{1} profiles...".format(talent, covenant))
+            run_sims(args, iterations, talent, covenant)
+            convert_to_csv(args, weights, talent, covenant)
+            analyze_data(args, talent, covenant)
+    elif talents:
+        for talent in talents:
+            print("Simming {0} profiles...".format(talent))
+            run_sims(args, iterations, talent, None)
+            convert_to_csv(args, weights, talent, covenant)
+            analyze_data(args, talent, covenant)
+    else:
+        print("Simming default profiles...")
+        run_sims(args, iterations, None, None)
+        convert_to_csv(args, weights, talent, covenant)
+        analyze_data(args, talent, covenant)
 
 
 if __name__ == "__main__":

@@ -98,32 +98,16 @@ def build_stats_files():
             ))
 
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Generates sim profiles.')
-    parser.add_argument('dir', help='Directory to generate profiles for.')
-    parser.add_argument('--weights', help='Run sims with weights', action='store_true')
-    parser.add_argument('--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
-    parser.add_argument('--talents', help='indicate talent build for output.', choices=config["builds"].keys())
-    parser.add_argument('--covenant', help='indicate covenant build for output.', choices=config["covenants"])
-    parser.add_argument('--ptr', help='indicate if the sim should use ptr data.', action='store_true')
-    args = parser.parse_args()
+def build_simc_file(talent, covenant, profile_name):
+    if covenant:
+        return "profiles/{0}/{1}/{2}.simc".format(talent, covenant, profile_name)
+    elif talent:
+        return "profiles/{0}/{1}.simc".format(talent, profile_name)
+    else:
+        return "profiles/{0}.simc".format(profile_name)
 
-    # check if sim dir requires talents
-    if not args.talents and config["sims"][args.dir[:-1]]["builds"]:
-        print("ERROR: Must provide talents for {0}/ sims.".format(args.dir[:-1]))
-        exit()
-
-    # check if sim dir requires covenant
-    if not args.covenant and config["sims"][args.dir[:-1]]["covenant"]["lookup"]:
-        print("ERROR: Must provide covenant for {0}/ sims.".format(args.dir[:-1]))
-        exit()
-
-    clear_out_folders('%soutput/' % args.dir)
-    clear_out_folders('%sprofiles/' % args.dir)
-
-    if args.dir[:-1] == 'stats':
-        build_stats_files()
-
+        
+def build_profiles(talent, covenant, args):
     # build combination list e.g. pw_sa_1
     fightStyles = ["pw", "lm", "hm"]
     addTypes = ["sa", "ba", "na"]
@@ -134,7 +118,7 @@ if __name__ == '__main__':
     simFiles = config["sims"][args.dir[:-1]]["files"]
 
     if config["sims"][args.dir[:-1]]["covenant"]["files"]:
-        simFiles = ["{0}.simc".format(args.covenant)]
+        simFiles = ["{0}.simc".format(covenant)]
 
     for simFile in simFiles:
         baseFile = "{0}{1}".format(args.dir, simFile)
@@ -146,18 +130,66 @@ if __name__ == '__main__':
         for profile in combinations:
             # prefix the profile name with the base file name
             profile_name = "{0}_{1}".format(simFile[:-5], profile)
-            if args.talents:
+            if talent:
                 if args.dungeons:
-                    talents = config["builds"][args.talents]["dungeons"]
+                    talents = config["builds"][talent]["dungeons"]
                 else:
-                    talents = config["builds"][args.talents]["composite"]
+                    talents = config["builds"][talent]["composite"]
             else:
                 talents = ''
-            settings = build_settings(talents, profile, args.weights, args.covenant)
-            simcFile = "profiles/{0}.simc".format(profile_name)
+            settings = build_settings(talents, profile, args.weights, covenant)
+
+            simcFile = build_simc_file(talent, covenant, profile_name)
             with open(args.dir + simcFile, "w+") as file:
                 if args.ptr:
                     file.writelines(fightExpressions["ptr"])
                 file.writelines(data)
                 file.writelines(settings)
                 file.close()
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Generates sim profiles.')
+    parser.add_argument('dir', help='Directory to generate profiles for.')
+    parser.add_argument('--weights', help='Run sims with weights', action='store_true')
+    parser.add_argument('--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
+    parser.add_argument('--talents', help='indicate talent build for output.', choices=config["builds"].keys())
+    parser.add_argument('--covenant', help='indicate covenant build for output.', choices=config["covenants"])
+    parser.add_argument('--ptr', help='indicate if the sim should use ptr data.', action='store_true')
+    args = parser.parse_args()
+
+    if args.talents:
+        talents = [args.talents]
+    elif config["sims"][args.dir[:-1]]["builds"]:
+        talents = config["builds"].keys()
+    else:
+        talents = []
+
+    if args.covenant:
+        covenants = [args.covenant]
+    elif config["sims"][args.dir[:-1]]["covenant"]["lookup"]:
+        covenants = config["covenants"]
+    else:
+        covenants = []
+
+    clear_out_folders('%soutput/' % args.dir)
+    clear_out_folders('%sprofiles/' % args.dir)
+
+    if args.dir[:-1] == 'stats':
+        build_stats_files()
+
+    if covenants:
+        for talent, covenant in [(talent, covenant) for talent in talents for covenant in covenants]:
+            clear_out_folders('{0}output/{1}/{2}/'.format(args.dir, talent, covenant))
+            clear_out_folders('{0}profiles/{1}/{2}/'.format(args.dir, talent, covenant))
+            print("Building {0}-{1} profiles...".format(talent, covenant))
+            build_profiles(talent, covenant, args)
+    elif talents:
+        for talent in talents:
+            clear_out_folders('{0}output/{1}/'.format(args.dir, talent))
+            clear_out_folders('{0}profiles/{1}/'.format(args.dir, talent))
+            print("Building {0} profiles...".format(talent))
+            build_profiles(talent, None, args)
+    else:
+        print("Building default profiles...")
+        build_profiles(None, None, args)

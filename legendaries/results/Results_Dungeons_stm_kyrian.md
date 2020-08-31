@@ -1,9 +1,9 @@
 # Dungeons - stm - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|2735|3.48%|
-|Painbreaker_Psalm|2724|3.06%|
-|Talbadars_Stratagem|2680|1.40%|
-|Shadowflame_Prism|2650|0.26%|
-|Base|2643|0.00%|
-|Twins_of_the_Sun_Priestess_Conduit_15|2616|-1.02%|
+|Eternal_Call_to_the_Void|2823|3.26%|
+|Painbreaker_Psalm|2815|2.96%|
+|Talbadars_Stratagem|2774|1.46%|
+|Shadowflame_Prism|2738|0.15%|
+|Base|2734|0.00%|
+|Twins_of_the_Sun_Priestess_Conduit_15|2713|-0.77%|
