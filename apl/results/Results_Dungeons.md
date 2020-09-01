@@ -1,4 +1,5 @@
 # Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|67287|0.00%|
+|Move_VT_Higher_Priority|2758|0.07%|
+|Base|2756|0.00%|

@@ -1,1 +1,1 @@
-{"data": {"Base": {"DPS": 69994}}, "ids": {}, "simulated_steps": ["DPS"], "sorted_data_keys": [], "last_updated": "2020-04-10"}
+{"name": "Composite", "data": {"Base": {"DPS": 2919}, "Move_VT_Higher_Priority": {"DPS": 2918}}, "ids": {"Move_VT_Higher_Priority": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Move_VT_Higher_Priority"], "last_updated": "2020-09-01"}

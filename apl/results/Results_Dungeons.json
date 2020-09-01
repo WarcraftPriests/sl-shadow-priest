@@ -1,1 +1,1 @@
-{"data": {"Base": {"DPS": 67287}}, "ids": {}, "simulated_steps": ["DPS"], "sorted_data_keys": [], "last_updated": "2020-04-10"}
+{"name": "Dungeons", "data": {"Move_VT_Higher_Priority": {"DPS": 2758}, "Base": {"DPS": 2756}}, "ids": {"Move_VT_Higher_Priority": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Move_VT_Higher_Priority"], "last_updated": "2020-09-01"}
