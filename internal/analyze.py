@@ -5,6 +5,7 @@ import os
 import json
 import time
 import sys
+import re
 
 from internal.weights import find_weights
 from internal.spell_ids import find_ids
@@ -60,7 +61,7 @@ def build_results(data, weights, sim_type, directory):
     for value in data.iterrows():
         profile = value[1].profile
         actor = value[1].actor
-        fight_style = profile[profile.index('_') + 1:]
+        fight_style = re.search('((hm|lm|pw).*|dungeons$)', profile).group()
         weight = find_weight(sim_type, fight_style)
         weighted_dps = value[1].DPS * weight
         if weights:
@@ -222,8 +223,13 @@ def get_simc_dir(talent, covenant, folder_name):
 
 
 def analyze(talents, directory, dungeons, weights, timestamp, covenant):
-    os.chdir('../../..')
+    foldername = os.path.basename(os.getcwd())
+    # Move to correct outer folder
+    while foldername != directory[:-1]:
+        os.chdir("..")
+        foldername = os.path.basename(os.getcwd())
     csv = "{0}statweights.csv".format(get_simc_dir(talents, covenant, 'output'))
+
     if weights:
         data = pandas.read_csv(csv,
                                usecols=['profile', 'actor', 'DD', 'DPS', 'int', 'haste', 'crit', 'mastery', 'vers'])
@@ -243,4 +249,4 @@ def analyze(talents, directory, dungeons, weights, timestamp, covenant):
             build_csv(sim_type, talent_string, results, weights, base_dps, covenant_string)
         if config["analyze"]["json"]:
             build_json(sim_type, talent_string, results, directory, timestamp, covenant_string)
-    os.chdir('..')
+    os.chdir("..")

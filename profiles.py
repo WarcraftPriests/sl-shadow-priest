@@ -81,6 +81,7 @@ def build_stats_files():
             }
         )
     numberOfCombos = len(ratingCombinations)
+    print("Simming {0} number of combinations".format(numberOfCombos))
     outputFile = "{0}/generated.simc".format(args.dir)
     baseStats = "gear_crit_rating={0}\ngear_haste_rating={0}\ngear_mastery_rating={0}\ngear_versatility_rating={0}\n".format(int(statsBase))
     with open(baseFile, 'r') as f:

@@ -40,6 +40,12 @@ profileset."Empyreal_Ordnance_170"+=trinket1=empyreal_ordnance,id=180117,ilevel=
 profileset."Empyreal_Ordnance_183"+=trinket1=empyreal_ordnance,id=180117,ilevel=183
 profileset."Empyreal_Ordnance_187"+=trinket1=empyreal_ordnance,id=180117,ilevel=187
 
+profileset."Boon_of_the_Archon_155"+=trinket1=boon_of_the_archon,id=180119,ilevel=155
+profileset."Boon_of_the_Archon_157"+=trinket1=boon_of_the_archon,id=180119,ilevel=157
+profileset."Boon_of_the_Archon_170"+=trinket1=boon_of_the_archon,id=180119,ilevel=170
+profileset."Boon_of_the_Archon_183"+=trinket1=boon_of_the_archon,id=180119,ilevel=183
+profileset."Boon_of_the_Archon_187"+=trinket1=boon_of_the_archon,id=180119,ilevel=187
+
 # Sanguine Depths
 # TODO: swap which covenant this is used with? or change to covenant sims
 profileset."Overflowing_Anima_Prison_155"+=trinket1=overflowing_anima_prison,id=178849,ilevel=155
@@ -62,6 +68,12 @@ profileset."Vial_of_Vampiric_Essence_170"+=trinket1=vial_of_vampiric_essence,id=
 profileset."Vial_of_Vampiric_Essence_183"+=trinket1=vial_of_vampiric_essence,id=178810,ilevel=183
 profileset."Vial_of_Vampiric_Essence_187"+=trinket1=vial_of_vampiric_essence,id=178810,ilevel=187
 
+profileset."Soulletting_Ruby_155"+=trinket1=soulletting_ruby,id=178809,ilevel=155
+profileset."Soulletting_Ruby_157"+=trinket1=soulletting_ruby,id=178809,ilevel=157
+profileset."Soulletting_Ruby_170"+=trinket1=soulletting_ruby,id=178809,ilevel=170
+profileset."Soulletting_Ruby_183"+=trinket1=soulletting_ruby,id=178809,ilevel=183
+profileset."Soulletting_Ruby_187"+=trinket1=soulletting_ruby,id=178809,ilevel=187
+
 # The Necrotic Wake
 profileset."Spare_Meat_Hook_155"+=trinket1=spare_meat_hook,id=178751,ilevel=155
 profileset."Spare_Meat_Hook_157"+=trinket1=spare_meat_hook,id=178751,ilevel=157
@@ -74,3 +86,10 @@ profileset."Satchel_of_Misbegotten_Minions_157"+=trinket1=satchel_of_misbegotten
 profileset."Satchel_of_Misbegotten_Minions_170"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=170
 profileset."Satchel_of_Misbegotten_Minions_183"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=183
 profileset."Satchel_of_Misbegotten_Minions_187"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=187
+
+# Plaguefall
+profileset."Infinitely_Divisible_Ooze_155"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=155
+profileset."Infinitely_Divisible_Ooze_157"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=157
+profileset."Infinitely_Divisible_Ooze_170"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=170
+profileset."Infinitely_Divisible_Ooze_183"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=183
+profileset."Infinitely_Divisible_Ooze_187"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=187

@@ -25,8 +25,11 @@ off_hand=sinful_gladiators_focus,id=176008
 profileset."Darkmoon_Deck_Putrescence_200"+=trinket1=darkmoon_deck__putrescence,id=173069
 
 # Alchemy Stones
+# this trinket shows up 4 times 171323 - 175942 - 175941 - 175943
 profileset."Spiritual_Alchemy_Stone_165"+=trinket1=spiritual_alchemy_stone,id=171323
 
 # Questing Trinkets
 # TODO: figure out ilvl range? Wowhead shows 85 -> 455
 profileset."Withergrove_Shardling_155"+=trinket1=withergrove_shardling,id=181459,ilevel=155
+profileset."Flame_of_Battle_155"+=trinket1=flame_of_battle,id=181501,ilevel=155
+profileset."Vial_of_Caustic_Liquid_155"+=trinket1=vial_of_caustic_liquid,id=181503,ilevel=155

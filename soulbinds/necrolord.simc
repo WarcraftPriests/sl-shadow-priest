@@ -3,6 +3,7 @@ level=60
 role=spell
 position=back
 spec=shadow
+covenant=necrolord
 
 default_actions=1
 
@@ -23,6 +24,43 @@ trinket2=,id=175722,bonus_id=6707,drop_level=54
 main_hand=sinful_gladiators_blade,id=176000
 off_hand=sinful_gladiators_focus,id=176008
 
-# Bonesmith Heirmir
-# Emeni
+# Top 3 conduits for Necrolord
+# - Mind Devourer - 113
+# - Festering Transfusion - 90
+# - Haunting Apparitions - 107
+
 # Plague Deviser Marileth
+# not including Volatile Solvent for now....
+
+# 3 conduit setup
+profileset."Marileth-MD_FT_HA"+=soulbind=plague_deviser_marileth,113:1/90:1/107:1
+
+# 2 conduit setup
+# Plaguey's Preemptive Strike - 323090
+profileset."Marileth-PPS-MD_FT"+=soulbind=plague_deviser_marileth,113:1/90:1/323090
+
+# Emeni
+# 3 conduit setup
+# Embody the Construct - 342156
+profileset."Emeni-EtC-MD_FT_HA"+=soulbind=emeni,113:1/90:1/107:1/342156
+
+# 2 conduit setup
+# Gnashing Chompers - 323919
+profileset."Emeni-EtC_GC-MD_FT"+=soulbind=emeni,113:1/90:1/342156/323919
+
+# Bonesmith Heirmir
+# 3 conduit setup
+profileset."Bonesmith-MD_FT_HA"+=soulbind=bonesmith_heirmir,113:1/90:1/107:1
+
+# 2 conduit setup
+# Serrated Spaulders - 326504
+profileset."Bonesmith-SS-MD_FT"+=soulbind=bonesmith_heirmir,113:1/90:1/326504
+
+# 2 conduit setup
+# Heirmir's Arsenal: Marrowed Gemstone - 326572
+profileset."Bonesmith-SS-MD_FT"+=soulbind=bonesmith_heirmir,113:1/90:1/326572
+
+# 1 conduit setup
+# Serrated Spaulders - 326504
+# Heirmir's Arsenal: Marrowed Gemstone - 326572
+profileset."Bonesmith-SS-MD_FT"+=soulbind=bonesmith_heirmir,113:1/326504/326572

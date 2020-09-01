@@ -119,13 +119,13 @@ def main():
         for talent in talents:
             print("Simming {0} profiles...".format(talent))
             run_sims(args, iterations, talent, None)
-            convert_to_csv(args, weights, talent, covenant)
-            analyze_data(args, talent, covenant)
+            convert_to_csv(args, weights, talent, None)
+            analyze_data(args, talent, None)
     else:
         print("Simming default profiles...")
         run_sims(args, iterations, None, None)
-        convert_to_csv(args, weights, talent, covenant)
-        analyze_data(args, talent, covenant)
+        convert_to_csv(args, weights, None, None)
+        analyze_data(args, None, None)
 
 
 if __name__ == "__main__":

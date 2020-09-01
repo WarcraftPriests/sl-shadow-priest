@@ -87,8 +87,8 @@ sims:
   soulbinds:
     builds: true
     covenant:
-      lookup: false
-      files: false
+      lookup: true
+      files: true
     lookupType: spell
     steps:
       - DPS

@@ -1,0 +1,54 @@
+priest="Base"
+level=60
+role=spell
+position=back
+spec=shadow
+covenant=kyrian
+
+default_actions=1
+
+head=confidants_favored_cap,id=183021,bonus_id=6807
+neck=charm_of_eternal_winter,id=183040,bonus_id=6807
+shoulder=shawl_of_the_penitent,id=183020,bonus_id=6807
+back=crest_of_the_legionnaire_general,id=183032,bonus_id=6807
+chest=robes_of_the_cursed_commando,id=182998,bonus_id=6807
+wrists=acolytes_velvet_bindings,id=183017,bonus_id=6807
+hands=impossibly_oversized_mitts,id=183022,bonus_id=6807
+waist=shadewarped_sash,id=183004,bonus_id=6807
+legs=leggings_of_lethal_reverberations,id=182981,bonus_id=6807
+feet=slippers_of_the_forgotten_heretic,id=182979,bonus_id=6807
+finger1=hyperlight_band,id=183038,bonus_id=6807
+finger1=ritualists_treasured_ring,id=183037,bonus_id=6807
+trinket1=,id=174500,gem_id=168639,bonus_id=4824/1517/4786/6514
+trinket2=,id=175722,bonus_id=6707,drop_level=54
+main_hand=sinful_gladiators_blade,id=176000
+off_hand=sinful_gladiators_focus,id=176008
+
+# Top 3 conduits for Kyrian
+# - Mind Devourer - 113
+# - Courageous Ascension - 87
+# - Haunting Apparitions - 107
+
+# Pelagos
+# 3 conduit setup
+# Let Go of the Past - 328257
+# Combat Meditation - 328266
+profileset."Pelagos-LGotP_CM-MD_CA_HA"+=soulbind=pelagos,113:1/87:1/107:1/328257/328266
+
+# Kleia
+# 3 conduit setup
+profileset."Kleia-MD_CA_HA"+=soulbind=kleia,113:1/87:1/107:1
+
+# 2 conduit setup
+# Pointed Courage - 329778
+profileset."Kleia-PS-MD_CA_HA"+=soulbind=kleia,113:1/87:1/329778
+
+# Forgelite Prime Mikanikos
+# 3 conduit setup
+# Bron's Call to Action - 333950
+profileset."Forgelite-BCtA-MD_CA_HA"+=soulbind=forgelite_prime_mikanikos,113:1/87:1/107:1/333950
+
+# 2 conduit setup
+# Bron's Call to Action - 333950
+# Hammer of Genesis - 333935
+profileset."Forgelite-BCtA_HoG-MD_CA_HA"+=soulbind=forgelite_prime_mikanikos,113:1/87:1/333950/333935
