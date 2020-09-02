@@ -23,10 +23,28 @@ trinket2=,id=175722,bonus_id=6707,drop_level=54
 main_hand=sinful_gladiators_blade,id=176000
 off_hand=sinful_gladiators_focus,id=176008
 
+# TODO swap to full soulbinds with traits once implemented
+
+# Conduits: Mind Devourer, Shattered Perceptions, Haunting Apparitions
+# Legendary: Eternal Call to the Void
 profileset."Venthyr"+=covenant=venthyr
+profileset."Venthyr"+=soulbind=theotar_the_mad_duke,113:15/105:15/107:15
+profileset."Venthyr"+=head=confidants_favored_cap,id=183021,bonus_id=6807/6983
 
+# Conduits: Mind Devourer, Courageous Ascension, Haunting Apparitions
+# Legendary: Eternal Call to the Void
 profileset."Kyrian"+=covenant=kyrian
+profileset."Kyrian"+=soulbind=theotar_the_mad_duke,113:15/87:15/107:15
+profileset."Kyrian"+=head=confidants_favored_cap,id=183021,bonus_id=6807/6983
 
+# Conduits: Mind Devourer, Fae Fermata, Rabid Shadows
+# Legendary: Shadowflame Prism
 profileset."Night_Fae"+=covenant=night_fae
+profileset."Night_Fae"+=soulbind=theotar_the_mad_duke,113:15/101:15/114:15
+profileset."Night_Fae"+=head=confidants_favored_cap,id=183021,bonus_id=6807/6982
 
+# Conduits: Mind Devourer, Festering Transfusion, Haunting Apparitions
+# Legendary: Eternal Call to the Void
 profileset."Necrolord"+=covenant=necrolord
+profileset."Necrolord"+=soulbind=theotar_the_mad_duke,113:15/90:15/107:15
+profileset."Necrolord"+=head=confidants_favored_cap,id=183021,bonus_id=6807/6983
