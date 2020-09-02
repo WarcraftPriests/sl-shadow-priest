@@ -24,16 +24,16 @@ trinket2=,id=175722,bonus_id=6707,drop_level=54
 main_hand=sinful_gladiators_blade,id=176000
 off_hand=sinful_gladiators_focus,id=176008
 
-# Top 3 conduits for Necro
+# Top 3 conduits for Night Fae
 # - Mind Devourer - 113
 # - Fae Fermata - 101
-# - Rabid Shadows - 114
+# - Haunting Apparitions - 107
 
 # Niya
 # 3 conduit setup
 # Grove Invigoration - 322721
 # Niya's Tools: Poison - 320660
-profileset."Niya-GI_NTP-MD_FF_RS"+=soulbind=niya,113:1/101:1/114:1/322721/320660
+profileset."Niya-GI_NTP-MD_FF_RS"+=soulbind=niya,113:1/101:1/107:1/322721/320660
 
 # 2 conduit setup
 # Grove Invigoration - 322721
@@ -43,7 +43,7 @@ profileset."Niya-GI_NTB-MD_FF"+=soulbind=niya,113:1/101:1/322721/320659
 # Dreamweaver
 # 3 conduit setup
 # Field of Blossoms - 319191
-profileset."Dreamweaver-FoB-MD_FF_RS"+=soulbind=dreamweaver,113:1/101:1/114:1/319191
+profileset."Dreamweaver-FoB-MD_FF_RS"+=soulbind=dreamweaver,113:1/101:1/107:1/319191
 
 # 2 conduit setup
 # Field of Blossoms - 319191
@@ -53,7 +53,7 @@ profileset."Dreamweaver-FoB_SB-MD_FF"+=soulbind=dreamweaver,113:1/101:1/319191/3
 # Korayn
 # 3 conduit setup
 # Wild Hunt Tactics - 325066
-profileset."Korayn-WHT-MD_FF_RS"+=soulbind=korayn,113:1/101:1/114:1/325066
+profileset."Korayn-WHT-MD_FF_RS"+=soulbind=korayn,113:1/101:1/107:1/325066
 
 # 2 conduit setup
 # Wild Hunt Tactics - 325066

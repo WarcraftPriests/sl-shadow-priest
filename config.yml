@@ -1,10 +1,16 @@
 builds:
-  am:
+  am-as:
     composite: 3121121
-    dungeons: 3131311
-  stm:
+    dungeons: 3121121
+  stm-as:
     composite: 3121123
-    dungeons: 3131313
+    dungeons: 1121113
+  am-pl:
+    composite: 3121221
+    dungeons: 3121221
+  stm-pl:
+    composite: 3121223
+    dungeons: 1121213
 covenants:
   - kyrian
   - night_fae
@@ -28,7 +34,21 @@ sims:
       files: true
     lookupType: spell
     steps:
-      - DPS
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
     files:
       - kyrian.simc
       - necrolord.simc
@@ -68,7 +88,7 @@ sims:
     builds: true
     covenant:
       lookup: true
-      files: false
+      files: true
     lookupType: spell
     steps:
       - DPS

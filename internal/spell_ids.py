@@ -47,7 +47,14 @@ enchants = {
 }
 
 legendaries = {
-    "Ring_Mindbender": 336143
+    "Shadowflame_Prism": 336143,
+    "Shadowflame_Prism_Conduit_15": 336143,
+    "Twins_of_the_Sun_Priestess_Conduit_15": 336897,
+    "Eternal_Call_to_the_Void": 336214,
+    "Talbadars_Stratagem": 342415,
+    "Judgment_of_the_Arbiter": 339344,
+    "Sephuzs_Proclamation": 339348,
+    "Painbreaker_Psalm": 336165
 }
 
 covenants = {
@@ -55,6 +62,17 @@ covenants = {
     "Venthyr": 323673,
     "Night_Fae": 327661,
     "Kyrian": 325013
+}
+
+conduits = {
+    "Haunting_Apparitions": 338319,
+    "Dissonant_Echoes": 338342,
+    "Mind_Devourer": 338332,
+    "Rabid_Shadows": 338338,
+    "Courageous_Ascension": 337966,
+    "Fae_Fermata": 338305,
+    "Festering_Transfusion": 337979,
+    "Shattered_Perceptions": 338315
 }
 
 
@@ -67,3 +85,5 @@ def find_ids(key):
         return covenants
     elif key == 'legendaries':
         return legendaries
+    elif key == 'conduits':
+        return conduits
