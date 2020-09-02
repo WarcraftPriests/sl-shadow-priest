@@ -1,0 +1,1 @@
+{"name": "Single - am-pl", "data": {"Night_Fae": {"DPS": 2944}, "Venthyr": {"DPS": 2929}, "Necrolord": {"DPS": 2927}, "Kyrian": {"DPS": 2917}, "Base": {"DPS": 2529}}, "ids": {"Night_Fae": 327661, "Venthyr": 323673, "Necrolord": 324724, "Kyrian": 325013}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Night_Fae", "Venthyr", "Necrolord", "Kyrian"], "last_updated": "2020-09-02"}
