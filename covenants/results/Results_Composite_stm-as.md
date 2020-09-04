@@ -1,8 +1,8 @@
 # Composite - stm-as
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Necrolord|3281|13.78%|
-|Night_Fae|3259|13.04%|
-|Kyrian|3258|13.01%|
-|Venthyr|3230|12.04%|
-|Base|2883|0.00%|
+|Kyrian|3255|18.24%|
+|Necrolord|3220|16.98%|
+|Venthyr|3193|15.99%|
+|Night_Fae|3189|15.85%|
+|Base|2753|0.00%|

@@ -1,8 +1,8 @@
 # Single - am-as
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Night_Fae|3013|15.04%|
-|Necrolord|3012|14.99%|
-|Venthyr|3009|14.91%|
-|Kyrian|3003|14.66%|
-|Base|2619|0.00%|
+|Kyrian|2986|19.45%|
+|Venthyr|2981|19.27%|
+|Necrolord|2965|18.61%|
+|Night_Fae|2913|16.53%|
+|Base|2500|0.00%|

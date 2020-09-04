@@ -4,9 +4,9 @@ All talent builds are defined in [config.yml](https://github.com/WarcraftPriests
 
 Each of the covenant sims is using the following over `Base`:
 - Covenant Ability
-- Top 3 Conduits per Covenant
+- Top 3 Conduits per Covenant at rank 1
 - Top Legendary per Covenant
-- *soon* Top Soulbind per Covenant **NYI**
+- Top Soulbind per Covenant
 
 ## Raids
 - [Composite - STM-AS](results/Results_Composite_stm-as.md)

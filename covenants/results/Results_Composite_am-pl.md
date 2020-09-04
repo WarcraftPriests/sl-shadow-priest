@@ -1,8 +1,8 @@
 # Composite - am-pl
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Night_Fae|3284|14.80%|
-|Necrolord|3277|14.56%|
-|Kyrian|3248|13.55%|
-|Venthyr|3222|12.63%|
-|Base|2861|0.00%|
+|Kyrian|3235|18.10%|
+|Necrolord|3224|17.69%|
+|Night_Fae|3186|16.32%|
+|Venthyr|3173|15.85%|
+|Base|2739|0.00%|

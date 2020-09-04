@@ -1,5 +1,7 @@
 # Soulbind Results
 
+Each soulbind is simmed with all the possible paths with the top 2 or 3 conduits depending on the path chosen. When slotting a conduit we are only slotting the rank1 version of that conduit for now.
+
 ## Night Fae
 ### Raids
 - [Composite - STM](results/Results_Composite_stm_night_fae.md)

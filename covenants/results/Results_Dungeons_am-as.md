@@ -1,8 +1,8 @@
 # Dungeons - am-as
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Night_Fae|3082|11.79%|
-|Kyrian|3079|11.68%|
-|Venthyr|3050|10.63%|
-|Necrolord|3026|9.76%|
-|Base|2757|0.00%|
+|Kyrian|3133|15.95%|
+|Night_Fae|3102|14.80%|
+|Necrolord|3044|12.66%|
+|Venthyr|2984|10.44%|
+|Base|2702|0.00%|

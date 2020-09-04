@@ -1,5 +1,7 @@
 # Conduit Results
 
+Each Covenant is using its best legendary which is Eternal Call to the Void for all except for Night Fae which prefers Shadowflame Prism.
+
 ## Night Fae
 ### Raids
 - [Composite - STM](results/Results_Composite_stm_night_fae.md)
