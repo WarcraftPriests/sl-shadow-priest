@@ -1,0 +1,32 @@
+# Dungeons - stm-as
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Panda_Haste|2727|2.63%|
+|Panda_Mastery|2725|2.56%|
+|Lightforged_Draenei|2716|2.22%|
+|Draenei|2715|2.18%|
+|Panda_Vers|2714|2.15%|
+|Panda_Crit|2712|2.07%|
+|Dark_Iron_Dwarf|2703|1.73%|
+|Goblin|2696|1.47%|
+|Gnome|2695|1.43%|
+|Void_Elf|2695|1.43%|
+|Nightborne|2691|1.28%|
+|Night_Elf_Haste|2689|1.20%|
+|Mechagnome|2687|1.13%|
+|Blood_Elf|2686|1.09%|
+|Kul_Tiran|2683|0.98%|
+|Troll|2683|0.98%|
+|Undead|2681|0.90%|
+|Night_Elf_Crit|2679|0.83%|
+|Human|2677|0.75%|
+|Zandalari_Troll_Bwonsamdi|2677|0.75%|
+|Maghar_Orc|2675|0.68%|
+|Zandalari_Troll_Kimbul|2675|0.68%|
+|Worgen|2674|0.64%|
+|Zandalari_Troll_Paku|2673|0.60%|
+|Dwarf|2666|0.34%|
+|Vulpera|2665|0.30%|
+|Tauren|2663|0.23%|
+|Base|2657|0.00%|
+|Panda_Smothered_Shank|2649|-0.30%|

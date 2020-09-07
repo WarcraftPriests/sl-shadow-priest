@@ -1,0 +1,32 @@
+# Single - stm-pl
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Panda_Haste|2426|2.67%|
+|Panda_Mastery|2425|2.62%|
+|Panda_Crit|2414|2.16%|
+|Panda_Vers|2413|2.14%|
+|Draenei|2413|2.14%|
+|Dark_Iron_Dwarf|2412|2.08%|
+|Void_Elf|2403|1.70%|
+|Gnome|2393|1.29%|
+|Goblin|2393|1.26%|
+|Nightborne|2392|1.23%|
+|Blood_Elf|2389|1.11%|
+|Night_Elf_Haste|2387|1.04%|
+|Mechagnome|2387|1.03%|
+|Kul_Tiran|2387|1.00%|
+|Undead|2385|0.96%|
+|Lightforged_Draenei|2385|0.94%|
+|Zandalari_Troll_Kimbul|2385|0.93%|
+|Night_Elf_Crit|2384|0.90%|
+|Zandalari_Troll_Bwonsamdi|2383|0.87%|
+|Troll|2382|0.81%|
+|Maghar_Orc|2381|0.78%|
+|Human|2380|0.73%|
+|Worgen|2377|0.61%|
+|Zandalari_Troll_Paku|2377|0.61%|
+|Vulpera|2371|0.36%|
+|Dwarf|2370|0.32%|
+|Tauren|2368|0.24%|
+|Base|2363|0.00%|
+|Panda_Smothered_Shank|2354|-0.38%|
