@@ -201,6 +201,8 @@ def build_json(sim_type, talent_string, results, directory, timestamp, covenant_
                 chart_data["ids"][unique_key] = lookup_id(unique_key, directory)
         for profile in unique_profiles:
             chart_data["data"][profile] = {}
+            steps.sort(reverse=True)
+            # Make sure that the steps in the json are from highest to lowest
             for step in steps:
                 for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
                     # split off the key to get the step
@@ -208,6 +210,9 @@ def build_json(sim_type, talent_string, results, directory, timestamp, covenant_
                     key_step = key.split('_')[len(key.split('_')) - 1]
                     if profile in key and str(key_step) == str(step):
                         chart_data["data"][profile][step] = int(round(value, 0))
+        # Base isn't in unique_profiles so we handle that explicitly
+        chart_data["data"]["Base"] = {}
+        chart_data["data"]["Base"]["DPS"] = int(round(results.get("Base"), 0))
     json_data = json.dumps(chart_data)
     with open(output_file, 'w') as results_json:
         results_json.write(json_data)
