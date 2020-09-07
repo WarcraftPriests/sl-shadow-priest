@@ -12,7 +12,12 @@ racials = {
     "Kul_Tiran": 291628,
     "Goblin": 69042,
     "Draenei": 6562,
-    "Panda": 107072,
+    "Panda_Feast": 107072,
+    "Panda_Haste": 107072,
+    "Panda_Crit": 107072,
+    "Panda_Mastery": 107072,
+    "Panda_Vers": 107072,
+    "Panda_Smothered_Shank": 107072,
     "Mechagnome": 312923,
     "Nightborne": 255665,
     "Night_Elf_Crit": 154748,
@@ -75,6 +80,26 @@ conduits = {
     "Shattered_Perceptions": 338315
 }
 
+consumables = {
+    "16_Versatility": 173129,
+    "16_Critical_Strike": 173127,
+    "16_Mastery": 173130,
+    "16_Haste": 173128,
+    "Spectral_Flask_of_Power": 171276,
+    "Potion_of_Empowered_Exorcisms": 171352,
+    "Potion_of_Empowered_Exorcisms_Shadowcore_Oil": 171352,
+    "Potion_of_Spectral_Intellect": 171273,
+    "Potion_of_Deathly_Fixation": 171351,
+    "Potion_of_Deathly_Fixation_Shadowcore_Oil": 171351,
+    "Feast_of_Gluttonous_Hedonism": 172043,
+    "Phantasmal_Souffle_and_Fries": 172041,
+    "Tenebrous_Crown_Roast_Aspic": 172045,
+    "Crawler_Ravioli_with_Apple_Sauce": 172049,
+    "Steak_a_la_Mode": 172051,
+    "Smothered_Shank": 172062,
+    "Shadowcore_Oil": 171285
+}
+
 
 def find_ids(key):
     if key == 'racials':
@@ -87,3 +112,5 @@ def find_ids(key):
         return legendaries
     elif key == 'conduits':
         return conduits
+    elif key == 'consumables':
+        return consumables
