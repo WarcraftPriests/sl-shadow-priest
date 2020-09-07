@@ -6,47 +6,46 @@ spec=shadow
 
 default_actions=1
 
-head=confidants_favored_cap,id=183021,bonus_id=6807
-neck=charm_of_eternal_winter,id=183040,bonus_id=6807
-shoulder=shawl_of_the_penitent,id=183020,bonus_id=6807
-back=crest_of_the_legionnaire_general,id=183032,bonus_id=6807
-chest=robes_of_the_cursed_commando,id=182998,bonus_id=6807
-wrists=acolytes_velvet_bindings,id=183017,bonus_id=6807
-hands=impossibly_oversized_mitts,id=183022,bonus_id=6807
-waist=shadewarped_sash,id=183004,bonus_id=6807
-legs=leggings_of_lethal_reverberations,id=182981,bonus_id=6807
-feet=slippers_of_the_forgotten_heretic,id=182979,bonus_id=6807
-finger1=hyperlight_band,id=183038,bonus_id=6807
-finger1=ritualists_treasured_ring,id=183037,bonus_id=6807
-trinket1=,id=174500,gem_id=168639,bonus_id=4824/1517/4786/6514
-trinket2=,id=175722,bonus_id=6707,drop_level=54
-main_hand=sinful_gladiators_blade,id=176000
-off_hand=sinful_gladiators_focus,id=176008
+head=confidants_favored_cap,id=183021,ilevel=226
+neck=charm_of_eternal_winter,id=183040,ilevel=226
+shoulder=shawl_of_the_penitent,id=183020,ilevel=233
+back=crest_of_the_legionnaire_general,id=183032,ilevel=233
+chest=robes_of_the_cursed_commando,id=182998,ilevel=233
+wrists=acolytes_velvet_bindings,id=183017,ilevel=226
+hands=impossibly_oversized_mitts,id=183022,ilevel=226
+waist=shadewarped_sash,id=183004,ilevel=226
+legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
+feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
+finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233
+finger2=ritualists_treasured_ring,id=183037,ilevel=226
+trinket1=vial_of_vampiric_essence,id=178810,ilevel=187
+trinket2=soulletting_ruby,id=178809,ilevel=187
+main_hand=sinbearers_absolution_staff,id=182418,ilevel=233
 
 # Conduits: Mind Devourer, Shattered Perceptions, Haunting Apparitions
 # Legendary: Eternal Call to the Void
 # Soulbind: Nadja - Thrill Seeker + Dauntless Duelist
 profileset."Venthyr"+=covenant=venthyr
 profileset."Venthyr"+=soulbind=nadjia_the_mistblade,113:1/105:1/331586/331584
-profileset."Venthyr"+=head=confidants_favored_cap,id=183021,bonus_id=6807/6983
+profileset."Venthyr"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 
 # Conduits: Mind Devourer, Courageous Ascension, Haunting Apparitions
 # Legendary: Eternal Call to the Void
 # Soulbind: Pelagos - Let Go of the Past + Combat Meditation
 profileset."Kyrian"+=covenant=kyrian
 profileset."Kyrian"+=soulbind=pelagos,113:1/87:1/107:1/328257/328266
-profileset."Kyrian"+=head=confidants_favored_cap,id=183021,bonus_id=6807/6983
+profileset."Kyrian"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 
 # Conduits: Mind Devourer, Rabid Shadows, Fae Fermata
 # Legendary: Shadowflame Prism
 # Soulbind: Dreamweaver - Field of Blossoms + Social Butterfly
 profileset."Night_Fae"+=covenant=night_fae
 profileset."Night_Fae"+=soulbind=soulbind=dreamweaver,113:1/114:1/319191/319210
-profileset."Night_Fae"+=head=confidants_favored_cap,id=183021,bonus_id=6807/6982
+profileset."Night_Fae"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
 
 # Conduits: Mind Devourer, Festering Transfusion, Haunting Apparitions
 # Legendary: Eternal Call to the Void
 # Soulbind: Bonesmith Heirmir - Marrowed Gemstone
 profileset."Necrolord"+=covenant=necrolord
 profileset."Necrolord"+=soulbind=bonesmith_heirmir,113:1/90:1/326572
-profileset."Necrolord"+=head=confidants_favored_cap,id=183021,bonus_id=6807/6983
+profileset."Necrolord"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
