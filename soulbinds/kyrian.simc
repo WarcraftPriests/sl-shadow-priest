@@ -42,7 +42,7 @@ profileset."Kleia-MD_CA_HA"+=soulbind=kleia,113:1/87:1/107:1
 
 # 2 conduit setup
 # Pointed Courage - 329778
-profileset."Kleia-PS-MD_CA_HA"+=soulbind=kleia,113:1/87:1/329778
+profileset."Kleia-PC-MD_CA_HA"+=soulbind=kleia,113:1/87:1/329778
 
 # Forgelite Prime Mikanikos
 # 3 conduit setup
