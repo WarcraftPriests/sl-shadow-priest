@@ -1,9 +1,9 @@
 # Single - stm-pl - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pelagos-LGotP_CM-MD_CA_HA|2839|9.89%|
-|Kleia-PS-MD_CA_HA|2789|7.95%|
-|Kleia-MD_CA_HA|2681|3.78%|
-|Forgelite-BCtA-MD_CA_HA|2681|3.77%|
-|Forgelite-BCtA_HoG-MD_CA_HA|2676|3.61%|
-|Base|2583|0.00%|
+|Pelagos-LGotP_CM-MD_CA_HA|5243|10.21%|
+|Kleia-PC-MD_CA_HA|5153|8.31%|
+|Forgelite-BCtA-MD_CA_HA|4991|4.92%|
+|Forgelite-BCtA_HoG-MD_CA_HA|4983|4.75%|
+|Kleia-MD_CA_HA|4958|4.23%|
+|Base|4757|0.00%|

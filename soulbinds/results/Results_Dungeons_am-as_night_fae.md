@@ -1,19 +1,19 @@
 # Dungeons - am-as - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Dreamweaver-FoB_SB-MD_RS|3102|8.84%|
-|Korayn-WHT_FS-MD_RS|3091|8.46%|
-|Dreamweaver-FoB_SB-MD_FF|3053|7.12%|
-|Korayn-WHT_FS-MD_FF|3047|6.91%|
-|Dreamweaver-FoB_SB-FF_RS|3026|6.18%|
-|Korayn-WHT_FS-FF_RS|3018|5.89%|
-|Korayn-WHT-MD_FF_RS|2970|4.21%|
-|Niya-GI_NTB-MD_RS|2968|4.14%|
-|Korayn-WHT-MD_FF_HA|2950|3.51%|
-|Niya-GI_NTP-MD_FF_RS|2948|3.44%|
-|Dreamweaver-FoB-MD_FF_RS|2937|3.05%|
-|Niya-GI_NTP-MD_FF_HA|2933|2.91%|
-|Niya-GI_NTB-MD_FF|2925|2.63%|
-|Dreamweaver-FoB-MD_FF_HA|2918|2.39%|
-|Niya-GI_NTB-FF_RS|2894|1.54%|
-|Base|2850|0.00%|
+|Dreamweaver-FoB_SB-MD_RS|5791|8.77%|
+|Korayn-WHT_FS-MD_RS|5778|8.53%|
+|Dreamweaver-FoB_SB-MD_FF|5713|7.31%|
+|Korayn-WHT_FS-MD_FF|5712|7.29%|
+|Dreamweaver-FoB_SB-FF_RS|5650|6.12%|
+|Korayn-WHT_FS-FF_RS|5648|6.09%|
+|Niya-GI_NTB-MD_RS|5592|5.03%|
+|Korayn-WHT-MD_FF_RS|5557|4.38%|
+|Korayn-WHT-MD_FF_HA|5533|3.93%|
+|Niya-GI_NTP-MD_FF_RS|5516|3.61%|
+|Niya-GI_NTB-MD_FF|5515|3.59%|
+|Dreamweaver-FoB-MD_FF_RS|5496|3.23%|
+|Niya-GI_NTP-MD_FF_HA|5493|3.17%|
+|Dreamweaver-FoB-MD_FF_HA|5473|2.80%|
+|Niya-GI_NTB-FF_RS|5450|2.37%|
+|Base|5324|0.00%|

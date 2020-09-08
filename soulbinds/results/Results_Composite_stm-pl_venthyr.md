@@ -1,12 +1,12 @@
 # Composite - stm-pl - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Nadjia-TS_DD-MD_FF_RS|3135|8.88%|
-|Draven-BfW-MD_FF_RS|3117|8.25%|
-|Theotar-WP_SS-MD_FF_RS|3081|7.00%|
-|Nadjia-TS-MD_FF_RS|3051|5.95%|
-|Nadjia-TS_EP-MD_FF_RS|3042|5.65%|
-|Theotar-WP-MD_FF_RS|3025|5.04%|
-|Theotar-WP_RP-MD_FF_RS|3017|4.77%|
-|Draven-MD_FF_RS|2989|3.80%|
-|Base|2880|0.00%|
+|Nadjia-TS_DD-MD_SP|5819|9.34%|
+|Draven-BfW-MD_SP|5796|8.91%|
+|Theotar-WP_SS-MD_SP|5704|7.18%|
+|Nadjia-TS-MD_SP_HA|5664|6.42%|
+|Nadjia-TS_EP-MD_SP|5647|6.11%|
+|Theotar-WP-MD_SP_HA|5617|5.55%|
+|Theotar-WP_RP-MD_SP|5601|5.25%|
+|Draven-MD_SP_HA|5548|4.25%|
+|Base|5322|0.00%|

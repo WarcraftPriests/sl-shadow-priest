@@ -1,19 +1,19 @@
 # Single - am-pl - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Dreamweaver-FoB_SB-MD_RS|2818|10.48%|
-|Dreamweaver-FoB_SB-MD_FF|2799|9.76%|
-|Korayn-WHT_FS-MD_RS|2745|7.63%|
-|Korayn-WHT-MD_FF_RS|2741|7.50%|
-|Dreamweaver-FoB_SB-FF_RS|2731|7.10%|
-|Korayn-WHT_FS-MD_FF|2728|6.97%|
-|Korayn-WHT-MD_FF_HA|2721|6.70%|
-|Niya-GI_NTP-MD_FF_RS|2715|6.45%|
-|Niya-GI_NTB-MD_RS|2707|6.14%|
-|Dreamweaver-FoB-MD_FF_RS|2698|5.79%|
-|Niya-GI_NTP-MD_FF_HA|2696|5.72%|
-|Niya-GI_NTB-MD_FF|2688|5.41%|
-|Dreamweaver-FoB-MD_FF_HA|2678|5.01%|
-|Korayn-WHT_FS-FF_RS|2662|4.38%|
-|Niya-GI_NTB-FF_RS|2623|2.84%|
-|Base|2550|0.00%|
+|Dreamweaver-FoB_SB-MD_RS|5203|10.59%|
+|Dreamweaver-FoB_SB-MD_FF|5172|9.93%|
+|Korayn-WHT_FS-MD_RS|5078|7.93%|
+|Korayn-WHT-MD_FF_RS|5072|7.81%|
+|Niya-GI_NTB-MD_RS|5053|7.40%|
+|Korayn-WHT_FS-MD_FF|5047|7.28%|
+|Korayn-WHT-MD_FF_HA|5038|7.08%|
+|Niya-GI_NTB-MD_FF|5023|6.76%|
+|Dreamweaver-FoB_SB-FF_RS|5023|6.76%|
+|Niya-GI_NTP-MD_FF_RS|5016|6.61%|
+|Niya-GI_NTP-MD_FF_HA|4984|5.94%|
+|Dreamweaver-FoB-MD_FF_RS|4984|5.94%|
+|Dreamweaver-FoB-MD_FF_HA|4952|5.25%|
+|Korayn-WHT_FS-FF_RS|4906|4.28%|
+|Niya-GI_NTB-FF_RS|4880|3.73%|
+|Base|4705|0.00%|

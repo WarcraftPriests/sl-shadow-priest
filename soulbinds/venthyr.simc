@@ -32,37 +32,37 @@ main_hand=sinbearers_absolution_staff,id=182418,ilevel=233
 # Nadjia
 # 3 conduit setup
 # Thrill Seeker - 331586
-profileset."Nadjia-TS-MD_FF_RS"+=soulbind=nadjia_the_mistblade,113:1/105:1/107:1/331586
+profileset."Nadjia-TS-MD_SP_HA"+=soulbind=nadjia_the_mistblade,113:1/105:1/107:1/331586
 
 # 2 conduit setup
 # Thrill Seeker - 331586
 # Exacting Preparation - 331580
-profileset."Nadjia-TS_EP-MD_FF_RS"+=soulbind=nadjia_the_mistblade,113:1/105:1/331586/331580
+profileset."Nadjia-TS_EP-MD_SP"+=soulbind=nadjia_the_mistblade,113:1/105:1/331586/331580
 
 # 2 conduit setup
 # Thrill Seeker - 331586
 # Dauntless Duelist - 331584
-profileset."Nadjia-TS_DD-MD_FF_RS"+=soulbind=nadjia_the_mistblade,113:1/105:1/331586/331584
+profileset."Nadjia-TS_DD-MD_SP"+=soulbind=nadjia_the_mistblade,113:1/105:1/331586/331584
 
 # Theotar
 # 3 conduit setup
 # Wasteland Propriety - 319983
-profileset."Theotar-WP-MD_FF_RS"+=soulbind=theotar_the_mad_duke,113:1/105:1/107:1/319983
+profileset."Theotar-WP-MD_SP_HA"+=soulbind=theotar_the_mad_duke,113:1/105:1/107:1/319983
 
 # 2 conduit setup
 # Wasteland Propriety - 319983
 # Soothing Shade - 336239
-profileset."Theotar-WP_SS-MD_FF_RS"+=soulbind=theotar_the_mad_duke,113:1/105:1/319983/336239
+profileset."Theotar-WP_SS-MD_SP"+=soulbind=theotar_the_mad_duke,113:1/105:1/319983/336239
 
 # 2 conduit setup
 # Wasteland Propriety - 319983
 # Refined Palate - 336243
-profileset."Theotar-WP_RP-MD_FF_RS"+=soulbind=theotar_the_mad_duke,113:1/105:1/319983/336243
+profileset."Theotar-WP_RP-MD_SP"+=soulbind=theotar_the_mad_duke,113:1/105:1/319983/336243
 
 # General Draven
 # 3 conduit setup
-profileset."Draven-MD_FF_RS"+=soulbind=general_draven,113:1/105:1/107:1
+profileset."Draven-MD_SP_HA"+=soulbind=general_draven,113:1/105:1/107:1
 
 # 2 conduit setup
 # Built for War - 319973
-profileset."Draven-BfW-MD_FF_RS"+=soulbind=general_draven,113:1/105:1/319973
+profileset."Draven-BfW-MD_SP"+=soulbind=general_draven,113:1/105:1/319973
