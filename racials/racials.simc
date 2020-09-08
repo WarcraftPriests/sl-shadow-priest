@@ -47,6 +47,11 @@ profileset."Worgen"+=race=worgen
 
 # profileset."Panda_Feast"+=race=pandaren
 # profileset."Panda_Feast"+=food=feast_of_gluttonous_hedonism
+# TODO: remove this when feast works
+profileset."Panda_Feast"+=race=pandaren
+profileset."Panda_Feast"+=enchant_intellect=144
+profileset."Panda_Feast"+=food=disabled
+
 profileset."Panda_Haste"+=race=pandaren
 profileset."Panda_Haste"+=food=tenebrous_crown_roast_aspic
 profileset."Panda_Crit"+=race=pandaren
