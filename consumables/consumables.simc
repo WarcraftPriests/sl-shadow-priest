@@ -47,6 +47,8 @@ profileset."Potion_of_Spectral_Intellect"+=potion=potion_of_spectral_intellect
 
 # Food
 # profileset."Feast_of_Gluttonous_Hedonism"+=food=feast_of_gluttonous_hedonism
+# TODO: remove this when feast works
+profileset."Feast_of_Gluttonous_Hedonism"+=enchant_intellect=72
 profileset."Phantasmal_Souffle_and_Fries"+=food=phantasmal_souffle_and_fries
 profileset."Tenebrous_Crown_Roast_Aspic"+=food=tenebrous_crown_roast_aspic
 profileset."Crawler_Ravioli_with_Apple_Sauce"+=food=crawler_ravioli_with_apple_sauce
