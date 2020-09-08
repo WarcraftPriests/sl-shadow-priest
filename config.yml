@@ -19,6 +19,7 @@ covenants:
 sims:
   apl:
     builds: false
+    weights: false
     covenant:
       lookup: false
       files: false
@@ -29,6 +30,7 @@ sims:
       - apl.simc
   conduits:
     builds: true
+    weights: false
     covenant: 
       lookup: true
       files: true
@@ -56,6 +58,7 @@ sims:
       - venthyr.simc
   consumables:
     builds: true
+    weights: false
     covenant:
       lookup: false
       files: false
@@ -64,8 +67,20 @@ sims:
       - DPS
     files:
       - consumables.simc
+  covenant-choice:
+    builds: true
+    weights: false
+    covenant:
+      lookup: false
+      files: false
+    lookupType: none
+    steps:
+      - CovenantRange
+    files:
+      - choice.simc
   covenants:
     builds: true
+    weights: false
     covenant:
       lookup: false
       files: false
@@ -76,6 +91,7 @@ sims:
       - covenants.simc
   enchants:
     builds: true
+    weights: false
     covenant:
       lookup: false
       files: false
@@ -84,8 +100,21 @@ sims:
       - DPS
     files:
       - enchants.simc
+  gear:
+    builds: true
+    weights: false
+    covenant:
+      lookup: false
+      files: false
+    lookupType: item
+    steps:
+      - 226
+      - 233
+    files:
+      - t26.simc
   legendaries:
     builds: true
+    weights: false
     covenant:
       lookup: true
       files: true
@@ -96,6 +125,7 @@ sims:
       - legendaries.simc
   racials:
     builds: true
+    weights: false
     covenant:
       lookup: false
       files: false
@@ -106,6 +136,7 @@ sims:
       - racials.simc
   soulbinds:
     builds: true
+    weights: false
     covenant:
       lookup: true
       files: true
@@ -116,6 +147,7 @@ sims:
       - necrolord.simc
   stats:
     builds: true
+    weights: false
     covenant:
       lookup: false
       files: false
@@ -126,6 +158,7 @@ sims:
       - generated.simc
   talents:
     builds: false
+    weights: false
     covenant:
       lookup: false
       files: false
@@ -138,6 +171,7 @@ sims:
       - STM.simc
   trinkets:
     builds: true
+    weights: false
     covenant:
       lookup: false
       files: false
@@ -156,6 +190,17 @@ sims:
       - raid.simc
       - dungeons.simc
       - other.simc
+  weights:
+    builds: true
+    weights: true
+    covenant:
+      lookup: true
+      files: false
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - weights.simc
 compositeWeights: weightsCastleNathria
 singleTargetWeights: weightsSingle
 simcBuild: nightly
