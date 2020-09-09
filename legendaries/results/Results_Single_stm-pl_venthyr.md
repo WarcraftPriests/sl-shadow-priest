@@ -1,12 +1,12 @@
 # Single - stm-pl - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|2865|4.88%|
-|Painbreaker_Psalm|2833|3.72%|
-|Talbadars_Stratagem|2829|3.59%|
-|Shadowflame_Prism_Conduit_15|2824|3.39%|
-|Shadowflame_Prism|2799|2.47%|
-|Twins_of_the_Sun_Priestess_Conduit_15|2759|0.99%|
-|Base|2731|0.00%|
-|Judgment_of_the_Arbiter|2731|-0.01%|
-|Sephuzs_Proclamation|2731|-0.02%|
+|Painbreaker_Psalm|5132|5.41%|
+|Eternal_Call_to_the_Void|5129|5.35%|
+|Talbadars_Stratagem|5060|3.93%|
+|Shadowflame_Prism_Conduit_15|5024|3.18%|
+|Shadowflame_Prism|4979|2.27%|
+|Twins_of_the_Sun_Priestess_Conduit_15|4900|0.65%|
+|Sephuzs_Proclamation|4869|0.01%|
+|Judgment_of_the_Arbiter|4869|0.00%|
+|Base|4869|0.00%|

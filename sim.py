@@ -35,16 +35,13 @@ def get_simc_dir(talent, covenant, folder_name):
 def run_sims(args, iterations, talent, covenant):
     api_key = api_secrets.api_key
     print("Running sims on {0} in {1}".format(config["simcBuild"], args.dir))
-
-    # determine existing jsons
-    # for i,j,y in os.walk('.'):
-    #     print(i) 
     existing = listdir(args.dir + get_simc_dir(talent, covenant, 'output'))
     profiles = listdir(args.dir + get_simc_dir(talent, covenant, 'profiles'))
     count = 0
 
     for profile in profiles:
-        profile_name = re.search('((hm|lm|pw).+?(?=.simc)|dungeons.simc)', profile).group()
+        profile_name = re.search(
+            '((hm|lm|pw).+?(?=.simc)|dungeons.simc)', profile).group()
         count = count + 1
         if not args.dungeons:
             weight = find_weights(config["compositeWeights"]).get(profile_name)
@@ -53,11 +50,14 @@ def run_sims(args, iterations, talent, covenant):
         print("Simming {0} out of {1}.".format(count, len(profiles)))
         output_name = profile.replace('simc', 'json')
         if output_name not in existing and weight > 0:
-            output_location = args.dir + get_simc_dir(talent, covenant, 'output') + output_name
-            profile_location = args.dir + get_simc_dir(talent, covenant, 'profiles') + profile
+            output_location = args.dir + \
+                get_simc_dir(talent, covenant, 'output') + output_name
+            profile_location = args.dir + \
+                get_simc_dir(talent, covenant, 'profiles') + profile
             # prefix the profile name with the base file name
             profile_name_with_dir = "{0}{1}".format(args.dir, profile_name)
-            raidbots(api_key, profile_location, config["simcBuild"], output_location, profile_name_with_dir, iterations)
+            raidbots(api_key, profile_location,
+                     config["simcBuild"], output_location, profile_name_with_dir, iterations)
         elif weight == 0:
             print("{0} has a weight of 0. Skipping file.".format(output_name))
         else:
@@ -71,17 +71,24 @@ def convert_to_csv(args, weights, talent, covenant):
 
 
 def analyze_data(args, talent, covenant):
-    analyze(talent, args.dir, args.dungeons, args.weights, get_timestamp(), covenant)
+    analyze(talent, args.dir, args.dungeons,
+            args.weights, get_timestamp(), covenant)
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Parses a list of reports from Raidbots.')
+    parser = argparse.ArgumentParser(
+        description='Parses a list of reports from Raidbots.')
     parser.add_argument('dir', help='Directory you wish to sim.')
-    parser.add_argument('--weights', help='Run sims with weights', action='store_true')
-    parser.add_argument('--iterations', help='Pass through specific iterations to run on. Default is 10000')
-    parser.add_argument('--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
-    parser.add_argument('--talents', help='indicate talent build for output.', choices=config["builds"].keys())
-    parser.add_argument('--covenant', help='indicate covenant build for output.', choices=config["covenants"])
+    parser.add_argument(
+        '--weights', help='Run sims with weights', action='store_true')
+    parser.add_argument(
+        '--iterations', help='Pass through specific iterations to run on. Default is 10000')
+    parser.add_argument(
+        '--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
+    parser.add_argument(
+        '--talents', help='indicate talent build for output.', choices=config["builds"].keys())
+    parser.add_argument(
+        '--covenant', help='indicate covenant build for output.', choices=config["covenants"])
     args = parser.parse_args()
 
     sys.path.insert(0, args.dir)

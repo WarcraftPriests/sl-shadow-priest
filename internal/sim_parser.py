@@ -2,6 +2,7 @@ import os
 import json
 from os import path
 
+
 def parse(filename, weights):
     separator = ','
     ret = ''
@@ -14,8 +15,10 @@ def parse(filename, weights):
             if not weights or 'Int' in player['scale_factors']:
                 ret += path.splitext(filename)[0] + separator
                 ret += player['name'] + separator
-                ret += '{0:.{1}f}'.format(player['collected_data']['dmg']['mean'], 0) + separator
-                ret += '{0:.{1}f}'.format(player['collected_data']['dps']['mean'], 0) + separator
+                ret += '{0:.{1}f}'.format(player['collected_data']
+                                          ['dmg']['mean'], 0) + separator
+                ret += '{0:.{1}f}'.format(player['collected_data']
+                                          ['dps']['mean'], 0) + separator
                 if weights:
                     weight = player['scale_factors']
                     stats = ['Int', 'Haste', 'Crit', 'Mastery', 'Vers']

@@ -1,12 +1,12 @@
 # Dungeons - stm-as - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|3024|3.70%|
-|Talbadars_Stratagem|3003|2.98%|
-|Painbreaker_Psalm|2968|1.78%|
-|Shadowflame_Prism|2928|0.41%|
-|Twins_of_the_Sun_Priestess_Conduit_15|2928|0.41%|
-|Base|2916|0.00%|
-|Judgment_of_the_Arbiter|2916|0.00%|
-|Sephuzs_Proclamation|2915|-0.03%|
-|Shadowflame_Prism_Conduit_15|2904|-0.41%|
+|Eternal_Call_to_the_Void|5631|4.09%|
+|Talbadars_Stratagem|5582|3.18%|
+|Painbreaker_Psalm|5526|2.14%|
+|Twins_of_the_Sun_Priestess_Conduit_15|5436|0.48%|
+|Shadowflame_Prism|5435|0.46%|
+|Base|5410|0.00%|
+|Judgment_of_the_Arbiter|5406|-0.07%|
+|Sephuzs_Proclamation|5403|-0.13%|
+|Shadowflame_Prism_Conduit_15|5378|-0.59%|

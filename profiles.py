@@ -59,7 +59,8 @@ def build_stats_files():
     stats = config["stats"]["include"]
     statsBase = config["stats"]["base"] / 4
     statsSteps = config["stats"]["steps"]
-    numOfSteps = (config["stats"]["total"] - config["stats"]["base"]) / statsSteps
+    numOfSteps = (config["stats"]["total"] -
+                  config["stats"]["base"]) / statsSteps
     distributions = combinations_with_replacement(stats, int(numOfSteps))
     ratingCombinations = []
     for dist in distributions:
@@ -67,10 +68,14 @@ def build_stats_files():
         versatility = dist.count('versatility')
         haste = dist.count('haste')
         crit = dist.count('crit')
-        masteryString = "gear_mastery_rating={0}".format(int((mastery * statsSteps) + statsBase))
-        versatilityString = "gear_versatility_rating={0}".format(int((versatility * statsSteps) + statsBase))
-        hasteString = "gear_haste_rating={0}".format(int((haste * statsSteps) + statsBase))
-        critString = "gear_crit_rating={0}".format(int((crit * statsSteps) + statsBase))
+        masteryString = "gear_mastery_rating={0}".format(
+            int((mastery * statsSteps) + statsBase))
+        versatilityString = "gear_versatility_rating={0}".format(
+            int((versatility * statsSteps) + statsBase))
+        hasteString = "gear_haste_rating={0}".format(
+            int((haste * statsSteps) + statsBase))
+        critString = "gear_crit_rating={0}".format(
+            int((crit * statsSteps) + statsBase))
         ratingCombinations.append(
             {
                 "name": "M{0}_V{1}_H{2}_C{3}".format(mastery, versatility, haste, crit),
@@ -83,7 +88,8 @@ def build_stats_files():
     numberOfCombos = len(ratingCombinations)
     print("Simming {0} number of combinations".format(numberOfCombos))
     outputFile = "{0}/generated.simc".format(args.dir)
-    baseStats = "gear_crit_rating={0}\ngear_haste_rating={0}\ngear_mastery_rating={0}\ngear_versatility_rating={0}\n".format(int(statsBase))
+    baseStats = "gear_crit_rating={0}\ngear_haste_rating={0}\ngear_mastery_rating={0}\ngear_versatility_rating={0}\n".format(
+        int(statsBase))
     with open(baseFile, 'r') as f:
         data = f.read()
         f.close()
@@ -107,7 +113,7 @@ def build_simc_file(talent, covenant, profile_name):
     else:
         return "profiles/{0}.simc".format(profile_name)
 
-        
+
 def build_profiles(talent, covenant, args):
     # build combination list e.g. pw_sa_1
     fightStyles = ["pw", "lm", "hm"]
@@ -152,11 +158,16 @@ def build_profiles(talent, covenant, args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generates sim profiles.')
     parser.add_argument('dir', help='Directory to generate profiles for.')
-    parser.add_argument('--weights', help='Run sims with weights', action='store_true')
-    parser.add_argument('--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
-    parser.add_argument('--talents', help='indicate talent build for output.', choices=config["builds"].keys())
-    parser.add_argument('--covenant', help='indicate covenant build for output.', choices=config["covenants"])
-    parser.add_argument('--ptr', help='indicate if the sim should use ptr data.', action='store_true')
+    parser.add_argument(
+        '--weights', help='Run sims with weights', action='store_true')
+    parser.add_argument(
+        '--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
+    parser.add_argument(
+        '--talents', help='indicate talent build for output.', choices=config["builds"].keys())
+    parser.add_argument(
+        '--covenant', help='indicate covenant build for output.', choices=config["covenants"])
+    parser.add_argument(
+        '--ptr', help='indicate if the sim should use ptr data.', action='store_true')
     args = parser.parse_args()
 
     if args.talents:
@@ -181,8 +192,10 @@ if __name__ == '__main__':
 
     if covenants:
         for talent, covenant in [(talent, covenant) for talent in talents for covenant in covenants]:
-            clear_out_folders('{0}output/{1}/{2}/'.format(args.dir, talent, covenant))
-            clear_out_folders('{0}profiles/{1}/{2}/'.format(args.dir, talent, covenant))
+            clear_out_folders(
+                '{0}output/{1}/{2}/'.format(args.dir, talent, covenant))
+            clear_out_folders(
+                '{0}profiles/{1}/{2}/'.format(args.dir, talent, covenant))
             print("Building {0}-{1} profiles...".format(talent, covenant))
             build_profiles(talent, covenant, args)
     elif talents:

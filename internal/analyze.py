@@ -311,12 +311,14 @@ def build_covenant_json():
             # for each set of covenant{} data populate new dict with min/max
             for covenant in covenants.keys():
                 if covenants[covenant]["max"]:
-                    covenants[covenant]["max"] = max(covenant_data[covenant]["max"], covenants[covenant]["max"])
+                    covenants[covenant]["max"] = max(
+                        covenant_data[covenant]["max"], covenants[covenant]["max"])
                 else:
                     covenants[covenant]["max"] = covenant_data[covenant]["max"]
 
                 if covenants[covenant]["min"]:
-                    covenants[covenant]["min"] = min(covenant_data[covenant]["min"], covenants[covenant]["min"])
+                    covenants[covenant]["min"] = min(
+                        covenant_data[covenant]["min"], covenants[covenant]["min"])
                 else:
                     covenants[covenant]["min"] = covenant_data[covenant]["min"]
         # output 1 JSON file as Results_Aggregate.json
@@ -330,10 +332,6 @@ def build_covenant_json():
     output_file = "results/Results_Aggregate.json"
     with open(output_file, 'w') as results_json:
         results_json.write(json_data)
-            
-            
-            
-            
 
 
 def get_simc_dir(talent, covenant, folder_name):

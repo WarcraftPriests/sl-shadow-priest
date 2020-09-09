@@ -40,16 +40,19 @@ def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name,
                 return None
         elif response.status_code == 429:
             current_try += 1
-            print('[!] [{0}] Too many API jobs running"'.format(response.status_code))
+            print('[!] [{0}] Too many API jobs running"'.format(
+                response.status_code))
             time.sleep(retry_interval * current_try)
             if current_try >= num_of_retries:
                 print("Exceeded retries - exiting")
                 return None
         elif response.status_code == 404:
-            print('[!] [{0}] URL not found: [{1}]'.format(response.status_code, api_url))
+            print('[!] [{0}] URL not found: [{1}]'.format(
+                response.status_code, api_url))
             return None
         elif response.status_code == 401:
-            print('[!] [{0}] Authentication Failed'.format(response.status_code))
+            print('[!] [{0}] Authentication Failed'.format(
+                response.status_code))
             return None
         elif response.status_code >= 400:
             print('[!] [{0}] Bad Request'.format(response.status_code))
@@ -60,7 +63,8 @@ def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name,
             sim = json.loads(response.content)
             return sim
         else:
-            print('[?] Unexpected Error: [HTTP {0}]: Content: {1}'.format(response.status_code, response.content))
+            print('[?] Unexpected Error: [HTTP {0}]: Content: {1}'.format(
+                response.status_code, response.content))
             return None
 
 
@@ -83,7 +87,8 @@ def poll_status(api_url_base, sim_id):
                 print("Exceeded retries - exiting")
                 break
         elif response.status_code == 404:
-            print('[!] [{0}] URL not found: [{1}]'.format(response.status_code, api_url))
+            print('[!] [{0}] URL not found: [{1}]'.format(
+                response.status_code, api_url))
             break
         elif response.status_code == 200:
             sim_status = json.loads(response.content)
@@ -100,12 +105,14 @@ def poll_status(api_url_base, sim_id):
                 time.sleep(retry_interval)
             else:
                 current_try += 1
-                print("Unknown state: {0} when getting {1}. - Retry {2}".format(state, sim_id, current_try))
+                print(
+                    "Unknown state: {0} when getting {1}. - Retry {2}".format(state, sim_id, current_try))
                 if current_try >= num_of_retries:
                     print("Exceeded retries - exiting")
                     break
         else:
-            print('[?] Unexpected Error: [HTTP {0}]: Content: {1}'.format(response.status_code, response.content))
+            print('[?] Unexpected Error: [HTTP {0}]: Content: {1}'.format(
+                response.status_code, response.content))
             return None
 
 
@@ -129,13 +136,15 @@ def retrieve_data(api_url_base, sim_id, data_file):
                 print("Exceeded retries - exiting")
                 return None
         elif response.status_code == 404:
-            print('[!] [{0}] URL not found: [{1}]'.format(response.status_code, api_url))
+            print('[!] [{0}] URL not found: [{1}]'.format(
+                response.status_code, api_url))
             return None
         elif response.status_code == 200:
             sim_data = json.loads(response.content)
             return sim_data
         else:
-            print('[?] Unexpected Error: [HTTP {0}]: Content: {1}'.format(response.status_code, response.content))
+            print('[?] Unexpected Error: [HTTP {0}]: Content: {1}'.format(
+                response.status_code, response.content))
             return None
 
 
@@ -143,7 +152,8 @@ def raidbots(api_key, profile_location, simc_build, output_location, report_name
     api_url_base = config["raidbots"]["apiUrlBase"]
 
     # submit initial sim -> get back sim_id
-    sim = submit_sim(api_url_base, api_key, profile_location, simc_build, report_name, iterations)
+    sim = submit_sim(api_url_base, api_key, profile_location,
+                     simc_build, report_name, iterations)
     if sim is not None:
         sim_id = sim['simId']
         # wait for the sim to finish
