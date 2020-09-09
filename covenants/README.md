@@ -6,7 +6,7 @@ Each of the covenant sims is using the following over `Base`:
 - Covenant Ability
 - Top 3 Conduits per Covenant at rank 1
 - Top Legendary per Covenant
-- Top Soulbind per Covenant
+- Top build per Soulbind per Covenant
 
 ## Raids
 - [Composite - STM-AS](results/Results_Composite_stm-as.md)
