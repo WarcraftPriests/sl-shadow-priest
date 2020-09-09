@@ -231,40 +231,43 @@ def build_json(sim_type, talent_string, results, directory, timestamp, covenant_
     with open(output_file, 'w') as results_json:
         results_json.write(json_data)
 
+
 def build_covenant_json(talents):
-    # find the 3 CSV files for the given talent setup
-    # for each file, iterate over results to get max/min per covenant
-    # use that data to build out the sim_type data block by covenant
-    # output 1 JSON file per talent setup as Results_Aggregate_am-as.json
     sim_types = ["Composite", "Dungeons", "Single"]
     results = {}
+    # find the 3 CSV files for the given talent setup
     for sim_type in sim_types:
         csv = "results/Results_{0}_{1}.csv".format(sim_type, talents)
-        data = pandas.read_csv(csv, usecols=['profile', 'actor', 'DPS', 'increase'])
-        kyrian = {"max": 0, "min": 0}
-        necrolord = {"max": 0, "min": 0}
-        night_fae = {"max": 0, "min": 0}
-        venthyr = {"max": 0, "min": 0}
+        data = pandas.read_csv(
+            csv, usecols=['profile', 'actor', 'DPS', 'increase'])
         covenants = {
-            "kyrian": kyrian,
-            "necrolord": necrolord,
-            "night_fae": night_fae,
-            "venthyr": venthyr
+            "kyrian": {"max": 0, "min": 0},
+            "necrolord": {"max": 0, "min": 0},
+            "night_fae": {"max": 0, "min": 0},
+            "venthyr": {"max": 0, "min": 0},
+            "base": {"DPS": 0}
         }
+        # for each file, iterate over results to get max/min per covenant
         for value in data.iterrows():
             covenant = re.sub(r"_\d+", "", value[1].actor).lower()
             covenant_dict = covenants.get(covenant)
-            if covenant_dict:
+            if covenant == "base":
+                covenants["base"]["DPS"] = value[1].DPS
+            elif covenant_dict:
                 if covenant_dict["max"]:
-                    covenant_dict["max"] = max(value[1].DPS, covenant_dict.get("max"))
+                    covenant_dict["max"] = max(
+                        value[1].DPS, covenant_dict.get("max"))
                 else:
                     covenant_dict["max"] = value[1].DPS
 
                 if covenant_dict["min"]:
-                    covenant_dict["min"] = min(value[1].DPS, covenant_dict.get("min"))
+                    covenant_dict["min"] = min(
+                        value[1].DPS, covenant_dict.get("min"))
                 else:
                     covenant_dict["min"] = value[1].DPS
-            results[sim_type.lower()] = covenants
+        # use that data to build out the sim_type data block by covenant
+        results[sim_type.lower()] = covenants
+    # output 1 JSON file per talent setup as Results_Aggregate_am-as.json
     chart_data = {
         "name": "Aggregate {0}".format(talents),
         "data": results,
@@ -274,7 +277,6 @@ def build_covenant_json(talents):
     output_file = "results/Results_Aggregate_{0}.json".format(talents)
     with open(output_file, 'w') as results_json:
         results_json.write(json_data)
-
 
 
 def get_simc_dir(talent, covenant, folder_name):
@@ -304,7 +306,8 @@ def analyze(talents, directory, dungeons, weights, timestamp, covenant):
     talent_string = "_{0}".format(talents) if talents else ""
     covenant_string = "_{0}".format(covenant) if covenant else ""
     sim_types = ["Dungeons"] if dungeons else ["Composite", "Single"]
-    covenant_range = config["sims"][directory[:-1]]["steps"][0] == "CovenantRange"
+    covenant_range = config["sims"][directory[:-1]
+                                    ]["steps"][0] == "CovenantRange"
 
     for sim_type in sim_types:
         results = build_results(data, weights, sim_type, directory)
