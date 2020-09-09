@@ -63,10 +63,18 @@ legendaries = {
 }
 
 covenants = {
-    "Necrolord": 324724,
-    "Venthyr": 323673,
-    "Night_Fae": 327661,
-    "Kyrian": 325013
+    "Necrolord_Bonesmith": 324724,
+    "Necrolord_Marileth": 324724,
+    "Necrolord_Emeni": 324724,
+    "Venthyr_Draven": 323673,
+    "Venthyr_Theotar": 323673,
+    "Venthyr_Nadjia": 323673,
+    "Night_Fae_Dreamweaver": 327661,
+    "Night_Fae_Korayn": 327661,
+    "Night_Fae_Niya": 327661,
+    "Kyrian_Pelagos": 325013,
+    "Kyrian_Forgelite": 325013,
+    "Kyrian_Kleia": 325013
 }
 
 conduits = {
