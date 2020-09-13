@@ -1,7 +1,7 @@
 # Default consumables
-potion=unbridled_fury
-flask=greater_flask_of_endless_fathoms
-food=baked_port_tato
+potion=potion_of_spectral_intellect
+flask=spectral_flask_of_power
+food=crawler_ravioli_with_apple_sauce
 augmentation=battle_scarred
 
 # This default action priority list is automatically created based on your character.
@@ -45,13 +45,13 @@ actions.cds=power_infusion,if=buff.voidform.up
 actions.cds+=/fae_guardians
 actions.cds+=/mindgames,if=insanity<90&!buff.voidform.up
 actions.cds+=/unholy_nova,if=raid_event.adds.in>50
-actions.cds+=/boon_of_the_ascended,if=!buff.voidform.up&!cooldown.void_eruption.up
+actions.cds+=/boon_of_the_ascended,if=!buff.voidform.up&!cooldown.void_eruption.up&spell_targets.mind_sear>1&!talent.searing_nightmare.enabled|(buff.voidform.up&spell_targets.mind_sear<2&!talent.searing_nightmare.enabled)|(buff.voidform.up&talent.searing_nightmare.enabled)
 actions.cds+=/call_action_list,name=essences
 # Default fallback for usable items: Use on cooldown.
 actions.cds+=/use_items
 
-actions.boon=ascended_blast
-actions.boon+=/ascended_nova
+actions.boon=ascended_blast,if=spell_targets.mind_sear<=3
+actions.boon+=/ascended_nova,if=(spell_targets.mind_sear>2&talent.searing_nightmare.enabled|(spell_targets.mind_sear>1&!talent.searing_nightmare.enabled))&spell_targets.ascended_nova>1
 
 # Sync up Voidform and Power Infusion Cooldowns.
 actions.main=call_action_list,name=boon,if=buff.boon_of_the_ascended.up

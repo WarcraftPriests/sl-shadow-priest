@@ -1,5 +1,6 @@
 # Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Move_VT_Higher_Priority|2758|0.07%|
-|Base|2756|0.00%|
+|Kyrian_updates_plus_default|5355|3.56%|
+|Kyrian_updates|5354|3.54%|
+|Base|5171|0.00%|

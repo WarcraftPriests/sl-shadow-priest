@@ -1,5 +1,6 @@
 # Single
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|2620|0.00%|
-|Move_VT_Higher_Priority|2619|-0.03%|
+|Kyrian_updates_plus_default|4917|1.16%|
+|Kyrian_updates|4916|1.14%|
+|Base|4861|0.00%|

@@ -1,1 +1,1 @@
-{"name": "Composite", "data": {"Base": {"DPS": 2919}, "Move_VT_Higher_Priority": {"DPS": 2918}}, "ids": {"Move_VT_Higher_Priority": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Move_VT_Higher_Priority"], "last_updated": "2020-09-01"}
+{"name": "Composite", "data": {"Kyrian_updates_plus_default": {"DPS": 5465}, "Kyrian_updates": {"DPS": 5464}, "Base": {"DPS": 5430}}, "ids": {"Kyrian_updates_plus_default": null, "Kyrian_updates": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Kyrian_updates_plus_default", "Kyrian_updates"], "last_updated": "2020-09-12"}
