@@ -37,18 +37,16 @@ profileset."16_Haste"+=main_hand=sinbearers_absolution_staff,id=182418,ilevel=23
 profileset."Spectral_Flask_of_Power"+=flask=spectral_flask_of_power
 
 # Potions
-# profileset."Potion_of_Empowered_Exorcisms"+=potion=potion_of_empowered_exorcisms
-# profileset."Potion_of_Empowered_Exorcisms_Shadowcore_Oil"+=potion=potion_of_empowered_exorcisms
-# profileset."Potion_of_Empowered_Exorcisms_Shadowcore_Oil"+=oil=shadowcore_oil
+profileset."Potion_of_Empowered_Exorcisms"+=potion=potion_of_empowered_exorcisms
+profileset."Potion_of_Empowered_Exorcisms_Shadowcore_Oil"+=potion=potion_of_empowered_exorcisms
+profileset."Potion_of_Empowered_Exorcisms_Shadowcore_Oil"+=main_hand=sinbearers_absolution_staff,id=182418,ilevel=233,gem_id=173128,enchant=shadowcore_oil
 profileset."Potion_of_Spectral_Intellect"+=potion=potion_of_spectral_intellect
-# profileset."Potion_of_Deathly_Fixation"+=potion=potion_of_deathly_fixation
-# profileset."Potion_of_Deathly_Fixation_Shadowcore_Oil"+=potion=potion_of_deathly_fixation
-# profileset."Potion_of_Deathly_Fixation_Shadowcore_Oil"+=oil=shadowcore_oil
+profileset."Potion_of_Deathly_Fixation"+=potion=potion_of_deathly_fixation
+profileset."Potion_of_Deathly_Fixation_Shadowcore_Oil"+=potion=potion_of_deathly_fixation
+profileset."Potion_of_Deathly_Fixation_Shadowcore_Oil"+=main_hand=sinbearers_absolution_staff,id=182418,ilevel=233,gem_id=173128,enchant=shadowcore_oil
 
 # Food
-# profileset."Feast_of_Gluttonous_Hedonism"+=food=feast_of_gluttonous_hedonism
-# TODO: remove this when feast works
-profileset."Feast_of_Gluttonous_Hedonism"+=enchant_intellect=72
+profileset."Feast_of_Gluttonous_Hedonism"+=food=feast_of_gluttonous_hedonism
 profileset."Phantasmal_Souffle_and_Fries"+=food=phantasmal_souffle_and_fries
 profileset."Tenebrous_Crown_Roast_Aspic"+=food=tenebrous_crown_roast_aspic
 profileset."Crawler_Ravioli_with_Apple_Sauce"+=food=crawler_ravioli_with_apple_sauce
@@ -56,4 +54,4 @@ profileset."Steak_a_la_Mode"+=food=steak_a_la_mode
 profileset."Smothered_Shank"+=food=smothered_shank
 
 # Weapon Oils
-# profileset."Shadowcore_Oil"+=oil=shadowcore_oil
+profileset."Shadowcore_Oil"+=main_hand=sinbearers_absolution_staff,id=182418,ilevel=233,gem_id=173128,enchant=shadowcore_oil

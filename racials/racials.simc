@@ -20,9 +20,6 @@ trinket1=vial_of_vampiric_essence,id=178810,ilevel=187
 trinket2=soulletting_ruby,id=178809,ilevel=187
 main_hand=sinbearers_absolution_staff,id=182418,ilevel=233
 
-# TODO: remove this later
-food=crawler_ravioli_with_apple_sauce
-
 profileset."Nightborne"+=race=nightborne
 
 profileset."Lightforged_Draenei"+=race=lightforgeddraenei
@@ -45,13 +42,8 @@ profileset."Draenei"+=race=draenei
 
 profileset."Worgen"+=race=worgen
 
-# profileset."Panda_Feast"+=race=pandaren
-# profileset."Panda_Feast"+=food=feast_of_gluttonous_hedonism
-# TODO: remove this when feast works
 profileset."Panda_Feast"+=race=pandaren
-profileset."Panda_Feast"+=enchant_intellect=144
-profileset."Panda_Feast"+=food=disabled
-
+profileset."Panda_Feast"+=food=feast_of_gluttonous_hedonism
 profileset."Panda_Haste"+=race=pandaren
 profileset."Panda_Haste"+=food=tenebrous_crown_roast_aspic
 profileset."Panda_Crit"+=race=pandaren
