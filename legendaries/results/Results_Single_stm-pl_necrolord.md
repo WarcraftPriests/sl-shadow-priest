@@ -1,12 +1,12 @@
 # Single - stm-pl - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|5139|5.52%|
-|Painbreaker_Psalm|5064|3.98%|
-|Talbadars_Stratagem|5049|3.66%|
-|Shadowflame_Prism_Conduit_15|5019|3.06%|
-|Shadowflame_Prism|4975|2.16%|
-|Twins_of_the_Sun_Priestess_Conduit_15|4900|0.61%|
-|Judgment_of_the_Arbiter|4872|0.03%|
-|Sephuzs_Proclamation|4871|0.02%|
-|Base|4870|0.00%|
+|Shadowflame_Prism_Conduit_15|5830|14.64%|
+|Shadowflame_Prism|5684|11.76%|
+|Eternal_Call_to_the_Void|5337|4.94%|
+|Painbreaker_Psalm|5312|4.44%|
+|Talbadars_Stratagem|5295|4.11%|
+|Twins_of_the_Sun_Priestess_Conduit_15|5135|0.98%|
+|Judgment_of_the_Arbiter|5087|0.02%|
+|Sephuzs_Proclamation|5087|0.02%|
+|Base|5086|0.00%|

@@ -1,12 +1,12 @@
 # Composite - stm-pl - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|5790|3.25%|
-|Talbadars_Stratagem|5768|2.87%|
-|Shadowflame_Prism_Conduit_15|5740|2.36%|
-|Shadowflame_Prism|5715|1.92%|
-|Painbreaker_Psalm|5678|1.25%|
-|Twins_of_the_Sun_Priestess_Conduit_15|5650|0.76%|
-|Sephuzs_Proclamation|5608|0.01%|
-|Base|5607|0.00%|
-|Judgment_of_the_Arbiter|5607|-0.01%|
+|Shadowflame_Prism_Conduit_15|6624|12.56%|
+|Shadowflame_Prism|6484|10.17%|
+|Eternal_Call_to_the_Void|6289|6.86%|
+|Talbadars_Stratagem|6067|3.10%|
+|Twins_of_the_Sun_Priestess_Conduit_15|5948|1.08%|
+|Painbreaker_Psalm|5943|0.98%|
+|Judgment_of_the_Arbiter|5885|0.01%|
+|Base|5885|0.00%|
+|Sephuzs_Proclamation|5884|-0.01%|
