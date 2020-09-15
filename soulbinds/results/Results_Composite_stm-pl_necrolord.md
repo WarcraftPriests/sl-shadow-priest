@@ -1,12 +1,12 @@
 # Composite - stm-pl - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Bonesmith-HAMG-MD_FT|5874|10.16%|
-|Bonesmith-SS_HAMG-MD_FT|5775|8.31%|
-|Bonesmith-MD_FT_HA|5630|5.58%|
-|Marileth-MD_FT_HA|5629|5.56%|
-|Emeni-EtC-MD_FT_HA|5629|5.56%|
-|Marileth-PPS-MD_FT|5622|5.44%|
-|Emeni-EtC_GC-MD_FT|5613|5.27%|
-|Bonesmith-SS-MD_FT|5613|5.26%|
-|Base|5332|0.00%|
+|Bonesmith-HAMG-RS_MD|6723|8.12%|
+|Bonesmith-SS_HAMG-RS|6615|6.39%|
+|Emeni-EtC-RS_MD_FT|6516|4.78%|
+|Bonesmith-RS_MD_FT|6515|4.77%|
+|Marileth-RS_MD_FT|6515|4.77%|
+|Marileth-PPS-RS_MD|6429|3.39%|
+|Emeni-EtC_GC-RS_MD|6422|3.28%|
+|Bonesmith-SS-RS_MD|6421|3.27%|
+|Base|6218|0.00%|

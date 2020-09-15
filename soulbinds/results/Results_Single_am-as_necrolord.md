@@ -1,12 +1,12 @@
 # Single - am-as - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Bonesmith-HAMG-MD_FT|5503|10.16%|
-|Bonesmith-SS_HAMG-MD_FT|5417|8.43%|
-|Emeni-EtC-MD_FT_HA|5250|5.10%|
-|Bonesmith-MD_FT_HA|5250|5.10%|
-|Marileth-MD_FT_HA|5249|5.08%|
-|Marileth-PPS-MD_FT|5240|4.89%|
-|Bonesmith-SS-MD_FT|5235|4.81%|
-|Emeni-EtC_GC-MD_FT|5235|4.80%|
-|Base|4995|0.00%|
+|Bonesmith-HAMG-RS_MD|6085|8.47%|
+|Bonesmith-SS_HAMG-RS|5992|6.80%|
+|Emeni-EtC-RS_MD_FT|5870|4.63%|
+|Marileth-RS_MD_FT|5869|4.61%|
+|Bonesmith-RS_MD_FT|5869|4.60%|
+|Marileth-PPS-RS_MD|5795|3.29%|
+|Emeni-EtC_GC-RS_MD|5789|3.19%|
+|Bonesmith-SS-RS_MD|5789|3.18%|
+|Base|5610|0.00%|

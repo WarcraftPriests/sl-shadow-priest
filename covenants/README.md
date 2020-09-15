@@ -8,7 +8,7 @@ Each of the covenant sims is using the following over `Base`:
 - Top Legendary per Covenant
 - Top build per Soulbind per Covenant
 
-The `Covenent_Only` actos is just adding the covenant ability. No conduits, legendaries, or soulbind traits.
+The `Covenent_Only` actor is just adding the covenant ability. No conduits, legendaries, or soulbind traits.
 
 ## Raids
 - [Composite - STM-AS](results/Results_Composite_stm-as.md)

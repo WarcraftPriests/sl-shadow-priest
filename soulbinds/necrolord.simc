@@ -7,8 +7,8 @@ covenant=necrolord
 
 default_actions=1
 
-# Eternal Call to the Void
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+# Shadowflame Prism
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
 neck=charm_of_eternal_winter,id=183040,ilevel=226
 shoulder=shawl_of_the_penitent,id=183020,ilevel=233
 back=crest_of_the_legionnaire_general,id=183032,ilevel=233
@@ -25,42 +25,42 @@ trinket2=soulletting_ruby,id=178809,ilevel=187
 main_hand=sinbearers_absolution_staff,id=182418,ilevel=233
 
 # Top 3 conduits for Necrolord
+# - Rabid Shadows - 114
 # - Mind Devourer - 113
 # - Festering Transfusion - 90
-# - Haunting Apparitions - 107
 
 # Plague Deviser Marileth
 # not including Volatile Solvent for now....
 
 # 3 conduit setup
-profileset."Marileth-MD_FT_HA"+=soulbind=plague_deviser_marileth,113:1/90:1/107:1
+profileset."Marileth-RS_MD_FT"+=soulbind=plague_deviser_marileth,114:1/113:1/90:1
 
 # 2 conduit setup
 # Plaguey's Preemptive Strike - 323090
-profileset."Marileth-PPS-MD_FT"+=soulbind=plague_deviser_marileth,113:1/90:1/323090
+profileset."Marileth-PPS-RS_MD"+=soulbind=plague_deviser_marileth,114:1/113:1/323090
 
 # Emeni
 # 3 conduit setup
 # Embody the Construct - 342156
-profileset."Emeni-EtC-MD_FT_HA"+=soulbind=emeni,113:1/90:1/107:1/342156
+profileset."Emeni-EtC-RS_MD_FT"+=soulbind=emeni,114:1/113:1/90:1/342156
 
 # 2 conduit setup
 # Gnashing Chompers - 323919
-profileset."Emeni-EtC_GC-MD_FT"+=soulbind=emeni,113:1/90:1/342156/323919
+profileset."Emeni-EtC_GC-RS_MD"+=soulbind=emeni,114:1/113:1/342156/323919
 
 # Bonesmith Heirmir
 # 3 conduit setup
-profileset."Bonesmith-MD_FT_HA"+=soulbind=bonesmith_heirmir,113:1/90:1/107:1
+profileset."Bonesmith-RS_MD_FT"+=soulbind=bonesmith_heirmir,114:1/113:1/90:1
 
 # 2 conduit setup
 # Serrated Spaulders - 326504
-profileset."Bonesmith-SS-MD_FT"+=soulbind=bonesmith_heirmir,113:1/90:1/326504
+profileset."Bonesmith-SS-RS_MD"+=soulbind=bonesmith_heirmir,114:1/113:1/326504
 
 # 2 conduit setup
 # Heirmir's Arsenal: Marrowed Gemstone - 326572
-profileset."Bonesmith-HAMG-MD_FT"+=soulbind=bonesmith_heirmir,113:1/90:1/326572
+profileset."Bonesmith-HAMG-RS_MD"+=soulbind=bonesmith_heirmir,114:1/113:1/326572
 
 # 1 conduit setup
 # Serrated Spaulders - 326504
 # Heirmir's Arsenal: Marrowed Gemstone - 326572
-profileset."Bonesmith-SS_HAMG-MD_FT"+=soulbind=bonesmith_heirmir,113:1/326504/326572
+profileset."Bonesmith-SS_HAMG-RS"+=soulbind=bonesmith_heirmir,114:1/326504/326572

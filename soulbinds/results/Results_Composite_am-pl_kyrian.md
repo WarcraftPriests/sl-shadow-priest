@@ -1,9 +1,9 @@
 # Composite - am-pl - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pelagos-LGotP_CM-MD_CA_HA|5989|10.26%|
-|Kleia-PC-MD_CA_HA|5880|8.25%|
-|Forgelite-BCtA_HoG-MD_CA_HA|5712|5.16%|
-|Forgelite-BCtA-MD_CA_HA|5708|5.08%|
-|Kleia-MD_CA_HA|5671|4.41%|
-|Base|5432|0.00%|
+|Pelagos-LGotP_CM-RS_MD_CA|6816|9.80%|
+|Kleia-PC-RS_MD|6651|7.15%|
+|Forgelite-BCtA-RS_MD_CA|6479|4.38%|
+|Forgelite-BCtA_HoG-RS_MD|6447|3.86%|
+|Kleia-RS_MD_CA|6444|3.81%|
+|Base|6207|0.00%|

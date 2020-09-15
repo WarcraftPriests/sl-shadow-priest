@@ -22,82 +22,71 @@ trinket1=vial_of_vampiric_essence,id=178810,ilevel=187
 trinket2=soulletting_ruby,id=178809,ilevel=187
 main_hand=sinbearers_absolution_staff,id=182418,ilevel=233
 
-# Conduits: Mind Devourer, Shattered Perceptions, Haunting Apparitions
-# Legendary: Eternal Call to the Void
-# Soulbind: Nadjia - Thrill Seeker + Dauntless Duelist
+# Legendary: Shadowflame Prism
+# Soulbind: Nadjia - Nadjia-TS_DD-RS_MD
 profileset."Venthyr_Covenant_Only"+=covenant=venthyr
 profileset."Venthyr_Nadjia"+=covenant=venthyr
-profileset."Venthyr_Nadjia"+=soulbind=nadjia_the_mistblade,113:1/105:1/331586/331584
-profileset."Venthyr_Nadjia"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Venthyr_Nadjia"+=soulbind=nadjia_the_mistblade,114:1/113:1/331586/331584
+profileset."Venthyr_Nadjia"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
 # Conduits: Mind Devourer, Shattered Perceptions, Haunting Apparitions
-# Legendary: Eternal Call to the Void
-# Soulbind: Draven - Draven-BfW-MD_SP
+# Legendary: Shadowflame Prism
+# Soulbind: Draven - Draven-BfW-RS_MD
 profileset."Venthyr_Draven"+=covenant=venthyr
-profileset."Venthyr_Draven"+=soulbind=general_draven,113:1/105:1/319973
-profileset."Venthyr_Draven"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-# Conduits: Mind Devourer, Shattered Perceptions, Haunting Apparitions
-# Legendary: Eternal Call to the Void
-# Soulbind: Theotar - Theotar-WP_SS-MD_SP
+profileset."Venthyr_Draven"+=soulbind=general_draven,114:1/113:1/319973
+profileset."Venthyr_Draven"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+# Legendary: Shadowflame Prism
+# Soulbind: Theotar - Theotar-WP_SS-RS_MD
 profileset."Venthyr_Theotar"+=covenant=venthyr
-profileset."Venthyr_Theotar"+=soulbind=theotar_the_mad_duke,113:1/105:1/319983/336239
-profileset."Venthyr_Theotar"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Venthyr_Theotar"+=soulbind=theotar_the_mad_duke,114:1/113:1/319983/336239
+profileset."Venthyr_Theotar"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
 
-# Conduits: Mind Devourer, Courageous Ascension, Haunting Apparitions
-# Legendary: Eternal Call to the Void
-# Soulbind: Pelagos - Let Go of the Past + Combat Meditation
+# Legendary: Shadowflame Prism
+# Soulbind: Pelagos - Pelagos-LGotP_CM-RS_MD_CA
 profileset."Kyrian_Covenant_Only"+=covenant=kyrian
 profileset."Kyrian_Pelagos"+=covenant=kyrian
-profileset."Kyrian_Pelagos"+=soulbind=pelagos,113:1/87:1/107:1/328257/328266
-profileset."Kyrian_Pelagos"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-# Conduits: Mind Devourer, Courageous Ascension
-# Legendary: Eternal Call to the Void
-# Soulbind: Kleia - Pointed Courage
-profileset."Kyrian_Kleia"+=covenant=kyrian
-profileset."Kyrian_Kleia"+=soulbind=kleia,113:1/87:1/329778
-profileset."Kyrian_Kleia"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-# Conduits: Mind Devourer, Courageous Ascension
-# Legendary: Eternal Call to the Void
-# Soulbind: Forgelite Prime Mikanikos - Bron's Call to Action + Hammer of Genesis
-profileset."Kyrian_Forgelite"+=covenant=kyrian
-profileset."Kyrian_Forgelite"+=soulbind=forgelite_prime_mikanikos,113:1/87:1/333950/333935
-profileset."Kyrian_Forgelite"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-
-# Conduits: Mind Devourer, Rabid Shadows, Fae Fermata
+profileset."Kyrian_Pelagos"+=soulbind=pelagos,114:1/113:1/87:1/328257/328266
+profileset."Kyrian_Pelagos"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
 # Legendary: Shadowflame Prism
-# Soulbind: Dreamweaver - Field of Blossoms + Social Butterfly
+# Soulbind: Kleia - Kleia-PC-RS_MD
+profileset."Kyrian_Kleia"+=covenant=kyrian
+profileset."Kyrian_Kleia"+=soulbind=kleia,114:1/113:1/329778
+profileset."Kyrian_Kleia"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+# Legendary: Shadowflame Prism
+# Soulbind: Forgelite Prime Mikanikos - Forgelite-BCtA_HoG-RS_MD
+profileset."Kyrian_Forgelite"+=covenant=kyrian
+profileset."Kyrian_Forgelite"+=soulbind=forgelite_prime_mikanikos,114:1/113:1/333950/333935
+profileset."Kyrian_Forgelite"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+
+# Legendary: Shadowflame Prism
+# Soulbind: Dreamweaver - Dreamweaver-FoB_SB-RS_MD
 profileset."Night_Fae_Covenant_Only"+=covenant=night_fae
 profileset."Night_Fae_Dreamweaver"+=covenant=night_fae
-profileset."Night_Fae_Dreamweaver"+=soulbind=dreamweaver,113:1/114:1/319191/319210
+profileset."Night_Fae_Dreamweaver"+=soulbind=dreamweaver,114:1/113:1/319191/319210
 profileset."Night_Fae_Dreamweaver"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
-# Conduits: Mind Devourer, Rabid Shadows, Fae Fermata
 # Legendary: Shadowflame Prism
-# Soulbind: Korayn - Korayn-WHT_FS-MD_RS
+# Soulbind: Korayn - Korayn-WHT_FS-RS_MD
 profileset."Night_Fae_Korayn"+=covenant=night_fae
-profileset."Night_Fae_Korayn"+=soulbind=korayn,113:1/114:1/325066/325069
+profileset."Night_Fae_Korayn"+=soulbind=korayn,114:1/113:1/325066/325069
 profileset."Night_Fae_Korayn"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
-# Conduits: Mind Devourer, Rabid Shadows, Fae Fermata
 # Legendary: Shadowflame Prism
-# Soulbind: Niya - Niya-GI_NTB-MD_RS
+# Soulbind: Niya - Niya-GI_NTB-RS_MD
 profileset."Night_Fae_Niya"+=covenant=night_fae
-profileset."Night_Fae_Niya"+=soulbind=niya,113:1/114:1/322721/320659
+profileset."Night_Fae_Niya"+=soulbind=niya,114:1/113:1/322721/320659
 profileset."Night_Fae_Niya"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
 
-# Conduits: Mind Devourer, Festering Transfusion, Haunting Apparitions
-# Legendary: Eternal Call to the Void
-# Soulbind: Bonesmith Heirmir - Marrowed Gemstone
+# Legendary: Shadowflame Prism
+# Soulbind: Bonesmith Heirmir - Bonesmith-HAMG-RS_MD
 profileset."Necrolord_Covenant_Only"+=covenant=necrolord
 profileset."Necrolord_Bonesmith"+=covenant=necrolord
-profileset."Necrolord_Bonesmith"+=soulbind=bonesmith_heirmir,113:1/90:1/326572
-profileset."Necrolord_Bonesmith"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-# Conduits: Mind Devourer, Festering Transfusion, Haunting Apparitions
-# Legendary: Eternal Call to the Void
-# Soulbind: Emeni - Emeni-EtC-MD_FT_HA
+profileset."Necrolord_Bonesmith"+=soulbind=bonesmith_heirmir,114:1/113:1/326572
+profileset."Necrolord_Bonesmith"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+# Legendary: Shadowflame Prism
+# Soulbind: Emeni - Emeni-EtC-RS_MD_FT
 profileset."Necrolord_Emeni"+=covenant=necrolord
-profileset."Necrolord_Emeni"+=soulbind=emeni,113:1/90:1/107:1/342156
-profileset."Necrolord_Emeni"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-# Conduits: Mind Devourer, Festering Transfusion, Haunting Apparitions
-# Legendary: Eternal Call to the Void
-# Soulbind: Marileth - Marileth-PPS-MD_FT
+profileset."Necrolord_Emeni"+=soulbind=emeni,114:1/113:1/90:1/342156
+profileset."Necrolord_Emeni"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+# Legendary: Shadowflame Prism
+# Soulbind: Marileth - Marileth-RS_MD_FT
 profileset."Necrolord_Marileth"+=covenant=necrolord
-profileset."Necrolord_Marileth"+=soulbind=plague_deviser_marileth,113:1/90:1/323090
-profileset."Necrolord_Marileth"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_Marileth"+=soulbind=plague_deviser_marileth,114:1/113:1/90:1
+profileset."Necrolord_Marileth"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982

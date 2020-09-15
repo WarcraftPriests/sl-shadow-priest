@@ -24,148 +24,124 @@ main_hand=sinbearers_absolution_staff,id=182418,ilevel=233
 
 # Kyrian
 profileset."Kyrian_1"+=covenant=kyrian
-profileset."Kyrian_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Kyrian_1"+=soulbind=pelagos,113:1/87:1/107:1/328257/328266
+profileset."Kyrian_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Kyrian_1"+=soulbind=pelagos,114:1/113:1/87:1/328257/328266
 
 profileset."Kyrian_2"+=covenant=kyrian
-profileset."Kyrian_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Kyrian_2"+=soulbind=kleia,113:1/87:1/107:1
+profileset."Kyrian_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Kyrian_2"+=soulbind=kleia,114:1/113:1/87:1
 
 profileset."Kyrian_3"+=covenant=kyrian
-profileset."Kyrian_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Kyrian_3"+=soulbind=kleia,113:1/87:1/329778
+profileset."Kyrian_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Kyrian_3"+=soulbind=kleia,114:1/113:1/329778
 
 profileset."Kyrian_4"+=covenant=kyrian
-profileset."Kyrian_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Kyrian_4"+=soulbind=forgelite_prime_mikanikos,113:1/87:1/107:1/333950
+profileset."Kyrian_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Kyrian_4"+=soulbind=forgelite_prime_mikanikos,114:1/113:1/87:1/333950
 
 profileset."Kyrian_5"+=covenant=kyrian
-profileset."Kyrian_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Kyrian_5"+=soulbind=forgelite_prime_mikanikos,113:1/87:1/333950/333935
+profileset."Kyrian_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Kyrian_5"+=soulbind=forgelite_prime_mikanikos,114:1/113:1/333950/333935
 
 # Necrolord
 profileset."Necrolord_1"+=covenant=necrolord
-profileset."Necrolord_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Necrolord_1"+=soulbind=plague_deviser_marileth,113:1/90:1/107:1
+profileset."Necrolord_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Necrolord_1"+=soulbind=plague_deviser_marileth,114:1/113:1/90:1
 
 profileset."Necrolord_2"+=covenant=necrolord
-profileset."Necrolord_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Necrolord_2"+=soulbind=plague_deviser_marileth,113:1/90:1/323090
+profileset."Necrolord_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Necrolord_2"+=soulbind=plague_deviser_marileth,114:1/113:1/323090
 
 profileset."Necrolord_3"+=covenant=necrolord
-profileset."Necrolord_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Necrolord_3"+=soulbind=emeni,113:1/90:1/107:1/342156
+profileset."Necrolord_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Necrolord_3"+=soulbind=emeni,114:1/113:1/90:1/342156
 
 profileset."Necrolord_4"+=covenant=necrolord
-profileset."Necrolord_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Necrolord_4"+=soulbind=emeni,113:1/90:1/342156/323919
+profileset."Necrolord_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Necrolord_4"+=soulbind=emeni,114:1/113:1/342156/323919
 
 profileset."Necrolord_5"+=covenant=necrolord
-profileset."Necrolord_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Necrolord_5"+=soulbind=bonesmith_heirmir,113:1/90:1/107:1
+profileset."Necrolord_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Necrolord_5"+=soulbind=bonesmith_heirmir,114:1/113:1/90:1
 
 profileset."Necrolord_6"+=covenant=necrolord
-profileset."Necrolord_6"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Necrolord_6"+=soulbind=bonesmith_heirmir,113:1/90:1/326504
+profileset."Necrolord_6"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Necrolord_6"+=soulbind=bonesmith_heirmir,114:1/113:1/326504
 
 profileset."Necrolord_7"+=covenant=necrolord
-profileset."Necrolord_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Necrolord_7"+=soulbind=bonesmith_heirmir,113:1/90:1/326572
+profileset."Necrolord_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Necrolord_7"+=soulbind=bonesmith_heirmir,114:1/113:1/326572
 
 profileset."Necrolord_8"+=covenant=necrolord
-profileset."Necrolord_8"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Necrolord_8"+=soulbind=bonesmith_heirmir,113:1/326504/326572
+profileset."Necrolord_8"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Necrolord_8"+=soulbind=bonesmith_heirmir,114:1/326504/326572
 
 # Night Fae
 profileset."Night_Fae_1"+=covenant=night_fae
 profileset."Night_Fae_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
-profileset."Night_Fae_1"+=soulbind=niya,113:1/101:1/114:1/322721/320660
+profileset."Night_Fae_1"+=soulbind=niya,114:1/101:1/113:1/322721/320660
 
 profileset."Night_Fae_2"+=covenant=night_fae
-profileset."Night_Fae_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Night_Fae_2"+=soulbind=niya,113:1/101:1/107:1/322721/320660
+profileset."Night_Fae_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Night_Fae_2"+=soulbind=niya,114:1/101:1/322721/320659
 
 profileset."Night_Fae_3"+=covenant=night_fae
-profileset."Night_Fae_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Night_Fae_3"+=soulbind=niya,113:1/101:1/322721/320659
+profileset."Night_Fae_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Night_Fae_3"+=soulbind=niya,114:1/113:1/322721/320659
 
 profileset."Night_Fae_4"+=covenant=night_fae
-profileset."Night_Fae_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Night_Fae_4"+=soulbind=niya,113:1/114:1/322721/320659
+profileset."Night_Fae_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Night_Fae_4"+=soulbind=dreamweaver,114:1/101:1/113:1/319191
 
 profileset."Night_Fae_5"+=covenant=night_fae
-profileset."Night_Fae_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Night_Fae_5"+=soulbind=niya,101:1/114:1/322721/320659
+profileset."Night_Fae_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Night_Fae_5"+=soulbind=dreamweaver,114:1/101:1/319191/319210
 
 profileset."Night_Fae_6"+=covenant=night_fae
-profileset."Night_Fae_6"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Night_Fae_6"+=soulbind=dreamweaver,113:1/101:1/114:1/319191
+profileset."Night_Fae_6"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Night_Fae_6"+=soulbind=dreamweaver,114:1/113:1/319191/319210
 
 profileset."Night_Fae_7"+=covenant=night_fae
-profileset."Night_Fae_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Night_Fae_7"+=soulbind=dreamweaver,113:1/101:1/107:1/319191
+profileset."Night_Fae_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Night_Fae_7"+=soulbind=korayn,114:1/101:1/113:1/325066
 
 profileset."Night_Fae_8"+=covenant=night_fae
-profileset."Night_Fae_8"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Night_Fae_8"+=soulbind=dreamweaver,113:1/101:1/319191/319210
+profileset."Night_Fae_8"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Night_Fae_8"+=soulbind=korayn,114:1/101:1/325066/325069
 
 profileset."Night_Fae_9"+=covenant=night_fae
-profileset."Night_Fae_9"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Night_Fae_9"+=soulbind=dreamweaver,113:1/114:1/319191/319210
-
-profileset."Night_Fae_10"+=covenant=night_fae
-profileset."Night_Fae_10"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Night_Fae_10"+=soulbind=dreamweaver,101:1/114:1/319191/319210
-
-profileset."Night_Fae_11"+=covenant=night_fae
-profileset."Night_Fae_11"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Night_Fae_11"+=soulbind=korayn,113:1/101:1/114:1/325066
-
-profileset."Night_Fae_12"+=covenant=night_fae
-profileset."Night_Fae_12"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Night_Fae_12"+=soulbind=korayn,113:1/101:1/107:1/325066
-
-profileset."Night_Fae_13"+=covenant=night_fae
-profileset."Night_Fae_13"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Night_Fae_13"+=soulbind=korayn,113:1/101:1/325066/325069
-
-profileset."Night_Fae_14"+=covenant=night_fae
-profileset."Night_Fae_14"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Night_Fae_14"+=soulbind=korayn,113:1/114:1/325066/325069
-
-profileset."Night_Fae_15"+=covenant=night_fae
-profileset."Night_Fae_15"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Night_Fae_15"+=soulbind=korayn,101:1/114:1/325066/325069
+profileset."Night_Fae_9"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Night_Fae_9"+=soulbind=korayn,114:1/113:1/325066/325069
 
 # Venthyr
 profileset."Venthyr_1"+=covenant=venthyr
-profileset."Venthyr_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Venthyr_1"+=soulbind=nadjia_the_mistblade,113:1/105:1/107:1/331586
+profileset."Venthyr_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Venthyr_1"+=soulbind=nadjia_the_mistblade,114:1/113:1/107:1/331586
 
 profileset."Venthyr_2"+=covenant=venthyr
-profileset."Venthyr_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Venthyr_2"+=soulbind=nadjia_the_mistblade,113:1/105:1/331586/331580
+profileset."Venthyr_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Venthyr_2"+=soulbind=nadjia_the_mistblade,114:1/113:1/331586/331580
 
 profileset."Venthyr_3"+=covenant=venthyr
-profileset."Venthyr_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Venthyr_3"+=soulbind=nadjia_the_mistblade,113:1/105:1/331586/331584
+profileset."Venthyr_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Venthyr_3"+=soulbind=nadjia_the_mistblade,114:1/113:1/331586/331584
 
 profileset."Venthyr_4"+=covenant=venthyr
-profileset."Venthyr_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Venthyr_4"+=soulbind=theotar_the_mad_duke,113:1/105:1/107:1/319983
+profileset."Venthyr_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Venthyr_4"+=soulbind=theotar_the_mad_duke,114:1/113:1/107:1/319983
 
 profileset."Venthyr_5"+=covenant=venthyr
-profileset."Venthyr_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Venthyr_5"+=soulbind=theotar_the_mad_duke,113:1/105:1/319983/336239
+profileset."Venthyr_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Venthyr_5"+=soulbind=theotar_the_mad_duke,114:1/113:1/319983/336239
 
 profileset."Venthyr_6"+=covenant=venthyr
-profileset."Venthyr_6"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Venthyr_6"+=soulbind=theotar_the_mad_duke,113:1/105:1/319983/336243
+profileset."Venthyr_6"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Venthyr_6"+=soulbind=theotar_the_mad_duke,114:1/113:1/319983/336243
 
 profileset."Venthyr_7"+=covenant=venthyr
-profileset."Venthyr_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Venthyr_7"+=soulbind=general_draven,113:1/105:1/107:1
+profileset."Venthyr_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Venthyr_7"+=soulbind=general_draven,114:1/113:1/107:1
 
 profileset."Venthyr_8"+=covenant=venthyr
-profileset."Venthyr_8"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Venthyr_8"+=soulbind=general_draven,113:1/105:1/319973
+profileset."Venthyr_8"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Venthyr_8"+=soulbind=general_draven,114:1/113:1/319973

@@ -1,20 +1,20 @@
 # Composite - am-as
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Necrolord_Bonesmith|6122|18.27%|
-|Kyrian_Pelagos|6118|18.18%|
-|Venthyr_Nadjia|6014|16.16%|
-|Kyrian_Kleia|6010|16.10%|
-|Night_Fae_Dreamweaver|6000|15.90%|
-|Venthyr_Draven|5993|15.76%|
-|Venthyr_Theotar|5902|14.02%|
-|Night_Fae_Korayn|5880|13.59%|
-|Necrolord_Emeni|5835|12.71%|
-|Kyrian_Forgelite|5826|12.55%|
-|Necrolord_Marileth|5823|12.48%|
-|Night_Fae_Niya|5809|12.21%|
-|Kyrian_Covenant_Only|5347|3.28%|
-|Necrolord_Covenant_Only|5311|2.59%|
-|Venthyr_Covenant_Only|5295|2.28%|
-|Night_Fae_Covenant_Only|5244|1.30%|
-|Base|5177|0.00%|
+|Necrolord_Bonesmith|6938|27.86%|
+|Kyrian_Pelagos|6825|25.79%|
+|Venthyr_Nadjia|6806|25.42%|
+|Venthyr_Draven|6791|25.15%|
+|Night_Fae_Dreamweaver|6728|23.99%|
+|Night_Fae_Korayn|6719|23.82%|
+|Night_Fae_Niya|6693|23.34%|
+|Necrolord_Emeni|6691|23.31%|
+|Necrolord_Marileth|6690|23.30%|
+|Venthyr_Theotar|6685|23.21%|
+|Kyrian_Kleia|6667|22.87%|
+|Kyrian_Forgelite|6465|19.15%|
+|Kyrian_Covenant_Only|5617|3.51%|
+|Necrolord_Covenant_Only|5552|2.33%|
+|Venthyr_Covenant_Only|5516|1.65%|
+|Night_Fae_Covenant_Only|5428|0.04%|
+|Base|5426|0.00%|

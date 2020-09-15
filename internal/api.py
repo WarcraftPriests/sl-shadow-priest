@@ -92,6 +92,9 @@ def poll_status(api_url_base, sim_id):
             break
         elif response.status_code == 200:
             sim_status = json.loads(response.content)
+            if not 'progress' in sim_status['job']:
+                print("Error getting progress from 200 response json: {0}".format(sim_status))
+                break
             progress = sim_status['job']['progress']
             state = sim_status['job']['state']
             if state == "complete":

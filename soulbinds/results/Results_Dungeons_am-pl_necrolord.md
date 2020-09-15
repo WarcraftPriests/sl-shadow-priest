@@ -1,12 +1,12 @@
 # Dungeons - am-pl - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Bonesmith-HAMG-MD_FT|5690|7.74%|
-|Bonesmith-SS_HAMG-MD_FT|5654|7.06%|
-|Marileth-PPS-MD_FT|5504|4.22%|
-|Bonesmith-MD_FT_HA|5445|3.11%|
-|Emeni-EtC-MD_FT_HA|5443|3.07%|
-|Marileth-MD_FT_HA|5441|3.03%|
-|Emeni-EtC_GC-MD_FT|5427|2.76%|
-|Bonesmith-SS-MD_FT|5426|2.75%|
-|Base|5281|0.00%|
+|Bonesmith-HAMG-RS_MD|6310|7.81%|
+|Bonesmith-SS_HAMG-RS|6227|6.39%|
+|Marileth-PPS-RS_MD|6096|4.15%|
+|Marileth-RS_MD_FT|6051|3.38%|
+|Bonesmith-RS_MD_FT|6049|3.35%|
+|Emeni-EtC-RS_MD_FT|6046|3.30%|
+|Emeni-EtC_GC-RS_MD|6023|2.90%|
+|Bonesmith-SS-RS_MD|6020|2.85%|
+|Base|5853|0.00%|

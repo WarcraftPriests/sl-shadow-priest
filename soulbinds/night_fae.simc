@@ -25,56 +25,40 @@ trinket2=soulletting_ruby,id=178809,ilevel=187
 main_hand=sinbearers_absolution_staff,id=182418,ilevel=233
 
 # Top 3 conduits for Night Fae
-# - Mind Devourer - 113
-# - Fae Fermata - 101
-# - Haunting Apparitions - 107
 # - Rabid Shadows - 114
+# - Fae Fermata - 101
+# - Mind Devourer - 113
 
 # Niya
 # 3 conduit setup
 # Grove Invigoration - 322721
 # Niya's Tools: Poison - 320660
-profileset."Niya-GI_NTP-MD_FF_RS"+=soulbind=niya,113:1/101:1/114:1/322721/320660
-
-profileset."Niya-GI_NTP-MD_FF_HA"+=soulbind=niya,113:1/101:1/107:1/322721/320660
+profileset."Niya-GI_NTP-RS_FF_MD"+=soulbind=niya,114:1/101:1/113:1/322721/320660
 
 # 2 conduit setup
 # Grove Invigoration - 322721
 # Niya's Tools: Burrs - 320659
-profileset."Niya-GI_NTB-MD_FF"+=soulbind=niya,113:1/101:1/322721/320659
-
-profileset."Niya-GI_NTB-MD_RS"+=soulbind=niya,113:1/114:1/322721/320659
-
-profileset."Niya-GI_NTB-FF_RS"+=soulbind=niya,101:1/114:1/322721/320659
+profileset."Niya-GI_NTB-RS_FF"+=soulbind=niya,114:1/101:1/322721/320659
+profileset."Niya-GI_NTB-RS_MD"+=soulbind=niya,114:1/113:1/322721/320659
 
 # Dreamweaver
 # 3 conduit setup
 # Field of Blossoms - 319191
-profileset."Dreamweaver-FoB-MD_FF_RS"+=soulbind=dreamweaver,113:1/101:1/114:1/319191
-
-profileset."Dreamweaver-FoB-MD_FF_HA"+=soulbind=dreamweaver,113:1/101:1/107:1/319191
+profileset."Dreamweaver-FoB-RS_FF_MD"+=soulbind=dreamweaver,114:1/101:1/113:1/319191
 
 # 2 conduit setup
 # Field of Blossoms - 319191
 # Social Butterfly - 319210
-profileset."Dreamweaver-FoB_SB-MD_FF"+=soulbind=dreamweaver,113:1/101:1/319191/319210
-
-profileset."Dreamweaver-FoB_SB-MD_RS"+=soulbind=dreamweaver,113:1/114:1/319191/319210
-
-profileset."Dreamweaver-FoB_SB-FF_RS"+=soulbind=dreamweaver,101:1/114:1/319191/319210
+profileset."Dreamweaver-FoB_SB-RS_FF"+=soulbind=dreamweaver,114:1/101:1/319191/319210
+profileset."Dreamweaver-FoB_SB-RS_MD"+=soulbind=dreamweaver,114:1/113:1/319191/319210
 
 # Korayn
 # 3 conduit setup
 # Wild Hunt Tactics - 325066
-profileset."Korayn-WHT-MD_FF_RS"+=soulbind=korayn,113:1/101:1/114:1/325066
-
-profileset."Korayn-WHT-MD_FF_HA"+=soulbind=korayn,113:1/101:1/107:1/325066
+profileset."Korayn-WHT-RS_FF_MD"+=soulbind=korayn,114:1/101:1/113:1/325066
 
 # 2 conduit setup
 # Wild Hunt Tactics - 325066
 # First Strike - 325069
-profileset."Korayn-WHT_FS-MD_FF"+=soulbind=korayn,113:1/101:1/325066/325069
-
-profileset."Korayn-WHT_FS-MD_RS"+=soulbind=korayn,113:1/114:1/325066/325069
-
-profileset."Korayn-WHT_FS-FF_RS"+=soulbind=korayn,101:1/114:1/325066/325069
+profileset."Korayn-WHT_FS-RS_FF"+=soulbind=korayn,114:1/101:1/325066/325069
+profileset."Korayn-WHT_FS-RS_MD"+=soulbind=korayn,114:1/113:1/325066/325069

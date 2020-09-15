@@ -1,9 +1,9 @@
 # Dungeons - am-as - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pelagos-LGotP_CM-MD_CA_HA|5834|8.72%|
-|Forgelite-BCtA_HoG-MD_CA_HA|5786|7.83%|
-|Kleia-PC-MD_CA_HA|5730|6.78%|
-|Forgelite-BCtA-MD_CA_HA|5569|3.78%|
-|Kleia-MD_CA_HA|5528|3.02%|
-|Base|5366|0.00%|
+|Pelagos-LGotP_CM-RS_MD_CA|6492|9.15%|
+|Forgelite-BCtA_HoG-RS_MD|6362|6.96%|
+|Kleia-PC-RS_MD|6329|6.41%|
+|Forgelite-BCtA-RS_MD_CA|6186|4.00%|
+|Kleia-RS_MD_CA|6147|3.35%|
+|Base|5948|0.00%|
