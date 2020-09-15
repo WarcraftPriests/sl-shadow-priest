@@ -8,7 +8,7 @@ covenant=necrolord
 default_actions=1
 
 # Eternal Call to the Void
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
 neck=charm_of_eternal_winter,id=183040,ilevel=226
 shoulder=shawl_of_the_penitent,id=183020,ilevel=233
 back=crest_of_the_legionnaire_general,id=183032,ilevel=233

@@ -1,6 +1,6 @@
 # Conduit Results
 
-Each Covenant is using its best legendary which is Eternal Call to the Void for all except for Night Fae which prefers Shadowflame Prism.
+Each Covenant is using its best legendary which is Shadowflame Prism.
 
 All talent builds are defined in [config.yml](https://github.com/WarcraftPriests/sl-shadow-priest/blob/master/config.yml#L1)
 
