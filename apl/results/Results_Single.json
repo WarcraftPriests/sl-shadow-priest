@@ -1,1 +1,1 @@
-{"name": "Single", "data": {"Kyrian_updates_plus_default": {"DPS": 4917}, "Kyrian_updates": {"DPS": 4916}, "Base": {"DPS": 4861}}, "ids": {"Kyrian_updates_plus_default": null, "Kyrian_updates": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Kyrian_updates_plus_default", "Kyrian_updates"], "last_updated": "2020-09-12"}
+{"name": "Single", "data": {"Fine_tune_death_usage": {"DPS": 5282}, "Base": {"DPS": 5276}}, "ids": {"Fine_tune_death_usage": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Fine_tune_death_usage"], "last_updated": "2020-09-15"}

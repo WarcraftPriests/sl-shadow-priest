@@ -1,1 +1,1 @@
-{"name": "Dungeons", "data": {"Kyrian_updates_plus_default": {"DPS": 5355}, "Kyrian_updates": {"DPS": 5354}, "Base": {"DPS": 5171}}, "ids": {"Kyrian_updates_plus_default": null, "Kyrian_updates": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Kyrian_updates_plus_default", "Kyrian_updates"], "last_updated": "2020-09-12"}
+{"name": "Dungeons", "data": {"Fine_tune_death_usage": {"DPS": 5667}, "Base": {"DPS": 5606}}, "ids": {"Fine_tune_death_usage": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Fine_tune_death_usage"], "last_updated": "2020-09-15"}

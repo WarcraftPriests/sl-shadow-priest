@@ -1,6 +1,5 @@
 # Single
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Kyrian_updates_plus_default|4917|1.16%|
-|Kyrian_updates|4916|1.14%|
-|Base|4861|0.00%|
+|Fine_tune_death_usage|5282|0.11%|
+|Base|5276|0.00%|
