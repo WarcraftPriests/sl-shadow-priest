@@ -145,6 +145,24 @@ sims:
       - DPS
     files:
       - necrolord.simc
+      - kyrian.simc
+      - night_fae.simc
+      - venthyr.simc
+  soulbinds-launch:
+    soulbinds:
+    builds: true
+    weights: false
+    covenant:
+      lookup: true
+      files: true
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - necrolord.simc
+      - kyrian.simc
+      - night_fae.simc
+      - venthyr.simc
   stats:
     builds: true
     weights: false
@@ -194,7 +212,7 @@ sims:
     builds: true
     weights: true
     covenant:
-      lookup: true
+      lookup: false
       files: false
     lookupType: none
     steps:

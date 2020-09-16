@@ -52,7 +52,7 @@ def parse_json(directory, weights):
     os.chdir(directory)
     parses = 'profile,actor,DD,DPS'
     if weights:
-        parses += 'int,haste,crit,mastery,vers'
+        parses += ',int,haste,crit,mastery,vers'
     parses += '\n'
     for filename in os.listdir(os.getcwd()):
         if filename.endswith('.json'):

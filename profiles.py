@@ -39,10 +39,8 @@ def clear_out_folders(path):
             print(e)
 
 
-def build_settings(talent_string, profile_name_string, weights, covenant_string):
+def build_settings(profile_name_string, weights, covenant_string):
     settings_string = '\n'
-    if talent_string:
-        settings_string += "talents={0}\n".format(talent_string)
     if covenant_string:
         settings_string += "covenant={0}\n".format(covenant_string)
     for expression in fightExpressions:
@@ -134,17 +132,21 @@ def build_profiles(talent, covenant, args):
             f.close()
         if args.dungeons:
             combinations = ["dungeons"]
+        if talent:
+            if args.dungeons:
+                talents = config["builds"][talent]["dungeons"]
+            else:
+                talents = config["builds"][talent]["composite"]
+        else:
+            talents = ''
+        # insert talents in here so copy= works correctly
+        if talents:
+            data = data.replace("spec=shadow", "spec=shadow\ntalents={0}".format(talents))
+
         for profile in combinations:
             # prefix the profile name with the base file name
             profile_name = "{0}_{1}".format(simFile[:-5], profile)
-            if talent:
-                if args.dungeons:
-                    talents = config["builds"][talent]["dungeons"]
-                else:
-                    talents = config["builds"][talent]["composite"]
-            else:
-                talents = ''
-            settings = build_settings(talents, profile, args.weights, covenant)
+            settings = build_settings(profile, config["sims"][args.dir[:-1]]["weights"], covenant)
 
             simcFile = build_simc_file(talent, covenant, profile_name)
             with open(args.dir + simcFile, "w+") as file:
@@ -158,8 +160,6 @@ def build_profiles(talent, covenant, args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generates sim profiles.')
     parser.add_argument('dir', help='Directory to generate profiles for.')
-    parser.add_argument(
-        '--weights', help='Run sims with weights', action='store_true')
     parser.add_argument(
         '--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
     parser.add_argument(

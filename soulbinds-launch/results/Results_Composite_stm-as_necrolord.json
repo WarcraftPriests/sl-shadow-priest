@@ -1,0 +1,1 @@
+{"name": "Composite - stm-as - necrolord", "data": {"Emeni-RS_MD": {"DPS": 6459}, "Marileth-RS": {"DPS": 6370}, "Marileth-PPS": {"DPS": 6280}, "Base": {"DPS": 6271}}, "ids": {"Emeni-RS_MD": null, "Marileth-RS": null, "Marileth-PPS": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Emeni-RS_MD", "Marileth-RS", "Marileth-PPS"], "last_updated": "2020-09-16"}

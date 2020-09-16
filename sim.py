@@ -70,17 +70,15 @@ def convert_to_csv(args, weights, talent, covenant):
     parse_json(results_dir, weights)
 
 
-def analyze_data(args, talent, covenant):
+def analyze_data(args, talent, covenant, weights):
     analyze(talent, args.dir, args.dungeons,
-            args.weights, get_timestamp(), covenant)
+            weights, get_timestamp(), covenant)
 
 
 def main():
     parser = argparse.ArgumentParser(
         description='Parses a list of reports from Raidbots.')
     parser.add_argument('dir', help='Directory you wish to sim.')
-    parser.add_argument(
-        '--weights', help='Run sims with weights', action='store_true')
     parser.add_argument(
         '--iterations', help='Pass through specific iterations to run on. Default is 10000')
     parser.add_argument(
@@ -93,10 +91,7 @@ def main():
 
     sys.path.insert(0, args.dir)
 
-    if args.weights:
-        weights = True
-    else:
-        weights = False
+    weights = config["sims"][args.dir[:-1]]["weights"]
     if args.iterations:
         iterations = args.iterations
     else:
@@ -121,18 +116,18 @@ def main():
             print("Simming {0}-{1} profiles...".format(talent, covenant))
             run_sims(args, iterations, talent, covenant)
             convert_to_csv(args, weights, talent, covenant)
-            analyze_data(args, talent, covenant)
+            analyze_data(args, talent, covenant, weights)
     elif talents:
         for talent in talents:
             print("Simming {0} profiles...".format(talent))
             run_sims(args, iterations, talent, None)
             convert_to_csv(args, weights, talent, None)
-            analyze_data(args, talent, None)
+            analyze_data(args, talent, None, weights)
     else:
         print("Simming default profiles...")
         run_sims(args, iterations, None, None)
         convert_to_csv(args, weights, None, None)
-        analyze_data(args, None, None)
+        analyze_data(args, None, None, weights)
 
 
 if __name__ == "__main__":
