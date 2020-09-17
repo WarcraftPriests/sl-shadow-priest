@@ -20,6 +20,20 @@ finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233
 finger2=ritualists_treasured_ring,id=183037,ilevel=226
 main_hand=sinbearers_absolution_staff,id=182418,ilevel=233
 
-# Raid File
-profileset."Vigilants_Bloodshaper_130"+=trinket1=vigilants_bloodshaper,id=160651,ilevel=130
-profileset."Vigilants_Bloodshaper_135"+=trinket1=vigilants_bloodshaper,id=160651,ilevel=135
+# Castle Nathria 187/200/213/226
+profileset."Soul_Igniter_187"+=trinket1=soul_igniter,id=184019,ilevel=187
+profileset."Soul_Igniter_200"+=trinket1=soul_igniter,id=184019,ilevel=200
+profileset."Soul_Igniter_213"+=trinket1=soul_igniter,id=184019,ilevel=213
+profileset."Soul_Igniter_226"+=trinket1=soul_igniter,id=184019,ilevel=226
+
+# Denathrius Trinkets 194/207/220/233
+# TODO: add number of allies
+profileset."Cabalists_Effigy_194"+=trinket1=cabalists_effigy,id=184028,ilevel=194
+profileset."Cabalists_Effigy_207"+=trinket1=cabalists_effigy,id=184028,ilevel=207
+profileset."Cabalists_Effigy_220"+=trinket1=cabalists_effigy,id=184028,ilevel=220
+profileset."Cabalists_Effigy_233"+=trinket1=cabalists_effigy,id=184028,ilevel=233
+
+profileset."Dreadfire_Vessel_194"+=trinket1=dreadfire_vessel,id=184030,ilevel=194
+profileset."Dreadfire_Vessel_207"+=trinket1=dreadfire_vessel,id=184030,ilevel=207
+profileset."Dreadfire_Vessel_220"+=trinket1=dreadfire_vessel,id=184030,ilevel=220
+profileset."Dreadfire_Vessel_233"+=trinket1=dreadfire_vessel,id=184030,ilevel=233

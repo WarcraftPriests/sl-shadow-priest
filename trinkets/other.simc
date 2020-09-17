@@ -32,3 +32,11 @@ profileset."Spiritual_Alchemy_Stone_165"+=trinket1=spiritual_alchemy_stone,id=17
 profileset."Withergrove_Shardling_155"+=trinket1=withergrove_shardling,id=181459,ilevel=155
 profileset."Flame_of_Battle_155"+=trinket1=flame_of_battle,id=181501,ilevel=155
 profileset."Vial_of_Caustic_Liquid_155"+=trinket1=vial_of_caustic_liquid,id=181503,ilevel=155
+
+# PVP Trinkets
+# TODO: figure out ilvl range
+profileset."Sinful_Gladiators_Badge_of_Ferocity_195"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921
+profileset."Sinful_Gladiators_Insignia_of_Alacrity_195"+=trinket1=sinful_gladiators_insignia_of_alacrity,id=178386
+
+profileset."Sinful_Aspirants_Badge_of_Ferocity_175"+=trinket1=sinful_aspirants_badge_of_ferocity,id=175884
+profileset."Sinful_Aspirants_Insignia_of_Alacrity_175"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298
