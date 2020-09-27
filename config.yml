@@ -191,19 +191,32 @@ sims:
     builds: true
     weights: false
     covenant:
-      lookup: false
+      lookup: true
       files: false
     lookupType: item
     steps:
-      - 130
-      - 135
       - 155
-      - 157
+      - 158
       - 165
       - 170
+      - 175
       - 183
       - 187
+      - 190
+      - 194
+      - 195
+      - 197
       - 200
+      - 203
+      - 204
+      - 207
+      - 210
+      - 213
+      - 216
+      - 220
+      - 223
+      - 226
+      - 233
     files:
       - raid.simc
       - dungeons.simc
