@@ -9,7 +9,7 @@ covenant=kyrian
 # - Mind Devourer - 113
 # - Courageous Ascension - 87
 # - Haunting Apparitions - 107
-soulbind=theotar_the_mad_duke,113:15/87:15/107:15
+soulbind=theotar_the_mad_duke,113:7/87:7/107:7
 
 default_actions=1
 
@@ -34,15 +34,15 @@ main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guida
 profileset."Shadowflame_Prism"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
 
 # Drop HA for RS
-profileset."Shadowflame_Prism_Conduit_15"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
-profileset."Shadowflame_Prism_Conduit_15"+=soulbind=theotar_the_mad_duke,113:15/87:15/114:15
+profileset."Shadowflame_Prism_Conduit_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Shadowflame_Prism_Conduit_7"+=soulbind=theotar_the_mad_duke,113:7/87:7/114:7
 
 # Painbreaker Psalm
 profileset."Painbreaker_Psalm"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6981
 
 # PI Others
-profileset."Twins_of_the_Sun_Priestess_Conduit_15"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7002
-profileset."Twins_of_the_Sun_Priestess_Conduit_15"+=soulbind=theotar_the_mad_duke,113:15/87:15/107:15/73:15
+profileset."Twins_of_the_Sun_Priestess_Conduit_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7002
+profileset."Twins_of_the_Sun_Priestess_Conduit_7"+=soulbind=theotar_the_mad_duke,113:7/87:7/107:7/73:7
 
 # Eternal Call to the Void
 profileset."Eternal_Call_to_the_Void"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
