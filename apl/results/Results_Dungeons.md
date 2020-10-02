@@ -1,5 +1,5 @@
 # Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Fine_tune_death_usage|5667|1.09%|
-|Base|5606|0.00%|
+|SN_Change|5525|7.76%|
+|Base|5127|0.00%|

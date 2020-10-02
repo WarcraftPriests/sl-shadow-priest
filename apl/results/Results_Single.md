@@ -1,5 +1,5 @@
 # Single
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Fine_tune_death_usage|5282|0.11%|
-|Base|5276|0.00%|
+|SN_Change|5027|0.02%|
+|Base|5026|0.00%|

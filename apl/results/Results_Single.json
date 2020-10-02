@@ -1,1 +1,1 @@
-{"name": "Single", "data": {"Fine_tune_death_usage": {"DPS": 5282}, "Base": {"DPS": 5276}}, "ids": {"Fine_tune_death_usage": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Fine_tune_death_usage"], "last_updated": "2020-09-15"}
+{"name": "Single", "data": {"SN_Change": {"DPS": 5027}, "Base": {"DPS": 5026}}, "ids": {"SN_Change": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["SN_Change"], "last_updated": "2020-09-30"}
