@@ -1,1 +1,1 @@
-{"name": "Single", "data": {"SN_Change": {"DPS": 5027}, "Base": {"DPS": 5026}}, "ids": {"SN_Change": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["SN_Change"], "last_updated": "2020-09-30"}
+{"name": "Single", "data": {"VB_less_than_4_insanity_cap_check": {"DPS": 5318}, "VB_less_than_4": {"DPS": 5317}, "Base": {"DPS": 5305}}, "ids": {"VB_less_than_4_insanity_cap_check": null, "VB_less_than_4": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["VB_less_than_4_insanity_cap_check", "VB_less_than_4"], "last_updated": "2020-10-02"}

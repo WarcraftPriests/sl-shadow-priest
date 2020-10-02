@@ -1,5 +1,6 @@
 # Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|SN_Change|5415|0.55%|
-|Base|5385|0.00%|
+|VB_less_than_4_insanity_cap_check|5560|0.45%|
+|VB_less_than_4|5560|0.45%|
+|Base|5535|0.00%|

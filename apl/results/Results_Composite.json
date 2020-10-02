@@ -1,1 +1,1 @@
-{"name": "Composite", "data": {"SN_Change": {"DPS": 5415}, "Base": {"DPS": 5385}}, "ids": {"SN_Change": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["SN_Change"], "last_updated": "2020-09-30"}
+{"name": "Composite", "data": {"VB_less_than_4_insanity_cap_check": {"DPS": 5560}, "VB_less_than_4": {"DPS": 5560}, "Base": {"DPS": 5535}}, "ids": {"VB_less_than_4_insanity_cap_check": null, "VB_less_than_4": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["VB_less_than_4_insanity_cap_check", "VB_less_than_4"], "last_updated": "2020-10-02"}

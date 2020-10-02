@@ -1,5 +1,6 @@
 # Single
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|SN_Change|5027|0.02%|
-|Base|5026|0.00%|
+|VB_less_than_4_insanity_cap_check|5318|0.24%|
+|VB_less_than_4|5317|0.23%|
+|Base|5305|0.00%|
