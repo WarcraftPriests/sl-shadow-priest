@@ -1,0 +1,33 @@
+# Single - hv
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Gnome|5526|1.54%|
+|Goblin|5524|1.51%|
+|Night_Elf_Haste|5517|1.39%|
+|Dark_Iron_Dwarf|5515|1.34%|
+|Draenei|5513|1.31%|
+|Void_Elf|5509|1.24%|
+|Troll|5509|1.23%|
+|Panda_Feast|5506|1.18%|
+|Human|5502|1.10%|
+|Nightborne|5500|1.07%|
+|Blood_Elf|5499|1.04%|
+|Night_Elf_Crit|5496|1.00%|
+|Kul_Tiran|5492|0.92%|
+|Zandalari_Troll_Paku|5489|0.86%|
+|Mechagnome|5484|0.78%|
+|Worgen|5484|0.78%|
+|Undead|5479|0.68%|
+|Maghar_Orc|5479|0.68%|
+|Zandalari_Troll_Kimbul|5477|0.64%|
+|Panda_Haste|5476|0.63%|
+|Zandalari_Troll_Bwonsamdi|5476|0.63%|
+|Panda_Crit|5470|0.51%|
+|Dwarf|5467|0.47%|
+|Tauren|5465|0.43%|
+|Panda_Mastery|5459|0.32%|
+|Lightforged_Draenei|5458|0.30%|
+|Panda_Vers|5458|0.30%|
+|Vulpera|5444|0.03%|
+|Base|5442|0.00%|
+|Panda_Smothered_Shank|4448|-18.27%|
