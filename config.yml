@@ -1,16 +1,16 @@
 builds:
-  am-as:
-    composite: 3121121
-    dungeons: 3121121
-  stm-as:
-    composite: 3121123
-    dungeons: 1121113
-  am-pl:
-    composite: 3121221
-    dungeons: 3121221
-  stm-pl:
-    composite: 3121223
-    dungeons: 1121213
+  am:
+    composite: 1121121 # FotM_Mis_AS_MB_AM
+    dungeons: 2131121 # DaM_SN_AS_MB_AM
+    single: 1111121 # FotM_ToF_AS_MB_AM
+  hv:
+    composite: 1121122 # FotM_Mis_AS_MB_HV
+    dungeons: 2131122 # DaM_SN_AS_MB_HV
+    single: 1111122 # FotM_ToF_AS_MB_HV
+  stm:
+    composite: 1121123 # FotM_Mis_AS_MB_STM
+    dungeons: 2131123 # DaM_SN_AS_MB_STM
+    single: 1111123 # FotM_ToF_AS_MB_STM
 covenants:
   - kyrian
   - night_fae
@@ -177,7 +177,7 @@ sims:
       - DPS
     files:
       - AM.simc
-      - LotV.simc
+      - HV.simc
       - STM.simc
   trinkets:
     builds: true
@@ -226,6 +226,10 @@ sims:
       - weights.simc
 compositeWeights: weightsCastleNathria
 singleTargetWeights: weightsSingle
+singleTargetProfiles:
+  - pw_na_1
+  - lm_na_1
+  - hm_na_1
 simcBuild: nightly
 defaultIterations: 10000
 raidbots:

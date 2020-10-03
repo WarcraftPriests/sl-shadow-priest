@@ -1,1 +1,1 @@
-{"name": "Dungeons", "data": {"check_pi": {"DPS": 5510}, "Base": {"DPS": 5507}, "pi_sync": {"DPS": 5473}}, "ids": {"check_pi": null, "pi_sync": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["check_pi", "pi_sync"], "last_updated": "2020-10-02"}
+{"name": "Dungeons", "data": {"Base": {"DPS": 5547}, "check_for_add": {"DPS": 5467}}, "ids": {"check_for_add": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["check_for_add"], "last_updated": "2020-10-02"}

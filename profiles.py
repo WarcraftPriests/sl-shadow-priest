@@ -1,6 +1,7 @@
 import os
 import argparse
 import yaml
+import re
 
 from itertools import combinations_with_replacement
 
@@ -112,6 +113,14 @@ def build_simc_file(talent, covenant, profile_name):
         return "profiles/{0}.simc".format(profile_name)
 
 
+def replace_talents(talent, data):
+    if "talents=" in data:
+        data = re.sub(r'talents=.*', "talents={}".format(talent), data)
+    else:
+        data.replace("spec=shadow", "spec=shadow\ntalents={0}".format(talent))
+    return data
+
+
 def build_profiles(talent, covenant, args):
     # build combination list e.g. pw_sa_1
     fightStyles = ["pw", "lm", "hm"]
@@ -141,12 +150,22 @@ def build_profiles(talent, covenant, args):
             talents = ''
         # insert talents in here so copy= works correctly
         if talents:
-            data = data.replace("spec=shadow", "spec=shadow\ntalents={0}".format(talents))
+            data = data.replace(
+                "spec=shadow", "spec=shadow\ntalents=".format(talents))
 
         for profile in combinations:
             # prefix the profile name with the base file name
             profile_name = "{0}_{1}".format(simFile[:-5], profile)
-            settings = build_settings(profile, config["sims"][args.dir[:-1]]["weights"], covenant)
+            settings = build_settings(
+                profile, config["sims"][args.dir[:-1]]["weights"], covenant)
+
+            # insert talents based on profile
+            if profile in config["singleTargetProfiles"]:
+                new_talents = config["builds"][talent]["single"]
+                data = replace_talents(new_talents, data)
+            else:
+                if talents:
+                    data = replace_talents(talents, data)
 
             simcFile = build_simc_file(talent, covenant, profile_name)
             with open(args.dir + simcFile, "w+") as file:
