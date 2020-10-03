@@ -1,4 +1,4 @@
 profile,actor,DPS,increase,
-Single,VB_less_than_4_insanity_cap_check,5318,0.24%,
-Single,VB_less_than_4,5317,0.23%,
-Single,Base,5305,0.00%,
+Single,Base,4962,0.00%,
+Single,check_pi,4954,-0.15%,
+Single,pi_sync,4933,-0.58%,
