@@ -1,6 +1,6 @@
 # Soulbind Results
 
-Each soulbind is simmed with all the possible paths with the top 2 or 3 conduits depending on the path chosen. When slotting a conduit we are only slotting the rank1 version of that conduit for now.
+Each Soulbind is simmed with all the possible DPS paths with the top 2 or 3 Conduits at rank 7 depending on the path chosen.
 
 ## Night Fae
 ### Acronyms
@@ -12,22 +12,19 @@ Each soulbind is simmed with all the possible paths with the top 2 or 3 conduits
 - WHT: Wild Hunt Tactics
 - FS: First Strike
 ### Raids
-- [Composite - STM-AS](results/Results_Composite_stm-as_night_fae.md)
-- [Composite - STM-PL](results/Results_Composite_stm-pl_night_fae.md)
-- [Composite - AM-AS](results/Results_Composite_am-as_night_fae.md)
-- [Composite - AM-PL](results/Results_Composite_am-pl_night_fae.md)
+- [Night Fae - Composite - STM](results/Results_Composite_stm_night_fae.md) - `FotM_Mis_AS_MB_STM`
+- [Night Fae - Composite - AM](results/Results_Composite_am_night_fae.md) - `FotM_Mis_AS_MB_AM`
+- [Night Fae - Composite - HV](results/Results_Composite_hv_night_fae.md) - `FotM_Mis_AS_MB_HV`
 
 ### Single Target
-- [Single - STM-AS](results/Results_Single_stm-as_night_fae.md)
-- [Single - STM-PL](results/Results_Single_stm-pl_night_fae.md)
-- [Single - AM-AS](results/Results_Single_am-as_night_fae.md)
-- [Single - AM-PL](results/Results_Single_am-pl_night_fae.md)
+- [Night Fae - Single - STM](results/Results_Single_stm_night_fae.md) - `FotM_ToF_AS_MB_STM`
+- [Night Fae - Single - AM](results/Results_Single_am_night_fae.md) - `FotM_ToF_AS_MB_AM`
+- [Night Fae - Single - HV](results/Results_Single_hv_night_fae.md) - `FotM_ToF_AS_MB_HV`
 
 ### Dungeons
-- [Dungeons - STM-AS](results/Results_Dungeons_stm-as_night_fae.md)
-- [Dungeons - STM-PL](results/Results_Dungeons_stm-pl_night_fae.md)
-- [Dungeons - AM-AS](results/Results_Dungeons_am-as_night_fae.md)
-- [Dungeons - AM-PL](results/Results_Dungeons_am-pl_night_fae.md)
+- [Night Fae - Dungeons - STM](results/Results_Dungeons_stm_night_fae.md) - `DaM_SN_AS_MB_STM`
+- [Night Fae - Dungeons - AM](results/Results_Dungeons_am_night_fae.md) - `DaM_SN_AS_MB_AM`
+- [Night Fae - Dungeons - HV](results/Results_Dungeons_hv_night_fae.md) - `DaM_SN_AS_MB_HV`
 
 ## Kyrian
 ### Acronyms
@@ -37,22 +34,19 @@ Each soulbind is simmed with all the possible paths with the top 2 or 3 conduits
 - BCtA: Bron's Call to Action
 - HoG: Hammer of Genesis
 ### Raids
-- [Composite - STM-AS](results/Results_Composite_stm-as_kyrian.md)
-- [Composite - STM-PL](results/Results_Composite_stm-pl_kyrian.md)
-- [Composite - AM-AS](results/Results_Composite_am-as_kyrian.md)
-- [Composite - AM-PL](results/Results_Composite_am-pl_kyrian.md)
+- [Kyrian - Composite - STM](results/Results_Composite_stm_kyrian.md) - `FotM_Mis_AS_MB_STM`
+- [Kyrian - Composite - AM](results/Results_Composite_am_kyrian.md) - `FotM_Mis_AS_MB_AM`
+- [Kyrian - Composite - HV](results/Results_Composite_hv_kyrian.md) - `FotM_Mis_AS_MB_HV`
 
 ### Single Target
-- [Single - STM-AS](results/Results_Single_stm-as_kyrian.md)
-- [Single - STM-PL](results/Results_Single_stm-pl_kyrian.md)
-- [Single - AM-AS](results/Results_Single_am-as_kyrian.md)
-- [Single - AM-PL](results/Results_Single_am-pl_kyrian.md)
+- [Kyrian - Single - STM](results/Results_Single_stm_kyrian.md) - `FotM_ToF_AS_MB_STM`
+- [Kyrian - Single - AM](results/Results_Single_am_kyrian.md) - `FotM_ToF_AS_MB_AM`
+- [Kyrian - Single - HV](results/Results_Single_hv_kyrian.md) - `FotM_ToF_AS_MB_HV`
 
 ### Dungeons
-- [Dungeons - STM-AS](results/Results_Dungeons_stm-as_kyrian.md)
-- [Dungeons - STM-PL](results/Results_Dungeons_stm-pl_kyrian.md)
-- [Dungeons - AM-AS](results/Results_Dungeons_am-as_kyrian.md)
-- [Dungeons - AM-PL](results/Results_Dungeons_am-pl_kyrian.md)
+- [Kyrian - Dungeons - STM](results/Results_Dungeons_stm_kyrian.md) - `DaM_SN_AS_MB_STM`
+- [Kyrian - Dungeons - AM](results/Results_Dungeons_am_kyrian.md) - `DaM_SN_AS_MB_AM`
+- [Kyrian - Dungeons - HV](results/Results_Dungeons_hv_kyrian.md) - `DaM_SN_AS_MB_HV`
 
 ## Venthyr
 ### Acronyms
@@ -64,44 +58,38 @@ Each soulbind is simmed with all the possible paths with the top 2 or 3 conduits
 - RP: Refined Palate
 - BfW: Built for War
 ### Raids
-- [Composite - STM-AS](results/Results_Composite_stm-as_venthyr.md)
-- [Composite - STM-PL](results/Results_Composite_stm-pl_venthyr.md)
-- [Composite - AM-AS](results/Results_Composite_am-as_venthyr.md)
-- [Composite - AM-PL](results/Results_Composite_am-pl_venthyr.md)
+- [Venthyr - Composite - STM](results/Results_Composite_stm_venthyr.md) - `FotM_Mis_AS_MB_STM`
+- [Venthyr - Composite - AM](results/Results_Composite_am_venthyr.md) - `FotM_Mis_AS_MB_AM`
+- [Venthyr - Composite - HV](results/Results_Composite_hv_venthyr.md) - `FotM_Mis_AS_MB_HV`
 
 ### Single Target
-- [Single - STM-AS](results/Results_Single_stm-as_venthyr.md)
-- [Single - STM-PL](results/Results_Single_stm-pl_venthyr.md)
-- [Single - AM-AS](results/Results_Single_am-as_venthyr.md)
-- [Single - AM-PL](results/Results_Single_am-pl_venthyr.md)
+- [Venthyr - Single - STM](results/Results_Single_stm_venthyr.md) - `FotM_ToF_AS_MB_STM`
+- [Venthyr - Single - AM](results/Results_Single_am_venthyr.md) - `FotM_ToF_AS_MB_AM`
+- [Venthyr - Single - HV](results/Results_Single_hv_venthyr.md) - `FotM_ToF_AS_MB_HV`
 
 ### Dungeons
-- [Dungeons - STM-AS](results/Results_Dungeons_stm-as_venthyr.md)
-- [Dungeons - STM-PL](results/Results_Dungeons_stm-pl_venthyr.md)
-- [Dungeons - AM-AS](results/Results_Dungeons_am-as_venthyr.md)
-- [Dungeons - AM-PL](results/Results_Dungeons_am-pl_venthyr.md)
+- [Venthyr - Dungeons - STM](results/Results_Dungeons_stm_venthyr.md) - `DaM_SN_AS_MB_STM`
+- [Venthyr - Dungeons - AM](results/Results_Dungeons_am_venthyr.md) - `DaM_SN_AS_MB_AM`
+- [Venthyr - Dungeons - HV](results/Results_Dungeons_hv_venthyr.md) - `DaM_SN_AS_MB_HV`
 
 ## Necrolord
 ### Acronyms
 - PPS: Plaguey's Preemptive Strike
-- EtC: Embody the Construct
+- LbE: Lead by Example
 - GC: Gnashing Chompers
 - SS: Serrated Spaulders
 - HAMG: Heirmir's Arsenal: Marrowed Gemstone
 ### Raids
-- [Composite - STM-AS](results/Results_Composite_stm-as_necrolord.md)
-- [Composite - STM-PL](results/Results_Composite_stm-pl_necrolord.md)
-- [Composite - AM-AS](results/Results_Composite_am-as_necrolord.md)
-- [Composite - AM-PL](results/Results_Composite_am-pl_necrolord.md)
+- [Necrolord - Composite - STM](results/Results_Composite_stm_necrolord.md) - `FotM_Mis_AS_MB_STM`
+- [Necrolord - Composite - AM](results/Results_Composite_am_necrolord.md) - `FotM_Mis_AS_MB_AM`
+- [Necrolord - Composite - HV](results/Results_Composite_hv_necrolord.md) - `FotM_Mis_AS_MB_HV`
 
 ### Single Target
-- [Single - STM-AS](results/Results_Single_stm-as_necrolord.md)
-- [Single - STM-PL](results/Results_Single_stm-pl_necrolord.md)
-- [Single - AM-AS](results/Results_Single_am-as_necrolord.md)
-- [Single - AM-PL](results/Results_Single_am-pl_necrolord.md)
+- [Necrolord - Single - STM](results/Results_Single_stm_necrolord.md) - `FotM_ToF_AS_MB_STM`
+- [Necrolord - Single - AM](results/Results_Single_am_necrolord.md) - `FotM_ToF_AS_MB_AM`
+- [Necrolord - Single - HV](results/Results_Single_hv_necrolord.md) - `FotM_ToF_AS_MB_HV`
 
 ### Dungeons
-- [Dungeons - STM-AS](results/Results_Dungeons_stm-as_necrolord.md)
-- [Dungeons - STM-PL](results/Results_Dungeons_stm-pl_necrolord.md)
-- [Dungeons - AM-AS](results/Results_Dungeons_am-as_necrolord.md)
-- [Dungeons - AM-PL](results/Results_Dungeons_am-pl_necrolord.md)
+- [Necrolord - Dungeons - STM](results/Results_Dungeons_stm_necrolord.md) - `DaM_SN_AS_MB_STM`
+- [Necrolord - Dungeons - AM](results/Results_Dungeons_am_necrolord.md) - `DaM_SN_AS_MB_AM`
+- [Necrolord - Dungeons - HV](results/Results_Dungeons_hv_necrolord.md) - `DaM_SN_AS_MB_HV`

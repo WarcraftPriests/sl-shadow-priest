@@ -7,8 +7,8 @@ covenant=kyrian
 
 default_actions=1
 
-# Shadowflame Prism
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+# Eternal Call to the Void
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 neck=charm_of_eternal_winter,id=183040,ilevel=226
 shoulder=shawl_of_the_penitent,id=183020,ilevel=233
 back=crest_of_the_legionnaire_general,id=183032,ilevel=233
@@ -25,30 +25,32 @@ trinket2=macabre_sheet_music,id=184024,ilevel=226
 main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
 
 # Top 3 conduits for Kyrian
-# - Rabid Shadows - 114
+# - Dissonant Echoes - 115
 # - Mind Devourer - 113
-# - Courageous Ascension - 87
+# - Haunting Apparitions - 107
 
 # Pelagos
 # 3 conduit setup
 # Let Go of the Past - 328257
 # Combat Meditation - 328266
-profileset."Pelagos-LGotP_CM-RS_MD_CA"+=soulbind=pelagos,114:1/113:1/87:1/328257/328266
+# shadowlands.combat_meditation_extend_chance = 0.5
+profileset."Pelagos-LGotP_CM-DE_MD_HA"+=soulbind=pelagos,115:7/113:7/107:7/328257/328266
 
 # Kleia
 # 3 conduit setup
-profileset."Kleia-RS_MD_CA"+=soulbind=kleia,114:1/113:1/87:1
+profileset."Kleia-DE_MD_HA"+=soulbind=kleia,115:7/113:7/107:7
 
 # 2 conduit setup
 # Pointed Courage - 329778
-profileset."Kleia-PC-RS_MD"+=soulbind=kleia,114:1/113:1/329778
+# shadowlands.pointed_courage_nearby = 5
+profileset."Kleia-PC-DE_MD"+=soulbind=kleia,115:7/113:7/329778
 
 # Forgelite Prime Mikanikos
 # 3 conduit setup
 # Bron's Call to Action - 333950
-profileset."Forgelite-BCtA-RS_MD_CA"+=soulbind=forgelite_prime_mikanikos,114:1/113:1/87:1/333950
+profileset."Forgelite-BCtA-DE_MD_HA"+=soulbind=forgelite_prime_mikanikos,115:7/113:7/107:7/333950
 
 # 2 conduit setup
 # Bron's Call to Action - 333950
 # Hammer of Genesis - 333935
-profileset."Forgelite-BCtA_HoG-RS_MD"+=soulbind=forgelite_prime_mikanikos,114:1/113:1/333950/333935
+profileset."Forgelite-BCtA_HoG-DE_MD"+=soulbind=forgelite_prime_mikanikos,115:7/113:7/333950/333935
