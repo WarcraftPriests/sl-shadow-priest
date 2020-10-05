@@ -1,29 +1,24 @@
 # Covenant Results
 
-All talent builds are defined in [config.yml](https://github.com/WarcraftPriests/sl-shadow-priest/blob/master/config.yml#L1)
-
 Each of the covenant sims is using the following over `Base`:
 - Covenant Ability
-- Top 3 Conduits per Covenant at rank 1
+- Top 3 Conduits per Covenant at rank 7
 - Top Legendary per Covenant
-- Top build per Soulbind per Covenant
+- Top build(s) per Soulbind per Covenant
 
 The `Covenent_Only` actor is just adding the covenant ability. No conduits, legendaries, or soulbind traits.
 
 ## Raids
-- [Composite - STM-AS](results/Results_Composite_stm-as.md)
-- [Composite - STM-PL](results/Results_Composite_stm-pl.md)
-- [Composite - AM-AS](results/Results_Composite_am-as.md)
-- [Composite - AM-PL](results/Results_Composite_am-pl.md)
+- [Composite - STM](results/Results_Composite_stm.md) - `FotM_Mis_AS_MB_STM`
+- [Composite - AM](results/Results_Composite_am.md) - `FotM_Mis_AS_MB_AM`
+- [Composite - HV](results/Results_Composite_hv.md) - `FotM_Mis_AS_MB_HV`
 
 ## Single Target
-- [Single - STM-AS](results/Results_Single_stm-as.md)
-- [Single - STM-PL](results/Results_Single_stm-pl.md)
-- [Single - AM-AS](results/Results_Single_am-as.md)
-- [Single - AM-PL](results/Results_Single_am-pl.md)
+- [Single - STM](results/Results_Single_stm.md) - `FotM_ToF_AS_MB_STM`
+- [Single - AM](results/Results_Single_am.md) - `FotM_ToF_AS_MB_AM`
+- [Single - HV](results/Results_Single_hv.md) - `FotM_ToF_AS_MB_HV`
 
 ## Dungeons
-- [Dungeons - STM-AS](results/Results_Dungeons_stm-as.md)
-- [Dungeons - STM-PL](results/Results_Dungeons_stm-pl.md)
-- [Dungeons - AM-AS](results/Results_Dungeons_am-as.md)
-- [Dungeons - AM-PL](results/Results_Dungeons_am-pl.md)
+- [Dungeons - STM](results/Results_Dungeons_stm.md) - `DaM_SN_AS_MB_STM`
+- [Dungeons - AM](results/Results_Dungeons_am.md) - `DaM_SN_AS_MB_AM`
+- [Dungeons - HV](results/Results_Dungeons_hv.md) - `DaM_SN_AS_MB_HV`

@@ -1,0 +1,31 @@
+# Dungeons - am
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Venthyr_1|7879|33.81%|
+|Venthyr_8|7870|33.66%|
+|Night_Fae_6|7854|33.39%|
+|Kyrian_1|7851|33.34%|
+|Necrolord_5|7807|32.59%|
+|Venthyr_4|7777|32.08%|
+|Venthyr_2|7761|31.81%|
+|Venthyr_5|7757|31.74%|
+|Venthyr_3|7736|31.39%|
+|Necrolord_3|7698|30.74%|
+|Venthyr_7|7662|30.13%|
+|Necrolord_8|7656|30.03%|
+|Necrolord_2|7651|29.94%|
+|Kyrian_3|7642|29.79%|
+|Necrolord_6|7639|29.74%|
+|Venthyr_6|7639|29.74%|
+|Necrolord_1|7631|29.60%|
+|Kyrian_5|7598|29.04%|
+|Necrolord_4|7568|28.53%|
+|Night_Fae_5|7554|28.29%|
+|Night_Fae_3|7534|27.96%|
+|Night_Fae_2|7501|27.39%|
+|Night_Fae_4|7501|27.39%|
+|Necrolord_7|7494|27.28%|
+|Kyrian_4|7472|26.90%|
+|Kyrian_2|7459|26.68%|
+|Night_Fae_1|7429|26.17%|
+|Base|5888|0.00%|

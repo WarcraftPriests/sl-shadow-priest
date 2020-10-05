@@ -1,0 +1,31 @@
+# Single - stm
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Venthyr_3|6982|33.48%|
+|Venthyr_1|6926|32.41%|
+|Kyrian_1|6905|32.00%|
+|Venthyr_8|6889|31.70%|
+|Venthyr_4|6875|31.44%|
+|Venthyr_5|6817|30.33%|
+|Necrolord_3|6773|29.48%|
+|Night_Fae_5|6768|29.39%|
+|Venthyr_2|6765|29.33%|
+|Venthyr_7|6761|29.25%|
+|Night_Fae_3|6698|28.04%|
+|Venthyr_6|6693|27.96%|
+|Night_Fae_2|6693|27.95%|
+|Necrolord_6|6685|27.79%|
+|Necrolord_1|6684|27.79%|
+|Kyrian_3|6663|27.37%|
+|Night_Fae_1|6646|27.06%|
+|Night_Fae_6|6638|26.90%|
+|Necrolord_8|6628|26.71%|
+|Night_Fae_4|6607|26.30%|
+|Necrolord_5|6592|26.03%|
+|Kyrian_4|6564|25.49%|
+|Kyrian_2|6550|25.22%|
+|Necrolord_2|6531|24.85%|
+|Necrolord_4|6520|24.64%|
+|Necrolord_7|6508|24.42%|
+|Kyrian_5|6402|22.38%|
+|Base|5231|0.00%|
