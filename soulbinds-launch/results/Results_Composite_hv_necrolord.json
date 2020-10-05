@@ -1,0 +1,1 @@
+{"name": "Composite - hv - necrolord", "data": {"Emeni-DE_MD": {"DPS": 7676}, "Marileth-DE": {"DPS": 7560}, "Marileth-PPS": {"DPS": 7317}, "Base": {"DPS": 7285}}, "ids": {"Emeni-DE_MD": null, "Marileth-DE": null, "Marileth-PPS": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Emeni-DE_MD", "Marileth-DE", "Marileth-PPS"], "last_updated": "2020-10-04"}

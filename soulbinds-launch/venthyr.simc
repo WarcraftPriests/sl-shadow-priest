@@ -7,8 +7,8 @@ covenant=venthyr
 
 default_actions=1
 
-# Shadowflame Prism
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+# Eternal Call to the Void
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 neck=charm_of_eternal_winter,id=183040,ilevel=226
 shoulder=shawl_of_the_penitent,id=183020,ilevel=233
 back=crest_of_the_legionnaire_general,id=183032,ilevel=233
@@ -25,24 +25,22 @@ trinket2=macabre_sheet_music,id=184024,ilevel=226
 main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
 
 # Top 3 conduits for Venthyr
-# - Rabid Shadows - 114
+# - Dissonant Echoes - 115
 # - Mind Devourer - 113
 # - Haunting Apparitions - 107
 
-# TODO probably add in SP again once spell data is fixed
-
 # Nadjia
 # 3 conduit setup
-profileset."Nadjia-RS"+=soulbind=nadjia_the_mistblade,114:1
+profileset."Nadjia-DE"+=soulbind=nadjia_the_mistblade,115:6
 
 # Theotar
 # 3 conduit setup
-profileset."Theotar-RS_MD_HA"+=soulbind=theotar_the_mad_duke,114:1/113:1/107:1
+profileset."Theotar-DE_MD"+=soulbind=theotar_the_mad_duke,115:6/113:6
 
 # 2 conduit setup
 # Soothing Shade - 336239
-profileset."Theotar-SS-RS_MD"+=soulbind=theotar_the_mad_duke,114:1/113:1/336239
+profileset."Theotar-SS-DE"+=soulbind=theotar_the_mad_duke,115:6/336239
 
 # 2 conduit setup
 # Refined Palate - 336243
-profileset."Theotar-RP-RS_MD"+=soulbind=theotar_the_mad_duke,114:1/113:1/336243
+profileset."Theotar-RP-DE"+=soulbind=theotar_the_mad_duke,115:6/336243

@@ -1,0 +1,1 @@
+{"name": "Composite - stm - kyrian", "data": {"Pelagos-LGotP-DE": {"DPS": 7386}, "Kleia-PC-DE": {"DPS": 7365}, "Kleia-DE_MD": {"DPS": 7165}, "Base": {"DPS": 6846}}, "ids": {"Pelagos-LGotP-DE": null, "Kleia-PC-DE": null, "Kleia-DE_MD": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Pelagos-LGotP-DE", "Kleia-PC-DE", "Kleia-DE_MD"], "last_updated": "2020-10-04"}
