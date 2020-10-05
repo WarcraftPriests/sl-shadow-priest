@@ -22,32 +22,32 @@ trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=macabre_sheet_music,id=184024,ilevel=226
 main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
 
-# Legendary: Shadowflame Prism
-# Soulbind: Nadjia - Nadjia-TS_DD-RS_MD
+# Legendary: Eternal Call to the Void
+# Soulbind: Nadjia-TS-DE_MD_HA
 copy="Venthyr","Base"
 covenant=venthyr
-soulbind=nadjia_the_mistblade,114:1/113:1/331586/331584
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+soulbind=nadjia_the_mistblade,115:7/113:7/107:7/331586
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 
-# Legendary: Shadowflame Prism
-# Soulbind: Pelagos - Pelagos-LGotP_CM-RS_MD_CA
+# Legendary: Eternal Call to the Void
+# Soulbind: Pelagos-LGotP_CM-DE_MD_HA
 copy="Kyrian","Base"
 covenant=kyrian
-soulbind=pelagos,114:1/113:1/87:1/328257/328266
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+soulbind=pelagos,115:7/113:7/107:7/328257/328266
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 
-# Legendary: Shadowflame Prism
-# Soulbind: Dreamweaver - Dreamweaver-FoB_SB-RS_MD
+# Legendary: Eternal Call to the Void
+# Soulbind: Korayn-WHT-DE_MD_HA
 copy="Night_Fae","Base"
 covenant=night_fae
-soulbind=dreamweaver,114:1/113:1/319191/319210
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+soulbind=korayn,115:7/113:7/107:7/325066
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 
-# Legendary: Shadowflame Prism
-# Soulbind: Bonesmith Heirmir - Bonesmith-HAMG-RS_MD
+# Legendary: Eternal Call to the Void
+# Soulbind: Emeni-LbE-DE_MD_HA
 copy="Necrolord","Base"
 covenant=necrolord
-soulbind=bonesmith_heirmir,114:1/113:1/326572
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+soulbind=emeni,115:7/113:7/107:7/342156
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 
 single_actor_batch=1

@@ -15,18 +15,3 @@
 |Night_Fae_Niya|7635|31.38%|
 |Kyrian_Kleia|7629|31.27%|
 |Kyrian_Forgelite|7365|26.73%|
-
-
-# Composite
-|Necrolord_Covenant_Only|6012|3.45%|
-|Venthyr_Covenant_Only|6009|3.39%|
-|Kyrian_Covenant_Only|5877|1.13%|
-|Night_Fae_Covenant_Only|5860|0.83%|
-|Base|5812|0.00%|
-
-# Single Target (with movement)
-|Venthyr_Covenant_Only|5521|4.03%|
-|Necrolord_Covenant_Only|5429|2.29%|
-|Night_Fae_Covenant_Only|5350|0.80%|
-|Kyrian_Covenant_Only|5318|0.19%|
-|Base|5308|0.00%|
