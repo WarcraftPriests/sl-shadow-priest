@@ -1,5 +1,6 @@
 # Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|5547|0.00%|
-|check_for_add|5467|-1.44%|
+|Base|5146|0.00%|
+|disabled|5138|-0.16%|
+|no_vf|5124|-0.43%|

@@ -20,8 +20,10 @@ trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=macabre_sheet_music,id=184024,ilevel=226
 main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
 
+# dont use arcane pulse...ever
 profileset."Nightborne"+=race=nightborne
 
+# use on CD when adds are active
 profileset."Lightforged_Draenei"+=race=lightforgeddraenei
 
 profileset."Void_Elf"+=race=voidelf
@@ -61,12 +63,16 @@ profileset."Tauren"+=race=tauren
 
 profileset."Goblin"+=race=goblin
 
+# sync berserk with PI
 profileset."Troll"+=race=troll
 
+# precombat arcane torrent
 profileset."Blood_Elf"+=race=blood_elf
 
+# sync fireblood with PI
 profileset."Dark_Iron_Dwarf"+=race=dark_iron_dwarf
 
+# sync ancestral call with PI
 profileset."Maghar_Orc"+=race=maghar_orc
 
 profileset."Kul_Tiran"+=race=kul_tiran
@@ -80,6 +86,7 @@ profileset."Zandalari_Troll_Paku"+=zandalari_loa=paku
 profileset."Zandalari_Troll_Bwonsamdi"+=race=zandalari_troll
 profileset."Zandalari_Troll_Bwonsamdi"+=zandalari_loa=bwonsamdi
 
+# currently disabled
 profileset."Vulpera"+=race=vulpera
 
 profileset."Mechagnome"+=race=mechagnome

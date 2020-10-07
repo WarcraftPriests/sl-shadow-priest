@@ -1,6 +1,6 @@
 # Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|check_pi|5431|0.00%|
-|Base|5431|0.00%|
-|pi_sync|5386|-0.83%|
+|Base|4980|0.00%|
+|disabled|4979|-0.03%|
+|no_vf|4951|-0.60%|

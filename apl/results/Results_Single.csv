@@ -1,4 +1,4 @@
 profile,actor,DPS,increase,
-Single,Base,4962,0.00%,
-Single,check_pi,4954,-0.15%,
-Single,pi_sync,4933,-0.58%,
+Single,Base,4550,0.00%,
+Single,disabled,4542,-0.17%,
+Single,no_vf,4522,-0.60%,

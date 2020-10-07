@@ -1,1 +1,1 @@
-{"name": "Single", "data": {"Base": {"DPS": 4962}, "check_pi": {"DPS": 4954}, "pi_sync": {"DPS": 4933}}, "ids": {"check_pi": null, "pi_sync": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["check_pi", "pi_sync"], "last_updated": "2020-10-02"}
+{"name": "Single", "data": {"Base": {"DPS": 4550}, "disabled": {"DPS": 4542}, "no_vf": {"DPS": 4522}}, "ids": {"disabled": null, "no_vf": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["disabled", "no_vf"], "last_updated": "2020-10-07"}

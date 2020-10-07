@@ -160,11 +160,11 @@ def build_profiles(talent, covenant, args):
                 profile, config["sims"][args.dir[:-1]]["weights"], covenant)
 
             # insert talents based on profile
-            if profile in config["singleTargetProfiles"]:
-                new_talents = config["builds"][talent]["single"]
-                data = replace_talents(new_talents, data)
-            else:
-                if talents:
+            if talents:
+                if profile in config["singleTargetProfiles"]:
+                    new_talents = config["builds"][talent]["single"]
+                    data = replace_talents(new_talents, data)
+                else:
                     data = replace_talents(talents, data)
 
             simcFile = build_simc_file(talent, covenant, profile_name)
