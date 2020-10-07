@@ -34,9 +34,10 @@ profileset."Flame_of_Battle_155"+=trinket1=flame_of_battle,id=181501,ilevel=155
 profileset."Vial_of_Caustic_Liquid_155"+=trinket1=vial_of_caustic_liquid,id=181503,ilevel=155
 
 # PVP Trinkets
-# TODO: figure out ilvl range
+# Conquest: 190, 200, 207, 213, 220, 226
 profileset."Sinful_Gladiators_Badge_of_Ferocity_195"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921
 profileset."Sinful_Gladiators_Insignia_of_Alacrity_195"+=trinket1=sinful_gladiators_insignia_of_alacrity,id=178386
 
+# Honor: 158, 164, 171, 177, 184, 190
 profileset."Sinful_Aspirants_Badge_of_Ferocity_175"+=trinket1=sinful_aspirants_badge_of_ferocity,id=175884
 profileset."Sinful_Aspirants_Insignia_of_Alacrity_175"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298
