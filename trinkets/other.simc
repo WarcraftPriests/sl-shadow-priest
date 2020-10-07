@@ -35,9 +35,31 @@ profileset."Vial_of_Caustic_Liquid_155"+=trinket1=vial_of_caustic_liquid,id=1815
 
 # PVP Trinkets
 # Conquest: 190, 200, 207, 213, 220, 226
-profileset."Sinful_Gladiators_Badge_of_Ferocity_195"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921
-profileset."Sinful_Gladiators_Insignia_of_Alacrity_195"+=trinket1=sinful_gladiators_insignia_of_alacrity,id=178386
+profileset."Sinful_Gladiators_Badge_of_Ferocity_190"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921,ilevel=190
+profileset."Sinful_Gladiators_Badge_of_Ferocity_200"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921,ilevel=200
+profileset."Sinful_Gladiators_Badge_of_Ferocity_207"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921,ilevel=207
+profileset."Sinful_Gladiators_Badge_of_Ferocity_213"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921,ilevel=213
+profileset."Sinful_Gladiators_Badge_of_Ferocity_220"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921,ilevel=220
+profileset."Sinful_Gladiators_Badge_of_Ferocity_226"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921,ilevel=226
+
+profileset."Sinful_Gladiators_Insignia_of_Alacrity_190"+=trinket1=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=190
+profileset."Sinful_Gladiators_Insignia_of_Alacrity_200"+=trinket1=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=200
+profileset."Sinful_Gladiators_Insignia_of_Alacrity_207"+=trinket1=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=207
+profileset."Sinful_Gladiators_Insignia_of_Alacrity_213"+=trinket1=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=213
+profileset."Sinful_Gladiators_Insignia_of_Alacrity_220"+=trinket1=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=220
+profileset."Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
 
 # Honor: 158, 164, 171, 177, 184, 190
-profileset."Sinful_Aspirants_Badge_of_Ferocity_175"+=trinket1=sinful_aspirants_badge_of_ferocity,id=175884
-profileset."Sinful_Aspirants_Insignia_of_Alacrity_175"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298
+profileset."Sinful_Aspirants_Badge_of_Ferocity_158"+=trinket1=sinful_aspirants_badge_of_ferocity,id=175884,ilevel=158
+profileset."Sinful_Aspirants_Badge_of_Ferocity_164"+=trinket1=sinful_aspirants_badge_of_ferocity,id=175884,ilevel=164
+profileset."Sinful_Aspirants_Badge_of_Ferocity_171"+=trinket1=sinful_aspirants_badge_of_ferocity,id=175884,ilevel=171
+profileset."Sinful_Aspirants_Badge_of_Ferocity_177"+=trinket1=sinful_aspirants_badge_of_ferocity,id=175884,ilevel=177
+profileset."Sinful_Aspirants_Badge_of_Ferocity_184"+=trinket1=sinful_aspirants_badge_of_ferocity,id=175884,ilevel=184
+profileset."Sinful_Aspirants_Badge_of_Ferocity_190"+=trinket1=sinful_aspirants_badge_of_ferocity,id=175884,ilevel=190
+
+profileset."Sinful_Aspirants_Insignia_of_Alacrity_158"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298,ilevel=158
+profileset."Sinful_Aspirants_Insignia_of_Alacrity_164"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298,ilevel=164
+profileset."Sinful_Aspirants_Insignia_of_Alacrity_171"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298,ilevel=171
+profileset."Sinful_Aspirants_Insignia_of_Alacrity_177"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298,ilevel=177
+profileset."Sinful_Aspirants_Insignia_of_Alacrity_184"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298,ilevel=184
+profileset."Sinful_Aspirants_Insignia_of_Alacrity_190"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298,ilevel=190
