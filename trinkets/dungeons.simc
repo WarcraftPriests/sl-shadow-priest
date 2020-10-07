@@ -24,6 +24,7 @@ main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guida
 # Mythic+ Trinkets: 187/190/194/197/200/203/204/207/210/213/216/220/223/226
 
 # Spires of Ascension
+profileset."Empyreal_Ordnance_158"+=trinket1=empyreal_ordnance,id=180117,ilevel=158
 profileset."Empyreal_Ordnance_170"+=trinket1=empyreal_ordnance,id=180117,ilevel=170
 profileset."Empyreal_Ordnance_183"+=trinket1=empyreal_ordnance,id=180117,ilevel=183
 profileset."Empyreal_Ordnance_187"+=trinket1=empyreal_ordnance,id=180117,ilevel=187
