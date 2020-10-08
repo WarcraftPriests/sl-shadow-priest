@@ -34,7 +34,6 @@ def get_path(simcBuildVersion):
     try:
         import local_secrets
         pathDict = local_secrets.simc_path
-        print(platform.system())
         if platform.system() == 'Darwin' or platform.system() == 'Linux':
             return handle_path_darwin(pathDict[simcBuildVersion])
         else:
@@ -142,7 +141,7 @@ def main():
     parser.add_argument(
         '--covenant', help='indicate covenant build for output.', choices=config["covenants"])
     parser.add_argument(
-        '--local', help='indicate covenant build for output.', action='store_true')
+        '--local', help='indicate if the simulation should run local.', action='store_true')
     args = parser.parse_args()
 
     sys.path.insert(0, args.dir)
