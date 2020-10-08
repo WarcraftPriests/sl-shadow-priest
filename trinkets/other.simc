@@ -29,9 +29,27 @@ profileset."Spiritual_Alchemy_Stone_165"+=trinket1=spiritual_alchemy_stone,id=17
 
 # Questing Trinkets
 # TODO: figure out ilvl range? Wowhead shows 85 -> 455
+# 187
 profileset."Withergrove_Shardling_155"+=trinket1=withergrove_shardling,id=181459,ilevel=155
 profileset."Flame_of_Battle_155"+=trinket1=flame_of_battle,id=181501,ilevel=155
 profileset."Vial_of_Caustic_Liquid_155"+=trinket1=vial_of_caustic_liquid,id=181503,ilevel=155
+# wakeners_frond
+# flame_of_battle
+# overflowing_ember_mirror
+# tablet_of_despair
+# siphoning_blood_drinker
+# glowing_endmire_stinger
+# hopebreakers_badge
+# rotbriar_sprout
+# murmurs_in_the_dark
+# book_borrower_identification
+# primalists_kelpling
+# elders_stormseed
+# ascended_defenders_crest
+# agithas_void_tinged_speartip
+# misfiring_centurion_controller
+# newcomers_gladiatorial_badge
+# stolen_maw_badge
 
 # PVP Trinkets
 # Conquest: 190, 200, 207, 213, 220, 226
