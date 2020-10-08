@@ -9,7 +9,7 @@ def sim_local(simc_path, profile_location, output_location):
         output.close()
         os.remove(output_location.replace("json", "log"))
     except:
-        print("{0} was not created. Skipping file (see detailed informations in {1})".format(locationList[-1], output_location.replace("json", "log")))
+        print("{0} has an error. Skipping file (see detailed informations in {1})".format(locationList[-1], output_location.replace("json", "log")))
 
 
 def raidbots(simc_path, profile_location, simc_build, output_location, report_name, iterations):
