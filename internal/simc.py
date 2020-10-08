@@ -12,10 +12,16 @@ def sim_local(simc_path, profile_location, output_location):
 
 
 def update_profile(profile_location, report_name):
-    print(report_name)
-    with open(profile_location, "a+") as file:
-        file.write("json2={0}".format(report_name))
-        file.close()
+    if check_for_existing_json(profile_location, report_name):
+        with open(profile_location, 'a+') as file:
+            file.write("json2={0}\n".format(report_name))
+    
+def check_for_existing_json(profile_location, report_name):
+    with open(profile_location) as file:
+        if "json2={0}".format(report_name) in file.read():
+            return False
+        else:
+            return True
 
 def raidbots(simc_path, profile_location, simc_build, output_location, report_name, iterations):
     sim_local(simc_path, profile_location, output_location)
