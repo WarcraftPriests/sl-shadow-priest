@@ -4,7 +4,8 @@ import os
 def sim_local(simc_path, profile_location, output_location):
     resultList = output_location.split("/")
     update_profile(profile_location, resultList[-1])
-    subprocess.run([simc_path, profile_location])
+    FNULL = open(os.devnull, 'w')
+    subprocess.check_call([simc_path, profile_location], stdout=FNULL, stderr=subprocess.STDOUT)
     try:
         os.rename(resultList[-1], output_location)
     except FileNotFoundError:
