@@ -13,13 +13,27 @@ This repo includes scripts and sims for shadow priests.
 ## How to Run
 All scripts are run built with python3, but should be able to be run with python2 (results may vary).
 
+### Prepare your environment
 1. Run `pip install -r requirements.txt` in order for the scripts to work.
 2. Edit and confirm config in `config.yml`, this controls how profiles are built, sims are ran, and aggregated. See the [wiki](https://github.com/WarcraftPriests/sl-shadow-priest/wiki/Config-File) for more information.
-3. Run `python profiles.py dir/ [--ptr, --dungeons, --talents [am, stm, hv], --covenant [kyrian, necrolord, night_fae, venthyr]]` for the directory you want to sim. Current talent options are indicated by the config keys under: `builds`. If you don't specify `talents` or `covenant` and that sim uses it based on config, all combinations will be automatically generated.
-4. To run the sim in Raidbots create `api_secrets.py` inside the root directory. Set `api_key = 'XXX'`.
-5. By default if a file already exists in `output/` or if the weight in `internal/weights.py` is 0, sim.py will skip it.
-6. To run the sims use `python sim.py dir/ [--iterations 10000, --dungeons, --talents [am, hv, stm]]` where `dir/` is the sim directory you want to sim. If you don't specify `talents` or `covenant` and that sim uses it based on config, all combinations will be automatically generated.
-7. Based on config keys in `analyze` markdown, csv, and json will be generated for the aggregated sims. These will output separate files for Composite, Single Target, or Dungeon sims. You can find all output files in the `results/` folder in any sim folder.
+
+### Create profiles
+1. Run `python profiles.py dir/ [--ptr, --dungeons, --talents [am, stm, hv], --covenant [kyrian, necrolord, night_fae, venthyr]]` for the directory you want to sim. Current talent options are indicated by the config keys under: `builds`. If you don't specify `talents` or `covenant` and that sim uses it based on config, all combinations will be automatically generated.
+
+### Simulate
+#### Use raidbots
+1. To run the sim in Raidbots create `api_secrets.py` inside the root directory. Set `api_key = 'XXX'`.
+2. By default if a file already exists in `output/` or if the weight in `internal/weights.py` is 0, sim.py will skip it.
+3. To run the sims use `python sim.py dir/ [--iterations 10000, --dungeons, --talents [am, hv, stm]]` where `dir/` is the sim directory you want to sim. If you don't specify `talents` or `covenant` and that sim uses it based on config, all combinations will be automatically generated.
+4. Based on config keys in `analyze` markdown, csv, and json will be generated for the aggregated sims. These will output separate files for Composite, Single Target, or Dungeon sims. You can find all output files in the `results/` folder in any sim folder.
+
+#### Use local simc
+1. To run with a local simc you have to options:
+1.1 use the simc you have on your Path ( nothing to setup here)
+1.2 use a simc located in a seperated folder, create a `local_secrets.py` inside the root directory and set `simc_path = 'XXX'`
+2. By default if a file already exists in `output/` or if the weight in `internal/weights.py` is 0, sim.py will skip it.
+3. To run the sims use `python sim.py dir/ [--iterations 10000, --dungeons, --talents [am, hv, stm] --local]` where `dir/` is the sim directory you want to sim. If you don't specify `talents` or `covenant` and that sim uses it based on config, all combinations will be automatically generated.
+4. Based on config keys in `analyze` markdown, csv, and json will be generated for the aggregated sims. These will output separate files for Composite, Single Target, or Dungeon sims. You can find all output files in the `results/` folder in any sim folder.
 
 ### General Order of sims to run
 The following is a rough order to follow when running sims. Generally the things on the same row can be run at the same time since they do not influence each other.

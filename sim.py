@@ -1,6 +1,5 @@
 import argparse
 import yaml
-import api_secrets
 import sys
 import platform
 import re
@@ -8,7 +7,6 @@ import os
 
 from os import listdir
 from internal.weights import find_weights
-from internal.api import raidbots
 from internal.sim_parser import parse_json
 from internal.sim_parser import get_timestamp
 from internal.analyze import analyze
@@ -31,9 +29,34 @@ def get_simc_dir(talent, covenant, folder_name):
     else:
         return "{0}/".format(folder_name)
 
+def get_path():
+    try:
+        import local_secrets
+        path = local_secrets.simc_path
+        if path.endswith("/"):
+            return "{0}simc".format(path)
+        else:
+            return "{0}/simc".format(path)
+    except:
+        return "simc"
+
+
+def get_api_key(args):
+    if args.local:
+        return get_path() 
+    else :
+        import api_secrets
+        return api_secrets.api_key
+
 
 def run_sims(args, iterations, talent, covenant):
-    api_key = api_secrets.api_key
+    if args.local:
+        from internal.simc import raidbots
+    else:
+        from internal.api import raidbots
+
+    api_key = get_api_key(args)
+    
     print("Running sims on {0} in {1}".format(config["simcBuild"], args.dir))
     existing = listdir(args.dir + get_simc_dir(talent, covenant, 'output'))
     profiles = listdir(args.dir + get_simc_dir(talent, covenant, 'profiles'))
@@ -87,6 +110,8 @@ def main():
         '--talents', help='indicate talent build for output.', choices=config["builds"].keys())
     parser.add_argument(
         '--covenant', help='indicate covenant build for output.', choices=config["covenants"])
+    parser.add_argument(
+        '--local', help='indicate covenant build for output.', action='store_true')
     args = parser.parse_args()
 
     sys.path.insert(0, args.dir)
