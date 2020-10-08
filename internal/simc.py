@@ -8,9 +8,13 @@ def sim_local(simc_path, profile_location, output_location, iterations, simc_bui
     try:
         subprocess.check_call([simc_path, "json2={0}".format(output_location), "iterations={0}".format(iterations), "simcVersion={0}".format(simc_build), profile_location], stdout=output, stderr=output)
         output.close()
-        os.remove(output_location.replace("json", "log"))
     except:
-        print("{0} has an error. Skipping file (see detailed informations in {1})".format(locationList[-1], output_location.replace("json", "log")))
+        print("-- {0} has an error. Skipping file.".format(locationList[-1]))
+        with open(output_location.replace("json", "log")) as file:
+            lines = file.readlines()
+            print("-- {0}".format(lines[-1]))
+    
+    os.remove(output_location.replace("json", "log"))
 
 
 def raidbots(simc_path, profile_location, simc_build, output_location, report_name, iterations):

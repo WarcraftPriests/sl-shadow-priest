@@ -87,9 +87,9 @@ def run_sims(args, iterations, talent, covenant):
             raidbots(api_key, profile_location,
                      config["simcBuild"], output_location, profile_name_with_dir, iterations)
         elif weight == 0:
-            print("{0} has a weight of 0. Skipping file.".format(output_name))
+            print("-- {0} has a weight of 0. Skipping file.".format(output_name))
         else:
-            print("{0} already exists. Skipping file.".format(output_name))
+            print("-- {0} already exists. Skipping file.".format(output_name))
 
 
 def convert_to_csv(args, weights, talent, covenant):
