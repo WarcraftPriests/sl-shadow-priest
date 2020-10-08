@@ -1,5 +1,6 @@
 *.pyc
 api_secrets.py
+local_secrets.py
 output/
 profiles/
 __pycache__/

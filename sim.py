@@ -29,21 +29,46 @@ def get_simc_dir(talent, covenant, folder_name):
     else:
         return "{0}/".format(folder_name)
 
-def get_path():
+
+def get_path(simcBuildVersion):
     try:
         import local_secrets
-        path = local_secrets.simc_path
-        if path.endswith("/"):
-            return "{0}simc".format(path)
+        pathDict = local_secrets.simc_path
+        print(platform.system())
+        if platform.system() == 'Darwin' or platform.system() == 'Linux':
+            return handle_path_darwin(pathDict[simcBuildVersion])
         else:
-            return "{0}/simc".format(path)
+            return handle_path_win(pathDict[simcBuildVersion])
     except:
-        return "simc"
+        if platform.system() == 'Darwin' or platform.system() == 'Linux':
+            return "simc"
+        else:
+            return "simc.exe"
 
 
-def get_api_key(args):
+def handle_path_darwin(path):
+    if path.endswith("/"):
+        return "{0}simc".format(path)
+    else:
+        return "{0}/simc".format(path)
+
+
+def handle_path_win(path):
+    if(path.endswith("\\")):
+        return "{0}simc.exe".format(path)
+    else:
+        return "{0}\\simc.exe".format(path)
+
+
+def get_api_key(args, simcBuildVersion):
     if args.local:
-        return get_path() 
+        executable = get_path(simcBuildVersion)
+        
+        if is_executable(executable):
+            return executable
+        else:
+            print("{0} not a valid executable please check your local_secrets.py or your path".format(executable))
+            sys.exit()
     else :
         try:
             import api_secrets
@@ -51,8 +76,9 @@ def get_api_key(args):
         except ModuleNotFoundError:
             print('Please create api_secrets.py file like mentioned in the Readme')
             sys.exit()
-        
 
+def is_executable(path):
+    return os.path.isfile(path) and os.access(path, os.X_OK)
 
 def run_sims(args, iterations, talent, covenant):
     if args.local:
@@ -60,7 +86,7 @@ def run_sims(args, iterations, talent, covenant):
     else:
         from internal.api import raidbots
 
-    api_key = get_api_key(args)
+    api_key = get_api_key(args, config["simcBuild"])
     
     print("Running sims on {0} in {1}".format(config["simcBuild"], args.dir))
     existing = listdir(args.dir + get_simc_dir(talent, covenant, 'output'))
