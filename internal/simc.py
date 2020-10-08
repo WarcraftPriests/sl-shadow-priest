@@ -2,27 +2,15 @@ import subprocess
 import os
 
 def sim_local(simc_path, profile_location, output_location):
-    resultList = output_location.split("/")
-    update_profile(profile_location, resultList[-1])
-    FNULL = open(os.devnull, 'w')
-    subprocess.check_call([simc_path, profile_location], stdout=FNULL, stderr=subprocess.STDOUT)
+    locationList = output_location.split("/")
+    output = open(output_location.replace("json", "log"), 'w')
     try:
-        os.rename(resultList[-1], output_location)
-    except FileNotFoundError:
-        print("{0} was not created (error in sim). Skipping file.".format(resultList[-1]))
+        subprocess.check_call([simc_path, "json2={0}".format(output_location), profile_location], stdout=output, stderr=output)
+        output.close()
+        os.remove(output_location.replace("json", "log"))
+    except:
+        print("{0} was not created. Skipping file (see detailed informations in {1})".format(locationList[-1], output_location.replace("json", "log")))
 
-
-def update_profile(profile_location, report_name):
-    if check_for_existing_json(profile_location, report_name):
-        with open(profile_location, 'a+') as file:
-            file.write("json2={0}\n".format(report_name))
-    
-def check_for_existing_json(profile_location, report_name):
-    with open(profile_location) as file:
-        if "json2={0}".format(report_name) in file.read():
-            return False
-        else:
-            return True
 
 def raidbots(simc_path, profile_location, simc_build, output_location, report_name, iterations):
     sim_local(simc_path, profile_location, output_location)
