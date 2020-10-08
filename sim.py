@@ -45,8 +45,13 @@ def get_api_key(args):
     if args.local:
         return get_path() 
     else :
-        import api_secrets
-        return api_secrets.api_key
+        try:
+            import api_secrets
+            return api_secrets.api_key
+        except ModuleNotFoundError:
+            print('Please create api_secrets.py file like mentioned in the Readme')
+            sys.exit()
+        
 
 
 def run_sims(args, iterations, talent, covenant):
