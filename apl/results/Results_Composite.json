@@ -1,1 +1,1 @@
-{"name": "Composite", "data": {"Base": {"DPS": 4980}, "disabled": {"DPS": 4979}, "no_vf": {"DPS": 4951}}, "ids": {"disabled": null, "no_vf": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["disabled", "no_vf"], "last_updated": "2020-10-07"}
+{"name": "Composite", "data": {"fixed": {"DPS": 8456}, "Base": {"DPS": 5654}}, "ids": {"fixed": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["fixed"], "last_updated": "2020-10-08"}
