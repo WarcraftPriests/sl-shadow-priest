@@ -29,10 +29,10 @@ All scripts are run built with python3, but should be able to be run with python
 
 #### Use local simc
 1. To run with a local simc you have to options:
-1.1 use the simc you have on your Path ( nothing to setup here)
-1.2 use a simc located in a seperated folder, create a `local_secrets.py` inside the root directory and set `simc_path = '{"nightly": "path/to/exectuable", "rework": "another/path"}'`
-=> We use a dict here to support different `simcVersions` like raidbots, you can so define a different simc installation by every key you define.
-=> If you don't supply the `local_secrets.py` we will use the simc on the path for every different `simcVersion` defined in `config.yml`.
+- use the simc you have on your Path ( nothing to setup here )
+- use a simc located in a seperated folder, create a `local_secrets.py` inside the root directory and set `simc_path = '{"nightly": "path/to/exectuable", "rework": "another/path"}'`
+
+> We use a dict here to support different `simcVersions` like raidbots, you can so define a different simc installation by every key you define. If you don't supply the `local_secrets.py` we will use the simc on the path for every different `simcVersion` defined in `config.yml`.
 
 2. By default if a file already exists in `output/` or if the weight in `internal/weights.py` is 0, sim.py will skip it.
 3. To run the sims use `python sim.py dir/ [--iterations 10000, --dungeons, --talents [am, hv, stm] --local]` where `dir/` is the sim directory you want to sim. If you don't specify `talents` or `covenant` and that sim uses it based on config, all combinations will be automatically generated.
