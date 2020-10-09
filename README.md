@@ -29,8 +29,8 @@ All scripts are run built with python3, but should be able to be run with python
 
 #### Use local simc
 1. To run with a local simc you have to options:
-- use the simc you have on your Path ( nothing to setup here )
-- use a simc located in a seperated folder, create a `local_secrets.py` inside the root directory and set `simc_path = '{"nightly": "path/to/exectuable", "rework": "another/path"}'`
+_1.1 use the simc you have on your Path ( nothing to setup here )
+_1.2 use a simc located in a seperated folder, create a `local_secrets.py` inside the root directory and set `simc_path = '{"nightly": "path/to/exectuable", "rework": "another/path"}'`
     - We use a dict here to support different `simcVersions` like raidbots, you can so define a different simc installation by every key you define.
     - If you don't supply the `local_secrets.py` we will use the simc on the path for every different `simcVersion` defined in `config.yml`.
 
