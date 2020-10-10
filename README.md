@@ -41,12 +41,13 @@ All scripts are run built with python3, but should be able to be run with python
 ### General Order of sims to run
 The following is a rough order to follow when running sims. Generally the things on the same row can be run at the same time since they do not influence each other.
 
-1. Consumables, Enchants, Stats, Trinkets, and Racials
-2. Conduits
-3. Legendaries (update conduits as needed from #2)
-4. Soulbinds & Soulbinds-Launch (update conduits and legendaries as needed from #2 and #3)
-5. Covenants & Covenant-Choice (update conduits, legendaries, and soulbinds as needed from #2, #3, and #4)
-6. Weights (add top covenant builds from #5)
+1. Talents
+2. Consumables, Enchants, Stats, Trinkets, and Racials
+3. Conduits
+4. Legendaries (update conduits as needed from #2)
+5. Soulbinds & Soulbinds-Launch (update conduits and legendaries as needed from #2 and #3)
+6. Covenants & Covenant-Choice (update conduits, legendaries, and soulbinds as needed from #2, #3, and #4)
+7. Weights (add top covenant builds from #5)
 
 ## Output Formats
 Based on `config.yml` sim results will output in up to 3 different formats: Markdown, CSV, and JSON. The files are all located in the `results/` folder of each sim type. The following sections go over how the data is listed here. Each output file is made up into various sections based on how the sim is configured. There are several layers of results.
