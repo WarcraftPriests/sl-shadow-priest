@@ -1,5 +1,5 @@
 # Single
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|fixed|7725|57.62%|
-|Base|4901|0.00%|
+|updates|8080|0.03%|
+|Base|8078|0.00%|

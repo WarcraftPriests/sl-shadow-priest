@@ -1,5 +1,5 @@
 # Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|fixed|8456|49.58%|
-|Base|5654|0.00%|
+|updates|8880|0.35%|
+|Base|8849|0.00%|

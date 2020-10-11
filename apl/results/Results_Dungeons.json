@@ -1,1 +1,1 @@
-{"name": "Dungeons", "data": {"Base": {"DPS": 5146}, "disabled": {"DPS": 5138}, "no_vf": {"DPS": 5124}}, "ids": {"disabled": null, "no_vf": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["disabled", "no_vf"], "last_updated": "2020-10-07"}
+{"name": "Dungeons", "data": {"updates": {"DPS": 9493}, "Base": {"DPS": 9354}}, "ids": {"updates": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["updates"], "last_updated": "2020-10-10"}

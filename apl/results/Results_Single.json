@@ -1,1 +1,1 @@
-{"name": "Single", "data": {"fixed": {"DPS": 7725}, "Base": {"DPS": 4901}}, "ids": {"fixed": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["fixed"], "last_updated": "2020-10-08"}
+{"name": "Single", "data": {"updates": {"DPS": 8080}, "Base": {"DPS": 8078}}, "ids": {"updates": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["updates"], "last_updated": "2020-10-10"}

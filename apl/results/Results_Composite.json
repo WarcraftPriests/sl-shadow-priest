@@ -1,1 +1,1 @@
-{"name": "Composite", "data": {"fixed": {"DPS": 8456}, "Base": {"DPS": 5654}}, "ids": {"fixed": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["fixed"], "last_updated": "2020-10-08"}
+{"name": "Composite", "data": {"updates": {"DPS": 8880}, "Base": {"DPS": 8849}}, "ids": {"updates": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["updates"], "last_updated": "2020-10-10"}
