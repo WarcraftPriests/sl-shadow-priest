@@ -219,7 +219,7 @@ def build_json(sim_type, talent_string, results, directory, timestamp, covenant_
         chart_data["simulated_steps"] = steps
         # iterate over results and build a list of unique profiles
         # trim off everything after last _
-        for key, value in results.items():
+        for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
             unique_key = '_'.join(key.split('_')[:-1])
             if unique_key not in unique_profiles and unique_key != "Base" and unique_key != "":
                 unique_profiles.append(unique_key)
