@@ -163,6 +163,7 @@ def lookup_id(name, directory):
     elif lookup_type == "item":
         return lookup_item_id(name, directory)
     else:
+        print("Could not find id for {0}".format(name))
         return None
 
 
@@ -171,6 +172,7 @@ def lookup_spell_id(spell_name, directory):
     if ids:
         return ids.get(spell_name)
     else:
+        print("Could not find spell id for {0}".format(spell_name))
         return None
 
 

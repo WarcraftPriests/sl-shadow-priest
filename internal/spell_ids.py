@@ -53,8 +53,8 @@ enchants = {
 
 legendaries = {
     "Shadowflame_Prism": 336143,
-    "Shadowflame_Prism_Conduit_15": 336143,
-    "Twins_of_the_Sun_Priestess_Conduit_15": 336897,
+    "Shadowflame_Prism_Conduit_7": 336143,
+    "Twins_of_the_Sun_Priestess_Conduit_7": 336897,
     "Eternal_Call_to_the_Void": 336214,
     "Talbadars_Stratagem": 342415,
     "Judgment_of_the_Arbiter": 339344,
