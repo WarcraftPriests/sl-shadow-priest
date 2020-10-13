@@ -1,0 +1,35 @@
+# Composite - hv
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Necrolord-Marileth-Volatile_Solvent_Mastery|6558|11.87%|
+|Venthyr-Draven-Built_for_War|6323|7.87%|
+|Kyrian-Pelagos-Combat_Meditation|6275|7.05%|
+|Necrolord-Emeni-Lead_by_Example|6263|6.85%|
+|Venthyr-Nadjia-Dauntless_Duelist|6233|6.33%|
+|Kyrian-Pelagos-Let_Go_of_the_Past|6201|5.80%|
+|Necrolord-Bonesmith-Heirmirs_Arsenal_Marrowed_Gemstone|6197|5.72%|
+|Kyrian-Kleia-Pointed_Courage|6194|5.67%|
+|Necrolord-Marileth-Volatile_Solvent_Intellect|6167|5.22%|
+|Venthyr-Theotar-Soothing_Shade|6167|5.22%|
+|Venthyr-Nadjia-Thrill_Seeker|6163|5.15%|
+|Necrolord-Marileth-Volatile_Solvent_Crit|6162|5.12%|
+|Venthyr-Theotar-Wasteland_Propriety|6144|4.81%|
+|Night_Fae-Niya-Niyas_Tools_Burrs|6137|4.70%|
+|Necrolord-Marileth-Plagueys_Preemptive_Strike|6084|3.79%|
+|Night_Fae-Korayn-Wild_Hunt_Tactics|6078|3.70%|
+|Venthyr-Nadjia-Exacting_Preparation|6065|3.47%|
+|Necrolord-Emeni-Gnashing_Chompers|6058|3.35%|
+|Necrolord_Covenant_Only|6052|3.25%|
+|Necrolord-Bonesmith-Serrated_Spaulders|6052|3.25%|
+|Venthyr-Theotar-Refined_Palate|6047|3.16%|
+|Venthyr_Covenant_Only|6046|3.15%|
+|Night_Fae-Korayn-First_Strike|6019|2.68%|
+|Night_Fae-Dreamweaver-Field_of_Blossoms|5991|2.20%|
+|Night_Fae-Dreamweaver-Social_Butterfly|5988|2.17%|
+|Kyrian-Forgelite-Hammer_of_Genesis|5946|1.44%|
+|Night_Fae-Niya-Grove_Invigoration|5939|1.33%|
+|Kyrian-Forgelite-Brons_Call_to_Action|5937|1.29%|
+|Kyrian_Covenant_Only|5925|1.09%|
+|Night_Fae-Niya-Niyas_Tools_Poison|5904|0.73%|
+|Night_Fae_Covenant_Only|5904|0.73%|
+|Base|5862|0.00%|

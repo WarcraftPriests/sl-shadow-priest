@@ -1,0 +1,35 @@
+# Dungeons - stm
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Necrolord-Marileth-Volatile_Solvent_Mastery|6767|11.17%|
+|Night_Fae-Korayn-First_Strike|6660|9.41%|
+|Necrolord-Emeni-Lead_by_Example|6638|9.05%|
+|Necrolord-Marileth-Plagueys_Preemptive_Strike|6569|7.92%|
+|Venthyr-Draven-Built_for_War|6557|7.72%|
+|Necrolord-Bonesmith-Heirmirs_Arsenal_Marrowed_Gemstone|6541|7.46%|
+|Necrolord-Marileth-Volatile_Solvent_Intellect|6519|7.10%|
+|Necrolord-Marileth-Volatile_Solvent_Crit|6499|6.77%|
+|Necrolord-Emeni-Gnashing_Chompers|6459|6.11%|
+|Kyrian-Pelagos-Combat_Meditation|6441|5.82%|
+|Venthyr-Nadjia-Thrill_Seeker|6423|5.52%|
+|Kyrian-Pelagos-Let_Go_of_the_Past|6411|5.32%|
+|Kyrian-Forgelite-Hammer_of_Genesis|6402|5.17%|
+|Necrolord-Bonesmith-Serrated_Spaulders|6395|5.06%|
+|Necrolord_Covenant_Only|6394|5.04%|
+|Kyrian-Kleia-Pointed_Courage|6387|4.93%|
+|Night_Fae-Niya-Niyas_Tools_Burrs|6372|4.68%|
+|Venthyr-Theotar-Wasteland_Propriety|6362|4.52%|
+|Venthyr-Theotar-Soothing_Shade|6357|4.44%|
+|Night_Fae-Korayn-Wild_Hunt_Tactics|6343|4.21%|
+|Night_Fae-Dreamweaver-Field_of_Blossoms|6307|3.61%|
+|Night_Fae-Dreamweaver-Social_Butterfly|6287|3.29%|
+|Venthyr-Nadjia-Exacting_Preparation|6282|3.20%|
+|Venthyr-Theotar-Refined_Palate|6268|2.97%|
+|Venthyr_Covenant_Only|6268|2.97%|
+|Venthyr-Nadjia-Dauntless_Duelist|6260|2.84%|
+|Night_Fae-Niya-Grove_Invigoration|6216|2.12%|
+|Night_Fae-Niya-Niyas_Tools_Poison|6193|1.74%|
+|Night_Fae_Covenant_Only|6187|1.64%|
+|Kyrian-Forgelite-Brons_Call_to_Action|6137|0.82%|
+|Kyrian_Covenant_Only|6132|0.74%|
+|Base|6087|0.00%|

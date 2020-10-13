@@ -140,13 +140,24 @@ sims:
       - DPS
     files:
       - racials.simc
+  soulbind-traits:
+    builds: true
+    weights: false
+    covenant:
+      lookup: false
+      files: false
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - traits.simc
   soulbinds:
     builds: true
     weights: false
     covenant:
       lookup: true
       files: true
-    lookupType: spell
+    lookupType: none
     steps:
       - DPS
     files:
@@ -161,7 +172,7 @@ sims:
     covenant:
       lookup: true
       files: true
-    lookupType: spell
+    lookupType: none
     steps:
       - DPS
     files:
@@ -186,7 +197,7 @@ sims:
     covenant:
       lookup: false
       files: false
-    lookupType: spell
+    lookupType: none
     steps:
       - DPS
     files:
@@ -251,7 +262,7 @@ singleTargetProfiles:
 simcBuild: nightly
 defaultIterations: 10000
 raidbots:
-  apiUrlBase: https://mimiron.raidbots.com
+  apiUrlBase: https://www.raidbots.com
   numOfRetries: 2
   retryInterval: 20
 analyze:

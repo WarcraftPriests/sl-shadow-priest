@@ -1,0 +1,35 @@
+# Single - stm
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Necrolord-Marileth-Volatile_Solvent_Mastery|5769|10.77%|
+|Kyrian-Pelagos-Combat_Meditation|5668|8.82%|
+|Venthyr-Draven-Built_for_War|5663|8.73%|
+|Venthyr-Nadjia-Dauntless_Duelist|5618|7.85%|
+|Venthyr-Nadjia-Thrill_Seeker|5536|6.29%|
+|Kyrian-Pelagos-Let_Go_of_the_Past|5527|6.12%|
+|Venthyr-Theotar-Soothing_Shade|5522|6.03%|
+|Kyrian-Kleia-Pointed_Courage|5514|5.86%|
+|Venthyr-Theotar-Wasteland_Propriety|5506|5.72%|
+|Necrolord-Emeni-Lead_by_Example|5500|5.61%|
+|Night_Fae-Niya-Niyas_Tools_Burrs|5490|5.41%|
+|Venthyr-Nadjia-Exacting_Preparation|5432|4.30%|
+|Necrolord-Bonesmith-Heirmirs_Arsenal_Marrowed_Gemstone|5423|4.12%|
+|Necrolord-Marileth-Volatile_Solvent_Intellect|5420|4.07%|
+|Venthyr-Theotar-Refined_Palate|5416|3.99%|
+|Venthyr_Covenant_Only|5415|3.97%|
+|Necrolord-Marileth-Volatile_Solvent_Crit|5412|3.90%|
+|Night_Fae-Korayn-Wild_Hunt_Tactics|5406|3.80%|
+|Night_Fae-Dreamweaver-Field_of_Blossoms|5344|2.61%|
+|Necrolord-Marileth-Plagueys_Preemptive_Strike|5340|2.53%|
+|Night_Fae-Dreamweaver-Social_Butterfly|5337|2.46%|
+|Necrolord-Bonesmith-Serrated_Spaulders|5318|2.11%|
+|Necrolord-Emeni-Gnashing_Chompers|5318|2.11%|
+|Necrolord_Covenant_Only|5318|2.10%|
+|Night_Fae-Korayn-First_Strike|5315|2.05%|
+|Night_Fae-Niya-Grove_Invigoration|5295|1.66%|
+|Kyrian-Forgelite-Brons_Call_to_Action|5294|1.64%|
+|Kyrian-Forgelite-Hammer_of_Genesis|5285|1.47%|
+|Kyrian_Covenant_Only|5282|1.41%|
+|Night_Fae_Covenant_Only|5262|1.03%|
+|Night_Fae-Niya-Niyas_Tools_Poison|5262|1.03%|
+|Base|5208|0.00%|

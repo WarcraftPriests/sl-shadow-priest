@@ -112,6 +112,40 @@ consumables = {
     "Shadowcore_Oil": 171285
 }
 
+soulbind_traits = {
+    "Necrolord_Covenant_Only": 324724,
+    "Venthyr_Covenant_Only": 323673,
+    "Night_Fae_Covenant_Only": 327661,
+    "Kyrian_Covenant_Only": 325013,
+    "Kyrian-Pelagos-Let_Go_of_the_Past": 328257,
+    "Kyrian-Pelagos-Combat_Meditation": 328266,
+    "Kyrian-Kleia-Pointed_Courage": 329778,
+    "Kyrian-Forgelite-Brons_Call_to_Action": 333950,
+    "Kyrian-Forgelite-Hammer_of_Genesis": 333935,
+    "Necrolord-Marileth-Volatile_Solvent_Crit": 323502,
+    "Necrolord-Marileth-Volatile_Solvent_Intellect": 323498,
+    "Necrolord-Marileth-Volatile_Solvent_Mastery": 323491,
+    "Necrolord-Marileth-Plagueys_Preemptive_Strike": 323090,
+    "Necrolord-Emeni-Lead_by_Example": 342156,
+    "Necrolord-Emeni-Gnashing_Chompers": 323919,
+    "Necrolord-Bonesmith-Serrated_Spaulders": 326504,
+    "Necrolord-Bonesmith-Heirmirs_Arsenal_Marrowed_Gemstone": 326572,
+    "Night_Fae-Niya-Grove_Invigoration": 322721,
+    "Night_Fae-Niya-Niyas_Tools_Poison": 320660,
+    "Night_Fae-Niya-Niyas_Tools_Burrs": 320659,
+    "Night_Fae-Dreamweaver-Field_of_Blossoms": 319191,
+    "Night_Fae-Dreamweaver-Social_Butterfly": 319210,
+    "Night_Fae-Korayn-Wild_Hunt_Tactics": 325066,
+    "Night_Fae-Korayn-First_Strike": 325069,
+    "Venthyr-Nadjia-Thrill_Seeker": 331586,
+    "Venthyr-Nadjia-Exacting_Preparation": 331580,
+    "Venthyr-Nadjia-Dauntless_Duelist": 331584,
+    "Venthyr-Theotar-Wasteland_Propriety": 319983,
+    "Venthyr-Theotar-Soothing_Shade": 336239,
+    "Venthyr-Theotar-Refined_Palate": 336243,
+    "Venthyr-Draven-Built_for_War": 319973
+}
+
 
 def find_ids(key):
     if key == 'racials':
@@ -126,3 +160,5 @@ def find_ids(key):
         return conduits
     elif key == 'consumables':
         return consumables
+    elif key == 'soulbind-traits':
+        return soulbind_traits
