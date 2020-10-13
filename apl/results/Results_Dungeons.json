@@ -1,1 +1,1 @@
-{"name": "Dungeons", "data": {"updates": {"DPS": 9493}, "Base": {"DPS": 9354}}, "ids": {"updates": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["updates"], "last_updated": "2020-10-10"}
+{"name": "Dungeons", "data": {"just_vt": {"DPS": 9105}, "saeldur": {"DPS": 9103}, "publiks": {"DPS": 9073}, "no_condition": {"DPS": 9070}, "Base": {"DPS": 9048}}, "ids": {"just_vt": null, "saeldur": null, "publiks": null, "no_condition": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["just_vt", "saeldur", "publiks", "no_condition"], "last_updated": "2020-10-12"}

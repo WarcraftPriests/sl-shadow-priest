@@ -1,11 +1,8 @@
 # Single
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|AS|8621|4.26%|
-|Psychic_Link_70|8270|0.01%|
-|Psychic_Link_55|8270|0.01%|
-|Psychic_Link_75|8269|0.01%|
-|Psychic_Link_50|8269|0.01%|
-|Base|8269|0.00%|
-|Psychic_Link_65|8268|-0.01%|
-|Psychic_Link_60|8268|-0.01%|
+|Base|7890|0.00%|
+|saeldur|7889|-0.02%|
+|no_condition|7864|-0.33%|
+|publiks|7864|-0.33%|
+|just_vt|7861|-0.36%|

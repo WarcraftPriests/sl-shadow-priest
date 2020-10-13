@@ -80,7 +80,7 @@ actions.main+=/void_bolt,if=spell_targets.mind_sear<(4+conduit.dissonant_echoes.
 actions.main+=/shadow_word_death,target_if=(target.health.pct<20&spell_targets.mind_sear<4)|(pet.fiend.active&runeforge.shadowflame_prism.equipped)
 # Use Surrender to Madness on a target that is going to die at the right time.
 actions.main+=/surrender_to_madness,target_if=target.time_to_die<25&buff.voidform.down
-actions.main+=/mindbender,if=variable.dots_up
+actions.main+=/mindbender,if=dot.vampiric_touch.ticking&((talent.searing_nightmare.enabled&spell_targets.mind_sear>(variable.mind_sear_cutoff+1))|dot.shadow_word_pain.ticking)
 # Use Void Torrent only if SW:P and VT are active and the target won't die during the channel.
 actions.main+=/void_torrent,target_if=variable.dots_up&target.time_to_die>4&buff.voidform.down&spell_targets.mind_sear<(5+(6*talent.twist_of_fate.enabled))
 # Use SW:D with Painbreaker Psalm unless the target will be below 20% before the cooldown comes back
