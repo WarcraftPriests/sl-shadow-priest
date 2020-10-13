@@ -28,6 +28,20 @@ sims:
       - DPS
     files:
       - apl.simc
+  conduit-combos:
+    builds: true
+    weights: false
+    covenant:
+      lookup: true
+      files: true
+    lookupType: none
+    steps:
+      - DPS
+    files: 
+      - kyrian.simc
+      - necrolord.simc
+      - night_fae.simc
+      - venthyr.simc
   conduits:
     builds: true
     weights: false
