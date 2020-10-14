@@ -1,8 +1,8 @@
 priest="Base"
 level=60
-role=FFell
+role=spell
 position=back
-FFec=shadow
+spec=shadow
 covenant=night_fae
 
 default_actions=1

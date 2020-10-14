@@ -10,6 +10,9 @@ def parse(filename, weights):
         s = f.read()
         sim = json.loads(s)
         print("Parsing: " + filename)
+        if 'error' in sim:
+            print("ERROR: {0} contains a sim error - cannot parse.\n{1}".format(filename, sim['error']))
+            raise RuntimeError from OSError
         results = sim['sim']['players']
         for player in sorted(results, key=lambda k: k['name']):
             if not weights or 'Int' in player['scale_factors']:
