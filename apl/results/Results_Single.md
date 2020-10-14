@@ -1,6 +1,6 @@
 # Single
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|extra_vb_line|5674|1.06%|
-|final_commit|5673|1.04%|
-|Base|5614|0.00%|
+|extra_vb_line|5981|1.15%|
+|final_commit|5977|1.07%|
+|Base|5914|0.00%|

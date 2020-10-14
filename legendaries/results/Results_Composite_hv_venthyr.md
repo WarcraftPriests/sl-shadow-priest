@@ -1,12 +1,12 @@
 # Composite - hv - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|7703|11.91%|
-|Shadowflame_Prism|7649|11.13%|
-|Shadowflame_Prism_Conduit_7|7603|10.46%|
-|Talbadars_Stratagem|7000|1.70%|
-|Twins_of_the_Sun_Priestess_Conduit_7|6986|1.49%|
-|Judgment_of_the_Arbiter|6984|1.46%|
-|Painbreaker_Psalm|6954|1.02%|
-|Base|6883|0.00%|
-|Sephuzs_Proclamation|6883|-0.01%|
+|Eternal_Call_to_the_Void|7262|5.13%|
+|Shadowflame_Prism|7156|3.60%|
+|Shadowflame_Prism_Conduit_7|7031|1.79%|
+|Talbadars_Stratagem|7024|1.69%|
+|Painbreaker_Psalm|7014|1.55%|
+|Judgment_of_the_Arbiter|7014|1.55%|
+|Twins_of_the_Sun_Priestess_Conduit_7|7010|1.49%|
+|Sephuzs_Proclamation|6924|0.25%|
+|Base|6907|0.00%|

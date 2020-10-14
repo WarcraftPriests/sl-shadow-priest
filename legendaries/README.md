@@ -1,9 +1,8 @@
 # Legendaries Results
 
-By default these sims are ran with the top 3 conduits for each covenant. For all 4 Covenants this is currently the following:
+By default these sims are ran with the top 2 conduits for each covenant. For all 4 Covenants this is currently the following:
 1. Dissonant Echoes
-2. Mind Devourer
-3. Haunting Apparitions
+2. Haunting Apparitions
 
 This sim includes all legendaries that can be used as a dps increase, and also adds two special conduit changing sims:
 - Shadowflame Prism + Rabid Shadows (drops the Haunting Apparitions conduit) - `Shadowflame_Prism_Conduit_7` denotes rank 7 of the conduit

@@ -1,12 +1,12 @@
 # Single - stm - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|6495|9.21%|
-|Shadowflame_Prism|6333|6.48%|
-|Shadowflame_Prism_Conduit_7|6303|5.99%|
-|Talbadars_Stratagem|6068|2.03%|
-|Judgment_of_the_Arbiter|6047|1.68%|
-|Twins_of_the_Sun_Priestess_Conduit_7|5994|0.79%|
-|Painbreaker_Psalm|5973|0.43%|
-|Base|5947|0.00%|
-|Sephuzs_Proclamation|5946|-0.02%|
+|Eternal_Call_to_the_Void|6249|4.78%|
+|Shadowflame_Prism|6095|2.20%|
+|Talbadars_Stratagem|6079|1.92%|
+|Judgment_of_the_Arbiter|6064|1.68%|
+|Shadowflame_Prism_Conduit_7|6029|1.09%|
+|Twins_of_the_Sun_Priestess_Conduit_7|6019|0.92%|
+|Painbreaker_Psalm|5979|0.26%|
+|Sephuzs_Proclamation|5964|0.00%|
+|Base|5964|0.00%|

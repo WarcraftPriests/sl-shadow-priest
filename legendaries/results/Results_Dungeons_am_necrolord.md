@@ -1,12 +1,12 @@
 # Dungeons - am - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|7452|14.86%|
-|Shadowflame_Prism_Conduit_7|7071|8.99%|
-|Shadowflame_Prism|7028|8.32%|
-|Painbreaker_Psalm|6606|1.82%|
-|Judgment_of_the_Arbiter|6589|1.56%|
-|Talbadars_Stratagem|6566|1.20%|
-|Twins_of_the_Sun_Priestess_Conduit_7|6528|0.62%|
-|Base|6488|0.00%|
-|Sephuzs_Proclamation|6486|-0.03%|
+|Eternal_Call_to_the_Void|7033|5.93%|
+|Twins_of_the_Sun_Priestess_Conduit_7|6789|2.26%|
+|Sephuzs_Proclamation|6749|1.66%|
+|Judgment_of_the_Arbiter|6724|1.28%|
+|Shadowflame_Prism|6724|1.28%|
+|Shadowflame_Prism_Conduit_7|6704|0.98%|
+|Talbadars_Stratagem|6704|0.98%|
+|Painbreaker_Psalm|6702|0.95%|
+|Base|6639|0.00%|
