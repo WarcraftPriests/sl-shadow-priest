@@ -1,8 +1,6 @@
 # Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|8691|0.00%|
-|saeldur|8689|-0.01%|
-|no_condition|8670|-0.23%|
-|publiks|8669|-0.24%|
-|just_vt|8669|-0.25%|
+|extra_vb_line|5944|1.32%|
+|final_commit|5937|1.19%|
+|Base|5867|0.00%|
