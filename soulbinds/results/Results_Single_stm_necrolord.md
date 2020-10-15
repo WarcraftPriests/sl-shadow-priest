@@ -1,12 +1,18 @@
 # Single - stm - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Emeni-LbE-DE_MD_HA|6776|11.82%|
-|Bonesmith-DE_MD_HA|6685|10.33%|
-|Marileth-DE_MD_HA|6685|10.33%|
-|Bonesmith-HAMG-DE_MD|6626|9.36%|
-|Emeni-LbE_GC-DE_MD|6594|8.83%|
-|Marileth-PPS-DE_MD|6532|7.80%|
-|Bonesmith-SS_HAMG-DE|6519|7.58%|
-|Bonesmith-SS-DE_MD|6507|7.39%|
-|Base|6059|0.00%|
+|Marileth-VS_Mastery-DE_HA|6886|21.54%|
+|Marileth-PPS_VS_Mastery-DE|6724|18.68%|
+|Emeni-LbE-DE_HA|6519|15.05%|
+|Marileth-VS_Intellect-DE_HA|6427|13.43%|
+|Marileth-VS_Crit-DE_HA|6418|13.28%|
+|Emeni-LbE_GC-DE|6346|12.00%|
+|Bonesmith-DE_HA|6307|11.31%|
+|Marileth-DE_HA|6306|11.29%|
+|Marileth-PPS_VS_Intellect-DE|6280|10.84%|
+|Marileth-PPS_VS_Crit-DE|6271|10.67%|
+|Bonesmith-HAMG-DE|6256|10.41%|
+|Marileth-PPS-DE|6161|8.74%|
+|Bonesmith-SS-DE|6139|8.35%|
+|Bonesmith-SS_HAMG|5778|1.98%|
+|Base|5666|0.00%|

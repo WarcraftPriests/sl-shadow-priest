@@ -1,6 +1,6 @@
 # Soulbind Results
 
-Each Soulbind is simmed with all the possible DPS paths with the top 2 or 3 Conduits at rank 7 depending on the path chosen.
+Each Soulbind is simmed with all the possible DPS paths with the top 1 or 2 Conduits at rank 7 depending on the path chosen. Each actor is also simmed with Eternal Call to the Void legendary.
 
 ## Night Fae
 ### Acronyms

@@ -24,44 +24,62 @@ trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=macabre_sheet_music,id=184024,ilevel=226
 main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
 
-# Top 3 conduits for Necrolord
+# Baseline Conduits - Top 2
+# - HA_DE_2
 # - Dissonant Echoes - 115
-# - Mind Devourer - 113
 # - Haunting Apparitions - 107
 
 # Plague Deviser Marileth
-# not including Volatile Solvent for now....
-
-# 3 conduit setup
-profileset."Marileth-DE_MD_HA"+=soulbind=plague_deviser_marileth,115:7/113:7/107:7
+# Volatile Solvent - 323074
 
 # 2 conduit setup
+profileset."Marileth-VS_Crit-DE_HA"+=shadowlands.volatile_solvent_crit=1
+profileset."Marileth-VS_Crit-DE_HA"+=soulbind=plague_deviser_marileth,115:7/107:7/323074
+
+profileset."Marileth-VS_Mastery-DE_HA"+=shadowlands.volatile_solvent_mastery=1
+profileset."Marileth-VS_Mastery-DE_HA"+=soulbind=plague_deviser_marileth,115:7/107:7/323074
+
+profileset."Marileth-VS_Intellect-DE_HA"+=shadowlands.volatile_solvent_primary=1
+profileset."Marileth-VS_Intellect-DE_HA"+=soulbind=plague_deviser_marileth,115:7/107:7/323074
+
+profileset."Marileth-DE_HA"+=soulbind=plague_deviser_marileth,115:7/107:7
+
+# 1 conduit setup
 # Plaguey's Preemptive Strike - 323090
-profileset."Marileth-PPS-DE_MD"+=soulbind=plague_deviser_marileth,115:7/113:7/323090
+profileset."Marileth-PPS_VS_Crit-DE"+=shadowlands.volatile_solvent_crit=1
+profileset."Marileth-PPS_VS_Crit-DE"+=soulbind=plague_deviser_marileth,115:7/323074/323090
+
+profileset."Marileth-PPS_VS_Mastery-DE"+=shadowlands.volatile_solvent_mastery=1
+profileset."Marileth-PPS_VS_Mastery-DE"+=soulbind=plague_deviser_marileth,115:7/323074/323090
+
+profileset."Marileth-PPS_VS_Intellect-DE"+=shadowlands.volatile_solvent_primary=1
+profileset."Marileth-PPS_VS_Intellect-DE"+=soulbind=plague_deviser_marileth,115:7/323074/323090
+
+profileset."Marileth-PPS-DE"+=soulbind=plague_deviser_marileth,115:7/323090
 
 # Emeni
-# 3 conduit setup
-# Lead by Example - 342156
-profileset."Emeni-LbE-DE_MD_HA"+=soulbind=emeni,115:7/113:7/107:7/342156
-
 # 2 conduit setup
+# Lead by Example - 342156
+profileset."Emeni-LbE-DE_HA"+=soulbind=emeni,115:7/107:7/342156
+
+# 1 conduit setup
 # Lead by Example - 342156
 # Gnashing Chompers - 323919
-profileset."Emeni-LbE_GC-DE_MD"+=soulbind=emeni,115:7/113:7/342156/323919
+profileset."Emeni-LbE_GC-DE"+=soulbind=emeni,115:7/342156/323919
 
 # Bonesmith Heirmir
-# 3 conduit setup
-profileset."Bonesmith-DE_MD_HA"+=soulbind=bonesmith_heirmir,115:7/113:7/107:7
-
 # 2 conduit setup
-# Serrated Spaulders - 326504
-profileset."Bonesmith-SS-DE_MD"+=soulbind=bonesmith_heirmir,115:7/113:7/326504
-
-# 2 conduit setup
-# Heirmir's Arsenal: Marrowed Gemstone - 326572
-profileset."Bonesmith-HAMG-DE_MD"+=soulbind=bonesmith_heirmir,115:7/113:7/326572
+profileset."Bonesmith-DE_HA"+=soulbind=bonesmith_heirmir,115:7/107:7
 
 # 1 conduit setup
 # Serrated Spaulders - 326504
+profileset."Bonesmith-SS-DE"+=soulbind=bonesmith_heirmir,115:7/326504
+
+# 1 conduit setup
 # Heirmir's Arsenal: Marrowed Gemstone - 326572
-profileset."Bonesmith-SS_HAMG-DE"+=soulbind=bonesmith_heirmir,115:7/326504/326572
+profileset."Bonesmith-HAMG-DE"+=soulbind=bonesmith_heirmir,115:7/326572
+
+# 0 conduit setup
+# Serrated Spaulders - 326504
+# Heirmir's Arsenal: Marrowed Gemstone - 326572
+profileset."Bonesmith-SS_HAMG"+=soulbind=bonesmith_heirmir,326504/326572
