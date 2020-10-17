@@ -24,26 +24,26 @@ trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=macabre_sheet_music,id=184024,ilevel=226
 main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
 
-# Top 3 conduits for Night Fae
+# Baseline Conduits - Top 2
+# - HA_DE_2
 # - Dissonant Echoes - 115
-# - Mind Devourer - 113
 # - Haunting Apparitions - 107
 
 # Niya
-# 3 conduit setup
+# 1 conduit setup
 # Niya's Tools: Poison - 320660
 profileset."Niya-NTP-DE"+=soulbind=niya,115:6/320660
 
-# 2 conduit setup
+# 1 conduit setup
 # Niya's Tools: Burrs - 320659
 profileset."Niya-NTB-DE"+=soulbind=niya,115:6/320659
 
 # Dreamweaver
-# 3 conduit setup
-# Field of Blossoms - 319191
-profileset."Dreamweaver-FoB-DE_MD"+=soulbind=dreamweaver,115:6/113:6/319191
-
 # 2 conduit setup
+# Field of Blossoms - 319191
+profileset."Dreamweaver-FoB-DE_HA"+=soulbind=dreamweaver,115:6/107:6/319191
+
+# 1 conduit setup
 # Field of Blossoms - 319191
 # Social Butterfly - 319210
 profileset."Dreamweaver-FoB_SB-DE"+=soulbind=dreamweaver,115:6/319191/319210

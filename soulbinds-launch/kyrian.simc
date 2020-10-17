@@ -24,21 +24,21 @@ trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=macabre_sheet_music,id=184024,ilevel=226
 main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
 
-# Top 3 conduits for Kyrian
+# Baseline Conduits - Top 2
+# - HA_DE_2
 # - Dissonant Echoes - 115
-# - Mind Devourer - 113
 # - Haunting Apparitions - 107
 
 # Pelagos
-# 3 conduit setup
+# 1 conduit setup
 # Let Go of the Past - 328257
 # Combat Meditation - 328266
 profileset."Pelagos-LGotP-DE"+=soulbind=pelagos,115:6/328257
 
 # Kleia
-# 3 conduit setup
-profileset."Kleia-DE_MD"+=soulbind=kleia,115:6/113:6
-
 # 2 conduit setup
+profileset."Kleia-DE_HA"+=soulbind=kleia,115:6/107:6
+
+# 1 conduit setup
 # Pointed Courage - 329778
 profileset."Kleia-PC-DE"+=soulbind=kleia,115:6/329778

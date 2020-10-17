@@ -2,7 +2,7 @@
 
 Each of the covenant sims is using the following over `Base`:
 - Covenant Ability
-- Top 3 Conduits per Covenant at rank 7
+- Top 1 or 2 Conduits per Covenant at rank 7
 - Top Legendary per Covenant
 - Top build(s) per Soulbind per Covenant
 
