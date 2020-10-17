@@ -59,7 +59,9 @@ legendaries = {
     "Talbadars_Stratagem": 342415,
     "Judgment_of_the_Arbiter": 339344,
     "Sephuzs_Proclamation": 339348,
-    "Painbreaker_Psalm": 336165
+    "Painbreaker_Psalm": 336165,
+    "Third_Eye_of_the_Jailer": 339058,
+    "Echo_of_Eonar": 338477
 }
 
 covenants = {
