@@ -1,0 +1,51 @@
+priest="Base"
+level=60
+role=spell
+position=back
+spec=shadow
+covenant=kyrian
+
+# Baseline Conduits - Top 2
+# - HA_DE_2
+# - Dissonant Echoes - 115
+# - Haunting Apparitions - 107
+soulbind=theotar_the_mad_duke,115:7/107:7
+
+default_actions=1
+
+head=confidants_favored_cap,id=183021,ilevel=190
+neck=charm_of_eternal_winter,id=183040,ilevel=190
+shoulder=shawl_of_the_penitent,id=183020,ilevel=190
+back=crest_of_the_legionnaire_general,id=183032,ilevel=190
+chest=robes_of_the_cursed_commando,id=182998,ilevel=190,enchant=eternal_insight
+wrists=acolytes_velvet_bindings,id=183017,ilevel=190,enchant=eternal_intellect
+hands=impossibly_oversized_mitts,id=183022,ilevel=190
+waist=shadewarped_sash,id=183004,ilevel=190
+legs=leggings_of_lethal_reverberations,id=182981,ilevel=190
+feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=190
+finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=190,enchant=tenet_of_haste
+finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
+trinket1=dreadfire_vessel,id=184030,ilevel=233
+trinket2=macabre_sheet_music,id=184024,ilevel=226
+main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
+
+# 190 base
+# ilevels: 190, 210, 225, 235
+
+# Stats
+# 6647 - crit
+# 6649 - haste
+
+# Generic Legendaries
+# Judgment of the Arbiter
+# profileset."Judgment_of_the_Arbiter"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7101
+
+# Sephuz's Proclamation
+# profileset."Sephuzs_Proclamation"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7103
+
+# Third Eye of the Jailer
+# profileset."Third_Eye_of_the_Jailer"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7105
+
+# Echo of Eonar
+# TODO: Add allies?
+# profileset."Echo_of_Eonar"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7100
