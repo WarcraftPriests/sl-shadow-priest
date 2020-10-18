@@ -1,16 +1,20 @@
 builds:
   am:
-    composite: 1121121 # FotM_Mis_AS_MB_AM
-    dungeons: 2131121 # DaM_SN_AS_MB_AM
-    single: 1111121 # FotM_ToF_AS_MB_AM
-  hv:
-    composite: 1121122 # FotM_Mis_AS_MB_HV
-    dungeons: 2131122 # DaM_SN_AS_MB_HV
-    single: 1111122 # FotM_ToF_AS_MB_HV
+    composite: 1111131 # FotM_ToF_AS_VT_AM
+    dungeons: 1131121 # FotM_SN_AS_MB_AM
+    single: 1111131 # FotM_ToF_AS_VT_AM
+  hv-as:
+    composite: 1111132 # FotM_ToF_AS_VT_HV
+    dungeons: 1131122 # FotM_SN_AS_MB_HV
+    single: 1111132 # FotM_ToF_AS_VT_HV
+  hv-pl:
+    composite: 1111232 # FotM_ToF_PL_VT_HV
+    dungeons: 1131222 # FotM_SN_PL_MB_HV
+    single: 1111232 # FotM_ToF_PL_VT_HV
   stm:
-    composite: 1121123 # FotM_Mis_AS_MB_STM
-    dungeons: 2131123 # DaM_SN_AS_MB_STM
-    single: 1111123 # FotM_ToF_AS_MB_STM
+    composite: 1111133 # FotM_ToF_AS_VT_STM
+    dungeons: 1131123 # FotM_SN_AS_MB_STM
+    single: 1111133 # FotM_ToF_AS_VT_STM
 covenants:
   - kyrian
   - night_fae
