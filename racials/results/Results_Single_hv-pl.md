@@ -1,0 +1,33 @@
+# Single - hv-pl
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Goblin|5086|1.62%|
+|Gnome|5085|1.59%|
+|Night_Elf_Haste|5079|1.48%|
+|Draenei|5070|1.29%|
+|Human|5065|1.20%|
+|Blood_Elf|5064|1.18%|
+|Dark_Iron_Dwarf|5064|1.18%|
+|Void_Elf|5062|1.14%|
+|Nightborne|5059|1.08%|
+|Panda_Feast|5059|1.08%|
+|Troll|5058|1.05%|
+|Night_Elf_Crit|5054|0.98%|
+|Kul_Tiran|5050|0.90%|
+|Zandalari_Troll_Paku|5045|0.80%|
+|Worgen|5042|0.74%|
+|Zandalari_Troll_Kimbul|5042|0.74%|
+|Undead|5042|0.74%|
+|Zandalari_Troll_Bwonsamdi|5042|0.73%|
+|Mechagnome|5042|0.73%|
+|Panda_Haste|5039|0.68%|
+|Maghar_Orc|5037|0.64%|
+|Lightforged_Draenei|5028|0.45%|
+|Panda_Crit|5027|0.44%|
+|Dwarf|5027|0.43%|
+|Panda_Mastery|5026|0.42%|
+|Tauren|5025|0.39%|
+|Panda_Vers|5020|0.29%|
+|Vulpera|5006|0.02%|
+|Base|5005|0.00%|
+|Panda_Smothered_Shank|4022|-19.63%|
