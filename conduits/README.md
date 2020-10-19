@@ -1,7 +1,5 @@
 # Conduit Results
 
-All talent builds are defined in [config.yml](https://github.com/WarcraftPriests/sl-shadow-priest/blob/master/config.yml#L1)
-
 ## Night Fae
 ### Raids
 - [Night Fae - Composite - AM](results/Results_Composite_am_night_fae.md) - `FotM_ToF_AS_VT_AM`
