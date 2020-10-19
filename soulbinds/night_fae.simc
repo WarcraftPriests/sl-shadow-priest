@@ -33,29 +33,29 @@ main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guida
 # 2 conduit setup
 # Grove Invigoration - 322721
 # Niya's Tools: Poison - 320660
-profileset."Niya-GI_NTP-DE_HA"+=soulbind=niya,115:7/107:7/322721/320660
+profileset."Niya-GI_NTP-::conduits::first::name::_::conduits::second::name::"+=soulbind=niya,::conduits::first::id::/::conduits::second::id::/322721/320660
 
 # 1 conduit setup
 # Grove Invigoration - 322721
 # Niya's Tools: Burrs - 320659
-profileset."Niya-GI_NTB-DE"+=soulbind=niya,115:7/322721/320659
+profileset."Niya-GI_NTB-::conduits::first::name::"+=soulbind=niya,::conduits::first::id::/322721/320659
 
 # Dreamweaver
 # 2 conduit setup
 # Field of Blossoms - 319191
-profileset."Dreamweaver-FoB-DE_HA"+=soulbind=dreamweaver,115:7/107:7/319191
+profileset."Dreamweaver-FoB-::conduits::first::name::_::conduits::second::name::"+=soulbind=dreamweaver,::conduits::first::id::/::conduits::second::id::/319191
 
 # 1 conduit setup
 # Field of Blossoms - 319191
 # Social Butterfly - 319210
-profileset."Dreamweaver-FoB_SB-DE"+=soulbind=dreamweaver,115:7/319191/319210
+profileset."Dreamweaver-FoB_SB-::conduits::first::name::"+=soulbind=dreamweaver,::conduits::first::id::/319191/319210
 
 # Korayn
 # 2 conduit setup
 # Wild Hunt Tactics - 325066
-profileset."Korayn-WHT-DE_HA"+=soulbind=korayn,115:7/107:7/325066
+profileset."Korayn-WHT-::conduits::first::name::_::conduits::second::name::"+=soulbind=korayn,::conduits::first::id::/::conduits::second::id::/325066
 
 # 1 conduit setup
 # Wild Hunt Tactics - 325066
 # First Strike - 325069
-profileset."Korayn-WHT_FS-DE"+=soulbind=korayn,115:7/325066/325069
+profileset."Korayn-WHT_FS-::conduits::first::name::"+=soulbind=korayn,::conduits::first::id::/325066/325069

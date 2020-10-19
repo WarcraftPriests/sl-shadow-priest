@@ -24,33 +24,28 @@ trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=macabre_sheet_music,id=184024,ilevel=226
 main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
 
-# Baseline Conduits - Top 2
-# - HA_DE_2
-# - Dissonant Echoes - 115
-# - Haunting Apparitions - 107
-
 # Pelagos
 # 2 conduit setup
 # Let Go of the Past - 328257
 # Combat Meditation - 328266
 # shadowlands.combat_meditation_extend_chance = 0.5
-profileset."Pelagos-LGotP_CM-DE_HA"+=soulbind=pelagos,115:7/107:7/328257/328266
+profileset."Pelagos-LGotP_CM-::conduits::first::name::_::conduits::second::name::"+=soulbind=pelagos,::conduits::first::id::/::conduits::second::id::/328257/328266
 
 # Kleia
 # 2 conduit setup
-profileset."Kleia-DE_HA"+=soulbind=kleia,115:7/107:7
+profileset."Kleia-::conduits::first::name::_::conduits::second::name::"+=soulbind=kleia,::conduits::first::id::/::conduits::second::id::
 
 # 1 conduit setup
 # Pointed Courage - 329778
 # shadowlands.pointed_courage_nearby = 5
-profileset."Kleia-PC-DE"+=soulbind=kleia,115:7/329778
+profileset."Kleia-PC-::conduits::first::name::"+=soulbind=kleia,::conduits::first::id::/329778
 
 # Forgelite Prime Mikanikos
 # 2 conduit setup
 # Bron's Call to Action - 333950
-profileset."Forgelite-BCtA-DE_HA"+=soulbind=forgelite_prime_mikanikos,115:7/107:7/333950
+profileset."Forgelite-BCtA-::conduits::first::name::_::conduits::second::name::"+=soulbind=forgelite_prime_mikanikos,::conduits::first::id::/::conduits::second::id::/333950
 
 # 1 conduit setup
 # Bron's Call to Action - 333950
 # Hammer of Genesis - 333935
-profileset."Forgelite-BCtA_HoG-DE"+=soulbind=forgelite_prime_mikanikos,115:7/333950/333935
+profileset."Forgelite-BCtA_HoG-::conduits::first::name::"+=soulbind=forgelite_prime_mikanikos,::conduits::first::id::/333950/333935

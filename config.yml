@@ -4,29 +4,45 @@ builds:
     dungeons: 1131121 # FotM_SN_AS_MB_AM
     single: 1111131 # FotM_ToF_AS_VT_AM
     conduits:
-      first: "113:7" # md
-      second: "107:7" # ha
+      first: 
+        id: "113:7"
+        name: MD
+      second: 
+        id: "107:7"
+        name: HA
   hv-as:
     composite: 1111132 # FotM_ToF_AS_VT_HV
     dungeons: 1131122 # FotM_SN_AS_MB_HV
     single: 1111132 # FotM_ToF_AS_VT_HV
     conduits:
-      first: "115:7" # de
-      second: "107:7" # ha
+      first: 
+        id: "115:7"
+        name: DE
+      second:
+        id: "107:7"
+        name: HA
   hv-pl:
     composite: 1111232 # FotM_ToF_PL_VT_HV
     dungeons: 1131222 # FotM_SN_PL_MB_HV
     single: 1111232 # FotM_ToF_PL_VT_HV
     conduits:
-      first: "115:7" # de
-      second: "113:7" # md
+      first:
+        id: "115:7"
+        name: DE
+      second:
+        id: "113:7"
+        name: MD
   stm:
     composite: 1111133 # FotM_ToF_AS_VT_STM
     dungeons: 1131123 # FotM_SN_AS_MB_STM
     single: 1111133 # FotM_ToF_AS_VT_STM
     conduits:
-      first: "107:7" # ha
-      second: "113:7" # md
+      first:
+        id: "107:7"
+        name: HA
+      second:
+        id: "113:7"
+        name: MD
 covenants:
   - kyrian
   - night_fae

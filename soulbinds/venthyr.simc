@@ -32,37 +32,37 @@ main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guida
 # Nadjia
 # 2 conduit setup
 # Thrill Seeker - 331586
-profileset."Nadjia-TS-DE_HA"+=soulbind=nadjia_the_mistblade,115:7/107:7/331586
+profileset."Nadjia-TS-::conduits::first::name::_::conduits::second::name::"+=soulbind=nadjia_the_mistblade,::conduits::first::id::/::conduits::second::id::/331586
 
 # 1 conduit setup
 # Thrill Seeker - 331586
 # Exacting Preparation - 331580
-profileset."Nadjia-TS_EP-DE"+=soulbind=nadjia_the_mistblade,115:7/331586/331580
+profileset."Nadjia-TS_EP-::conduits::first::name::"+=soulbind=nadjia_the_mistblade,::conduits::first::id::/331586/331580
 
 # 1 conduit setup
 # Thrill Seeker - 331586
 # Dauntless Duelist - 331584
-profileset."Nadjia-TS_DD-DE"+=soulbind=nadjia_the_mistblade,115:7/331586/331584
+profileset."Nadjia-TS_DD-::conduits::first::name::"+=soulbind=nadjia_the_mistblade,::conduits::first::id::/331586/331584
 
 # Theotar
 # 2 conduit setup
 # Wasteland Propriety - 319983
-profileset."Theotar-WP-DE_HA"+=soulbind=theotar_the_mad_duke,115:7/107:7/319983
+profileset."Theotar-WP-::conduits::first::name::_::conduits::second::name::"+=soulbind=theotar_the_mad_duke,::conduits::first::id::/::conduits::second::id::/319983
 
 # 1 conduit setup
 # Wasteland Propriety - 319983
 # Soothing Shade - 336239
-profileset."Theotar-WP_SS-DE"+=soulbind=theotar_the_mad_duke,115:7/319983/336239
+profileset."Theotar-WP_SS-::conduits::first::name::"+=soulbind=theotar_the_mad_duke,::conduits::first::id::/319983/336239
 
 # 1 conduit setup
 # Wasteland Propriety - 319983
 # Refined Palate - 336243
-profileset."Theotar-WP_RP-DE"+=soulbind=theotar_the_mad_duke,115:7/319983/336243
+profileset."Theotar-WP_RP-::conduits::first::name::"+=soulbind=theotar_the_mad_duke,::conduits::first::id::/319983/336243
 
 # General Draven
 # 2 conduit setup
-profileset."Draven-DE_HA"+=soulbind=general_draven,115:7/107:7
+profileset."Draven-::conduits::first::name::_::conduits::second::name::"+=soulbind=general_draven,::conduits::first::id::/::conduits::second::id::
 
 # 1 conduit setup
 # Built for War - 319973
-profileset."Draven-BfW-DE"+=soulbind=general_draven,115:7/319973
+profileset."Draven-BfW-::conduits::first::name::"+=soulbind=general_draven,::conduits::first::id::/319973
