@@ -1,0 +1,35 @@
+# Single - hv-as
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Necrolord-Marileth-Volatile_Solvent_Mastery|5708|10.96%|
+|Venthyr-Nadjia-Dauntless_Duelist|5497|6.86%|
+|Venthyr-Draven-Built_for_War|5485|6.62%|
+|Venthyr-Nadjia-Thrill_Seeker|5447|5.89%|
+|Kyrian-Kleia-Pointed_Courage|5444|5.82%|
+|Kyrian-Pelagos-Let_Go_of_the_Past|5443|5.82%|
+|Venthyr-Theotar-Soothing_Shade|5418|5.33%|
+|Necrolord-Emeni-Lead_by_Example|5416|5.29%|
+|Kyrian-Pelagos-Combat_Meditation|5398|4.95%|
+|Venthyr-Theotar-Wasteland_Propriety|5395|4.87%|
+|Night_Fae-Niya-Niyas_Tools_Burrs|5382|4.63%|
+|Necrolord-Bonesmith-Heirmirs_Arsenal_Marrowed_Gemstone|5366|4.32%|
+|Necrolord-Marileth-Volatile_Solvent_Intellect|5353|4.06%|
+|Venthyr-Nadjia-Exacting_Preparation|5352|4.04%|
+|Necrolord-Marileth-Volatile_Solvent_Crit|5352|4.03%|
+|Venthyr_Covenant_Only|5337|3.75%|
+|Venthyr-Theotar-Refined_Palate|5336|3.72%|
+|Night_Fae-Korayn-Wild_Hunt_Tactics|5311|3.26%|
+|Necrolord-Marileth-Plagueys_Preemptive_Strike|5282|2.68%|
+|Night_Fae-Dreamweaver-Field_of_Blossoms|5270|2.44%|
+|Necrolord_Covenant_Only|5254|2.13%|
+|Necrolord-Bonesmith-Serrated_Spaulders|5253|2.12%|
+|Necrolord-Emeni-Gnashing_Chompers|5253|2.11%|
+|Night_Fae-Dreamweaver-Social_Butterfly|5228|1.63%|
+|Kyrian-Forgelite-Brons_Call_to_Action|5213|1.35%|
+|Kyrian-Forgelite-Hammer_of_Genesis|5206|1.21%|
+|Kyrian_Covenant_Only|5204|1.16%|
+|Night_Fae-Korayn-First_Strike|5204|1.16%|
+|Night_Fae-Niya-Grove_Invigoration|5184|0.78%|
+|Night_Fae_Covenant_Only|5154|0.20%|
+|Night_Fae-Niya-Niyas_Tools_Poison|5153|0.18%|
+|Base|5144|0.00%|

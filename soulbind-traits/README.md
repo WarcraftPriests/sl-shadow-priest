@@ -3,16 +3,19 @@
 Each sim includes a single soulbind trait and the base covenant ability. You can compare this to the `Covenant_Only` actor to get a baseline increase per trait.
 
 ## Raids
-- [Composite - STM](results/Results_Composite_stm.md) - `FotM_Mis_AS_MB_STM`
-- [Composite - AM](results/Results_Composite_am.md) - `FotM_Mis_AS_MB_AM`
-- [Composite - HV](results/Results_Composite_hv.md) - `FotM_Mis_AS_MB_HV`
+- [Composite - AM](results/Results_Composite_am.md) - `FotM_ToF_AS_VT_AM`
+- [Composite - HV-AS](results/Results_Composite_hv-as.md) - `FotM_ToF_AS_VT_HV`
+- [Composite - HV-PL](results/Results_Composite_hv-pl.md) - `FotM_ToF_PL_VT_HV`
+- [Composite - STM](results/Results_Composite_stm.md) - `FotM_ToF_AS_VT_STM`
 
 ## Single Target
-- [Single - STM](results/Results_Single_stm.md) - `FotM_ToF_AS_MB_STM`
-- [Single - AM](results/Results_Single_am.md) - `FotM_ToF_AS_MB_AM`
-- [Single - HV](results/Results_Single_hv.md) - `FotM_ToF_AS_MB_HV`
+- [Single - AM](results/Results_Single_am.md) - `FotM_ToF_AS_VT_AM`
+- [Single - HV-AS](results/Results_Single_hv-as.md) - `FotM_ToF_AS_VT_HV`
+- [Single - HV-PL](results/Results_Single_hv-pl.md) - `FotM_ToF_PL_VT_HV`
+- [Single - STM](results/Results_Single_stm.md) - `FotM_ToF_AS_VT_STM`
 
 ## Dungeons
-- [Dungeons - STM](results/Results_Dungeons_stm.md) - `DaM_SN_AS_MB_STM`
-- [Dungeons - AM](results/Results_Dungeons_am.md) - `DaM_SN_AS_MB_AM`
-- [Dungeons - HV](results/Results_Dungeons_hv.md) - `DaM_SN_AS_MB_HV`
+- [Dungeons - AM](results/Results_Dungeons_am.md) - `FotM_SN_AS_MB_AM`
+- [Dungeons - HV-AS](results/Results_Dungeons_hv-as.md) - `FotM_SN_AS_MB_HV`
+- [Dungeons - HV-PL](results/Results_Dungeons_hv-pl.md) - `FotM_SN_PL_MB_HV`
+- [Dungeons - STM](results/Results_Dungeons_stm.md) - `FotM_SN_AS_MB_STM`
