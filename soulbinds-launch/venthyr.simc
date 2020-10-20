@@ -25,17 +25,17 @@ trinket2=macabre_sheet_music,id=184024,ilevel=226
 main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
 
 # Nadjia
-# 3 conduit setup
-profileset."Nadjia-DE"+=soulbind=nadjia_the_mistblade,::conduits::first::id:::6
+# 1 conduit setup
+profileset."Nadjia-${conduits.first.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:6
 
 # Theotar
-# 3 conduit setup
-profileset."Theotar-DE_HA"+=soulbind=theotar_the_mad_duke,::conduits::first::id:::6/::conduits::second::id:::6
-
 # 2 conduit setup
+profileset."Theotar-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:6/${conduits.second.id}:6
+
+# 1 conduit setup
 # Soothing Shade - 336239
-profileset."Theotar-SS-DE"+=soulbind=theotar_the_mad_duke,::conduits::first::id:::6/336239
+profileset."Theotar-SS-${conduits.first.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:6/336239
 
-# 2 conduit setup
+# 1 conduit setup
 # Refined Palate - 336243
-profileset."Theotar-RP-DE"+=soulbind=theotar_the_mad_duke,::conduits::first::id:::6/336243
+profileset."Theotar-RP-${conduits.first.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:6/336243

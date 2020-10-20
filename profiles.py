@@ -152,10 +152,10 @@ def build_profiles(talent, covenant, args):
         if talents:
             data = data.replace(
                 "spec=shadow", "spec=shadow\ntalents=".format(talents))
-            data = data.replace("::conduits::first::id::", config["builds"][talent]["conduits"]["first"]["id"])
-            data = data.replace("::conduits::second::id::", config["builds"][talent]["conduits"]["second"]["id"])
-            data = data.replace("::conduits::first::name::", config["builds"][talent]["conduits"]["first"]["name"])
-            data = data.replace("::conduits::second::name::", config["builds"][talent]["conduits"]["second"]["name"])
+            data = data.replace("${conduits.first.id}", config["builds"][talent]["conduits"]["first"]["id"])
+            data = data.replace("${conduits.second.id}", config["builds"][talent]["conduits"]["second"]["id"])
+            data = data.replace("${conduits.first.name}", config["builds"][talent]["conduits"]["first"]["name"])
+            data = data.replace("${conduits.second.name}", config["builds"][talent]["conduits"]["second"]["name"])
 
         for profile in combinations:
             # prefix the profile name with the base file name

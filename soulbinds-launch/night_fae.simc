@@ -32,18 +32,18 @@ main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guida
 # Niya
 # 1 conduit setup
 # Niya's Tools: Poison - 320660
-profileset."Niya-NTP-DE"+=soulbind=niya,::conduits::first::id:::6/320660
+profileset."Niya-NTP-${conduits.first.name}"+=soulbind=niya,${conduits.first.id}:6/320660
 
 # 1 conduit setup
 # Niya's Tools: Burrs - 320659
-profileset."Niya-NTB-DE"+=soulbind=niya,::conduits::first::id:::6/320659
+profileset."Niya-NTB-${conduits.first.name}"+=soulbind=niya,${conduits.first.id}:6/320659
 
 # Dreamweaver
 # 2 conduit setup
 # Field of Blossoms - 319191
-profileset."Dreamweaver-FoB-DE_HA"+=soulbind=dreamweaver,::conduits::first::id:::6/::conduits::second::id:::6/319191
+profileset."Dreamweaver-FoB-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/${conduits.second.id}:6/319191
 
 # 1 conduit setup
 # Field of Blossoms - 319191
 # Social Butterfly - 319210
-profileset."Dreamweaver-FoB_SB-DE"+=soulbind=dreamweaver,::conduits::first::id:::6/319191/319210
+profileset."Dreamweaver-FoB_SB-${conduits.first.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/319191/319210

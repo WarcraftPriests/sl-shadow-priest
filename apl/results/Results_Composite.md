@@ -1,6 +1,7 @@
 # Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|extra_vb_line|6860|1.77%|
-|final_commit|6851|1.63%|
-|Base|6741|0.00%|
+|Base|5464|0.00%|
+|Nighthawk_mf_dt_lessthan_50|5462|-0.05%|
+|Nighthawk_mf_dt|5460|-0.07%|
+|Nighthawk_mf_dt_lessthan_50_vf_remains|5453|-0.21%|
