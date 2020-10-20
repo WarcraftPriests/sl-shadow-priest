@@ -3,6 +3,7 @@ level=60
 role=spell
 position=back
 spec=shadow
+talents=${talents}
 covenant=night_fae
 
 default_actions=1

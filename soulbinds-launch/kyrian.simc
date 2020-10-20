@@ -3,6 +3,7 @@ level=60
 role=spell
 position=back
 spec=shadow
+talents=${talents}
 covenant=kyrian
 
 default_actions=1

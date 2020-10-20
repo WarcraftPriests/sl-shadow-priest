@@ -3,6 +3,7 @@ level=60
 role=spell
 position=back
 spec=shadow
+talents=${talents}
 covenant=venthyr
 soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7
 

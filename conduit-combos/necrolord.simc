@@ -4,6 +4,7 @@ role=spell
 position=back
 spec=shadow
 covenant=necrolord
+talents=${talents}
 
 default_actions=1
 

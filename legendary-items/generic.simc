@@ -3,6 +3,7 @@ level=60
 role=spell
 position=back
 spec=shadow
+talents=${talents}
 covenant=kyrian
 
 # Baseline Conduits - Top 2
