@@ -24,21 +24,16 @@ trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=macabre_sheet_music,id=184024,ilevel=226
 main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
 
-# Baseline Conduits - Top 2
-# - HA_DE_2
-# - Dissonant Echoes - 115
-# - Haunting Apparitions - 107
-
 # Pelagos
 # 1 conduit setup
 # Let Go of the Past - 328257
 # Combat Meditation - 328266
-profileset."Pelagos-LGotP-DE"+=soulbind=pelagos,115:6/328257
+profileset."Pelagos-LGotP-::conduits::first::name::"+=soulbind=pelagos,::conduits::first::id:::6/328257
 
 # Kleia
 # 2 conduit setup
-profileset."Kleia-DE_HA"+=soulbind=kleia,115:6/107:6
+profileset."Kleia-::conduits::first::name::_::conduits::second::name::"+=soulbind=kleia,::conduits::first::id:::6/::conduits::second::id:::6
 
 # 1 conduit setup
 # Pointed Courage - 329778
-profileset."Kleia-PC-DE"+=soulbind=kleia,115:6/329778
+profileset."Kleia-PC-::conduits::first::name::"+=soulbind=kleia,::conduits::first::id:::6/329778

@@ -1,8 +1,8 @@
 # Single - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Theotar-SS-DE|6733|7.41%|
-|Theotar-DE_MD|6720|7.20%|
-|Theotar-RP-DE|6611|5.47%|
-|Nadjia-DE|6611|5.46%|
-|Base|6269|0.00%|
+|Theotar-DE_HA|5806|4.74%|
+|Theotar-SS-DE|5767|4.05%|
+|Nadjia-DE|5683|2.53%|
+|Theotar-RP-DE|5683|2.52%|
+|Base|5543|0.00%|

@@ -24,23 +24,18 @@ trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=macabre_sheet_music,id=184024,ilevel=226
 main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
 
-# Baseline Conduits - Top 2
-# - HA_DE_2
-# - Dissonant Echoes - 115
-# - Haunting Apparitions - 107
-
 # Nadjia
 # 3 conduit setup
-profileset."Nadjia-DE"+=soulbind=nadjia_the_mistblade,115:6
+profileset."Nadjia-DE"+=soulbind=nadjia_the_mistblade,::conduits::first::id:::6
 
 # Theotar
 # 3 conduit setup
-profileset."Theotar-DE_HA"+=soulbind=theotar_the_mad_duke,115:6/107:6
+profileset."Theotar-DE_HA"+=soulbind=theotar_the_mad_duke,::conduits::first::id:::6/::conduits::second::id:::6
 
 # 2 conduit setup
 # Soothing Shade - 336239
-profileset."Theotar-SS-DE"+=soulbind=theotar_the_mad_duke,115:6/336239
+profileset."Theotar-SS-DE"+=soulbind=theotar_the_mad_duke,::conduits::first::id:::6/336239
 
 # 2 conduit setup
 # Refined Palate - 336243
-profileset."Theotar-RP-DE"+=soulbind=theotar_the_mad_duke,115:6/336243
+profileset."Theotar-RP-DE"+=soulbind=theotar_the_mad_duke,::conduits::first::id:::6/336243

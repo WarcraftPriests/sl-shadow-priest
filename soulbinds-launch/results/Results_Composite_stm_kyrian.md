@@ -1,7 +1,7 @@
 # Composite - stm - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pelagos-LGotP-DE|7386|7.89%|
-|Kleia-PC-DE|7365|7.59%|
-|Kleia-DE_MD|7165|4.66%|
-|Base|6846|0.00%|
+|Pelagos-LGotP-HA|6147|7.40%|
+|Kleia-PC-HA|6136|7.20%|
+|Kleia-HA_MD|6010|5.00%|
+|Base|5724|0.00%|
