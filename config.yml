@@ -5,11 +5,11 @@ builds:
     single: 1111131 # FotM_ToF_AS_VT_AM
     conduits:
       first: 
-        id: "113"
-        name: MD
-      second: 
         id: "107"
         name: HA
+      second: 
+        id: "113"
+        name: MD
   hv-as:
     composite: 1111132 # FotM_ToF_AS_VT_HV
     dungeons: 1131122 # FotM_SN_AS_MB_HV
