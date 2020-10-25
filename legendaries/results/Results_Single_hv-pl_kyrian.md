@@ -1,14 +1,14 @@
 # Single - hv-pl - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|5735|5.11%|
-|Talbadars_Stratagem|5715|4.75%|
-|Judgment_of_the_Arbiter|5560|1.91%|
-|Painbreaker_Psalm|5499|0.79%|
-|Twins_of_the_Sun_Priestess_Conduit_7|5493|0.68%|
-|Shadowflame_Prism|5479|0.43%|
-|Echo_of_Eonar|5458|0.03%|
-|Third_Eye_of_the_Jailer|5456|0.01%|
-|Sephuzs_Proclamation|5456|0.00%|
-|Base|5456|0.00%|
-|Shadowflame_Prism_Conduit_7|5388|-1.24%|
+|Talbadars_Stratagem|5527|5.01%|
+|Eternal_Call_to_the_Void|5522|4.92%|
+|Echo_of_Eonar|5521|4.89%|
+|Judgment_of_the_Arbiter|5369|2.01%|
+|Painbreaker_Psalm|5323|1.13%|
+|Twins_of_the_Sun_Priestess_Conduit_7|5297|0.65%|
+|Shadowflame_Prism|5287|0.45%|
+|Sephuzs_Proclamation|5265|0.03%|
+|Third_Eye_of_the_Jailer|5264|0.02%|
+|Base|5263|0.00%|
+|Shadowflame_Prism_Conduit_7|5207|-1.08%|

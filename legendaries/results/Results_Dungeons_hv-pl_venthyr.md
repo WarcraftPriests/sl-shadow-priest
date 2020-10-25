@@ -1,14 +1,14 @@
 # Dungeons - hv-pl - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|6169|6.77%|
-|Shadowflame_Prism_Conduit_7|5975|3.41%|
-|Talbadars_Stratagem|5950|2.98%|
-|Shadowflame_Prism|5939|2.79%|
-|Sephuzs_Proclamation|5887|1.89%|
-|Judgment_of_the_Arbiter|5867|1.54%|
-|Painbreaker_Psalm|5805|0.47%|
-|Base|5778|0.00%|
-|Echo_of_Eonar|5774|-0.07%|
-|Third_Eye_of_the_Jailer|5774|-0.07%|
-|Twins_of_the_Sun_Priestess_Conduit_7|5673|-1.82%|
+|Eternal_Call_to_the_Void|6046|6.37%|
+|Echo_of_Eonar|5955|4.77%|
+|Shadowflame_Prism_Conduit_7|5892|3.66%|
+|Talbadars_Stratagem|5846|2.85%|
+|Shadowflame_Prism|5842|2.78%|
+|Sephuzs_Proclamation|5806|2.15%|
+|Judgment_of_the_Arbiter|5770|1.51%|
+|Painbreaker_Psalm|5729|0.79%|
+|Third_Eye_of_the_Jailer|5688|0.07%|
+|Base|5684|0.00%|
+|Twins_of_the_Sun_Priestess_Conduit_7|5607|-1.35%|
