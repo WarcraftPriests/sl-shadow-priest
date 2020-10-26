@@ -27,16 +27,10 @@ main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guida
 
 # Nadjia
 # 1 conduit setup
-profileset."Nadjia-${conduits.first.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:6
+# Thrill Seeker - 331586
+profileset."Nadjia-TS-${conduits.first.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:6/331586
 
 # Theotar
-# 2 conduit setup
-profileset."Theotar-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:6/${conduits.second.id}:6
-
 # 1 conduit setup
 # Soothing Shade - 336239
 profileset."Theotar-SS-${conduits.first.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:6/336239
-
-# 1 conduit setup
-# Refined Palate - 336243
-profileset."Theotar-RP-${conduits.first.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:6/336243

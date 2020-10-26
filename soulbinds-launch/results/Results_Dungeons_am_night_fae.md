@@ -1,8 +1,7 @@
 # Dungeons - am - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Dreamweaver-FoB-MD_HA|5936|6.63%|
-|Dreamweaver-FoB_SB-MD|5922|6.38%|
-|Niya-NTB-MD|5851|5.10%|
-|Niya-NTP-MD|5673|1.90%|
-|Base|5567|0.00%|
+|Dreamweaver-HA_MD|5598|3.59%|
+|Dreamweaver-SB-HA|5583|3.31%|
+|Niya-GI-HA|5533|2.39%|
+|Base|5404|0.00%|

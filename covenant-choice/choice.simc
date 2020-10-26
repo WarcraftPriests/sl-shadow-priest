@@ -147,7 +147,7 @@ profileset."Venthyr_3"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:7/331
 
 profileset."Venthyr_4"+=covenant=venthyr
 profileset."Venthyr_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Venthyr_4"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/319983
+profileset."Venthyr_4"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/336239
 
 profileset."Venthyr_5"+=covenant=venthyr
 profileset."Venthyr_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
@@ -155,7 +155,7 @@ profileset."Venthyr_5"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/319
 
 profileset."Venthyr_6"+=covenant=venthyr
 profileset."Venthyr_6"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Venthyr_6"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/319983/336243
+profileset."Venthyr_6"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/336239/336243
 
 profileset."Venthyr_7"+=covenant=venthyr
 profileset."Venthyr_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983

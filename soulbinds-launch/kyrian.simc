@@ -27,14 +27,9 @@ main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guida
 
 # Pelagos
 # 1 conduit setup
-# Let Go of the Past - 328257
 # Combat Meditation - 328266
-profileset."Pelagos-LGotP-${conduits.first.name}"+=soulbind=pelagos,${conduits.first.id}:6/328257
+profileset."Pelagos-CM-${conduits.first.name}"+=soulbind=pelagos,${conduits.first.id}:6/328266
 
 # Kleia
-# 2 conduit setup
-profileset."Kleia-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:6/${conduits.second.id}:6
-
 # 1 conduit setup
-# Pointed Courage - 329778
-profileset."Kleia-PC-${conduits.first.name}"+=soulbind=kleia,${conduits.first.id}:6/329778
+profileset."Kleia-${conduits.first.name}"+=soulbind=kleia,${conduits.first.id}:6

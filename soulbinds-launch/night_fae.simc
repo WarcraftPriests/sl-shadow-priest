@@ -25,26 +25,15 @@ trinket1=glyph_of_assimilation,id=184021,ilevel=226
 trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
 
-# Baseline Conduits - Top 2
-# - HA_DE_2
-# - Dissonant Echoes - 115
-# - Haunting Apparitions - 107
-
 # Niya
 # 1 conduit setup
-# Niya's Tools: Poison - 320660
-profileset."Niya-NTP-${conduits.first.name}"+=soulbind=niya,${conduits.first.id}:6/320660
-
-# 1 conduit setup
-# Niya's Tools: Burrs - 320659
-profileset."Niya-NTB-${conduits.first.name}"+=soulbind=niya,${conduits.first.id}:6/320659
+# Grove Invigoration - 322721
+profileset."Niya-GI-${conduits.first.name}"+=soulbind=niya,${conduits.first.id}:6/322721
 
 # Dreamweaver
 # 2 conduit setup
-# Field of Blossoms - 319191
-profileset."Dreamweaver-FoB-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/${conduits.second.id}:6/319191
+profileset."Dreamweaver-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/${conduits.second.id}:6
 
 # 1 conduit setup
-# Field of Blossoms - 319191
 # Social Butterfly - 319210
-profileset."Dreamweaver-FoB_SB-${conduits.first.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/319191/319210
+profileset."Dreamweaver-SB-${conduits.first.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/319210

@@ -32,20 +32,19 @@ profileset."Venthyr_Nadjia"+=head=confidants_favored_cap,id=183021,ilevel=226,bo
 profileset."Venthyr_Nadjia_DD"+=covenant=venthyr
 profileset."Venthyr_Nadjia_DD"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:7/331586/331584
 profileset."Venthyr_Nadjia_DD"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-# Conduits: Mind Devourer, Shattered Perceptions, Haunting Apparitions
 # Legendary: Eternal Call to the Void
 # Soulbind: Draven - Draven-BfW-1
 profileset."Venthyr_Draven"+=covenant=venthyr
 profileset."Venthyr_Draven"+=soulbind=general_draven,${conduits.first.id}:7/319973
 profileset."Venthyr_Draven"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 # Legendary: Eternal Call to the Void
-# Soulbind: Theotar - Theotar-WP-1_2
+# Soulbind: Theotar - Theotar-SS-1_2
 profileset."Venthyr_Theotar"+=covenant=venthyr
-profileset."Venthyr_Theotar"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/319983
+profileset."Venthyr_Theotar"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/336239
 profileset."Venthyr_Theotar"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 
 # Legendary: Eternal Call to the Void
-# Soulbind: Pelagos - Pelagos-LGotP_CM-1_2
+# Soulbind: Pelagos - Pelagos-CM_LGotP-1_2
 profileset."Kyrian_Covenant_Only"+=covenant=kyrian
 profileset."Kyrian_Pelagos"+=covenant=kyrian
 profileset."Kyrian_Pelagos"+=soulbind=pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328257/328266

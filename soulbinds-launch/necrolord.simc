@@ -25,30 +25,31 @@ trinket1=glyph_of_assimilation,id=184021,ilevel=226
 trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=sinbearers_absolution_rod,id=182418,ilevel=233,enchant=celestial_guidance
 
+# 2 conduit setup
+profileset."Marileth-VS_Crit-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_crit=1
+profileset."Marileth-VS_Crit-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/${conduits.second.id}:6/323074
+
+profileset."Marileth-VS_Mastery-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_mastery=1
+profileset."Marileth-VS_Mastery-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/${conduits.second.id}:6/323074
+
+profileset."Marileth-VS_Intellect-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_primary=1
+profileset."Marileth-VS_Intellect-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/${conduits.second.id}:6/323074
+
+profileset."Marileth-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/${conduits.second.id}:6
+
 # 1 conduit setup
-profileset."Marileth-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6
-
-profileset."Marileth-VS_Crit-${conduits.first.name}"+=shadowlands.volatile_solvent_crit=1
-profileset."Marileth-VS_Crit-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074
-profileset."Marileth-VS_Mastery-${conduits.first.name}"+=shadowlands.volatile_solvent_mastery=1
-profileset."Marileth-VS_Mastery-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074
-profileset."Marileth-VS_Intellect-${conduits.first.name}"+=shadowlands.volatile_solvent_primary=1
-profileset."Marileth-VS_Intellect-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074
-
-# 0 conduit setup
 # Plaguey's Preemptive Strike - 323090
-profileset."Marileth-PPS"+=soulbind=plague_deviser_marileth,323090
+profileset."Marileth-PPS_VS_Crit-${conduits.first.name}"+=shadowlands.volatile_solvent_crit=1
+profileset."Marileth-PPS_VS_Crit-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074/323090
 
-profileset."Marileth-VS_Crit_PPS"+=shadowlands.volatile_solvent_crit=1
-profileset."Marileth-VS_Crit_PPS"+=soulbind=plague_deviser_marileth,323090/323074
-profileset."Marileth-VS_Mastery_PPS"+=shadowlands.volatile_solvent_mastery=1
-profileset."Marileth-VS_Mastery_PPS"+=soulbind=plague_deviser_marileth,323090/323074
-profileset."Marileth-VS_Intellect_PPS"+=shadowlands.volatile_solvent_primary=1
-profileset."Marileth-VS_Intellect_PPS"+=soulbind=plague_deviser_marileth,323090/323074
+profileset."Marileth-PPS_VS_Mastery-${conduits.first.name}"+=shadowlands.volatile_solvent_mastery=1
+profileset."Marileth-PPS_VS_Mastery-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074/323090
+
+profileset."Marileth-PPS_VS_Intellect-${conduits.first.name}"+=shadowlands.volatile_solvent_primary=1
+profileset."Marileth-PPS_VS_Intellect-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074/323090
+
+profileset."Marileth-PPS-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323090
 
 # Emeni
-# 2 conduit setup
-profileset."Emeni-${conduits.first.name}_${conduits.second.name}"+=soulbind=emeni,${conduits.first.id}:6/${conduits.second.id}:6
-
 # 1 conduit setup
-profileset."Emeni-GC-${conduits.first.name}"+=soulbind=emeni,${conduits.first.id}:6/323919
+profileset."Emeni-LbE-${conduits.first.name}"+=soulbind=emeni,${conduits.first.id}:6/342156

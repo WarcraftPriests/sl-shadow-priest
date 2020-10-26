@@ -47,18 +47,18 @@ profileset."Nadjia-TS_DD-${conduits.first.name}"+=soulbind=nadjia_the_mistblade,
 
 # Theotar
 # 2 conduit setup
-# Wasteland Propriety - 319983
-profileset."Theotar-WP-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/319983
-
-# 1 conduit setup
-# Wasteland Propriety - 319983
 # Soothing Shade - 336239
-profileset."Theotar-WP_SS-${conduits.first.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/319983/336239
+profileset."Theotar-SS-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/336239
 
 # 1 conduit setup
+# Soothing Shade - 336239
 # Wasteland Propriety - 319983
+profileset."Theotar-SS_WP-${conduits.first.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/319983/336239
+
+# 1 conduit setup
+# Soothing Shade - 336239
 # Refined Palate - 336243
-profileset."Theotar-WP_RP-${conduits.first.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/319983/336243
+profileset."Theotar-SS_RP-${conduits.first.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/336239/336243
 
 # General Draven
 # 2 conduit setup
