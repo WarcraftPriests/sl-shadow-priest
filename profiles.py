@@ -160,6 +160,9 @@ def build_profiles(talent, covenant, args):
             data = data.replace(
                 "${conduits.second.name}", config["builds"][talent]["conduits"]["second"]["name"])
 
+        if covenant:
+            data = data.replace("${covenant}", covenant)
+
         for profile in combinations:
             # prefix the profile name with the base file name
             profile_name = "{0}_{1}".format(simFile[:-5], profile)

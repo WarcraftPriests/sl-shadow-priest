@@ -64,6 +64,33 @@ legendaries = {
     "Echo_of_Eonar": 338477
 }
 
+legendary_items = {
+    "Shadowflame_Prism_Head": 336143,
+    "Shadowflame_Prism_Hands": 336143,
+    "Shadowflame_Prism_Conduit_Head": 336143,
+    "Shadowflame_Prism_Conduit_Hands": 336143,
+    "Painbreaker_Psalm_Back": 336165,
+    "Painbreaker_Psalm_Chest": 336165,
+    "Twins_of_the_Sun_Priestess_Conduit_7_Head": 336897,
+    "Twins_of_the_Sun_Priestess_Conduit_7_Shoulder": 336897,
+    "Eternal_Call_to_the_Void_Wrists": 336214,
+    "Eternal_Call_to_the_Void_Hands": 336214,
+    "Talbadars_Stratagem_Waist": 342415,
+    "Talbadars_Stratagem_Legs": 342415,
+    "Judgment_of_the_Arbiter_Hands": 339344,
+    "Judgment_of_the_Arbiter_Wrists": 339344,
+    "Judgment_of_the_Arbiter_Finger": 339344,
+    "Sephuzs_Proclamation_Chest": 339348,
+    "Sephuzs_Proclamation_Shoulder": 339348,
+    "Sephuzs_Proclamation_Neck": 339348,
+    "Third_Eye_of_the_Jailer_Head": 339058,
+    "Third_Eye_of_the_Jailer_Shoulder": 339058,
+    "Third_Eye_of_the_Jailer_Waist": 339058,
+    "Echo_of_Eonar_Wrists": 338477,
+    "Echo_of_Eonar_Waist": 338477,
+    "Echo_of_Eonar_Finger": 338477
+}
+
 covenants = {
     "Necrolord_Bonesmith": 324724,
     "Necrolord_Bonesmith_HAMG": 326572,
@@ -169,3 +196,5 @@ def find_ids(key):
         return consumables
     elif key == 'soulbind-traits':
         return soulbind_traits
+    elif key == 'legendary-items':
+        return legendary_items

@@ -4,13 +4,8 @@ role=spell
 position=back
 spec=shadow
 talents=${talents}
-covenant=kyrian
-
-# Baseline Conduits - Top 2
-# - HA_DE_2
-# - Dissonant Echoes - 115
-# - Haunting Apparitions - 107
-soulbind=theotar_the_mad_duke,115:7/107:7
+covenant=${covenant}
+soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7
 
 default_actions=1
 
@@ -49,21 +44,21 @@ profileset."Shadowflame_Prism_Hands_225"+=hands=,id=173244,ilevel=225,bonus_id=6
 profileset."Shadowflame_Prism_Hands_235"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
 
 # Shadowflame Prism with Rabid Shadows
-profileset."Shadowflame_Prism_Conduit_Head_190"+=soulbind=theotar_the_mad_duke,115:7/114:7
+profileset."Shadowflame_Prism_Conduit_Head_190"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/114:7
 profileset."Shadowflame_Prism_Conduit_Head_190"+=head=,id=173245,ilevel=190,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Conduit_Head_210"+=soulbind=theotar_the_mad_duke,115:7/114:7
+profileset."Shadowflame_Prism_Conduit_Head_210"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/114:7
 profileset."Shadowflame_Prism_Conduit_Head_210"+=head=,id=173245,ilevel=210,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Conduit_Head_225"+=soulbind=theotar_the_mad_duke,115:7/114:7
+profileset."Shadowflame_Prism_Conduit_Head_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/114:7
 profileset."Shadowflame_Prism_Conduit_Head_225"+=head=,id=173245,ilevel=225,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Conduit_Head_235"+=soulbind=theotar_the_mad_duke,115:7/114:7
+profileset."Shadowflame_Prism_Conduit_Head_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/114:7
 profileset."Shadowflame_Prism_Conduit_Head_235"+=head=,id=173245,ilevel=235,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Conduit_Hands_190"+=soulbind=theotar_the_mad_duke,115:7/114:7
+profileset."Shadowflame_Prism_Conduit_Hands_190"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/114:7
 profileset."Shadowflame_Prism_Conduit_Hands_190"+=hands=,id=173244,ilevel=190,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Conduit_Hands_210"+=soulbind=theotar_the_mad_duke,115:7/114:7
+profileset."Shadowflame_Prism_Conduit_Hands_210"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/114:7
 profileset."Shadowflame_Prism_Conduit_Hands_210"+=hands=,id=173244,ilevel=210,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Conduit_Hands_225"+=soulbind=theotar_the_mad_duke,115:7/114:7
+profileset."Shadowflame_Prism_Conduit_Hands_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/114:7
 profileset."Shadowflame_Prism_Conduit_Hands_225"+=hands=,id=173244,ilevel=225,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Conduit_Hands_235"+=soulbind=theotar_the_mad_duke,115:7/114:7
+profileset."Shadowflame_Prism_Conduit_Hands_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/114:7
 profileset."Shadowflame_Prism_Conduit_Hands_235"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
 
 # Painbreaker Psalm - 6981
@@ -71,34 +66,34 @@ profileset."Painbreaker_Psalm_Back_190"+=back=,id=173242,ilevel=190,bonus_id=698
 profileset."Painbreaker_Psalm_Back_210"+=back=,id=173242,ilevel=210,bonus_id=6981/6647/6649
 profileset."Painbreaker_Psalm_Back_225"+=back=,id=173242,ilevel=225,bonus_id=6981/6647/6649
 profileset."Painbreaker_Psalm_Back_235"+=back=,id=173242,ilevel=235,bonus_id=6981/6647/6649
-profileset."Painbreaker_Psalm_Chest_190"+=chest=,id=173241,ilevel=190,bonus_id=6981/6647/6649
-profileset."Painbreaker_Psalm_Chest_210"+=chest=,id=173241,ilevel=210,bonus_id=6981/6647/6649
-profileset."Painbreaker_Psalm_Chest_225"+=chest=,id=173241,ilevel=225,bonus_id=6981/6647/6649
-profileset."Painbreaker_Psalm_Chest_235"+=chest=,id=173241,ilevel=235,bonus_id=6981/6647/6649
+profileset."Painbreaker_Psalm_Chest_190"+=chest=,id=173241,ilevel=190,bonus_id=6981/6647/6649,enchant=eternal_insight
+profileset."Painbreaker_Psalm_Chest_210"+=chest=,id=173241,ilevel=210,bonus_id=6981/6647/6649,enchant=eternal_insight
+profileset."Painbreaker_Psalm_Chest_225"+=chest=,id=173241,ilevel=225,bonus_id=6981/6647/6649,enchant=eternal_insight
+profileset."Painbreaker_Psalm_Chest_235"+=chest=,id=173241,ilevel=235,bonus_id=6981/6647/6649,enchant=eternal_insight
 
 # Twins of the Sun Priestess (7002) + Power Unto Others Conduit (73:7)
 profileset."Twins_of_the_Sun_Priestess_Conduit_7_Head_190"+=head=,id=173245,ilevel=190,bonus_id=7002/6647/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_7_Head_190"+=soulbind=theotar_the_mad_duke,115:7/107:7/73:7
+profileset."Twins_of_the_Sun_Priestess_Conduit_7_Head_190"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/73:7
 profileset."Twins_of_the_Sun_Priestess_Conduit_7_Head_210"+=head=,id=173245,ilevel=210,bonus_id=7002/6647/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_7_Head_210"+=soulbind=theotar_the_mad_duke,115:7/107:7/73:7
+profileset."Twins_of_the_Sun_Priestess_Conduit_7_Head_210"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/73:7
 profileset."Twins_of_the_Sun_Priestess_Conduit_7_Head_225"+=head=,id=173245,ilevel=225,bonus_id=7002/6647/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_7_Head_225"+=soulbind=theotar_the_mad_duke,115:7/107:7/73:7
+profileset."Twins_of_the_Sun_Priestess_Conduit_7_Head_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/73:7
 profileset."Twins_of_the_Sun_Priestess_Conduit_7_Head_235"+=head=,id=173245,ilevel=235,bonus_id=7002/6647/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_7_Head_235"+=soulbind=theotar_the_mad_duke,115:7/107:7/73:7
+profileset."Twins_of_the_Sun_Priestess_Conduit_7_Head_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/73:7
 profileset."Twins_of_the_Sun_Priestess_Conduit_7_Shoulder_190"+=shoulder=,id=173247,ilevel=190,bonus_id=7002/6647/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_7_Shoulder_190"+=soulbind=theotar_the_mad_duke,115:7/107:7/73:7
+profileset."Twins_of_the_Sun_Priestess_Conduit_7_Shoulder_190"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/73:7
 profileset."Twins_of_the_Sun_Priestess_Conduit_7_Shoulder_210"+=shoulder=,id=173247,ilevel=210,bonus_id=7002/6647/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_7_Shoulder_210"+=soulbind=theotar_the_mad_duke,115:7/107:7/73:7
+profileset."Twins_of_the_Sun_Priestess_Conduit_7_Shoulder_210"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/73:7
 profileset."Twins_of_the_Sun_Priestess_Conduit_7_Shoulder_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7002/6647/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_7_Shoulder_225"+=soulbind=theotar_the_mad_duke,115:7/107:7/73:7
+profileset."Twins_of_the_Sun_Priestess_Conduit_7_Shoulder_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/73:7
 profileset."Twins_of_the_Sun_Priestess_Conduit_7_Shoulder_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7002/6647/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_7_Shoulder_235"+=soulbind=theotar_the_mad_duke,115:7/107:7/73:7
+profileset."Twins_of_the_Sun_Priestess_Conduit_7_Shoulder_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/73:7
 
 # Eternal Call to the Void - 6983
-profileset."Eternal_Call_to_the_Void_Wrist_190"+=wrist=,id=173249,ilevel=190,bonus_id=6983/6647/6649
-profileset."Eternal_Call_to_the_Void_Wrist_210"+=wrist=,id=173249,ilevel=210,bonus_id=6983/6647/6649
-profileset."Eternal_Call_to_the_Void_Wrist_225"+=wrist=,id=173249,ilevel=225,bonus_id=6983/6647/6649
-profileset."Eternal_Call_to_the_Void_Wrist_235"+=wrist=,id=173249,ilevel=235,bonus_id=6983/6647/6649
+profileset."Eternal_Call_to_the_Void_Wrists_190"+=wrists=,id=173249,ilevel=190,bonus_id=6983/6647/6649,enchant=eternal_intellect
+profileset."Eternal_Call_to_the_Void_Wrists_210"+=wrists=,id=173249,ilevel=210,bonus_id=6983/6647/6649,enchant=eternal_intellect
+profileset."Eternal_Call_to_the_Void_Wrists_225"+=wrists=,id=173249,ilevel=225,bonus_id=6983/6647/6649,enchant=eternal_intellect
+profileset."Eternal_Call_to_the_Void_Wrists_235"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6647/6649,enchant=eternal_intellect
 profileset."Eternal_Call_to_the_Void_Hands_190"+=hands=,id=173244,ilevel=190,bonus_id=6983/6647/6649
 profileset."Eternal_Call_to_the_Void_Hands_210"+=hands=,id=173244,ilevel=210,bonus_id=6983/6647/6649
 profileset."Eternal_Call_to_the_Void_Hands_225"+=hands=,id=173244,ilevel=225,bonus_id=6983/6647/6649
