@@ -1,5 +1,5 @@
 # Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Nighthawk_mf_dt|4386|0.02%|
-|Base|4385|0.00%|
+|Base|5515|0.00%|
+|less_than_4_or_not_SN|5513|-0.04%|

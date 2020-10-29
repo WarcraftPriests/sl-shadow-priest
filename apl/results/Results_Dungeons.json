@@ -1,1 +1,1 @@
-{"name": "Dungeons", "data": {"Nighthawk_mf_dt": {"DPS": 4386}, "Base": {"DPS": 4385}}, "ids": {"Nighthawk_mf_dt": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Nighthawk_mf_dt"], "last_updated": "2020-10-20"}
+{"name": "Dungeons", "data": {"Base": {"DPS": 5515}, "less_than_4_or_not_SN": {"DPS": 5513}}, "ids": {"less_than_4_or_not_SN": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["less_than_4_or_not_SN"], "last_updated": "2020-10-29"}
