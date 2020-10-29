@@ -1,7 +1,7 @@
 # Legendary Item sims
 This goes a step ahead of the `legendaries/` sims and actually uses the raw items to compare against rather than just the power of the legendary effect.
 
-Base gear is replaced with Castle Nathria ilevel 190 pieces as a baseline.
+Base gear uses BiS pieces from Castle Nathria where appropriate. This means some pieces are 233 while most are 226 in that slot.
 
 ## Night Fae
 ### Raids
