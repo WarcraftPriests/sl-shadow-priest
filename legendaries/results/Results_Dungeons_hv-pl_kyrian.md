@@ -1,14 +1,14 @@
 # Dungeons - hv-pl - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|5869|6.25%|
-|Echo_of_Eonar|5783|4.69%|
-|Shadowflame_Prism_Conduit_7|5675|2.73%|
-|Talbadars_Stratagem|5656|2.39%|
-|Sephuzs_Proclamation|5643|2.15%|
-|Shadowflame_Prism|5638|2.06%|
-|Judgment_of_the_Arbiter|5608|1.52%|
-|Painbreaker_Psalm|5555|0.56%|
-|Base|5524|0.00%|
-|Third_Eye_of_the_Jailer|5519|-0.09%|
-|Twins_of_the_Sun_Priestess_Conduit_7|5420|-1.88%|
+|Eternal_Call_to_the_Void|5867|6.48%|
+|Shadowflame_Prism_Conduit_7|5681|3.10%|
+|Talbadars_Stratagem|5662|2.76%|
+|Shadowflame_Prism|5634|2.25%|
+|Sephuzs_Proclamation|5627|2.12%|
+|Judgment_of_the_Arbiter|5597|1.58%|
+|Painbreaker_Psalm|5551|0.74%|
+|Echo_of_Eonar|5530|0.36%|
+|Base|5510|0.00%|
+|Third_Eye_of_the_Jailer|5509|-0.02%|
+|Twins_of_the_Sun_Priestess_Conduit_7|5424|-1.56%|

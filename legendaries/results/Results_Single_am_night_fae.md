@@ -1,14 +1,14 @@
 # Single - am - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Talbadars_Stratagem|5389|5.65%|
-|Eternal_Call_to_the_Void|5385|5.55%|
-|Echo_of_Eonar|5347|4.81%|
-|Judgment_of_the_Arbiter|5204|2.01%|
-|Shadowflame_Prism|5192|1.79%|
-|Painbreaker_Psalm|5170|1.34%|
-|Twins_of_the_Sun_Priestess_Conduit_7|5153|1.01%|
-|Shadowflame_Prism_Conduit_7|5124|0.44%|
-|Sephuzs_Proclamation|5103|0.03%|
-|Third_Eye_of_the_Jailer|5102|0.01%|
-|Base|5101|0.00%|
+|Talbadars_Stratagem|5501|5.97%|
+|Eternal_Call_to_the_Void|5441|4.82%|
+|Judgment_of_the_Arbiter|5294|1.98%|
+|Shadowflame_Prism|5284|1.79%|
+|Shadowflame_Prism_Conduit_7|5230|0.74%|
+|Painbreaker_Psalm|5224|0.63%|
+|Echo_of_Eonar|5219|0.53%|
+|Twins_of_the_Sun_Priestess_Conduit_7|5209|0.34%|
+|Sephuzs_Proclamation|5193|0.04%|
+|Third_Eye_of_the_Jailer|5192|0.02%|
+|Base|5191|0.00%|

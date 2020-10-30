@@ -1,14 +1,14 @@
 # Composite - stm - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|5946|5.22%|
-|Echo_of_Eonar|5927|4.88%|
-|Talbadars_Stratagem|5873|3.93%|
-|Judgment_of_the_Arbiter|5750|1.76%|
-|Shadowflame_Prism|5737|1.53%|
-|Twins_of_the_Sun_Priestess_Conduit_7|5702|0.91%|
-|Painbreaker_Psalm|5696|0.80%|
-|Sephuzs_Proclamation|5667|0.28%|
-|Third_Eye_of_the_Jailer|5651|0.01%|
-|Base|5651|0.00%|
-|Shadowflame_Prism_Conduit_7|5646|-0.09%|
+|Eternal_Call_to_the_Void|5965|4.36%|
+|Talbadars_Stratagem|5956|4.21%|
+|Judgment_of_the_Arbiter|5816|1.75%|
+|Shadowflame_Prism|5805|1.57%|
+|Twins_of_the_Sun_Priestess_Conduit_7|5751|0.61%|
+|Echo_of_Eonar|5743|0.48%|
+|Shadowflame_Prism_Conduit_7|5736|0.35%|
+|Sephuzs_Proclamation|5732|0.29%|
+|Third_Eye_of_the_Jailer|5716|0.00%|
+|Base|5716|0.00%|
+|Painbreaker_Psalm|5710|-0.10%|

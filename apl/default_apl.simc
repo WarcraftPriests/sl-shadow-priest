@@ -85,7 +85,7 @@ actions.main+=/shadow_word_death,target_if=(target.health.pct<20&spell_targets.m
 actions.main+=/surrender_to_madness,target_if=target.time_to_die<25&buff.voidform.down
 actions.main+=/mindbender,if=dot.vampiric_touch.ticking&((talent.searing_nightmare.enabled&spell_targets.mind_sear>(variable.mind_sear_cutoff+1))|dot.shadow_word_pain.ticking)
 # Use Void Torrent only if SW:P and VT are active and the target won't die during the channel.
-actions.main+=/void_torrent,target_if=variable.dots_up&target.time_to_die>4&buff.voidform.down&spell_targets.mind_sear<(5+(6*talent.twist_of_fate.enabled))
+actions.main+=/void_torrent,target_if=variable.dots_up&target.time_to_die>3&buff.voidform.down&spell_targets.mind_sear<(5+(6*talent.twist_of_fate.enabled))
 # Use SW:D with Painbreaker Psalm unless the target will be below 20% before the cooldown comes back
 actions.main+=/shadow_word_death,if=runeforge.painbreaker_psalm.equipped&variable.dots_up&target.time_to_pct_20>(cooldown.shadow_word_death.duration+gcd)
 # Use all charges of Shadow Crash in a row on Single target, or if the boss is about to die.
