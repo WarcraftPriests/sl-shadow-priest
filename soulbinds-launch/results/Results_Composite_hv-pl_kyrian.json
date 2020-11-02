@@ -1,1 +1,1 @@
-{"name": "Composite - hv-pl - kyrian", "data": {"Pelagos-CM-DE": {"DPS": 5869}, "Kleia-DE": {"DPS": 5789}, "Base": {"DPS": 5588}}, "ids": {"Pelagos-CM-DE": null, "Kleia-DE": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Pelagos-CM-DE", "Kleia-DE"], "last_updated": "2020-10-26"}
+{"name": "Composite - hv-pl - kyrian", "data": {"Pelagos-CM-DE": {"DPS": 6272}, "Kleia-DE": {"DPS": 5975}, "Base": {"DPS": 5792}}, "ids": {"Pelagos-CM-DE": null, "Kleia-DE": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Pelagos-CM-DE", "Kleia-DE"], "last_updated": "2020-11-02"}
