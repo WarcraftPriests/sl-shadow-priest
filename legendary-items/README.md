@@ -3,6 +3,8 @@ This goes a step ahead of the `legendaries/` sims and actually uses the raw item
 
 Base gear uses BiS pieces from Castle Nathria where appropriate. This means some pieces are 233 while most are 226 in that slot.
 
+TODO: Refactor to use mythic base gear and only 1 or 2 sets of ilvls. Maybe change between Haste/Crit and Haste/Mast.
+
 ## Night Fae
 ### Raids
 - [Night Fae - Composite - AM](results/Results_Composite_am_night_fae.md) - `FotM_ToF_AS_VT_AM`

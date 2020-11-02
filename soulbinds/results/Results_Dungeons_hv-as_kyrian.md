@@ -1,9 +1,9 @@
 # Dungeons - hv-as - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pelagos-CM_LGotP-DE_HA|6325|10.71%|
-|Forgelite-BCtA_HoG-DE|6224|8.94%|
-|Kleia-PC-DE|6093|6.65%|
-|Forgelite-BCtA-DE_HA|5934|3.87%|
-|Kleia-DE_HA|5929|3.78%|
-|Base|5713|0.00%|
+|Pelagos-CM_LGotP-DE_HA|6766|14.16%|
+|Forgelite-BCtA_HoG-DE|6455|8.91%|
+|Kleia-PC-DE|6315|6.55%|
+|Forgelite-BCtA-DE_HA|6176|4.20%|
+|Kleia-DE_HA|6161|3.95%|
+|Base|5927|0.00%|
