@@ -1,14 +1,14 @@
 # Dungeons - stm - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|6236|5.91%|
-|Talbadars_Stratagem|6053|2.80%|
-|Shadowflame_Prism_Conduit_7|6050|2.75%|
-|Shadowflame_Prism|6026|2.34%|
-|Sephuzs_Proclamation|6009|2.06%|
-|Judgment_of_the_Arbiter|5976|1.49%|
-|Echo_of_Eonar|5906|0.31%|
-|Painbreaker_Psalm|5906|0.31%|
-|Third_Eye_of_the_Jailer|5891|0.05%|
-|Base|5888|0.00%|
-|Twins_of_the_Sun_Priestess_Conduit_7|5795|-1.58%|
+|Eternal_Call_to_the_Void|6258|6.25%|
+|Talbadars_Stratagem|6050|2.72%|
+|Shadowflame_Prism_Conduit_7|6043|2.60%|
+|Shadowflame_Prism|6037|2.50%|
+|Sephuzs_Proclamation|6010|2.04%|
+|Judgment_of_the_Arbiter|5969|1.34%|
+|Painbreaker_Psalm|5902|0.20%|
+|Echo_of_Eonar|5900|0.17%|
+|Base|5890|0.00%|
+|Third_Eye_of_the_Jailer|5881|-0.15%|
+|Twins_of_the_Sun_Priestess_Conduit_7|5799|-1.54%|

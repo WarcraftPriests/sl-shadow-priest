@@ -1,14 +1,14 @@
 # Single - stm - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Talbadars_Stratagem|5799|5.49%|
-|Eternal_Call_to_the_Void|5734|4.30%|
-|Judgment_of_the_Arbiter|5596|1.80%|
-|Shadowflame_Prism|5584|1.58%|
-|Echo_of_Eonar|5527|0.53%|
-|Twins_of_the_Sun_Priestess_Conduit_7|5515|0.32%|
-|Shadowflame_Prism_Conduit_7|5507|0.17%|
-|Painbreaker_Psalm|5501|0.07%|
-|Base|5497|0.00%|
-|Sephuzs_Proclamation|5497|-0.01%|
-|Third_Eye_of_the_Jailer|5495|-0.04%|
+|Talbadars_Stratagem|5796|5.48%|
+|Eternal_Call_to_the_Void|5736|4.39%|
+|Judgment_of_the_Arbiter|5596|1.83%|
+|Shadowflame_Prism|5584|1.61%|
+|Echo_of_Eonar|5527|0.58%|
+|Twins_of_the_Sun_Priestess_Conduit_7|5514|0.34%|
+|Shadowflame_Prism_Conduit_7|5507|0.22%|
+|Painbreaker_Psalm|5502|0.13%|
+|Sephuzs_Proclamation|5498|0.05%|
+|Third_Eye_of_the_Jailer|5496|0.02%|
+|Base|5495|0.00%|
