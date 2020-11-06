@@ -1,0 +1,35 @@
+# Dungeons - hv-sc
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Necrolord-Emeni-Lead_by_Example|6295|7.42%|
+|Necrolord-Bonesmith-Heirmirs_Arsenal_Marrowed_Gemstone|6280|7.17%|
+|Necrolord-Marileth-Plagueys_Preemptive_Strike|6256|6.76%|
+|Venthyr-Draven-Built_for_War|6248|6.62%|
+|Kyrian-Forgelite-Hammer_of_Genesis|6189|5.61%|
+|Venthyr-Nadjia-Thrill_Seeker|6174|5.36%|
+|Necrolord-Emeni-Gnashing_Chompers|6171|5.31%|
+|Kyrian-Pelagos-Combat_Meditation|6147|4.90%|
+|Venthyr-Theotar-Soothing_Shade|6139|4.76%|
+|Necrolord-Marileth-Volatile_Solvent_Mastery|6137|4.73%|
+|Necrolord-Marileth-Volatile_Solvent_Crit|6133|4.66%|
+|Kyrian-Kleia-Pointed_Courage|6126|4.54%|
+|Venthyr-Theotar-Refined_Palate|6116|4.37%|
+|Necrolord-Bonesmith-Serrated_Spaulders|6090|3.92%|
+|Venthyr-Theotar-Wasteland_Propriety|6084|3.82%|
+|Necrolord-Marileth-Volatile_Solvent_Intellect|6081|3.77%|
+|Necrolord_Covenant_Only|6081|3.77%|
+|Kyrian-Pelagos-Let_Go_of_the_Past|6065|3.50%|
+|Venthyr-Nadjia-Exacting_Preparation|6043|3.12%|
+|Venthyr-Nadjia-Dauntless_Duelist|6027|2.85%|
+|Venthyr_Covenant_Only|6021|2.75%|
+|Night_Fae-Korayn-First_Strike|5884|0.41%|
+|Kyrian-Forgelite-Brons_Call_to_Action|5869|0.15%|
+|Base|5860|0.00%|
+|Kyrian_Covenant_Only|5860|0.00%|
+|Night_Fae-Dreamweaver-Field_of_Blossoms|5843|-0.29%|
+|Night_Fae-Niya-Grove_Invigoration|5756|-1.77%|
+|Night_Fae-Niya-Niyas_Tools_Burrs|5740|-2.05%|
+|Night_Fae-Korayn-Wild_Hunt_Tactics|5709|-2.58%|
+|Night_Fae-Dreamweaver-Social_Butterfly|5641|-3.74%|
+|Night_Fae_Covenant_Only|5566|-5.02%|
+|Night_Fae-Niya-Niyas_Tools_Poison|5560|-5.12%|

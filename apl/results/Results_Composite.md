@@ -1,10 +1,8 @@
 # Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|5_or_less|5198|0.01%|
-|6_or_less|5198|0.00%|
-|Base|5198|0.00%|
-|7_or_less|5197|0.00%|
-|8_or_less|5197|-0.01%|
-|3_or_less|5191|-0.12%|
-|4_or_less|5190|-0.14%|
+|adds_in_greater_than_20|5823|0.15%|
+|adds_in_greater_than_10|5823|0.14%|
+|no_condition|5821|0.12%|
+|Base|5814|0.00%|
+|not_in_voidform|5777|-0.64%|

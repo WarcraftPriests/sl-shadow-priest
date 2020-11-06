@@ -1,10 +1,8 @@
 # Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|8_or_less|5451|0.00%|
-|Base|5451|0.00%|
-|7_or_less|5426|-0.46%|
-|6_or_less|5393|-1.06%|
-|4_or_less|5377|-1.36%|
-|5_or_less|5376|-1.38%|
-|3_or_less|5368|-1.52%|
+|adds_in_greater_than_10|4856|2.84%|
+|adds_in_greater_than_20|4841|2.52%|
+|no_condition|4753|0.66%|
+|Base|4722|0.00%|
+|not_in_voidform|4594|-2.71%|
