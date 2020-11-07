@@ -1,1 +1,1 @@
-{"name": "Single - am - kyrian", "data": {"Pelagos-CM-HA": {"DPS": 5873}, "Kleia-HA": {"DPS": 5555}, "Base": {"DPS": 5422}}, "ids": {"Pelagos-CM-HA": null, "Kleia-HA": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Pelagos-CM-HA", "Kleia-HA"], "last_updated": "2020-11-02"}
+{"name": "Single - am - kyrian", "data": {"Pelagos-CM-HA": {"DPS": 5971}, "Kleia-HA": {"DPS": 5646}, "Base": {"DPS": 5513}}, "ids": {"Pelagos-CM-HA": null, "Kleia-HA": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Pelagos-CM-HA", "Kleia-HA"], "last_updated": "2020-11-06"}
