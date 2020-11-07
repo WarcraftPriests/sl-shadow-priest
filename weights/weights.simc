@@ -23,29 +23,21 @@ trinket1=glyph_of_assimilation,id=184021,ilevel=226
 trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance
 
-# Legendary: Eternal Call to the Void
-# Soulbind: Nadjia-TS-1_2
 copy="Venthyr","Base"
 covenant=venthyr
 soulbind=nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586
 head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 
-# Legendary: Eternal Call to the Void
-# Soulbind: Pelagos-CM_LGotP-1_2
 copy="Kyrian","Base"
 covenant=kyrian
 soulbind=pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328257/328266
 head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 
-# Legendary: Eternal Call to the Void
-# Soulbind: Korayn-WHT-DE_MD_HA
 copy="Night_Fae","Base"
 covenant=night_fae
 soulbind=dreamweaver,${conduits.first.id}:7/${conduits.second.id}:7/319191
 head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 
-# Legendary: Eternal Call to the Void
-# Soulbind: Emeni-LbE-1_2
 copy="Necrolord","Base"
 covenant=necrolord
 soulbind=emeni,${conduits.first.id}:7/${conduits.second.id}:7/342156
