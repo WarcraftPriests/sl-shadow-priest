@@ -1,14 +1,14 @@
 # Dungeons - stm - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|6477|6.48%|
-|Shadowflame_Prism_Conduit_7|6332|4.09%|
-|Shadowflame_Prism|6270|3.07%|
-|Talbadars_Stratagem|6260|2.91%|
-|Sephuzs_Proclamation|6210|2.09%|
-|Judgment_of_the_Arbiter|6170|1.43%|
-|Painbreaker_Psalm|6124|0.67%|
-|Echo_of_Eonar|6103|0.33%|
-|Base|6083|0.00%|
-|Third_Eye_of_the_Jailer|6081|-0.03%|
-|Twins_of_the_Sun_Priestess_Conduit_7|5987|-1.58%|
+|Eternal_Call_to_the_Void|6758|7.37%|
+|Shadowflame_Prism_Conduit_7|6522|3.62%|
+|Shadowflame_Prism|6462|2.67%|
+|Talbadars_Stratagem|6458|2.61%|
+|Sephuzs_Proclamation|6396|1.62%|
+|Echo_of_Eonar|6389|1.51%|
+|Judgment_of_the_Arbiter|6369|1.19%|
+|Painbreaker_Psalm|6324|0.48%|
+|Base|6294|0.00%|
+|Third_Eye_of_the_Jailer|6290|-0.06%|
+|Twins_of_the_Sun_Priestess_Conduit_7|6185|-1.73%|

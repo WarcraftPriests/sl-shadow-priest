@@ -1,14 +1,14 @@
 # Composite - stm - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Talbadars_Stratagem|5956|4.33%|
-|Eternal_Call_to_the_Void|5952|4.27%|
-|Shadowflame_Prism|5829|2.11%|
-|Judgment_of_the_Arbiter|5810|1.77%|
-|Shadowflame_Prism_Conduit_7|5781|1.26%|
-|Echo_of_Eonar|5733|0.44%|
-|Twins_of_the_Sun_Priestess_Conduit_7|5729|0.36%|
-|Sephuzs_Proclamation|5725|0.30%|
-|Painbreaker_Psalm|5716|0.14%|
-|Third_Eye_of_the_Jailer|5710|0.02%|
-|Base|5708|0.00%|
+|Eternal_Call_to_the_Void|6057|5.53%|
+|Talbadars_Stratagem|5994|4.44%|
+|Shadowflame_Prism|5873|2.33%|
+|Judgment_of_the_Arbiter|5840|1.76%|
+|Echo_of_Eonar|5830|1.57%|
+|Shadowflame_Prism_Conduit_7|5801|1.08%|
+|Painbreaker_Psalm|5759|0.33%|
+|Twins_of_the_Sun_Priestess_Conduit_7|5758|0.32%|
+|Sephuzs_Proclamation|5754|0.26%|
+|Third_Eye_of_the_Jailer|5740|0.01%|
+|Base|5739|0.00%|

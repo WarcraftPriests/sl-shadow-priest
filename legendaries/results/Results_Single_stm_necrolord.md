@@ -1,14 +1,14 @@
 # Single - stm - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Talbadars_Stratagem|5696|5.55%|
-|Eternal_Call_to_the_Void|5644|4.59%|
-|Judgment_of_the_Arbiter|5495|1.83%|
-|Shadowflame_Prism|5485|1.64%|
-|Echo_of_Eonar|5423|0.50%|
-|Twins_of_the_Sun_Priestess_Conduit_7|5420|0.44%|
-|Painbreaker_Psalm|5403|0.13%|
-|Shadowflame_Prism_Conduit_7|5399|0.06%|
-|Base|5396|0.00%|
-|Sephuzs_Proclamation|5396|0.00%|
-|Third_Eye_of_the_Jailer|5393|-0.05%|
+|Eternal_Call_to_the_Void|5822|5.94%|
+|Talbadars_Stratagem|5802|5.59%|
+|Shadowflame_Prism|5595|1.81%|
+|Judgment_of_the_Arbiter|5595|1.81%|
+|Echo_of_Eonar|5582|1.58%|
+|Twins_of_the_Sun_Priestess_Conduit_7|5524|0.53%|
+|Shadowflame_Prism_Conduit_7|5509|0.24%|
+|Painbreaker_Psalm|5509|0.24%|
+|Third_Eye_of_the_Jailer|5497|0.04%|
+|Sephuzs_Proclamation|5495|0.00%|
+|Base|5495|0.00%|
