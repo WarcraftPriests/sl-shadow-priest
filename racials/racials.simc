@@ -50,13 +50,11 @@ profileset."Panda_Feast"+=food=feast_of_gluttonous_hedonism
 profileset."Panda_Haste"+=race=pandaren
 profileset."Panda_Haste"+=food=tenebrous_crown_roast_aspic
 profileset."Panda_Crit"+=race=pandaren
-profileset."Panda_Crit"+=food=phantasmal_souffle_and_fries
+profileset."Panda_Crit"+=food=spinefin_souffle_and_fries
 profileset."Panda_Mastery"+=race=pandaren
-profileset."Panda_Mastery"+=food=crawler_ravioli_with_apple_sauce
+profileset."Panda_Mastery"+=food=iridescent_ravioli_with_apple_sauce
 profileset."Panda_Vers"+=race=pandaren
 profileset."Panda_Vers"+=food=steak_a_la_mode
-profileset."Panda_Smothered_Shank"+=race=pandaren
-profileset."Panda_Smothered_Shank"+=food=smothered_shank
 
 profileset."Undead"+=race=undead
 

@@ -27,6 +27,7 @@ potion=disabled
 flask=disabled
 
 # Runes
+profileset."Veiled_Augment_Rune"+=augmentation=veiled_augment_rune
 
 # Gems - Deadly Jewel Cluster
 profileset."16_Versatility"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance,gem_id=173129
@@ -41,25 +42,20 @@ profileset."Spectral_Flask_of_Power"+=flask=spectral_flask_of_power
 profileset."Potion_of_Empowered_Exorcisms"+=potion=potion_of_empowered_exorcisms
 
 profileset."Potion_of_Empowered_Exorcisms_Shadowcore_Oil"+=potion=potion_of_empowered_exorcisms
-profileset."Potion_of_Empowered_Exorcisms_Shadowcore_Oil"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance,gem_id=173128
-profileset."Potion_of_Empowered_Exorcisms_Shadowcore_Oil"+=macabre_sheet_music,id=184024,ilevel=226,enchant=shadowcore_oil
+profileset."Potion_of_Empowered_Exorcisms_Shadowcore_Oil"+=trinket1=glyph_of_assimilation,id=184021,ilevel=226,enchant=shadowcore_oil
 
 profileset."Potion_of_Spectral_Intellect"+=potion=potion_of_spectral_intellect
 profileset."Potion_of_Deathly_Fixation"+=potion=potion_of_deathly_fixation
 
 profileset."Potion_of_Deathly_Fixation_Shadowcore_Oil"+=potion=potion_of_deathly_fixation
-profileset."Potion_of_Deathly_Fixation_Shadowcore_Oil"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance,gem_id=173128
-profileset."Potion_of_Deathly_Fixation_Shadowcore_Oil"+=macabre_sheet_music,id=184024,ilevel=226,enchant=shadowcore_oil
+profileset."Potion_of_Deathly_Fixation_Shadowcore_Oil"+=trinket1=glyph_of_assimilation,id=184021,ilevel=226,enchant=shadowcore_oil
 
 # Food
 profileset."Feast_of_Gluttonous_Hedonism"+=food=feast_of_gluttonous_hedonism
-profileset."Phantasmal_Souffle_and_Fries"+=food=phantasmal_souffle_and_fries
+profileset."Spinefin_Souffle_and_Fries"+=food=spinefin_souffle_and_fries
 profileset."Tenebrous_Crown_Roast_Aspic"+=food=tenebrous_crown_roast_aspic
-profileset."Crawler_Ravioli_with_Apple_Sauce"+=food=crawler_ravioli_with_apple_sauce
+profileset."Iridescent_Ravioli_with_Apple_Sauce"+=food=iridescent_ravioli_with_apple_sauce
 profileset."Steak_a_la_Mode"+=food=steak_a_la_mode
-profileset."Smothered_Shank"+=food=smothered_shank
 
 # Weapon Oils
-# TODO figure out a way to add this to the weapon
-profileset."Shadowcore_Oil"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance,gem_id=173128
-profileset."Shadowcore_Oil"+=macabre_sheet_music,id=184024,ilevel=226,enchant=shadowcore_oil
+profileset."Shadowcore_Oil"+=trinket1=glyph_of_assimilation,id=184021,ilevel=226,enchant=shadowcore_oil
