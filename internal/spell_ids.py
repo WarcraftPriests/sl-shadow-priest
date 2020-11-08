@@ -167,7 +167,6 @@ soulbind_traits = {
     "Necrolord-Emeni-Lead_by_Example_Allies_0": 342156,
     "Necrolord-Emeni-Lead_by_Example_Allies_1": 342156,
     "Necrolord-Emeni-Lead_by_Example_Allies_2": 342156,
-    "Necrolord-Emeni-Lead_by_Example_Allies_3": 342156,
     "Necrolord-Emeni-Gnashing_Chompers": 323919,
     "Necrolord-Bonesmith-Serrated_Spaulders": 326504,
     "Necrolord-Bonesmith-Heirmirs_Arsenal_Marrowed_Gemstone": 326572,

@@ -1,0 +1,37 @@
+# Composite - hv-sc
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Kyrian_1|6860|24.25%|
+|Necrolord_9|6689|21.15%|
+|Necrolord_2|6556|18.75%|
+|Necrolord_1|6553|18.69%|
+|Venthyr_4|6543|18.51%|
+|Venthyr_1|6531|18.29%|
+|Necrolord_10|6505|17.83%|
+|Venthyr_3|6491|17.57%|
+|Night_Fae_2|6482|17.41%|
+|Necrolord_4|6476|17.30%|
+|Necrolord_11|6476|17.29%|
+|Necrolord_3|6475|17.29%|
+|Necrolord_13|6464|17.08%|
+|Night_Fae_3|6462|17.04%|
+|Night_Fae_1|6450|16.83%|
+|Venthyr_6|6438|16.62%|
+|Venthyr_8|6433|16.52%|
+|Night_Fae_5|6407|16.05%|
+|Venthyr_5|6406|16.02%|
+|Venthyr_7|6397|15.87%|
+|Necrolord_6|6395|15.83%|
+|Kyrian_3|6394|15.82%|
+|Necrolord_5|6393|15.80%|
+|Venthyr_2|6361|15.21%|
+|Night_Fae_4|6350|15.01%|
+|Necrolord_8|6317|14.43%|
+|Necrolord_7|6317|14.42%|
+|Kyrian_4|6312|14.32%|
+|Kyrian_2|6295|14.03%|
+|Necrolord_12|6283|13.80%|
+|Necrolord_14|6271|13.58%|
+|Night_Fae_6|6261|13.41%|
+|Kyrian_5|6162|11.61%|
+|Base|5521|0.00%|
