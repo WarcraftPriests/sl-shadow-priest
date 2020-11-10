@@ -28,23 +28,24 @@ actions+=/variable,name=dots_up,op=set,value=dot.shadow_word_pain.ticking&dot.va
 actions+=/variable,name=all_dots_up,op=set,value=dot.shadow_word_pain.ticking&dot.vampiric_touch.ticking&dot.devouring_plague.ticking
 actions+=/variable,name=searing_nightmare_cutoff,op=set,value=spell_targets.mind_sear>3
 # Variable to switch between syncing cooldown usage to Power Infusion or Void Eruption depending whether priest_self_power_infusion is in use or we don't have power infusion learned.
-actions+=/variable,name=pi_or_vf_sync_condition,op=set,value=(priest.self_power_infusion|runeforge.twins_of_the_sun_priestess.equipped)&level>=58&cooldown.power_infusion.up|(level<58|!priest.self_power_infusion&!runeforge.twins_of_the_sun_priestess.equipped)&cooldown.void_eruption.up
+actions+=/variable,name=pi_or_vf_sync_condition,op=set,value=(priest.self_power_infusion|runeforge.twins_of_the_sun_priestess.equipped)&covenant.venthyr&level>=58&cooldown.power_infusion.up|(level<58|!priest.self_power_infusion&!runeforge.twins_of_the_sun_priestess.equipped|!covenant.venthyr|fight_remains<(cooldown.power_infusion.remains+10))&cooldown.void_eruption.up
 actions+=/call_action_list,name=cwc
 actions+=/run_action_list,name=main
 
-actions.cds=power_infusion,if=buff.voidform.up
+actions.cds=power_infusion,if=buff.voidform.up|covenant.necrolord|covenant.night_fae&cooldown.void_eruption.remains>=10|fight_remains<(cooldown.void_eruption.remains+10)
 # Use Silence on CD to proc Sephuz's Proclamation.
 actions.cds+=/silence,target_if=runeforge.sephuzs_proclamation.equipped&(target.is_add|target.debuff.casting.react)
-actions.cds+=/fae_guardians
-actions.cds+=/mindgames,target_if=insanity<90&(variable.all_dots_up|buff.voidform.up)
+actions.cds+=/fae_guardians,if=!buff.voidform.up|buff.voidform.up&(soulbind.grove_invigoration.enabled|soulbind.field_of_blossoms.enabled)
 actions.cds+=/unholy_nova,if=raid_event.adds.in>20
-actions.cds+=/boon_of_the_ascended,if=!buff.voidform.up&!cooldown.void_eruption.up&spell_targets.mind_sear>1&!talent.searing_nightmare.enabled|(buff.voidform.up&spell_targets.mind_sear<2&!talent.searing_nightmare.enabled)|(buff.voidform.up&talent.searing_nightmare.enabled)
+actions.cds+=/mindgames,target_if=insanity<90&(variable.all_dots_up|buff.voidform.up)
+actions.cds+=/boon_of_the_ascended,if=!buff.voidform.up&!cooldown.void_eruption.up&spell_targets.mind_sear>1&!talent.searing_nightmare.enabled|(buff.voidform.up&spell_targets.mind_sear<2&!talent.searing_nightmare.enabled&prev_gcd.1.void_bolt)|(buff.voidform.up&talent.searing_nightmare.enabled)
 actions.cds+=/call_action_list,name=essences
 # Default fallback for usable items: Use on cooldown.
+actions.cds+=/use_item,name=sinful_gladiators_badge_of_ferocity,if=buff.voidform.up|time>10&(!covenant.night_fae)
 actions.cds+=/use_items
 
 actions.boon=ascended_blast,if=spell_targets.mind_sear<=3
-actions.boon+=/ascended_nova,if=(spell_targets.mind_sear>2&talent.searing_nightmare.enabled|(spell_targets.mind_sear>1&!talent.searing_nightmare.enabled))&spell_targets.ascended_nova>1
+#actions.boon+=/ascended_nova,if=(spell_targets.mind_sear>2&talent.searing_nightmare.enabled|(spell_targets.mind_sear>1&!talent.searing_nightmare.enabled))&spell_targets.ascended_nova>1
 
 # Use Searing Nightmare if you will hit enough targets and Power Infusion and Voidform are not ready, or to refresh SW:P on two or more targets.
 actions.cwc=searing_nightmare,use_while_casting=1,target_if=(variable.searing_nightmare_cutoff&!variable.pi_or_vf_sync_condition)|(dot.shadow_word_pain.refreshable&spell_targets.mind_sear>1)
@@ -65,7 +66,8 @@ actions.essences+=/worldvein_resonance
 actions.essences+=/the_unbound_force
 
 # Sync up Voidform and Power Infusion Cooldowns and of using LotV pool insanity before casting.
-actions.main=void_eruption,if=variable.pi_or_vf_sync_condition&insanity>=40
+actions.main=/call_action_list,name=boon,if=buff.boon_of_the_ascended.up
+actions.main+=/void_eruption,if=variable.pi_or_vf_sync_condition&insanity>=40&insanity<=85&!cooldown.shadowfiend.up
 # Make sure you put up SW:P ASAP on the target if Wrathful Faerie isn't active.
 actions.main+=/shadow_word_pain,if=buff.fae_guardians.up&!debuff.wrathful_faerie.up
 actions.main+=/call_action_list,name=cds
@@ -76,16 +78,18 @@ actions.main+=/damnation,target_if=!variable.all_dots_up
 # Use Void Bolt at higher priority with Hungering Void up to 4 targets, or other talents on ST.
 actions.main+=/void_bolt,if=insanity<=85&((talent.hungering_void.enabled&spell_targets.mind_sear<5)|spell_targets.mind_sear=1)
 # Don't use Devouring Plague if you can get into Voidform instead, or if Searing Nightmare is talented and will hit enough targets.
-actions.main+=/devouring_plague,target_if=(refreshable|insanity>75)&!variable.pi_or_vf_sync_condition&(!talent.searing_nightmare.enabled|(talent.searing_nightmare.enabled&!variable.searing_nightmare_cutoff))
+actions.main+=/devouring_plague,target_if=(refreshable|insanity>75)&(!variable.pi_or_vf_sync_condition|insanity>=85)&(!talent.searing_nightmare.enabled|(talent.searing_nightmare.enabled&!variable.searing_nightmare_cutoff))
+#actions.main+=/devouring_plague,target_if=(refreshable|insanity>75)&(!variable.pi_or_vf_sync_condition)&(!talent.searing_nightmare.enabled|(talent.searing_nightmare.enabled&!variable.searing_nightmare_cutoff))
 # Use VB on CD if you don't need to cast Devouring Plague, and there are less than 4 targets out (5 with conduit).
 actions.main+=/void_bolt,if=spell_targets.mind_sear<(4+conduit.dissonant_echoes.enabled)&insanity<=85
 # Use Shadow Word: Death if the target is about to die or you have Shadowflame Prism equipped with Mindbender or Shadowfiend active.
 actions.main+=/shadow_word_death,target_if=(target.health.pct<20&spell_targets.mind_sear<4)|(pet.fiend.active&runeforge.shadowflame_prism.equipped)
 # Use Surrender to Madness on a target that is going to die at the right time.
 actions.main+=/surrender_to_madness,target_if=target.time_to_die<25&buff.voidform.down
+actions.main+=/void_torrent,target_if=variable.dots_up&target.time_to_die>3&buff.voidform.down&spell_targets.mind_sear<(5+(6*talent.twist_of_fate.enabled))
+#actions.main+=/mindbender,if=dot.vampiric_touch.ticking&((talent.searing_nightmare.enabled&spell_targets.mind_sear>(variable.mind_sear_cutoff+1))|dot.shadow_word_pain.ticking)&(!cooldown.mind_blast.full_recharge_time<gcd|!buff.voidform.up)
 actions.main+=/mindbender,if=dot.vampiric_touch.ticking&((talent.searing_nightmare.enabled&spell_targets.mind_sear>(variable.mind_sear_cutoff+1))|dot.shadow_word_pain.ticking)
 # Use Void Torrent only if SW:P and VT are active and the target won't die during the channel.
-actions.main+=/void_torrent,target_if=variable.dots_up&target.time_to_die>3&buff.voidform.down&spell_targets.mind_sear<(5+(6*talent.twist_of_fate.enabled))
 # Use SW:D with Painbreaker Psalm unless the target will be below 20% before the cooldown comes back
 actions.main+=/shadow_word_death,if=runeforge.painbreaker_psalm.equipped&variable.dots_up&target.time_to_pct_20>(cooldown.shadow_word_death.duration+gcd)
 # Use Shadow Crash on CD unless there are adds incoming.
