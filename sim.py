@@ -150,8 +150,8 @@ def main():
 
 
     # Download simc if needed
-    if(args.local and args.auto_download):
-        from internal.simc import download_latest
+    if (args.local and args.auto_download):
+        from internal.auto_download import download_latest
         from local_secrets import simc_path
         simc_path['latest'] = download_latest()
         config['simcBuild'] = 'latest' # Additional temp swap to using the latest build
