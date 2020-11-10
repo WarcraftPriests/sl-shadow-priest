@@ -33,9 +33,7 @@ def sim_local(simc_path, profile_location, output_location, iterations):
     os.remove(output_location.replace("json", "log"))
 
 
-def raidbots(
-    simc_path, profile_location, simc_build, output_location, report_name, iterations
-):
+def raidbots(simc_path, profile_location, simc_build, output_location, report_name, iterations):
     sim_local(simc_path, profile_location, output_location, iterations)
 
 
