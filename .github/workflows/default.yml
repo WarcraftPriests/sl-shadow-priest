@@ -15,4 +15,4 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        python lint.py --path ./internal --threshold 2
+        python sim.py --path ./internal --threshold 2
