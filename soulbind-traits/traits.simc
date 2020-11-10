@@ -41,10 +41,10 @@ profileset."Kyrian-Pelagos-Combat_Meditation"+=soulbind=pelagos,328266
 
 # Kleia
 # Pointed Courage - 329778
-# shadowlands.pointed_courage_nearby = 5
-profileset."Kyrian-Kleia-Pointed_Courage_Allies_0"+=covenant=kyrian
-profileset."Kyrian-Kleia-Pointed_Courage_Allies_0"+=soulbind=kleia,329778
-profileset."Kyrian-Kleia-Pointed_Courage_Allies_0"+=shadowlands.pointed_courage_nearby=0
+# shadowlands.pointed_courage_nearby = 0..8
+# profileset."Kyrian-Kleia-Pointed_Courage_Allies_0"+=covenant=kyrian
+# profileset."Kyrian-Kleia-Pointed_Courage_Allies_0"+=soulbind=kleia,329778
+# profileset."Kyrian-Kleia-Pointed_Courage_Allies_0"+=shadowlands.pointed_courage_nearby=0
 
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_1"+=covenant=kyrian
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_1"+=soulbind=kleia,329778
@@ -65,6 +65,18 @@ profileset."Kyrian-Kleia-Pointed_Courage_Allies_4"+=shadowlands.pointed_courage_
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_5"+=covenant=kyrian
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_5"+=soulbind=kleia,329778
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_5"+=shadowlands.pointed_courage_nearby=5
+
+profileset."Kyrian-Kleia-Pointed_Courage_Allies_6"+=covenant=kyrian
+profileset."Kyrian-Kleia-Pointed_Courage_Allies_6"+=soulbind=kleia,329778
+profileset."Kyrian-Kleia-Pointed_Courage_Allies_6"+=shadowlands.pointed_courage_nearby=6
+
+profileset."Kyrian-Kleia-Pointed_Courage_Allies_7"+=covenant=kyrian
+profileset."Kyrian-Kleia-Pointed_Courage_Allies_7"+=soulbind=kleia,329778
+profileset."Kyrian-Kleia-Pointed_Courage_Allies_7"+=shadowlands.pointed_courage_nearby=7
+
+profileset."Kyrian-Kleia-Pointed_Courage_Allies_8"+=covenant=kyrian
+profileset."Kyrian-Kleia-Pointed_Courage_Allies_8"+=soulbind=kleia,329778
+profileset."Kyrian-Kleia-Pointed_Courage_Allies_8"+=shadowlands.pointed_courage_nearby=8
 
 # Forgelite Prime Mikanikos
 # Bron's Call to Action - 333950
