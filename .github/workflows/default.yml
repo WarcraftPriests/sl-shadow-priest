@@ -1,19 +1,8 @@
 name: Build
 on: [push]
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.8
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pylint
-        pip install -r requirements.txt
-    - name: Analysing the code with pylint
-      run: |
-        python sim.py --path ./internal --threshold 2
+    - uses: actions/checkout@v1
+    - uses: ricardochaves/python-lint@test
