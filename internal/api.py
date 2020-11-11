@@ -70,8 +70,7 @@ def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name,
 
         else:
             print(
-                f'[?] Unexpected Error: [HTTP {status}]: 
-Content: {response.content}')
+                f'[?] Unexpected Error: [HTTP {status}]: Content: {response.content}')
             return None
 
     # we've exceeded the maximum tries
