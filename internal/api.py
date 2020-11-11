@@ -1,6 +1,7 @@
+"""submits sims to raidbots and waits for the result"""
 import json
-import requests
 import time
+import requests
 import yaml
 
 with open("config.yml", "r") as ymlfile:
@@ -8,6 +9,8 @@ with open("config.yml", "r") as ymlfile:
 
 
 def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name, iterations):
+    # pylint: disable=too-many-arguments, too-many-return-statements, too-many-locals
+    """submits a sim to the raidbots api"""
     if iterations != "smart":
         iterations = int(iterations)
     simc_file = open(profile_location, 'r')
@@ -69,6 +72,7 @@ def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name,
 
 
 def poll_status(api_url_base, sim_id):
+    """polls the raidbots api to get status of a sim"""
     headers = {
         'Content-Type': 'application/json',
         'User-Agent': 'Publik\'s Raidbots API Script'
@@ -93,14 +97,15 @@ def poll_status(api_url_base, sim_id):
         elif response.status_code == 200:
             sim_status = json.loads(response.content)
             if not 'progress' in sim_status['job']:
-                print("Error getting progress from 200 response json: {0}".format(sim_status))
+                print(
+                    "Error getting progress from 200 response json: {0}".format(sim_status))
                 break
             progress = sim_status['job']['progress']
             state = sim_status['job']['state']
             if state == "complete":
                 print("Sim {0} finished.".format(sim_id))
                 break
-            elif state == "inactive":
+            if state == "inactive":
                 print("Sim {0} in queue.".format(sim_id))
                 time.sleep(retry_interval)
             elif state == "active":
@@ -109,7 +114,9 @@ def poll_status(api_url_base, sim_id):
             else:
                 current_try += 1
                 print(
-                    "Unknown state: {0} when getting {1}. - Retry {2}".format(state, sim_id, current_try))
+                    "Unknown state: {0} when getting {1}. - Retry {2}".format(
+                        state, sim_id, current_try)
+                )
                 if current_try >= num_of_retries:
                     print("Exceeded retries - exiting")
                     break
@@ -120,6 +127,7 @@ def poll_status(api_url_base, sim_id):
 
 
 def retrieve_data(api_url_base, sim_id, data_file):
+    """get final sim data from raidbots"""
     headers = {
         'Content-Type': 'application/json',
         'User-Agent': 'Publik\'s Raidbots API Script'
@@ -152,6 +160,8 @@ def retrieve_data(api_url_base, sim_id, data_file):
 
 
 def raidbots(api_key, profile_location, simc_build, output_location, report_name, iterations):
+    # pylint: disable=too-many-arguments
+    """calls the appropriate functions to run a sim to raidbots"""
     api_url_base = config["raidbots"]["apiUrlBase"]
 
     # submit initial sim -> get back sim_id
@@ -163,7 +173,6 @@ def raidbots(api_key, profile_location, simc_build, output_location, report_name
         poll_status(api_url_base, sim_id)
     else:
         print("Could not find simId in successful response from Raidbots")
-        return None
     # pull back results from the sim
     sim_data = retrieve_data(api_url_base, sim_id, 'data.json')
     if sim_data is not None:

@@ -1,17 +1,20 @@
+"""parses a simc output file into a single csv file"""
 import os
 import json
 from os import path
 
 
 def parse(filename, weights):
+    """parse the given sim file"""
     separator = ','
     ret = ''
-    with open(filename, "r") as f:
-        s = f.read()
-        sim = json.loads(s)
+    with open(filename, "r") as file:
+        data = file.read()
+        sim = json.loads(data)
         print("Parsing: " + filename)
         if 'error' in sim:
-            print("ERROR: {0} contains a sim error - cannot parse.\n{1}".format(filename, sim['error']))
+            print("ERROR: {0} contains a sim error - cannot parse.\n{1}".format(
+                filename, sim['error']))
             raise RuntimeError from OSError
         results = sim['sim']['players']
         for player in sorted(results, key=lambda k: k['name']):
@@ -34,13 +37,14 @@ def parse(filename, weights):
 
 
 def parse_profile_sets(filename, weights):
+    """parse the given file if it contains profilesets"""
     if weights:
-        print("ERROR: you selected to sim with weights, but you cannot sim weights with profilesets.")
+        print("ERROR: Cannot sim weights with profilesets.")
     separator = ','
     ret = ''
-    with open(filename, "r") as f:
-        s = f.read()
-        sim = json.loads(s)
+    with open(filename, "r") as file:
+        data = file.read()
+        sim = json.loads(data)
         results = sim['sim']['profilesets']['results']
         for profile in sorted(results, key=lambda k: k['name']):
             ret += path.splitext(filename)[0] + separator
@@ -52,6 +56,7 @@ def parse_profile_sets(filename, weights):
 
 
 def parse_json(directory, weights):
+    """parse json files"""
     os.chdir(directory)
     parses = 'profile,actor,DD,DPS'
     if weights:
@@ -65,10 +70,12 @@ def parse_json(directory, weights):
 
 
 def get_timestamp():
+    """get timestamp the sim was run"""
     for filename in os.listdir(os.getcwd()):
         if filename.endswith('.json'):
-            with open(filename, "r") as f:
-                s = f.read()
-                sim = json.loads(s)
+            with open(filename, "r") as file:
+                data = file.read()
+                sim = json.loads(data)
                 timestamp = sim['timestamp']
                 return timestamp
+    return "unknown"
