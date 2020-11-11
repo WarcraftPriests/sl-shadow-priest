@@ -28,9 +28,10 @@ All scripts are run built with python3, but should be able to be run with python
 4. Based on config keys in `analyze` markdown, csv, and json will be generated for the aggregated sims. These will output separate files for Composite, Single Target, or Dungeon sims. You can find all output files in the `results/` folder in any sim folder.
 
 #### Use local simc
-1. To run with a local simc you have to options:
+1. To run with a local simc you have three options:
 - use the simc you have on your Path ( nothing to setup here )
 - use a simc located in a separated folder, create a `local_secrets.py` inside the root directory and set `simc_path = '{"nightly": "path/to/executable", "rework": "another/path"}'`
+- add the `--auto_download` parameter to download the latest simc nightly build into the `auto_download/` folder. This will override any choice in `config.yml` with the path to the newly downloaded version. (_**note: this is only supported on windows currently**_)
 
 > We use a dict here to support different `simcVersions` like raidbots, you can so define a different simc installation by every key you define. If you don't supply the `local_secrets.py` we will use the simc on the path for every different `simcVersion` defined in `config.yml`.
 

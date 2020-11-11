@@ -1,4 +1,6 @@
-weightsCastleNathria = {
+"""weight dict definitions"""
+
+weights_castle_nathria = {
     'pw_ba_1': 0.0200000,
     'pw_sa_1': 0.0600000,
     'pw_na_1': 0.2750000,
@@ -19,7 +21,7 @@ weightsCastleNathria = {
     'hm_na_2': 0.0100000,
 }
 
-weightsSingle = {
+weights_single = {
     'pw_na_1': 0.55555555556,
     'lm_na_1': 0.34343434343,
     'hm_na_1': 0.10101010101,
@@ -27,7 +29,9 @@ weightsSingle = {
 
 
 def find_weights(key):
+    """return the matching dict"""
     if key == 'weightsSingle':
-        return weightsSingle
-    elif key == 'weightsCastleNathria':
-        return weightsCastleNathria
+        return weights_single
+    if key == 'weightsCastleNathria':
+        return weights_castle_nathria
+    return None

@@ -1,8 +1,6 @@
 # Composite
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|adds_in_greater_than_20|5823|0.15%|
-|adds_in_greater_than_10|5823|0.14%|
-|no_condition|5821|0.12%|
-|Base|5814|0.00%|
-|not_in_voidform|5777|-0.64%|
+|Base|5679|0.00%|
+|Devouring_Plague_plus_Void_Eruption|5678|-0.02%|
+|Void_Eruption|3401|-40.11%|
