@@ -1,9 +1,9 @@
+"""Generates profiles used to sim based on the base profiles"""
 import os
 import argparse
-import yaml
-import re
-
 from itertools import combinations_with_replacement
+import re
+import yaml
 
 with open("config.yml", "r") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
@@ -24,23 +24,26 @@ fightExpressions = {
 
 
 def assure_path_exists(path):
+    """Make sure the path exists and contains a folder"""
     dir_name = os.path.dirname(path)
     if not os.path.exists(dir_name):
         os.makedirs(dir_name)
 
 
 def clear_out_folders(path):
+    """Clear out any existing files in the given path"""
     assure_path_exists(path)
     for the_file in os.listdir(path):
         file_path = os.path.join(path, the_file)
         try:
             if os.path.isfile(file_path):
                 os.unlink(file_path)
-        except Exception as e:
+        except OSError as e:
             print(e)
 
 
 def build_settings(profile_name_string, weights, covenant_string):
+    """Add any and all expressions to the bottom of the profile"""
     settings_string = '\n'
     if covenant_string:
         settings_string += "covenant={0}\n".format(covenant_string)
@@ -52,133 +55,150 @@ def build_settings(profile_name_string, weights, covenant_string):
     return settings_string
 
 
+def generate_combination_name(stat_distribution):
+    """generates a profile name based on the counts of each stat"""
+    mastery = stat_distribution.count('mastery')
+    versatility = stat_distribution.count('versatility')
+    haste = stat_distribution.count('haste')
+    crit = stat_distribution.count('crit')
+    return "M{0}_V{1}_H{2}_C{3}".format(mastery, versatility, haste, crit)
+
+
+def generate_stat_string(stat_distribution, name):
+    """generates the gear rating string based on the count of the stat"""
+    count = stat_distribution.count(name)
+    extra_line = "\n" if name == "versatility" else ""
+    return "gear_{0}_rating={1}{2}".format(name, count * config["stats"]["steps"], extra_line)
+
+
 def build_stats_files():
-    simFile = 'stats.simc'
-    baseFile = "{0}{1}".format(args.dir, simFile)
+    """Build generated.simc stats file from stats.simc"""
+    sim_file = 'stats.simc'
+    base_file = "{0}{1}".format(args.dir, sim_file)
     stats = config["stats"]["include"]
-    statsBase = config["stats"]["base"] / 4
-    statsSteps = config["stats"]["steps"]
-    numOfSteps = (config["stats"]["total"] -
-                  config["stats"]["base"]) / statsSteps
-    distributions = combinations_with_replacement(stats, int(numOfSteps))
-    ratingCombinations = []
+    stats_base = config["stats"]["base"] / 4
+    num_of_steps = (config["stats"]["total"] -
+                    config["stats"]["base"]) / config["stats"]["steps"]
+    distributions = combinations_with_replacement(stats, int(num_of_steps))
+    rating_combinations = []
     for dist in distributions:
-        mastery = dist.count('mastery')
-        versatility = dist.count('versatility')
-        haste = dist.count('haste')
-        crit = dist.count('crit')
-        masteryString = "gear_mastery_rating={0}".format(
-            int((mastery * statsSteps) + statsBase))
-        versatilityString = "gear_versatility_rating={0}".format(
-            int((versatility * statsSteps) + statsBase))
-        hasteString = "gear_haste_rating={0}".format(
-            int((haste * statsSteps) + statsBase))
-        critString = "gear_crit_rating={0}".format(
-            int((crit * statsSteps) + statsBase))
-        ratingCombinations.append(
-            {
-                "name": "M{0}_V{1}_H{2}_C{3}".format(mastery, versatility, haste, crit),
-                "mastery": masteryString,
-                "vers": versatilityString,
-                "haste": hasteString,
-                "crit": critString
-            }
-        )
-    numberOfCombos = len(ratingCombinations)
-    print("Simming {0} number of combinations".format(numberOfCombos))
-    outputFile = "{0}/generated.simc".format(args.dir)
-    baseStats = "gear_crit_rating={0}\ngear_haste_rating={0}\ngear_mastery_rating={0}\ngear_versatility_rating={0}\n".format(
-        int(statsBase))
-    with open(baseFile, 'r') as f:
-        data = f.read()
-        f.close()
-    with open(outputFile, 'w+') as file:
+        combination = {
+            "name": generate_combination_name(dist),
+            "mastery": generate_stat_string(dist, "mastery"),
+            "versatility": generate_stat_string(dist, "versatility"),
+            "haste": generate_stat_string(dist, "haste"),
+            "crit": generate_stat_string(dist, "crit")
+        }
+        rating_combinations.append(combination)
+    print("Simming {0} number of combinations".format(
+        len(rating_combinations)))
+    output_file = "{0}/generated.simc".format(args.dir)
+    base_stats = """gear_crit_rating={0}
+gear_haste_rating={0}
+gear_mastery_rating={0}
+gear_versatility_rating={0}\n\n""".format(
+        int(stats_base))
+    with open(base_file, 'r') as file:
+        data = file.read()
+        file.close()
+    with open(output_file, 'w+') as file:
         file.writelines(data)
-        file.writelines(baseStats)
-        for combo in ratingCombinations:
-            file.write('profileset."{0}"+={1}\nprofileset."{2}"+={3}\nprofileset."{4}"+={5}\nprofileset."{6}"+={7}\n\n'.format(
-                combo.get('name'), combo.get('mastery'),
-                combo.get('name'), combo.get('vers'),
-                combo.get('name'), combo.get('haste'),
-                combo.get('name'), combo.get('crit')
-            ))
+        file.writelines(base_stats)
+        for combo in rating_combinations:
+            for stat in stats:
+                file.write(
+                    'profileset."{0}"+={1}\n'.format(combo.get('name'), combo.get(stat)))
 
 
-def build_simc_file(talent, covenant, profile_name):
-    if covenant:
-        return "profiles/{0}/{1}/{2}.simc".format(talent, covenant, profile_name)
-    elif talent:
-        return "profiles/{0}/{1}.simc".format(talent, profile_name)
-    else:
-        return "profiles/{0}.simc".format(profile_name)
+def build_simc_file(talent_string, covenant_string, profile_name):
+    """Returns output file name based on talent and covenant strings"""
+    if covenant_string:
+        return "profiles/{0}/{1}/{2}.simc".format(talent_string, covenant_string, profile_name)
+    if talent_string:
+        return "profiles/{0}/{1}.simc".format(talent_string, profile_name)
+    return "profiles/{0}.simc".format(profile_name)
 
 
-def replace_talents(talent, data):
+def replace_talents(talent_string, data):
+    """Replaces the talents variable with the talent string given"""
     if "talents=" in data:
-        data = re.sub(r'talents=.*', "talents={}".format(talent), data)
+        data = re.sub(r'talents=.*', "talents={}".format(talent_string), data)
     else:
-        data.replace("spec=shadow", "spec=shadow\ntalents={0}".format(talent))
+        data.replace(
+            "spec=shadow", "spec=shadow\ntalents={0}".format(talent_string))
     return data
 
 
-def build_profiles(talent, covenant, args):
-    # build combination list e.g. pw_sa_1
-    fightStyles = ["pw", "lm", "hm"]
-    addTypes = ["sa", "ba", "na"]
-    targets = ["1", "2"]
+def build_profiles(talent_string, covenant_string):
+    # pylint: disable=R0912
+    """build combination list e.g. pw_sa_1"""
     combinations = [
-        "{0}_{1}_{2}".format(fight, add, tar) for fight in fightStyles for add in addTypes for tar in targets
+        "{0}_{1}_{2}".format(fight, add, tar) for fight in [
+            "pw", "lm", "hm"
+        ] for add in [
+            "sa", "ba", "na"
+        ] for tar in [
+            "1", "2"
+        ]
     ]
-    simFiles = config["sims"][args.dir[:-1]]["files"]
+    sim_files = config["sims"][args.dir[:-1]]["files"]
 
     if config["sims"][args.dir[:-1]]["covenant"]["files"]:
-        simFiles = ["{0}.simc".format(covenant)]
+        sim_files = ["{0}.simc".format(covenant_string)]
 
-    for simFile in simFiles:
-        baseFile = "{0}{1}".format(args.dir, simFile)
-        with open(baseFile, 'r') as f:
-            data = f.read()
-            f.close()
+    for sim_file in sim_files:
+        with open("{0}{1}".format(args.dir, sim_file), 'r') as file:
+            data = file.read()
+            file.close()
         if args.dungeons:
             combinations = ["dungeons"]
-        if talent:
+        if talent_string:
             if args.dungeons:
-                talents = config["builds"][talent]["dungeons"]
+                talents_expr = config["builds"][talent_string]["dungeons"]
             else:
-                talents = config["builds"][talent]["composite"]
+                talents_expr = config["builds"][talent_string]["composite"]
         else:
-            talents = ''
+            talents_expr = ''
         # insert talents in here so copy= works correctly
-        if talents:
-            data = data.replace("${talents}", str(talents))
+        if talents_expr:
+            data = data.replace("${talents}", str(talents_expr))
             data = data.replace(
-                "${conduits.first.id}", config["builds"][talent]["conduits"]["first"]["id"])
+                "${conduits.first.id}",
+                config["builds"][talent_string]["conduits"]["first"]["id"]
+            )
             data = data.replace(
-                "${conduits.second.id}", config["builds"][talent]["conduits"]["second"]["id"])
+                "${conduits.second.id}",
+                config["builds"][talent_string]["conduits"]["second"]["id"]
+            )
             data = data.replace(
-                "${conduits.first.name}", config["builds"][talent]["conduits"]["first"]["name"])
+                "${conduits.first.name}",
+                config["builds"][talent_string]["conduits"]["first"]["name"]
+            )
             data = data.replace(
-                "${conduits.second.name}", config["builds"][talent]["conduits"]["second"]["name"])
+                "${conduits.second.name}",
+                config["builds"][talent_string]["conduits"]["second"]["name"]
+            )
 
-        if covenant:
-            data = data.replace("${covenant}", covenant)
+        if covenant_string:
+            data = data.replace("${covenant}", covenant_string)
 
         for profile in combinations:
             # prefix the profile name with the base file name
-            profile_name = "{0}_{1}".format(simFile[:-5], profile)
+            profile_name = "{0}_{1}".format(sim_file[:-5], profile)
             settings = build_settings(
-                profile, config["sims"][args.dir[:-1]]["weights"], covenant)
+                profile, config["sims"][args.dir[:-1]]["weights"], covenant_string)
 
             # insert talents based on profile
-            if talents:
+            if talents_expr:
                 if profile in config["singleTargetProfiles"]:
-                    new_talents = config["builds"][talent]["single"]
+                    new_talents = config["builds"][talent_string]["single"]
                     data = replace_talents(new_talents, data)
                 else:
-                    data = replace_talents(talents, data)
+                    data = replace_talents(talents_expr, data)
 
-            simcFile = build_simc_file(talent, covenant, profile_name)
-            with open(args.dir + simcFile, "w+") as file:
+            simc_file = build_simc_file(
+                talent_string, covenant_string, profile_name)
+            with open(args.dir + simc_file, "w+") as file:
                 if args.ptr:
                     file.writelines(fightExpressions["ptr"])
                 file.writelines(data)
@@ -220,19 +240,21 @@ if __name__ == '__main__':
         build_stats_files()
 
     if covenants:
-        for talent, covenant in [(talent, covenant) for talent in talents for covenant in covenants]:
+        for talent, covenant in [
+            (talent, covenant) for talent in talents for covenant in covenants
+        ]:
             clear_out_folders(
                 '{0}output/{1}/{2}/'.format(args.dir, talent, covenant))
             clear_out_folders(
                 '{0}profiles/{1}/{2}/'.format(args.dir, talent, covenant))
             print("Building {0}-{1} profiles...".format(talent, covenant))
-            build_profiles(talent, covenant, args)
+            build_profiles(talent, covenant)
     elif talents:
         for talent in talents:
             clear_out_folders('{0}output/{1}/'.format(args.dir, talent))
             clear_out_folders('{0}profiles/{1}/'.format(args.dir, talent))
             print("Building {0} profiles...".format(talent))
-            build_profiles(talent, None, args)
+            build_profiles(talent, None)
     else:
         print("Building default profiles...")
-        build_profiles(None, None, args)
+        build_profiles(None, None)
