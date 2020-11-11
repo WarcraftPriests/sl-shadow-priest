@@ -3,23 +3,28 @@ import json
 import time
 import requests
 import yaml
+import tqdm
 
 with open("config.yml", "r") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
+
+num_of_retries = int(config["raidbots"]["numOfRetries"])
+retry_interval = int(config["raidbots"]["retryInterval"])
+
+session = requests.Session()
+session.headers = {
+    'Content-Type': 'application/json',
+    'User-Agent': 'Publik\'s Raidbots API Script'
+}
 
 
 def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name, iterations):
     # pylint: disable=too-many-arguments, too-many-return-statements, too-many-locals
     """submits a sim to the raidbots api"""
-    if iterations != "smart":
-        iterations = int(iterations)
-    simc_file = open(profile_location, 'r')
-    simc_input = simc_file.read()
-    headers = {
-        'Content-Type': 'application/json',
-        'User-Agent': 'Publik\'s Raidbots API Script'
-    }
-    api_url = '{0}/sim'.format(api_url_base)
+
+    iterations = int(iterations) if iterations != "smart" else iterations
+    simc_input = open(profile_location, 'r').read()
+    api_url = f'{api_url_base}/sim'
     data = {
         'apiKey': api_key,
         'type': 'advanced',
@@ -28,135 +33,147 @@ def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name,
         'reportName': report_name,
         'iterations': iterations,
     }
-    num_of_retries = int(config["raidbots"]["numOfRetries"])
-    retry_interval = int(config["raidbots"]["retryInterval"])
+    
     current_try = 0
-
-    while True:
-        response = requests.post(api_url, headers=headers, json=data)
+    while current_try < num_of_retries:
+        response = session.post(api_url, json=data)
         if response.status_code >= 500:
             current_try += 1
-            print('[!] [{0}] Server Error'.format(response.status_code))
+            print(f'[!] [{response.status_code}] Server Error')
             time.sleep(retry_interval * current_try)
-            if current_try >= num_of_retries:
-                print("Exceeded retries - exiting")
-                return None
+
         elif response.status_code == 429:
             current_try += 1
-            print('[!] [{0}] Too many API jobs running"'.format(
-                response.status_code))
+            print(f'[!] [{response.status_code}] Too many API jobs running"')
             time.sleep(retry_interval * current_try)
-            if current_try >= num_of_retries:
-                print("Exceeded retries - exiting")
-                return None
+
         elif response.status_code == 404:
-            print('[!] [{0}] URL not found: [{1}]'.format(
-                response.status_code, api_url))
+            print(f'[!] [{response.status_code}] URL not found: [{api_url}]')
             return None
+
         elif response.status_code == 401:
-            print('[!] [{0}] Authentication Failed'.format(
-                response.status_code))
+            print(f'[!] [{response.status_code}] Authentication Failed')
             return None
+
         elif response.status_code >= 400:
-            print('[!] [{0}] Bad Request'.format(response.status_code))
+            print(f'[!] [{response.status_code}] Bad Request')
+            print("=== Bad request data ===")
             print(data)
             print(response.content)
+            print("=== End bad request data ===")
             return None
+
         elif response.status_code == 200:
             sim = json.loads(response.content)
             return sim
+
         else:
-            print('[?] Unexpected Error: [HTTP {0}]: Content: {1}'.format(
-                response.status_code, response.content))
+            print(f'[?] Unexpected Error: [HTTP {response.status_code}]: Content: {response.content}')
             return None
 
+    # we've exceeded the maximum tries
+    print("Exceeded retries - exiting")
+    return None
 
 def poll_status(api_url_base, sim_id):
     """polls the raidbots api to get status of a sim"""
-    headers = {
-        'Content-Type': 'application/json',
-        'User-Agent': 'Publik\'s Raidbots API Script'
-    }
-    api_url = '{0}/api/job/{1}'.format(api_url_base, sim_id)
-    num_of_retries = int(config["raidbots"]["numOfRetries"])
-    retry_interval = int(config["raidbots"]["retryInterval"])
+    
+    api_url = f'{api_url_base}/api/job/{sim_id}'
+    
+    # Disables TQDM monitoring thread
+    tqdm.tqdm.monitor_interval = 0
+
+    last_update = 0
+    started = False
     current_try = 0
-    while True:
-        response = requests.get(api_url, headers=headers)
-        if response.status_code >= 500:
-            current_try += 1
-            print('[!] [{0}] Server Error'.format(response.status_code))
-            time.sleep(retry_interval * current_try)
-            if current_try >= num_of_retries:
-                print("Exceeded retries - exiting")
-                break
-        elif response.status_code == 404:
-            print('[!] [{0}] URL not found: [{1}]'.format(
-                response.status_code, api_url))
-            break
-        elif response.status_code == 200:
-            sim_status = json.loads(response.content)
-            if not 'progress' in sim_status['job']:
-                print(
-                    "Error getting progress from 200 response json: {0}".format(sim_status))
-                break
-            progress = sim_status['job']['progress']
-            state = sim_status['job']['state']
-            if state == "complete":
-                print("Sim {0} finished.".format(sim_id))
-                break
-            if state == "inactive":
-                print("Sim {0} in queue.".format(sim_id))
-                time.sleep(retry_interval)
-            elif state == "active":
-                print("Sim {0} progress: {1}".format(sim_id, progress))
-                time.sleep(retry_interval)
-            else:
+
+    with tqdm.tqdm(total=100, unit='%') as pbar:
+        while current_try < num_of_retries:
+            response = session.get(api_url)
+            if response.status_code >= 500:
                 current_try += 1
-                print(
-                    "Unknown state: {0} when getting {1}. - Retry {2}".format(
-                        state, sim_id, current_try)
-                )
-                if current_try >= num_of_retries:
-                    print("Exceeded retries - exiting")
-                    break
-        else:
-            print('[?] Unexpected Error: [HTTP {0}]: Content: {1}'.format(
-                response.status_code, response.content))
-            return None
+                pbar.write(f'[!] [{response.status_code}] Server Error')
+                time.sleep(retry_interval * current_try)
+
+            elif response.status_code == 404:
+                pbar.close()
+                print(f'[!] [{response.status_code}] URL not found: [{api_url}]')
+                return
+
+            elif response.status_code == 200:
+                sim_status = json.loads(response.content)
+
+                # Check if we have a progress in the job data
+                if not 'progress' in sim_status['job']:
+                    pbar.close()
+                    print(f"Error getting progress from 200 response json: {sim_status}")
+                    return
+
+                progress = sim_status['job']['progress']
+
+                # Check if there has been any progress, if so update our progress bar and save that progress.
+                diff = progress - last_update
+                if diff:
+                    last_update = progress
+                    pbar.update(diff)
+
+                state = sim_status['job']['state']
+                if state == "complete":
+                    pbar.close()
+                    pbar.write(f"Sim {sim_id} finished.")
+                    return
+
+                if state == "inactive":
+                    pbar.write(f"Sim {sim_id} in queue.")
+                    time.sleep(retry_interval)
+
+                elif state == "active":
+                    if not started: 
+                        pbar.write(f"Sim {sim_id} started.")
+                        started = True
+
+                    time.sleep(retry_interval)
+
+                else:
+                    current_try += 1
+                    print(
+                        f"Unknown state: {state} when getting {sim_id}. - Retry {current_try}"
+                    )
+            else:
+                print(f'[?] Unexpected Error: [HTTP {response.status_code}]: Content: {response.content}')
+                return None
+        
+        # we've exceeded the maximum tries
+        pbar.write("Exceeded retries - exiting")
+        return None
 
 
 def retrieve_data(api_url_base, sim_id, data_file):
     """get final sim data from raidbots"""
-    headers = {
-        'Content-Type': 'application/json',
-        'User-Agent': 'Publik\'s Raidbots API Script'
-    }
-    api_url = '{0}/reports/{1}/{2}'.format(api_url_base, sim_id, data_file)
-    num_of_retries = int(config["raidbots"]["numOfRetries"])
-    retry_interval = int(config["raidbots"]["retryInterval"])
+
+    api_url = f'{api_url_base}/reports/{sim_id}/{data_file}'
     current_try = 0
 
-    while True:
-        response = requests.get(api_url, headers=headers)
+    while current_try < num_of_retries:
+        response = session.get(api_url)
         if response.status_code >= 500:
             current_try += 1
-            print('[!] [{0}] Server Error'.format(response.status_code))
+            print(f'[!] [{response.status_code}] Server Error')
             time.sleep(retry_interval * current_try)
-            if current_try >= num_of_retries:
-                print("Exceeded retries - exiting")
-                return None
+
         elif response.status_code == 404:
-            print('[!] [{0}] URL not found: [{1}]'.format(
-                response.status_code, api_url))
+            print(f'[!] [{response.status_code}] URL not found: [{api_url}]')
             return None
+
         elif response.status_code == 200:
             sim_data = json.loads(response.content)
             return sim_data
+
         else:
-            print('[?] Unexpected Error: [HTTP {0}]: Content: {1}'.format(
-                response.status_code, response.content))
+            print(f'[?] Unexpected Error: [HTTP {response.status_code}]: Content: {response.content}')
             return None
+    
+    print("Exceeded retries - exiting")
 
 
 def raidbots(api_key, profile_location, simc_build, output_location, report_name, iterations):
@@ -181,6 +198,6 @@ def raidbots(api_key, profile_location, simc_build, output_location, report_name
             sim_data = retrieve_data(api_url_base, sim_id, 'data.full.json')
         output_file = open(output_location, 'w')
         output_file.write(json.dumps(sim_data))
-        print("Saved results to {0}".format(output_location))
+        print(f"Saved results to {output_location}")
     else:
         print("Error getting data from Raidbots")
