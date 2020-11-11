@@ -38,8 +38,8 @@ def clear_out_folders(path):
         try:
             if os.path.isfile(file_path):
                 os.unlink(file_path)
-        except OSError as e:
-            print(e)
+        except OSError as error:
+            print(error)
 
 
 def build_settings(profile_name_string, weights, covenant_string):

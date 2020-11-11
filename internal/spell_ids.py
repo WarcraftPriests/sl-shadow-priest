@@ -1,3 +1,4 @@
+"""spell ids to be used in json result files"""
 racials = {
     "Human": 20598,
     "Blood_Elf": 28730,
@@ -191,19 +192,22 @@ soulbind_traits = {
 
 
 def find_ids(key):
+    # pylint: disable=too-many-return-statements
+    """return the matching dict"""
     if key == 'racials':
         return racials
-    elif key == 'enchants':
+    if key == 'enchants':
         return enchants
-    elif key == 'covenants':
+    if key == 'covenants':
         return covenants
-    elif key == 'legendaries':
+    if key == 'legendaries':
         return legendaries
-    elif key == 'conduits':
+    if key == 'conduits':
         return conduits
-    elif key == 'consumables':
+    if key == 'consumables':
         return consumables
-    elif key == 'soulbind-traits':
+    if key == 'soulbind-traits':
         return soulbind_traits
-    elif key == 'legendary-items':
+    if key == 'legendary-items':
         return legendary_items
+    return None

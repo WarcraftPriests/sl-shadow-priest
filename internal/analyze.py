@@ -1,33 +1,39 @@
-import pandas
-import operator
-import yaml
-import os
-import json
-import time
-import sys
+"""creates results files from sim results"""
+
 import re
+import time
+import json
+import operator
+import os
+from datetime import datetime
+import pandas
+import yaml
 
 from internal.weights import find_weights
 from internal.spell_ids import find_ids
-from datetime import datetime
 
 with open("config.yml", "r") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 
 def assure_path_exists(path):
+    """Make sure the path exists and contains a folder"""
     dir_name = os.path.dirname(path)
     if not os.path.exists(dir_name):
         os.makedirs(dir_name)
 
 
 def build_output_string(sim_type, talent_string, covenant_string, file_type):
+    """creates output string for the results file"""
     output_dir = "results/"
     assure_path_exists(output_dir)
-    return "{0}Results_{1}{2}{3}.{4}".format(output_dir, sim_type, talent_string, covenant_string, file_type)
+    return "{0}Results_{1}{2}{3}.{4}".format(
+        output_dir, sim_type, talent_string, covenant_string, file_type
+    )
 
 
 def get_change(current, previous):
+    """gets the percent change between two numbers"""
     negative = 0
     if current < previous:
         negative = True
@@ -42,6 +48,7 @@ def get_change(current, previous):
 
 
 def find_weight(sim_type, profile_name):
+    """looks up the weight based on the sim type"""
     weight_type = ""
     if sim_type == "Composite":
         weight_type = "compositeWeights"
@@ -53,16 +60,17 @@ def find_weight(sim_type, profile_name):
     weight = find_weights(config[weight_type]).get(profile_name)
     if not weight:
         return 0
-    else:
-        return weight
+    return weight
 
 
 def build_results(data, weights, sim_type, directory):
+    # pylint: disable=too-many-locals
+    """create results dict from sim data"""
     results = {}
     for value in data.iterrows():
-        profile = value[1].profile
         actor = value[1].actor
-        fight_style = re.search('((hm|lm|pw).*|dungeons$)', profile).group()
+        fight_style = re.search(
+            '((hm|lm|pw).*|dungeons$)', value[1].profile).group()
         weight = find_weight(sim_type, fight_style)
         weighted_dps = value[1].DPS * weight
         if weights:
@@ -89,18 +97,19 @@ def build_results(data, weights, sim_type, directory):
 
     if config["sims"][directory[:-1]]["covenant"]["files"]:
         number_of_profiles = 1
-    baseActor = results.get('Base')
+    base_actor = results.get('Base')
     if weights:
         base_dps = {}
-        for key, value in baseActor.items():
+        for key, value in base_actor.items():
             base_dps[key] = value / number_of_profiles
     else:
-        base_dps = baseActor / number_of_profiles
+        base_dps = base_actor / number_of_profiles
     results['Base'] = base_dps
     return results
 
 
 def generate_report_name(sim_type, talent_string, covenant_string):
+    """create report name based on talents and covenant"""
     talents = " - {0}".format(talent_string.strip("_")
                               ) if talent_string else ""
     covenant = " - {0}".format(covenant_string.strip("_")
@@ -109,14 +118,18 @@ def generate_report_name(sim_type, talent_string, covenant_string):
 
 
 def build_markdown(sim_type, talent_string, results, weights, base_dps, covenant_string):
+    # pylint: disable=too-many-arguments
+    """converts result data into markdown files"""
     output_file = build_output_string(
         sim_type, talent_string, covenant_string, "md")
     with open(output_file, 'w+') as results_md:
         if weights:
             results_md.write(
                 '# {0}\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight '
-                '|\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n'.format(generate_report_name(sim_type, talent_string, covenant_string)))
-            # Take the dict of dict's and created a new dict to be able to sort our keys
+                '|\n|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|\n'.format(
+                    generate_report_name(sim_type, talent_string, covenant_string
+                                         )))
+            # Take the dict of dicts and created a new dict to be able to sort our keys
             actor_dps = {}
             for key, value in results.items():
                 actor_dps[key] = value.get('dps')
@@ -124,7 +137,15 @@ def build_markdown(sim_type, talent_string, results, weights, base_dps, covenant
             # use that key to lookup the actual dict of values
             for key, value in sorted(actor_dps.items(), key=operator.itemgetter(1), reverse=True):
                 results_md.write("|%s|%.0f|%.2f|%.2f|%.2f|%.2f|%.2f|%.2f|\n" % (
-                    key, results[key].get('dps'), results[key].get('intellect'), results[key].get('haste'), results[key].get('crit'), results[key].get('mastery'), results[key].get('vers'), results[key].get('wdps')))
+                    key,
+                    results[key].get('dps'),
+                    results[key].get('intellect'),
+                    results[key].get('haste'),
+                    results[key].get('crit'),
+                    results[key].get('mastery'),
+                    results[key].get('vers'),
+                    results[key].get('wdps'))
+                )
         else:
             results_md.write('# {0}\n| Actor | DPS | Increase |\n|---|:---:|:---:|\n'.format(
                 generate_report_name(sim_type, talent_string, covenant_string)))
@@ -134,13 +155,15 @@ def build_markdown(sim_type, talent_string, results, weights, base_dps, covenant
 
 
 def build_csv(sim_type, talent_string, results, weights, base_dps, covenant_string):
+    # pylint: disable=too-many-arguments
+    """build csv from results dict"""
     output_file = build_output_string(
         sim_type, talent_string, covenant_string, "csv")
     with open(output_file, 'w') as results_csv:
         if weights:
             results_csv.write(
                 'profile,actor,DPS,int,haste,crit,mastery,vers,dpsW,\n')
-            # Take the dict of dict's and created a new dict to be able to sort our keys
+            # Take the dict of dicts and created a new dict to be able to sort our keys
             actor_dps = {}
             for key, value in results.items():
                 actor_dps[key] = value.get('dps')
@@ -148,7 +171,16 @@ def build_csv(sim_type, talent_string, results, weights, base_dps, covenant_stri
             # use that key to lookup the actual dict of values
             for key, value in sorted(actor_dps.items(), key=operator.itemgetter(1), reverse=True):
                 results_csv.write("%s,%s,%.0f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,\n" % (
-                    sim_type, key, results[key].get('dps'), results[key].get('intellect'), results[key].get('haste'), results[key].get('crit'), results[key].get('mastery'), results[key].get('vers'), results[key].get('wdps')))
+                    sim_type,
+                    key,
+                    results[key].get('dps'),
+                    results[key].get('intellect'),
+                    results[key].get('haste'),
+                    results[key].get('crit'),
+                    results[key].get('mastery'),
+                    results[key].get('vers'),
+                    results[key].get('wdps'))
+                )
         else:
             results_csv.write('profile,actor,DPS,increase,\n')
             for key, value in sorted(results.items(), key=operator.itemgetter(1), reverse=True):
@@ -157,30 +189,32 @@ def build_csv(sim_type, talent_string, results, weights, base_dps, covenant_stri
 
 
 def lookup_id(name, directory):
+    """lookup the spell or item id of an item name"""
     lookup_type = config["sims"][directory[:-1]]["lookupType"]
     if lookup_type == "spell":
         return lookup_spell_id(name, directory)
-    elif lookup_type == "item":
+    if lookup_type == "item":
         return lookup_item_id(name, directory)
-    elif lookup_type == "none":
+    if lookup_type == "none":
         return None
-    else:
-        print("Could not find id for {0}".format(name))
-        return None
+    print("Could not find id for {0}".format(name))
+    return None
 
 
 def lookup_spell_id(spell_name, directory):
+    """lookup a spell name from the ids dict"""
     ids = find_ids(directory[:-1])
     if ids:
         return ids.get(spell_name)
-    else:
-        print("Could not find spell id for {0}".format(spell_name))
-        return None
+    print("Could not find spell id for {0}".format(spell_name))
+    return None
 
 
 def lookup_item_id(item_name, directory):
-    # get the list of sim files from config
-    # loop over them and search for the item name line by line
+    """
+    get the list of sim files from config
+    loop over them and search for the item name line by line
+    """
     for sim_file in config["sims"][directory[:-1]]["files"]:
         with open(sim_file, 'r') as file:
             for line in file:
@@ -188,9 +222,12 @@ def lookup_item_id(item_name, directory):
                     # find ,id= -> take 2nd half ->
                     # find , -> take 1st half
                     return int(line.split(',id=')[1].split(',')[0])
+    return None
 
 
 def build_json(sim_type, talent_string, results, directory, timestamp, covenant_string):
+    # pylint: disable=too-many-arguments, disable=too-many-locals
+    """build json from results"""
     output_file = build_output_string(
         sim_type, talent_string, covenant_string, "json")
     human_date = time.strftime('%Y-%m-%d', time.localtime(timestamp))
@@ -251,6 +288,7 @@ def build_json(sim_type, talent_string, results, directory, timestamp, covenant_
 
 
 def convert_increase_to_double(increase):
+    """convert string increase to double"""
     increase = increase.strip('%')
     increase = round(float(increase), 4)
     if increase:
@@ -259,6 +297,7 @@ def convert_increase_to_double(increase):
 
 
 def build_talented_covenant_json(talents):
+    """build aggregated talented covenant json file"""
     sim_types = ["Composite", "Dungeons", "Single"]
     results = {}
     # find the 3 CSV files for the given talent setup
@@ -309,6 +348,7 @@ def build_talented_covenant_json(talents):
 
 
 def build_covenant_json():
+    """build aggregated covenant json"""
     sim_types = ["Composite", "Dungeons", "Single"]
     talents = config["builds"].keys()
     results = {}
@@ -352,11 +392,8 @@ def build_covenant_json():
         results_json.write(json_data)
 
 
-def build_weights_json(sim_type, talent_string, results, directory, timestamp, covenant_string):
-    print("todo")
-
-
 def get_simc_dir(talent, covenant, folder_name):
+    """get proper simc dir"""
     if covenant:
         return "{0}/{1}/{2}/".format(folder_name, talent, covenant)
     elif talent:
@@ -366,6 +403,7 @@ def get_simc_dir(talent, covenant, folder_name):
 
 
 def analyze(talents, directory, dungeons, weights, timestamp, covenant):
+    """main analyze function"""
     foldername = os.path.basename(os.getcwd())
     # Move to correct outer folder
     while foldername != directory[:-1]:
@@ -376,7 +414,17 @@ def analyze(talents, directory, dungeons, weights, timestamp, covenant):
 
     if weights:
         data = pandas.read_csv(csv,
-                               usecols=['profile', 'actor', 'DD', 'DPS', 'int', 'haste', 'crit', 'mastery', 'vers'])
+                               usecols=[
+                                   'profile',
+                                   'actor',
+                                   'DD',
+                                   'DPS',
+                                   'int',
+                                   'haste',
+                                   'crit',
+                                   'mastery',
+                                   'vers'
+                               ])
     else:
         data = pandas.read_csv(csv, usecols=['profile', 'actor', 'DD', 'DPS'])
 
@@ -399,9 +447,7 @@ def analyze(talents, directory, dungeons, weights, timestamp, covenant):
         if config["analyze"]["json"] and not covenant_range and not weights:
             build_json(sim_type, talent_string, results,
                        directory, timestamp, covenant_string)
-        if weights:
-            build_weights_json(sim_type, talent_string, results,
-                       directory, timestamp, covenant_string)
+
     # Check if we need to build extra JSON files
     if covenant_range:
         build_talented_covenant_json(talents)

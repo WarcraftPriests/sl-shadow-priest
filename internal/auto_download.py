@@ -1,4 +1,5 @@
-#!/usr/bin/env python 
+"""downloads the nightly simc"""
+#!/usr/bin/env python
 import glob
 import os
 import re
@@ -9,10 +10,11 @@ from urllib.request import urlopen, urlretrieve
 
 
 def download_latest():
+    """main download function"""
     seven_zip_paths = ["7z.exe", "C:/Program Files/7-Zip/7z.exe"]
     seven_zip_executable = _find_7zip(seven_zip_paths)
 
-    print(f"Starting auto download check of SimulationCraft.")
+    print("Starting auto download check of SimulationCraft.")
 
     # Application root path, and destination path
     rootpath = os.path.dirname(os.path.realpath(__file__))
@@ -26,7 +28,7 @@ def download_latest():
     try:
         html = urlopen(f"{base_path}/?C=M;O=D").read().decode("utf-8")
     except URLError:
-        print(f"Could not access download directory on simulationcraft.org")
+        print("Could not access download directory on simulationcraft.org")
     # filename = re.search(r'<a href="(simc.+win64.+7z)">', html).group(1)
     filename = list(
         filter(None, re.findall(r'.+nonetwork.+|<a href="(simc.+win64.+7z)">', html))
@@ -47,6 +49,7 @@ def download_latest():
     dir_name = filename[: filename.find(".7z")]
     simc_path = os.path.join(download_dir, dir_name, "simc.exe")
     if not os.path.exists(simc_path):
+        # pylint: disable=broad-except
         try:
             cmd = f'{seven_zip_executable} x "{filepath}" -aoa -o"{download_dir}"'
             print(f"Running unpack command '{cmd}'")
@@ -58,8 +61,8 @@ def download_latest():
             commit = dir_name.rsplit("-")[-1]
             _rename_directory(f"{download_dir}/simc-*-win64/", commit)
 
-        except Exception as e:
-            print(f"Exception when unpacking: {e}")
+        except Exception as error:
+            print(f"Exception when unpacking: {error}")
 
         # keep the latest 7z to remember current version, but clean up any other ones
         _cleanup_older_files(download_dir, dir_name)
@@ -71,38 +74,37 @@ def download_latest():
 
 
 def _find_7zip(search_paths):
-    # Try to find 7zip, and raise an error if not
+    """Try to find 7zip, and raise an error if not"""
+    # pylint: disable=bare-except, unreachable
     for executable in search_paths:
         try:
             if not os.path.exists(executable):
                 print(f"7Zip executable at '{executable}' does not exist.")
                 continue
-            else:
-                return executable
-                break
+            return executable
+            break
         except:
             continue
     else:
         raise RuntimeError(
             "Could not unpack the auto downloaded SimulationCraft executable."
-            f"Please note that you need 7Zip installed at one of the following locations: {search_paths}."
+            f"Install 7Zip at one of the following locations: {search_paths}."
         )
 
 
 def _cleanup_older_files(download_dir, current_dir):
+    # pylint: disable=bare-except
     try:
         files = glob.glob(f"{download_dir}/simc*")
-        for f in files:
+        for file in files:
             if (
-                os.path.basename(f) != current_dir
-                and os.path.basename(f) != f"{current_dir}.7z"
+                os.path.basename(file) != current_dir
+                and os.path.basename(file) != f"{current_dir}.7z"
             ):
-                print(f"Removing old simc from '{os.path.basename(f)}'.")
-                os.remove(f)
+                print(f"Removing old simc from '{os.path.basename(file)}'.")
+                os.remove(file)
     except:
-        print(
-            "Unable to automatically remove files, you may want to cleanup old files in auto_download/"
-        )
+        print("Unable to automatically remove files, cleanup old files in auto_download/")
 
 
 def _rename_directory(glob_path, commit):
