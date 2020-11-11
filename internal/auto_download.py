@@ -11,7 +11,7 @@ from urllib.request import urlopen, urlretrieve
 
 def download_latest():
     """main download function"""
-    seven_zip_paths = ["7z.exe", "C:/Program Files/7-Zip/7z.exe"] if os.name == 'nt' else ['7z']
+    seven_zip_paths = ["7z.exe", "C:/Program Files/7-Zip/7z.exe"]
     seven_zip_executable = _find_7zip(seven_zip_paths)
 
     print("Starting auto download check of SimulationCraft.")
