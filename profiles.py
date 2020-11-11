@@ -1,10 +1,8 @@
 """Generates profiles used to sim based on the base profiles"""
 import os
-import argparse
 from itertools import combinations_with_replacement
 import re
 import yaml
-
 import internal.utils as utils
 
 with open("config.yml", "r") as ymlfile:
@@ -209,16 +207,7 @@ def build_profiles(talent_string, covenant_string):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Generates sim profiles.')
-    parser.add_argument('dir', help='Directory to generate profiles for.')
-    parser.add_argument(
-        '--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
-    parser.add_argument(
-        '--talents', help='indicate talent build for output.', choices=config["builds"].keys())
-    parser.add_argument(
-        '--covenant', help='indicate covenant build for output.', choices=config["covenants"])
-    parser.add_argument(
-        '--ptr', help='indicate if the sim should use ptr data.', action='store_true')
+    parser = utils.generate_parser('Generates sim profiles.')
     args = parser.parse_args()
 
     talents = utils.get_talents(args)

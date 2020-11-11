@@ -1,6 +1,5 @@
 """main sim script to run sims"""
 
-import argparse
 import sys
 import platform
 import re
@@ -18,17 +17,14 @@ import internal.utils as utils
 api_secrets = importlib.util.find_spec("api_secrets")
 local_secrets = importlib.util.find_spec("local_secrets")
 
+if api_secrets:
+    import api_secrets
+
+if local_secrets:
+    import local_secrets
+
 with open("config.yml", "r") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
-
-
-def get_simc_dir(talent, covenant, folder_name):
-    """get proper directory based on talent and covenant options"""
-    if covenant:
-        return "{0}/{1}/{2}/".format(folder_name, talent, covenant)
-    if talent:
-        return "{0}/{1}/".format(folder_name, talent)
-    return "{0}/".format(folder_name)
 
 
 def get_path(simc_build_version):
@@ -86,8 +82,8 @@ def run_sims(args, iterations, talent, covenant):
         from internal.api import raidbots
 
     print("Running sims on {0} in {1}".format(config["simcBuild"], args.dir))
-    existing = listdir(args.dir + get_simc_dir(talent, covenant, 'output'))
-    profiles = listdir(args.dir + get_simc_dir(talent, covenant, 'profiles'))
+    existing = listdir(args.dir + utils.get_simc_dir(talent, covenant, 'output'))
+    profiles = listdir(args.dir + utils.get_simc_dir(talent, covenant, 'profiles'))
     count = 0
 
     for profile in profiles:
@@ -102,9 +98,9 @@ def run_sims(args, iterations, talent, covenant):
         output_name = profile.replace('simc', 'json')
         if output_name not in existing and weight > 0:
             output_location = args.dir + \
-                get_simc_dir(talent, covenant, 'output') + output_name
+                utils.get_simc_dir(talent, covenant, 'output') + output_name
             profile_location = args.dir + \
-                get_simc_dir(talent, covenant, 'profiles') + profile
+                utils.get_simc_dir(talent, covenant, 'profiles') + profile
             # prefix the profile name with the base file name
             profile_name_with_dir = "{0}{1}".format(args.dir, profile_name)
             raidbots(get_api_key(args, config["simcBuild"]), profile_location,
@@ -117,7 +113,7 @@ def run_sims(args, iterations, talent, covenant):
 
 def convert_to_csv(args, weights, talent, covenant):
     """creates results/statweights.txt"""
-    results_dir = args.dir + get_simc_dir(talent, covenant, 'output')
+    results_dir = args.dir + utils.get_simc_dir(talent, covenant, 'output')
     parse_json(results_dir, weights)
 
 
@@ -130,17 +126,9 @@ def analyze_data(args, talent, covenant, weights):
 def main():
     # pylint: disable=import-outside-toplevel,too-many-branches,unsupported-assignment-operation
     """main function, runs and parses sims"""
-    parser = argparse.ArgumentParser(
-        description='Parses a list of reports from Raidbots.')
-    parser.add_argument('dir', help='Directory you wish to sim.')
+    parser = utils.generate_parser("Parses a list of reports from Raidbots.")
     parser.add_argument(
         '--iterations', help='Pass through specific iterations to run on. Default is 10000')
-    parser.add_argument(
-        '--dungeons', help='Run a dungeonsimming batch of sims.', action='store_true')
-    parser.add_argument(
-        '--talents', help='indicate talent build for output.', choices=config["builds"].keys())
-    parser.add_argument(
-        '--covenant', help='indicate covenant build for output.', choices=config["covenants"])
     parser.add_argument(
         '--local', help='indicate if the simulation should run local.', action='store_true')
     parser.add_argument(

@@ -8,6 +8,7 @@ import os
 from datetime import datetime
 import pandas
 import yaml
+import internal.utils as utils
 
 from internal.weights import find_weights
 from internal.spell_ids import find_ids
@@ -392,15 +393,6 @@ def build_covenant_json():
         results_json.write(json_data)
 
 
-def get_simc_dir(talent, covenant, folder_name):
-    """get proper simc dir"""
-    if covenant:
-        return "{0}/{1}/{2}/".format(folder_name, talent, covenant)
-    if talent:
-        return "{0}/{1}/".format(folder_name, talent)
-    return "{0}/".format(folder_name)
-
-
 def analyze(talents, directory, dungeons, weights, timestamp, covenant):
     # pylint: disable=too-many-arguments, too-many-locals
     """main analyze function"""
@@ -410,7 +402,7 @@ def analyze(talents, directory, dungeons, weights, timestamp, covenant):
         os.chdir("..")
         foldername = os.path.basename(os.getcwd())
     csv = "{0}statweights.csv".format(
-        get_simc_dir(talents, covenant, 'output'))
+        utils.get_simc_dir(talents, covenant, 'output'))
 
     if weights:
         data = pandas.read_csv(csv,
