@@ -33,7 +33,7 @@ def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name,
         'reportName': report_name,
         'iterations': iterations,
     }
-    
+
     current_try = 0
     while current_try < num_of_retries:
         response = session.post(api_url, json=data)
@@ -68,18 +68,20 @@ def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name,
             return sim
 
         else:
-            print(f'[?] Unexpected Error: [HTTP {response.status_code}]: Content: {response.content}')
+            print(
+                f'[?] Unexpected Error: [HTTP {response.status_code}]: Content: {response.content}')
             return None
 
     # we've exceeded the maximum tries
     print("Exceeded retries - exiting")
     return None
 
+
 def poll_status(api_url_base, sim_id):
     """polls the raidbots api to get status of a sim"""
-    
+
     api_url = f'{api_url_base}/api/job/{sim_id}'
-    
+
     # Disables TQDM monitoring thread
     tqdm.tqdm.monitor_interval = 0
 
@@ -97,7 +99,8 @@ def poll_status(api_url_base, sim_id):
 
             elif response.status_code == 404:
                 pbar.close()
-                print(f'[!] [{response.status_code}] URL not found: [{api_url}]')
+                print(
+                    f'[!] [{response.status_code}] URL not found: [{api_url}]')
                 return
 
             elif response.status_code == 200:
@@ -106,7 +109,8 @@ def poll_status(api_url_base, sim_id):
                 # Check if we have a progress in the job data
                 if not 'progress' in sim_status['job']:
                     pbar.close()
-                    print(f"Error getting progress from 200 response json: {sim_status}")
+                    print(
+                        f"Error getting progress from 200 response json: {sim_status}")
                     return
 
                 progress = sim_status['job']['progress']
@@ -128,7 +132,7 @@ def poll_status(api_url_base, sim_id):
                     time.sleep(retry_interval)
 
                 elif state == "active":
-                    if not started: 
+                    if not started:
                         pbar.write(f"Sim {sim_id} started.")
                         started = True
 
@@ -140,9 +144,10 @@ def poll_status(api_url_base, sim_id):
                         f"Unknown state: {state} when getting {sim_id}. - Retry {current_try}"
                     )
             else:
-                print(f'[?] Unexpected Error: [HTTP {response.status_code}]: Content: {response.content}')
+                print(
+                    f'[?] Unexpected Error: [HTTP {response.status_code}]: Content: {response.content}')
                 return None
-        
+
         # we've exceeded the maximum tries
         pbar.write("Exceeded retries - exiting")
         return None
@@ -170,9 +175,10 @@ def retrieve_data(api_url_base, sim_id, data_file):
             return sim_data
 
         else:
-            print(f'[?] Unexpected Error: [HTTP {response.status_code}]: Content: {response.content}')
+            print(
+                f'[?] Unexpected Error: [HTTP {response.status_code}]: Content: {response.content}')
             return None
-    
+
     print("Exceeded retries - exiting")
 
 
