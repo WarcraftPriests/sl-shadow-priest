@@ -93,7 +93,7 @@ def poll_status(api_url_base, sim_id):
     with tqdm.tqdm(total=100, unit='%', ncols=100) as pbar:
         while current_try < num_of_retries:
             response = session.get(api_url)
-            status = response.status_code 
+            status = response.status_code
             if status >= 500:
                 current_try += 1
                 pbar.write(f'[!] [{status}] Server Error')
@@ -103,7 +103,7 @@ def poll_status(api_url_base, sim_id):
                 pbar.close()
                 print(
                     f'[!] [{status}] URL not found: [{api_url}]')
-                return
+                return None
 
             elif status == 200:
                 sim_status = response.json()
@@ -113,11 +113,11 @@ def poll_status(api_url_base, sim_id):
                     pbar.close()
                     print(
                         f"Error getting progress from 200 response json: {sim_status}")
-                    return
+                    return None
 
                 progress = sim_status['job']['progress']
 
-                # Check if there has been any progress 
+                # Check if there has been any progress
                 # if so update our progress bar and save that progress.
                 diff = progress - last_update
                 if diff:
@@ -128,7 +128,7 @@ def poll_status(api_url_base, sim_id):
                 if state == "complete":
                     pbar.close()
                     pbar.write(f"Sim {sim_id} finished.")
-                    return
+                    return None
 
                 if state == "inactive":
                     pbar.write(f"Sim {sim_id} in queue.")
@@ -211,6 +211,7 @@ def raidbots(api_key, profile_location, simc_build, output_location, report_name
         print(f"Saved results to {output_location}")
     else:
         print("Error getting data from Raidbots")
+
 
 if __name__ == "__main__":
     poll_status("https://raidbots.com", "7dRu7se1Hbh3K3EAUneWDH")
