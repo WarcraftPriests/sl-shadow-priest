@@ -1,6 +1,5 @@
 """main sim script to run sims"""
 
-import argparse
 import sys
 import platform
 import re
