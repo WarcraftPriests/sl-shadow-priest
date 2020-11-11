@@ -37,39 +37,41 @@ def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name,
     current_try = 0
     while current_try < num_of_retries:
         response = session.post(api_url, json=data)
-        if response.status_code >= 500:
+        status = response.status_code
+        if status >= 500:
             current_try += 1
-            print(f'[!] [{response.status_code}] Server Error')
+            print(f'[!] [{status}] Server Error')
             time.sleep(retry_interval * current_try)
 
-        elif response.status_code == 429:
+        elif status == 429:
             current_try += 1
-            print(f'[!] [{response.status_code}] Too many API jobs running"')
+            print(f'[!] [{status}] Too many API jobs running"')
             time.sleep(retry_interval * current_try)
 
-        elif response.status_code == 404:
-            print(f'[!] [{response.status_code}] URL not found: [{api_url}]')
+        elif status == 404:
+            print(f'[!] [{status}] URL not found: [{api_url}]')
             return None
 
-        elif response.status_code == 401:
-            print(f'[!] [{response.status_code}] Authentication Failed')
+        elif status == 401:
+            print(f'[!] [{status}] Authentication Failed')
             return None
 
-        elif response.status_code >= 400:
-            print(f'[!] [{response.status_code}] Bad Request')
+        elif status >= 400:
+            print(f'[!] [{status}] Bad Request')
             print("=== Bad request data ===")
             print(data)
             print(response.content)
             print("=== End bad request data ===")
             return None
 
-        elif response.status_code == 200:
+        elif status == 200:
             sim = json.loads(response.content)
             return sim
 
         else:
             print(
-                f'[?] Unexpected Error: [HTTP {response.status_code}]: Content: {response.content}')
+                f'[?] Unexpected Error: [HTTP {status}]: 
+Content: {response.content}')
             return None
 
     # we've exceeded the maximum tries
@@ -92,19 +94,20 @@ def poll_status(api_url_base, sim_id):
     with tqdm.tqdm(total=100, unit='%', ncols=100) as pbar:
         while current_try < num_of_retries:
             response = session.get(api_url)
-            if response.status_code >= 500:
+            status = response.status_code 
+            if status >= 500:
                 current_try += 1
-                pbar.write(f'[!] [{response.status_code}] Server Error')
+                pbar.write(f'[!] [{status}] Server Error')
                 time.sleep(retry_interval * current_try)
 
-            elif response.status_code == 404:
+            elif status == 404:
                 pbar.close()
                 print(
-                    f'[!] [{response.status_code}] URL not found: [{api_url}]')
+                    f'[!] [{status}] URL not found: [{api_url}]')
                 return
 
-            elif response.status_code == 200:
-                sim_status = json.loads(response.content)
+            elif status == 200:
+                sim_status = response.json()
 
                 # Check if we have a progress in the job data
                 if not 'progress' in sim_status['job']:
@@ -115,7 +118,8 @@ def poll_status(api_url_base, sim_id):
 
                 progress = sim_status['job']['progress']
 
-                # Check if there has been any progress, if so update our progress bar and save that progress.
+                # Check if there has been any progress 
+                # if so update our progress bar and save that progress.
                 diff = progress - last_update
                 if diff:
                     last_update = progress
@@ -145,7 +149,7 @@ def poll_status(api_url_base, sim_id):
                     )
             else:
                 print(
-                    f'[?] Unexpected Error: [HTTP {response.status_code}]: Content: {response.content}')
+                    f'[?] Unexpected Error: [HTTP {status}]: Content: {response.content}')
                 return None
 
         # we've exceeded the maximum tries
@@ -161,22 +165,23 @@ def retrieve_data(api_url_base, sim_id, data_file):
 
     while current_try < num_of_retries:
         response = session.get(api_url)
-        if response.status_code >= 500:
+        status = response.status_code
+        if status >= 500:
             current_try += 1
-            print(f'[!] [{response.status_code}] Server Error')
+            print(f'[!] [{status}] Server Error')
             time.sleep(retry_interval * current_try)
 
-        elif response.status_code == 404:
-            print(f'[!] [{response.status_code}] URL not found: [{api_url}]')
+        elif status == 404:
+            print(f'[!] [{status}] URL not found: [{api_url}]')
             return None
 
-        elif response.status_code == 200:
+        elif status == 200:
             sim_data = json.loads(response.content)
             return sim_data
 
         else:
             print(
-                f'[?] Unexpected Error: [HTTP {response.status_code}]: Content: {response.content}')
+                f'[?] Unexpected Error: [HTTP {status}]: Content: {response.content}')
             return None
 
     print("Exceeded retries - exiting")
@@ -207,3 +212,6 @@ def raidbots(api_key, profile_location, simc_build, output_location, report_name
         print(f"Saved results to {output_location}")
     else:
         print("Error getting data from Raidbots")
+
+if __name__ == "__main__":
+    poll_status("https://raidbots.com", "7dRu7se1Hbh3K3EAUneWDH")
