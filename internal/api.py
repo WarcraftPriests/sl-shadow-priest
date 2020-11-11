@@ -89,7 +89,7 @@ def poll_status(api_url_base, sim_id):
     started = False
     current_try = 0
 
-    with tqdm.tqdm(total=100, unit='%') as pbar:
+    with tqdm.tqdm(total=100, unit='%', ncols=100) as pbar:
         while current_try < num_of_retries:
             response = session.get(api_url)
             if response.status_code >= 500:
