@@ -72,7 +72,7 @@ actions.main+=/void_eruption,if=variable.pi_or_vf_sync_condition&insanity>=40&in
 actions.main+=/shadow_word_pain,if=buff.fae_guardians.up&!debuff.wrathful_faerie.up
 actions.main+=/call_action_list,name=cds
 # High Priority Mind Sear action to refresh DoTs with Searing Nightmare
-actions.main+=/mind_sear,target_if=talent.searing_nightmare.enabled&spell_targets.mind_sear>(variable.mind_sear_cutoff+1)&!dot.shadow_word_pain.ticking&!cooldown.mindbender.up
+actions.main+=/mind_sear,target_if=talent.searing_nightmare.enabled&spell_targets.mind_sear>(variable.mind_sear_cutoff+1)&!dot.shadow_word_pain.ticking&pet.fiend.down
 # Prefer to use Damnation ASAP if any DoT is not up.
 actions.main+=/damnation,target_if=!variable.all_dots_up
 # Use Void Bolt at higher priority with Hungering Void up to 4 targets, or other talents on ST.
