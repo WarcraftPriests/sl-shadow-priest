@@ -17,8 +17,4 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         pylint `find -regextype egrep -regex '(.*.py)$'`
-    - name: YAML Lint
-      uses: ibiqlik/action-yamllint@v3.0.0
-      with:
-        file_or_dir: config.yml
   
