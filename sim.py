@@ -1,5 +1,6 @@
 """main sim script to run sims"""
 
+import argparse
 import sys
 import platform
 import re
@@ -14,14 +15,14 @@ from internal.sim_parser import get_timestamp
 from internal.analyze import analyze
 import internal.utils as utils
 
-api_secrets = importlib.util.find_spec("api_secrets")
-local_secrets = importlib.util.find_spec("local_secrets")
+api_secrets_spec = importlib.util.find_spec("api_secrets")
+local_secrets_spec = importlib.util.find_spec("local_secrets")
 
-if api_secrets:
-    import api_secrets
+if api_secrets_spec:
+    api_secrets = api_secrets_spec.loader.load_module()
 
-if local_secrets:
-    import local_secrets
+if local_secrets_spec:
+    local_secrets = local_secrets_spec.loader.load_module()
 
 with open("config.yml", "r") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
@@ -82,8 +83,10 @@ def run_sims(args, iterations, talent, covenant):
         from internal.api import raidbots
 
     print("Running sims on {0} in {1}".format(config["simcBuild"], args.dir))
-    existing = listdir(args.dir + utils.get_simc_dir(talent, covenant, 'output'))
-    profiles = listdir(args.dir + utils.get_simc_dir(talent, covenant, 'profiles'))
+    existing = listdir(
+        args.dir + utils.get_simc_dir(talent, covenant, 'output'))
+    profiles = listdir(
+        args.dir + utils.get_simc_dir(talent, covenant, 'profiles'))
     count = 0
 
     for profile in profiles:
