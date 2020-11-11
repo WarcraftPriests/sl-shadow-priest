@@ -1,8 +1,7 @@
 # Composite - hv-as - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|everything|5994|1.29%|
-|simplified_pi_or_vf_sync_condition|5993|1.28%|
-|simplified_pi_or_vf_sync_condition_jaervs_nf|5992|1.27%|
-|no_pi_fight_length_mod_with_void_torrent|5992|1.26%|
+|2m_PI_all_covenants|5987|1.17%|
+|Saeldurs_PR|5987|1.17%|
+|2m_PI_Venthyr|5986|1.17%|
 |Base|5917|0.00%|

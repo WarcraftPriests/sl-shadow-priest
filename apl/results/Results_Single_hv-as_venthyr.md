@@ -1,8 +1,7 @@
 # Single - hv-as - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|everything|5597|0.55%|
-|no_pi_fight_length_mod_with_void_torrent|5597|0.54%|
-|simplified_pi_or_vf_sync_condition_jaervs_nf|5586|0.34%|
-|simplified_pi_or_vf_sync_condition|5585|0.33%|
-|Base|5567|0.00%|
+|Saeldurs_PR|5587|0.40%|
+|2m_PI_all_covenants|5584|0.34%|
+|2m_PI_Venthyr|5582|0.31%|
+|Base|5565|0.00%|
