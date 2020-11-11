@@ -5,6 +5,8 @@ from itertools import combinations_with_replacement
 import re
 import yaml
 
+import internal.utils as utils
+
 with open("config.yml", "r") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
@@ -219,19 +221,8 @@ if __name__ == '__main__':
         '--ptr', help='indicate if the sim should use ptr data.', action='store_true')
     args = parser.parse_args()
 
-    if args.talents:
-        talents = [args.talents]
-    elif config["sims"][args.dir[:-1]]["builds"]:
-        talents = config["builds"].keys()
-    else:
-        talents = []
-
-    if args.covenant:
-        covenants = [args.covenant]
-    elif config["sims"][args.dir[:-1]]["covenant"]["lookup"]:
-        covenants = config["covenants"]
-    else:
-        covenants = []
+    talents = utils.get_talents(args)
+    covenants = utils.get_covenant(args)
 
     clear_out_folders('%soutput/' % args.dir)
     clear_out_folders('%sprofiles/' % args.dir)

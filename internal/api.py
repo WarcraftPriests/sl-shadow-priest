@@ -105,7 +105,7 @@ def poll_status(api_url_base, sim_id):
             if state == "complete":
                 print("Sim {0} finished.".format(sim_id))
                 break
-            elif state == "inactive":
+            if state == "inactive":
                 print("Sim {0} in queue.".format(sim_id))
                 time.sleep(retry_interval)
             elif state == "active":

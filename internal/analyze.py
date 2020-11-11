@@ -367,7 +367,7 @@ def build_covenant_json():
                 talent_data = json.load(data)
             covenant_data = talent_data['data'][sim_type.lower()]
             # for each set of covenant{} data populate new dict with min/max
-            for covenant in covenants.keys():
+            for covenant in covenants:
                 if covenants[covenant]["max"]:
                     covenants[covenant]["max"] = max(
                         covenant_data[covenant]["max"], covenants[covenant]["max"])
@@ -396,13 +396,13 @@ def get_simc_dir(talent, covenant, folder_name):
     """get proper simc dir"""
     if covenant:
         return "{0}/{1}/{2}/".format(folder_name, talent, covenant)
-    elif talent:
+    if talent:
         return "{0}/{1}/".format(folder_name, talent)
-    else:
-        return "{0}/".format(folder_name)
+    return "{0}/".format(folder_name)
 
 
 def analyze(talents, directory, dungeons, weights, timestamp, covenant):
+    # pylint: disable=too-many-arguments, too-many-locals
     """main analyze function"""
     foldername = os.path.basename(os.getcwd())
     # Move to correct outer folder

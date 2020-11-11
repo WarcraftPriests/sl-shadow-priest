@@ -13,6 +13,7 @@ from internal.weights import find_weights
 from internal.sim_parser import parse_json
 from internal.sim_parser import get_timestamp
 from internal.analyze import analyze
+import internal.utils as utils
 
 api_secrets = importlib.util.find_spec("api_secrets")
 local_secrets = importlib.util.find_spec("local_secrets")
@@ -153,8 +154,7 @@ def main():
     # Download simc if needed
     if local_secrets and args.local and args.auto_download:
         from internal.auto_download import download_latest
-        from local_secrets import simc_path
-        simc_path['latest'] = download_latest()
+        local_secrets.simc_path['latest'] = download_latest()
         # Additional temp swap to using the latest build
         config['simcBuild'] = 'latest'
 
@@ -164,19 +164,8 @@ def main():
     else:
         iterations = str(config["defaultIterations"])
 
-    if args.talents:
-        talents = [args.talents]
-    elif config["sims"][args.dir[:-1]]["builds"]:
-        talents = config["builds"].keys()
-    else:
-        talents = []
-
-    if args.covenant:
-        covenants = [args.covenant]
-    elif config["sims"][args.dir[:-1]]["covenant"]["lookup"]:
-        covenants = config["covenants"]
-    else:
-        covenants = []
+    talents = utils.get_talents(args)
+    covenants = utils.get_covenant(args)
 
     if covenants:
         for talent, covenant in [
