@@ -1,4 +1,4 @@
 pyyaml>5.1
 pandas>=1.0.3
 requests>=2.23.0
-numpy>=1.18.2
+numpy==1.19.3

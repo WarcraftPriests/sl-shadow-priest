@@ -64,8 +64,9 @@ actions.essences+=/reaping_flames
 actions.essences+=/worldvein_resonance
 actions.essences+=/the_unbound_force
 
+actions.main=/call_action_list,name=boon,if=buff.boon_of_the_ascended.up
 # Sync up Voidform and Power Infusion Cooldowns and of using LotV pool insanity before casting.
-actions.main=void_eruption,if=variable.pi_or_vf_sync_condition&insanity>=40
+actions.main+=/void_eruption,if=variable.pi_or_vf_sync_condition&insanity>=40
 # Make sure you put up SW:P ASAP on the target if Wrathful Faerie isn't active.
 actions.main+=/shadow_word_pain,if=buff.fae_guardians.up&!debuff.wrathful_faerie.up
 actions.main+=/call_action_list,name=cds
@@ -83,9 +84,9 @@ actions.main+=/void_bolt,if=spell_targets.mind_sear<(4+conduit.dissonant_echoes.
 actions.main+=/shadow_word_death,target_if=(target.health.pct<20&spell_targets.mind_sear<4)|(pet.fiend.active&runeforge.shadowflame_prism.equipped)
 # Use Surrender to Madness on a target that is going to die at the right time.
 actions.main+=/surrender_to_madness,target_if=target.time_to_die<25&buff.voidform.down
-actions.main+=/mindbender,if=dot.vampiric_touch.ticking&((talent.searing_nightmare.enabled&spell_targets.mind_sear>(variable.mind_sear_cutoff+1))|dot.shadow_word_pain.ticking)
 # Use Void Torrent only if SW:P and VT are active and the target won't die during the channel.
 actions.main+=/void_torrent,target_if=variable.dots_up&target.time_to_die>3&buff.voidform.down&spell_targets.mind_sear<(5+(6*talent.twist_of_fate.enabled))
+actions.main+=/mindbender,if=dot.vampiric_touch.ticking&((talent.searing_nightmare.enabled&spell_targets.mind_sear>(variable.mind_sear_cutoff+1))|dot.shadow_word_pain.ticking)
 # Use SW:D with Painbreaker Psalm unless the target will be below 20% before the cooldown comes back
 actions.main+=/shadow_word_death,if=runeforge.painbreaker_psalm.equipped&variable.dots_up&target.time_to_pct_20>(cooldown.shadow_word_death.duration+gcd)
 # Use Shadow Crash on CD unless there are adds incoming.

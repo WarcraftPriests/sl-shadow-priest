@@ -50,10 +50,10 @@ covenants:
   - necrolord
 sims:
   apl:
-    builds: false
+    builds: true
     weights: false
     covenant:
-      lookup: false
+      lookup: true
       files: false
     lookupType: none
     steps:
@@ -310,7 +310,7 @@ simcBuild: nightly
 defaultIterations: 10000
 raidbots:
   apiUrlBase: https://www.raidbots.com
-  numOfRetries: 2
+  numOfRetries: 10
   retryInterval: 20
 analyze:
   markdown: true

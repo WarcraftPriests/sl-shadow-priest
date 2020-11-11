@@ -142,9 +142,19 @@ def main():
         '--covenant', help='indicate covenant build for output.', choices=config["covenants"])
     parser.add_argument(
         '--local', help='indicate if the simulation should run local.', action='store_true')
+    parser.add_argument(
+        '--auto_download', help='indicate if we should automatically download latest simc.', action='store_true')
     args = parser.parse_args()
 
     sys.path.insert(0, args.dir)
+
+
+    # Download simc if needed
+    if (args.local and args.auto_download):
+        from internal.auto_download import download_latest
+        from local_secrets import simc_path
+        simc_path['latest'] = download_latest()
+        config['simcBuild'] = 'latest' # Additional temp swap to using the latest build
 
     weights = config["sims"][args.dir[:-1]]["weights"]
     if args.iterations:
