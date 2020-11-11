@@ -6,14 +6,16 @@ import platform
 import re
 import os
 from os import listdir
+import importlib
 import yaml
-import api_secrets
-import local_secrets
 
 from internal.weights import find_weights
 from internal.sim_parser import parse_json
 from internal.sim_parser import get_timestamp
 from internal.analyze import analyze
+
+api_secrets = importlib.util.find_spec("api_secrets")
+local_secrets = importlib.util.find_spec("local_secrets")
 
 with open("config.yml", "r") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
@@ -149,7 +151,7 @@ def main():
     sys.path.insert(0, args.dir)
 
     # Download simc if needed
-    if (args.local and args.auto_download):
+    if local_secrets and args.local and args.auto_download:
         from internal.auto_download import download_latest
         from local_secrets import simc_path
         simc_path['latest'] = download_latest()
