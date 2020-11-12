@@ -211,7 +211,3 @@ def raidbots(api_key, profile_location, simc_build, output_location, report_name
         print(f"Saved results to {output_location}")
     else:
         print("Error getting data from Raidbots")
-
-
-if __name__ == "__main__":
-    poll_status("https://raidbots.com", "7dRu7se1Hbh3K3EAUneWDH")
