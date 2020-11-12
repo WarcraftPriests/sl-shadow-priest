@@ -19,7 +19,7 @@ actions.precombat+=/snapshot_stats
 actions.precombat+=/potion
 actions.precombat+=/shadowform,if=!buff.shadowform.up
 actions.precombat+=/use_item,name=azsharas_font_of_power
-actions.precombat+=/variable,name=mind_sear_cutoff,op=set,value=1
+actions.precombat+=/variable,name=mind_sear_cutoff,op=set,value=2
 actions.precombat+=/vampiric_touch
 
 # Executed every time the actor is available.
@@ -72,7 +72,7 @@ actions.main+=/void_eruption,if=variable.pool_for_cds&insanity>=40&insanity<=85&
 actions.main+=/shadow_word_pain,if=buff.fae_guardians.up&!debuff.wrathful_faerie.up
 actions.main+=/call_action_list,name=cds
 # High Priority Mind Sear action to refresh DoTs with Searing Nightmare
-actions.main+=/mind_sear,target_if=talent.searing_nightmare.enabled&spell_targets.mind_sear>(variable.mind_sear_cutoff+1)&!dot.shadow_word_pain.ticking&pet.fiend.down
+actions.main+=/mind_sear,target_if=talent.searing_nightmare.enabled&spell_targets.mind_sear>variable.mind_sear_cutoff&!dot.shadow_word_pain.ticking&pet.fiend.down
 # Prefer to use Damnation ASAP if any DoT is not up.
 actions.main+=/damnation,target_if=!variable.all_dots_up
 # Use Void Bolt at higher priority with Hungering Void up to 4 targets, or other talents on ST.
@@ -87,7 +87,7 @@ actions.main+=/shadow_word_death,target_if=(target.health.pct<20&spell_targets.m
 actions.main+=/surrender_to_madness,target_if=target.time_to_die<25&buff.voidform.down
 # Use Void Torrent only if SW:P and VT are active and the target won't die during the channel.
 actions.main+=/void_torrent,target_if=variable.dots_up&target.time_to_die>3&buff.voidform.down&active_dot.vampiric_touch==spell_targets.vampiric_touch&spell_targets.mind_sear<(5+(6*talent.twist_of_fate.enabled))
-actions.main+=/mindbender,if=dot.vampiric_touch.ticking&((talent.searing_nightmare.enabled&spell_targets.mind_sear>(variable.mind_sear_cutoff+1))|dot.shadow_word_pain.ticking)
+actions.main+=/mindbender,if=dot.vampiric_touch.ticking&(talent.searing_nightmare.enabled&spell_targets.mind_sear>variable.mind_sear_cutoff|dot.shadow_word_pain.ticking)
 # Use SW:D with Painbreaker Psalm unless the target will be below 20% before the cooldown comes back
 actions.main+=/shadow_word_death,if=runeforge.painbreaker_psalm.equipped&variable.dots_up&target.time_to_pct_20>(cooldown.shadow_word_death.duration+gcd)
 # Use Shadow Crash on CD unless there are adds incoming.
@@ -102,7 +102,7 @@ actions.main+=/vampiric_touch,target_if=refreshable&target.time_to_die>6|(talent
 # Special condition to stop casting SW:P on off-targets when fighting 3 or more stacked mobs and using Psychic Link and NOT Misery.
 actions.main+=/shadow_word_pain,if=refreshable&target.time_to_die>4&!talent.misery.enabled&talent.psychic_link.enabled&spell_targets.mind_sear>2
 # Keep SW:P up on as many targets as possible, except when fighting 3 or more stacked mobs with Psychic Link.
-actions.main+=/shadow_word_pain,target_if=refreshable&target.time_to_die>4&!talent.misery.enabled&!(talent.searing_nightmare.enabled&spell_targets.mind_sear>(variable.mind_sear_cutoff+1))&(!talent.psychic_link.enabled|(talent.psychic_link.enabled&spell_targets.mind_sear<=2))
+actions.main+=/shadow_word_pain,target_if=refreshable&target.time_to_die>4&!talent.misery.enabled&!talent.searing_nightmare.enabled&spell_targets.mind_sear>variable.mind_sear_cutoff&(!talent.psychic_link.enabled|(talent.psychic_link.enabled&spell_targets.mind_sear<=2))
 actions.main+=/mind_sear,target_if=spell_targets.mind_sear>variable.mind_sear_cutoff,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
 actions.main+=/mind_flay,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&cooldown.void_bolt.up
 # Use SW:D as last resort if on the move
