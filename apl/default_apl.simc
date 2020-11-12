@@ -32,7 +32,7 @@ actions+=/variable,name=pool_for_cds,op=set,value=cooldown.void_eruption.up
 actions+=/call_action_list,name=cwc
 actions+=/run_action_list,name=main
 
-actions.cds=power_infusion,if=buff.voidform.up|covenant.necrolord|covenant.night_fae&cooldown.void_eruption.remains>=10|fight_remains<cooldown.void_eruption.remains
+actions.cds=power_infusion,if=buff.voidform.up|!soulbind.Combat_Meditation.enabled&covenant.kyrian|covenant.venthyr|covenant.necrolord|covenant.night_fae&cooldown.void_eruption.remains>=10|fight_remains<cooldown.void_eruption.remains
 # Use Silence on CD to proc Sephuz's Proclamation.
 actions.cds+=/silence,target_if=runeforge.sephuzs_proclamation.equipped&(target.is_add|target.debuff.casting.react)
 actions.cds+=/fae_guardians,if=!buff.voidform.up&!cooldown.void_torrent.up|buff.voidform.up&(soulbind.grove_invigoration.enabled|soulbind.field_of_blossoms.enabled)
