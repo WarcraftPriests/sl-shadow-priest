@@ -1,8 +1,11 @@
 # Composite - hv-sc - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|simplified_pi_or_vf_sync_condition_jaervs_nf|5862|2.93%|
-|simplified_pi_or_vf_sync_condition|5826|2.29%|
-|no_pi_fight_length_mod_with_void_torrent|5826|2.29%|
-|everything|5825|2.27%|
+|2m_PI_all_covenants_VB_Change|5876|3.17%|
+|Saeldurs_PR_VB_Change|5876|3.17%|
+|2m_PI_Venthyr_VB_Change|5875|3.16%|
+|2m_PI_all_covenants|5868|3.04%|
+|2m_PI_Venthyr|5868|3.04%|
+|Saeldurs_PR|5868|3.03%|
+|Base_VB_Change|5713|0.31%|
 |Base|5695|0.00%|

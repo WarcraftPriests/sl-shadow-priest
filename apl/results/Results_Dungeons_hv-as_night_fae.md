@@ -1,8 +1,11 @@
 # Dungeons - hv-as - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|4861|0.00%|
-|simplified_pi_or_vf_sync_condition_jaervs_nf|3870|-20.39%|
-|everything|3773|-22.38%|
-|no_pi_fight_length_mod_with_void_torrent|3750|-22.86%|
-|simplified_pi_or_vf_sync_condition|3749|-22.88%|
+|Saeldurs_PR_VB_Change|5470|3.03%|
+|2m_PI_all_covenants_VB_Change|5469|3.01%|
+|2m_PI_Venthyr_VB_Change|5467|2.98%|
+|2m_PI_all_covenants|5434|2.35%|
+|Saeldurs_PR|5430|2.28%|
+|2m_PI_Venthyr|5427|2.22%|
+|Base_VB_Change|5310|0.02%|
+|Base|5309|0.00%|

@@ -1,8 +1,11 @@
 # Dungeons - hv-sc - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|5466|0.00%|
-|everything|4117|-24.68%|
-|no_pi_fight_length_mod_with_void_torrent|4095|-25.08%|
-|simplified_pi_or_vf_sync_condition|4095|-25.08%|
-|simplified_pi_or_vf_sync_condition_jaervs_nf|4094|-25.10%|
+|Base_VB_Change|5961|0.02%|
+|Base|5960|0.00%|
+|2m_PI_all_covenants_VB_Change|5792|-2.82%|
+|Saeldurs_PR_VB_Change|5785|-2.94%|
+|2m_PI_Venthyr_VB_Change|5783|-2.97%|
+|2m_PI_all_covenants|5774|-3.12%|
+|Saeldurs_PR|5757|-3.41%|
+|2m_PI_Venthyr|5756|-3.42%|

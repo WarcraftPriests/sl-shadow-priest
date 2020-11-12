@@ -1,8 +1,11 @@
 # Dungeons - stm - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|5540|0.00%|
-|everything|4781|-13.70%|
-|no_pi_fight_length_mod_with_void_torrent|4780|-13.72%|
-|simplified_pi_or_vf_sync_condition|4603|-16.91%|
-|simplified_pi_or_vf_sync_condition_jaervs_nf|4599|-16.99%|
+|2m_PI_Venthyr_VB_Change|6072|0.76%|
+|2m_PI_all_covenants_VB_Change|6070|0.73%|
+|Saeldurs_PR_VB_Change|6069|0.71%|
+|2m_PI_all_covenants|6066|0.66%|
+|2m_PI_Venthyr|6064|0.63%|
+|Saeldurs_PR|6054|0.46%|
+|Base_VB_Change|6044|0.30%|
+|Base|6026|0.00%|

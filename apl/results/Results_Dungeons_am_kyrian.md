@@ -1,8 +1,11 @@
 # Dungeons - am - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|5475|0.00%|
-|everything|4120|-24.75%|
-|no_pi_fight_length_mod_with_void_torrent|4097|-25.17%|
-|simplified_pi_or_vf_sync_condition|4096|-25.19%|
-|simplified_pi_or_vf_sync_condition_jaervs_nf|4095|-25.21%|
+|Base_VB_Change|5985|0.20%|
+|Base|5973|0.00%|
+|2m_PI_all_covenants_VB_Change|5871|-1.71%|
+|2m_PI_all_covenants|5869|-1.74%|
+|Saeldurs_PR|5848|-2.09%|
+|2m_PI_Venthyr|5847|-2.11%|
+|2m_PI_Venthyr_VB_Change|5841|-2.21%|
+|Saeldurs_PR_VB_Change|5840|-2.23%|

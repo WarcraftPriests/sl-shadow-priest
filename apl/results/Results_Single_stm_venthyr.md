@@ -1,8 +1,11 @@
 # Single - stm - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|no_pi_fight_length_mod_with_void_torrent|5364|0.42%|
-|everything|5364|0.41%|
-|simplified_pi_or_vf_sync_condition|5359|0.32%|
-|simplified_pi_or_vf_sync_condition_jaervs_nf|5358|0.31%|
-|Base|5342|0.00%|
+|2m_PI_Venthyr_VB_Change|5402|1.09%|
+|2m_PI_all_covenants_VB_Change|5400|1.05%|
+|2m_PI_Venthyr|5387|0.81%|
+|2m_PI_all_covenants|5387|0.80%|
+|Saeldurs_PR_VB_Change|5375|0.58%|
+|Saeldurs_PR|5360|0.29%|
+|Base_VB_Change|5355|0.21%|
+|Base|5344|0.00%|

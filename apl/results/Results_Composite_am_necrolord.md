@@ -1,8 +1,11 @@
 # Composite - am - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|everything|5865|1.78%|
-|no_pi_fight_length_mod_with_void_torrent|5864|1.78%|
-|simplified_pi_or_vf_sync_condition|5864|1.78%|
-|simplified_pi_or_vf_sync_condition_jaervs_nf|5864|1.77%|
+|2m_PI_all_covenants_VB_Change|5861|1.72%|
+|2m_PI_Venthyr_VB_Change|5861|1.72%|
+|Saeldurs_PR_VB_Change|5861|1.72%|
+|2m_PI_Venthyr|5858|1.67%|
+|2m_PI_all_covenants|5857|1.66%|
+|Saeldurs_PR|5857|1.65%|
+|Base_VB_Change|5768|0.10%|
 |Base|5762|0.00%|

@@ -1,8 +1,11 @@
 # Dungeons - stm - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|5095|0.00%|
-|simplified_pi_or_vf_sync_condition_jaervs_nf|4451|-12.64%|
-|everything|4378|-14.07%|
-|simplified_pi_or_vf_sync_condition|4370|-14.23%|
-|no_pi_fight_length_mod_with_void_torrent|4369|-14.25%|
+|2m_PI_all_covenants|5902|5.09%|
+|2m_PI_Venthyr|5901|5.07%|
+|2m_PI_Venthyr_VB_Change|5901|5.07%|
+|2m_PI_all_covenants_VB_Change|5901|5.07%|
+|Saeldurs_PR|5900|5.06%|
+|Saeldurs_PR_VB_Change|5900|5.06%|
+|Base_VB_Change|5622|0.11%|
+|Base|5616|0.00%|

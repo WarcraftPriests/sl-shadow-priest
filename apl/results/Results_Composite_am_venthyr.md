@@ -1,8 +1,11 @@
 # Composite - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|simplified_pi_or_vf_sync_condition_jaervs_nf|5770|1.03%|
-|simplified_pi_or_vf_sync_condition|5769|1.03%|
-|everything|5753|0.74%|
-|no_pi_fight_length_mod_with_void_torrent|5752|0.72%|
-|Base|5711|0.00%|
+|2m_PI_Venthyr_VB_Change|5782|1.26%|
+|2m_PI_all_covenants_VB_Change|5782|1.26%|
+|Saeldurs_PR_VB_Change|5777|1.16%|
+|2m_PI_all_covenants|5771|1.07%|
+|2m_PI_Venthyr|5771|1.06%|
+|Saeldurs_PR|5763|0.92%|
+|Base_VB_Change|5718|0.13%|
+|Base|5710|0.00%|

@@ -1,8 +1,11 @@
 # Single - am - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|no_pi_fight_length_mod_with_void_torrent|5477|1.90%|
-|simplified_pi_or_vf_sync_condition|5475|1.88%|
-|everything|5474|1.86%|
-|simplified_pi_or_vf_sync_condition_jaervs_nf|5474|1.86%|
-|Base|5374|0.00%|
+|2m_PI_all_covenants|5490|2.17%|
+|2m_PI_all_covenants_VB_Change|5476|1.91%|
+|Saeldurs_PR|5476|1.91%|
+|2m_PI_Venthyr|5475|1.89%|
+|Saeldurs_PR_VB_Change|5461|1.64%|
+|2m_PI_Venthyr_VB_Change|5461|1.63%|
+|Base_VB_Change|5374|0.02%|
+|Base|5373|0.00%|

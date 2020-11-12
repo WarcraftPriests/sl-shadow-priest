@@ -1,8 +1,11 @@
 # Single - hv-as - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|simplified_pi_or_vf_sync_condition|5636|1.17%|
-|simplified_pi_or_vf_sync_condition_jaervs_nf|5635|1.15%|
-|everything|5635|1.15%|
-|no_pi_fight_length_mod_with_void_torrent|5634|1.13%|
+|Saeldurs_PR_VB_Change|5650|1.41%|
+|2m_PI_Venthyr_VB_Change|5649|1.40%|
+|2m_PI_all_covenants_VB_Change|5648|1.39%|
+|Saeldurs_PR|5634|1.14%|
+|2m_PI_all_covenants|5634|1.13%|
+|2m_PI_Venthyr|5634|1.13%|
+|Base_VB_Change|5578|0.12%|
 |Base|5571|0.00%|

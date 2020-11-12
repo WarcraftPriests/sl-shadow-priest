@@ -1,8 +1,11 @@
 # Dungeons - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|5512|0.00%|
-|everything|4272|-22.50%|
-|simplified_pi_or_vf_sync_condition_jaervs_nf|4245|-22.99%|
-|simplified_pi_or_vf_sync_condition|4244|-23.00%|
-|no_pi_fight_length_mod_with_void_torrent|4242|-23.04%|
+|Base_VB_Change|6009|0.02%|
+|Base|6008|0.00%|
+|Saeldurs_PR_VB_Change|5998|-0.17%|
+|2m_PI_all_covenants_VB_Change|5995|-0.22%|
+|2m_PI_Venthyr_VB_Change|5991|-0.28%|
+|Saeldurs_PR|5976|-0.53%|
+|2m_PI_all_covenants|5973|-0.58%|
+|2m_PI_Venthyr|5972|-0.60%|

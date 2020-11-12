@@ -1,8 +1,11 @@
 # Single - hv-sc - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|simplified_pi_or_vf_sync_condition_jaervs_nf|5497|2.25%|
-|everything|5474|1.82%|
-|no_pi_fight_length_mod_with_void_torrent|5473|1.81%|
-|simplified_pi_or_vf_sync_condition|5473|1.80%|
+|2m_PI_all_covenants_VB_Change|5511|2.51%|
+|Saeldurs_PR_VB_Change|5510|2.49%|
+|2m_PI_Venthyr_VB_Change|5510|2.49%|
+|2m_PI_all_covenants|5498|2.27%|
+|2m_PI_Venthyr|5498|2.27%|
+|Saeldurs_PR|5497|2.25%|
 |Base|5376|0.00%|
+|Base_VB_Change|5371|-0.09%|
