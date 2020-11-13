@@ -130,16 +130,15 @@ def replace_talents(talent_string, data):
 
 
 def build_profiles(talent_string, covenant_string):
-    # pylint: disable=R0912
+    # pylint: disable=R0912, too-many-locals
     """build combination list e.g. pw_sa_1"""
+    fight_styles = ["pw", "lm", "hm"]
+    add_types = ["sa", "ba", "na"]
+    targets = ["1", "2"]
     combinations = [
-        "{0}_{1}_{2}".format(fight, add, tar) for fight in [
-            "pw", "lm", "hm"
-        ] for add in [
-            "sa", "ba", "na"
-        ] for tar in [
-            "1", "2"
-        ]
+        "{0}_{1}_{2}".format(
+            fight, add, tar
+        ) for fight in fight_styles for add in add_types for tar in targets
     ]
     sim_files = config["sims"][args.dir[:-1]]["files"]
 
