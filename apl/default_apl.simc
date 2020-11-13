@@ -28,19 +28,23 @@ actions+=/variable,name=dots_up,op=set,value=dot.shadow_word_pain.ticking&dot.va
 actions+=/variable,name=all_dots_up,op=set,value=dot.shadow_word_pain.ticking&dot.vampiric_touch.ticking&dot.devouring_plague.ticking
 # Start using Searing Nightmare at 3+ targets or 4+ if you are in Voidform
 actions+=/variable,name=searing_nightmare_cutoff,op=set,value=spell_targets.mind_sear>2+buff.voidform.up
-# Cooldown Sync condition, currently only syncing to void eruption on specific cases
+# Cooldown Pool Variable, Used to pool before activating voidform. Currently used to control when to activate voidform with incoming adds.
 actions+=/variable,name=pool_for_cds,op=set,value=cooldown.void_eruption.up&(!raid_event.adds.up|raid_event.adds.duration<=10|raid_event.adds.remains>=10+5*(talent.hungering_void.enabled|covenant.kyrian))&((raid_event.adds.in>20|spell_targets.void_eruption>=5)|talent.hungering_void.enabled|covenant.kyrian)
 actions+=/call_action_list,name=cwc
 actions+=/run_action_list,name=main
 
+# Use Power Infusion with Voidform. Hold for Voidform comes off cooldown in the next 10 seconds otherwise use on cd unless the Pelagos Trait Combat Meditation is talented, or if there will not be another Void Eruption this fight.
 actions.cds=power_infusion,if=buff.voidform.up|!soulbind.combat_meditation.enabled&cooldown.void_eruption.remains>=10|fight_remains<cooldown.void_eruption.remains
 # Use Silence on CD to proc Sephuz's Proclamation.
 actions.cds+=/silence,target_if=runeforge.sephuzs_proclamation.equipped&(target.is_add|target.debuff.casting.react)
+# Use Fae Guardians on CD outside of Voidform. Use Fae Guardiands in Voidform if you have either Grove Invigoration or Field of Blossoms
 actions.cds+=/fae_guardians,if=!buff.voidform.up&!cooldown.void_torrent.up|buff.voidform.up&(soulbind.grove_invigoration.enabled|soulbind.field_of_blossoms.enabled)
 actions.cds+=/mindgames,target_if=insanity<90&(variable.all_dots_up|buff.voidform.up)
+# Use Unholy Nova on CD, holding briefly to wait for power infusion or add spawns.
 actions.cds+=/unholy_nova,if=((!raid_event.adds.up&raid_event.adds.in>20)|raid_event.adds.remains>=15|raid_event.adds.duration<15)&(buff.power_infusion.up|cooldown.power_infusion.remains>=10)
 actions.cds+=/boon_of_the_ascended,if=!buff.voidform.up&!cooldown.void_eruption.up&spell_targets.mind_sear>1&!talent.searing_nightmare.enabled|(buff.voidform.up&spell_targets.mind_sear<2&!talent.searing_nightmare.enabled&prev_gcd.1.void_bolt)|(buff.voidform.up&talent.searing_nightmare.enabled)
 actions.cds+=/call_action_list,name=essences
+# Use Badge inside of VF for the first use or on CD after the first use. With Night Fae hold for VF.
 actions.cds+=/use_item,name=sinful_gladiators_badge_of_ferocity,if=buff.voidform.up|time>10&(!covenant.night_fae)
 # Default fallback for usable items: Use on cooldown.
 actions.cds+=/use_items
@@ -66,8 +70,8 @@ actions.essences+=/reaping_flames
 actions.essences+=/worldvein_resonance
 actions.essences+=/the_unbound_force
 
-actions.main=/call_action_list,name=boon,if=buff.boon_of_the_ascended.up
-# Sync up Voidform and Power Infusion Cooldowns and of using LotV pool insanity before casting.
+actions.main=call_action_list,name=boon,if=buff.boon_of_the_ascended.up
+# Use Void Eruption on cooldown pooling at least 40 insanity but not if you will overcap insanity in VF. Make sure shadowfiend/mindbender is on cooldown before VE.
 actions.main+=/void_eruption,if=variable.pool_for_cds&insanity>=40&(insanity<=85|talent.searing_nightmare.enabled&variable.searing_nightmare_cutoff)&pet.fiend.down
 # Make sure you put up SW:P ASAP on the target if Wrathful Faerie isn't active.
 actions.main+=/shadow_word_pain,if=buff.fae_guardians.up&!debuff.wrathful_faerie.up
