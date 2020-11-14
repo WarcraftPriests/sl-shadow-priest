@@ -27,7 +27,10 @@ def test_download_latest(mocker):
 
     mocker.patch('os.path.exists', return_value=False)
     spy1 = mocker.patch('internal.auto_download._find_7zip', return_value="7z")
-    spy2 = mocker.patch('internal.auto_download._ensure_download_path', return_value=f"{os.path.sep}tmp")
+    spy2 = mocker.patch(
+        'internal.auto_download._ensure_download_path',
+        return_value=f"{os.path.sep}tmp"
+    )
     spy3 = mocker.patch(
         'internal.auto_download._get_latest_filename',
         return_value="latest_filename.7z"
@@ -43,8 +46,13 @@ def test_download_latest(mocker):
     spy1.assert_called_once_with(["7z.exe", "C:/Program Files/7-Zip/7z.exe"])
     spy2.assert_called_once_with()
     spy3.assert_called_once_with()
-    spy4.assert_called_once_with(f"{BASE_URL}/latest_filename.7z", f"{os.path.sep}tmp{os.path.sep}latest_filename.7z")
-    spy5.assert_called_once_with(f"7z x \"{os.path.sep}tmp{os.path.sep}latest_filename.7z\" -aoa -o\"{os.path.sep}tmp\"")
+    spy4.assert_called_once_with(
+        f"{BASE_URL}/latest_filename.7z",
+        f"{os.path.sep}tmp{os.path.sep}latest_filename.7z"
+    )
+    spy5.assert_called_once_with(
+        f"7z x \"{os.path.sep}tmp{os.path.sep}latest_filename.7z\" -aoa -o\"{os.path.sep}tmp\""
+    )
 
     assert result == f"{os.path.sep}tmp{os.path.sep}latest_filename{os.path.sep}"
 
