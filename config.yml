@@ -4,10 +4,10 @@ builds:
     dungeons: 1131321 # FotM_SN_SC_MB_AM
     single: 1111131 # FotM_ToF_AS_VT_AM
     conduits:
-      first: 
+      first:
         id: "107"
         name: HA
-      second: 
+      second:
         id: "115"
         name: DE
   hv-as:
@@ -15,7 +15,7 @@ builds:
     dungeons: 1131122 # FotM_SN_AS_MB_HV
     single: 1111132 # FotM_ToF_AS_VT_HV
     conduits:
-      first: 
+      first:
         id: "115"
         name: DE
       second:
@@ -50,6 +50,7 @@ covenants:
   - necrolord
 sims:
   apl:
+    description: "APL Sims used for testing rotational changes only"
     builds: true
     weights: false
     covenant:
@@ -61,6 +62,7 @@ sims:
     files:
       - apl.simc
   conduit-combos:
+    description: "Sims picking two conduits together to see if this changes the conduit rankings at all."
     builds: true
     weights: false
     covenant:
@@ -69,15 +71,16 @@ sims:
     lookupType: none
     steps:
       - DPS
-    files: 
+    files:
       - kyrian.simc
       - necrolord.simc
       - night_fae.simc
       - venthyr.simc
   conduits:
+    description: "Conduit sims by rank/ilevel for each given conduit."
     builds: true
     weights: false
-    covenant: 
+    covenant:
       lookup: true
       files: true
     lookupType: spell
@@ -95,6 +98,7 @@ sims:
       - night_fae.simc
       - venthyr.simc
   consumables:
+    description: "Sims all consumables you can use to augment your character"
     builds: true
     weights: false
     covenant:
@@ -106,6 +110,7 @@ sims:
     files:
       - consumables.simc
   covenant-choice:
+    description: "This sims all soulbind paths for each covenant and plots them against each other to get the Min (Worst Soulbind) and Max (Best Soulbind) to get a range of DPS you can expect from choosing this Covenant. This is then aggregated and averaged across the various talent options we are currently simming to give a good idea of the performance range you can expect."
     builds: true
     weights: false
     covenant:
@@ -117,6 +122,7 @@ sims:
     files:
       - choice.simc
   covenants:
+    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and adds them with a legendary and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands."
     builds: true
     weights: false
     covenant:
@@ -128,6 +134,7 @@ sims:
     files:
       - covenants.simc
   enchants:
+    description: "Sims all possible enchants to your characters gear by slot."
     builds: true
     weights: false
     covenant:
@@ -139,6 +146,7 @@ sims:
     files:
       - enchants.simc
   gear:
+    description: "NYI"
     builds: true
     weights: false
     covenant:
@@ -151,6 +159,7 @@ sims:
     files:
       - t26.simc
   legendaries:
+    description: "Adds just the legendary power effect to a piece of gear without changing any other variables. This does not sim the actual legendary item, but just the power to get an idea for the strength of the power specifically."
     builds: true
     weights: false
     covenant:
@@ -162,9 +171,10 @@ sims:
     files:
       - legendaries.simc
   legendary-items:
+    description: "Using a base set of Mythic BiS gear from Castle Nathria we swap out for each Legendary Item + Power to get a sense for what would be an upgrade compared to the base pieces we have available."
     builds: true
     weights: false
-    covenant: 
+    covenant:
       lookup: true
       files: false
     lookupType: spell
@@ -177,6 +187,7 @@ sims:
       - shadow.simc
       - generic.simc
   racials:
+    description: "Swaps out the racial for a particular actor that includes all stat effects or special abilities where they prove to be a DPS increase."
     builds: true
     weights: false
     covenant:
@@ -188,6 +199,7 @@ sims:
     files:
       - racials.simc
   soulbind-traits:
+    description: "Individual sims for each soulbind trait + covenant ability from base. Can subtract covenant only effect to see just that increase."
     builds: true
     weights: false
     covenant:
@@ -199,6 +211,7 @@ sims:
     files:
       - traits.simc
   soulbinds:
+    description: "Sims the various paths for each given soulbind using Rank 7 conduits if selected. Base includes the Covenant ability for that Covenant."
     builds: true
     weights: false
     covenant:
@@ -213,6 +226,7 @@ sims:
       - night_fae.simc
       - venthyr.simc
   soulbinds-launch:
+    description: "Altered version of the Soulbinds sim but capped at level 12 renown for Mythic Raid launch week."
     soulbinds:
     builds: true
     weights: false
@@ -228,6 +242,7 @@ sims:
       - night_fae.simc
       - venthyr.simc
   stats:
+    description: "Stat distribution sim to see where we would want to add stats given the option. Each letter stands for a secondary stat and the number indicates how many steps were added to that build. So H10 means we add 10 steps of haste (currently 100 stat each step)."
     builds: true
     weights: false
     covenant:
@@ -239,6 +254,7 @@ sims:
     files:
       - generated.simc
   talents:
+    description: "Sims every talent build against each other with no borrowed power."
     builds: false
     weights: false
     covenant:
@@ -252,6 +268,7 @@ sims:
       - HV.simc
       - STM.simc
   trinkets:
+    description: "Sims all trinkets by themselves (no second trinket) with base Covenant ability."
     builds: true
     weights: false
     covenant:
@@ -290,6 +307,7 @@ sims:
       - dungeons.simc
       - other.simc
   weights:
+    description: Stat weight sims for BiS Mythic Castle Nathria gear.
     builds: true
     weights: true
     covenant:
