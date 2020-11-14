@@ -15,7 +15,7 @@ BASE_URL = "http://downloads.simulationcraft.org/nightly"
 
 def download_latest():
     """
-    Find, download, and extract the latest version of simulationcraft if required. 
+    Find, download, and extract the latest version of simulationcraft if required.
     Returns the directory containing simc
     """
     seven_zip_paths = ["7z.exe", "C:/Program Files/7-Zip/7z.exe"]
