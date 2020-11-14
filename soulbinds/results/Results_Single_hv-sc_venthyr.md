@@ -1,12 +1,12 @@
 # Single - hv-sc - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Nadjia-TS_DD-DE|6161|9.00%|
-|Theotar-SS-DE_HA|6153|8.84%|
-|Nadjia-TS-DE_HA|6137|8.57%|
-|Theotar-SS_RP-DE|6094|7.80%|
-|Draven-BfW-DE|6082|7.59%|
-|Theotar-SS_WP-DE|6063|7.25%|
-|Draven-DE_HA|6014|6.39%|
-|Nadjia-TS_EP-DE|6013|6.38%|
+|Nadjia-TS_DD-DE|6183|9.39%|
+|Theotar-SS-DE_HA|6178|9.29%|
+|Nadjia-TS-DE_HA|6157|8.93%|
+|Theotar-SS_RP-DE|6119|8.25%|
+|Draven-BfW-DE|6104|7.99%|
+|Theotar-SS_WP-DE|6086|7.68%|
+|Draven-DE_HA|6035|6.76%|
+|Nadjia-TS_EP-DE|6032|6.71%|
 |Base|5653|0.00%|
