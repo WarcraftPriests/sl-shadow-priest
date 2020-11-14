@@ -29,27 +29,33 @@ main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidan
 # Volatile Solvent - 323074
 
 # 2 conduit setup
-profileset."Marileth-VS_Crit-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_crit=1
+profileset."Marileth-VS_Crit-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatiles_solvent_type=crit
 profileset."Marileth-VS_Crit-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
 
-profileset."Marileth-VS_Mastery-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_mastery=1
+profileset."Marileth-VS_Mastery-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatiles_solvent_type=mastery
 profileset."Marileth-VS_Mastery-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
 
-profileset."Marileth-VS_Intellect-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_primary=1
+profileset."Marileth-VS_Intellect-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatiles_solvent_type=primary
 profileset."Marileth-VS_Intellect-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
+
+profileset."Marileth-VS_Magic-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatiles_solvent_type=magic
+profileset."Marileth-VS_Magic-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
 
 profileset."Marileth-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7
 
 # 1 conduit setup
 # Plaguey's Preemptive Strike - 323090
-profileset."Marileth-PPS_VS_Crit-${conduits.first.name}"+=shadowlands.volatile_solvent_crit=1
+profileset."Marileth-PPS_VS_Crit-${conduits.first.name}"+=shadowlands.volatiles_solvent_type=crit
 profileset."Marileth-PPS_VS_Crit-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
 
-profileset."Marileth-PPS_VS_Mastery-${conduits.first.name}"+=shadowlands.volatile_solvent_mastery=1
+profileset."Marileth-PPS_VS_Mastery-${conduits.first.name}"+=shadowlands.volatiles_solvent_type=mastery
 profileset."Marileth-PPS_VS_Mastery-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
 
-profileset."Marileth-PPS_VS_Intellect-${conduits.first.name}"+=shadowlands.volatile_solvent_primary=1
+profileset."Marileth-PPS_VS_Intellect-${conduits.first.name}"+=shadowlands.volatiles_solvent_type=primary
 profileset."Marileth-PPS_VS_Intellect-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
+
+profileset."Marileth-PPS_VS_Magic-${conduits.first.name}"+=shadowlands.volatiles_solvent_type=magic
+profileset."Marileth-PPS_VS_Magic-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
 
 profileset."Marileth-PPS-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323090
 

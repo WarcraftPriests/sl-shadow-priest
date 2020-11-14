@@ -31,9 +31,6 @@ main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidan
 profileset."Niya-GI-${conduits.first.name}"+=soulbind=niya,${conduits.first.id}:6/322721
 
 # Dreamweaver
-# 2 conduit setup
-profileset."Dreamweaver-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/${conduits.second.id}:6
-
 # 1 conduit setup
 # Social Butterfly - 319210
 profileset."Dreamweaver-SB-${conduits.first.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/319210
