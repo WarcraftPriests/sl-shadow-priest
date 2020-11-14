@@ -25,83 +25,83 @@ trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance
 
 # Shadow Conduits
-profileset."Haunting_Apparitions_1"+=soulbind=theotar_the_mad_duke,107:1
-profileset."Haunting_Apparitions_2"+=soulbind=theotar_the_mad_duke,107:2
-profileset."Haunting_Apparitions_3"+=soulbind=theotar_the_mad_duke,107:3
-profileset."Haunting_Apparitions_4"+=soulbind=theotar_the_mad_duke,107:4
-profileset."Haunting_Apparitions_5"+=soulbind=theotar_the_mad_duke,107:5
-profileset."Haunting_Apparitions_6"+=soulbind=theotar_the_mad_duke,107:6
-profileset."Haunting_Apparitions_7"+=soulbind=theotar_the_mad_duke,107:7
-# profileset."Haunting_Apparitions_8"+=soulbind=theotar_the_mad_duke,107:8
-# profileset."Haunting_Apparitions_9"+=soulbind=theotar_the_mad_duke,107:9
-# profileset."Haunting_Apparitions_10"+=soulbind=theotar_the_mad_duke,107:10
-# profileset."Haunting_Apparitions_11"+=soulbind=theotar_the_mad_duke,107:11
-# profileset."Haunting_Apparitions_12"+=soulbind=theotar_the_mad_duke,107:12
-# profileset."Haunting_Apparitions_13"+=soulbind=theotar_the_mad_duke,107:13
-# profileset."Haunting_Apparitions_14"+=soulbind=theotar_the_mad_duke,107:14
-# profileset."Haunting_Apparitions_15"+=soulbind=theotar_the_mad_duke,107:15
+profileset."Haunting_Apparitions_145"+=soulbind=theotar_the_mad_duke,107:1
+profileset."Haunting_Apparitions_158"+=soulbind=theotar_the_mad_duke,107:2
+profileset."Haunting_Apparitions_171"+=soulbind=theotar_the_mad_duke,107:3
+profileset."Haunting_Apparitions_184"+=soulbind=theotar_the_mad_duke,107:4
+profileset."Haunting_Apparitions_200"+=soulbind=theotar_the_mad_duke,107:5
+profileset."Haunting_Apparitions_213"+=soulbind=theotar_the_mad_duke,107:6
+profileset."Haunting_Apparitions_226"+=soulbind=theotar_the_mad_duke,107:7
+# profileset."Haunting_Apparitions_239"+=soulbind=theotar_the_mad_duke,107:8
+# profileset."Haunting_Apparitions_252"+=soulbind=theotar_the_mad_duke,107:9
+# profileset."Haunting_Apparitions_265"+=soulbind=theotar_the_mad_duke,107:10
+# profileset."Haunting_Apparitions_278"+=soulbind=theotar_the_mad_duke,107:11
+# profileset."Haunting_Apparitions_291"+=soulbind=theotar_the_mad_duke,107:12
+# profileset."Haunting_Apparitions_304"+=soulbind=theotar_the_mad_duke,107:13
+# profileset."Haunting_Apparitions_317"+=soulbind=theotar_the_mad_duke,107:14
+# profileset."Haunting_Apparitions_330"+=soulbind=theotar_the_mad_duke,107:15
 
-profileset."Dissonant_Echoes_1"+=soulbind=theotar_the_mad_duke,115:1
-profileset."Dissonant_Echoes_2"+=soulbind=theotar_the_mad_duke,115:2
-profileset."Dissonant_Echoes_3"+=soulbind=theotar_the_mad_duke,115:3
-profileset."Dissonant_Echoes_4"+=soulbind=theotar_the_mad_duke,115:4
-profileset."Dissonant_Echoes_5"+=soulbind=theotar_the_mad_duke,115:5
-profileset."Dissonant_Echoes_6"+=soulbind=theotar_the_mad_duke,115:6
-profileset."Dissonant_Echoes_7"+=soulbind=theotar_the_mad_duke,115:7
-# profileset."Dissonant_Echoes_8"+=soulbind=theotar_the_mad_duke,115:8
-# profileset."Dissonant_Echoes_9"+=soulbind=theotar_the_mad_duke,115:9
-# profileset."Dissonant_Echoes_10"+=soulbind=theotar_the_mad_duke,115:10
-# profileset."Dissonant_Echoes_11"+=soulbind=theotar_the_mad_duke,115:11
-# profileset."Dissonant_Echoes_12"+=soulbind=theotar_the_mad_duke,115:12
-# profileset."Dissonant_Echoes_13"+=soulbind=theotar_the_mad_duke,115:13
-# profileset."Dissonant_Echoes_14"+=soulbind=theotar_the_mad_duke,115:14
-# profileset."Dissonant_Echoes_15"+=soulbind=theotar_the_mad_duke,115:15
+profileset."Dissonant_Echoes_145"+=soulbind=theotar_the_mad_duke,115:1
+profileset."Dissonant_Echoes_158"+=soulbind=theotar_the_mad_duke,115:2
+profileset."Dissonant_Echoes_171"+=soulbind=theotar_the_mad_duke,115:3
+profileset."Dissonant_Echoes_184"+=soulbind=theotar_the_mad_duke,115:4
+profileset."Dissonant_Echoes_200"+=soulbind=theotar_the_mad_duke,115:5
+profileset."Dissonant_Echoes_213"+=soulbind=theotar_the_mad_duke,115:6
+profileset."Dissonant_Echoes_226"+=soulbind=theotar_the_mad_duke,115:7
+# profileset."Dissonant_Echoes_239"+=soulbind=theotar_the_mad_duke,115:8
+# profileset."Dissonant_Echoes_252"+=soulbind=theotar_the_mad_duke,115:9
+# profileset."Dissonant_Echoes_265"+=soulbind=theotar_the_mad_duke,115:10
+# profileset."Dissonant_Echoes_278"+=soulbind=theotar_the_mad_duke,115:11
+# profileset."Dissonant_Echoes_291"+=soulbind=theotar_the_mad_duke,115:12
+# profileset."Dissonant_Echoes_304"+=soulbind=theotar_the_mad_duke,115:13
+# profileset."Dissonant_Echoes_317"+=soulbind=theotar_the_mad_duke,115:14
+# profileset."Dissonant_Echoes_330"+=soulbind=theotar_the_mad_duke,115:15
 
-profileset."Mind_Devourer_1"+=soulbind=theotar_the_mad_duke,113:1
-profileset."Mind_Devourer_2"+=soulbind=theotar_the_mad_duke,113:2
-profileset."Mind_Devourer_3"+=soulbind=theotar_the_mad_duke,113:3
-profileset."Mind_Devourer_4"+=soulbind=theotar_the_mad_duke,113:4
-profileset."Mind_Devourer_5"+=soulbind=theotar_the_mad_duke,113:5
-profileset."Mind_Devourer_6"+=soulbind=theotar_the_mad_duke,113:6
-profileset."Mind_Devourer_7"+=soulbind=theotar_the_mad_duke,113:7
-# profileset."Mind_Devourer_8"+=soulbind=theotar_the_mad_duke,113:8
-# profileset."Mind_Devourer_9"+=soulbind=theotar_the_mad_duke,113:9
-# profileset."Mind_Devourer_10"+=soulbind=theotar_the_mad_duke,113:10
-# profileset."Mind_Devourer_11"+=soulbind=theotar_the_mad_duke,113:11
-# profileset."Mind_Devourer_12"+=soulbind=theotar_the_mad_duke,113:12
-# profileset."Mind_Devourer_13"+=soulbind=theotar_the_mad_duke,113:13
-# profileset."Mind_Devourer_14"+=soulbind=theotar_the_mad_duke,113:14
-# profileset."Mind_Devourer_15"+=soulbind=theotar_the_mad_duke,113:15
+profileset."Mind_Devourer_145"+=soulbind=theotar_the_mad_duke,113:1
+profileset."Mind_Devourer_158"+=soulbind=theotar_the_mad_duke,113:2
+profileset."Mind_Devourer_171"+=soulbind=theotar_the_mad_duke,113:3
+profileset."Mind_Devourer_184"+=soulbind=theotar_the_mad_duke,113:4
+profileset."Mind_Devourer_200"+=soulbind=theotar_the_mad_duke,113:5
+profileset."Mind_Devourer_213"+=soulbind=theotar_the_mad_duke,113:6
+profileset."Mind_Devourer_226"+=soulbind=theotar_the_mad_duke,113:7
+# profileset."Mind_Devourer_239"+=soulbind=theotar_the_mad_duke,113:8
+# profileset."Mind_Devourer_252"+=soulbind=theotar_the_mad_duke,113:9
+# profileset."Mind_Devourer_265"+=soulbind=theotar_the_mad_duke,113:10
+# profileset."Mind_Devourer_278"+=soulbind=theotar_the_mad_duke,113:11
+# profileset."Mind_Devourer_291"+=soulbind=theotar_the_mad_duke,113:12
+# profileset."Mind_Devourer_304"+=soulbind=theotar_the_mad_duke,113:13
+# profileset."Mind_Devourer_317"+=soulbind=theotar_the_mad_duke,113:14
+# profileset."Mind_Devourer_330"+=soulbind=theotar_the_mad_duke,113:15
 
-profileset."Rabid_Shadows_1"+=soulbind=theotar_the_mad_duke,114:1
-profileset."Rabid_Shadows_2"+=soulbind=theotar_the_mad_duke,114:2
-profileset."Rabid_Shadows_3"+=soulbind=theotar_the_mad_duke,114:3
-profileset."Rabid_Shadows_4"+=soulbind=theotar_the_mad_duke,114:4
-profileset."Rabid_Shadows_5"+=soulbind=theotar_the_mad_duke,114:5
-profileset."Rabid_Shadows_6"+=soulbind=theotar_the_mad_duke,114:6
-profileset."Rabid_Shadows_7"+=soulbind=theotar_the_mad_duke,114:7
-# profileset."Rabid_Shadows_8"+=soulbind=theotar_the_mad_duke,114:8
-# profileset."Rabid_Shadows_9"+=soulbind=theotar_the_mad_duke,114:9
-# profileset."Rabid_Shadows_10"+=soulbind=theotar_the_mad_duke,114:10
-# profileset."Rabid_Shadows_11"+=soulbind=theotar_the_mad_duke,114:11
-# profileset."Rabid_Shadows_12"+=soulbind=theotar_the_mad_duke,114:12
-# profileset."Rabid_Shadows_13"+=soulbind=theotar_the_mad_duke,114:13
-# profileset."Rabid_Shadows_14"+=soulbind=theotar_the_mad_duke,114:14
-# profileset."Rabid_Shadows_15"+=soulbind=theotar_the_mad_duke,114:15
+profileset."Rabid_Shadows_145"+=soulbind=theotar_the_mad_duke,114:1
+profileset."Rabid_Shadows_158"+=soulbind=theotar_the_mad_duke,114:2
+profileset."Rabid_Shadows_171"+=soulbind=theotar_the_mad_duke,114:3
+profileset."Rabid_Shadows_184"+=soulbind=theotar_the_mad_duke,114:4
+profileset."Rabid_Shadows_200"+=soulbind=theotar_the_mad_duke,114:5
+profileset."Rabid_Shadows_213"+=soulbind=theotar_the_mad_duke,114:6
+profileset."Rabid_Shadows_226"+=soulbind=theotar_the_mad_duke,114:7
+# profileset."Rabid_Shadows_239"+=soulbind=theotar_the_mad_duke,114:8
+# profileset."Rabid_Shadows_252"+=soulbind=theotar_the_mad_duke,114:9
+# profileset."Rabid_Shadows_265"+=soulbind=theotar_the_mad_duke,114:10
+# profileset."Rabid_Shadows_278"+=soulbind=theotar_the_mad_duke,114:11
+# profileset."Rabid_Shadows_291"+=soulbind=theotar_the_mad_duke,114:12
+# profileset."Rabid_Shadows_304"+=soulbind=theotar_the_mad_duke,114:13
+# profileset."Rabid_Shadows_317"+=soulbind=theotar_the_mad_duke,114:14
+# profileset."Rabid_Shadows_330"+=soulbind=theotar_the_mad_duke,114:15
 
 # Covenant Ability Conduits
-profileset."Courageous_Ascension_1"+=soulbind=theotar_the_mad_duke,87:1
-profileset."Courageous_Ascension_2"+=soulbind=theotar_the_mad_duke,87:2
-profileset."Courageous_Ascension_3"+=soulbind=theotar_the_mad_duke,87:3
-profileset."Courageous_Ascension_4"+=soulbind=theotar_the_mad_duke,87:4
-profileset."Courageous_Ascension_5"+=soulbind=theotar_the_mad_duke,87:5
-profileset."Courageous_Ascension_6"+=soulbind=theotar_the_mad_duke,87:6
-profileset."Courageous_Ascension_7"+=soulbind=theotar_the_mad_duke,87:7
-# profileset."Courageous_Ascension_8"+=soulbind=theotar_the_mad_duke,87:8
-# profileset."Courageous_Ascension_9"+=soulbind=theotar_the_mad_duke,87:9
-# profileset."Courageous_Ascension_10"+=soulbind=theotar_the_mad_duke,87:10
-# profileset."Courageous_Ascension_11"+=soulbind=theotar_the_mad_duke,87:11
-# profileset."Courageous_Ascension_12"+=soulbind=theotar_the_mad_duke,87:12
-# profileset."Courageous_Ascension_13"+=soulbind=theotar_the_mad_duke,87:13
-# profileset."Courageous_Ascension_14"+=soulbind=theotar_the_mad_duke,87:14
-# profileset."Courageous_Ascension_15"+=soulbind=theotar_the_mad_duke,87:15
+profileset."Courageous_Ascension_145"+=soulbind=theotar_the_mad_duke,87:1
+profileset."Courageous_Ascension_158"+=soulbind=theotar_the_mad_duke,87:2
+profileset."Courageous_Ascension_171"+=soulbind=theotar_the_mad_duke,87:3
+profileset."Courageous_Ascension_184"+=soulbind=theotar_the_mad_duke,87:4
+profileset."Courageous_Ascension_200"+=soulbind=theotar_the_mad_duke,87:5
+profileset."Courageous_Ascension_213"+=soulbind=theotar_the_mad_duke,87:6
+profileset."Courageous_Ascension_226"+=soulbind=theotar_the_mad_duke,87:7
+# profileset."Courageous_Ascension_239"+=soulbind=theotar_the_mad_duke,87:8
+# profileset."Courageous_Ascension_252"+=soulbind=theotar_the_mad_duke,87:9
+# profileset."Courageous_Ascension_265"+=soulbind=theotar_the_mad_duke,87:10
+# profileset."Courageous_Ascension_278"+=soulbind=theotar_the_mad_duke,87:11
+# profileset."Courageous_Ascension_291"+=soulbind=theotar_the_mad_duke,87:12
+# profileset."Courageous_Ascension_304"+=soulbind=theotar_the_mad_duke,87:13
+# profileset."Courageous_Ascension_317"+=soulbind=theotar_the_mad_duke,87:14
+# profileset."Courageous_Ascension_330"+=soulbind=theotar_the_mad_duke,87:15

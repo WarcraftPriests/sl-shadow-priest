@@ -93,15 +93,19 @@ profileset."Kyrian-Forgelite-Hammer_of_Genesis"+=soulbind=forgelite_prime_mikani
 # Plaguey's Preemptive Strike - 323090
 profileset."Necrolord-Marileth-Volatile_Solvent_Crit"+=covenant=necrolord
 profileset."Necrolord-Marileth-Volatile_Solvent_Crit"+=soulbind=plague_deviser_marileth,323074
-profileset."Necrolord-Marileth-Volatile_Solvent_Crit"+=shadowlands.volatile_solvent_crit=1
+profileset."Necrolord-Marileth-Volatile_Solvent_Crit"+=shadowlands.volatiles_solvent_type=crit
 
 profileset."Necrolord-Marileth-Volatile_Solvent_Intellect"+=covenant=necrolord
 profileset."Necrolord-Marileth-Volatile_Solvent_Intellect"+=soulbind=plague_deviser_marileth,323074
-profileset."Necrolord-Marileth-Volatile_Solvent_Intellect"+=shadowlands.volatile_solvent_primary=1
+profileset."Necrolord-Marileth-Volatile_Solvent_Intellect"+=shadowlands.volatiles_solvent_type=primary
 
 profileset."Necrolord-Marileth-Volatile_Solvent_Mastery"+=covenant=necrolord
 profileset."Necrolord-Marileth-Volatile_Solvent_Mastery"+=soulbind=plague_deviser_marileth,323074
-profileset."Necrolord-Marileth-Volatile_Solvent_Mastery"+=shadowlands.volatile_solvent_mastery=1
+profileset."Necrolord-Marileth-Volatile_Solvent_Mastery"+=shadowlands.volatiles_solvent_type=mastery
+
+profileset."Necrolord-Marileth-Volatile_Solvent_Magic"+=covenant=necrolord
+profileset."Necrolord-Marileth-Volatile_Solvent_Magic"+=soulbind=plague_deviser_marileth,323074
+profileset."Necrolord-Marileth-Volatile_Solvent_Magic"+=shadowlands.volatiles_solvent_type=magic
 
 profileset."Necrolord-Marileth-Plagueys_Preemptive_Strike"+=covenant=necrolord
 profileset."Necrolord-Marileth-Plagueys_Preemptive_Strike"+=soulbind=plague_deviser_marileth,323090

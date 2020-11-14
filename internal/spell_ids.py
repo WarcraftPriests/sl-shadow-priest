@@ -164,6 +164,7 @@ soulbind_traits = {
     "Kyrian-Kleia-Pointed_Courage_Allies_8": 329778,
     "Kyrian-Forgelite-Brons_Call_to_Action": 333950,
     "Kyrian-Forgelite-Hammer_of_Genesis": 333935,
+    "Necrolord-Marileth-Volatile_Solvent_Magic": 323504,
     "Necrolord-Marileth-Volatile_Solvent_Crit": 323502,
     "Necrolord-Marileth-Volatile_Solvent_Intellect": 323498,
     "Necrolord-Marileth-Volatile_Solvent_Mastery": 323491,
