@@ -1,14 +1,14 @@
 # Dungeons - hv-sc - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|6279|8.28%|
-|Shadowflame_Prism_Conduit_7|6140|5.88%|
-|Shadowflame_Prism|6052|4.36%|
-|Talbadars_Stratagem|5957|2.72%|
-|Sephuzs_Proclamation|5903|1.79%|
-|Echo_of_Eonar|5890|1.57%|
-|Judgment_of_the_Arbiter|5886|1.50%|
-|Painbreaker_Psalm|5885|1.48%|
-|Third_Eye_of_the_Jailer|5801|0.03%|
-|Base|5799|0.00%|
-|Twins_of_the_Sun_Priestess_Conduit_7|5777|-0.38%|
+|Eternal_Call_to_the_Void|6480|7.52%|
+|Shadowflame_Prism_Conduit_7|6304|4.60%|
+|Shadowflame_Prism|6252|3.73%|
+|Talbadars_Stratagem|6191|2.72%|
+|Sephuzs_Proclamation|6177|2.49%|
+|Echo_of_Eonar|6123|1.59%|
+|Painbreaker_Psalm|6114|1.44%|
+|Judgment_of_the_Arbiter|6110|1.38%|
+|Twins_of_the_Sun_Priestess_Conduit_7|6071|0.73%|
+|Third_Eye_of_the_Jailer|6029|0.03%|
+|Base|6027|0.00%|
