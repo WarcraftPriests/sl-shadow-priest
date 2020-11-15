@@ -51,10 +51,10 @@ covenants:
 sims:
   apl:
     description: "APL Sims used for testing rotational changes only"
-    builds: true
+    builds: false
     weights: false
     covenant:
-      lookup: true
+      lookup: false
       files: false
     lookupType: none
     steps:

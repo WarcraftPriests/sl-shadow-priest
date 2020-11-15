@@ -1,1 +1,1 @@
-{"name": "Composite", "data": {"Base": {"DPS": 5679}, "Devouring_Plague_plus_Void_Eruption": {"DPS": 5678}, "Void_Eruption": {"DPS": 3401}}, "ids": {"Devouring_Plague_plus_Void_Eruption": null, "Void_Eruption": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Devouring_Plague_plus_Void_Eruption", "Void_Eruption"], "last_updated": "2020-11-10"}
+{"name": "Composite", "data": {"fixed": {"DPS": 5636}, "Base": {"DPS": 5524}}, "ids": {"fixed": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["fixed"], "last_updated": "2020-11-15"}

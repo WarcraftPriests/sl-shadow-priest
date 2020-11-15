@@ -1,1 +1,1 @@
-{"name": "Single", "data": {"Base": {"DPS": 5370}, "Devouring_Plague_plus_Void_Eruption": {"DPS": 5365}, "Void_Eruption": {"DPS": 3146}}, "ids": {"Devouring_Plague_plus_Void_Eruption": null, "Void_Eruption": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Devouring_Plague_plus_Void_Eruption", "Void_Eruption"], "last_updated": "2020-11-10"}
+{"name": "Single", "data": {"fixed": {"DPS": 5197}, "Base": {"DPS": 5081}}, "ids": {"fixed": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["fixed"], "last_updated": "2020-11-15"}
