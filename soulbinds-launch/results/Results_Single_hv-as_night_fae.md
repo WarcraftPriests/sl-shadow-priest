@@ -1,7 +1,6 @@
 # Single - hv-as - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Niya-GI-DE|5982|7.88%|
-|Dreamweaver-DE_HA|5947|7.25%|
-|Dreamweaver-SB-DE|5859|5.67%|
-|Base|5545|0.00%|
+|Niya-GI-DE|4561|9.62%|
+|Dreamweaver-SB-DE|4445|6.82%|
+|Base|4161|0.00%|

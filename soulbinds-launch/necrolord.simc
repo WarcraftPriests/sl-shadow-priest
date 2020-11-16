@@ -8,22 +8,21 @@ covenant=necrolord
 
 default_actions=1
 
-# Eternal Call to the Void
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-neck=charm_of_eternal_winter,id=183040,ilevel=226
-shoulder=shawl_of_the_penitent,id=183020,ilevel=233
-back=crest_of_the_legionnaire_general,id=183032,ilevel=233
-chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
-wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect
-hands=impossibly_oversized_mitts,id=183022,ilevel=226
-waist=shadewarped_sash,id=183004,ilevel=226
-legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
-feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
-finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
-finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
-trinket1=glyph_of_assimilation,id=184021,ilevel=226
-trinket2=cabalists_hymnal,id=184028,ilevel=233
-main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance
+head=depraved_physicians_mask,id=178759,ilevel=204
+neck=sin_stained_pendant,id=178827,ilevel=204
+shoulder=reanimators_mantle,id=178740,ilevel=204
+back=drape_of_twisted_loyalties,id=180123,ilevel=204
+chest=sinister_requiem_vestments,id=180098,ilevel=204,enchant=eternal_insight
+wrists=deathshackle_wristwraps,id=178704,ilevel=204,enchant=eternal_intellect
+hands=tricksprite_gloves,id=178705,ilevel=204
+waist=kin_taras_baleful_cord,id=180109,ilevel=204
+legs=muehzalas_hexthread_sarong,id=179351,ilevel=204
+feet=slippers_of_leavened_station,id=178831,ilevel=204
+finger1=bloodoath_signet,id=178871,ilevel=204,enchant=tenet_of_haste
+finger2=signet_of_the_false_accuser,id=178824,ilevel=204,enchant=tenet_of_haste
+trinket1=empyreal_ordnance,id=180117,ilevel=203
+trinket2=inscrutable_quantum_device,id=179350,ilevel=203
+main_hand=nathrian_ferula,id=178829,ilevel=204,enchant=celestial_guidance
 
 # 1 conduit setup
 profileset."Marileth-VS_Crit-${conduits.first.name}"+=shadowlands.volatiles_solvent_type=crit

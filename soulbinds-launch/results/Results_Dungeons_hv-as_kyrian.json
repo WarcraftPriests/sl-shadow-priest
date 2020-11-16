@@ -1,1 +1,1 @@
-{"name": "Dungeons - hv-as - kyrian", "data": {"Pelagos-CM-DE": {"DPS": 6533}, "Kleia-DE": {"DPS": 6217}, "Base": {"DPS": 6089}}, "ids": {"Pelagos-CM-DE": null, "Kleia-DE": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Pelagos-CM-DE", "Kleia-DE"], "last_updated": "2020-11-06"}
+{"name": "Dungeons - hv-as - kyrian", "data": {"Pelagos-CM-DE": {"DPS": 4741}, "Kleia-DE": {"DPS": 4596}, "Base": {"DPS": 4468}}, "ids": {"Pelagos-CM-DE": null, "Kleia-DE": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Pelagos-CM-DE", "Kleia-DE"], "last_updated": "2020-11-15"}
