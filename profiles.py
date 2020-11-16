@@ -67,8 +67,10 @@ def generate_combination_name(stat_distribution):
 def generate_stat_string(stat_distribution, name):
     """generates the gear rating string based on the count of the stat"""
     count = stat_distribution.count(name)
+    stats_base = config["stats"]["base"] / 4
     extra_line = "\n" if name == "versatility" else ""
-    return "gear_{0}_rating={1}{2}".format(name, count * config["stats"]["steps"], extra_line)
+    stat_amount = (count * config["stats"]["steps"]) + int(stats_base)
+    return "gear_{0}_rating={1}{2}".format(name, stat_amount, extra_line)
 
 
 def build_stats_files():
