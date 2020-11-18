@@ -1,5 +1,5 @@
 # Dungeons
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Devouring_Plague|4527|0.04%|
-|Base|4525|0.00%|
+|high_prio_all_dots|4803|1.18%|
+|Base|4747|0.00%|
