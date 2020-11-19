@@ -88,6 +88,7 @@ Each Soulbind is simmed with all the possible DPS paths with the top 1 or 2 Cond
 - GC: Gnashing Chompers
 - SS: Serrated Spaulders
 - HAMG: Heirmir's Arsenal: Marrowed Gemstone
+- FR: Forgeborne Reveries
 ### Raids
 - [Necrolord - Composite - AM](results/Results_Composite_am_necrolord.md) - `FotM_ToF_AS_VT_AM`
 - [Necrolord - Composite - HV-AS](results/Results_Composite_hv-as_necrolord.md) - `FotM_ToF_AS_VT_HV`

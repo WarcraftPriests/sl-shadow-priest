@@ -33,3 +33,5 @@ profileset."Niya-GI-${conduits.first.name}"+=soulbind=niya,${conduits.first.id}:
 # 1 conduit setup
 # Social Butterfly - 319210
 profileset."Dreamweaver-SB-${conduits.first.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/319210
+
+profileset."Dreamweaver-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/${conduits.second.id}:6

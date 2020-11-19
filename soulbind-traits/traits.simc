@@ -34,8 +34,6 @@ profileset."Necrolord_Covenant_Only"+=covenant=necrolord
 # Let Go of the Past - 328257
 # Combat Meditation - 328266
 # shadowlands.combat_meditation_extend_chance = 0.5
-profileset."Kyrian-Pelagos-Let_Go_of_the_Past"+=covenant=kyrian
-profileset."Kyrian-Pelagos-Let_Go_of_the_Past"+=soulbind=pelagos,328257
 profileset."Kyrian-Pelagos-Combat_Meditation"+=covenant=kyrian
 profileset."Kyrian-Pelagos-Combat_Meditation"+=soulbind=pelagos,328266
 
@@ -126,6 +124,14 @@ profileset."Necrolord-Emeni-Lead_by_Example_Allies_2"+=covenant=necrolord
 profileset."Necrolord-Emeni-Lead_by_Example_Allies_2"+=soulbind=emeni,342156
 profileset."Necrolord-Emeni-Lead_by_Example_Allies_2"+=shadowlands.lead_by_example_nearby=2
 
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_3"+=covenant=necrolord
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_3"+=soulbind=emeni,342156
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_3"+=shadowlands.lead_by_example_nearby=3
+
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_4"+=covenant=necrolord
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_4"+=soulbind=emeni,342156
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_4"+=shadowlands.lead_by_example_nearby=4
+
 profileset."Necrolord-Emeni-Gnashing_Chompers"+=covenant=necrolord
 profileset."Necrolord-Emeni-Gnashing_Chompers"+=soulbind=emeni,323919
 
@@ -136,6 +142,8 @@ profileset."Necrolord-Bonesmith-Serrated_Spaulders"+=covenant=necrolord
 profileset."Necrolord-Bonesmith-Serrated_Spaulders"+=soulbind=bonesmith_heirmir,326504
 profileset."Necrolord-Bonesmith-Heirmirs_Arsenal_Marrowed_Gemstone"+=covenant=necrolord
 profileset."Necrolord-Bonesmith-Heirmirs_Arsenal_Marrowed_Gemstone"+=soulbind=bonesmith_heirmir,326572
+profileset."Necrolord-Bonesmith-Forgeborne_Reveries"+=covenant=necrolord
+profileset."Necrolord-Bonesmith-Forgeborne_Reveries"+=soulbind=bonesmith_heirmir,326514
 
 # -----------------------------Night Fae--------------------------------------------------------------
 

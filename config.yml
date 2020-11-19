@@ -226,7 +226,7 @@ sims:
       - night_fae.simc
       - venthyr.simc
   soulbinds-launch:
-    description: "Altered version of the Soulbinds sim but capped at level 12 renown for Mythic Raid launch week."
+    description: "Altered version of the Soulbinds sim but capped at level 14 renown for Mythic Raid launch week."
     soulbinds:
     builds: true
     weights: false

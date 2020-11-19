@@ -71,17 +71,18 @@ profileset."Emeni-LbE_GC-${conduits.first.name}"+=soulbind=emeni,${conduits.firs
 
 # Bonesmith Heirmir
 # 2 conduit setup
-profileset."Bonesmith-${conduits.first.name}_${conduits.second.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/${conduits.second.id}:7
+# Forgeborne Reveries - 326514
+profileset."Bonesmith-FR-${conduits.first.name}_${conduits.second.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/${conduits.second.id}:7/326514
 
 # 1 conduit setup
 # Serrated Spaulders - 326504
-profileset."Bonesmith-SS-${conduits.first.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/326504
+profileset."Bonesmith-FR_SS-${conduits.first.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/326504/326514
 
 # 1 conduit setup
 # Heirmir's Arsenal: Marrowed Gemstone - 326572
-profileset."Bonesmith-HAMG-${conduits.first.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/326572
+profileset."Bonesmith-FR_HAMG-${conduits.first.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/326572/326514
 
 # 0 conduit setup
 # Serrated Spaulders - 326504
 # Heirmir's Arsenal: Marrowed Gemstone - 326572
-profileset."Bonesmith-SS_HAMG"+=soulbind=bonesmith_heirmir,326504/326572
+profileset."Bonesmith-FR_SS_HAMG"+=soulbind=bonesmith_heirmir,326504/326572/326514

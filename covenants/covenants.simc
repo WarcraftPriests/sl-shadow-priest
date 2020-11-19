@@ -47,7 +47,7 @@ profileset."Venthyr_Theotar"+=head=confidants_favored_cap,id=183021,ilevel=226,b
 # Soulbind: Pelagos - Pelagos-CM_LGotP-1_2
 profileset."Kyrian_Covenant_Only"+=covenant=kyrian
 profileset."Kyrian_Pelagos"+=covenant=kyrian
-profileset."Kyrian_Pelagos"+=soulbind=pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328257/328266
+profileset."Kyrian_Pelagos"+=soulbind=pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328266
 profileset."Kyrian_Pelagos"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 # Legendary: Eternal Call to the Void
 # Soulbind: Kleia - Kleia-PC-1
@@ -87,10 +87,10 @@ profileset."Night_Fae_Niya"+=head=confidants_favored_cap,id=183021,ilevel=226,bo
 # Soulbind: Bonesmith Heirmir - Bonesmith-1_2 + Bonesmith-HAMG-1
 profileset."Necrolord_Covenant_Only"+=covenant=necrolord
 profileset."Necrolord_Bonesmith"+=covenant=necrolord
-profileset."Necrolord_Bonesmith"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/${conduits.second.id}:7
+profileset."Necrolord_Bonesmith"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/${conduits.second.id}:7/326514
 profileset."Necrolord_Bonesmith"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 profileset."Necrolord_Bonesmith_HAMG"+=covenant=necrolord
-profileset."Necrolord_Bonesmith_HAMG"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/326572
+profileset."Necrolord_Bonesmith_HAMG"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/326572/326514
 profileset."Necrolord_Bonesmith_HAMG"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 # Legendary: Eternal Call to the Void
 # Soulbind: Emeni - Emeni-LbE-1_2
