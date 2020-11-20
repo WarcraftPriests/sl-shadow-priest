@@ -48,17 +48,17 @@ profileset."Kyrian_5"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:7
 profileset."Necrolord_1"+=covenant=necrolord
 profileset."Necrolord_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 profileset."Necrolord_1"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
-profileset."Necrolord_1"+=shadowlands.volatiles_solvent_type=crit
+profileset."Necrolord_1"+=shadowlands.volatile_solvent_type=crit
 
 profileset."Necrolord_2"+=covenant=necrolord
 profileset."Necrolord_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 profileset."Necrolord_2"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
-profileset."Necrolord_2"+=shadowlands.volatiles_solvent_type=mastery
+profileset."Necrolord_2"+=shadowlands.volatile_solvent_type=mastery
 
 profileset."Necrolord_3"+=covenant=necrolord
 profileset."Necrolord_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 profileset."Necrolord_3"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
-profileset."Necrolord_3"+=shadowlands.volatiles_solvent_type=primary
+profileset."Necrolord_3"+=shadowlands.volatile_solvent_type=primary
 
 profileset."Necrolord_4"+=covenant=necrolord
 profileset."Necrolord_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
@@ -72,22 +72,22 @@ profileset."Necrolord_5"+=soulbind=plague_deviser_marileth,${conduits.first.id}:
 profileset."Necrolord_6"+=covenant=necrolord
 profileset."Necrolord_6"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 profileset."Necrolord_6"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
-profileset."Necrolord_6"+=shadowlands.volatiles_solvent_type=crit
+profileset."Necrolord_6"+=shadowlands.volatile_solvent_type=crit
 
 profileset."Necrolord_7"+=covenant=necrolord
 profileset."Necrolord_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 profileset."Necrolord_7"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
-profileset."Necrolord_7"+=shadowlands.volatiles_solvent_type=mastery
+profileset."Necrolord_7"+=shadowlands.volatile_solvent_type=mastery
 
 profileset."Necrolord_8"+=covenant=necrolord
 profileset."Necrolord_8"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 profileset."Necrolord_8"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
-profileset."Necrolord_8"+=shadowlands.volatiles_solvent_type=primary
+profileset."Necrolord_8"+=shadowlands.volatile_solvent_type=primary
 
 profileset."Necrolord_9"+=covenant=necrolord
 profileset."Necrolord_9"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 profileset."Necrolord_9"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
-profileset."Necrolord_9"+=shadowlands.volatiles_solvent_type=magic
+profileset."Necrolord_9"+=shadowlands.volatile_solvent_type=magic
 
 profileset."Necrolord_10"+=covenant=necrolord
 profileset."Necrolord_10"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983

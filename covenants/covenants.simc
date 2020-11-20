@@ -99,11 +99,11 @@ profileset."Necrolord_Emeni"+=soulbind=emeni,${conduits.first.id}:7/${conduits.s
 profileset."Necrolord_Emeni"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
 # Legendary: Eternal Call to the Void
 # Soulbind: Marileth - Marileth-VS_Mastery-1_2 + Marileth-PPS_VS_Mastery-1
-profileset."Necrolord_Marileth_Mastery"+=shadowlands.volatiles_solvent_type=mastery
+profileset."Necrolord_Marileth_Mastery"+=shadowlands.volatile_solvent_type=mastery
 profileset."Necrolord_Marileth_Mastery"+=covenant=necrolord
 profileset."Necrolord_Marileth_Mastery"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
 profileset."Necrolord_Marileth_Mastery"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
-profileset."Necrolord_Marileth_Mastery_PPS"+=shadowlands.volatiles_solvent_type=mastery
+profileset."Necrolord_Marileth_Mastery_PPS"+=shadowlands.volatile_solvent_type=mastery
 profileset."Necrolord_Marileth_Mastery_PPS"+=covenant=necrolord
 profileset."Necrolord_Marileth_Mastery_PPS"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
 profileset."Necrolord_Marileth_Mastery_PPS"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
