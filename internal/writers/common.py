@@ -6,18 +6,18 @@ from internal.weights import find_weights
 from internal.spell_ids import find_ids
 
 
-def generate_report_name(sim_type, talent_string, covenant_string):
+def generate_report_name(sim_type, talent, covenant):
     """create report name based on talents and covenant"""
-    talents = f" - {talent_string.strip('_')}" if talent_string else ""
-    covenant = f" - {covenant_string.strip('_')}" if covenant_string else ""
+    talents = f" - {talent.strip('_')}" if talent else ""
+    covenant = f" - {covenant.strip('_')}" if covenant else ""
     return f"{sim_type}{talents}{covenant}"
 
 
-def build_output_string(base_path, sim_type, talent_string, covenant_string, file_type):
+def build_output_string(base_path, sim_type, talent, covenant, file_ext):
     """creates output string for the results file"""
     output_dir = os.path.join(base_path, "results")
     assure_path_exists(output_dir)
-    return os.path.join(output_dir, f"Results_{sim_type}{talent_string}{covenant_string}.{file_type}")
+    return os.path.join(output_dir, f"Results_{sim_type}{talent}{covenant}.{file_ext}")
 
 
 def lookup_id(name, directory):
