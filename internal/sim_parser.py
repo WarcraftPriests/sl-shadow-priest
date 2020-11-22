@@ -3,6 +3,8 @@ import os
 import json
 from os import path
 
+from internal import utils
+
 
 def parse(filename, weights):
     """parse the given sim file"""
@@ -19,7 +21,7 @@ def parse(filename, weights):
         results = sim['sim']['players']
         for player in sorted(results, key=lambda k: k['name']):
             if not weights or 'Int' in player['scale_factors']:
-                ret += path.splitext(filename)[0] + separator
+                ret += path.splitext(os.path.basename(filename))[0] + separator
                 ret += player['name'] + separator
                 ret += '{0:.{1}f}'.format(player['collected_data']
                                           ['dmg']['mean'], 0) + separator
@@ -47,7 +49,7 @@ def parse_profile_sets(filename, weights):
         sim = json.loads(data)
         results = sim['sim']['profilesets']['results']
         for profile in sorted(results, key=lambda k: k['name']):
-            ret += path.splitext(filename)[0] + separator
+            ret += path.splitext(os.path.basename(filename))[0] + separator
             ret += profile['name'] + separator
             ret += '{0:.{1}f}'.format(0, 0) + separator
             ret += '{0:.{1}f}'.format(profile['mean'], 0) + separator
@@ -57,23 +59,25 @@ def parse_profile_sets(filename, weights):
 
 def parse_json(directory, weights):
     """parse json files"""
-    os.chdir(directory)
-    parses = 'profile,actor,DD,DPS'
+    headers = ['profile','actor','DD','DPS']
     if weights:
-        parses += ',int,haste,crit,mastery,vers'
-    parses += '\n'
-    for filename in os.listdir(os.getcwd()):
+        headers += ['int','haste','crit','mastery','vers']
+    parses = ','.join(headers) + '\n'
+
+    for filename in os.listdir(directory):
         if filename.endswith('.json'):
-            parses += parse(filename, weights)
-    with open("statweights.csv", "w") as ofile:
-        print(parses, file=ofile)
+            parses += parse(os.path.join(directory, filename), weights)
+
+    with open(os.path.join(directory, "statweights.csv"), "w") as ofile:
+        ofile.write(parses)
 
 
-def get_timestamp():
+def get_timestamp(directory, talent, covenant):
     """get timestamp the sim was run"""
-    for filename in os.listdir(os.getcwd()):
+    full_path = os.path.join(directory, utils.get_simc_dir(talent, covenant, 'output'))
+    for filename in os.listdir(full_path):
         if filename.endswith('.json'):
-            with open(filename, "r") as file:
+            with open(os.path.join(full_path, filename), "r") as file:
                 data = file.read()
                 sim = json.loads(data)
                 timestamp = sim['timestamp']

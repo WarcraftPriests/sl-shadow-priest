@@ -40,7 +40,6 @@ def download_latest():
 
     # Unpack downloaded build and set simc_path
     dir_name = filepath[: filepath.find(".7z")]
-    print(download_dir, dir_name)
     simc_path = os.path.join(download_dir, dir_name, "simc.exe")
     if not os.path.exists(simc_path):
         _unpack_file(seven_zip_executable, filepath, download_dir)
@@ -58,8 +57,6 @@ def _find_7zip(search_paths):
     for exe in search_paths:
         try:
             if not os.path.exists(exe):
-                print(
-                    f"7Zip executable at '{exe}' does not exist, or is not executable.")
                 continue
             return exe
         except OSError:
