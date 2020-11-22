@@ -133,6 +133,8 @@ consumables = {
     "16_Mastery": 173130,
     "16_Haste": 173128,
     "Spectral_Flask_of_Power": 171276,
+    "Potion_of_Phantom_Fire": 171349,
+    "Potion_of_Phantom_Fire_Shadowcore_Oil": 171349,
     "Potion_of_Empowered_Exorcisms": 171352,
     "Potion_of_Empowered_Exorcisms_Shadowcore_Oil": 171352,
     "Potion_of_Spectral_Intellect": 171273,

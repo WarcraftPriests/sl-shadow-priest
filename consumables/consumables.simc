@@ -40,9 +40,12 @@ profileset."Spectral_Flask_of_Power"+=flask=spectral_flask_of_power
 
 # Potions
 profileset."Potion_of_Empowered_Exorcisms"+=potion=potion_of_empowered_exorcisms
-
 profileset."Potion_of_Empowered_Exorcisms_Shadowcore_Oil"+=potion=potion_of_empowered_exorcisms
 profileset."Potion_of_Empowered_Exorcisms_Shadowcore_Oil"+=trinket1=glyph_of_assimilation,id=184021,ilevel=226,enchant=shadowcore_oil
+
+profileset."Potion_of_Phantom_Fire"+=potion=potion_of_phantom_fire
+profileset."Potion_of_Phantom_Fire_Shadowcore_Oil"+=potion=potion_of_phantom_fire
+profileset."Potion_of_Phantom_Fire_Shadowcore_Oil"+=trinket1=glyph_of_assimilation,id=184021,ilevel=226,enchant=shadowcore_oil
 
 profileset."Potion_of_Spectral_Intellect"+=potion=potion_of_spectral_intellect
 profileset."Potion_of_Deathly_Fixation"+=potion=potion_of_deathly_fixation
