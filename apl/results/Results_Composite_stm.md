@@ -1,5 +1,5 @@
 # Composite - stm
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|hv_check|5739|0.02%|
-|Base|5738|0.00%|
+|movement|5764|0.05%|
+|Base|5761|0.00%|

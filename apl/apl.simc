@@ -5,11 +5,12 @@ position=back
 talents=${talents}
 covenant=venthyr
 spec=shadow
+race=blood_elf
 
 default_actions=0
 
 # Default consumables
-potion=potion_of_empowered_exorcisms
+potion=potion_of_phantom_fire
 flask=spectral_flask_of_power
 food=feast_of_gluttonous_hedonism
 augmentation=veiled_augment_rune
@@ -26,14 +27,14 @@ actions.precombat+=/food
 actions.precombat+=/augmentation
 # Snapshot raid buffed stats before combat begins and pre-potting is done.
 actions.precombat+=/snapshot_stats
-actions.precombat+=/potion
 actions.precombat+=/shadowform,if=!buff.shadowform.up
 actions.precombat+=/use_item,name=azsharas_font_of_power
 actions.precombat+=/variable,name=mind_sear_cutoff,op=set,value=2
+actions.precombat+=/arcane_torrent
 actions.precombat+=/vampiric_touch
 
 # Executed every time the actor is available.
-actions=potion,if=buff.bloodlust.react|target.time_to_die<=80|target.health.pct<35
+actions=potion,if=buff.voidform.up|buff.power_infusion.up
 actions+=/variable,name=dots_up,op=set,value=dot.shadow_word_pain.ticking&dot.vampiric_touch.ticking
 actions+=/variable,name=all_dots_up,op=set,value=dot.shadow_word_pain.ticking&dot.vampiric_touch.ticking&dot.devouring_plague.ticking
 # Start using Searing Nightmare at 3+ targets or 4+ if you are in Voidform
@@ -49,7 +50,7 @@ actions.cds=power_infusion,if=buff.voidform.up|!soulbind.combat_meditation.enabl
 actions.cds+=/silence,target_if=runeforge.sephuzs_proclamation.equipped&(target.is_add|target.debuff.casting.react)
 # Use Fae Guardians on CD outside of Voidform. Use Fae Guardiands in Voidform if you have either Grove Invigoration or Field of Blossoms
 actions.cds+=/fae_guardians,if=!buff.voidform.up&(!cooldown.void_torrent.up|!talent.void_torrent.enabled)|buff.voidform.up&(soulbind.grove_invigoration.enabled|soulbind.field_of_blossoms.enabled)
-actions.cds+=/mindgames,target_if=insanity<90&(variable.all_dots_up|buff.voidform.up)
+actions.cds+=/mindgames,target_if=insanity<90&(variable.all_dots_up|buff.voidform.up)&(!talent.hungering_void.enabled|debuff.hungering_void.up|!buff.voidform.up)&(!talent.searing_nightmare.enabled|spell_targets.mind_sear<5)
 # Use Unholy Nova on CD, holding briefly to wait for power infusion or add spawns.
 actions.cds+=/unholy_nova,if=((!raid_event.adds.up&raid_event.adds.in>20)|raid_event.adds.remains>=15|raid_event.adds.duration<15)&(buff.power_infusion.up|cooldown.power_infusion.remains>=10)
 actions.cds+=/boon_of_the_ascended,if=!buff.voidform.up&!cooldown.void_eruption.up&spell_targets.mind_sear>1&!talent.searing_nightmare.enabled|(buff.voidform.up&spell_targets.mind_sear<2&!talent.searing_nightmare.enabled&prev_gcd.1.void_bolt)|(buff.voidform.up&talent.searing_nightmare.enabled)
@@ -125,13 +126,13 @@ actions.main+=/shadow_word_death
 # Use SW:P as last resort if on the move and SW:D is on CD
 actions.main+=/shadow_word_pain
 
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7162
+head=confidants_favored_cap,id=183021,ilevel=226
 neck=charm_of_eternal_winter,id=183040,ilevel=226
 shoulder=shawl_of_the_penitent,id=183020,ilevel=233
 back=crest_of_the_legionnaire_general,id=183032,ilevel=233
 chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
 wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect
-hands=impossibly_oversized_mitts,id=183022,ilevel=226
+hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
 waist=shadewarped_sash,id=183004,ilevel=226
 legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
 feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
@@ -141,18 +142,19 @@ trinket1=glyph_of_assimilation,id=184021,ilevel=226
 trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance
 
-priest="hv_check"
+priest="movement"
 level=60
 role=spell
 position=back
 talents=${talents}
 covenant=venthyr
 spec=shadow
+race=blood_elf
 
 default_actions=0
 
 # Default consumables
-potion=potion_of_empowered_exorcisms
+potion=potion_of_phantom_fire
 flask=spectral_flask_of_power
 food=feast_of_gluttonous_hedonism
 augmentation=veiled_augment_rune
@@ -169,14 +171,14 @@ actions.precombat+=/food
 actions.precombat+=/augmentation
 # Snapshot raid buffed stats before combat begins and pre-potting is done.
 actions.precombat+=/snapshot_stats
-actions.precombat+=/potion
 actions.precombat+=/shadowform,if=!buff.shadowform.up
 actions.precombat+=/use_item,name=azsharas_font_of_power
 actions.precombat+=/variable,name=mind_sear_cutoff,op=set,value=2
+actions.precombat+=/arcane_torrent
 actions.precombat+=/vampiric_touch
 
 # Executed every time the actor is available.
-actions=potion,if=buff.bloodlust.react|target.time_to_die<=80|target.health.pct<35
+actions=potion,if=buff.voidform.up|buff.power_infusion.up
 actions+=/variable,name=dots_up,op=set,value=dot.shadow_word_pain.ticking&dot.vampiric_touch.ticking
 actions+=/variable,name=all_dots_up,op=set,value=dot.shadow_word_pain.ticking&dot.vampiric_touch.ticking&dot.devouring_plague.ticking
 # Start using Searing Nightmare at 3+ targets or 4+ if you are in Voidform
@@ -192,7 +194,7 @@ actions.cds=power_infusion,if=buff.voidform.up|!soulbind.combat_meditation.enabl
 actions.cds+=/silence,target_if=runeforge.sephuzs_proclamation.equipped&(target.is_add|target.debuff.casting.react)
 # Use Fae Guardians on CD outside of Voidform. Use Fae Guardiands in Voidform if you have either Grove Invigoration or Field of Blossoms
 actions.cds+=/fae_guardians,if=!buff.voidform.up&(!cooldown.void_torrent.up|!talent.void_torrent.enabled)|buff.voidform.up&(soulbind.grove_invigoration.enabled|soulbind.field_of_blossoms.enabled)
-actions.cds+=/mindgames,target_if=insanity<90&(variable.all_dots_up|buff.voidform.up)&(!talent.hungering_void.enabled|debuff.hungering_void.up|!buff.voidform.up)
+actions.cds+=/mindgames,target_if=insanity<90&(variable.all_dots_up|buff.voidform.up)&(!talent.hungering_void.enabled|debuff.hungering_void.up|!buff.voidform.up)&(!talent.searing_nightmare.enabled|spell_targets.mind_sear<5)
 # Use Unholy Nova on CD, holding briefly to wait for power infusion or add spawns.
 actions.cds+=/unholy_nova,if=((!raid_event.adds.up&raid_event.adds.in>20)|raid_event.adds.remains>=15|raid_event.adds.duration<15)&(buff.power_infusion.up|cooldown.power_infusion.remains>=10)
 actions.cds+=/boon_of_the_ascended,if=!buff.voidform.up&!cooldown.void_eruption.up&spell_targets.mind_sear>1&!talent.searing_nightmare.enabled|(buff.voidform.up&spell_targets.mind_sear<2&!talent.searing_nightmare.enabled&prev_gcd.1.void_bolt)|(buff.voidform.up&talent.searing_nightmare.enabled)
@@ -263,18 +265,19 @@ actions.main+=/shadow_word_pain,if=refreshable&target.time_to_die>4&!talent.mise
 actions.main+=/shadow_word_pain,target_if=refreshable&target.time_to_die>4&!talent.misery.enabled&!(talent.searing_nightmare.enabled&spell_targets.mind_sear>variable.mind_sear_cutoff)&(!talent.psychic_link.enabled|(talent.psychic_link.enabled&spell_targets.mind_sear<=2))
 actions.main+=/mind_sear,target_if=spell_targets.mind_sear>variable.mind_sear_cutoff,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
 actions.main+=/mind_flay,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&cooldown.void_bolt.up
+actions.main+=/arcane_torrent
 # Use SW:D as last resort if on the move
 actions.main+=/shadow_word_death
 # Use SW:P as last resort if on the move and SW:D is on CD
 actions.main+=/shadow_word_pain
 
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7162
+head=confidants_favored_cap,id=183021,ilevel=226
 neck=charm_of_eternal_winter,id=183040,ilevel=226
 shoulder=shawl_of_the_penitent,id=183020,ilevel=233
 back=crest_of_the_legionnaire_general,id=183032,ilevel=233
 chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
 wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect
-hands=impossibly_oversized_mitts,id=183022,ilevel=226
+hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
 waist=shadewarped_sash,id=183004,ilevel=226
 legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
 feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
