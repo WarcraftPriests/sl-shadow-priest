@@ -1,0 +1,1 @@
+{"name": "Dungeons - am - venthyr", "data": {"Nadjia-TS-HA": {"DPS": 5761}, "Theotar-SS-HA": {"DPS": 5722}, "Draven-HA": {"DPS": 5598}, "Base": {"DPS": 5535}}, "ids": {"Nadjia-TS-HA": null, "Theotar-SS-HA": null, "Draven-HA": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Nadjia-TS-HA", "Theotar-SS-HA", "Draven-HA"], "last_updated": "2020-11-22"}

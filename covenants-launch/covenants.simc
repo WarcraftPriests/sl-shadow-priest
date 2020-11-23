@@ -1,0 +1,63 @@
+priest="Base"
+level=60
+role=spell
+position=back
+spec=shadow
+talents=${talents}
+
+default_actions=1
+
+head=depraved_physicians_mask,id=178759,ilevel=204
+neck=sin_stained_pendant,id=178827,ilevel=204
+shoulder=reanimators_mantle,id=178740,ilevel=204
+back=drape_of_twisted_loyalties,id=180123,ilevel=204
+chest=sinister_requiem_vestments,id=180098,ilevel=204,enchant=eternal_insight
+wrists=deathshackle_wristwraps,id=178704,ilevel=204,enchant=eternal_intellect
+hands=tricksprite_gloves,id=178705,ilevel=204
+waist=kin_taras_baleful_cord,id=180109,ilevel=204
+legs=muehzalas_hexthread_sarong,id=179351,ilevel=204
+feet=slippers_of_leavened_station,id=178831,ilevel=204
+finger1=bloodoath_signet,id=178871,ilevel=204,enchant=tenet_of_haste
+finger2=signet_of_the_false_accuser,id=178824,ilevel=204,enchant=tenet_of_haste
+trinket1=empyreal_ordnance,id=180117,ilevel=203
+trinket2=inscrutable_quantum_device,id=179350,ilevel=203
+main_hand=nathrian_ferula,id=178829,ilevel=204,enchant=celestial_guidance
+
+profileset."Night_Fae_Covenant_Only"+=covenant=night_fae
+profileset."Venthyr_Covenant_Only"+=covenant=venthyr
+profileset."Kyrian_Covenant_Only"+=covenant=kyrian
+profileset."Necrolord_Covenant_Only"+=covenant=necrolord
+
+# Soulbind: Nadjia - Nadjia-TS-1_2 + Nadjia-TS_DD-1
+profileset."Venthyr_Nadjia"+=covenant=venthyr
+profileset."Venthyr_Nadjia"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:6/331586
+# Soulbind: Theotar - Theotar-SS-1_2
+profileset."Venthyr_Theotar"+=covenant=venthyr
+profileset."Venthyr_Theotar"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:6/336239
+
+# Soulbind: Pelagos - Pelagos-CM_LGotP-1_2
+profileset."Kyrian_Pelagos"+=covenant=kyrian
+profileset."Kyrian_Pelagos"+=soulbind=pelagos,${conduits.first.id}:6/328266
+# Soulbind: Kleia - Kleia-PC-1
+profileset."Kyrian_Kleia"+=covenant=kyrian
+profileset."Kyrian_Kleia"+=soulbind=kleia,${conduits.first.id}:6
+
+# Soulbind: Dreamweaver - Dreamweaver-FoB-1_2
+profileset."Night_Fae_Dreamweaver"+=covenant=night_fae
+profileset."Night_Fae_Dreamweaver"+=soulbind=dreamweaver,${conduits.first.id}:6/${conduits.second.id}:6
+profileset."Night_Fae_Dreamweaver_SB"+=covenant=night_fae
+profileset."Night_Fae_Dreamweaver_SB"+=soulbind=dreamweaver,${conduits.first.id}:6/319210
+# Soulbind: Niya - Niya-GI_NTB-1
+profileset."Night_Fae_Niya"+=covenant=night_fae
+profileset."Night_Fae_Niya"+=soulbind=niya,${conduits.first.id}:6/322721
+
+# Soulbind: Emeni - Emeni-LbE-1_2
+profileset."Necrolord_Emeni"+=covenant=necrolord
+profileset."Necrolord_Emeni"+=soulbind=emeni,${conduits.first.id}:6/342156
+# Soulbind: Marileth - Marileth-VS_Mastery-1_2 + Marileth-PPS_VS_Mastery-1
+profileset."Necrolord_Marileth_Mastery"+=shadowlands.volatile_solvent_type=mastery
+profileset."Necrolord_Marileth_Mastery"+=covenant=necrolord
+profileset."Necrolord_Marileth_Mastery"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074
+profileset."Necrolord_Marileth_Mastery_PPS"+=shadowlands.volatile_solvent_type=mastery
+profileset."Necrolord_Marileth_Mastery_PPS"+=covenant=necrolord
+profileset."Necrolord_Marileth_Mastery_PPS"+=soulbind=plague_deviser_marileth,323074/323090

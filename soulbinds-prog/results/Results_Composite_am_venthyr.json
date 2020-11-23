@@ -1,0 +1,1 @@
+{"name": "Composite - am - venthyr", "data": {"Theotar-SS-HA": {"DPS": 5407}, "Nadjia-TS-HA": {"DPS": 5397}, "Draven-HA": {"DPS": 5283}, "Base": {"DPS": 5107}}, "ids": {"Theotar-SS-HA": null, "Nadjia-TS-HA": null, "Draven-HA": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Theotar-SS-HA", "Nadjia-TS-HA", "Draven-HA"], "last_updated": "2020-11-22"}

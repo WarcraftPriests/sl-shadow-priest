@@ -133,6 +133,30 @@ sims:
       - DPS
     files:
       - covenants.simc
+  covenants-launch:
+    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 14."
+    builds: true
+    weights: false
+    covenant:
+      lookup: false
+      files: false
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - covenants.simc
+  covenants-prog:
+    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and adds them with a legendary and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 22."
+    builds: true
+    weights: false
+    covenant:
+      lookup: false
+      files: false
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - covenants.simc
   enchants:
     description: "Sims all possible enchants to your characters gear by slot."
     builds: true
@@ -227,6 +251,22 @@ sims:
       - venthyr.simc
   soulbinds-launch:
     description: "Altered version of the Soulbinds sim but capped at level 14 renown for Mythic Raid launch week."
+    soulbinds:
+    builds: true
+    weights: false
+    covenant:
+      lookup: true
+      files: true
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - necrolord.simc
+      - kyrian.simc
+      - night_fae.simc
+      - venthyr.simc
+  soulbinds-prog:
+    description: "Altered version of the Soulbinds sim but capped at level 22 renown for Mythic Prog time."
     soulbinds:
     builds: true
     weights: false

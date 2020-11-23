@@ -1,15 +1,15 @@
 # Dungeons - stm - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Emeni-LbE-HA|4897|3.47%|
-|Marileth-PPS|4866|2.81%|
-|Marileth-PPS_VS_Crit|4866|2.81%|
-|Marileth-PPS_VS_Intellect|4866|2.81%|
-|Marileth-PPS_VS_Mastery|4865|2.79%|
-|Marileth-PPS_VS_Magic|4864|2.77%|
-|Marileth-VS_Intellect-HA|4812|1.67%|
-|Marileth-VS_Crit-HA|4809|1.61%|
-|Marileth-VS_Mastery-HA|4808|1.58%|
-|Marileth-HA|4807|1.56%|
-|Marileth-VS_Magic-HA|4804|1.50%|
-|Base|4733|0.00%|
+|Marileth-PPS_VS_Mastery|4906|3.81%|
+|Marileth-PPS_VS_Magic|4904|3.77%|
+|Marileth-PPS_VS_Crit|4898|3.64%|
+|Emeni-LbE-HA|4889|3.45%|
+|Marileth-PPS_VS_Intellect|4863|2.90%|
+|Marileth-PPS|4859|2.81%|
+|Marileth-VS_Magic-HA|4847|2.56%|
+|Marileth-VS_Mastery-HA|4847|2.56%|
+|Marileth-VS_Crit-HA|4845|2.52%|
+|Marileth-VS_Intellect-HA|4806|1.69%|
+|Marileth-HA|4804|1.65%|
+|Base|4726|0.00%|
