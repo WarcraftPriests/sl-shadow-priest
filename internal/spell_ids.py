@@ -34,7 +34,7 @@ racials = {
 enchants = {
     "Weapon_Lightless_Force": 309620,
     "Weapon_Sinful_Revelation": 309623,
-    "Weapon_sinful_revelation": 309627,
+    "Weapon_Celestial_Guidance": 309627,
     "Wrists_Illuminated_Soul": 309608,
     "Wrists_Eternal_Intellect": 309609,
     "Chest_Eternal_Bounds": 323761,
