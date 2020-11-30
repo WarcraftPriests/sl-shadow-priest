@@ -1,9 +1,9 @@
 # Dungeons - stm - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Forgelite-BCtA_HoG-HA|6959|9.21%|
-|Pelagos-CM-HA_DE|6816|6.97%|
-|Kleia-PC-HA|6741|5.79%|
-|Forgelite-BCtA-HA_DE|6644|4.27%|
-|Kleia-HA_DE|6560|2.95%|
-|Base|6372|0.00%|
+|Forgelite-BCtA_HoG-HA|6927|9.16%|
+|Pelagos-CM-HA_DE|6826|7.56%|
+|Kleia-PC-HA|6721|5.91%|
+|Forgelite-BCtA-HA_DE|6640|4.63%|
+|Kleia-HA_DE|6554|3.28%|
+|Base|6346|0.00%|

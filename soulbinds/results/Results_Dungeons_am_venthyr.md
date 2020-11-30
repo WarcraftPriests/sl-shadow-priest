@@ -1,12 +1,12 @@
 # Dungeons - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Nadjia-TS-HA_DE|6761|5.44%|
-|Draven-BfW-HA|6744|5.18%|
-|Theotar-SS_RP-HA|6720|4.80%|
-|Theotar-SS-HA_DE|6716|4.74%|
-|Nadjia-TS_EP-HA|6706|4.59%|
-|Nadjia-TS_DD-HA|6685|4.26%|
-|Theotar-SS_WP-HA|6684|4.24%|
-|Draven-HA_DE|6584|2.68%|
-|Base|6412|0.00%|
+|Nadjia-TS-HA_DE|6713|5.90%|
+|Draven-BfW-HA|6676|5.32%|
+|Nadjia-TS_EP-HA|6653|4.95%|
+|Theotar-SS-HA_DE|6648|4.87%|
+|Nadjia-TS_DD-HA|6645|4.83%|
+|Theotar-SS_RP-HA|6626|4.53%|
+|Theotar-SS_WP-HA|6605|4.20%|
+|Draven-HA_DE|6509|2.68%|
+|Base|6339|0.00%|
