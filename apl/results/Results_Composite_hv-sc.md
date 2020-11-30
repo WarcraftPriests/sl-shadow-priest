@@ -1,5 +1,6 @@
 # Composite - hv-sc
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|movement|6027|0.03%|
-|Base|6025|0.00%|
+|remove_condition_non-hv|6032|0.01%|
+|remove_and_augment_condition|6032|0.01%|
+|Base|6032|0.00%|

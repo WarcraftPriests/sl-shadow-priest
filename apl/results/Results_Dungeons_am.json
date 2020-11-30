@@ -1,1 +1,1 @@
-{"name": "Dungeons - am", "data": {"sn_check": {"DPS": 6230}, "Base": {"DPS": 6227}}, "ids": {"sn_check": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["sn_check"], "last_updated": "2020-11-29"}
+{"name": "Dungeons - am", "data": {"remove_and_augment_condition": {"DPS": 6119}, "Base": {"DPS": 6114}, "remove_condition_non-hv": {"DPS": 6114}}, "ids": {"remove_and_augment_condition": null, "remove_condition_non-hv": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["remove_and_augment_condition", "remove_condition_non-hv"], "last_updated": "2020-11-30"}

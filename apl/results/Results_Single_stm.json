@@ -1,1 +1,1 @@
-{"name": "Single - stm", "data": {"movement": {"DPS": 5339}, "Base": {"DPS": 5336}}, "ids": {"movement": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["movement"], "last_updated": "2020-11-22"}
+{"name": "Single - stm", "data": {"remove_and_augment_condition": {"DPS": 5323}, "remove_condition_non-hv": {"DPS": 5323}, "Base": {"DPS": 5322}}, "ids": {"remove_and_augment_condition": null, "remove_condition_non-hv": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["remove_and_augment_condition", "remove_condition_non-hv"], "last_updated": "2020-11-30"}

@@ -52,7 +52,7 @@ actions.cds+=/boon_of_the_ascended,if=!buff.voidform.up&!cooldown.void_eruption.
 # Use Badge inside of VF for the first use or on CD after the first use. With Night Fae hold for VF.
 actions.cds+=/use_item,name=sinful_gladiators_badge_of_ferocity,if=buff.voidform.up|time>10&(!covenant.night_fae)
 # Default fallback for usable items: Use on cooldown.
-actions.cds+=/use_items
+actions.cds+=/use_items,if=buff.voidform.up|buff.power_infusion.up
 
 actions.boon=ascended_blast,if=spell_targets.mind_sear<=3
 actions.boon+=/ascended_nova,if=spell_targets.ascended_nova>1&spell_targets.mind_sear>1+talent.searing_nightmare.enabled

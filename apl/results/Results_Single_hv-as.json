@@ -1,1 +1,1 @@
-{"name": "Single - hv-as", "data": {"movement": {"DPS": 5528}, "Base": {"DPS": 5526}}, "ids": {"movement": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["movement"], "last_updated": "2020-11-22"}
+{"name": "Single - hv-as", "data": {"remove_and_augment_condition": {"DPS": 5555}, "Base": {"DPS": 5553}, "remove_condition_non-hv": {"DPS": 5553}}, "ids": {"remove_and_augment_condition": null, "remove_condition_non-hv": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["remove_and_augment_condition", "remove_condition_non-hv"], "last_updated": "2020-11-30"}

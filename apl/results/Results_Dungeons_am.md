@@ -1,5 +1,6 @@
 # Dungeons - am
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|sn_check|6230|0.05%|
-|Base|6227|0.00%|
+|remove_and_augment_condition|6119|0.08%|
+|Base|6114|0.00%|
+|remove_condition_non-hv|6114|0.00%|

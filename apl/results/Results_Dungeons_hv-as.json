@@ -1,1 +1,1 @@
-{"name": "Dungeons - hv-as", "data": {"Base": {"DPS": 6017}, "sn_check": {"DPS": 5955}}, "ids": {"sn_check": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["sn_check"], "last_updated": "2020-11-29"}
+{"name": "Dungeons - hv-as", "data": {"remove_condition_non-hv": {"DPS": 6001}, "Base": {"DPS": 6000}, "remove_and_augment_condition": {"DPS": 5996}}, "ids": {"remove_condition_non-hv": null, "remove_and_augment_condition": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["remove_condition_non-hv", "remove_and_augment_condition"], "last_updated": "2020-11-30"}

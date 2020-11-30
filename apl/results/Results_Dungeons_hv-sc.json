@@ -1,1 +1,1 @@
-{"name": "Dungeons - hv-sc", "data": {"Base": {"DPS": 6218}, "sn_check": {"DPS": 6197}}, "ids": {"sn_check": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["sn_check"], "last_updated": "2020-11-29"}
+{"name": "Dungeons - hv-sc", "data": {"remove_condition_non-hv": {"DPS": 6194}, "remove_and_augment_condition": {"DPS": 6193}, "Base": {"DPS": 6192}}, "ids": {"remove_condition_non-hv": null, "remove_and_augment_condition": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["remove_condition_non-hv", "remove_and_augment_condition"], "last_updated": "2020-11-30"}

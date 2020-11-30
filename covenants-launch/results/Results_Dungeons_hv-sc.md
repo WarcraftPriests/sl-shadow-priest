@@ -1,18 +1,18 @@
 # Dungeons - hv-sc
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Venthyr_Nadjia|4980|8.85%|
-|Venthyr_Theotar|4936|7.89%|
-|Kyrian_Pelagos|4925|7.65%|
-|Necrolord_Emeni|4916|7.45%|
-|Necrolord_Marileth_Mastery_PPS|4879|6.64%|
-|Necrolord_Marileth_Mastery|4873|6.51%|
-|Night_Fae_Dreamweaver|4845|5.90%|
-|Night_Fae_Dreamweaver_SB|4822|5.40%|
-|Kyrian_Kleia|4801|4.94%|
-|Night_Fae_Niya|4774|4.35%|
-|Venthyr_Covenant_Only|4716|3.08%|
-|Necrolord_Covenant_Only|4700|2.73%|
-|Kyrian_Covenant_Only|4682|2.34%|
-|Night_Fae_Covenant_Only|4612|0.81%|
-|Base|4575|0.00%|
+|Venthyr_Nadjia|4926|8.31%|
+|Kyrian_Pelagos|4902|7.78%|
+|Venthyr_Theotar|4885|7.41%|
+|Necrolord_Emeni|4881|7.32%|
+|Necrolord_Marileth_Mastery_PPS|4850|6.64%|
+|Necrolord_Marileth_Mastery|4848|6.60%|
+|Night_Fae_Dreamweaver_SB|4778|5.06%|
+|Kyrian_Kleia|4775|4.99%|
+|Night_Fae_Niya|4728|3.96%|
+|Night_Fae_Dreamweaver|4713|3.63%|
+|Necrolord_Covenant_Only|4671|2.70%|
+|Venthyr_Covenant_Only|4662|2.51%|
+|Kyrian_Covenant_Only|4656|2.37%|
+|Night_Fae_Covenant_Only|4579|0.68%|
+|Base|4548|0.00%|

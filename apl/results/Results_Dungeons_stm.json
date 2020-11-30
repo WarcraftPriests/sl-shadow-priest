@@ -1,1 +1,1 @@
-{"name": "Dungeons - stm", "data": {"sn_check": {"DPS": 6234}, "Base": {"DPS": 6219}}, "ids": {"sn_check": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["sn_check"], "last_updated": "2020-11-29"}
+{"name": "Dungeons - stm", "data": {"remove_and_augment_condition": {"DPS": 6143}, "Base": {"DPS": 6142}, "remove_condition_non-hv": {"DPS": 6142}}, "ids": {"remove_and_augment_condition": null, "remove_condition_non-hv": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["remove_and_augment_condition", "remove_condition_non-hv"], "last_updated": "2020-11-30"}

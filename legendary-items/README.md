@@ -3,7 +3,7 @@ This goes a step ahead of the `legendaries/` sims and actually uses the raw item
 
 Base gear uses BiS pieces from Castle Nathria where appropriate. This means some pieces are 233 while most are 226 in that slot.
 
-Note that for the sake of evaluating full bis Dungeon gloves/wrists were used for more optimal stat comparisons.
+Note that for the sake of evaluating full bis Dungeon gloves/wrists/legs were used for more optimal stat comparisons.
 
 ## Night Fae
 ### Raids

@@ -1,5 +1,6 @@
 # Single - hv-sc
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|movement|5572|0.03%|
-|Base|5570|0.00%|
+|remove_condition_non-hv|5582|0.04%|
+|remove_and_augment_condition|5581|0.03%|
+|Base|5580|0.00%|

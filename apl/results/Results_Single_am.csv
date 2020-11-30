@@ -1,3 +1,4 @@
 profile,actor,DPS,increase,
-Single,movement,5409,0.03%,
-Single,Base,5408,0.00%,
+Single,remove_condition_non-hv,5401,0.08%,
+Single,remove_and_augment_condition,5399,0.04%,
+Single,Base,5396,0.00%,
