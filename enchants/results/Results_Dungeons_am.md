@@ -1,7 +1,7 @@
 # Dungeons - am
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon_Celestial_Guidance|5511|2.02%|
+|Weapon_sinful_revelation|5511|2.02%|
 |Weapon_Lightless_Force|5508|1.96%|
 |Chest_Eternal_Insight|5505|1.91%|
 |Chest_Eternal_Stats|5496|1.74%|

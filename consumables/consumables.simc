@@ -17,9 +17,9 @@ legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
 feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
 finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
 finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
-trinket1=glyph_of_assimilation,id=184021,ilevel=226
+trinket1=macabre_sheet_music,id=184024,ilevel=226
 trinket2=cabalists_hymnal,id=184028,ilevel=233
-main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance
+main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation
 
 food=disabled
 augmentation=disabled
@@ -30,10 +30,10 @@ flask=disabled
 profileset."Veiled_Augment_Rune"+=augmentation=veiled_augment_rune
 
 # Gems - Deadly Jewel Cluster
-profileset."16_Versatility"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance,gem_id=173129
-profileset."16_Critical_Strike"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance,gem_id=173127
-profileset."16_Mastery"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance,gem_id=173130
-profileset."16_Haste"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance,gem_id=173128
+profileset."16_Versatility"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation,gem_id=173129
+profileset."16_Critical_Strike"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation,gem_id=173127
+profileset."16_Mastery"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation,gem_id=173130
+profileset."16_Haste"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation,gem_id=173128
 
 # Flasks
 profileset."Spectral_Flask_of_Power"+=flask=spectral_flask_of_power
@@ -41,17 +41,17 @@ profileset."Spectral_Flask_of_Power"+=flask=spectral_flask_of_power
 # Potions
 profileset."Potion_of_Empowered_Exorcisms"+=potion=potion_of_empowered_exorcisms
 profileset."Potion_of_Empowered_Exorcisms_Shadowcore_Oil"+=potion=potion_of_empowered_exorcisms
-profileset."Potion_of_Empowered_Exorcisms_Shadowcore_Oil"+=trinket1=glyph_of_assimilation,id=184021,ilevel=226,enchant=shadowcore_oil
+profileset."Potion_of_Empowered_Exorcisms_Shadowcore_Oil"+=trinket1=macabre_sheet_music,id=184024,ilevel=226,enchant=shadowcore_oil
 
 profileset."Potion_of_Phantom_Fire"+=potion=potion_of_phantom_fire
 profileset."Potion_of_Phantom_Fire_Shadowcore_Oil"+=potion=potion_of_phantom_fire
-profileset."Potion_of_Phantom_Fire_Shadowcore_Oil"+=trinket1=glyph_of_assimilation,id=184021,ilevel=226,enchant=shadowcore_oil
+profileset."Potion_of_Phantom_Fire_Shadowcore_Oil"+=trinket1=macabre_sheet_music,id=184024,ilevel=226,enchant=shadowcore_oil
 
 profileset."Potion_of_Spectral_Intellect"+=potion=potion_of_spectral_intellect
 profileset."Potion_of_Deathly_Fixation"+=potion=potion_of_deathly_fixation
 
 profileset."Potion_of_Deathly_Fixation_Shadowcore_Oil"+=potion=potion_of_deathly_fixation
-profileset."Potion_of_Deathly_Fixation_Shadowcore_Oil"+=trinket1=glyph_of_assimilation,id=184021,ilevel=226,enchant=shadowcore_oil
+profileset."Potion_of_Deathly_Fixation_Shadowcore_Oil"+=trinket1=macabre_sheet_music,id=184024,ilevel=226,enchant=shadowcore_oil
 
 # Food
 profileset."Feast_of_Gluttonous_Hedonism"+=food=feast_of_gluttonous_hedonism
@@ -61,4 +61,4 @@ profileset."Iridescent_Ravioli_with_Apple_Sauce"+=food=iridescent_ravioli_with_a
 profileset."Steak_a_la_Mode"+=food=steak_a_la_mode
 
 # Weapon Oils
-profileset."Shadowcore_Oil"+=trinket1=glyph_of_assimilation,id=184021,ilevel=226,enchant=shadowcore_oil
+profileset."Shadowcore_Oil"+=trinket1=macabre_sheet_music,id=184024,ilevel=226,enchant=shadowcore_oil

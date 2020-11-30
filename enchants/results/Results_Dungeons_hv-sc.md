@@ -1,7 +1,7 @@
 # Dungeons - hv-sc
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon_Celestial_Guidance|5495|2.02%|
+|Weapon_sinful_revelation|5495|2.02%|
 |Weapon_Lightless_Force|5491|1.95%|
 |Chest_Eternal_Insight|5479|1.73%|
 |Chest_Eternal_Stats|5478|1.71%|

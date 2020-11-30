@@ -1,1 +1,1 @@
-{"name": "Dungeons - hv-as", "data": {"movement": {"DPS": 6041}, "Base": {"DPS": 6040}}, "ids": {"movement": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["movement"], "last_updated": "2020-11-22"}
+{"name": "Dungeons - hv-as", "data": {"Base": {"DPS": 6017}, "sn_check": {"DPS": 5955}}, "ids": {"sn_check": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["sn_check"], "last_updated": "2020-11-29"}

@@ -2,7 +2,7 @@
 | Actor | DPS | Increase |
 |---|:---:|:---:|
 |Weapon_Sinful_Revelation|5282|2.10%|
-|Weapon_Celestial_Guidance|5280|2.06%|
+|Weapon_sinful_revelation|5280|2.06%|
 |Chest_Eternal_Insight|5272|1.90%|
 |Chest_Eternal_Stats|5261|1.69%|
 |Weapon_Lightless_Force|5257|1.60%|

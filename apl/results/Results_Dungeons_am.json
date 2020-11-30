@@ -1,1 +1,1 @@
-{"name": "Dungeons - am", "data": {"movement": {"DPS": 6211}, "Base": {"DPS": 6208}}, "ids": {"movement": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["movement"], "last_updated": "2020-11-22"}
+{"name": "Dungeons - am", "data": {"sn_check": {"DPS": 6230}, "Base": {"DPS": 6227}}, "ids": {"sn_check": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["sn_check"], "last_updated": "2020-11-29"}
