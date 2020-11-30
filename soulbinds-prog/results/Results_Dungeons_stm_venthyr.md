@@ -1,7 +1,7 @@
 # Dungeons - stm - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Nadjia-TS-HA|5715|4.12%|
-|Theotar-SS-HA|5683|3.53%|
-|Draven-HA|5560|1.29%|
-|Base|5489|0.00%|
+|Nadjia-TS-HA|5720|4.69%|
+|Theotar-SS-HA|5665|3.68%|
+|Draven-HA|5543|1.45%|
+|Base|5464|0.00%|
