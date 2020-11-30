@@ -1,6 +1,6 @@
 # Composite - hv-as - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pelagos-CM-DE|5089|9.43%|
-|Kleia-DE|4854|4.37%|
-|Base|4651|0.00%|
+|Pelagos-CM-DE|5060|9.42%|
+|Kleia-DE|4826|4.38%|
+|Base|4624|0.00%|

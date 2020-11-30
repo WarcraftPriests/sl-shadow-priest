@@ -1,1 +1,1 @@
-{"name": "Dungeons - stm - kyrian", "data": {"Pelagos-CM-HA": {"DPS": 4937}, "Kleia-HA": {"DPS": 4761}, "Base": {"DPS": 4697}}, "ids": {"Pelagos-CM-HA": null, "Kleia-HA": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Pelagos-CM-HA", "Kleia-HA"], "last_updated": "2020-11-22"}
+{"name": "Dungeons - stm - kyrian", "data": {"Pelagos-CM-HA": {"DPS": 4908}, "Kleia-HA": {"DPS": 4732}, "Base": {"DPS": 4660}}, "ids": {"Pelagos-CM-HA": null, "Kleia-HA": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Pelagos-CM-HA", "Kleia-HA"], "last_updated": "2020-11-30"}

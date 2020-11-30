@@ -1,6 +1,6 @@
 # Soulbind Launch Results
 
-This is a modified version of the Soulbind sims with a capped 14 level of renown to see what things look like week 1 of Mythic Raid. Only pre-raid pieces are used at Mythic+10 with no legendary.
+This is a modified version of the Soulbind sims with a capped 12 level of renown to see what things look like week 1 of Mythic Raid. Only pre-raid pieces are used at Mythic+10 with no legendary.
 
 Each soulbind is simmed with all the possible paths with the top 2 or 3 conduits depending on the path chosen. When slotting a conduit we are only slotting the rank6 version of that conduit for now.
 
