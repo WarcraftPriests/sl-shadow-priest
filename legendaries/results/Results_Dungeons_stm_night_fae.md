@@ -1,14 +1,14 @@
 # Dungeons - stm - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|6360|6.21%|
-|Shadowflame_Prism_Conduit_7|6216|3.81%|
-|Shadowflame_Prism|6164|2.94%|
-|Sephuzs_Proclamation|6141|2.56%|
-|Talbadars_Stratagem|6139|2.52%|
-|Echo_of_Eonar|6082|1.57%|
-|Judgment_of_the_Arbiter|6072|1.40%|
-|Painbreaker_Psalm|6055|1.12%|
-|Twins_of_the_Sun_Priestess_Conduit_7|6007|0.32%|
-|Base|5988|0.00%|
-|Third_Eye_of_the_Jailer|5988|0.00%|
+|Eternal_Call_to_the_Void|6349|6.58%|
+|Shadowflame_Prism_Conduit_7|6156|3.34%|
+|Shadowflame_Prism|6121|2.75%|
+|Talbadars_Stratagem|6120|2.74%|
+|Sephuzs_Proclamation|6110|2.57%|
+|Echo_of_Eonar|6057|1.68%|
+|Judgment_of_the_Arbiter|6051|1.58%|
+|Painbreaker_Psalm|6038|1.36%|
+|Twins_of_the_Sun_Priestess_Conduit_7|6006|0.82%|
+|Third_Eye_of_the_Jailer|5958|0.02%|
+|Base|5957|0.00%|
