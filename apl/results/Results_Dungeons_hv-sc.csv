@@ -1,4 +1,3 @@
 profile,actor,DPS,increase,
-Dungeons,remove_condition_non-hv,6194,0.03%,
-Dungeons,remove_and_augment_condition,6193,0.02%,
-Dungeons,Base,6192,0.00%,
+Dungeons,new_condition,6184,0.31%,
+Dungeons,Base,6165,0.00%,

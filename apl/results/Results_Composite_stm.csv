@@ -1,4 +1,3 @@
 profile,actor,DPS,increase,
-Composite,Base,5764,0.00%,
-Composite,remove_and_augment_condition,5763,-0.02%,
-Composite,remove_condition_non-hv,5763,-0.02%,
+Composite,new_condition,5787,1.00%,
+Composite,Base,5730,0.00%,
