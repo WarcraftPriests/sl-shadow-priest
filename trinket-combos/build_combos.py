@@ -28,6 +28,8 @@ combos = {
     "Empyreal_Ordnance_226": "empyreal_ordnance,id=180117,ilevel=226",
     "Inscrutable_Quantum_Device_210": "inscrutable_quantum_device,id=179350,ilevel=210",
     "Inscrutable_Quantum_Device_226": "inscrutable_quantum_device,id=179350,ilevel=226",
+    "Soulletting_Ruby_226": "soulletting_ruby,id=178809,ilevel=226",
+    "Soulletting_Ruby_210": "soulletting_ruby,id=178809,ilevel=210"
 }
 
 
@@ -50,11 +52,11 @@ def build_simc_string(trinkets):
         for trinket in combo:
             if "Cabalists_Hymnal_Allies" in trinket:
                 allies_count = trinket[24]
-                result += "profileset.\"{0}_{1}\"+=shadowlands.crimson_choir_in_party={2}\n".format(
+                result += "profileset.\"{0}-{1}\"+=shadowlands.crimson_choir_in_party={2}\n".format(
                     combo[0], combo[1], allies_count)
-        result += "profileset.\"{0}_{1}\"+=trinket1={2}\n".format(
+        result += "profileset.\"{0}-{1}\"+=trinket1={2}\n".format(
             combo[0], combo[1], combos[combo[0]])
-        result += "profileset.\"{0}_{1}\"+=trinket2={2}\n\n".format(
+        result += "profileset.\"{0}-{1}\"+=trinket2={2}\n\n".format(
             combo[0], combo[1], combos[combo[1]])
     return result
 

@@ -307,6 +307,18 @@ sims:
       - AM.simc
       - HV.simc
       - STM.simc
+  trinket-combos:
+    description: Combines the top trinkets together to get your BiS 2 trinkets.
+    builds: true
+    weights: false
+    covenant:
+      lookup: true
+      files: false
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - generated.simc
   trinkets:
     description: "Sims all trinkets by themselves (no second trinket) with base Covenant ability."
     builds: true
