@@ -682,43 +682,43 @@ main_hand=stoneborn_terrorblade,id=182395,bonus_id=7187/1531,enchant=lightless_f
 off_hand=stonewrought_gargoyles_barrier,id=182399,bonus_id=7187/1531
 
 copy="T26_Demon_Hunter_Havoc_PI","T26_Demon_Hunter_Havoc"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Demon_Hunter_Vengeance_PI","T26_Demon_Hunter_Vengeance"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Hunter_Beast_Mastery_PI","T26_Hunter_Beast_Mastery"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Hunter_Marksmanship_PI","T26_Hunter_Marksmanship"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Hunter_Survival_PI","T26_Hunter_Survival"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Mage_Arcane_PI","T26_Mage_Arcane"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Mage_Fire_PI","T26_Mage_Fire"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Mage_Frost_PI","T26_Mage_Frost"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Monk_Brewmaster_PI","T26_Monk_Brewmaster"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Monk_Windwalker_PI","T26_Monk_Windwalker"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Monk_Windwalker_Serenity_PI","T26_Monk_Windwalker_Serenity"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Paladin_Protection_PI","T26_Paladin_Protection"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Paladin_Retribution_PI","T26_Paladin_Retribution"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Priest_Shadow_Kyrian_NOPI","T26_Priest_Shadow_Kyrian"
 priest_self_power_infusion=0
@@ -735,31 +735,31 @@ hands=tricksprite_gloves,id=178705,bonus_id=6536/1540/6646
 head=grim_veiled_hood,id=173245,bonus_id=6647/6649/6758/7002/1532
 
 copy="T26_Rogue_Assassination_PI","T26_Rogue_Assassination"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Rogue_Outlaw_PI","T26_Rogue_Outlaw"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Rogue_Subtlety_PI","T26_Rogue_Subtlety"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Shaman_Elemental_PI","T26_Shaman_Elemental"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Shaman_Elemental_NF_PI","T26_Shaman_Elemental_NF"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Shaman_Enhancement_PI","T26_Shaman_Enhancement"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Shaman_Enhancement_VDW_PI","T26_Shaman_Enhancement_VDW"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Warrior_Arms_PI","T26_Warrior_Arms"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Warrior_Fury_PI","T26_Warrior_Fury"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
 
 copy="T26_Warrior_Protection_PI","T26_Warrior_Protection"
-external_buffs.power_infusion="8/128/249"
+external_buffs.power_infusion="8/195/315"
