@@ -26,24 +26,25 @@ def test_generate_report_name_complex():
 
 
 def test_assure_path_exists__already_exists(mocker):
-    'tests assure_path_exists skips creating a path when it exists' 
+    'tests assure_path_exists skips creating a path when it exists'
     mocker.patch('os.path.exists', return_value=True)
     spy_makedirs = mocker.patch('os.makedirs', return_value=None)
-    
+
     common.assure_path_exists('some/test/path/to/check/')
     spy_makedirs.assert_not_called()
 
 
 def test_assure_path_exists__doesnt_exist(mocker):
-    'tests assure_path_exists creates a path when it doesnt exist' 
+    'tests assure_path_exists creates a path when it doesnt exist'
     mocker.patch('os.path.exists', return_value=False)
     spy_makedirs = mocker.patch('os.makedirs', return_value=None)
-    
+
     common.assure_path_exists('some/test/path/to/check/')
     spy_makedirs.assert_called_with('some/test/path/to/check')
 
 
 def test_build_output_string(mocker):
+    'test for build_output_string'
     mocker.patch('internal.writers.common.assure_path_exists', return_value=None)
 
     assert common.build_output_string(
