@@ -25,7 +25,7 @@ def test_analyze(mocker):
     analyze("talent", "gear", False, "weights", "timestamp", "covenant")
 
     spy_pandas.assert_called_once_with(
-        'gear\\output\\talent\\covenant\\statweights.csv',
+        os.path.join('gear', 'output', 'talent', 'covenant', 'statweights.csv'),
         usecols=['profile', 'actor', 'DD', 'DPS',
                  'int', 'haste', 'crit', 'mastery', 'vers']
     )
@@ -60,7 +60,7 @@ def test_analyze_dungeon_run(mocker):
     analyze("talent", "gear", True, "weights", "timestamp", "covenant")
 
     spy_pandas.assert_called_once_with(
-        'gear\\output\\talent\\covenant\\statweights.csv',
+        os.path.join('gear', 'output', 'talent', 'covenant', 'statweights.csv'),
         usecols=['profile', 'actor', 'DD', 'DPS',
                  'int', 'haste', 'crit', 'mastery', 'vers']
     )
