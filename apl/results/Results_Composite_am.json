@@ -1,1 +1,1 @@
-{"name": "Composite - am", "data": {"Base": {"DPS": 5791}, "hv_check": {"DPS": 5791}}, "ids": {"hv_check": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["hv_check"], "last_updated": "2020-11-21"}
+{"name": "Composite - am", "data": {"new_condition": {"DPS": 5832}, "Base": {"DPS": 5762}}, "ids": {"new_condition": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new_condition"], "last_updated": "2020-12-01"}

@@ -15,14 +15,14 @@ back=drape_of_twisted_loyalties,id=180123,ilevel=204
 chest=sinister_requiem_vestments,id=180098,ilevel=204,enchant=eternal_insight
 wrists=deathshackle_wristwraps,id=178704,ilevel=204,enchant=eternal_intellect
 hands=tricksprite_gloves,id=178705,ilevel=204
-waist=kin_taras_baleful_cord,id=180109,ilevel=204
+waist=kintaras_baleful_cord,id=180109,ilevel=204
 legs=muehzalas_hexthread_sarong,id=179351,ilevel=204
 feet=slippers_of_leavened_station,id=178831,ilevel=204
 finger1=bloodoath_signet,id=178871,ilevel=204,enchant=tenet_of_haste
 finger2=signet_of_the_false_accuser,id=178824,ilevel=204,enchant=tenet_of_haste
 trinket1=empyreal_ordnance,id=180117,ilevel=203
-trinket2=inscrutable_quantum_device,id=179350,ilevel=203
-main_hand=nathrian_ferula,id=178829,ilevel=204,enchant=celestial_guidance
+trinket2=darkmoon_deck__putrescence,id=173069
+main_hand=nathrian_ferula,id=178829,ilevel=204,enchant=sinful_revelation
 
 # Niya
 # 1 conduit setup
@@ -33,5 +33,3 @@ profileset."Niya-GI-${conduits.first.name}"+=soulbind=niya,${conduits.first.id}:
 # 1 conduit setup
 # Social Butterfly - 319210
 profileset."Dreamweaver-SB-${conduits.first.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/319210
-
-profileset."Dreamweaver-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/${conduits.second.id}:6

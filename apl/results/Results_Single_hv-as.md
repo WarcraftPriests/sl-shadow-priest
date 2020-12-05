@@ -1,5 +1,5 @@
 # Single - hv-as
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|hv_check|5594|0.30%|
-|Base|5577|0.00%|
+|new_condition|5604|0.64%|
+|Base|5569|0.00%|

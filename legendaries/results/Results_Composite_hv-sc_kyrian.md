@@ -1,14 +1,14 @@
 # Composite - hv-sc - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|6495|3.98%|
-|Talbadars_Stratagem|6447|3.21%|
-|Judgment_of_the_Arbiter|6350|1.66%|
-|Echo_of_Eonar|6346|1.60%|
-|Shadowflame_Prism|6317|1.14%|
-|Painbreaker_Psalm|6288|0.66%|
-|Twins_of_the_Sun_Priestess_Conduit_7|6279|0.53%|
-|Sephuzs_Proclamation|6267|0.34%|
-|Third_Eye_of_the_Jailer|6246|0.00%|
-|Base|6246|0.00%|
-|Shadowflame_Prism_Conduit_7|6211|-0.57%|
+|Eternal_Call_to_the_Void|6547|3.93%|
+|Talbadars_Stratagem|6507|3.29%|
+|Judgment_of_the_Arbiter|6408|1.72%|
+|Echo_of_Eonar|6399|1.59%|
+|Shadowflame_Prism|6374|1.18%|
+|Twins_of_the_Sun_Priestess_Conduit_7|6338|0.62%|
+|Painbreaker_Psalm|6336|0.58%|
+|Sephuzs_Proclamation|6319|0.31%|
+|Base|6299|0.00%|
+|Third_Eye_of_the_Jailer|6299|0.00%|
+|Shadowflame_Prism_Conduit_7|6253|-0.73%|

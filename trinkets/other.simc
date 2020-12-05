@@ -19,7 +19,7 @@ legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
 feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
 finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
 finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
-main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=celestial_guidance
+main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation
 
 # Darkmoon Cards
 profileset."Darkmoon_Deck_Putrescence_200"+=trinket1=darkmoon_deck__putrescence,id=173069
@@ -27,6 +27,7 @@ profileset."Darkmoon_Deck_Putrescence_200"+=trinket1=darkmoon_deck__putrescence,
 # Alchemy Stones
 # this trinket shows up 4 times 171323 - 175942 - 175941 - 175943
 profileset."Spiritual_Alchemy_Stone_165"+=trinket1=spiritual_alchemy_stone,id=171323
+profileset."Spiritual_Alchemy_Stone_168"+=trinket1=spiritual_alchemy_stone,id=171323,ilevel=168
 
 # Questing Trinkets
 # TODO: figure out ilvl range? Wowhead shows 85 -> 455

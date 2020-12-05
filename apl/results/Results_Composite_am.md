@@ -1,5 +1,5 @@
 # Composite - am
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|5791|0.00%|
-|hv_check|5791|0.00%|
+|new_condition|5832|1.21%|
+|Base|5762|0.00%|

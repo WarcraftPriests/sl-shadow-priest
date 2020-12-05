@@ -1,1 +1,1 @@
-{"name": "Dungeons - am", "data": {"hv_check": {"DPS": 6036}, "Base": {"DPS": 6033}}, "ids": {"hv_check": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["hv_check"], "last_updated": "2020-11-21"}
+{"name": "Dungeons - am", "data": {"Base": {"DPS": 6189}, "new_condition": {"DPS": 6189}}, "ids": {"new_condition": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new_condition"], "last_updated": "2020-12-01"}

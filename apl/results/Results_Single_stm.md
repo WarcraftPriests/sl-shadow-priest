@@ -1,5 +1,5 @@
 # Single - stm
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|hv_check|5380|0.05%|
-|Base|5377|0.00%|
+|new_condition|5361|0.84%|
+|Base|5317|0.00%|

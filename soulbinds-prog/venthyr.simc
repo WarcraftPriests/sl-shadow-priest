@@ -1,0 +1,39 @@
+priest="Base"
+level=60
+role=spell
+position=back
+spec=shadow
+talents=${talents}
+covenant=venthyr
+
+default_actions=1
+
+head=confidants_favored_cap,id=183021,ilevel=213
+neck=charm_of_eternal_winter,id=183040,ilevel=213
+shoulder=shawl_of_the_penitent,id=183020,ilevel=213
+back=crest_of_the_legionnaire_general,id=183032,ilevel=213
+chest=robes_of_the_cursed_commando,id=182998,ilevel=213,enchant=eternal_insight
+wrists=acolytes_velvet_bindings,id=183017,ilevel=213,enchant=eternal_intellect
+hands=,id=173244,ilevel=235,bonus_id=6983/6647/6649
+waist=shadewarped_sash,id=183004,ilevel=213
+legs=leggings_of_lethal_reverberations,id=182981,ilevel=200
+feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=200
+finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=207,enchant=tenet_of_haste
+finger2=ritualists_treasured_ring,id=183037,ilevel=200,enchant=tenet_of_haste
+trinket1=macabre_sheet_music,id=184024,ilevel=213
+trinket2=cabalists_hymnal,id=184028,ilevel=220
+main_hand=torch_of_fiery_atonement,id=182418,ilevel=220,enchant=sinful_revelation
+
+# Nadjia
+# 2 conduit setup
+# Thrill Seeker - 331586
+profileset."Nadjia-TS-${conduits.first.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:6/331586
+
+# Theotar
+# 2 conduit setup
+# Soothing Shade - 336239
+profileset."Theotar-SS-${conduits.first.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:6/336239
+
+# General Draven
+# 2 conduit setup
+profileset."Draven-${conduits.first.name}"+=soulbind=general_draven,${conduits.first.id}:6

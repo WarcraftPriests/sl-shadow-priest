@@ -3,8 +3,11 @@
 Each of the covenant sims is using the following over `Base`:
 - Covenant Ability
 - Top 1 or 2 Conduits per Covenant at rank 7
-- Top Legendary per Covenant
 - Top build(s) per Soulbind per Covenant
+
+`Base` has:
+- Eternal Call to the Void Rank 4
+- No Covenant or Soulbind
 
 The `Covenent_Only` actor is just adding the covenant ability. No conduits, legendaries, or soulbind traits.
 

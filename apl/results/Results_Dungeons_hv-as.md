@@ -1,5 +1,5 @@
 # Dungeons - hv-as
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|hv_check|5812|0.36%|
-|Base|5791|0.00%|
+|new_condition|5984|0.20%|
+|Base|5972|0.00%|

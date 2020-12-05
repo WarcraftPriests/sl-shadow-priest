@@ -94,6 +94,7 @@ legendary_items = {
 covenants = {
     "Necrolord_Bonesmith": 324724,
     "Necrolord_Bonesmith_HAMG": 326572,
+    "Necrolord_Bonesmith_SS": 326504,
     "Necrolord_Marileth_Mastery": 323074,
     "Necrolord_Marileth_Mastery_PPS": 323090,
     "Necrolord_Emeni": 324724,
@@ -104,6 +105,7 @@ covenants = {
     "Venthyr_Nadjia_DD": 331584,
     "Venthyr_Covenant_Only": 323673,
     "Night_Fae_Dreamweaver": 327661,
+    "Night_Fae_Dreamweaver_SB": 319210,
     "Night_Fae_Korayn": 327661,
     "Night_Fae_Korayn_FS": 325069,
     "Night_Fae_Niya": 327661,
@@ -199,7 +201,7 @@ def find_ids(key):
         return racials
     if key == 'enchants':
         return enchants
-    if key == 'covenants':
+    if key in ('covenants', 'covenants-launch', 'covenants-prog'):
         return covenants
     if key == 'legendaries':
         return legendaries
