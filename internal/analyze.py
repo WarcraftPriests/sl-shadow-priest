@@ -13,8 +13,29 @@ from internal.writers.json_writer import (
 from internal.writers.markdown_writer import build_markdown
 
 
+def parse_weights(results, data, weight, weighted_dps):
+    """parses the data results into a dict keyed by actor"""
+    actor = data.actor
+    intellect = data.int
+    haste = data.haste / intellect * weight
+    crit = data.crit / intellect * weight
+    mastery = data.mastery / intellect * weight
+    vers = data.vers / intellect * weight
+    wdps = 1 / intellect * weight
+    existing = results.get(actor, {})
+    results[actor] = {
+        'dps': existing.get('dps', 0) + weighted_dps,
+        'intellect': existing.get('intellect', 0) + weight,
+        'haste': existing.get('haste', 0) + haste,
+        'crit': existing.get('crit', 0) + crit,
+        'mastery': existing.get('mastery', 0) + mastery,
+        'vers': existing.get('vers', 0) + vers,
+        'wdps': existing.get('wdps', 0) + wdps
+    }
+    return results
+
+
 def build_results(data, weights, sim_type, directory):
-    # pylint: disable=too-many-locals
     """create results dict from sim data"""
     results = {}
     for value in data.iterrows():
@@ -24,22 +45,7 @@ def build_results(data, weights, sim_type, directory):
         weight = find_weight(sim_type, fight_style)
         weighted_dps = value[1].DPS * weight
         if weights:
-            intellect = value[1].int
-            haste = value[1].haste / intellect * weight
-            crit = value[1].crit / intellect * weight
-            mastery = value[1].mastery / intellect * weight
-            vers = value[1].vers / intellect * weight
-            wdps = 1 / intellect * weight
-            existing = results.get(actor, {})
-            results[actor] = {
-                'dps': existing.get('dps', 0) + weighted_dps,
-                'intellect': existing.get('intellect', 0) + weight,
-                'haste': existing.get('haste', 0) + haste,
-                'crit': existing.get('crit', 0) + crit,
-                'mastery': existing.get('mastery', 0) + mastery,
-                'vers': existing.get('vers', 0) + vers,
-                'wdps': existing.get('wdps', 0) + wdps
-            }
+            results[actor] = parse_weights(results, value[1], weight, weighted_dps)
         else:
             results[actor] = results.get(actor, 0) + weighted_dps
     # Each profile sims "Base" again so we need to divide that to get the real average
@@ -59,6 +65,7 @@ def build_results(data, weights, sim_type, directory):
 
 
 def analyze(talents, directory, dungeons, weights, timestamp, covenant):
+    # pylint: disable=too-many-arguments, too-many-locals
     """main analyze function"""
     base_path =  os.path.join(directory, utils.get_simc_dir(talents, covenant, 'output'))
     csv_path = os.path.join(base_path, 'statweights.csv')
