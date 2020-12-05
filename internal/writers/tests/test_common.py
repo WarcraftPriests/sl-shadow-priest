@@ -52,4 +52,4 @@ def test_build_output_string(mocker):
         'talent',
         'covenant',
         'file_ext'
-    ) == r'base_path\results\Results_sim_typetalentcovenant.file_ext'
+    ) == os.path.join('base_path','results','Results_sim_typetalentcovenant.file_ext')
