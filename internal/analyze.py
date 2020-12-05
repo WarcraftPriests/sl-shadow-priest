@@ -59,7 +59,6 @@ def build_results(data, weights, sim_type, directory):
 
 
 def analyze(talents, directory, dungeons, weights, timestamp, covenant):
-    # pylint: disable=too-many-arguments, too-many-locals
     """main analyze function"""
     base_path =  os.path.join(directory, utils.get_simc_dir(talents, covenant, 'output'))
     csv_path = os.path.join(base_path, 'statweights.csv')

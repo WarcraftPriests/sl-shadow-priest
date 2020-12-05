@@ -2,7 +2,7 @@
 from unittest.mock import Mock
 import os
 import sys
-sys.path.insert(0, os.path.abspath(
+sys.path.insert(0, os.path.abspath( # This should be the path back to the root directory.
     os.path.join(os.path.dirname(__file__), '..', '..')))
 from internal.auto_download import download_latest, BASE_URL, _cleanup_older_files, _find_7zip  # pylint: disable=wrong-import-position
 

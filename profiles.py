@@ -2,8 +2,8 @@
 import os
 from itertools import combinations_with_replacement
 import re
-import internal.utils as utils
 
+from internal import utils
 from internal.config import config
 
 

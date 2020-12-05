@@ -6,11 +6,18 @@ from internal.weights import find_weights
 from internal.spell_ids import find_ids
 
 
-def generate_report_name(sim_type, talent, covenant):
+def generate_report_name(sim_type, talent=None, covenant=None):
     """create report name based on talents and covenant"""
     talents = f" - {talent.strip('_')}" if talent else ""
     covenant = f" - {covenant.strip('_')}" if covenant else ""
     return f"{sim_type}{talents}{covenant}"
+
+
+def assure_path_exists(path):
+    """Make sure the path exists and contains a folder"""
+    dir_name = os.path.dirname(path)
+    if not os.path.exists(dir_name):
+        os.makedirs(dir_name)
 
 
 def build_output_string(base_path, sim_type, talent, covenant, file_ext):
@@ -95,10 +102,3 @@ def find_weight(sim_type, profile_name):
     if not weight:
         return 0
     return weight
-
-
-def assure_path_exists(path):
-    """Make sure the path exists and contains a folder"""
-    dir_name = os.path.dirname(path)
-    if not os.path.exists(dir_name):
-        os.makedirs(dir_name)
