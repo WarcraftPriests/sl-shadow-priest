@@ -39,7 +39,7 @@ def build_combos():
     unique_trinkets = []
     for pair in trinkets:
         # check if name matches, trinkets are unique
-        if pair[0][:-5] != pair[1][:-5]:
+        if pair[0][:-3] != pair[1][:-3]:
             unique_trinkets.append(pair)
     print("Generated {0} combinations.".format(len(unique_trinkets)))
     return unique_trinkets
