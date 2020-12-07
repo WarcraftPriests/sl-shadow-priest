@@ -1,5 +1,10 @@
 # Single - am
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new_condition|5446|1.03%|
-|Base|5390|0.00%|
+|Sinbearers_Absolution_Staff_233|5849|36.70%|
+|Sinstealers_Sentencing_Gavel_233_Master_Stonewrights_Chisel_233|5840|36.50%|
+|Sinstealers_Sentencing_Gavel_233_Stonewrights_Infused_Stonecarver_226|5805|35.68%|
+|Mace_of_Enveloping_Sims_226_Master_Stonewrights_Chisel_233|5778|35.04%|
+|Torch_of_Fiery_Atonement_226|5756|34.53%|
+|Mace_of_Enveloping_Sims_226_Stonewrights_Infused_Stonecarver_226|5752|34.44%|
+|Base|4279|0.00%|

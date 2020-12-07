@@ -1,5 +1,10 @@
 # Dungeons - hv-as
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new_condition|5984|0.20%|
-|Base|5972|0.00%|
+|Sinstealers_Sentencing_Gavel_233_Master_Stonewrights_Chisel_233|6388|35.17%|
+|Sinbearers_Absolution_Staff_233|6384|35.08%|
+|Sinstealers_Sentencing_Gavel_233_Stonewrights_Infused_Stonecarver_226|6357|34.51%|
+|Torch_of_Fiery_Atonement_226|6317|33.66%|
+|Mace_of_Enveloping_Sims_226_Master_Stonewrights_Chisel_233|6313|33.58%|
+|Mace_of_Enveloping_Sims_226_Stonewrights_Infused_Stonecarver_226|6294|33.18%|
+|Base|4726|0.00%|

@@ -21,7 +21,7 @@ finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_
 finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
 trinket1=macabre_sheet_music,id=184024,ilevel=226
 trinket2=cabalists_hymnal,id=184028,ilevel=233
-main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation
+main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
 profileset."Venthyr_Covenant_Only"+=covenant=venthyr
 profileset."Kyrian_Covenant_Only"+=covenant=kyrian
