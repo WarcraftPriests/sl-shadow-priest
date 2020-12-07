@@ -1,4 +1,5 @@
 # Consumable Results
+All Potions assume you have Shadowcore Oil active.
 
 ## Raids
 - [Composite - AM](results/Results_Composite_am.md) - `FotM_ToF_AS_VT_AM`
