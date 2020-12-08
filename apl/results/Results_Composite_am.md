@@ -1,10 +1,5 @@
 # Composite - am
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Sinbearers_Absolution_Staff_233|6205|36.28%|
-|Sinstealers_Sentencing_Gavel_233_Master_Stonewrights_Chisel_233|6195|36.07%|
-|Sinstealers_Sentencing_Gavel_233_Stonewrights_Infused_Stonecarver_226|6163|35.37%|
-|Mace_of_Enveloping_Sims_226_Master_Stonewrights_Chisel_233|6123|34.49%|
-|Torch_of_Fiery_Atonement_226|6102|34.01%|
-|Mace_of_Enveloping_Sims_226_Stonewrights_Infused_Stonecarver_226|6101|34.01%|
-|Base|4553|0.00%|
+|hv_check|6215|0.00%|
+|Base|6215|0.00%|
