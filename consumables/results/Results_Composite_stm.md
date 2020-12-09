@@ -1,19 +1,21 @@
 # Composite - stm
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Spectral_Flask_of_Power|5177|4.24%|
-|Potion_of_Phantom_Fire|5086|2.40%|
-|Potion_of_Spectral_Intellect|5069|2.07%|
-|Potion_of_Empowered_Exorcisms|5042|1.51%|
-|Feast_of_Gluttonous_Hedonism|5027|1.22%|
-|Veiled_Augment_Rune|5021|1.10%|
-|Iridescent_Ravioli_with_Apple_Sauce|5006|0.80%|
-|Spinefin_Souffle_and_Fries|5006|0.80%|
-|Tenebrous_Crown_Roast_Aspic|5004|0.75%|
-|Steak_a_la_Mode|5002|0.71%|
-|Potion_of_Deathly_Fixation|5001|0.69%|
-|16_Haste|4989|0.45%|
-|16_Mastery|4989|0.44%|
-|16_Critical_Strike|4988|0.44%|
-|16_Versatility|4985|0.38%|
-|Base|4967|0.00%|
+|Spectral_Flask_of_Power|5185|4.27%|
+|Potion_of_Phantom_Fire|5089|2.34%|
+|Potion_of_Spectral_Intellect|5075|2.07%|
+|Potion_of_Empowered_Exorcisms|5046|1.48%|
+|Feast_of_Gluttonous_Hedonism|5033|1.22%|
+|Veiled_Augment_Rune|5028|1.11%|
+|Tenebrous_Crown_Roast_Aspic|5020|0.96%|
+|Spinefin_Souffle_and_Fries|5013|0.81%|
+|Iridescent_Ravioli_with_Apple_Sauce|5011|0.78%|
+|Steak_a_la_Mode|5008|0.72%|
+|Potion_of_Deathly_Fixation|5006|0.68%|
+|7_Intellect|4995|0.46%|
+|16_Critical_Strike|4994|0.44%|
+|16_Mastery|4993|0.42%|
+|16_Versatility|4992|0.40%|
+|6_Intellect|4992|0.40%|
+|16_Haste|4992|0.39%|
+|Base|4972|0.00%|
