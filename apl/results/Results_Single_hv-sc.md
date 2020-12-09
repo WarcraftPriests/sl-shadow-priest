@@ -1,5 +1,5 @@
 # Single - hv-sc
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|hv_check|5989|0.07%|
-|Base|5984|0.00%|
+|Base|5990|0.00%|
+|swp_check_with_tof|5989|-0.01%|

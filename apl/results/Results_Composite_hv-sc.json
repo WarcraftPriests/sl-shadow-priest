@@ -1,1 +1,1 @@
-{"name": "Composite - hv-sc", "data": {"hv_check": {"DPS": 6452}, "Base": {"DPS": 6448}}, "ids": {"hv_check": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["hv_check"], "last_updated": "2020-12-08"}
+{"name": "Composite - hv-sc", "data": {"Base": {"DPS": 6453}, "swp_check_with_tof": {"DPS": 6432}}, "ids": {"swp_check_with_tof": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["swp_check_with_tof"], "last_updated": "2020-12-08"}

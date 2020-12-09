@@ -1,5 +1,5 @@
 # Dungeons - stm
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|6601|0.00%|
-|hv_check|6531|-1.06%|
+|swp_check_with_tof|6537|0.05%|
+|Base|6534|0.00%|

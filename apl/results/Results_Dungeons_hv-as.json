@@ -1,1 +1,1 @@
-{"name": "Dungeons - hv-as", "data": {"Base": {"DPS": 6435}, "hv_check": {"DPS": 6419}}, "ids": {"hv_check": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["hv_check"], "last_updated": "2020-12-08"}
+{"name": "Dungeons - hv-as", "data": {"swp_check_with_tof": {"DPS": 6429}, "Base": {"DPS": 6423}}, "ids": {"swp_check_with_tof": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["swp_check_with_tof"], "last_updated": "2020-12-08"}

@@ -2,4 +2,4 @@
 | Actor | DPS | Increase |
 |---|:---:|:---:|
 |Base|5713|0.00%|
-|hv_check|5713|-0.01%|
+|swp_check_with_tof|5711|-0.04%|

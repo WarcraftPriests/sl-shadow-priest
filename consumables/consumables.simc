@@ -34,6 +34,8 @@ profileset."16_Versatility"+=main_hand=sinbearers_absolution_staff,id=182392,ile
 profileset."16_Critical_Strike"+=main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation,gem_id=173127
 profileset."16_Mastery"+=main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation,gem_id=173130
 profileset."16_Haste"+=main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation,gem_id=173128
+profileset."7_Intellect"+=main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation,gem_id=168638
+profileset."6_Intellect"+=main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation,gem_id=153709
 
 # Flasks
 profileset."Spectral_Flask_of_Power"+=flask=spectral_flask_of_power

@@ -1,5 +1,5 @@
 # Composite - hv-as
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|hv_check|6407|0.13%|
-|Base|6399|0.00%|
+|Base|6407|0.00%|
+|swp_check_with_tof|6402|-0.08%|

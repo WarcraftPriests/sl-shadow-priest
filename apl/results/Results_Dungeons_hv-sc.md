@@ -1,5 +1,5 @@
 # Dungeons - hv-sc
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|hv_check|6660|0.42%|
-|Base|6632|0.00%|
+|Base|6656|0.00%|
+|swp_check_with_tof|6655|-0.02%|

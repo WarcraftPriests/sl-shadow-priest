@@ -147,7 +147,9 @@ consumables = {
     "Tenebrous_Crown_Roast_Aspic": 172045,
     "Iridescent_Ravioli_with_Apple_Sauce": 172049,
     "Steak_a_la_Mode": 172051,
-    "Shadowcore_Oil": 171285
+    "Shadowcore_Oil": 171285,
+    "7_Intellect": 168638,
+    "6_Intellect": 153709,
 }
 
 soulbind_traits = {

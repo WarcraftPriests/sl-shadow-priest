@@ -1,1 +1,1 @@
-{"name": "Dungeons - stm", "data": {"Base": {"DPS": 6601}, "hv_check": {"DPS": 6531}}, "ids": {"hv_check": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["hv_check"], "last_updated": "2020-12-08"}
+{"name": "Dungeons - stm", "data": {"swp_check_with_tof": {"DPS": 6537}, "Base": {"DPS": 6534}}, "ids": {"swp_check_with_tof": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["swp_check_with_tof"], "last_updated": "2020-12-08"}
