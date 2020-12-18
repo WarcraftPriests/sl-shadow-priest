@@ -44,7 +44,7 @@ profileset."Kyrian_Kleia"+=soulbind=kleia,${conduits.first.id}:6
 
 # Soulbind: Dreamweaver - Dreamweaver-FoB-1_2
 profileset."Night_Fae_Dreamweaver"+=covenant=night_fae
-profileset."Night_Fae_Dreamweaver"+=soulbind=dreamweaver,${conduits.first.id}:6
+profileset."Night_Fae_Dreamweaver"+=soulbind=dreamweaver,${conduits.first.id}:6/${conduits.second.id}:6
 profileset."Night_Fae_Dreamweaver_SB"+=covenant=night_fae
 profileset."Night_Fae_Dreamweaver_SB"+=soulbind=dreamweaver,${conduits.first.id}:6/319210
 # Soulbind: Niya - Niya-GI_NTB-1

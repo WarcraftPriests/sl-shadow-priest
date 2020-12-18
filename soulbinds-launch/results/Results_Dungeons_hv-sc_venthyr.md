@@ -1,6 +1,6 @@
 # Dungeons - hv-sc - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Nadjia-TS-DE|4922|5.62%|
-|Theotar-SS-DE|4878|4.68%|
-|Base|4660|0.00%|
+|Nadjia-TS-DE|4991|5.56%|
+|Theotar-SS-DE|4953|4.76%|
+|Base|4728|0.00%|

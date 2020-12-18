@@ -134,7 +134,7 @@ sims:
     files:
       - covenants.simc
   covenants-launch:
-    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 12."
+    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 15."
     builds: true
     weights: false
     covenant:
@@ -250,7 +250,7 @@ sims:
       - night_fae.simc
       - venthyr.simc
   soulbinds-launch:
-    description: "Altered version of the Soulbinds sim but capped at level 12 renown for Mythic Raid launch week."
+    description: "Altered version of the Soulbinds sim but capped at level 15 renown for Mythic Raid launch week."
     soulbinds:
     builds: true
     weights: false
