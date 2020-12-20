@@ -1,14 +1,14 @@
 # Dungeons - hv-as - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|6509|8.30%|
-|Shadowflame_Prism_Conduit_7|6279|4.48%|
-|Shadowflame_Prism|6216|3.43%|
-|Talbadars_Stratagem|6187|2.95%|
-|Sephuzs_Proclamation|6153|2.38%|
-|Judgment_of_the_Arbiter|6111|1.68%|
-|Painbreaker_Psalm|6108|1.63%|
-|Echo_of_Eonar|6107|1.61%|
-|Twins_of_the_Sun_Priestess_Conduit_7|6091|1.35%|
-|Third_Eye_of_the_Jailer|6015|0.08%|
-|Base|6010|0.00%|
+|Eternal_Call_to_the_Void|6554|8.26%|
+|Shadowflame_Prism_Conduit_7|6330|4.56%|
+|Sephuzs_Proclamation|6297|4.01%|
+|Shadowflame_Prism|6269|3.55%|
+|Talbadars_Stratagem|6225|2.82%|
+|Painbreaker_Psalm|6163|1.80%|
+|Echo_of_Eonar|6155|1.67%|
+|Judgment_of_the_Arbiter|6146|1.52%|
+|Twins_of_the_Sun_Priestess_Conduit_7|6142|1.45%|
+|Third_Eye_of_the_Jailer|6059|0.08%|
+|Base|6054|0.00%|

@@ -1,14 +1,14 @@
 # Composite - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|6284|5.18%|
-|Talbadars_Stratagem|6205|3.85%|
-|Shadowflame_Prism|6118|2.39%|
-|Judgment_of_the_Arbiter|6082|1.80%|
-|Echo_of_Eonar|6069|1.58%|
-|Painbreaker_Psalm|6037|1.05%|
-|Shadowflame_Prism_Conduit_7|6008|0.56%|
-|Twins_of_the_Sun_Priestess_Conduit_7|6004|0.49%|
-|Sephuzs_Proclamation|5994|0.32%|
-|Base|5975|0.00%|
-|Third_Eye_of_the_Jailer|5975|0.00%|
+|Eternal_Call_to_the_Void|6357|5.22%|
+|Sephuzs_Proclamation|6296|4.22%|
+|Talbadars_Stratagem|6265|3.69%|
+|Shadowflame_Prism|6185|2.38%|
+|Judgment_of_the_Arbiter|6147|1.74%|
+|Echo_of_Eonar|6138|1.60%|
+|Painbreaker_Psalm|6104|1.03%|
+|Shadowflame_Prism_Conduit_7|6074|0.53%|
+|Twins_of_the_Sun_Priestess_Conduit_7|6071|0.50%|
+|Third_Eye_of_the_Jailer|6042|0.01%|
+|Base|6041|0.00%|
