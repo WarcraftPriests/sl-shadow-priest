@@ -329,6 +329,7 @@ sims:
     lookupType: item
     steps:
       - 158
+      - 161
       - 164
       - 165
       - 168

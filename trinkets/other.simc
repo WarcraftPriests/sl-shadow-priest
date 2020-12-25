@@ -83,6 +83,12 @@ profileset."Newcomers_Gladiatorial_Badge_174"+=trinket1=newcomers_gladiatorial_b
 profileset."Stolen_Maw_Badge_171"+=trinket1=stolen_maw_badge,id=175731,ilevel=171
 profileset."Stolen_Maw_Badge_174"+=trinket1=stolen_maw_badge,id=175731,ilevel=174
 
+profileset."Instructors_Divine_Bell_158"+=trinket1=instructors_divine_bell,id=184842,ilevel=158
+profileset."Instructors_Divine_Bell_161"+=trinket1=instructors_divine_bell,id=184842,ilevel=161
+profileset."Instructors_Divine_Bell_171"+=trinket1=instructors_divine_bell,id=184842,ilevel=171
+profileset."Instructors_Divine_Bell_174"+=trinket1=instructors_divine_bell,id=184842,ilevel=174
+profileset."Instructors_Divine_Bell_177"+=trinket1=instructors_divine_bell,id=184842,ilevel=177
+
 # PVP Trinkets
 # Conquest: 190, 200, 207, 213, 220, 226
 profileset."Sinful_Gladiators_Badge_of_Ferocity_190"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921,ilevel=190
