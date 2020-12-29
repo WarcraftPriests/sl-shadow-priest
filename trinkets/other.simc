@@ -119,3 +119,20 @@ profileset."Sinful_Aspirants_Insignia_of_Alacrity_171"+=trinket1=sinful_aspirant
 profileset."Sinful_Aspirants_Insignia_of_Alacrity_177"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298,ilevel=177
 profileset."Sinful_Aspirants_Insignia_of_Alacrity_184"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298,ilevel=184
 profileset."Sinful_Aspirants_Insignia_of_Alacrity_190"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298,ilevel=190
+
+# Ulduar Timewalking
+profileset."Energy_Siphon_200"+=trinket1=energy_siphon,id=156021,ilevel=200
+
+profileset."Eye_of_the_Broodmother_200"+=trinket1=eye_of_the_broodmother,id=156036,ilevel=200
+
+profileset."Living_Flame_200"+=trinket1=living_flame,id=155947,ilevel=200
+
+profileset."Elemental_Focus_Stone_200"+=trinket1=elemental_focus_stone,id=156288,ilevel=200
+
+profileset."Scale_of_Fates_200"+=trinket1=scale_of_fates,id=156187,ilevel=200
+
+profileset."Pandoras_Plea_200"+=trinket1=pandoras_plea,id=156207,ilevel=200
+
+profileset."Flare_of_the_Heavens_200"+=trinket1=flare_of_the_heavens,id=156230,ilevel=200
+
+profileset."Vanquished_Cluthes_of_Yogg_Saron_200"+=trinket1=vanquished_clutches_of_yogg_saron,id=156458,ilevel=200
