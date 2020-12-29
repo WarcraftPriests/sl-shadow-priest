@@ -57,6 +57,7 @@ legendaries = {
     "Twins_of_the_Sun_Priestess_Conduit_7": 336897,
     "Eternal_Call_to_the_Void": 336214,
     "Talbadars_Stratagem": 342415,
+    "Talbadars_Stratagem_Mind_Devourer_7": 342415,
     "Judgment_of_the_Arbiter": 339344,
     "Sephuzs_Proclamation": 339348,
     "Painbreaker_Psalm": 336165,
