@@ -1,5 +1,7 @@
 # Dungeons - stm
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|swp_check_with_tof|6537|0.05%|
-|Base|6534|0.00%|
+|Base|6051|0.00%|
+|PP_remains_check_swp|6003|-0.79%|
+|PP_remains_check_swp_and_vt|5998|-0.88%|
+|PP_remains_check_swp_or_vt|5991|-0.99%|

@@ -1,3 +1,5 @@
 profile,actor,DPS,increase,
-Dungeons,swp_check_with_tof,6627,0.08%,
-Dungeons,Base,6622,0.00%,
+Dungeons,Base,6059,0.00%,
+Dungeons,PP_remains_check_swp,5989,-1.16%,
+Dungeons,PP_remains_check_swp_and_vt,5980,-1.30%,
+Dungeons,PP_remains_check_swp_or_vt,5980,-1.30%,

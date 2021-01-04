@@ -1,5 +1,5 @@
 # Composite - am
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|6215|0.00%|
-|swp_check_with_tof|6203|-0.19%|
+|Base|5846|0.00%|
+|high_prio_dots|5829|-0.29%|

@@ -1,5 +1,5 @@
 # Single - am
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|5806|0.00%|
-|swp_check_with_tof|5805|-0.02%|
+|Base|5475|0.00%|
+|high_prio_dots|5443|-0.58%|

@@ -1,1 +1,1 @@
-{"name": "Composite - stm", "data": {"Base": {"DPS": 6161}, "swp_check_with_tof": {"DPS": 6150}}, "ids": {"swp_check_with_tof": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["swp_check_with_tof"], "last_updated": "2020-12-08"}
+{"name": "Composite - stm", "data": {"Base": {"DPS": 5796}, "high_prio_dots": {"DPS": 5766}}, "ids": {"high_prio_dots": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["high_prio_dots"], "last_updated": "2021-01-04"}

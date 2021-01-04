@@ -137,23 +137,23 @@ actions.main+=/shadow_word_death
 # Use SW:P as last resort if on the move and SW:D is on CD
 actions.main+=/shadow_word_pain
 
-head=confidants_favored_cap,id=183021,bonus_id=7187/1498/6935,gem_id=173128
-neck=nobles_birthstone_pendant,id=183039,bonus_id=7187/1498/6935,gem_id=173128
-shoulders=shawl_of_the_penitent,id=183020,bonus_id=7187/1498
-back=crest_of_the_legionnaire_general,id=183032,bonus_id=7187/1498
-chest=robes_of_the_cursed_commando,id=182998,bonus_id=7187/1498,enchant=eternal_insight
-wrists=grim_pursuants_maille,id=182996,bonus_id=7187/1498/6935,gem_id=173128,enchant=eternal_intellect
-hands=grimveiled_mittens,id=173244,bonus_id=6647/6649/6758/6983/1532
-waist=shadewarped_sash,id=183004,bonus_id=7187/1498/6935,gem_id=173128
-legs=courtiers_costume_trousers,id=183011,bonus_id=7187/1498
-feet=slippers_of_the_forgotten_heretic,id=182979,bonus_id=7187/1498
-finger1=most_regal_signet_of_sire_denathrius,id=183036,bonus_id=7187/1498/6935,gem_id=173128,enchant=tenet_of_haste
-finger2=ritualists_treasured_ring,id=183037,bonus_id=7187/1498/6935,gem_id=173128,enchant=tenet_of_haste
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6981
+neck=charm_of_eternal_winter,id=183040,ilevel=226
+shoulder=shawl_of_the_penitent,id=183020,ilevel=233
+back=crest_of_the_legionnaire_general,id=183032,ilevel=233
+chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
+wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect
+hands=impossibly_oversized_mitts,id=183022,ilevel=226
+waist=shadewarped_sash,id=183004,ilevel=226
+legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
+feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
+finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
+finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
 trinket1=macabre_sheet_music,id=184024,ilevel=226
-trinket2=cabalists_hymnal,id=184028,bonus_id=7187/1498
+trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
-priest="swp_check_with_tof"
+priest="high_prio_dots"
 level=60
 role=spell
 position=back
@@ -257,6 +257,11 @@ actions.main+=/call_action_list,name=cds
 actions.main+=/mind_sear,target_if=talent.searing_nightmare.enabled&spell_targets.mind_sear>variable.mind_sear_cutoff&!dot.shadow_word_pain.ticking&!cooldown.fiend.up
 # Prefer to use Damnation ASAP if any DoT is not up.
 actions.main+=/damnation,target_if=!variable.all_dots_up
+actions.main+=/vampiric_touch,target_if=refreshable&target.time_to_die>6|(talent.misery.enabled&dot.shadow_word_pain.refreshable)|buff.unfurling_darkness.up
+# Special condition to stop casting SW:P on off-targets when fighting 3 or more stacked mobs and using Psychic Link and NOT Misery.
+actions.main+=/shadow_word_pain,if=refreshable&target.time_to_die>4&!talent.misery.enabled&talent.psychic_link.enabled&spell_targets.mind_sear>2
+# Keep SW:P up on as many targets as possible, except when fighting 3 or more stacked mobs with Psychic Link.
+actions.main+=/shadow_word_pain,target_if=refreshable&target.time_to_die>4&!talent.misery.enabled&!(talent.searing_nightmare.enabled&spell_targets.mind_sear>variable.mind_sear_cutoff)&(!talent.psychic_link.enabled|(talent.psychic_link.enabled&spell_targets.mind_sear<=2))
 # Use Void Bolt at higher priority with Hungering Void up to 4 targets, or other talents on ST.
 actions.main+=/void_bolt,if=insanity<=85&talent.hungering_void.enabled&talent.searing_nightmare.enabled&spell_targets.mind_sear<=6|((talent.hungering_void.enabled&!talent.searing_nightmare.enabled)|spell_targets.mind_sear=1)
 # Don't use Devouring Plague if you can get into Voidform instead, or if Searing Nightmare is talented and will hit enough targets.
@@ -268,7 +273,7 @@ actions.main+=/shadow_word_death,target_if=(target.health.pct<20&spell_targets.m
 # Use Surrender to Madness on a target that is going to die at the right time.
 actions.main+=/surrender_to_madness,target_if=target.time_to_die<25&buff.voidform.down
 # Use Void Torrent only if SW:P and VT are active and the target won't die during the channel.
-actions.main+=/void_torrent,target_if=variable.dots_up&target.time_to_die>3&buff.voidform.down&active_dot.vampiric_touch==spell_targets.vampiric_touch&spell_targets.mind_sear<(5+(6*talent.twist_of_fate.enabled))&(active_dot.shadow_word_pain==spell_targets.shadow_word_pain&talent.twist_of_fate.enabled)
+actions.main+=/void_torrent,target_if=variable.dots_up&target.time_to_die>3&buff.voidform.down&active_dot.vampiric_touch==spell_targets.vampiric_touch&spell_targets.mind_sear<(5+(6*talent.twist_of_fate.enabled))
 actions.main+=/mindbender,if=dot.vampiric_touch.ticking&(talent.searing_nightmare.enabled&spell_targets.mind_sear>variable.mind_sear_cutoff|dot.shadow_word_pain.ticking)
 # Use SW:D with Painbreaker Psalm unless the target will be below 20% before the cooldown comes back
 actions.main+=/shadow_word_death,if=runeforge.painbreaker_psalm.equipped&variable.dots_up&target.time_to_pct_20>(cooldown.shadow_word_death.duration+gcd)
@@ -280,11 +285,6 @@ actions.main+=/mind_sear,target_if=spell_targets.mind_sear>variable.mind_sear_cu
 actions.main+=/mind_flay,if=buff.dark_thought.up&variable.dots_up,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&cooldown.void_bolt.up
 # Use Mind Blast if you don't need to refresh DoTs. Stop casting at 4 or more targets with Searing Nightmare talented.
 actions.main+=/mind_blast,if=variable.dots_up&raid_event.movement.in>cast_time+0.5&(spell_targets.mind_sear<4&!talent.misery.enabled|spell_targets.mind_sear<6&talent.misery.enabled)
-actions.main+=/vampiric_touch,target_if=refreshable&target.time_to_die>6|(talent.misery.enabled&dot.shadow_word_pain.refreshable)|buff.unfurling_darkness.up
-# Special condition to stop casting SW:P on off-targets when fighting 3 or more stacked mobs and using Psychic Link and NOT Misery.
-actions.main+=/shadow_word_pain,if=refreshable&target.time_to_die>4&!talent.misery.enabled&talent.psychic_link.enabled&spell_targets.mind_sear>2
-# Keep SW:P up on as many targets as possible, except when fighting 3 or more stacked mobs with Psychic Link.
-actions.main+=/shadow_word_pain,target_if=refreshable&target.time_to_die>4&!talent.misery.enabled&!(talent.searing_nightmare.enabled&spell_targets.mind_sear>variable.mind_sear_cutoff)&(!talent.psychic_link.enabled|(talent.psychic_link.enabled&spell_targets.mind_sear<=2))
 actions.main+=/mind_sear,target_if=spell_targets.mind_sear>variable.mind_sear_cutoff,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2
 actions.main+=/mind_flay,chain=1,interrupt_immediate=1,interrupt_if=ticks>=2&cooldown.void_bolt.up
 # Use SW:D as last resort if on the move
@@ -292,20 +292,20 @@ actions.main+=/shadow_word_death
 # Use SW:P as last resort if on the move and SW:D is on CD
 actions.main+=/shadow_word_pain
 
-head=confidants_favored_cap,id=183021,bonus_id=7187/1498/6935,gem_id=173128
-neck=nobles_birthstone_pendant,id=183039,bonus_id=7187/1498/6935,gem_id=173128
-shoulders=shawl_of_the_penitent,id=183020,bonus_id=7187/1498
-back=crest_of_the_legionnaire_general,id=183032,bonus_id=7187/1498
-chest=robes_of_the_cursed_commando,id=182998,bonus_id=7187/1498,enchant=eternal_insight
-wrists=grim_pursuants_maille,id=182996,bonus_id=7187/1498/6935,gem_id=173128,enchant=eternal_intellect
-hands=grimveiled_mittens,id=173244,bonus_id=6647/6649/6758/6983/1532
-waist=shadewarped_sash,id=183004,bonus_id=7187/1498/6935,gem_id=173128
-legs=courtiers_costume_trousers,id=183011,bonus_id=7187/1498
-feet=slippers_of_the_forgotten_heretic,id=182979,bonus_id=7187/1498
-finger1=most_regal_signet_of_sire_denathrius,id=183036,bonus_id=7187/1498/6935,gem_id=173128,enchant=tenet_of_haste
-finger2=ritualists_treasured_ring,id=183037,bonus_id=7187/1498/6935,gem_id=173128,enchant=tenet_of_haste
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6981
+neck=charm_of_eternal_winter,id=183040,ilevel=226
+shoulder=shawl_of_the_penitent,id=183020,ilevel=233
+back=crest_of_the_legionnaire_general,id=183032,ilevel=233
+chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
+wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect
+hands=impossibly_oversized_mitts,id=183022,ilevel=226
+waist=shadewarped_sash,id=183004,ilevel=226
+legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
+feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
+finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
+finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
 trinket1=macabre_sheet_music,id=184024,ilevel=226
-trinket2=cabalists_hymnal,id=184028,bonus_id=7187/1498
+trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
 single_actor_batch=1
