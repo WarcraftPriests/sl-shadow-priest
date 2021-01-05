@@ -1,15 +1,15 @@
 # Dungeons - hv-as - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Emeni-LbE-DE|4781|4.71%|
-|Marileth-VS_Mastery-DE|4756|4.16%|
-|Marileth-VS_Crit-DE|4754|4.12%|
-|Marileth-PPS_VS_Magic|4751|4.05%|
-|Marileth-VS_Magic-DE|4751|4.05%|
-|Marileth-PPS_VS_Crit|4745|3.92%|
-|Marileth-PPS_VS_Mastery|4745|3.92%|
-|Marileth-DE|4705|3.04%|
-|Marileth-VS_Intellect-DE|4703|3.00%|
-|Marileth-PPS|4696|2.85%|
-|Marileth-PPS_VS_Intellect|4695|2.83%|
-|Base|4566|0.00%|
+|Marileth-PPS_VS_Crit-DE|5292|6.44%|
+|Marileth-PPS_VS_Mastery-DE|5291|6.42%|
+|Marileth-PPS_VS_Magic-DE|5287|6.34%|
+|Marileth-VS_Mastery-DE_HA|5262|5.83%|
+|Marileth-VS_Crit-DE_HA|5261|5.81%|
+|Marileth-VS_Magic-DE_HA|5256|5.71%|
+|Marileth-PPS-DE|5230|5.19%|
+|Marileth-PPS_VS_Intellect-DE|5226|5.11%|
+|Marileth-DE_HA|5201|4.61%|
+|Marileth-VS_Intellect-DE_HA|5199|4.57%|
+|Emeni-LbE-DE|5184|4.26%|
+|Base|4972|0.00%|

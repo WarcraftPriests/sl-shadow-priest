@@ -1,15 +1,15 @@
 # Single - am - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Emeni-LbE-HA|4473|4.69%|
-|Marileth-VS_Magic-HA|4461|4.41%|
-|Marileth-VS_Mastery-HA|4450|4.15%|
-|Marileth-VS_Crit-HA|4438|3.87%|
-|Marileth-VS_Intellect-HA|4388|2.70%|
-|Marileth-HA|4387|2.66%|
-|Marileth-PPS_VS_Magic|4364|2.12%|
-|Marileth-PPS_VS_Mastery|4355|1.92%|
-|Marileth-PPS_VS_Crit|4345|1.69%|
-|Marileth-PPS_VS_Intellect|4293|0.48%|
-|Marileth-PPS|4293|0.48%|
-|Base|4273|0.00%|
+|Marileth-VS_Magic-HA_DE|4856|7.21%|
+|Marileth-VS_Mastery-HA_DE|4848|7.03%|
+|Marileth-VS_Crit-HA_DE|4835|6.75%|
+|Marileth-HA_DE|4779|5.51%|
+|Marileth-VS_Intellect-HA_DE|4777|5.47%|
+|Emeni-LbE-HA|4775|5.43%|
+|Marileth-PPS_VS_Magic-HA|4745|4.76%|
+|Marileth-PPS_VS_Mastery-HA|4735|4.54%|
+|Marileth-PPS_VS_Crit-HA|4726|4.34%|
+|Marileth-PPS-HA|4670|3.12%|
+|Marileth-PPS_VS_Intellect-HA|4669|3.09%|
+|Base|4529|0.00%|

@@ -1,6 +1,6 @@
 # Single - stm - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pelagos-CM-HA|4501|7.82%|
-|Kleia-HA|4284|2.62%|
-|Base|4174|0.00%|
+|Pelagos-CM-HA_DE|4877|10.81%|
+|Kleia-HA|4512|2.52%|
+|Base|4401|0.00%|

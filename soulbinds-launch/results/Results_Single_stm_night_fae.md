@@ -1,7 +1,7 @@
 # Single - stm - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Niya-GI-HA|4293|7.04%|
-|Dreamweaver-HA_DE|4285|6.83%|
-|Dreamweaver-SB-HA|4193|4.54%|
-|Base|4011|0.00%|
+|Niya-GI-HA|4543|6.98%|
+|Dreamweaver-HA_DE|4516|6.36%|
+|Dreamweaver-SB-HA|4437|4.49%|
+|Base|4246|0.00%|
