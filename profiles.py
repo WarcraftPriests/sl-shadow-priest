@@ -115,7 +115,10 @@ gear_versatility_rating={0}\n\n""".format(
 def build_simc_file(talent_string, covenant_string, profile_name):
     """Returns output file name based on talent and covenant strings"""
     if covenant_string:
-        return "profiles/{0}/{1}/{2}.simc".format(talent_string, covenant_string, profile_name)
+        if talent_string:
+            return "profiles/{0}/{1}/{2}.simc".format(talent_string, covenant_string, profile_name)
+        else:
+            return "profiles/{0}/{1}.simc".format(covenant_string, profile_name)
     if talent_string:
         return "profiles/{0}/{1}.simc".format(talent_string, profile_name)
     return "profiles/{0}.simc".format(profile_name)
@@ -221,15 +224,23 @@ if __name__ == '__main__':
         build_stats_files()
 
     if covenants:
-        for talent, covenant in [
-            (talent, covenant) for talent in talents for covenant in covenants
-        ]:
-            clear_out_folders(
-                '{0}output/{1}/{2}/'.format(args.dir, talent, covenant))
-            clear_out_folders(
-                '{0}profiles/{1}/{2}/'.format(args.dir, talent, covenant))
-            print("Building {0}-{1} profiles...".format(talent, covenant))
-            build_profiles(talent, covenant)
+        if talents:
+            for talent, covenant in [
+                (talent, covenant) for talent in talents for covenant in covenants
+            ]:
+                clear_out_folders(
+                    '{0}output/{1}/{2}/'.format(args.dir, talent, covenant))
+                clear_out_folders(
+                    '{0}profiles/{1}/{2}/'.format(args.dir, talent, covenant))
+                print("Building {0}-{1} profiles...".format(talent, covenant))
+                build_profiles(talent, covenant)
+        else:
+            for covenant in covenants:
+                clear_out_folders('{0}output/{1}/'.format(args.dir, covenant))
+                clear_out_folders(
+                    '{0}profiles/{1}/'.format(args.dir, covenant))
+                print("Building {0} profiles...".format(covenant))
+                build_profiles(None, covenant)
     elif talents:
         for talent in talents:
             clear_out_folders('{0}output/{1}/'.format(args.dir, talent))

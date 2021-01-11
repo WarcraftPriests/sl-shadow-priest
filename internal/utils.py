@@ -31,7 +31,10 @@ def get_covenant(args):
 def get_simc_dir(talent, covenant, folder_name):
     """get proper directory based on talent and covenant options"""
     if covenant:
-        return "{0}/{1}/{2}/".format(folder_name, talent, covenant)
+        if talent:
+            return "{0}/{1}/{2}/".format(folder_name, talent, covenant)
+        else:
+            return "{0}/{1}/".format(folder_name, covenant)
     if talent:
         return "{0}/{1}/".format(folder_name, talent)
     return "{0}/".format(folder_name)
