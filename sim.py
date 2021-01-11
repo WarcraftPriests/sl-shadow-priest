@@ -126,7 +126,7 @@ def analyze_data(args, talent, covenant, weights):
 
 
 def main():
-    # pylint: disable=import-outside-toplevel,too-many-branches,unsupported-assignment-operation
+    # pylint: disable=import-outside-toplevel,too-many-branches,unsupported-assignment-operation,duplicate-code
     """main function, runs and parses sims"""
     parser = utils.generate_parser("Parses a list of reports from Raidbots.")
     parser.add_argument(

@@ -117,8 +117,7 @@ def build_simc_file(talent_string, covenant_string, profile_name):
     if covenant_string:
         if talent_string:
             return "profiles/{0}/{1}/{2}.simc".format(talent_string, covenant_string, profile_name)
-        else:
-            return "profiles/{0}/{1}.simc".format(covenant_string, profile_name)
+        return "profiles/{0}/{1}.simc".format(covenant_string, profile_name)
     if talent_string:
         return "profiles/{0}/{1}.simc".format(talent_string, profile_name)
     return "profiles/{0}.simc".format(profile_name)
