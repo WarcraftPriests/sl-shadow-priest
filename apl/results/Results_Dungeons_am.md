@@ -1,7 +1,5 @@
 # Dungeons - am
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|6059|0.00%|
-|PP_remains_check_swp|5989|-1.16%|
-|PP_remains_check_swp_and_vt|5980|-1.30%|
-|PP_remains_check_swp_or_vt|5980|-1.30%|
+|Base|6107|0.00%|
+|mind_blast_before_void_eruption|6103|-0.07%|

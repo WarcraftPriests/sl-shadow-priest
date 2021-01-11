@@ -1,5 +1,5 @@
 # Composite - stm
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|5796|0.00%|
-|high_prio_dots|5766|-0.53%|
+|mind_blast_before_void_eruption|5921|0.11%|
+|Base|5915|0.00%|

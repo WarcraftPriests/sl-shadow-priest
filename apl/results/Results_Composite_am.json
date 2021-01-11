@@ -1,1 +1,1 @@
-{"name": "Composite - am", "data": {"Base": {"DPS": 5846}, "high_prio_dots": {"DPS": 5829}}, "ids": {"high_prio_dots": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["high_prio_dots"], "last_updated": "2021-01-04"}
+{"name": "Composite - am", "data": {"mind_blast_before_void_eruption": {"DPS": 6002}, "Base": {"DPS": 5995}}, "ids": {"mind_blast_before_void_eruption": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["mind_blast_before_void_eruption"], "last_updated": "2021-01-10"}

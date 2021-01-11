@@ -1,1 +1,1 @@
-{"name": "Single - stm", "data": {"Base": {"DPS": 5384}, "high_prio_dots": {"DPS": 5355}}, "ids": {"high_prio_dots": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["high_prio_dots"], "last_updated": "2021-01-04"}
+{"name": "Single - stm", "data": {"mind_blast_before_void_eruption": {"DPS": 5500}, "Base": {"DPS": 5490}}, "ids": {"mind_blast_before_void_eruption": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["mind_blast_before_void_eruption"], "last_updated": "2021-01-10"}

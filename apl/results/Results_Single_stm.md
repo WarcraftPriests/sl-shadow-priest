@@ -1,5 +1,5 @@
 # Single - stm
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|5384|0.00%|
-|high_prio_dots|5355|-0.53%|
+|mind_blast_before_void_eruption|5500|0.18%|
+|Base|5490|0.00%|

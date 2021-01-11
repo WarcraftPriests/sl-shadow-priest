@@ -1,5 +1,5 @@
 # Single - am
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|5475|0.00%|
-|high_prio_dots|5443|-0.58%|
+|mind_blast_before_void_eruption|5619|0.29%|
+|Base|5603|0.00%|

@@ -1,5 +1,5 @@
 # Single - hv-sc
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|high_prio_dots|5683|0.44%|
-|Base|5658|0.00%|
+|Base|5772|0.00%|
+|mind_blast_before_void_eruption|5770|-0.03%|

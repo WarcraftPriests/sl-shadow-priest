@@ -1,5 +1,5 @@
 # Composite - am
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|5846|0.00%|
-|high_prio_dots|5829|-0.29%|
+|mind_blast_before_void_eruption|6002|0.12%|
+|Base|5995|0.00%|
