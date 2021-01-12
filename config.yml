@@ -195,7 +195,7 @@ sims:
     files:
       - legendaries.simc
   legendary-items:
-    description: "Using a base set of Mythic BiS gear from Castle Nathria we swap out for each Legendary Item + Power to get a sense for what would be an upgrade compared to the base pieces we have available."
+    description: "Using a base set of Mythic BiS gear from Castle Nathria we swap out for each Legendary Item + Power to get a sense for what would be an upgrade compared to the base pieces we have available. HC stands for Haste Crit, and HM stands for Haste Mastery."
     builds: true
     weights: false
     covenant:
