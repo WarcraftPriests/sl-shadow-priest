@@ -50,9 +50,9 @@ covenants:
     - venthyr
     - necrolord
 legendary:
-    composite: 7162 # Talbadar's Stratagem
-    dungeons: 6983 # Eternal Call to the Void
-    single: 7162 # Talbadar's Stratagem
+    composite: "7162" # Talbadar's Stratagem
+    dungeons: "6983" # Eternal Call to the Void
+    single: "7162" # Talbadar's Stratagem
 sims:
   apl:
     description: "APL Sims used for testing rotational changes only"
