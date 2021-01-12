@@ -1,9 +1,9 @@
 # Composite - stm - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pelagos-CM-HA_DE|6504|10.76%|
-|Kleia-PC-HA|6362|8.34%|
-|Forgelite-BCtA-HA_DE|6352|8.18%|
-|Kleia-HA_DE|6274|6.85%|
-|Forgelite-BCtA_HoG-HA|6206|5.68%|
-|Base|5872|0.00%|
+|Pelagos-CM-HA_DE|6814|9.74%|
+|Kleia-PC-HA|6706|8.00%|
+|Forgelite-BCtA-HA_DE|6668|7.40%|
+|Kleia-HA_DE|6594|6.20%|
+|Forgelite-BCtA_HoG-HA|6529|5.15%|
+|Base|6209|0.00%|

@@ -15,8 +15,8 @@ fightExpressions = {
     "hm": 'fight_style="HeavyMovement"',
     "ba": 'raid_events+=/adds,count=1,first=30,cooldown=60,duration=20',
     "sa": 'raid_events+=/adds,count=3,first=45,cooldown=45,duration=10,distance=5',
-    "1": 'desired_targets="1"',
-    "2": 'desired_targets="2"',
+    "1": 'desired_targets=1',
+    "2": 'desired_targets=2',
     "dungeons": 'fight_style="DungeonSlice"',
     "ptr": 'ptr=1\n',
     "weights": 'calculate_scale_factors="1"\nscale_only="intellect,crit,mastery,vers,haste"'
