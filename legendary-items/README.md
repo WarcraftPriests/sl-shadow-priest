@@ -1,9 +1,14 @@
 # Legendary Item sims
 This goes a step ahead of the `legendaries/` sims and actually uses the raw items to compare against rather than just the power of the legendary effect.
 
-Base gear uses BiS pieces from Castle Nathria where appropriate. This means some pieces are 233 while most are 226 in that slot.
-
-Note that for the sake of evaluating full bis Dungeon gloves/wrists/legs were used for more optimal stat comparisons.
+## Notes
+- Base gear uses BiS pieces from Castle Nathria where appropriate. This means some pieces are 233 while most are 226 in that slot.
+- Note that for the sake of evaluating full bis Dungeon gloves/wrists/legs were used for more optimal stat comparisons.
+- `HC` and `HM` refer to the stats on the item. `HC` is Haste Crit and `HM` is Haste Mastery.
+- The `Conduit` versions of items refer to the following:
+  - Rabid Shadows for Shadowflame Prism
+  - Power Unto Others for Twins of the Sun Priestess
+  - Mind Devourer for Talbadar's Stratagem
 
 ## Night Fae
 ### Raids
