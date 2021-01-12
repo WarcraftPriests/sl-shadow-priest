@@ -8,7 +8,7 @@ covenant=night_fae
 
 default_actions=1
 
-head=depraved_physicians_mask,id=178759,ilevel=204,bonus_id=6983
+head=depraved_physicians_mask,id=178759,ilevel=204,bonus_id=${legendary.id}
 neck=sin_stained_pendant,id=178827,ilevel=204
 shoulder=reanimators_mantle,id=178740,ilevel=204
 back=drape_of_twisted_loyalties,id=180123,ilevel=204

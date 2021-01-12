@@ -195,9 +195,14 @@ def build_profiles(talent_string, covenant_string):
             if talents_expr:
                 if profile in config["singleTargetProfiles"]:
                     new_talents = config["builds"][talent_string]["single"]
+                    data = data.replace("${legendary.id}", config["legendary"]["single"])
                     data = replace_talents(new_talents, data)
                 else:
                     data = replace_talents(talents_expr, data)
+                    if args.dungeons:
+                        data = data.replace("${legendary.id}", config["legendary"]["dungeons"])
+                    else:
+                        data = data.replace("${legendary.id}", config["legendary"]["composite"])
 
             simc_file = build_simc_file(
                 talent_string, covenant_string, profile_name)

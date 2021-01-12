@@ -44,10 +44,15 @@ builds:
         id: "115"
         name: DE
 covenants:
-  - kyrian
-  - night_fae
-  - venthyr
-  - necrolord
+  list:
+    - kyrian
+    - night_fae
+    - venthyr
+    - necrolord
+legendary:
+    composite: 7162 # Talbadar's Stratagem
+    dungeons: 6983 # Eternal Call to the Void
+    single: 7162 # Talbadar's Stratagem
 sims:
   apl:
     description: "APL Sims used for testing rotational changes only"

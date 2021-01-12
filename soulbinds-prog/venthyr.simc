@@ -8,13 +8,13 @@ covenant=venthyr
 
 default_actions=1
 
-head=confidants_favored_cap,id=183021,ilevel=213
+head=confidants_favored_cap,id=183021,ilevel=213,bonus_id=${legendary.id}
 neck=charm_of_eternal_winter,id=183040,ilevel=213
 shoulder=shawl_of_the_penitent,id=183020,ilevel=213
 back=crest_of_the_legionnaire_general,id=183032,ilevel=213
 chest=robes_of_the_cursed_commando,id=182998,ilevel=213,enchant=eternal_insight
 wrists=acolytes_velvet_bindings,id=183017,ilevel=213,enchant=eternal_intellect
-hands=,id=173244,ilevel=235,bonus_id=6983/6647/6649
+hands=tricksprite_gloves,id=178705,ilevel=226
 waist=shadewarped_sash,id=183004,ilevel=213
 legs=purge_protocol_legwraps,id=180107,ilevel=200
 feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=200
