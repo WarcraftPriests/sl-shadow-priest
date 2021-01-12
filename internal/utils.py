@@ -48,7 +48,10 @@ def generate_parser(description):
     parser.add_argument(
         '--talents', help='indicate talent build for output.', choices=config["builds"].keys())
     parser.add_argument(
-        '--covenant', help='indicate covenant build for output.', choices=config["covenants"]["list"])
+        '--covenant',
+        help='indicate covenant build for output.',
+        choices=config["covenants"]["list"]
+    )
     parser.add_argument(
         '--ptr', help='indicate if the sim should use ptr data.', action='store_true')
     return parser
