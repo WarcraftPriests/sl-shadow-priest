@@ -1,7 +1,7 @@
 # Single - hv-as - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pelagos-CM-DE_HA|5555|12.99%|
-|Forgelite-BCtA-DE|5187|5.50%|
-|Kleia-DE|5124|4.21%|
-|Base|4917|0.00%|
+|Pelagos-CM-DE_HA|5889|11.98%|
+|Forgelite-BCtA-DE|5532|5.18%|
+|Kleia-DE|5472|4.04%|
+|Base|5259|0.00%|
