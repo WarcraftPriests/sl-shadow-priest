@@ -25,6 +25,8 @@ main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revela
 
 # Soulbind: Nadjia - Nadjia-TS-1_2 + Nadjia-TS_DD-1
 profileset."Venthyr_Covenant_Only"+=covenant=venthyr
+profileset."Venthyr_Covenant_Only_Healing_Reversal"+=covenant=venthyr
+profileset."Venthyr_Covenant_Only_Healing_Reversal"+=priest.mindgames_healing_reversal=1
 profileset."Venthyr_Nadjia"+=covenant=venthyr
 profileset."Venthyr_Nadjia"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586
 profileset."Venthyr_Nadjia_DD"+=covenant=venthyr
