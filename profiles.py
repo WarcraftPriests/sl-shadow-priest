@@ -162,6 +162,14 @@ def build_profiles(talent_string, covenant_string):
                 talents_expr = config["builds"][talent_string]["composite"]
         else:
             talents_expr = ''
+        # insert soulbinds before we replace conduits
+        if covenant_string:
+            if args.dungeons:
+                data = data.replace(
+                    "${soulbind}", config["covenants"][covenant_string]["soulbind"]["dungeons"])
+            else:
+                data = data.replace(
+                    "${soulbind}", config["covenants"][covenant_string]["soulbind"]["composite"])
         # insert talents in here so copy= works correctly
         if talents_expr:
             data = data.replace("${talents}", str(talents_expr))

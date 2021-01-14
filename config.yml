@@ -49,6 +49,22 @@ covenants:
     - night_fae
     - venthyr
     - necrolord
+  kyrian:
+    soulbind:
+      composite: "pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328266"
+      dungeons: "forgelite_prime_mikanikos,${conduits.first.id}:7/333950/333935"
+  necrolord:
+    soulbind:
+      composite: "emeni,${conduits.first.id}:7/${conduits.second.id}:7/342156"
+      dungeons: "bonesmith_heirmir,${conduits.first.id}:7/326572/326514"
+  night_fae:
+    soulbind:
+      composite: "niya,${conduits.first.id}:7/${conduits.second.id}:7/322721/320660"
+      dungeons: "korayn,${conduits.first.id}:7/325066/325069"
+  venthyr:
+    soulbind:
+      composite: "theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/336239"
+      dungeons: "nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586"
 legendary:
     composite: "7162" # Talbadar's Stratagem
     dungeons: "6983" # Eternal Call to the Void
@@ -59,7 +75,7 @@ sims:
     builds: true
     weights: false
     covenant:
-      lookup: false
+      lookup: true
       files: false
     lookupType: none
     steps:

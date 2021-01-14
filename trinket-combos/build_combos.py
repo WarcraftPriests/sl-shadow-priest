@@ -29,7 +29,8 @@ combos = {
     "Inscrutable_Quantum_Device_210": "inscrutable_quantum_device,id=179350,ilevel=210",
     "Inscrutable_Quantum_Device_226": "inscrutable_quantum_device,id=179350,ilevel=226",
     "Soulletting_Ruby_226": "soulletting_ruby,id=178809,ilevel=226",
-    "Soulletting_Ruby_210": "soulletting_ruby,id=178809,ilevel=210"
+    "Soulletting_Ruby_210": "soulletting_ruby,id=178809,ilevel=210",
+    "Sinful_Gladiators_Insignia_of_Alacrity_226": "sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226"
 }
 
 
