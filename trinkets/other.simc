@@ -7,7 +7,7 @@ talents=${talents}
 
 default_actions=1
 
-head=confidants_favored_cap,id=183021,ilevel=226
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 neck=charm_of_eternal_winter,id=183040,ilevel=226
 shoulder=shawl_of_the_penitent,id=183020,ilevel=233
 back=crest_of_the_legionnaire_general,id=183032,ilevel=233
@@ -31,57 +31,74 @@ profileset."Spiritual_Alchemy_Stone_168"+=trinket1=spiritual_alchemy_stone,id=17
 
 # Questing Trinkets
 # TODO: figure out ilvl range? Wowhead shows 85 -> 455
-# 181/184
+# 181/184/190
 profileset."Withergrove_Shardling_181"+=trinket1=withergrove_shardling,id=181459,ilevel=181
 profileset."Withergrove_Shardling_184"+=trinket1=withergrove_shardling,id=181459,ilevel=184
+profileset."Withergrove_Shardling_190"+=trinket1=withergrove_shardling,id=181459,ilevel=190
 
 profileset."Flame_of_Battle_181"+=trinket1=flame_of_battle,id=181501,ilevel=181
 profileset."Flame_of_Battle_184"+=trinket1=flame_of_battle,id=181501,ilevel=184
+profileset."Flame_of_Battle_190"+=trinket1=flame_of_battle,id=181501,ilevel=190
 
 profileset."Vial_of_Caustic_Liquid_181"+=trinket1=vial_of_caustic_liquid,id=181503,ilevel=181
 profileset."Vial_of_Caustic_Liquid_184"+=trinket1=vial_of_caustic_liquid,id=181503,ilevel=184
+profileset."Vial_of_Caustic_Liquid_190"+=trinket1=vial_of_caustic_liquid,id=181503,ilevel=190
 
 profileset."Wakeners_Frond_181"+=trinket1=wakeners_frond,id=181457,ilevel=181
 profileset."Wakeners_Frond_184"+=trinket1=wakeners_frond,id=181457,ilevel=184
+profileset."Wakeners_Frond_190"+=trinket1=wakeners_frond,id=181457,ilevel=190
 
 profileset."Overflowing_Ember_Mirror_181"+=trinket1=overflowing_ember_mirror,id=177657,ilevel=181
 profileset."Overflowing_Ember_Mirror_184"+=trinket1=overflowing_ember_mirror,id=177657,ilevel=184
+profileset."Overflowing_Ember_Mirror_190"+=trinket1=overflowing_ember_mirror,id=177657,ilevel=190
 
 profileset."Tablet_of_Despair_181"+=trinket1=tablet_of_despair,id=181357,ilevel=181
 profileset."Tablet_of_Despair_184"+=trinket1=tablet_of_despair,id=181357,ilevel=184
+profileset."Tablet_of_Despair_190"+=trinket1=tablet_of_despair,id=181357,ilevel=190
 
 profileset."Glowing_Endmire_Stinger_181"+=trinket1=glowing_endmire_stinger,id=179927,ilevel=181
 profileset."Glowing_Endmire_Stinger_184"+=trinket1=glowing_endmire_stinger,id=179927,ilevel=184
+profileset."Glowing_Endmire_Stinger_190"+=trinket1=glowing_endmire_stinger,id=179927,ilevel=190
 
 profileset."Rotbriar_Sprout_181"+=trinket1=rotbriar_sprout,id=175729,ilevel=181
 profileset."Rotbriar_Sprout_184"+=trinket1=rotbriar_sprout,id=175729,ilevel=184
+profileset."Rotbriar_Sprout_190"+=trinket1=rotbriar_sprout,id=175729,ilevel=190
 
 profileset."Murmurs_in_the_Dark_181"+=trinket1=murmurs_in_the_dark,id=182454,ilevel=181
 profileset."Murmurs_in_the_Dark_184"+=trinket1=murmurs_in_the_dark,id=182454,ilevel=184
+profileset."Murmurs_in_the_Dark_190"+=trinket1=murmurs_in_the_dark,id=182454,ilevel=190
 
 profileset."Book_Borrower_Identification_181"+=trinket1=book_borrower_identification,id=182682,ilevel=181
 profileset."Book_Borrower_Identification_184"+=trinket1=book_borrower_identification,id=182682,ilevel=184
+profileset."Book_Borrower_Identification_190"+=trinket1=book_borrower_identification,id=182682,ilevel=190
 
 profileset."Primalists_Kelpling_181"+=trinket1=primalists_kelpling,id=175726,ilevel=181
 profileset."Primalists_Kelpling_184"+=trinket1=primalists_kelpling,id=175726,ilevel=184
+profileset."Primalists_Kelpling_190"+=trinket1=primalists_kelpling,id=175726,ilevel=190
 
 profileset."Elders_Stormseed_181"+=trinket1=elders_stormseed,id=175727,ilevel=181
 profileset."Elders_Stormseed_184"+=trinket1=elders_stormseed,id=175727,ilevel=184
+profileset."Elders_Stormseed_190"+=trinket1=elders_stormseed,id=175727,ilevel=190
 
 profileset."Ascended_Defenders_Crest_181"+=trinket1=ascended_defenders_crest,id=175718,ilevel=181
 profileset."Ascended_Defenders_Crest_184"+=trinket1=ascended_defenders_crest,id=175718,ilevel=184
+profileset."Ascended_Defenders_Crest_190"+=trinket1=ascended_defenders_crest,id=175718,ilevel=190
 
 profileset."Agithas_Void_Tinged_Speartip_181"+=trinket1=agithas_void_tinged_speartip,id=175719,ilevel=181
 profileset."Agithas_Void_Tinged_Speartip_184"+=trinket1=agithas_void_tinged_speartip,id=175719,ilevel=184
+profileset."Agithas_Void_Tinged_Speartip_190"+=trinket1=agithas_void_tinged_speartip,id=175719,ilevel=190
 
 profileset."Misfiring_Centurion_Controller_181"+=trinket1=misfiring_centurion_controller,id=184839,ilevel=181
 profileset."Misfiring_Centurion_Controller_184"+=trinket1=misfiring_centurion_controller,id=184839,ilevel=184
+profileset."Misfiring_Centurion_Controller_190"+=trinket1=misfiring_centurion_controller,id=184839,ilevel=190
 
 profileset."Newcomers_Gladiatorial_Badge_181"+=trinket1=newcomers_gladiatorial_badge,id=175725,ilevel=181
 profileset."Newcomers_Gladiatorial_Badge_184"+=trinket1=newcomers_gladiatorial_badge,id=175725,ilevel=184
+profileset."Newcomers_Gladiatorial_Badge_190"+=trinket1=newcomers_gladiatorial_badge,id=175725,ilevel=190
 
 profileset."Stolen_Maw_Badge_181"+=trinket1=stolen_maw_badge,id=175731,ilevel=181
 profileset."Stolen_Maw_Badge_184"+=trinket1=stolen_maw_badge,id=175731,ilevel=184
+profileset."Stolen_Maw_Badge_190"+=trinket1=stolen_maw_badge,id=175731,ilevel=190
 
 profileset."Instructors_Divine_Bell_158"+=trinket1=instructors_divine_bell,id=184842,ilevel=158
 profileset."Instructors_Divine_Bell_161"+=trinket1=instructors_divine_bell,id=184842,ilevel=161
@@ -90,6 +107,7 @@ profileset."Instructors_Divine_Bell_174"+=trinket1=instructors_divine_bell,id=18
 profileset."Instructors_Divine_Bell_177"+=trinket1=instructors_divine_bell,id=184842,ilevel=177
 profileset."Instructors_Divine_Bell_181"+=trinket1=instructors_divine_bell,id=184842,ilevel=181
 profileset."Instructors_Divine_Bell_184"+=trinket1=instructors_divine_bell,id=184842,ilevel=184
+profileset."Instructors_Divine_Bell_190"+=trinket1=instructors_divine_bell,id=184842,ilevel=190
 
 # PVP Trinkets
 # Conquest: 190, 200, 207, 213, 220, 226
