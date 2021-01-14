@@ -3,7 +3,9 @@ level=60
 role=spell
 position=back
 spec=shadow
+covenant=${covenant}
 talents=${talents}
+soulbind=${soulbind}
 
 default_actions=1
 

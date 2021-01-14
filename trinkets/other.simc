@@ -4,6 +4,8 @@ role=spell
 position=back
 spec=shadow
 talents=${talents}
+covenant=${covenant}
+soulbind=${soulbind}
 
 default_actions=1
 

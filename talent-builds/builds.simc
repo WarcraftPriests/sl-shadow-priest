@@ -25,61 +25,111 @@ trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
 # Ancient Madness
-profileset."FotM_ToF_AS_VT_AM-EcttV"+=talents=1111131
-profileset."FotM_ToF_AS_VT_AM-EcttV"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
+profileset."FotM_ToF_AS_VT_AM-EcttV-DE_HA"+=talents=1111131
+profileset."FotM_ToF_AS_VT_AM-EcttV-DE_HA"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
 
-profileset."FotM_SN_SC_MB_AM-EcttV"+=talents=1131321
-profileset."FotM_SN_SC_MB_AM-EcttV"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
+profileset."FotM_SN_SC_MB_AM-EcttV-DE_HA"+=talents=1131321
+profileset."FotM_SN_SC_MB_AM-EcttV-DE_HA"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
 
-profileset."FotM_ToF_AS_VT_AM-Talbadars"+=talents=1111131
-profileset."FotM_ToF_AS_VT_AM-Talbadars"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+## DE + HA
+profileset."FotM_ToF_AS_VT_AM-Talbadars-DE_HA"+=talents=1111131
+profileset."FotM_ToF_AS_VT_AM-Talbadars-DE_HA"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
 
-profileset."FotM_ToF_PL_VT_AM-Talbadars"+=talents=1111231
-profileset."FotM_ToF_PL_VT_AM-Talbadars"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_ToF_PL_VT_AM-Talbadars-DE_HA"+=talents=1111231
+profileset."FotM_ToF_PL_VT_AM-Talbadars-DE_HA"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
 
-profileset."FotM_SN_SC_MB_AM-Talbadars"+=talents=1131321
-profileset."FotM_SN_SC_MB_AM-Talbadars"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_SN_SC_MB_AM-Talbadars-DE_HA"+=talents=1131321
+profileset."FotM_SN_SC_MB_AM-Talbadars-DE_HA"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+
+## DE + MD
+profileset."FotM_ToF_AS_VT_AM-Talbadars-DE_MD"+=talents=1111131
+profileset."FotM_ToF_AS_VT_AM-Talbadars-DE_MD"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_ToF_AS_VT_AM-Talbadars-DE_MD"+=soulbind=dissonant_echoes:7/mind_devourer:7
+
+profileset."FotM_ToF_PL_VT_AM-Talbadars-DE_MD"+=talents=1111231
+profileset."FotM_ToF_PL_VT_AM-Talbadars-DE_MD"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_ToF_PL_VT_AM-Talbadars-DE_MD"+=soulbind=dissonant_echoes:7/mind_devourer:7
+
+profileset."FotM_SN_SC_MB_AM-Talbadars-DE_MD"+=talents=1131321
+profileset."FotM_SN_SC_MB_AM-Talbadars-DE_MD"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_SN_SC_MB_AM-Talbadars-DE_MD"+=soulbind=dissonant_echoes:7/mind_devourer:7
 
 # Hungering Void
-profileset."FotM_ToF_AS_VT_HV-EcttV"+=talents=1111132
-profileset."FotM_ToF_AS_VT_HV-EcttV"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
+profileset."FotM_ToF_AS_VT_HV-EcttV-DE_HA"+=talents=1111132
+profileset."FotM_ToF_AS_VT_HV-EcttV-DE_HA"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
 
-profileset."FotM_SN_AS_MB_HV-EcttV"+=talents=1131122
-profileset."FotM_SN_AS_MB_HV-EcttV"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
+profileset."FotM_SN_AS_MB_HV-EcttV-DE_HA"+=talents=1131122
+profileset."FotM_SN_AS_MB_HV-EcttV-DE_HA"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
 
-profileset."FotM_ToF_SC_VT_HV-EcttV"+=talents=1111332
-profileset."FotM_ToF_SC_VT_HV-EcttV"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
+profileset."FotM_ToF_SC_VT_HV-EcttV-DE_HA"+=talents=1111332
+profileset."FotM_ToF_SC_VT_HV-EcttV-DE_HA"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
 
-profileset."FotM_SN_SC_MB_HV-EcttV"+=talents=1131322
-profileset."FotM_SN_SC_MB_HV-EcttV"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
+profileset."FotM_SN_SC_MB_HV-EcttV-DE_HA"+=talents=1131322
+profileset."FotM_SN_SC_MB_HV-EcttV-DE_HA"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
 
-profileset."FotM_ToF_AS_VT_HV-Talbadars"+=talents=1111132
-profileset."FotM_ToF_AS_VT_HV-Talbadars"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+## DE + HA
+profileset."FotM_ToF_AS_VT_HV-Talbadars-DE_HA"+=talents=1111132
+profileset."FotM_ToF_AS_VT_HV-Talbadars-DE_HA"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
 
-profileset."FotM_ToF_PL_VT_HV-Talbadars"+=talents=1111232
-profileset."FotM_ToF_PL_VT_HV-Talbadars"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_ToF_PL_VT_HV-Talbadars-DE_HA"+=talents=1111232
+profileset."FotM_ToF_PL_VT_HV-Talbadars-DE_HA"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
 
-profileset."FotM_SN_AS_MB_HV-Talbadars"+=talents=1131122
-profileset."FotM_SN_AS_MB_HV-Talbadars"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_SN_AS_MB_HV-Talbadars-DE_HA"+=talents=1131122
+profileset."FotM_SN_AS_MB_HV-Talbadars-DE_HA"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
 
-profileset."FotM_ToF_SC_VT_HV-Talbadars"+=talents=1111332
-profileset."FotM_ToF_SC_VT_HV-Talbadars"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_ToF_SC_VT_HV-Talbadars-DE_HA"+=talents=1111332
+profileset."FotM_ToF_SC_VT_HV-Talbadars-DE_HA"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
 
-profileset."FotM_SN_SC_MB_HV-Talbadars"+=talents=1131322
-profileset."FotM_SN_SC_MB_HV-Talbadars"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_SN_SC_MB_HV-Talbadars-DE_HA"+=talents=1131322
+profileset."FotM_SN_SC_MB_HV-Talbadars-DE_HA"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+
+## DE + MD
+profileset."FotM_ToF_AS_VT_HV-Talbadars-DE_MD"+=talents=1111132
+profileset."FotM_ToF_AS_VT_HV-Talbadars-DE_MD"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_ToF_AS_VT_HV-Talbadars-DE_MD"+=soulbind=dissonant_echoes:7/mind_devourer:7
+
+profileset."FotM_ToF_PL_VT_HV-Talbadars-DE_MD"+=talents=1111232
+profileset."FotM_ToF_PL_VT_HV-Talbadars-DE_MD"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_ToF_PL_VT_HV-Talbadars-DE_MD"+=soulbind=dissonant_echoes:7/mind_devourer:7
+
+profileset."FotM_SN_AS_MB_HV-Talbadars-DE_MD"+=talents=1131122
+profileset."FotM_SN_AS_MB_HV-Talbadars-DE_MD"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_SN_AS_MB_HV-Talbadars-DE_MD"+=soulbind=dissonant_echoes:7/mind_devourer:7
+
+profileset."FotM_ToF_SC_VT_HV-Talbadars-DE_MD"+=talents=1111332
+profileset."FotM_ToF_SC_VT_HV-Talbadars-DE_MD"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_ToF_SC_VT_HV-Talbadars-DE_MD"+=soulbind=dissonant_echoes:7/mind_devourer:7
+
+profileset."FotM_SN_SC_MB_HV-Talbadars-DE_MD"+=talents=1131322
+profileset."FotM_SN_SC_MB_HV-Talbadars-DE_MD"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_SN_SC_MB_HV-Talbadars-DE_MD"+=soulbind=dissonant_echoes:7/mind_devourer:7
 
 # Surrender to Madness
-profileset."FotM_ToF_AS_VT_STM-EcttV"+=talents=1111133
-profileset."FotM_ToF_AS_VT_STM-EcttV"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
+profileset."FotM_ToF_AS_VT_STM-EcttV-DE_HA"+=talents=1111133
+profileset."FotM_ToF_AS_VT_STM-EcttV-DE_HA"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
 
-profileset."FotM_SN_SC_MB_STM-EcttV"+=talents=1131323
-profileset."FotM_SN_SC_MB_STM-EcttV"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
+profileset."FotM_SN_SC_MB_STM-EcttV-DE_HA"+=talents=1131323
+profileset."FotM_SN_SC_MB_STM-EcttV-DE_HA"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
 
-profileset."FotM_ToF_AS_VT_STM-Talbadars"+=talents=1111133
-profileset."FotM_ToF_AS_VT_STM-Talbadars"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+## DE + HA
+profileset."FotM_ToF_AS_VT_STM-Talbadars-DE_HA"+=talents=1111133
+profileset."FotM_ToF_AS_VT_STM-Talbadars-DE_HA"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
 
-profileset."FotM_ToF_PL_VT_STM-Talbadars"+=talents=1111233
-profileset."FotM_ToF_PL_VT_STM-Talbadars"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_ToF_PL_VT_STM-Talbadars-DE_HA"+=talents=1111233
+profileset."FotM_ToF_PL_VT_STM-Talbadars-DE_HA"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
 
 profileset."FotM_SN_SC_MB_STM-Talbadars"+=talents=1131323
-profileset."FotM_SN_SC_MB_STM-Talbadars"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_SN_SC_MB_STM-Talbadars-DE_HA"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+
+## DE + MD
+profileset."FotM_ToF_AS_VT_STM-Talbadars-DE_MD"+=talents=1111133
+profileset."FotM_ToF_AS_VT_STM-Talbadars-DE_MD"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_ToF_AS_VT_STM-Talbadars-DE_MD"+=soulbind=dissonant_echoes:7/mind_devourer:7
+
+profileset."FotM_ToF_PL_VT_STM-Talbadars-DE_MD"+=talents=1111233
+profileset."FotM_ToF_PL_VT_STM-Talbadars-DE_MD"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_ToF_PL_VT_STM-Talbadars-DE_MD"+=soulbind=dissonant_echoes:7/mind_devourer:7
+
+profileset."FotM_SN_SC_MB_STM-Talbadars-DE_MD"+=talents=1131323
+profileset."FotM_SN_SC_MB_STM-Talbadars-DE_MD"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
+profileset."FotM_SN_SC_MB_STM-Talbadars-DE_MD"+=soulbind=dissonant_echoes:7/mind_devourer:7
