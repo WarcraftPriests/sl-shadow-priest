@@ -133,6 +133,19 @@ def replace_talents(talent_string, data):
     return data
 
 
+def replace_conduits(talent_string, data):
+    """replace conduits with config values"""
+    positions = ["first", "second"]
+    items = ["id", "name"]
+
+    # replace first.id, second.id, first.name, second.name
+    for position in positions:
+        for item in items:
+            data = data.replace("${{conduits.{0}.{1}}}".format(
+                position, item), config["builds"][talent_string]["conduits"][position][item])
+    return data
+
+
 def build_profiles(talent_string, covenant_string):
     # pylint: disable=R0912, too-many-locals
     """build combination list e.g. pw_sa_1"""
@@ -173,23 +186,7 @@ def build_profiles(talent_string, covenant_string):
         # insert talents in here so copy= works correctly
         if talents_expr:
             data = data.replace("${talents}", str(talents_expr))
-            data = data.replace(
-                "${conduits.first.id}",
-                config["builds"][talent_string]["conduits"]["first"]["id"]
-            )
-            data = data.replace(
-                "${conduits.second.id}",
-                config["builds"][talent_string]["conduits"]["second"]["id"]
-            )
-            data = data.replace(
-                "${conduits.first.name}",
-                config["builds"][talent_string]["conduits"]["first"]["name"]
-            )
-            data = data.replace(
-                "${conduits.second.name}",
-                config["builds"][talent_string]["conduits"]["second"]["name"]
-            )
-
+            data = replace_conduits(talent_string, data)
         if covenant_string:
             data = data.replace("${covenant}", covenant_string)
 

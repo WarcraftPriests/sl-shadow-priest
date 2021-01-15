@@ -4,6 +4,7 @@ python build_combos.py
 """
 
 from itertools import combinations
+# pylint: disable=line-too-long
 
 combos = {
     "Soul_Igniter_213": "soul_igniter,id=184019,ilevel=213",
