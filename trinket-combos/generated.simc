@@ -3,7 +3,9 @@ level=60
 role=spell
 position=back
 spec=shadow
+covenant=${covenant}
 talents=${talents}
+soulbind=${soulbind}
 
 default_actions=1
 
@@ -20,6 +22,7 @@ feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
 finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
 finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
 main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
+
 profileset."Soul_Igniter_213-Glyph_of_Assimilation_213"+=trinket1=soul_igniter,id=184019,ilevel=213
 profileset."Soul_Igniter_213-Glyph_of_Assimilation_213"+=trinket2=glyph_of_assimilation,id=184021,ilevel=213
 
@@ -95,6 +98,9 @@ profileset."Soul_Igniter_213-Soulletting_Ruby_226"+=trinket2=soulletting_ruby,id
 
 profileset."Soul_Igniter_213-Soulletting_Ruby_210"+=trinket1=soul_igniter,id=184019,ilevel=213
 profileset."Soul_Igniter_213-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
+
+profileset."Soul_Igniter_213-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=soul_igniter,id=184019,ilevel=213
+profileset."Soul_Igniter_213-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
 
 profileset."Soul_Igniter_226-Glyph_of_Assimilation_213"+=trinket1=soul_igniter,id=184019,ilevel=226
 profileset."Soul_Igniter_226-Glyph_of_Assimilation_213"+=trinket2=glyph_of_assimilation,id=184021,ilevel=213
@@ -172,6 +178,9 @@ profileset."Soul_Igniter_226-Soulletting_Ruby_226"+=trinket2=soulletting_ruby,id
 profileset."Soul_Igniter_226-Soulletting_Ruby_210"+=trinket1=soul_igniter,id=184019,ilevel=226
 profileset."Soul_Igniter_226-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
 
+profileset."Soul_Igniter_226-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=soul_igniter,id=184019,ilevel=226
+profileset."Soul_Igniter_226-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
+
 profileset."Glyph_of_Assimilation_213-Macabre_Sheet_Music_213"+=trinket1=glyph_of_assimilation,id=184021,ilevel=213
 profileset."Glyph_of_Assimilation_213-Macabre_Sheet_Music_213"+=trinket2=macabre_sheet_music,id=184024,ilevel=213
 
@@ -241,6 +250,9 @@ profileset."Glyph_of_Assimilation_213-Soulletting_Ruby_226"+=trinket2=soullettin
 
 profileset."Glyph_of_Assimilation_213-Soulletting_Ruby_210"+=trinket1=glyph_of_assimilation,id=184021,ilevel=213
 profileset."Glyph_of_Assimilation_213-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
+
+profileset."Glyph_of_Assimilation_213-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=glyph_of_assimilation,id=184021,ilevel=213
+profileset."Glyph_of_Assimilation_213-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
 
 profileset."Glyph_of_Assimilation_226-Macabre_Sheet_Music_213"+=trinket1=glyph_of_assimilation,id=184021,ilevel=226
 profileset."Glyph_of_Assimilation_226-Macabre_Sheet_Music_213"+=trinket2=macabre_sheet_music,id=184024,ilevel=213
@@ -312,6 +324,9 @@ profileset."Glyph_of_Assimilation_226-Soulletting_Ruby_226"+=trinket2=soullettin
 profileset."Glyph_of_Assimilation_226-Soulletting_Ruby_210"+=trinket1=glyph_of_assimilation,id=184021,ilevel=226
 profileset."Glyph_of_Assimilation_226-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
 
+profileset."Glyph_of_Assimilation_226-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=glyph_of_assimilation,id=184021,ilevel=226
+profileset."Glyph_of_Assimilation_226-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
+
 profileset."Macabre_Sheet_Music_213-Cabalists_Hymnal_Allies_0_220"+=shadowlands.crimson_choir_in_party=0
 profileset."Macabre_Sheet_Music_213-Cabalists_Hymnal_Allies_0_220"+=trinket1=macabre_sheet_music,id=184024,ilevel=213
 profileset."Macabre_Sheet_Music_213-Cabalists_Hymnal_Allies_0_220"+=trinket2=cabalists_hymnal,id=184028,ilevel=220
@@ -375,6 +390,9 @@ profileset."Macabre_Sheet_Music_213-Soulletting_Ruby_226"+=trinket2=soulletting_
 
 profileset."Macabre_Sheet_Music_213-Soulletting_Ruby_210"+=trinket1=macabre_sheet_music,id=184024,ilevel=213
 profileset."Macabre_Sheet_Music_213-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
+
+profileset."Macabre_Sheet_Music_213-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=macabre_sheet_music,id=184024,ilevel=213
+profileset."Macabre_Sheet_Music_213-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
 
 profileset."Macabre_Sheet_Music_226-Cabalists_Hymnal_Allies_0_220"+=shadowlands.crimson_choir_in_party=0
 profileset."Macabre_Sheet_Music_226-Cabalists_Hymnal_Allies_0_220"+=trinket1=macabre_sheet_music,id=184024,ilevel=226
@@ -440,6 +458,9 @@ profileset."Macabre_Sheet_Music_226-Soulletting_Ruby_226"+=trinket2=soulletting_
 profileset."Macabre_Sheet_Music_226-Soulletting_Ruby_210"+=trinket1=macabre_sheet_music,id=184024,ilevel=226
 profileset."Macabre_Sheet_Music_226-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
 
+profileset."Macabre_Sheet_Music_226-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=macabre_sheet_music,id=184024,ilevel=226
+profileset."Macabre_Sheet_Music_226-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
+
 profileset."Cabalists_Hymnal_Allies_0_220-Dreadfire_Vessel_220"+=shadowlands.crimson_choir_in_party=0
 profileset."Cabalists_Hymnal_Allies_0_220-Dreadfire_Vessel_220"+=trinket1=cabalists_hymnal,id=184028,ilevel=220
 profileset."Cabalists_Hymnal_Allies_0_220-Dreadfire_Vessel_220"+=trinket2=dreadfire_vessel,id=184030,ilevel=220
@@ -471,6 +492,10 @@ profileset."Cabalists_Hymnal_Allies_0_220-Soulletting_Ruby_226"+=trinket2=soulle
 profileset."Cabalists_Hymnal_Allies_0_220-Soulletting_Ruby_210"+=shadowlands.crimson_choir_in_party=0
 profileset."Cabalists_Hymnal_Allies_0_220-Soulletting_Ruby_210"+=trinket1=cabalists_hymnal,id=184028,ilevel=220
 profileset."Cabalists_Hymnal_Allies_0_220-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
+
+profileset."Cabalists_Hymnal_Allies_0_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=cabalists_hymnal,id=184028,ilevel=220
+profileset."Cabalists_Hymnal_Allies_0_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
 
 profileset."Cabalists_Hymnal_Allies_0_233-Dreadfire_Vessel_220"+=shadowlands.crimson_choir_in_party=0
 profileset."Cabalists_Hymnal_Allies_0_233-Dreadfire_Vessel_220"+=trinket1=cabalists_hymnal,id=184028,ilevel=233
@@ -504,6 +529,10 @@ profileset."Cabalists_Hymnal_Allies_0_233-Soulletting_Ruby_210"+=shadowlands.cri
 profileset."Cabalists_Hymnal_Allies_0_233-Soulletting_Ruby_210"+=trinket1=cabalists_hymnal,id=184028,ilevel=233
 profileset."Cabalists_Hymnal_Allies_0_233-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
 
+profileset."Cabalists_Hymnal_Allies_0_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=cabalists_hymnal,id=184028,ilevel=233
+profileset."Cabalists_Hymnal_Allies_0_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
+
 profileset."Cabalists_Hymnal_Allies_1_220-Dreadfire_Vessel_220"+=shadowlands.crimson_choir_in_party=1
 profileset."Cabalists_Hymnal_Allies_1_220-Dreadfire_Vessel_220"+=trinket1=cabalists_hymnal,id=184028,ilevel=220
 profileset."Cabalists_Hymnal_Allies_1_220-Dreadfire_Vessel_220"+=trinket2=dreadfire_vessel,id=184030,ilevel=220
@@ -535,6 +564,10 @@ profileset."Cabalists_Hymnal_Allies_1_220-Soulletting_Ruby_226"+=trinket2=soulle
 profileset."Cabalists_Hymnal_Allies_1_220-Soulletting_Ruby_210"+=shadowlands.crimson_choir_in_party=1
 profileset."Cabalists_Hymnal_Allies_1_220-Soulletting_Ruby_210"+=trinket1=cabalists_hymnal,id=184028,ilevel=220
 profileset."Cabalists_Hymnal_Allies_1_220-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
+
+profileset."Cabalists_Hymnal_Allies_1_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=shadowlands.crimson_choir_in_party=1
+profileset."Cabalists_Hymnal_Allies_1_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=cabalists_hymnal,id=184028,ilevel=220
+profileset."Cabalists_Hymnal_Allies_1_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
 
 profileset."Cabalists_Hymnal_Allies_1_233-Dreadfire_Vessel_220"+=shadowlands.crimson_choir_in_party=1
 profileset."Cabalists_Hymnal_Allies_1_233-Dreadfire_Vessel_220"+=trinket1=cabalists_hymnal,id=184028,ilevel=233
@@ -568,6 +601,10 @@ profileset."Cabalists_Hymnal_Allies_1_233-Soulletting_Ruby_210"+=shadowlands.cri
 profileset."Cabalists_Hymnal_Allies_1_233-Soulletting_Ruby_210"+=trinket1=cabalists_hymnal,id=184028,ilevel=233
 profileset."Cabalists_Hymnal_Allies_1_233-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
 
+profileset."Cabalists_Hymnal_Allies_1_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=shadowlands.crimson_choir_in_party=1
+profileset."Cabalists_Hymnal_Allies_1_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=cabalists_hymnal,id=184028,ilevel=233
+profileset."Cabalists_Hymnal_Allies_1_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
+
 profileset."Cabalists_Hymnal_Allies_2_220-Dreadfire_Vessel_220"+=shadowlands.crimson_choir_in_party=2
 profileset."Cabalists_Hymnal_Allies_2_220-Dreadfire_Vessel_220"+=trinket1=cabalists_hymnal,id=184028,ilevel=220
 profileset."Cabalists_Hymnal_Allies_2_220-Dreadfire_Vessel_220"+=trinket2=dreadfire_vessel,id=184030,ilevel=220
@@ -599,6 +636,10 @@ profileset."Cabalists_Hymnal_Allies_2_220-Soulletting_Ruby_226"+=trinket2=soulle
 profileset."Cabalists_Hymnal_Allies_2_220-Soulletting_Ruby_210"+=shadowlands.crimson_choir_in_party=2
 profileset."Cabalists_Hymnal_Allies_2_220-Soulletting_Ruby_210"+=trinket1=cabalists_hymnal,id=184028,ilevel=220
 profileset."Cabalists_Hymnal_Allies_2_220-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
+
+profileset."Cabalists_Hymnal_Allies_2_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=shadowlands.crimson_choir_in_party=2
+profileset."Cabalists_Hymnal_Allies_2_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=cabalists_hymnal,id=184028,ilevel=220
+profileset."Cabalists_Hymnal_Allies_2_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
 
 profileset."Cabalists_Hymnal_Allies_2_233-Dreadfire_Vessel_220"+=shadowlands.crimson_choir_in_party=2
 profileset."Cabalists_Hymnal_Allies_2_233-Dreadfire_Vessel_220"+=trinket1=cabalists_hymnal,id=184028,ilevel=233
@@ -632,6 +673,10 @@ profileset."Cabalists_Hymnal_Allies_2_233-Soulletting_Ruby_210"+=shadowlands.cri
 profileset."Cabalists_Hymnal_Allies_2_233-Soulletting_Ruby_210"+=trinket1=cabalists_hymnal,id=184028,ilevel=233
 profileset."Cabalists_Hymnal_Allies_2_233-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
 
+profileset."Cabalists_Hymnal_Allies_2_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=shadowlands.crimson_choir_in_party=2
+profileset."Cabalists_Hymnal_Allies_2_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=cabalists_hymnal,id=184028,ilevel=233
+profileset."Cabalists_Hymnal_Allies_2_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
+
 profileset."Cabalists_Hymnal_Allies_3_220-Dreadfire_Vessel_220"+=shadowlands.crimson_choir_in_party=3
 profileset."Cabalists_Hymnal_Allies_3_220-Dreadfire_Vessel_220"+=trinket1=cabalists_hymnal,id=184028,ilevel=220
 profileset."Cabalists_Hymnal_Allies_3_220-Dreadfire_Vessel_220"+=trinket2=dreadfire_vessel,id=184030,ilevel=220
@@ -663,6 +708,10 @@ profileset."Cabalists_Hymnal_Allies_3_220-Soulletting_Ruby_226"+=trinket2=soulle
 profileset."Cabalists_Hymnal_Allies_3_220-Soulletting_Ruby_210"+=shadowlands.crimson_choir_in_party=3
 profileset."Cabalists_Hymnal_Allies_3_220-Soulletting_Ruby_210"+=trinket1=cabalists_hymnal,id=184028,ilevel=220
 profileset."Cabalists_Hymnal_Allies_3_220-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
+
+profileset."Cabalists_Hymnal_Allies_3_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=shadowlands.crimson_choir_in_party=3
+profileset."Cabalists_Hymnal_Allies_3_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=cabalists_hymnal,id=184028,ilevel=220
+profileset."Cabalists_Hymnal_Allies_3_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
 
 profileset."Cabalists_Hymnal_Allies_3_233-Dreadfire_Vessel_220"+=shadowlands.crimson_choir_in_party=3
 profileset."Cabalists_Hymnal_Allies_3_233-Dreadfire_Vessel_220"+=trinket1=cabalists_hymnal,id=184028,ilevel=233
@@ -696,6 +745,10 @@ profileset."Cabalists_Hymnal_Allies_3_233-Soulletting_Ruby_210"+=shadowlands.cri
 profileset."Cabalists_Hymnal_Allies_3_233-Soulletting_Ruby_210"+=trinket1=cabalists_hymnal,id=184028,ilevel=233
 profileset."Cabalists_Hymnal_Allies_3_233-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
 
+profileset."Cabalists_Hymnal_Allies_3_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=shadowlands.crimson_choir_in_party=3
+profileset."Cabalists_Hymnal_Allies_3_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=cabalists_hymnal,id=184028,ilevel=233
+profileset."Cabalists_Hymnal_Allies_3_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
+
 profileset."Cabalists_Hymnal_Allies_4_220-Dreadfire_Vessel_220"+=shadowlands.crimson_choir_in_party=4
 profileset."Cabalists_Hymnal_Allies_4_220-Dreadfire_Vessel_220"+=trinket1=cabalists_hymnal,id=184028,ilevel=220
 profileset."Cabalists_Hymnal_Allies_4_220-Dreadfire_Vessel_220"+=trinket2=dreadfire_vessel,id=184030,ilevel=220
@@ -727,6 +780,10 @@ profileset."Cabalists_Hymnal_Allies_4_220-Soulletting_Ruby_226"+=trinket2=soulle
 profileset."Cabalists_Hymnal_Allies_4_220-Soulletting_Ruby_210"+=shadowlands.crimson_choir_in_party=4
 profileset."Cabalists_Hymnal_Allies_4_220-Soulletting_Ruby_210"+=trinket1=cabalists_hymnal,id=184028,ilevel=220
 profileset."Cabalists_Hymnal_Allies_4_220-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
+
+profileset."Cabalists_Hymnal_Allies_4_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=cabalists_hymnal,id=184028,ilevel=220
+profileset."Cabalists_Hymnal_Allies_4_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
 
 profileset."Cabalists_Hymnal_Allies_4_233-Dreadfire_Vessel_220"+=shadowlands.crimson_choir_in_party=4
 profileset."Cabalists_Hymnal_Allies_4_233-Dreadfire_Vessel_220"+=trinket1=cabalists_hymnal,id=184028,ilevel=233
@@ -760,6 +817,10 @@ profileset."Cabalists_Hymnal_Allies_4_233-Soulletting_Ruby_210"+=shadowlands.cri
 profileset."Cabalists_Hymnal_Allies_4_233-Soulletting_Ruby_210"+=trinket1=cabalists_hymnal,id=184028,ilevel=233
 profileset."Cabalists_Hymnal_Allies_4_233-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
 
+profileset."Cabalists_Hymnal_Allies_4_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=cabalists_hymnal,id=184028,ilevel=233
+profileset."Cabalists_Hymnal_Allies_4_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
+
 profileset."Dreadfire_Vessel_220-Empyreal_Ordnance_210"+=trinket1=dreadfire_vessel,id=184030,ilevel=220
 profileset."Dreadfire_Vessel_220-Empyreal_Ordnance_210"+=trinket2=empyreal_ordnance,id=180117,ilevel=210
 
@@ -777,6 +838,9 @@ profileset."Dreadfire_Vessel_220-Soulletting_Ruby_226"+=trinket2=soulletting_rub
 
 profileset."Dreadfire_Vessel_220-Soulletting_Ruby_210"+=trinket1=dreadfire_vessel,id=184030,ilevel=220
 profileset."Dreadfire_Vessel_220-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
+
+profileset."Dreadfire_Vessel_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=dreadfire_vessel,id=184030,ilevel=220
+profileset."Dreadfire_Vessel_220-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
 
 profileset."Dreadfire_Vessel_233-Empyreal_Ordnance_210"+=trinket1=dreadfire_vessel,id=184030,ilevel=233
 profileset."Dreadfire_Vessel_233-Empyreal_Ordnance_210"+=trinket2=empyreal_ordnance,id=180117,ilevel=210
@@ -796,6 +860,9 @@ profileset."Dreadfire_Vessel_233-Soulletting_Ruby_226"+=trinket2=soulletting_rub
 profileset."Dreadfire_Vessel_233-Soulletting_Ruby_210"+=trinket1=dreadfire_vessel,id=184030,ilevel=233
 profileset."Dreadfire_Vessel_233-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
 
+profileset."Dreadfire_Vessel_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=dreadfire_vessel,id=184030,ilevel=233
+profileset."Dreadfire_Vessel_233-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
+
 profileset."Empyreal_Ordnance_210-Inscrutable_Quantum_Device_210"+=trinket1=empyreal_ordnance,id=180117,ilevel=210
 profileset."Empyreal_Ordnance_210-Inscrutable_Quantum_Device_210"+=trinket2=inscrutable_quantum_device,id=179350,ilevel=210
 
@@ -807,6 +874,9 @@ profileset."Empyreal_Ordnance_210-Soulletting_Ruby_226"+=trinket2=soulletting_ru
 
 profileset."Empyreal_Ordnance_210-Soulletting_Ruby_210"+=trinket1=empyreal_ordnance,id=180117,ilevel=210
 profileset."Empyreal_Ordnance_210-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
+
+profileset."Empyreal_Ordnance_210-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=empyreal_ordnance,id=180117,ilevel=210
+profileset."Empyreal_Ordnance_210-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
 
 profileset."Empyreal_Ordnance_226-Inscrutable_Quantum_Device_210"+=trinket1=empyreal_ordnance,id=180117,ilevel=226
 profileset."Empyreal_Ordnance_226-Inscrutable_Quantum_Device_210"+=trinket2=inscrutable_quantum_device,id=179350,ilevel=210
@@ -820,15 +890,30 @@ profileset."Empyreal_Ordnance_226-Soulletting_Ruby_226"+=trinket2=soulletting_ru
 profileset."Empyreal_Ordnance_226-Soulletting_Ruby_210"+=trinket1=empyreal_ordnance,id=180117,ilevel=226
 profileset."Empyreal_Ordnance_226-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
 
+profileset."Empyreal_Ordnance_226-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=empyreal_ordnance,id=180117,ilevel=226
+profileset."Empyreal_Ordnance_226-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
+
 profileset."Inscrutable_Quantum_Device_210-Soulletting_Ruby_226"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=210
 profileset."Inscrutable_Quantum_Device_210-Soulletting_Ruby_226"+=trinket2=soulletting_ruby,id=178809,ilevel=226
 
 profileset."Inscrutable_Quantum_Device_210-Soulletting_Ruby_210"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=210
 profileset."Inscrutable_Quantum_Device_210-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
 
+profileset."Inscrutable_Quantum_Device_210-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=210
+profileset."Inscrutable_Quantum_Device_210-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
+
 profileset."Inscrutable_Quantum_Device_226-Soulletting_Ruby_226"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=226
 profileset."Inscrutable_Quantum_Device_226-Soulletting_Ruby_226"+=trinket2=soulletting_ruby,id=178809,ilevel=226
 
 profileset."Inscrutable_Quantum_Device_226-Soulletting_Ruby_210"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=226
 profileset."Inscrutable_Quantum_Device_226-Soulletting_Ruby_210"+=trinket2=soulletting_ruby,id=178809,ilevel=210
+
+profileset."Inscrutable_Quantum_Device_226-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=226
+profileset."Inscrutable_Quantum_Device_226-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
+
+profileset."Soulletting_Ruby_226-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=soulletting_ruby,id=178809,ilevel=226
+profileset."Soulletting_Ruby_226-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
+
+profileset."Soulletting_Ruby_210-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=soulletting_ruby,id=178809,ilevel=210
+profileset."Soulletting_Ruby_210-Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket2=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
 
