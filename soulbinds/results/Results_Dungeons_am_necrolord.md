@@ -1,20 +1,20 @@
 # Dungeons - am - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Bonesmith-FR_HAMG-HA|7086|7.58%|
-|Bonesmith-FR_SS_HAMG|6996|6.21%|
-|Bonesmith-FR-HA_DE|6964|5.72%|
-|Emeni-LbE_GC-HA|6959|5.65%|
-|Marileth-PPS_VS_Magic-HA|6958|5.63%|
-|Marileth-PPS_VS_Mastery-HA|6930|5.21%|
-|Marileth-PPS_VS_Crit-HA|6910|4.90%|
-|Emeni-LbE-HA_DE|6890|4.60%|
-|Marileth-VS_Magic-HA_DE|6879|4.43%|
-|Bonesmith-FR_SS-HA|6871|4.31%|
-|Marileth-PPS_VS_Intellect-HA|6852|4.02%|
-|Marileth-PPS-HA|6851|4.01%|
-|Marileth-VS_Mastery-HA_DE|6844|3.90%|
-|Marileth-VS_Crit-HA_DE|6829|3.67%|
-|Marileth-VS_Intellect-HA_DE|6775|2.85%|
-|Marileth-HA_DE|6774|2.84%|
-|Base|6587|0.00%|
+|Bonesmith-FR_HAMG-HA|7082|7.38%|
+|Bonesmith-FR_SS_HAMG|6997|6.10%|
+|Marileth-PPS_VS_Magic-HA|6967|5.64%|
+|Bonesmith-FR-HA_DE|6966|5.63%|
+|Emeni-LbE_GC-HA|6957|5.49%|
+|Marileth-PPS_VS_Mastery-HA|6933|5.13%|
+|Marileth-PPS_VS_Crit-HA|6922|4.96%|
+|Emeni-LbE-HA_DE|6900|4.62%|
+|Marileth-VS_Magic-HA_DE|6881|4.34%|
+|Bonesmith-FR_SS-HA|6876|4.26%|
+|Marileth-PPS-HA|6859|4.00%|
+|Marileth-VS_Mastery-HA_DE|6852|3.90%|
+|Marileth-PPS_VS_Intellect-HA|6847|3.82%|
+|Marileth-VS_Crit-HA_DE|6839|3.70%|
+|Marileth-HA_DE|6775|2.73%|
+|Marileth-VS_Intellect-HA_DE|6775|2.73%|
+|Base|6595|0.00%|
