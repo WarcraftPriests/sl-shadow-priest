@@ -62,17 +62,17 @@ covenant=necrolord
 soulbind=emeni,lead_by_example/eternal_hunger:7/convocation_of_the_dead:7
 
 head=diadem_of_imperious_desire,id=182997,bonus_id=7187/1498/6935,gem_id=173130
-neck=sin_stained_pendant,id=178827,bonus_id=6536/1540/6646,gem_id=173128
-shoulders=epaulettes_of_overwhelming_force,id=182994,bonus_id=7187/1498
-back=drape_of_twisted_loyalties,id=180123,bonus_id=6536/1540/6646
+neck=sin_stained_pendant,id=178827,bonus_id=6536/1540/6646,gem_id=173130
+shoulders=vile_butchers_pauldrons,id=178749,bonus_id=6536/1540/6646
+back=crest_of_the_legionnaire_general,id=183032,bonus_id=7187/1498
 chest=shadowghast_breastplate,id=171412,bonus_id=6716/6952/6649/6648/1532,enchant=eternal_stats
 wrists=hellhound_cuffs,id=183018,bonus_id=7187/1498/6935,gem_id=173130
 hands=fogweaver_gauntlets,id=178706,bonus_id=6536/1540/6646,enchant=eternal_strength
-waist=binding_of_warped_desires,id=183015,bonus_id=7187/1498/6935,gem_id=173127
+waist=stoic_guardsmans_belt,id=183025,bonus_id=7187/1498/6935,gem_id=173127
 legs=ceremonial_parade_legguards,id=183002,bonus_id=7187/1498
 feet=errant_crusaders_greaves,id=183027,bonus_id=7187/1498
-finger1=most_regal_signet_of_sire_denathrius,id=183036,bonus_id=7187/1498/6935,gem_id=173127,enchant=tenet_of_mastery
-finger2=fleshfused_circle,id=178869,bonus_id=6536/1540/6646/6935,gem_id=173129,enchant=tenet_of_mastery
+finger1=most_regal_signet_of_sire_denathrius,id=183036,bonus_id=7187/1498/6935,gem_id=173130,enchant=tenet_of_critical_strike
+finger2=fleshfused_circle,id=178869,bonus_id=6536/1540/6646/6935,gem_id=173130,enchant=tenet_of_critical_strike
 trinket1=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
 trinket2=stone_legion_heraldry,id=184027,bonus_id=7187/1498
 main_hand=nathrian_crusaders_bastard_sword,id=182389,bonus_id=7187/1531,enchant=rune_of_the_fallen_crusader
@@ -187,6 +187,34 @@ trinket1=dreadfire_vessel,id=184030,bonus_id=7187/1498
 trinket2=cabalists_hymnal,id=184028,bonus_id=7187/1498
 main_hand=sinbearers_absolution_staff,id=182392,bonus_id=7187/1531,enchant=sinful_revelation
 
+druid="T26_Druid_Feral_Owlweave"
+level=60
+race=night_elf
+timeofday=day
+spec=feral
+role=attack
+position=back
+talents=2313122
+covenant=night_fae
+soulbind=niya,grove_invigoration/taste_for_blood:7/born_of_the_wilds:7/niyas_tools_burrs
+druid.owlweave_cat=1
+
+head=sadists_sinister_mask,id=182980,bonus_id=7187/1498/6935,gem_id=173127
+neck=nobles_birthstone_pendant,id=183039,bonus_id=7187/1498/6935,gem_id=173127
+shoulders=wicked_flankers_gorget,id=183029,bonus_id=7187/1498
+back=crest_of_the_legionnaire_general,id=183032,bonus_id=7187/1498
+chest=umbrahide_vest,id=172314,bonus_id=6647/6648/6758/7086/1532,enchant=eternal_skirmish
+wrists=precisely_calibrated_chronometer,id=183019,bonus_id=7187/1498/6935,gem_id=173127
+hands=gloves_of_phantom_shadows,id=183026,bonus_id=7187/1498
+waist=spellwoven_tourniquet,id=182995,bonus_id=7187/1498/6935,gem_id=173127
+legs=chiropteran_leggings,id=182993,bonus_id=7187/1498
+feet=enchanted_toetappers,id=183030,bonus_id=7187/1498,enchant=eternal_agility
+finger1=ritualists_treasured_ring,id=183037,bonus_id=7187/1498/6935,gem_id=173127,enchant=tenet_of_critical_strike
+finger2=most_regal_signet_of_sire_denathrius,id=183036,bonus_id=7187/1498/6935,gem_id=173127,enchant=tenet_of_critical_strike
+trinket1=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
+trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
+main_hand=nathrian_torchbearers_stave,id=182419,bonus_id=7187/1524,enchant=sinful_revelation
+
 druid="T26_Druid_Feral"
 level=60
 race=night_elf
@@ -197,6 +225,7 @@ position=back
 talents=2331122
 covenant=night_fae
 soulbind=niya,grove_invigoration/taste_for_blood:7/niyas_tools_burrs
+druid.owlweave_cat=0
 
 head=sadists_sinister_mask,id=182980,bonus_id=7187/1498/6935,gem_id=173127
 neck=nobles_birthstone_pendant,id=183039,bonus_id=7187/1498/6935,gem_id=173127
@@ -435,7 +464,7 @@ role=attack
 position=back
 talents=3020012
 covenant=kyrian
-soulbind=pelagos,combat_meditation/strike_with_clarity:7/focusing_mantra/harm_denial:7/cleansed_vestments/xuens_bond:7/let_go_of_the_past
+soulbind=pelagos,combat_meditation/strike_with_clarity:7/focusing_mantra/harm_denial:7/cleansed_vestments/coordinated_offensive:7/let_go_of_the_past
 
 head=umbrahide_helm,id=172317,bonus_id=6716/7082/6647/6648/1532/6935,gem_id=173129
 neck=azurevenom_choker,id=180115,bonus_id=6536/1540/6646/6935,gem_id=173129
@@ -449,7 +478,7 @@ legs=fearless_challengers_leggings,id=178801,bonus_id=6536/1540/6646
 feet=viscerastitched_footpads,id=178731,bonus_id=6536/1540/6646,enchant=eternal_agility
 finger1=entwined_gorger_tendril,id=178848,bonus_id=6536/1540/6646/6935,gem_id=173127,enchant=tenet_of_versatility
 finger2=ritual_commanders_ring,id=178781,bonus_id=6536/1540/6646/6935,gem_id=173127,enchant=tenet_of_critical_strike
-trinket1=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
+trinket1=phial_of_putrefaction,id=178771,bonus_id=6536/1540/6646
 trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
 main_hand=labrys_of_the_loyal_larion,id=174302,bonus_id=7187/1531,enchant=celestial_guidance
 off_hand=poxstorm_longsword_of_pestilence,id=178754,bonus_id=6536/1540/6646,enchant=sinful_revelation
@@ -462,7 +491,7 @@ role=attack
 position=back
 talents=3020013
 covenant=kyrian
-soulbind=pelagos,combat_meditation/strike_with_clarity:7/focusing_mantra/harm_denial:7/cleansed_vestments/xuens_bond:7/let_go_of_the_past
+soulbind=pelagos,combat_meditation/strike_with_clarity:7/focusing_mantra/harm_denial:7/cleansed_vestments/coordinated_offensive:7/let_go_of_the_past
 
 head=umbrahide_helm,id=172317,bonus_id=6716/7082/6647/6648/1532/6935,gem_id=173129
 neck=azurevenom_choker,id=180115,bonus_id=6536/1540/6646/6935,gem_id=173129
@@ -476,7 +505,7 @@ legs=fearless_challengers_leggings,id=178801,bonus_id=6536/1540/6646
 feet=viscerastitched_footpads,id=178731,bonus_id=6536/1540/6646,enchant=eternal_agility
 finger1=entwined_gorger_tendril,id=178848,bonus_id=6536/1540/6646/6935,gem_id=173127,enchant=tenet_of_versatility
 finger2=ritual_commanders_ring,id=178781,bonus_id=6536/1540/6646/6935,gem_id=173127,enchant=tenet_of_critical_strike
-trinket1=inscrutable_quantum_device,id=179350,bonus_id=6536/1540/6646
+trinket1=phial_of_putrefaction,id=178771,bonus_id=6536/1540/6646
 trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
 main_hand=labrys_of_the_loyal_larion,id=174302,bonus_id=7187/1531,enchant=celestial_guidance
 off_hand=poxstorm_longsword_of_pestilence,id=178754,bonus_id=6536/1540/6646,enchant=sinful_revelation
@@ -540,7 +569,7 @@ race=mechagnome
 spec=shadow
 role=spell
 position=ranged_back
-talents=1010332
+talents=1010132
 covenant=kyrian
 soulbind=pelagos,combat_meditation/dissonant_echoes:7/haunting_apparitions:7
 
@@ -550,15 +579,15 @@ shoulders=shawl_of_the_penitent,id=183020,bonus_id=7187/1498
 back=crest_of_the_legionnaire_general,id=183032,bonus_id=7187/1498
 chest=robes_of_the_cursed_commando,id=182998,bonus_id=7187/1498,enchant=eternal_insight
 wrists=grim_pursuants_maille,id=182996,bonus_id=7187/1498/6935,gem_id=173128,enchant=eternal_intellect
-hands=grimveiled_mittens,id=173244,bonus_id=6647/6649/6758/6983/1532
+hands=impossibly_oversized_mitts,id=183022,bonus_id=7187/1498
 waist=shadewarped_sash,id=183004,bonus_id=7187/1498/6935,gem_id=173128
-legs=courtiers_costume_trousers,id=183011,bonus_id=7187/1498
+legs=grimveiled_pants,id=173246,bonus_id=6648/6649/6758/7162/1532
 feet=slippers_of_the_forgotten_heretic,id=182979,bonus_id=7187/1498
-finger1=most_regal_signet_of_sire_denathrius,id=183036,bonus_id=7187/1498/6935,gem_id=173128,enchant=tenet_of_haste
-finger2=ritualists_treasured_ring,id=183037,bonus_id=7187/1498/6935,gem_id=173128,enchant=tenet_of_haste
+finger1=most_regal_signet_of_sire_denathrius,id=183036,bonus_id=7187/1498/6935,gem_id=173128,enchant=tenet_of_mastery
+finger2=ritualists_treasured_ring,id=183037,bonus_id=7187/1498/6935,gem_id=173128,enchant=tenet_of_mastery
 trinket1=empyreal_ordnance,id=180117,bonus_id=6536/1540/6646
 trinket2=cabalists_hymnal,id=184028,bonus_id=7187/1498
-main_hand=sinbearers_absolution_staff,id=182392,bonus_id=7187/1531,enchant=sinful_revelation
+main_hand=sinbearers_absolution_staff,id=182392,bonus_id=7187/1531,enchant=celestial_guidance
 
 priest="T26_Priest_Shadow_Necrolord"
 level=60
@@ -566,7 +595,7 @@ race=mechagnome
 spec=shadow
 role=spell
 position=ranged_back
-talents=1010332
+talents=1010132
 covenant=necrolord
 soulbind=emeni,lead_by_example/dissonant_echoes:7/haunting_apparitions:7
 
@@ -576,15 +605,15 @@ shoulders=shawl_of_the_penitent,id=183020,bonus_id=7187/1498
 back=crest_of_the_legionnaire_general,id=183032,bonus_id=7187/1498
 chest=robes_of_the_cursed_commando,id=182998,bonus_id=7187/1498,enchant=eternal_insight
 wrists=grim_pursuants_maille,id=182996,bonus_id=7187/1498/6935,gem_id=173128,enchant=eternal_intellect
-hands=grimveiled_mittens,id=173244,bonus_id=6647/6649/6758/6983/1532
+hands=impossibly_oversized_mitts,id=183022,bonus_id=7187/1498
 waist=shadewarped_sash,id=183004,bonus_id=7187/1498/6935,gem_id=173128
-legs=courtiers_costume_trousers,id=183011,bonus_id=7187/1498
+legs=grimveiled_pants,id=173246,bonus_id=6648/6649/6758/7162/1532
 feet=slippers_of_the_forgotten_heretic,id=182979,bonus_id=7187/1498
-finger1=most_regal_signet_of_sire_denathrius,id=183036,bonus_id=7187/1498/6935,gem_id=173128,enchant=tenet_of_haste
-finger2=ritualists_treasured_ring,id=183037,bonus_id=7187/1498/6935,gem_id=173128,enchant=tenet_of_haste
+finger1=most_regal_signet_of_sire_denathrius,id=183036,bonus_id=7187/1498/6935,gem_id=173128,enchant=tenet_of_mastery
+finger2=ritualists_treasured_ring,id=183037,bonus_id=7187/1498/6935,gem_id=173128,enchant=tenet_of_mastery
 trinket1=empyreal_ordnance,id=180117,bonus_id=6536/1540/6646
 trinket2=cabalists_hymnal,id=184028,bonus_id=7187/1498
-main_hand=sinbearers_absolution_staff,id=182392,bonus_id=7187/1531,enchant=sinful_revelation
+main_hand=sinbearers_absolution_staff,id=182392,bonus_id=7187/1531,enchant=celestial_guidance
 
 rogue="T26_Rogue_Assassination"
 level=60
@@ -619,9 +648,9 @@ race=mechagnome
 spec=outlaw
 role=attack
 position=back
-talents=2020022
+talents=3030022
 covenant=kyrian
-soulbind=pelagos,combat_meditation/count_the_odds:7/triple_threat:7
+soulbind=pelagos,combat_meditation/count_the_odds:7/sleight_of_hand:7
 
 head=sadists_sinister_mask,id=182980,bonus_id=7187/1498/6935,gem_id=173129
 neck=azurevenom_choker,id=180115,bonus_id=6536/1540/6646/6935,gem_id=173129
@@ -797,7 +826,7 @@ legs=courtiers_costume_trousers,id=183011,bonus_id=7187/1498
 feet=slippers_of_the_forgotten_heretic,id=182979,bonus_id=7187/1498
 finger1=hyperlight_band,id=183038,bonus_id=7187/1498/6935,gem_id=173130,enchant=tenet_of_mastery
 finger2=most_regal_signet_of_sire_denathrius,id=183036/6935,gem_id=173130,bonus_id=7187/1498,enchant=tenet_of_mastery
-trinket1=soul_igniter,id=184019,bonus_id=7187/1498,enchant=shadowcore_oil
+trinket1=soul_igniter,id=184019,bonus_id=7187/1498
 trinket2=dreadfire_vessel,id=184030,bonus_id=7187/1498
 main_hand=sinbearers_absolution_staff,id=182392,bonus_id=7187/1531,enchant=sinful_revelation
 
@@ -823,7 +852,7 @@ legs=courtiers_costume_trousers,id=183011,bonus_id=7187/1498
 feet=slippers_of_the_forgotten_heretic,id=182979,bonus_id=7187/1498
 finger1=hyperlight_band,id=183038,bonus_id=7187/1498/6935,gem_id=173128,enchant=tenet_of_haste
 finger2=most_regal_signet_of_sire_denathrius,id=183036/6935,gem_id=173128,bonus_id=7187/1498,enchant=tenet_of_haste
-trinket1=soul_igniter,id=184019,bonus_id=7187/1498,enchant=shadowcore_oil
+trinket1=soul_igniter,id=184019,bonus_id=7187/1498
 trinket2=cabalists_hymnal,id=184028,bonus_id=7187/1498
 main_hand=sinbearers_absolution_staff,id=182392,bonus_id=7187/1531,enchant=sinful_revelation
 
@@ -849,7 +878,7 @@ legs=leggings_of_lethal_reverberations,id=182981,bonus_id=7187/1498
 feet=slippers_of_the_forgotten_heretic,id=182979,bonus_id=7187/1498
 finger1=hyperlight_band,id=183038,bonus_id=7187/1498/6935,gem_id=173128,enchant=tenet_of_haste
 finger2=most_regal_signet_of_sire_denathrius,id=183036/6935,gem_id=173128,bonus_id=7187/1498,enchant=tenet_of_haste
-trinket1=macabre_sheet_music,id=184024,bonus_id=7187/1498,enchant=shadowcore_oil
+trinket1=macabre_sheet_music,id=184024,bonus_id=7187/1498
 trinket2=cabalists_hymnal,id=184028,bonus_id=7187/1498
 main_hand=sinbearers_absolution_staff,id=182392,bonus_id=7187/1531,enchant=sinful_revelation
 
@@ -954,6 +983,9 @@ external_buffs.power_infusion="8/128/249"
 copy="T26_Druid_Balance_PI","T26_Druid_Balance"
 external_buffs.power_infusion="8/128/249"
 
+copy="T26_Druid_Feral_Owlweave_PI","T26_Druid_Feral_Owlweave"
+external_buffs.power_infusion="8/128/249"
+
 copy="T26_Druid_Feral_PI","T26_Druid_Feral"
 external_buffs.power_infusion="8/128/249"
 
@@ -1000,11 +1032,11 @@ copy="T26_Priest_Shadow_Necrolord_NOPI","T26_Priest_Shadow_Necrolord"
 priest.self_power_infusion=0
 
 copy="T26_Priest_Shadow_Kyrian_Twins","T26_Priest_Shadow_Kyrian"
-hands=tricksprite_gloves,id=178705,bonus_id=6536/1540/6646
+legs=courtiers_costume_trousers,id=183011,ilevel=226
 head=grim_veiled_hood,id=173245,bonus_id=6647/6649/6758/7002/1532
 
 copy="T26_Priest_Shadow_Necrolord_Twins","T26_Priest_Shadow_Necrolord"
-hands=tricksprite_gloves,id=178705,bonus_id=6536/1540/6646
+legs=courtiers_costume_trousers,id=183011,ilevel=226
 head=grim_veiled_hood,id=173245,bonus_id=6647/6649/6758/7002/1532
 
 copy="T26_Rogue_Assassination_PI","T26_Rogue_Assassination"
