@@ -1,20 +1,20 @@
 # Dungeons - hv-as - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Bonesmith-FR_HAMG-DE|6991|8.89%|
-|Bonesmith-FR-DE_HA|6920|7.79%|
-|Emeni-LbE-DE_HA|6848|6.67%|
-|Marileth-PPS_VS_Mastery-DE|6845|6.62%|
-|Marileth-PPS_VS_Crit-DE|6844|6.60%|
-|Marileth-PPS_VS_Magic-DE|6836|6.48%|
-|Marileth-VS_Mastery-DE_HA|6808|6.04%|
-|Marileth-VS_Crit-DE_HA|6804|5.98%|
-|Bonesmith-FR_SS_HAMG|6800|5.92%|
-|Marileth-VS_Magic-DE_HA|6799|5.90%|
-|Emeni-LbE_GC-DE|6792|5.79%|
-|Bonesmith-FR_SS-DE|6782|5.64%|
-|Marileth-PPS_VS_Intellect-DE|6767|5.40%|
-|Marileth-PPS-DE|6763|5.34%|
-|Marileth-VS_Intellect-DE_HA|6736|4.92%|
-|Marileth-DE_HA|6729|4.81%|
-|Base|6420|0.00%|
+|Bonesmith-FR_HAMG-DE|6984|8.82%|
+|Bonesmith-FR-DE_HA|6910|7.67%|
+|Emeni-LbE-DE_HA|6851|6.75%|
+|Marileth-PPS_VS_Mastery-DE|6851|6.75%|
+|Marileth-PPS_VS_Crit-DE|6835|6.50%|
+|Marileth-PPS_VS_Magic-DE|6832|6.45%|
+|Marileth-VS_Crit-DE_HA|6808|6.08%|
+|Marileth-VS_Magic-DE_HA|6804|6.01%|
+|Marileth-VS_Mastery-DE_HA|6804|6.01%|
+|Bonesmith-FR_SS_HAMG|6795|5.87%|
+|Emeni-LbE_GC-DE|6795|5.87%|
+|Bonesmith-FR_SS-DE|6782|5.67%|
+|Marileth-PPS-DE|6769|5.47%|
+|Marileth-PPS_VS_Intellect-DE|6766|5.42%|
+|Marileth-DE_HA|6734|4.92%|
+|Marileth-VS_Intellect-DE_HA|6732|4.89%|
+|Base|6418|0.00%|
