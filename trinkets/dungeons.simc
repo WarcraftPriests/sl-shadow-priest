@@ -27,7 +27,6 @@ main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revela
 # Mythic+ Trinkets (+Great Vault): 187/190/194/197/200/203/207/210/213/216/220/223/226
 
 # Spires of Ascension
-profileset."Empyreal_Ordnance_158"+=trinket1=empyreal_ordnance,id=180117,ilevel=158
 profileset."Empyreal_Ordnance_171"+=trinket1=empyreal_ordnance,id=180117,ilevel=171
 profileset."Empyreal_Ordnance_184"+=trinket1=empyreal_ordnance,id=180117,ilevel=184
 profileset."Empyreal_Ordnance_187"+=trinket1=empyreal_ordnance,id=180117,ilevel=187
@@ -46,8 +45,6 @@ profileset."Empyreal_Ordnance_226"+=trinket1=empyreal_ordnance,id=180117,ilevel=
 
 # Mists of Tyrna Scithe
 # shadowlands.unbound_changeling_stat_type = [all, crit, haste, mastery]
-profileset."Unbound_Changeling_Haste_158"+=trinket1=unbound_changeling,id=178708,ilevel=158
-profileset."Unbound_Changeling_Haste_158"+=shadowlands.unbound_changeling_stat_type=haste
 profileset."Unbound_Changeling_Haste_171"+=trinket1=unbound_changeling,id=178708,ilevel=171
 profileset."Unbound_Changeling_Haste_171"+=shadowlands.unbound_changeling_stat_type=haste
 profileset."Unbound_Changeling_Haste_184"+=trinket1=unbound_changeling,id=178708,ilevel=184
@@ -79,8 +76,6 @@ profileset."Unbound_Changeling_Haste_223"+=shadowlands.unbound_changeling_stat_t
 profileset."Unbound_Changeling_Haste_226"+=trinket1=unbound_changeling,id=178708,ilevel=226
 profileset."Unbound_Changeling_Haste_226"+=shadowlands.unbound_changeling_stat_type=haste
 
-profileset."Unbound_Changeling_Crit_158"+=trinket1=unbound_changeling,id=178708,ilevel=158
-profileset."Unbound_Changeling_Crit_158"+=shadowlands.unbound_changeling_stat_type=crit
 profileset."Unbound_Changeling_Crit_171"+=trinket1=unbound_changeling,id=178708,ilevel=171
 profileset."Unbound_Changeling_Crit_171"+=shadowlands.unbound_changeling_stat_type=crit
 profileset."Unbound_Changeling_Crit_184"+=trinket1=unbound_changeling,id=178708,ilevel=184
@@ -112,8 +107,6 @@ profileset."Unbound_Changeling_Crit_223"+=shadowlands.unbound_changeling_stat_ty
 profileset."Unbound_Changeling_Crit_226"+=trinket1=unbound_changeling,id=178708,ilevel=226
 profileset."Unbound_Changeling_Crit_226"+=shadowlands.unbound_changeling_stat_type=crit
 
-profileset."Unbound_Changeling_Mastery_158"+=trinket1=unbound_changeling,id=178708,ilevel=158
-profileset."Unbound_Changeling_Mastery_158"+=shadowlands.unbound_changeling_stat_type=mastery
 profileset."Unbound_Changeling_Mastery_171"+=trinket1=unbound_changeling,id=178708,ilevel=171
 profileset."Unbound_Changeling_Mastery_171"+=shadowlands.unbound_changeling_stat_type=mastery
 profileset."Unbound_Changeling_Mastery_184"+=trinket1=unbound_changeling,id=178708,ilevel=184
@@ -145,8 +138,6 @@ profileset."Unbound_Changeling_Mastery_223"+=shadowlands.unbound_changeling_stat
 profileset."Unbound_Changeling_Mastery_226"+=trinket1=unbound_changeling,id=178708,ilevel=226
 profileset."Unbound_Changeling_Mastery_226"+=shadowlands.unbound_changeling_stat_type=mastery
 
-profileset."Unbound_Changeling_All_158"+=trinket1=unbound_changeling,id=178708,ilevel=158
-profileset."Unbound_Changeling_All_158"+=shadowlands.unbound_changeling_stat_type=all
 profileset."Unbound_Changeling_All_171"+=trinket1=unbound_changeling,id=178708,ilevel=171
 profileset."Unbound_Changeling_All_171"+=shadowlands.unbound_changeling_stat_type=all
 profileset."Unbound_Changeling_All_184"+=trinket1=unbound_changeling,id=178708,ilevel=184
@@ -179,7 +170,6 @@ profileset."Unbound_Changeling_All_226"+=trinket1=unbound_changeling,id=178708,i
 profileset."Unbound_Changeling_All_226"+=shadowlands.unbound_changeling_stat_type=all
 
 # De Other Side
-profileset."Inscrutable_Quantum_Device_158"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=158
 profileset."Inscrutable_Quantum_Device_171"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=171
 profileset."Inscrutable_Quantum_Device_184"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=184
 profileset."Inscrutable_Quantum_Device_187"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=187
@@ -196,9 +186,41 @@ profileset."Inscrutable_Quantum_Device_220"+=trinket1=inscrutable_quantum_device
 profileset."Inscrutable_Quantum_Device_223"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=223
 profileset."Inscrutable_Quantum_Device_226"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=226
 
+# shadowlands.iqd_stat_fail_chance (default: 0.0) 
+# Sets the chance to not gain a stat buff outside Bloodlust when IQD is activated
+profileset."Inscrutable_Quantum_Device_Only_Opener_171"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=171
+profileset."Inscrutable_Quantum_Device_Only_Opener_171"+=shadowlands.iqd_stat_fail_chance=1.0
+profileset."Inscrutable_Quantum_Device_Only_Opener_184"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=184
+profileset."Inscrutable_Quantum_Device_Only_Opener_184"+=shadowlands.iqd_stat_fail_chance=1.0
+profileset."Inscrutable_Quantum_Device_Only_Opener_187"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=187
+profileset."Inscrutable_Quantum_Device_Only_Opener_187"+=shadowlands.iqd_stat_fail_chance=1.0
+profileset."Inscrutable_Quantum_Device_Only_Opener_190"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=190
+profileset."Inscrutable_Quantum_Device_Only_Opener_190"+=shadowlands.iqd_stat_fail_chance=1.0
+profileset."Inscrutable_Quantum_Device_Only_Opener_194"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=194
+profileset."Inscrutable_Quantum_Device_Only_Opener_194"+=shadowlands.iqd_stat_fail_chance=1.0
+profileset."Inscrutable_Quantum_Device_Only_Opener_197"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=197
+profileset."Inscrutable_Quantum_Device_Only_Opener_197"+=shadowlands.iqd_stat_fail_chance=1.0
+profileset."Inscrutable_Quantum_Device_Only_Opener_200"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=200
+profileset."Inscrutable_Quantum_Device_Only_Opener_200"+=shadowlands.iqd_stat_fail_chance=1.0
+profileset."Inscrutable_Quantum_Device_Only_Opener_203"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=203
+profileset."Inscrutable_Quantum_Device_Only_Opener_203"+=shadowlands.iqd_stat_fail_chance=1.0
+profileset."Inscrutable_Quantum_Device_Only_Opener_207"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=207
+profileset."Inscrutable_Quantum_Device_Only_Opener_207"+=shadowlands.iqd_stat_fail_chance=1.0
+profileset."Inscrutable_Quantum_Device_Only_Opener_210"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=210
+profileset."Inscrutable_Quantum_Device_Only_Opener_210"+=shadowlands.iqd_stat_fail_chance=1.0
+profileset."Inscrutable_Quantum_Device_Only_Opener_213"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=213
+profileset."Inscrutable_Quantum_Device_Only_Opener_213"+=shadowlands.iqd_stat_fail_chance=1.0
+profileset."Inscrutable_Quantum_Device_Only_Opener_216"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=216
+profileset."Inscrutable_Quantum_Device_Only_Opener_216"+=shadowlands.iqd_stat_fail_chance=1.0
+profileset."Inscrutable_Quantum_Device_Only_Opener_220"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=220
+profileset."Inscrutable_Quantum_Device_Only_Opener_220"+=shadowlands.iqd_stat_fail_chance=1.0
+profileset."Inscrutable_Quantum_Device_Only_Opener_223"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=223
+profileset."Inscrutable_Quantum_Device_Only_Opener_223"+=shadowlands.iqd_stat_fail_chance=1.0
+profileset."Inscrutable_Quantum_Device_Only_Opener_226"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=226
+profileset."Inscrutable_Quantum_Device_Only_Opener_226"+=shadowlands.iqd_stat_fail_chance=1.0
+
 # Sanguine Depths
 # TODO: swap which covenant this is used with? or change to covenant sims
-profileset."Overflowing_Anima_Prison_158"+=trinket1=overflowing_anima_prison,id=178849,ilevel=158
 profileset."Overflowing_Anima_Prison_171"+=trinket1=overflowing_anima_prison,id=178849,ilevel=171
 profileset."Overflowing_Anima_Prison_184"+=trinket1=overflowing_anima_prison,id=178849,ilevel=184
 profileset."Overflowing_Anima_Prison_187"+=trinket1=overflowing_anima_prison,id=178849,ilevel=187
@@ -216,7 +238,6 @@ profileset."Overflowing_Anima_Prison_223"+=trinket1=overflowing_anima_prison,id=
 profileset."Overflowing_Anima_Prison_226"+=trinket1=overflowing_anima_prison,id=178849,ilevel=226
 
 # Halls of Atonement
-profileset."Sunblood_Amethyst_158"+=trinket1=sunblood_amethyst,id=178826,ilevel=158
 profileset."Sunblood_Amethyst_171"+=trinket1=sunblood_amethyst,id=178826,ilevel=171
 profileset."Sunblood_Amethyst_184"+=trinket1=sunblood_amethyst,id=178826,ilevel=184
 profileset."Sunblood_Amethyst_187"+=trinket1=sunblood_amethyst,id=178826,ilevel=187
@@ -234,7 +255,6 @@ profileset."Sunblood_Amethyst_223"+=trinket1=sunblood_amethyst,id=178826,ilevel=
 profileset."Sunblood_Amethyst_226"+=trinket1=sunblood_amethyst,id=178826,ilevel=226
 
 # Theater of Pain
-profileset."Soulletting_Ruby_158"+=trinket1=soulletting_ruby,id=178809,ilevel=158
 profileset."Soulletting_Ruby_171"+=trinket1=soulletting_ruby,id=178809,ilevel=171
 profileset."Soulletting_Ruby_184"+=trinket1=soulletting_ruby,id=178809,ilevel=184
 profileset."Soulletting_Ruby_187"+=trinket1=soulletting_ruby,id=178809,ilevel=187
@@ -252,7 +272,6 @@ profileset."Soulletting_Ruby_223"+=trinket1=soulletting_ruby,id=178809,ilevel=22
 profileset."Soulletting_Ruby_226"+=trinket1=soulletting_ruby,id=178809,ilevel=226
 
 # Necrotic Wake
-profileset."Satchel_of_Misbegotten_Minions_158"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=158
 profileset."Satchel_of_Misbegotten_Minions_171"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=171
 profileset."Satchel_of_Misbegotten_Minions_184"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=184
 profileset."Satchel_of_Misbegotten_Minions_187"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=187
@@ -270,7 +289,6 @@ profileset."Satchel_of_Misbegotten_Minions_223"+=trinket1=satchel_of_misbegotten
 profileset."Satchel_of_Misbegotten_Minions_226"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=226
 
 # Plaguefall
-profileset."Infinitely_Divisible_Ooze_158"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=158
 profileset."Infinitely_Divisible_Ooze_171"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=171
 profileset."Infinitely_Divisible_Ooze_184"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=184
 profileset."Infinitely_Divisible_Ooze_187"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=187
