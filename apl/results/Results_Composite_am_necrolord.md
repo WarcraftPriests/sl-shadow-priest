@@ -1,7 +1,6 @@
 # Composite - am - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|delay_pi_for_fae_guardians_with_niya-and-void_torrent_end_of_vf|6602|0.02%|
-|void_torrent_end_of_voidform|6602|0.02%|
-|Base|6600|0.00%|
-|delay_pi_for_fae_guardians_with_niya|6600|-0.01%|
+|uncap_blast_with_sfp|6777|0.02%|
+|uncap_blast_with_sfp_only_misery|6776|0.01%|
+|Base|6776|0.00%|

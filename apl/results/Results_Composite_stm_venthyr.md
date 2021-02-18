@@ -1,7 +1,6 @@
 # Composite - stm - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|delay_pi_for_fae_guardians_with_niya-and-void_torrent_end_of_vf|6401|0.04%|
-|void_torrent_end_of_voidform|6401|0.04%|
-|Base|6399|0.00%|
-|delay_pi_for_fae_guardians_with_niya|6398|-0.02%|
+|uncap_blast_with_sfp_only_misery|6565|0.03%|
+|uncap_blast_with_sfp|6565|0.02%|
+|Base|6563|0.00%|

@@ -1,7 +1,6 @@
 # Dungeons - hv-sc - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|delay_pi_for_fae_guardians_with_niya-and-void_torrent_end_of_vf|6610|0.09%|
-|void_torrent_end_of_voidform|6606|0.03%|
-|Base|6604|0.00%|
-|delay_pi_for_fae_guardians_with_niya|6603|-0.02%|
+|uncap_blast_with_sfp|6845|0.54%|
+|uncap_blast_with_sfp_only_misery|6812|0.06%|
+|Base|6808|0.00%|

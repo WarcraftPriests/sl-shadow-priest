@@ -1,7 +1,6 @@
 # Composite - hv-sc - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|delay_pi_for_fae_guardians_with_niya-and-void_torrent_end_of_vf|6910|0.38%|
-|void_torrent_end_of_voidform|6909|0.37%|
-|delay_pi_for_fae_guardians_with_niya|6884|0.00%|
-|Base|6884|0.00%|
+|uncap_blast_with_sfp|6985|0.03%|
+|uncap_blast_with_sfp_only_misery|6984|0.01%|
+|Base|6983|0.00%|

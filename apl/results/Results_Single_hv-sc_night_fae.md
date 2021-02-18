@@ -1,7 +1,6 @@
 # Single - hv-sc - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|delay_pi_for_fae_guardians_with_niya-and-void_torrent_end_of_vf|6341|0.41%|
-|void_torrent_end_of_voidform|6338|0.35%|
-|delay_pi_for_fae_guardians_with_niya|6326|0.16%|
-|Base|6316|0.00%|
+|uncap_blast_with_sfp_only_misery|6527|0.03%|
+|uncap_blast_with_sfp|6525|0.00%|
+|Base|6525|0.00%|

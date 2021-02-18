@@ -1,7 +1,6 @@
 # Single - hv-sc - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|void_torrent_end_of_voidform|6462|0.29%|
-|delay_pi_for_fae_guardians_with_niya-and-void_torrent_end_of_vf|6462|0.29%|
-|delay_pi_for_fae_guardians_with_niya|6444|0.02%|
-|Base|6443|0.00%|
+|uncap_blast_with_sfp|6473|0.01%|
+|uncap_blast_with_sfp_only_misery|6473|0.00%|
+|Base|6473|0.00%|

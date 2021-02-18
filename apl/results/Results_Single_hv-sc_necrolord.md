@@ -1,7 +1,6 @@
 # Single - hv-sc - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|void_torrent_end_of_voidform|6389|0.30%|
-|delay_pi_for_fae_guardians_with_niya-and-void_torrent_end_of_vf|6388|0.29%|
-|delay_pi_for_fae_guardians_with_niya|6370|0.01%|
-|Base|6370|0.00%|
+|uncap_blast_with_sfp|6491|0.02%|
+|uncap_blast_with_sfp_only_misery|6490|0.01%|
+|Base|6490|0.00%|

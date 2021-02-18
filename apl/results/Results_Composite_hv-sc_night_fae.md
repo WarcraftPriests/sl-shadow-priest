@@ -1,7 +1,6 @@
 # Composite - hv-sc - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|delay_pi_for_fae_guardians_with_niya-and-void_torrent_end_of_vf|6874|0.33%|
-|void_torrent_end_of_voidform|6873|0.31%|
-|delay_pi_for_fae_guardians_with_niya|6857|0.09%|
-|Base|6851|0.00%|
+|uncap_blast_with_sfp_only_misery|7087|0.02%|
+|uncap_blast_with_sfp|7086|0.01%|
+|Base|7086|0.00%|
