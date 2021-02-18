@@ -53,6 +53,8 @@ profileset."Kyrian_Forgelite_HoG"+=soulbind=forgelite_prime_mikanikos,${conduits
 
 # Soulbind: Dreamweaver - Dreamweaver-FoB-1_2
 profileset."Night_Fae_Covenant_Only"+=covenant=night_fae
+profileset."Night_Fae_Covenant_Only_No_CDR"+=covenant=night_fae
+profileset."Night_Fae_Covenant_Only_No_CDR"+=priest.self_benevolent_faerie=0
 profileset."Night_Fae_Dreamweaver"+=covenant=night_fae
 profileset."Night_Fae_Dreamweaver"+=soulbind=dreamweaver,${conduits.first.id}:7/${conduits.second.id}:7/319191
 # Soulbind: Korayn - Korayn-WHT-1_2 + Korayn-WHT_FS-1

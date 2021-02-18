@@ -141,6 +141,7 @@ covenants = {
     "Night_Fae_Korayn_FS": 325069,
     "Night_Fae_Niya": 327661,
     "Night_Fae_Covenant_Only": 327661,
+    "Night_Fae_Covenant_Only_No_CDR": 327661,
     "Kyrian_Pelagos": 325013,
     "Kyrian_Forgelite": 325013,
     "Kyrian_Forgelite_HoG": 333935,
