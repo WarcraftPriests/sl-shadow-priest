@@ -157,7 +157,7 @@ def update_talents(talent_string, replacement):
 
 
 def build_profiles(talent_string, covenant_string):
-    # pylint: disable=R0912, too-many-locals, too-many-statements, line-too-long
+    # pylint: disable=R0912, too-many-locals, too-many-statements, line-too-long, too-many-nested-blocks
     """build combination list e.g. pw_sa_1"""
     fight_styles = ["pw", "lm", "hm"]
     add_types = ["sa", "ba", "na"]
