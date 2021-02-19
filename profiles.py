@@ -126,7 +126,8 @@ def build_simc_file(talent_string, covenant_string, profile_name):
 def replace_talents(talent_string, data):
     """Replaces the talents variable with the talent string given"""
     if "talents=" in data:
-        data = re.sub(r'talents=.*', "talents={}".format(talent_string), data)
+        data = re.sub(
+            r'talents=.*', "talents={}".format(talent_string), data, 1)
     else:
         data.replace(
             "spec=shadow", "spec=shadow\ntalents={0}".format(talent_string))
@@ -146,8 +147,17 @@ def replace_conduits(talent_string, data):
     return data
 
 
+def update_talents(talent_string, replacement):
+    """replaces talent in string with given replacement"""
+    new_talents = ""
+    talent_string = str(talent_string)
+    if replacement == "mindbender":
+        new_talents = talent_string[:5] + "2" + talent_string[6:]
+    return new_talents
+
+
 def build_profiles(talent_string, covenant_string):
-    # pylint: disable=R0912, too-many-locals
+    # pylint: disable=R0912, too-many-locals, too-many-statements, line-too-long
     """build combination list e.g. pw_sa_1"""
     fight_styles = ["pw", "lm", "hm"]
     add_types = ["sa", "ba", "na"]
@@ -186,11 +196,14 @@ def build_profiles(talent_string, covenant_string):
         # insert talents in here so copy= works correctly
         if talents_expr:
             data = data.replace("${talents}", str(talents_expr))
+            data = data.replace("${talents.mindbender}", update_talents(
+                str(talents_expr), "mindbender"))
             data = replace_conduits(talent_string, data)
         if covenant_string:
             data = data.replace("${covenant}", covenant_string)
 
         for profile in combinations:
+            sim_data = data
             # prefix the profile name with the base file name
             profile_name = "{0}_{1}".format(sim_file[:-5], profile)
             settings = build_settings(
@@ -200,16 +213,32 @@ def build_profiles(talent_string, covenant_string):
             if talents_expr:
                 if profile in config["singleTargetProfiles"]:
                     new_talents = config["builds"][talent_string]["single"]
-                    data = data.replace(
+                    # Only replace Mindbender talent if using Shadowflame Prism, and it is not a legendary sim
+                    if config["legendary"]["single"] == "6982" and args.dir[:-1] != 'legendaries' and args.dir[:-1] != 'legendary-items':
+                        sim_data = replace_talents(update_talents(
+                            talents_expr, "mindbender"), sim_data)
+                    else:
+                        sim_data = replace_talents(new_talents, sim_data)
+                    sim_data = sim_data.replace(
                         "${legendary.id}", config["legendary"]["single"])
-                    data = replace_talents(new_talents, data)
                 else:
-                    data = replace_talents(talents_expr, data)
                     if args.dungeons:
-                        data = data.replace(
+                        # Only replace Mindbender talent if using Shadowflame Prism, and it is not a legendary sim
+                        if config["legendary"]["dungeons"] == "6982" and args.dir[:-1] != 'legendaries' and args.dir[:-1] != 'legendary-items':
+                            sim_data = replace_talents(update_talents(
+                                talents_expr, "mindbender"), sim_data)
+                        else:
+                            sim_data = replace_talents(talents_expr, sim_data)
+                        sim_data = sim_data.replace(
                             "${legendary.id}", config["legendary"]["dungeons"])
                     else:
-                        data = data.replace(
+                        # Only replace Mindbender talent if using Shadowflame Prism, and it is not a legendary sim
+                        if config["legendary"]["composite"] == "6982" and args.dir[:-1] != 'legendaries' and args.dir[:-1] != 'legendary-items':
+                            sim_data = replace_talents(update_talents(
+                                talents_expr, "mindbender"), sim_data)
+                        else:
+                            sim_data = replace_talents(talents_expr, sim_data)
+                        sim_data = sim_data.replace(
                             "${legendary.id}", config["legendary"]["composite"])
 
             simc_file = build_simc_file(
@@ -217,7 +246,7 @@ def build_profiles(talent_string, covenant_string):
             with open(args.dir + simc_file, "w+") as file:
                 if args.ptr:
                     file.writelines(fightExpressions["ptr"])
-                file.writelines(data)
+                file.writelines(sim_data)
                 file.writelines(settings)
                 file.close()
 

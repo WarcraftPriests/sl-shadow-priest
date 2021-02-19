@@ -66,7 +66,7 @@ covenants:
       composite: "theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/336239"
       dungeons: "nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586"
 legendary:
-    composite: "7162" # Talbadar's Stratagem
+    composite: "6982" # Shadowflame Prism
     dungeons: "6983" # Eternal Call to the Void
     single: "7162" # Talbadar's Stratagem
 sims:

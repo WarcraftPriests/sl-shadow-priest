@@ -2,6 +2,9 @@
 
 By default these sims are ran with the top 2 conduits for each covenant. These conduits are stored in the config file and change based on talent setup.
 
+Note about Mindbender actor:
+- Each sim includes a sim with Shadowflame Prism with the default talent, and one with Mindbender. When the default talent already uses Mindbender (i.e. DungeonSlice) this will just be the same sim twice, within margin of error.
+
 This sim includes all legendaries that can be used as a dps increase, and also adds two special conduit changing sims:
 - Shadowflame Prism + Rabid Shadows (drops the 2nd best conduit) - `Shadowflame_Prism_Conduit_7` denotes rank 7 of the conduit
 - Twins of the Sun Priestess + Power Unto Others (just adds this conduit) - `Twins_of_the_Sun_Priestess_Conduit_7` denotes rank 7 of the conduit

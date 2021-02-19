@@ -1,15 +1,17 @@
 # Single - hv-as - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Talbadars_Stratagem|6553|6.23%|
-|Talbadars_Stratagem_Mind_Devourer_7|6532|5.89%|
-|Eternal_Call_to_the_Void|6469|4.86%|
-|Judgment_of_the_Arbiter|6272|1.67%|
-|Echo_of_Eonar|6266|1.58%|
-|Shadowflame_Prism|6260|1.48%|
-|Painbreaker_Psalm|6242|1.19%|
-|Twins_of_the_Sun_Priestess_Conduit_7|6209|0.65%|
-|Third_Eye_of_the_Jailer|6169|0.00%|
-|Base|6169|0.00%|
-|Sephuzs_Proclamation|6167|-0.03%|
-|Shadowflame_Prism_Conduit_7|6154|-0.24%|
+|Talbadars_Stratagem|6648|6.52%|
+|Talbadars_Stratagem_Mind_Devourer_7|6629|6.22%|
+|Shadowflame_Prism_Conduit_7_Mindbender|6596|5.69%|
+|Shadowflame_Prism_Mindbender|6571|5.28%|
+|Eternal_Call_to_the_Void|6547|4.90%|
+|Shadowflame_Prism|6437|3.13%|
+|Painbreaker_Psalm|6349|1.73%|
+|Judgment_of_the_Arbiter|6344|1.64%|
+|Echo_of_Eonar|6339|1.56%|
+|Shadowflame_Prism_Conduit_7|6315|1.18%|
+|Twins_of_the_Sun_Priestess_Conduit_7|6284|0.68%|
+|Sephuzs_Proclamation|6243|0.03%|
+|Third_Eye_of_the_Jailer|6242|0.02%|
+|Base|6241|0.00%|

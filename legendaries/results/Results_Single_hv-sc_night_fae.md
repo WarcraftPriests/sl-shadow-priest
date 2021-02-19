@@ -1,15 +1,17 @@
 # Single - hv-sc - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Talbadars_Stratagem|6447|6.32%|
-|Talbadars_Stratagem_Mind_Devourer_7|6444|6.28%|
-|Eternal_Call_to_the_Void|6340|4.55%|
-|Shadowflame_Prism|6169|1.73%|
-|Judgment_of_the_Arbiter|6168|1.72%|
-|Echo_of_Eonar|6160|1.59%|
-|Painbreaker_Psalm|6147|1.37%|
-|Twins_of_the_Sun_Priestess_Conduit_7|6086|0.37%|
-|Shadowflame_Prism_Conduit_7|6080|0.27%|
-|Base|6064|0.00%|
-|Sephuzs_Proclamation|6062|-0.03%|
-|Third_Eye_of_the_Jailer|6061|-0.05%|
+|Shadowflame_Prism_Conduit_7_Mindbender|6636|7.08%|
+|Talbadars_Stratagem|6596|6.43%|
+|Talbadars_Stratagem_Mind_Devourer_7|6591|6.36%|
+|Shadowflame_Prism_Mindbender|6529|5.36%|
+|Eternal_Call_to_the_Void|6460|4.25%|
+|Shadowflame_Prism|6374|2.86%|
+|Judgment_of_the_Arbiter|6298|1.63%|
+|Shadowflame_Prism_Conduit_7|6296|1.59%|
+|Echo_of_Eonar|6295|1.57%|
+|Painbreaker_Psalm|6264|1.07%|
+|Twins_of_the_Sun_Priestess_Conduit_7|6224|0.43%|
+|Base|6197|0.00%|
+|Sephuzs_Proclamation|6197|0.00%|
+|Third_Eye_of_the_Jailer|6196|-0.01%|
