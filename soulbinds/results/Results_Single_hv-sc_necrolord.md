@@ -1,20 +1,20 @@
 # Single - hv-sc - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Bonesmith-FR_HAMG-DE|6800|9.67%|
-|Bonesmith-FR-DE_HA|6785|9.43%|
-|Emeni-LbE-DE_HA|6780|9.35%|
-|Marileth-VS_Mastery-DE_HA|6696|7.99%|
-|Marileth-VS_Magic-DE_HA|6687|7.85%|
-|Marileth-VS_Crit-DE_HA|6681|7.76%|
-|Bonesmith-FR_SS-DE|6628|6.91%|
-|Emeni-LbE_GC-DE|6623|6.81%|
-|Marileth-VS_Intellect-DE_HA|6601|6.47%|
-|Marileth-DE_HA|6600|6.45%|
-|Marileth-PPS_VS_Mastery-DE|6565|5.88%|
-|Marileth-PPS_VS_Magic-DE|6552|5.67%|
-|Marileth-PPS_VS_Crit-DE|6549|5.63%|
-|Bonesmith-FR_SS_HAMG|6533|5.36%|
-|Marileth-PPS-DE|6469|4.33%|
-|Marileth-PPS_VS_Intellect-DE|6469|4.33%|
-|Base|6200|0.00%|
+|Bonesmith-FR_HAMG-DE|6840|9.98%|
+|Bonesmith-FR-DE_HA|6824|9.72%|
+|Emeni-LbE-DE_HA|6821|9.68%|
+|Marileth-VS_Mastery-DE_HA|6736|8.30%|
+|Marileth-VS_Crit-DE_HA|6720|8.04%|
+|Marileth-VS_Magic-DE_HA|6719|8.03%|
+|Bonesmith-FR_SS-DE|6665|7.16%|
+|Emeni-LbE_GC-DE|6660|7.09%|
+|Marileth-VS_Intellect-DE_HA|6633|6.65%|
+|Marileth-DE_HA|6633|6.65%|
+|Marileth-PPS_VS_Mastery-DE|6597|6.07%|
+|Marileth-PPS_VS_Magic-DE|6584|5.85%|
+|Marileth-PPS_VS_Crit-DE|6580|5.79%|
+|Bonesmith-FR_SS_HAMG|6563|5.53%|
+|Marileth-PPS-DE|6498|4.49%|
+|Marileth-PPS_VS_Intellect-DE|6497|4.47%|
+|Base|6219|0.00%|

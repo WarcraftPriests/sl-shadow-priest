@@ -24,7 +24,7 @@ The `Covenent_Only` actor is just adding the covenant ability. No conduits, lege
 - [Single - STM](results/Results_Single_stm.md) - `FotM_ToF_AS_VT_STM`
 
 ## Dungeons
-- [Dungeons - AM](results/Results_Dungeons_am.md) - `FotM_ToF_AS_VT_AM`
-- [Dungeons - HV-AS](results/Results_Dungeons_hv-as.md) - `FotM_SN_AS_MB_HV`
-- [Dungeons - HV-SC](results/Results_Dungeons_hv-sc.md) - `FotM_SN_SC_MB_HV`
-- [Dungeons - STM](results/Results_Dungeons_stm.md) - `FotM_SN_SC_MB_STM`
+- [Dungeons - AM](results/Results_Dungeons_am.md) - `DaM_ToF_AS_VT_AM`
+- [Dungeons - HV-AS](results/Results_Dungeons_hv-as.md) - `DaM_SN_AS_MB_HV`
+- [Dungeons - HV-SC](results/Results_Dungeons_hv-sc.md) - `DaM_SN_SC_MB_HV`
+- [Dungeons - STM](results/Results_Dungeons_stm.md) - `DaM_SN_SC_MB_STM`

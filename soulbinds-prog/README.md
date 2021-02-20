@@ -1,6 +1,6 @@
 # Soulbind Results
 
-Each Soulbind is simmed with all the possible DPS paths with the top 1 or 2 Conduits at rank 6 depending on the path chosen. Each actor is also simmed with Eternal Call to the Void legendary.
+Each Soulbind is simmed with all the possible DPS paths with the top 1 or 2 Conduits at rank 6 depending on the path chosen.
 
 Renown level is capped at 22.
 
@@ -26,10 +26,10 @@ Renown level is capped at 22.
 - [Night Fae - Single - STM](results/Results_Single_stm_night_fae.md) - `FotM_ToF_AS_VT_STM`
 
 ### Dungeons
-- [Night Fae - Dungeons - AM](results/Results_Dungeons_am_night_fae.md) - `FotM_SN_SC_MB_AM`
-- [Night Fae - Dungeons - HV-AS](results/Results_Dungeons_hv-as_night_fae.md) - `FotM_SN_AS_MB_HV`
-- [Night Fae - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_night_fae.md) - `FotM_SN_SC_MB_HV`
-- [Night Fae - Dungeons - STM](results/Results_Dungeons_stm_night_fae.md) - `FotM_SN_SC_MB_STM`
+- [Night Fae - Dungeons - AM](results/Results_Dungeons_am_night_fae.md) - `DaM_SN_SC_MB_AM`
+- [Night Fae - Dungeons - HV-AS](results/Results_Dungeons_hv-as_night_fae.md) - `DaM_SN_AS_MB_HV`
+- [Night Fae - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_night_fae.md) - `DaM_SN_SC_MB_HV`
+- [Night Fae - Dungeons - STM](results/Results_Dungeons_stm_night_fae.md) - `DaM_SN_SC_MB_STM`
 
 ## Kyrian
 ### Acronyms
@@ -51,10 +51,10 @@ Renown level is capped at 22.
 - [Kyrian - Single - STM](results/Results_Single_stm_kyrian.md) - `FotM_ToF_AS_VT_STM`
 
 ### Dungeons
-- [Kyrian - Dungeons - AM](results/Results_Dungeons_am_kyrian.md) - `FotM_SN_SC_MB_AM`
-- [Kyrian - Dungeons - HV-AS](results/Results_Dungeons_hv-as_kyrian.md) - `FotM_SN_AS_MB_HV`
-- [Kyrian - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_kyrian.md) - `FotM_SN_SC_MB_HV`
-- [Kyrian - Dungeons - STM](results/Results_Dungeons_stm_kyrian.md) - `FotM_SN_SC_MB_STM`
+- [Kyrian - Dungeons - AM](results/Results_Dungeons_am_kyrian.md) - `DaM_SN_SC_MB_AM`
+- [Kyrian - Dungeons - HV-AS](results/Results_Dungeons_hv-as_kyrian.md) - `DaM_SN_AS_MB_HV`
+- [Kyrian - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_kyrian.md) - `DaM_SN_SC_MB_HV`
+- [Kyrian - Dungeons - STM](results/Results_Dungeons_stm_kyrian.md) - `DaM_SN_SC_MB_STM`
 
 ## Venthyr
 ### Acronyms
@@ -78,10 +78,10 @@ Renown level is capped at 22.
 - [Venthyr - Single - STM](results/Results_Single_stm_venthyr.md) - `FotM_ToF_AS_VT_STM`
 
 ### Dungeons
-- [Venthyr - Dungeons - AM](results/Results_Dungeons_am_venthyr.md) - `FotM_SN_SC_MB_AM`
-- [Venthyr - Dungeons - HV-AS](results/Results_Dungeons_hv-as_venthyr.md) - `FotM_SN_AS_MB_HV`
-- [Venthyr - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_venthyr.md) - `FotM_SN_SC_MB_HV`
-- [Venthyr - Dungeons - STM](results/Results_Dungeons_stm_venthyr.md) - `FotM_SN_SC_MB_STM`
+- [Venthyr - Dungeons - AM](results/Results_Dungeons_am_venthyr.md) - `DaM_SN_SC_MB_AM`
+- [Venthyr - Dungeons - HV-AS](results/Results_Dungeons_hv-as_venthyr.md) - `DaM_SN_AS_MB_HV`
+- [Venthyr - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_venthyr.md) - `DaM_SN_SC_MB_HV`
+- [Venthyr - Dungeons - STM](results/Results_Dungeons_stm_venthyr.md) - `DaM_SN_SC_MB_STM`
 
 ## Necrolord
 ### Acronyms
@@ -104,7 +104,7 @@ Renown level is capped at 22.
 - [Necrolord - Single - STM](results/Results_Single_stm_necrolord.md) - `FotM_ToF_AS_VT_STM`
 
 ### Dungeons
-- [Necrolord - Dungeons - AM](results/Results_Dungeons_am_necrolord.md) - `FotM_SN_SC_MB_AM`
-- [Necrolord - Dungeons - HV-AS](results/Results_Dungeons_hv-as_necrolord.md) - `FotM_SN_AS_MB_HV`
-- [Necrolord - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_necrolord.md) - `FotM_SN_SC_MB_HV`
-- [Necrolord - Dungeons - STM](results/Results_Dungeons_stm_necrolord.md) - `FotM_SN_SC_MB_STM`
+- [Necrolord - Dungeons - AM](results/Results_Dungeons_am_necrolord.md) - `DaM_SN_SC_MB_AM`
+- [Necrolord - Dungeons - HV-AS](results/Results_Dungeons_hv-as_necrolord.md) - `DaM_SN_AS_MB_HV`
+- [Necrolord - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_necrolord.md) - `DaM_SN_SC_MB_HV`
+- [Necrolord - Dungeons - STM](results/Results_Dungeons_stm_necrolord.md) - `DaM_SN_SC_MB_STM`

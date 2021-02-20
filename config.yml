@@ -248,13 +248,16 @@ sims:
     builds: true
     weights: false
     covenant:
-      lookup: false
-      files: false
+      lookup: true
+      files: true
     lookupType: spell
     steps:
       - DPS
     files:
-      - traits.simc
+      - necrolord.simc
+      - kyrian.simc
+      - night_fae.simc
+      - venthyr.simc
   soulbinds:
     description: "Sims the various paths for each given soulbind using Rank 7 conduits if selected. Base includes the Covenant ability for that Covenant."
     builds: true
