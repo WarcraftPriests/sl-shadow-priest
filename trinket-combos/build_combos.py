@@ -75,5 +75,5 @@ def generate_sim_file(input_string):
 
 if __name__ == '__main__':
     trinket_combos = build_combos()
-    simc_string = build_simc_string(trinket_combos)
-    generate_sim_file(simc_string)
+    SIMC_STRING = build_simc_string(trinket_combos)
+    generate_sim_file(SIMC_STRING)
