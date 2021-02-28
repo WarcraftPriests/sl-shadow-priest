@@ -1,6 +1,5 @@
 # Composite - am - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|uncap_blast_with_sfp|6668|0.02%|
-|Base|6667|0.00%|
-|uncap_blast_with_sfp_only_misery|6667|0.00%|
+|lt4_check_for_wrathful|6610|0.64%|
+|Base|6568|0.00%|

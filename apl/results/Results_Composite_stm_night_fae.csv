@@ -1,4 +1,3 @@
 profile,actor,DPS,increase,
-Composite,uncap_blast_with_sfp,6611,0.01%,
-Composite,Base,6610,0.00%,
-Composite,uncap_blast_with_sfp_only_misery,6610,-0.01%,
+Composite,lt4_check_for_wrathful,6553,0.75%,
+Composite,Base,6504,0.00%,

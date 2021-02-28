@@ -1,6 +1,5 @@
 # Single - hv-as - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|6530|0.00%|
-|uncap_blast_with_sfp_only_misery|6529|-0.02%|
-|uncap_blast_with_sfp|6528|-0.04%|
+|lt4_check_for_wrathful|6457|0.05%|
+|Base|6454|0.00%|

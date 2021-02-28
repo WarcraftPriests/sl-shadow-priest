@@ -1,6 +1,5 @@
 # Single - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|uncap_blast_with_sfp_only_misery|6196|0.01%|
-|Base|6195|0.00%|
-|uncap_blast_with_sfp|6195|0.00%|
+|lt4_check_for_wrathful|6107|0.01%|
+|Base|6106|0.00%|

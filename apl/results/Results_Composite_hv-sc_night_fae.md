@@ -1,6 +1,5 @@
 # Composite - hv-sc - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|uncap_blast_with_sfp_only_misery|7087|0.02%|
-|uncap_blast_with_sfp|7086|0.01%|
-|Base|7086|0.00%|
+|lt4_check_for_wrathful|7052|0.91%|
+|Base|6988|0.00%|

@@ -1,6 +1,5 @@
 # Dungeons - stm - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|uncap_blast_with_sfp|6916|0.55%|
-|Base|6878|0.00%|
-|uncap_blast_with_sfp_only_misery|6877|-0.01%|
+|lt4_check_for_wrathful|6689|0.04%|
+|Base|6686|0.00%|

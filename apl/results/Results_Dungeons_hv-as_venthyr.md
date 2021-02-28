@@ -1,6 +1,5 @@
 # Dungeons - hv-as - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|uncap_blast_with_sfp|6657|0.62%|
-|uncap_blast_with_sfp_only_misery|6617|0.02%|
-|Base|6616|0.00%|
+|lt4_check_for_wrathful|6395|0.05%|
+|Base|6392|0.00%|

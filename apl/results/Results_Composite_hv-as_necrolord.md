@@ -1,6 +1,5 @@
 # Composite - hv-as - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|uncap_blast_with_sfp|7050|0.00%|
-|Base|7050|0.00%|
-|uncap_blast_with_sfp_only_misery|7049|-0.02%|
+|lt4_check_for_wrathful|6952|0.36%|
+|Base|6927|0.00%|

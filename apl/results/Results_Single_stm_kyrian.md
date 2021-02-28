@@ -1,6 +1,5 @@
 # Single - stm - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|uncap_blast_with_sfp|6080|0.02%|
-|uncap_blast_with_sfp_only_misery|6079|0.01%|
-|Base|6079|0.00%|
+|lt4_check_for_wrathful|6095|0.03%|
+|Base|6093|0.00%|

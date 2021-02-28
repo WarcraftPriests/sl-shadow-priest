@@ -1,6 +1,5 @@
 # Composite - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|uncap_blast_with_sfp_only_misery|6641|0.01%|
-|uncap_blast_with_sfp|6641|0.01%|
-|Base|6640|0.00%|
+|lt4_check_for_wrathful|6509|0.64%|
+|Base|6467|0.00%|

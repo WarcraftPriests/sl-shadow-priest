@@ -138,7 +138,7 @@ actions.main+=/shadow_word_death
 # Use SW:P as last resort if on the move and SW:D is on CD
 actions.main+=/shadow_word_pain
 
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+head=confidants_favored_cap,id=183021,ilevel=226
 neck=charm_of_eternal_winter,id=183040,ilevel=226
 shoulder=shawl_of_the_penitent,id=183020,ilevel=233
 back=crest_of_the_legionnaire_general,id=183032,ilevel=233
@@ -154,7 +154,7 @@ trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
-priest="sfp_aoe_bender"
+priest="lt4_check_for_wrathful"
 level=60
 role=spell
 position=back
@@ -253,7 +253,7 @@ actions.main=call_action_list,name=boon,if=buff.boon_of_the_ascended.up
 # Use Void Eruption on cooldown pooling at least 40 insanity but not if you will overcap insanity in VF. Make sure shadowfiend/mindbender and Mind Blast is on cooldown before VE.
 actions.main+=/void_eruption,if=variable.pool_for_cds&insanity>=40&(insanity<=85|talent.searing_nightmare.enabled&variable.searing_nightmare_cutoff)&!cooldown.fiend.up&(!cooldown.mind_blast.up|spell_targets.mind_sear>2)
 # Make sure you put up SW:P ASAP on the target if Wrathful Faerie isn't active.
-actions.main+=/shadow_word_pain,if=buff.fae_guardians.up&!debuff.wrathful_faerie.up
+actions.main+=/shadow_word_pain,if=buff.fae_guardians.up&!debuff.wrathful_faerie.up&spell_targets.mind_sear<4
 actions.main+=/call_action_list,name=cds
 # High Priority Mind Sear action to refresh DoTs with Searing Nightmare
 actions.main+=/mind_sear,target_if=talent.searing_nightmare.enabled&spell_targets.mind_sear>variable.mind_sear_cutoff&!dot.shadow_word_pain.ticking&!cooldown.fiend.up
@@ -271,7 +271,7 @@ actions.main+=/shadow_word_death,target_if=(target.health.pct<20&spell_targets.m
 actions.main+=/surrender_to_madness,target_if=target.time_to_die<25&buff.voidform.down
 # Use Void Torrent only if SW:P and VT are active and the target won't die during the channel.
 actions.main+=/void_torrent,target_if=variable.dots_up&target.time_to_die>3&(buff.voidform.down|buff.voidform.remains<cooldown.void_bolt.remains)&active_dot.vampiric_touch==spell_targets.vampiric_touch&spell_targets.mind_sear<(5+(6*talent.twist_of_fate.enabled))
-actions.main+=/mindbender,if=dot.vampiric_touch.ticking&(talent.searing_nightmare.enabled&spell_targets.mind_sear>variable.mind_sear_cutoff|dot.shadow_word_pain.ticking)&(!runeforge.shadowflame_prism.equipped|active_dot.vampiric_touch==spell_targets.vampiric_touch)
+actions.main+=/mindbender,if=dot.vampiric_touch.ticking&(talent.searing_nightmare.enabled&spell_targets.mind_sear>variable.mind_sear_cutoff|dot.shadow_word_pain.ticking)
 # Use SW:D with Painbreaker Psalm unless the target will be below 20% before the cooldown comes back
 actions.main+=/shadow_word_death,if=runeforge.painbreaker_psalm.equipped&variable.dots_up&target.time_to_pct_20>(cooldown.shadow_word_death.duration+gcd)
 # Use Shadow Crash on CD unless there are adds incoming.
@@ -294,7 +294,7 @@ actions.main+=/shadow_word_death
 # Use SW:P as last resort if on the move and SW:D is on CD
 actions.main+=/shadow_word_pain
 
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+head=confidants_favored_cap,id=183021,ilevel=226
 neck=charm_of_eternal_winter,id=183040,ilevel=226
 shoulder=shawl_of_the_penitent,id=183020,ilevel=233
 back=crest_of_the_legionnaire_general,id=183032,ilevel=233
