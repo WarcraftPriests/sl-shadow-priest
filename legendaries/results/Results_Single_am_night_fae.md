@@ -1,17 +1,17 @@
 # Single - am - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Shadowflame_Prism_Conduit_7_Mindbender|6332|7.22%|
-|Talbadars_Stratagem|6316|6.95%|
-|Talbadars_Stratagem_Mind_Devourer_7|6291|6.53%|
-|Shadowflame_Prism_Mindbender|6279|6.33%|
-|Eternal_Call_to_the_Void|6218|5.29%|
-|Shadowflame_Prism|6115|3.55%|
-|Painbreaker_Psalm|6026|2.04%|
-|Judgment_of_the_Arbiter|6006|1.71%|
-|Echo_of_Eonar|6000|1.60%|
-|Shadowflame_Prism_Conduit_7|5992|1.46%|
-|Twins_of_the_Sun_Priestess_Conduit_7|5922|0.28%|
-|Base|5906|0.00%|
-|Sephuzs_Proclamation|5905|-0.01%|
-|Third_Eye_of_the_Jailer|5905|-0.02%|
+|Shadowflame_Prism_Conduit_7_Mindbender|6327|7.26%|
+|Shadowflame_Prism_Mindbender|6321|7.15%|
+|Talbadars_Stratagem|6312|7.00%|
+|Talbadars_Stratagem_Mind_Devourer_7|6287|6.57%|
+|Eternal_Call_to_the_Void|6211|5.29%|
+|Shadowflame_Prism|6105|3.49%|
+|Judgment_of_the_Arbiter|6000|1.72%|
+|Echo_of_Eonar|5991|1.55%|
+|Painbreaker_Psalm|5990|1.54%|
+|Shadowflame_Prism_Conduit_7|5978|1.33%|
+|Twins_of_the_Sun_Priestess_Conduit_7|5921|0.38%|
+|Third_Eye_of_the_Jailer|5899|0.00%|
+|Base|5899|0.00%|
+|Sephuzs_Proclamation|5898|-0.01%|

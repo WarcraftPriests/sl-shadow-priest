@@ -1,17 +1,17 @@
 # Composite - am - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Shadowflame_Prism_Conduit_7_Mindbender|6877|8.23%|
-|Shadowflame_Prism_Mindbender|6850|7.82%|
-|Talbadars_Stratagem|6755|6.32%|
-|Talbadars_Stratagem_Mind_Devourer_7|6728|5.89%|
-|Eternal_Call_to_the_Void|6636|4.45%|
-|Shadowflame_Prism|6605|3.96%|
-|Shadowflame_Prism_Conduit_7|6493|2.20%|
-|Echo_of_Eonar|6455|1.60%|
-|Judgment_of_the_Arbiter|6454|1.59%|
-|Painbreaker_Psalm|6422|1.08%|
-|Sephuzs_Proclamation|6376|0.35%|
-|Twins_of_the_Sun_Priestess_Conduit_7|6371|0.27%|
-|Base|6353|0.00%|
-|Third_Eye_of_the_Jailer|6352|-0.02%|
+|Shadowflame_Prism_Conduit_7_Mindbender|6873|8.57%|
+|Shadowflame_Prism_Mindbender|6855|8.28%|
+|Talbadars_Stratagem|6728|6.27%|
+|Talbadars_Stratagem_Mind_Devourer_7|6703|5.88%|
+|Eternal_Call_to_the_Void|6613|4.46%|
+|Shadowflame_Prism|6586|4.03%|
+|Shadowflame_Prism_Conduit_7|6469|2.19%|
+|Judgment_of_the_Arbiter|6432|1.61%|
+|Echo_of_Eonar|6431|1.59%|
+|Painbreaker_Psalm|6374|0.68%|
+|Twins_of_the_Sun_Priestess_Conduit_7|6355|0.38%|
+|Sephuzs_Proclamation|6354|0.36%|
+|Third_Eye_of_the_Jailer|6331|0.00%|
+|Base|6331|0.00%|
