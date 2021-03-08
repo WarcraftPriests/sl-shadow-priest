@@ -1,8 +1,8 @@
 # Composite - am - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Niya-GI-HA|5765|8.02%|
-|Dreamweaver-HA_DE|5689|6.60%|
-|Korayn-WHT-HA|5685|6.51%|
-|Dreamweaver-SB-HA|5609|5.09%|
-|Base|5337|0.00%|
+|Niya-GI-HA|5972|8.36%|
+|Dreamweaver-HA_DE|5882|6.72%|
+|Korayn-WHT-HA|5865|6.42%|
+|Dreamweaver-SB-HA|5794|5.13%|
+|Base|5512|0.00%|

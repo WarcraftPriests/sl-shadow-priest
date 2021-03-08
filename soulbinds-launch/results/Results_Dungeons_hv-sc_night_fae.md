@@ -1,7 +1,7 @@
 # Dungeons - hv-sc - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Dreamweaver-DE_HA|5213|4.41%|
-|Dreamweaver-SB-DE|5208|4.31%|
-|Niya-GI-DE|5150|3.14%|
-|Base|4993|0.00%|
+|Niya-GI-DE|5446|5.36%|
+|Dreamweaver-DE_HA|5407|4.60%|
+|Dreamweaver-SB-DE|5393|4.33%|
+|Base|5169|0.00%|

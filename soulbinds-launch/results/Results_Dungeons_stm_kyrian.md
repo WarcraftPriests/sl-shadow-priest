@@ -1,6 +1,6 @@
 # Dungeons - stm - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pelagos-CM-HA_DE|5404|7.03%|
-|Kleia-HA|5114|1.29%|
-|Base|5049|0.00%|
+|Pelagos-CM-HA_DE|5570|7.14%|
+|Kleia-HA|5264|1.25%|
+|Base|5199|0.00%|

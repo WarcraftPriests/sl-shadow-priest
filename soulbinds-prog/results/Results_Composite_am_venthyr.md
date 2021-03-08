@@ -1,7 +1,7 @@
 # Composite - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Theotar-SS-HA|5733|5.73%|
-|Nadjia-TS-HA|5717|5.45%|
-|Draven-HA|5595|3.19%|
-|Base|5422|0.00%|
+|Theotar-SS-HA|5889|5.88%|
+|Nadjia-TS-HA|5871|5.54%|
+|Draven-HA|5746|3.30%|
+|Base|5563|0.00%|
