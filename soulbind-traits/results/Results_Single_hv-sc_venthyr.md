@@ -1,11 +1,11 @@
 # Single - hv-sc - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Venthyr-Draven-Built_for_War|6018|3.76%|
-|Venthyr-Nadjia-Dauntless_Duelist|5976|3.03%|
-|Venthyr-Theotar-Soothing_Shade|5940|2.41%|
-|Venthyr-Nadjia-Thrill_Seeker|5920|2.06%|
-|Venthyr-Nadjia-Exacting_Preparation|5885|1.46%|
-|Venthyr-Theotar-Refined_Palate|5875|1.28%|
-|Venthyr-Theotar-Wasteland_Propriety|5873|1.25%|
-|Base|5800|0.00%|
+|Venthyr-Draven-Built_for_War|6017|3.71%|
+|Venthyr-Nadjia-Dauntless_Duelist|5976|3.01%|
+|Venthyr-Theotar-Soothing_Shade|5938|2.36%|
+|Venthyr-Nadjia-Thrill_Seeker|5918|2.01%|
+|Venthyr-Nadjia-Exacting_Preparation|5887|1.48%|
+|Venthyr-Theotar-Refined_Palate|5874|1.24%|
+|Venthyr-Theotar-Wasteland_Propriety|5872|1.22%|
+|Base|5801|0.00%|

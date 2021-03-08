@@ -1,11 +1,11 @@
 # Dungeons - hv-as - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Venthyr-Draven-Built_for_War|6161|3.79%|
-|Venthyr-Nadjia-Thrill_Seeker|6085|2.51%|
-|Venthyr-Theotar-Soothing_Shade|6063|2.14%|
-|Venthyr-Nadjia-Exacting_Preparation|6015|1.33%|
-|Venthyr-Theotar-Refined_Palate|6008|1.21%|
-|Venthyr-Theotar-Wasteland_Propriety|6000|1.08%|
-|Venthyr-Nadjia-Dauntless_Duelist|5940|0.07%|
-|Base|5936|0.00%|
+|Venthyr-Draven-Built_for_War|6160|3.79%|
+|Venthyr-Nadjia-Thrill_Seeker|6081|2.46%|
+|Venthyr-Theotar-Soothing_Shade|6060|2.11%|
+|Venthyr-Nadjia-Exacting_Preparation|6018|1.40%|
+|Venthyr-Theotar-Refined_Palate|6004|1.16%|
+|Venthyr-Theotar-Wasteland_Propriety|6003|1.15%|
+|Base|5935|0.00%|
+|Venthyr-Nadjia-Dauntless_Duelist|5935|0.00%|
