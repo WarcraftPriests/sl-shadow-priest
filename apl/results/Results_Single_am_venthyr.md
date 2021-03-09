@@ -1,5 +1,5 @@
 # Single - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6107|0.01%|
-|Base|6106|0.00%|
+|new_changes|6318|2.54%|
+|Base|6162|0.00%|

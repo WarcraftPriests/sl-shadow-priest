@@ -1,1 +1,1 @@
-{"name": "Dungeons - am - night_fae", "data": {"lt4_check_for_wrathful": {"DPS": 6654}, "Base": {"DPS": 6455}}, "ids": {"lt4_check_for_wrathful": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["lt4_check_for_wrathful"], "last_updated": "2021-02-27"}
+{"name": "Dungeons - am - night_fae", "data": {"new_changes": {"DPS": 6862}, "Base": {"DPS": 6787}}, "ids": {"new_changes": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new_changes"], "last_updated": "2021-03-09"}

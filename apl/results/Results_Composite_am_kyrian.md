@@ -1,5 +1,5 @@
 # Composite - am - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6610|0.64%|
-|Base|6568|0.00%|
+|new_changes|7022|0.75%|
+|Base|6970|0.00%|

@@ -1,5 +1,5 @@
 # Composite - stm - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6562|0.44%|
-|Base|6533|0.00%|
+|new_changes|6652|1.34%|
+|Base|6564|0.00%|

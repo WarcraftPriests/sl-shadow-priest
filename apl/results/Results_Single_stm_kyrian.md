@@ -1,5 +1,5 @@
 # Single - stm - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6095|0.03%|
-|Base|6093|0.00%|
+|new_changes|6255|1.12%|
+|Base|6186|0.00%|

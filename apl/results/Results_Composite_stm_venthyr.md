@@ -1,5 +1,5 @@
 # Composite - stm - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6443|0.71%|
-|Base|6397|0.00%|
+|new_changes|6811|1.34%|
+|Base|6721|0.00%|

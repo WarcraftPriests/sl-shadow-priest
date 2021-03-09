@@ -1,5 +1,5 @@
 # Composite - hv-sc - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6938|0.50%|
-|Base|6904|0.00%|
+|new_changes|7390|0.76%|
+|Base|7334|0.00%|

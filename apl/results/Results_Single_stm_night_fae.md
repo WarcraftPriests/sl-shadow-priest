@@ -1,5 +1,5 @@
 # Single - stm - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|6071|0.00%|
-|lt4_check_for_wrathful|6071|-0.01%|
+|new_changes|6083|2.46%|
+|Base|5937|0.00%|

@@ -1,1 +1,1 @@
-{"name": "Composite - hv-sc - night_fae", "data": {"lt4_check_for_wrathful": {"DPS": 7052}, "Base": {"DPS": 6988}}, "ids": {"lt4_check_for_wrathful": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["lt4_check_for_wrathful"], "last_updated": "2021-02-27"}
+{"name": "Composite - hv-sc - night_fae", "data": {"new_changes": {"DPS": 7118}, "Base": {"DPS": 6999}}, "ids": {"new_changes": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new_changes"], "last_updated": "2021-03-09"}

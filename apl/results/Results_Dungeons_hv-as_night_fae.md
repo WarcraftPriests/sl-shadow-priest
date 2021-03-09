@@ -1,5 +1,5 @@
 # Dungeons - hv-as - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6493|1.09%|
-|Base|6423|0.00%|
+|new_changes|6918|1.51%|
+|Base|6815|0.00%|

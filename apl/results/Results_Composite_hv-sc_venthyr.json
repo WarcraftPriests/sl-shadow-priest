@@ -1,1 +1,1 @@
-{"name": "Composite - hv-sc - venthyr", "data": {"lt4_check_for_wrathful": {"DPS": 6834}, "Base": {"DPS": 6797}}, "ids": {"lt4_check_for_wrathful": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["lt4_check_for_wrathful"], "last_updated": "2021-02-27"}
+{"name": "Composite - hv-sc - venthyr", "data": {"new_changes": {"DPS": 7237}, "Base": {"DPS": 7129}}, "ids": {"new_changes": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new_changes"], "last_updated": "2021-03-09"}

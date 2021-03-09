@@ -1,1 +1,1 @@
-{"name": "Dungeons - hv-as - kyrian", "data": {"lt4_check_for_wrathful": {"DPS": 6457}, "Base": {"DPS": 6456}}, "ids": {"lt4_check_for_wrathful": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["lt4_check_for_wrathful"], "last_updated": "2021-02-27"}
+{"name": "Dungeons - hv-as - kyrian", "data": {"new_changes": {"DPS": 6777}, "Base": {"DPS": 6745}}, "ids": {"new_changes": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new_changes"], "last_updated": "2021-03-09"}

@@ -1,5 +1,5 @@
 # Single - hv-sc - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|6500|0.00%|
-|lt4_check_for_wrathful|6498|-0.03%|
+|new_changes|6679|1.34%|
+|Base|6591|0.00%|

@@ -1,5 +1,5 @@
 # Dungeons - stm - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6606|0.05%|
-|Base|6603|0.00%|
+|new_changes|6814|0.61%|
+|Base|6773|0.00%|

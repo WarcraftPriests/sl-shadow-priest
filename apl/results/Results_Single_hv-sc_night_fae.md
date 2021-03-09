@@ -1,5 +1,5 @@
 # Single - hv-sc - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6530|0.00%|
-|Base|6530|0.00%|
+|new_changes|6457|2.77%|
+|Base|6283|0.00%|

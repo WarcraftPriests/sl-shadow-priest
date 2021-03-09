@@ -1,1 +1,1 @@
-{"name": "Dungeons - stm - venthyr", "data": {"Base": {"DPS": 6494}, "lt4_check_for_wrathful": {"DPS": 6484}}, "ids": {"lt4_check_for_wrathful": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["lt4_check_for_wrathful"], "last_updated": "2021-02-27"}
+{"name": "Dungeons - stm - venthyr", "data": {"new_changes": {"DPS": 6734}, "Base": {"DPS": 6696}}, "ids": {"new_changes": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new_changes"], "last_updated": "2021-03-09"}

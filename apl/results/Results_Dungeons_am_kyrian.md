@@ -1,5 +1,5 @@
 # Dungeons - am - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6653|0.15%|
-|Base|6643|0.00%|
+|new_changes|7018|0.43%|
+|Base|6988|0.00%|

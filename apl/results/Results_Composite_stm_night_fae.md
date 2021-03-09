@@ -1,5 +1,5 @@
 # Composite - stm - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6553|0.75%|
-|Base|6504|0.00%|
+|new_changes|6700|2.01%|
+|Base|6568|0.00%|

@@ -1,5 +1,5 @@
 # Single - hv-sc - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|6422|0.00%|
-|lt4_check_for_wrathful|6421|-0.01%|
+|new_changes|6411|2.99%|
+|Base|6225|0.00%|

@@ -1,5 +1,5 @@
 # Composite - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6509|0.64%|
-|Base|6467|0.00%|
+|new_changes|6908|1.45%|
+|Base|6809|0.00%|

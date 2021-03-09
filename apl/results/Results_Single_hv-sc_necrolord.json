@@ -1,1 +1,1 @@
-{"name": "Single - hv-sc - necrolord", "data": {"Base": {"DPS": 6422}, "lt4_check_for_wrathful": {"DPS": 6421}}, "ids": {"lt4_check_for_wrathful": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["lt4_check_for_wrathful"], "last_updated": "2021-02-27"}
+{"name": "Single - hv-sc - necrolord", "data": {"new_changes": {"DPS": 6411}, "Base": {"DPS": 6225}}, "ids": {"new_changes": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new_changes"], "last_updated": "2021-03-09"}

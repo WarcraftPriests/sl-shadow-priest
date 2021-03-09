@@ -1,1 +1,1 @@
-{"name": "Composite - stm - night_fae", "data": {"lt4_check_for_wrathful": {"DPS": 6553}, "Base": {"DPS": 6504}}, "ids": {"lt4_check_for_wrathful": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["lt4_check_for_wrathful"], "last_updated": "2021-02-27"}
+{"name": "Composite - stm - night_fae", "data": {"new_changes": {"DPS": 6700}, "Base": {"DPS": 6568}}, "ids": {"new_changes": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new_changes"], "last_updated": "2021-03-09"}

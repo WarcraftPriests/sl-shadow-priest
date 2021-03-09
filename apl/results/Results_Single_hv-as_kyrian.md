@@ -1,5 +1,5 @@
 # Single - hv-as - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6541|0.01%|
-|Base|6540|0.00%|
+|new_changes|6733|1.42%|
+|Base|6639|0.00%|

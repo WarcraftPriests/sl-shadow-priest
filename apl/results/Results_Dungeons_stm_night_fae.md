@@ -1,5 +1,5 @@
 # Dungeons - stm - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6625|3.27%|
-|Base|6415|0.00%|
+|new_changes|6949|0.72%|
+|Base|6899|0.00%|

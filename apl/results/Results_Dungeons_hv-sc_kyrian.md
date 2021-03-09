@@ -1,5 +1,5 @@
 # Dungeons - hv-sc - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|6713|0.00%|
-|lt4_check_for_wrathful|6712|-0.01%|
+|new_changes|7048|0.44%|
+|Base|7017|0.00%|

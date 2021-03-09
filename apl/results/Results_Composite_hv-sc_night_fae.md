@@ -1,5 +1,5 @@
 # Composite - hv-sc - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|7052|0.91%|
-|Base|6988|0.00%|
+|new_changes|7118|1.70%|
+|Base|6999|0.00%|

@@ -1,5 +1,5 @@
 # Single - am - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6192|0.02%|
-|Base|6191|0.00%|
+|new_changes|6170|2.53%|
+|Base|6018|0.00%|

@@ -1,5 +1,5 @@
 # Composite - hv-as - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|lt4_check_for_wrathful|6837|0.46%|
-|Base|6806|0.00%|
+|new_changes|7264|1.84%|
+|Base|7133|0.00%|
