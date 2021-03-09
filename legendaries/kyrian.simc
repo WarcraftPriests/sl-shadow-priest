@@ -29,9 +29,16 @@ main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revela
 # Shadowflame Prism
 profileset."Shadowflame_Prism"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
 
+profileset."Shadowflame_Prism_Mindbender"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Shadowflame_Prism_Mindbender"+=talents=${talents.mindbender}
+
 # Drop HA for RS
 profileset."Shadowflame_Prism_Conduit_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
 profileset."Shadowflame_Prism_Conduit_7"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/114:7
+
+profileset."Shadowflame_Prism_Conduit_7_Mindbender"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Shadowflame_Prism_Conduit_7_Mindbender"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/114:7
+profileset."Shadowflame_Prism_Conduit_7_Mindbender"+=talents=${talents.mindbender}
 
 # Painbreaker Psalm
 profileset."Painbreaker_Psalm"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6981

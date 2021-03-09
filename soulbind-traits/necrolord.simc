@@ -1,0 +1,70 @@
+priest="Base"
+level=60
+role=spell
+position=back
+spec=shadow
+talents=${talents}
+covenant=necrolord
+
+default_actions=1
+
+head=confidants_favored_cap,id=183021,ilevel=226
+neck=charm_of_eternal_winter,id=183040,ilevel=226
+shoulder=shawl_of_the_penitent,id=183020,ilevel=233
+back=crest_of_the_legionnaire_general,id=183032,ilevel=233
+chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
+wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect
+hands=impossibly_oversized_mitts,id=183022,ilevel=226
+waist=shadewarped_sash,id=183004,ilevel=226
+legs=purge_protocol_legwraps,id=180107,ilevel=226
+feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
+finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
+finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
+trinket1=dreadfire_vessel,id=184030,ilevel=233
+trinket2=cabalists_hymnal,id=184028,ilevel=233
+main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
+
+# Plague Deviser Marileth
+# Volatile Solvent - 
+# Plaguey's Preemptive Strike - 323090
+profileset."Necrolord-Marileth-Volatile_Solvent_Crit"+=soulbind=plague_deviser_marileth,323074
+profileset."Necrolord-Marileth-Volatile_Solvent_Crit"+=shadowlands.volatile_solvent_type=crit
+
+profileset."Necrolord-Marileth-Volatile_Solvent_Intellect"+=soulbind=plague_deviser_marileth,323074
+profileset."Necrolord-Marileth-Volatile_Solvent_Intellect"+=shadowlands.volatile_solvent_type=primary
+
+profileset."Necrolord-Marileth-Volatile_Solvent_Mastery"+=soulbind=plague_deviser_marileth,323074
+profileset."Necrolord-Marileth-Volatile_Solvent_Mastery"+=shadowlands.volatile_solvent_type=mastery
+
+profileset."Necrolord-Marileth-Volatile_Solvent_Magic"+=soulbind=plague_deviser_marileth,323074
+profileset."Necrolord-Marileth-Volatile_Solvent_Magic"+=shadowlands.volatile_solvent_type=magic
+
+profileset."Necrolord-Marileth-Plagueys_Preemptive_Strike"+=soulbind=plague_deviser_marileth,323090
+
+# Emeni
+# Lead by Example - 342156
+# shadowlands.lead_by_example_nearby default 2
+# Gnashing Chompers - 323919
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_0"+=soulbind=emeni,342156
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_0"+=shadowlands.lead_by_example_nearby=0
+
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_1"+=soulbind=emeni,342156
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_1"+=shadowlands.lead_by_example_nearby=1
+
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_2"+=soulbind=emeni,342156
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_2"+=shadowlands.lead_by_example_nearby=2
+
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_3"+=soulbind=emeni,342156
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_3"+=shadowlands.lead_by_example_nearby=3
+
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_4"+=soulbind=emeni,342156
+profileset."Necrolord-Emeni-Lead_by_Example_Allies_4"+=shadowlands.lead_by_example_nearby=4
+
+profileset."Necrolord-Emeni-Gnashing_Chompers"+=soulbind=emeni,323919
+
+# Bonesmith Heirmir
+# Serrated Spaulders - 326504
+# Heirmir's Arsenal: Marrowed Gemstone - 326572
+profileset."Necrolord-Bonesmith-Serrated_Spaulders"+=soulbind=bonesmith_heirmir,326504
+profileset."Necrolord-Bonesmith-Heirmirs_Arsenal_Marrowed_Gemstone"+=soulbind=bonesmith_heirmir,326572
+profileset."Necrolord-Bonesmith-Forgeborne_Reveries"+=soulbind=bonesmith_heirmir,326514

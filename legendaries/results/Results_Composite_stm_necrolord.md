@@ -1,15 +1,17 @@
 # Composite - stm - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Talbadars_Stratagem|6666|5.66%|
-|Talbadars_Stratagem_Mind_Devourer_7|6661|5.57%|
-|Eternal_Call_to_the_Void|6589|4.44%|
-|Shadowflame_Prism|6429|1.90%|
-|Echo_of_Eonar|6411|1.62%|
-|Judgment_of_the_Arbiter|6409|1.58%|
-|Painbreaker_Psalm|6356|0.75%|
-|Shadowflame_Prism_Conduit_7|6345|0.57%|
-|Sephuzs_Proclamation|6334|0.39%|
-|Twins_of_the_Sun_Priestess_Conduit_7|6320|0.17%|
-|Third_Eye_of_the_Jailer|6310|0.01%|
-|Base|6309|0.00%|
+|Shadowflame_Prism_Conduit_7_Mindbender|6876|7.39%|
+|Shadowflame_Prism_Mindbender|6842|6.87%|
+|Talbadars_Stratagem|6784|5.95%|
+|Talbadars_Stratagem_Mind_Devourer_7|6774|5.80%|
+|Eternal_Call_to_the_Void|6678|4.31%|
+|Shadowflame_Prism|6668|4.14%|
+|Shadowflame_Prism_Conduit_7|6568|2.59%|
+|Echo_of_Eonar|6505|1.60%|
+|Judgment_of_the_Arbiter|6499|1.51%|
+|Painbreaker_Psalm|6466|0.99%|
+|Sephuzs_Proclamation|6426|0.36%|
+|Twins_of_the_Sun_Priestess_Conduit_7|6415|0.20%|
+|Base|6403|0.00%|
+|Third_Eye_of_the_Jailer|6402|-0.01%|

@@ -2,6 +2,9 @@
 
 By default these sims are ran with the top 2 conduits for each covenant. These conduits are stored in the config file and change based on talent setup.
 
+Note about Mindbender actor:
+- Each sim includes a sim with Shadowflame Prism with the default talent, and one with Mindbender. When the default talent already uses Mindbender (i.e. DungeonSlice) this will just be the same sim twice, within margin of error.
+
 This sim includes all legendaries that can be used as a dps increase, and also adds two special conduit changing sims:
 - Shadowflame Prism + Rabid Shadows (drops the 2nd best conduit) - `Shadowflame_Prism_Conduit_7` denotes rank 7 of the conduit
 - Twins of the Sun Priestess + Power Unto Others (just adds this conduit) - `Twins_of_the_Sun_Priestess_Conduit_7` denotes rank 7 of the conduit
@@ -20,10 +23,10 @@ This sim includes all legendaries that can be used as a dps increase, and also a
 - [Night Fae - Single - STM](results/Results_Single_stm_night_fae.md) - `FotM_ToF_AS_VT_STM`
 
 ### Dungeons
-- [Night Fae - Dungeons - AM](results/Results_Dungeons_am_night_fae.md) - `FotM_SN_SC_MB_AM`
-- [Night Fae - Dungeons - HV-AS](results/Results_Dungeons_hv-as_night_fae.md) - `FotM_SN_AS_MB_HV`
-- [Night Fae - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_night_fae.md) - `FotM_SN_SC_MB_HV`
-- [Night Fae - Dungeons - STM](results/Results_Dungeons_stm_night_fae.md) - `FotM_SN_SC_MB_STM`
+- [Night Fae - Dungeons - AM](results/Results_Dungeons_am_night_fae.md) - `DaM_SN_SC_MB_AM`
+- [Night Fae - Dungeons - HV-AS](results/Results_Dungeons_hv-as_night_fae.md) - `DaM_SN_AS_MB_HV`
+- [Night Fae - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_night_fae.md) - `DaM_SN_SC_MB_HV`
+- [Night Fae - Dungeons - STM](results/Results_Dungeons_stm_night_fae.md) - `DaMSN_SC_MB_STM`
 
 ## Kyrian
 ### Raids
@@ -39,10 +42,10 @@ This sim includes all legendaries that can be used as a dps increase, and also a
 - [Kyrian - Single - STM](results/Results_Single_stm_kyrian.md) - `FotM_ToF_AS_VT_STM`
 
 ### Dungeons
-- [Kyrian - Dungeons - AM](results/Results_Dungeons_am_kyrian.md) - `FotM_SN_SC_MB_AM`
-- [Kyrian - Dungeons - HV-AS](results/Results_Dungeons_hv-as_kyrian.md) - `FotM_SN_AS_MB_HV`
-- [Kyrian - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_kyrian.md) - `FotM_SN_SC_MB_HV`
-- [Kyrian - Dungeons - STM](results/Results_Dungeons_stm_kyrian.md) - `FotM_SN_SC_MB_STM`
+- [Kyrian - Dungeons - AM](results/Results_Dungeons_am_kyrian.md) - `DaM_SN_SC_MB_AM`
+- [Kyrian - Dungeons - HV-AS](results/Results_Dungeons_hv-as_kyrian.md) - `DaM_SN_AS_MB_HV`
+- [Kyrian - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_kyrian.md) - `DaM_SN_SC_MB_HV`
+- [Kyrian - Dungeons - STM](results/Results_Dungeons_stm_kyrian.md) - `DaM_SN_SC_MB_STM`
 
 ## Venthyr
 ### Raids
@@ -58,10 +61,10 @@ This sim includes all legendaries that can be used as a dps increase, and also a
 - [Venthyr - Single - STM](results/Results_Single_stm_venthyr.md) - `FotM_ToF_AS_VT_STM`
 
 ### Dungeons
-- [Venthyr - Dungeons - AM](results/Results_Dungeons_am_venthyr.md) - `FotM_SN_SC_MB_AM`
-- [Venthyr - Dungeons - HV-AS](results/Results_Dungeons_hv-as_venthyr.md) - `FotM_SN_AS_MB_HV`
-- [Venthyr - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_venthyr.md) - `FotM_SN_SC_MB_HV`
-- [Venthyr - Dungeons - STM](results/Results_Dungeons_stm_venthyr.md) - `FotM_SN_SC_MB_STM`
+- [Venthyr - Dungeons - AM](results/Results_Dungeons_am_venthyr.md) - `DaM_SN_SC_MB_AM`
+- [Venthyr - Dungeons - HV-AS](results/Results_Dungeons_hv-as_venthyr.md) - `DaM_SN_AS_MB_HV`
+- [Venthyr - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_venthyr.md) - `DaM_SN_SC_MB_HV`
+- [Venthyr - Dungeons - STM](results/Results_Dungeons_stm_venthyr.md) - `DaM_SN_SC_MB_STM`
 
 ## Necrolord
 ### Raids
@@ -77,7 +80,7 @@ This sim includes all legendaries that can be used as a dps increase, and also a
 - [Necrolord - Single - STM](results/Results_Single_stm_necrolord.md) - `FotM_ToF_AS_VT_STM`
 
 ### Dungeons
-- [Necrolord - Dungeons - AM](results/Results_Dungeons_am_necrolord.md) - `FotM_SN_SC_MB_AM`
-- [Necrolord - Dungeons - HV-AS](results/Results_Dungeons_hv-as_necrolord.md) - `FotM_SN_AS_MB_HV`
-- [Necrolord - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_necrolord.md) - `FotM_SN_SC_MB_HV`
-- [Necrolord - Dungeons - STM](results/Results_Dungeons_stm_necrolord.md) - `FotM_SN_SC_MB_STM`
+- [Necrolord - Dungeons - AM](results/Results_Dungeons_am_necrolord.md) - `DaM_SN_SC_MB_AM`
+- [Necrolord - Dungeons - HV-AS](results/Results_Dungeons_hv-as_necrolord.md) - `DaM_SN_AS_MB_HV`
+- [Necrolord - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_necrolord.md) - `DaM_SN_SC_MB_HV`
+- [Necrolord - Dungeons - STM](results/Results_Dungeons_stm_necrolord.md) - `DaM_SN_SC_MB_STM`

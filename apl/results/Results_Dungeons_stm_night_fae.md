@@ -1,7 +1,5 @@
 # Dungeons - stm - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|6544|0.00%|
-|delay_pi_for_fae_guardians_with_niya|6539|-0.08%|
-|void_torrent_end_of_voidform|6539|-0.08%|
-|delay_pi_for_fae_guardians_with_niya-and-void_torrent_end_of_vf|6538|-0.09%|
+|new_changes|6949|0.72%|
+|Base|6899|0.00%|
