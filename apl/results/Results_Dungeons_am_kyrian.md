@@ -1,5 +1,5 @@
 # Dungeons - am - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new_changes|7018|0.43%|
-|Base|6988|0.00%|
+|new_changes|7040|0.93%|
+|Base|6975|0.00%|

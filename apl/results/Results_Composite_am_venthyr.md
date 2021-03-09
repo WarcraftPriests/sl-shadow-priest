@@ -1,5 +1,5 @@
 # Composite - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new_changes|6908|1.45%|
-|Base|6809|0.00%|
+|new_changes|6937|1.85%|
+|Base|6811|0.00%|

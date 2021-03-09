@@ -1,5 +1,5 @@
 # Composite - hv-as - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new_changes|7145|2.01%|
-|Base|7004|0.00%|
+|new_changes|7172|2.38%|
+|Base|7006|0.00%|

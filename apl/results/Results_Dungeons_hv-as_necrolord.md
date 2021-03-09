@@ -1,5 +1,5 @@
 # Dungeons - hv-as - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new_changes|6775|1.19%|
-|Base|6695|0.00%|
+|new_changes|6800|1.49%|
+|Base|6700|0.00%|

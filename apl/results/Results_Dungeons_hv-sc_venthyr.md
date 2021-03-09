@@ -1,5 +1,5 @@
 # Dungeons - hv-sc - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new_changes|6899|1.10%|
-|Base|6824|0.00%|
+|new_changes|6912|1.22%|
+|Base|6829|0.00%|

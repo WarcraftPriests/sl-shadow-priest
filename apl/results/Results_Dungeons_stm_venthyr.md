@@ -1,5 +1,5 @@
 # Dungeons - stm - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new_changes|6734|0.57%|
-|Base|6696|0.00%|
+|new_changes|6780|1.30%|
+|Base|6693|0.00%|

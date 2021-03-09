@@ -1,5 +1,5 @@
 # Dungeons - am - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new_changes|6862|1.11%|
-|Base|6787|0.00%|
+|new_changes|6884|1.35%|
+|Base|6792|0.00%|

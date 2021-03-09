@@ -1,5 +1,5 @@
 # Dungeons - stm - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new_changes|6949|0.72%|
-|Base|6899|0.00%|
+|new_changes|7004|1.48%|
+|Base|6902|0.00%|

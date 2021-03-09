@@ -1,5 +1,5 @@
 # Dungeons - am - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new_changes|6768|1.05%|
-|Base|6698|0.00%|
+|new_changes|6804|1.51%|
+|Base|6703|0.00%|

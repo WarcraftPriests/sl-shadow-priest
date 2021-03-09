@@ -1,5 +1,5 @@
 # Single - hv-as - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new_changes|6616|2.99%|
-|Base|6424|0.00%|
+|new_changes|6639|3.38%|
+|Base|6422|0.00%|
