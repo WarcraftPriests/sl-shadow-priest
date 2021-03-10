@@ -1,17 +1,17 @@
 # Composite - hv-sc - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Shadowflame_Prism_Mindbender|7154|6.76%|
-|Shadowflame_Prism_Conduit_7_Mindbender|7127|6.36%|
-|Talbadars_Stratagem|7045|5.13%|
-|Talbadars_Stratagem_Mind_Devourer_7|6996|4.40%|
-|Eternal_Call_to_the_Void|6945|3.64%|
-|Shadowflame_Prism|6876|2.62%|
-|Echo_of_Eonar|6807|1.59%|
-|Judgment_of_the_Arbiter|6801|1.50%|
-|Shadowflame_Prism_Conduit_7|6758|0.85%|
-|Painbreaker_Psalm|6754|0.79%|
-|Twins_of_the_Sun_Priestess_Conduit_7|6739|0.56%|
-|Sephuzs_Proclamation|6721|0.30%|
-|Third_Eye_of_the_Jailer|6701|0.01%|
-|Base|6701|0.00%|
+|Shadowflame_Prism_Mindbender|7207|7.56%|
+|Shadowflame_Prism_Conduit_7_Mindbender|7185|7.23%|
+|Talbadars_Stratagem|7042|5.10%|
+|Talbadars_Stratagem_Mind_Devourer_7|6996|4.41%|
+|Eternal_Call_to_the_Void|6945|3.66%|
+|Shadowflame_Prism|6931|3.44%|
+|Shadowflame_Prism_Conduit_7|6816|1.72%|
+|Echo_of_Eonar|6807|1.60%|
+|Judgment_of_the_Arbiter|6802|1.52%|
+|Painbreaker_Psalm|6753|0.79%|
+|Twins_of_the_Sun_Priestess_Conduit_7|6738|0.56%|
+|Sephuzs_Proclamation|6721|0.31%|
+|Base|6700|0.00%|
+|Third_Eye_of_the_Jailer|6700|0.00%|

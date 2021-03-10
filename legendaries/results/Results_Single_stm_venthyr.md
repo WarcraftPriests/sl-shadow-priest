@@ -1,17 +1,17 @@
 # Single - stm - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Talbadars_Stratagem|6234|6.59%|
-|Talbadars_Stratagem_Mind_Devourer_7|6231|6.54%|
-|Shadowflame_Prism_Conduit_7_Mindbender|6195|5.93%|
-|Shadowflame_Prism_Mindbender|6161|5.34%|
-|Eternal_Call_to_the_Void|6155|5.24%|
-|Shadowflame_Prism|6049|3.43%|
-|Painbreaker_Psalm|5986|2.35%|
-|Shadowflame_Prism_Conduit_7|5956|1.83%|
-|Judgment_of_the_Arbiter|5947|1.68%|
-|Echo_of_Eonar|5940|1.57%|
-|Twins_of_the_Sun_Priestess_Conduit_7|5875|0.44%|
-|Sephuzs_Proclamation|5849|0.01%|
-|Base|5849|0.00%|
-|Third_Eye_of_the_Jailer|5846|-0.04%|
+|Talbadars_Stratagem|6244|6.57%|
+|Talbadars_Stratagem_Mind_Devourer_7|6240|6.51%|
+|Shadowflame_Prism_Conduit_7_Mindbender|6232|6.37%|
+|Shadowflame_Prism_Mindbender|6215|6.08%|
+|Eternal_Call_to_the_Void|6164|5.20%|
+|Shadowflame_Prism|6076|3.70%|
+|Shadowflame_Prism_Conduit_7|5999|2.39%|
+|Painbreaker_Psalm|5998|2.36%|
+|Judgment_of_the_Arbiter|5958|1.68%|
+|Echo_of_Eonar|5952|1.59%|
+|Twins_of_the_Sun_Priestess_Conduit_7|5880|0.35%|
+|Sephuzs_Proclamation|5860|0.02%|
+|Third_Eye_of_the_Jailer|5860|0.01%|
+|Base|5859|0.00%|
