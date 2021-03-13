@@ -1,1 +1,1 @@
-{"name": "Composite - am - venthyr", "data": {"new_changes": {"DPS": 6937}, "Base": {"DPS": 6811}}, "ids": {"new_changes": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["new_changes"], "last_updated": "2021-03-09"}
+{"name": "Composite - am - venthyr", "data": {"remains_3": {"DPS": 7094}, "remains_4": {"DPS": 7090}, "Base": {"DPS": 7013}}, "ids": {"remains_3": null, "remains_4": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["remains_3", "remains_4"], "last_updated": "2021-03-09"}

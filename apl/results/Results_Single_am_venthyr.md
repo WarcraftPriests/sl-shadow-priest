@@ -1,5 +1,6 @@
 # Single - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new_changes|6330|2.69%|
-|Base|6164|0.00%|
+|remains_3|6523|2.57%|
+|remains_4|6519|2.51%|
+|Base|6360|0.00%|

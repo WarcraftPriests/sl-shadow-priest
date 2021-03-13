@@ -1,5 +1,7 @@
 # Single - am - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new_changes|6226|2.46%|
-|Base|6077|0.00%|
+|turn_off_ascended_nova_with_sfp|6620|3.18%|
+|remains_3|6613|3.07%|
+|remains_4|6609|3.00%|
+|Base|6416|0.00%|

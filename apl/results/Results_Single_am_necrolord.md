@@ -1,5 +1,6 @@
 # Single - am - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|new_changes|6181|2.71%|
-|Base|6018|0.00%|
+|remains_3|6569|2.08%|
+|remains_4|6566|2.04%|
+|Base|6435|0.00%|
