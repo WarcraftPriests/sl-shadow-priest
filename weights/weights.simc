@@ -23,24 +23,48 @@ trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
-copy="Venthyr","Base"
+copy="Venthyr_Talbadars_Stratagem","Base"
 covenant=venthyr
 soulbind=nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7162
 
-copy="Kyrian","Base"
+copy="Venthyr_Shadowflame_Prism_Mindbender","Base"
+covenant=venthyr
+soulbind=nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586
+talents=${talents.mindbender}
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+
+copy="Kyrian_Talbadars_Stratagem","Base"
 covenant=kyrian
 soulbind=pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328257/328266
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7162
 
-copy="Night_Fae","Base"
+copy="Kyrian_Shadowflame_Prism_Mindbender","Base"
+covenant=kyrian
+soulbind=pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328257/328266
+talents=${talents.mindbender}
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+
+copy="Night_Fae_Talbadars_Stratagem","Base"
 covenant=night_fae
 soulbind=dreamweaver,${conduits.first.id}:7/${conduits.second.id}:7/319191
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7162
 
-copy="Necrolord","Base"
+copy="Night_Fae_Shadowflame_Prism_Mindbender","Base"
+covenant=night_fae
+soulbind=dreamweaver,${conduits.first.id}:7/${conduits.second.id}:7/319191
+talents=${talents.mindbender}
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+
+copy="Necrolord_Talbadars_Stratagem","Base"
 covenant=necrolord
 soulbind=emeni,${conduits.first.id}:7/${conduits.second.id}:7/342156
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7162
+
+copy="Necrolord_Shadowflame_Prism_Mindbender","Base"
+covenant=necrolord
+soulbind=emeni,${conduits.first.id}:7/${conduits.second.id}:7/342156
+talents=${talents.mindbender}
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
 
 single_actor_batch=1
