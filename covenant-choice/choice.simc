@@ -15,162 +15,162 @@ chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
 wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect
 hands=impossibly_oversized_mitts,id=183022,ilevel=226
 waist=shadewarped_sash,id=183004,ilevel=226
-legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
+legs=purge_protocol_legwraps,id=180107,ilevel=226
 feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
 finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
 finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
-trinket1=macabre_sheet_music,id=184024,ilevel=226
+trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=cabalists_hymnal,id=184028,ilevel=233
-main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation
+main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
 # Kyrian
 profileset."Kyrian_1"+=covenant=kyrian
-profileset."Kyrian_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Kyrian_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Kyrian_1"+=soulbind=pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328266
 
 profileset."Kyrian_2"+=covenant=kyrian
-profileset."Kyrian_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Kyrian_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Kyrian_2"+=soulbind=kleia,${conduits.first.id}:7/${conduits.second.id}:7
 
 profileset."Kyrian_3"+=covenant=kyrian
-profileset."Kyrian_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Kyrian_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Kyrian_3"+=soulbind=kleia,${conduits.first.id}:7/329778
 
 profileset."Kyrian_4"+=covenant=kyrian
-profileset."Kyrian_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Kyrian_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Kyrian_4"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:7/${conduits.second.id}:7/333950
 
 profileset."Kyrian_5"+=covenant=kyrian
-profileset."Kyrian_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Kyrian_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Kyrian_5"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:7/333950/333935
 
 # Necrolord
 profileset."Necrolord_1"+=covenant=necrolord
-profileset."Necrolord_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_1"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
 profileset."Necrolord_1"+=shadowlands.volatile_solvent_type=crit
 
 profileset."Necrolord_2"+=covenant=necrolord
-profileset."Necrolord_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_2"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
 profileset."Necrolord_2"+=shadowlands.volatile_solvent_type=mastery
 
 profileset."Necrolord_3"+=covenant=necrolord
-profileset."Necrolord_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_3"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
 profileset."Necrolord_3"+=shadowlands.volatile_solvent_type=primary
 
 profileset."Necrolord_4"+=covenant=necrolord
-profileset."Necrolord_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_4"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
 profileset."Necrolord_4"+=shadowlands.volatile_solvent_primary=magic
 
 profileset."Necrolord_5"+=covenant=necrolord
-profileset."Necrolord_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_5"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7
 
 profileset."Necrolord_6"+=covenant=necrolord
-profileset."Necrolord_6"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_6"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_6"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
 profileset."Necrolord_6"+=shadowlands.volatile_solvent_type=crit
 
 profileset."Necrolord_7"+=covenant=necrolord
-profileset."Necrolord_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_7"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
 profileset."Necrolord_7"+=shadowlands.volatile_solvent_type=mastery
 
 profileset."Necrolord_8"+=covenant=necrolord
-profileset."Necrolord_8"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_8"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_8"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
 profileset."Necrolord_8"+=shadowlands.volatile_solvent_type=primary
 
 profileset."Necrolord_9"+=covenant=necrolord
-profileset."Necrolord_9"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_9"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_9"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
 profileset."Necrolord_9"+=shadowlands.volatile_solvent_type=magic
 
 profileset."Necrolord_10"+=covenant=necrolord
-profileset."Necrolord_10"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_10"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_10"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323090
 
 profileset."Necrolord_11"+=covenant=necrolord
-profileset."Necrolord_11"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_11"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_11"+=soulbind=emeni,${conduits.first.id}:7/${conduits.second.id}:7/342156
 
 profileset."Necrolord_12"+=covenant=necrolord
-profileset."Necrolord_12"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_12"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_12"+=soulbind=emeni,${conduits.first.id}:7/342156/323919
 
 profileset."Necrolord_13"+=covenant=necrolord
-profileset."Necrolord_13"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_13"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_13"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/${conduits.second.id}:7/326514
 
 profileset."Necrolord_14"+=covenant=necrolord
-profileset."Necrolord_14"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_14"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_14"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/326504/326514
 
 profileset."Necrolord_15"+=covenant=necrolord
-profileset."Necrolord_15"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_15"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_15"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/326572/326514
 
 profileset."Necrolord_16"+=covenant=necrolord
-profileset."Necrolord_16"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Necrolord_16"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Necrolord_16"+=soulbind=bonesmith_heirmir,326504/326572/326514
 
 # Night Fae
 profileset."Night_Fae_1"+=covenant=night_fae
-profileset."Night_Fae_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Night_Fae_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Night_Fae_1"+=soulbind=niya,${conduits.first.id}:7/${conduits.second.id}:7/322721/320660
 
 profileset."Night_Fae_2"+=covenant=night_fae
-profileset."Night_Fae_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Night_Fae_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Night_Fae_2"+=soulbind=niya,${conduits.first.id}:7/322721/320659
 
 profileset."Night_Fae_3"+=covenant=night_fae
-profileset."Night_Fae_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Night_Fae_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Night_Fae_3"+=soulbind=dreamweaver,${conduits.first.id}:7/${conduits.second.id}:7/319191
 
 profileset."Night_Fae_4"+=covenant=night_fae
-profileset."Night_Fae_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Night_Fae_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Night_Fae_4"+=soulbind=dreamweaver,${conduits.first.id}:7/319191/319210
 
 profileset."Night_Fae_5"+=covenant=night_fae
-profileset."Night_Fae_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Night_Fae_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Night_Fae_5"+=soulbind=korayn,${conduits.first.id}:7/${conduits.second.id}:7/325066
 
 profileset."Night_Fae_6"+=covenant=night_fae
-profileset."Night_Fae_6"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Night_Fae_6"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Night_Fae_6"+=soulbind=korayn,${conduits.first.id}:7/325066/325069
 
 # Venthyr
 profileset."Venthyr_1"+=covenant=venthyr
-profileset."Venthyr_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Venthyr_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Venthyr_1"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586
 
 profileset."Venthyr_2"+=covenant=venthyr
-profileset."Venthyr_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Venthyr_2"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Venthyr_2"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:7/331586/331580
 
 profileset."Venthyr_3"+=covenant=venthyr
-profileset."Venthyr_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Venthyr_3"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Venthyr_3"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:7/331586/331584
 
 profileset."Venthyr_4"+=covenant=venthyr
-profileset."Venthyr_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Venthyr_4"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Venthyr_4"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/336239
 
 profileset."Venthyr_5"+=covenant=venthyr
-profileset."Venthyr_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Venthyr_5"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Venthyr_5"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/319983/336239
 
 profileset."Venthyr_6"+=covenant=venthyr
-profileset."Venthyr_6"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Venthyr_6"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Venthyr_6"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/336239/336243
 
 profileset."Venthyr_7"+=covenant=venthyr
-profileset."Venthyr_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Venthyr_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Venthyr_7"+=soulbind=general_draven,${conduits.first.id}:7/${conduits.second.id}:7
 
 profileset."Venthyr_8"+=covenant=venthyr
-profileset."Venthyr_8"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Venthyr_8"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 profileset."Venthyr_8"+=soulbind=general_draven,${conduits.first.id}:7/319973

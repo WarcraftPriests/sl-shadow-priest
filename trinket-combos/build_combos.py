@@ -4,6 +4,7 @@ python build_combos.py
 """
 
 from itertools import combinations
+# pylint: disable=line-too-long
 
 combos = {
     "Soul_Igniter_213": "soul_igniter,id=184019,ilevel=213",
@@ -29,7 +30,8 @@ combos = {
     "Inscrutable_Quantum_Device_210": "inscrutable_quantum_device,id=179350,ilevel=210",
     "Inscrutable_Quantum_Device_226": "inscrutable_quantum_device,id=179350,ilevel=226",
     "Soulletting_Ruby_226": "soulletting_ruby,id=178809,ilevel=226",
-    "Soulletting_Ruby_210": "soulletting_ruby,id=178809,ilevel=210"
+    "Soulletting_Ruby_210": "soulletting_ruby,id=178809,ilevel=210",
+    "Sinful_Gladiators_Insignia_of_Alacrity_226": "sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226"
 }
 
 
@@ -39,7 +41,7 @@ def build_combos():
     unique_trinkets = []
     for pair in trinkets:
         # check if name matches, trinkets are unique
-        if pair[0][:-3] != pair[1][:-3]:
+        if pair[0][:-5] != pair[1][:-5]:
             unique_trinkets.append(pair)
     print("Generated {0} combinations.".format(len(unique_trinkets)))
     return unique_trinkets
@@ -73,5 +75,5 @@ def generate_sim_file(input_string):
 
 if __name__ == '__main__':
     trinket_combos = build_combos()
-    simc_string = build_simc_string(trinket_combos)
-    generate_sim_file(simc_string)
+    SIMC_STRING = build_simc_string(trinket_combos)
+    generate_sim_file(SIMC_STRING)

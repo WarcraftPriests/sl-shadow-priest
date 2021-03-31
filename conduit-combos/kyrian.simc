@@ -16,13 +16,13 @@ chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
 wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect
 hands=impossibly_oversized_mitts,id=183022,ilevel=226
 waist=shadewarped_sash,id=183004,ilevel=226
-legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
+legs=purge_protocol_legwraps,id=180107,ilevel=226
 feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
 finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
 finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
-trinket1=macabre_sheet_music,id=184024,ilevel=226
+trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=cabalists_hymnal,id=184028,ilevel=233
-main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation
+main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
 # 2 Conduit Combinations
 profileset."HA_DE_2"+=soulbind=theotar_the_mad_duke,107:7/115:7

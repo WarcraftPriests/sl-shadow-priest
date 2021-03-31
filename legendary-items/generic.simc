@@ -17,75 +17,128 @@ chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
 wrists=deathshackle_wristwraps,id=178704,ilevel=226,enchant=eternal_intellect
 hands=tricksprite_gloves,id=178705,ilevel=226
 waist=shadewarped_sash,id=183004,ilevel=226
-legs=muehzalas_hexthread_sarong,id=179351,ilevel=226
+legs=purge_protocol_legwraps,id=180107,ilevel=226
 feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
 finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
 finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
-trinket1=macabre_sheet_music,id=184024,ilevel=226
+trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=cabalists_hymnal,id=184028,ilevel=233
-main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation
+main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
 # 190 base
 # ilevels: 190, 210, 225, 235
 
 # Stats
 # 6647 - crit
+# 6648 - mastery
 # 6649 - haste
 
 # Generic Legendaries
 # Judgment of the Arbiter - Wrist,Hands,Finger - 7101
-profileset."Judgment_of_the_Arbiter_Hands_190"+=hands=,id=173244,ilevel=190,bonus_id=7101/6647/6649
-profileset."Judgment_of_the_Arbiter_Hands_210"+=hands=,id=173244,ilevel=210,bonus_id=7101/6647/6649
-profileset."Judgment_of_the_Arbiter_Hands_225"+=hands=,id=173244,ilevel=225,bonus_id=7101/6647/6649
-profileset."Judgment_of_the_Arbiter_Hands_235"+=hands=,id=173244,ilevel=235,bonus_id=7101/6647/6649
-profileset."Judgment_of_the_Arbiter_Wrists_190"+=wrists=,id=173249,ilevel=190,bonus_id=7101/6647/6649,enchant=eternal_intellect
-profileset."Judgment_of_the_Arbiter_Wrists_210"+=wrists=,id=173249,ilevel=210,bonus_id=7101/6647/6649,enchant=eternal_intellect
-profileset."Judgment_of_the_Arbiter_Wrists_225"+=wrists=,id=173249,ilevel=225,bonus_id=7101/6647/6649,enchant=eternal_intellect
-profileset."Judgment_of_the_Arbiter_Wrists_235"+=wrists=,id=173249,ilevel=235,bonus_id=7101/6647/6649,enchant=eternal_intellect
-profileset."Judgment_of_the_Arbiter_Finger_190"+=finger1=,id=178926,ilevel=190,bonus_id=7101/6647/6649,enchant=tenet_of_haste
-profileset."Judgment_of_the_Arbiter_Finger_210"+=finger1=,id=178926,ilevel=210,bonus_id=7101/6647/6649,enchant=tenet_of_haste
-profileset."Judgment_of_the_Arbiter_Finger_225"+=finger1=,id=178926,ilevel=225,bonus_id=7101/6647/6649,enchant=tenet_of_haste
-profileset."Judgment_of_the_Arbiter_Finger_235"+=finger1=,id=178926,ilevel=235,bonus_id=7101/6647/6649,enchant=tenet_of_haste
+profileset."Judgment_of_the_Arbiter_Hands_HC_190"+=hands=,id=173244,ilevel=190,bonus_id=7101/6647/6649
+profileset."Judgment_of_the_Arbiter_Hands_HC_210"+=hands=,id=173244,ilevel=210,bonus_id=7101/6647/6649
+profileset."Judgment_of_the_Arbiter_Hands_HC_225"+=hands=,id=173244,ilevel=225,bonus_id=7101/6647/6649
+profileset."Judgment_of_the_Arbiter_Hands_HC_235"+=hands=,id=173244,ilevel=235,bonus_id=7101/6647/6649
+profileset."Judgment_of_the_Arbiter_Wrists_HC_190"+=wrists=,id=173249,ilevel=190,bonus_id=7101/6647/6649,enchant=eternal_intellect
+profileset."Judgment_of_the_Arbiter_Wrists_HC_210"+=wrists=,id=173249,ilevel=210,bonus_id=7101/6647/6649,enchant=eternal_intellect
+profileset."Judgment_of_the_Arbiter_Wrists_HC_225"+=wrists=,id=173249,ilevel=225,bonus_id=7101/6647/6649,enchant=eternal_intellect
+profileset."Judgment_of_the_Arbiter_Wrists_HC_235"+=wrists=,id=173249,ilevel=235,bonus_id=7101/6647/6649,enchant=eternal_intellect
+profileset."Judgment_of_the_Arbiter_Finger_HC_190"+=finger1=,id=178926,ilevel=190,bonus_id=7101/6647/6649,enchant=tenet_of_haste
+profileset."Judgment_of_the_Arbiter_Finger_HC_210"+=finger1=,id=178926,ilevel=210,bonus_id=7101/6647/6649,enchant=tenet_of_haste
+profileset."Judgment_of_the_Arbiter_Finger_HC_225"+=finger1=,id=178926,ilevel=225,bonus_id=7101/6647/6649,enchant=tenet_of_haste
+profileset."Judgment_of_the_Arbiter_Finger_HC_235"+=finger1=,id=178926,ilevel=235,bonus_id=7101/6647/6649,enchant=tenet_of_haste
+
+profileset."Judgment_of_the_Arbiter_Hands_HM_190"+=hands=,id=173244,ilevel=190,bonus_id=7101/6648/6649
+profileset."Judgment_of_the_Arbiter_Hands_HM_210"+=hands=,id=173244,ilevel=210,bonus_id=7101/6648/6649
+profileset."Judgment_of_the_Arbiter_Hands_HM_225"+=hands=,id=173244,ilevel=225,bonus_id=7101/6648/6649
+profileset."Judgment_of_the_Arbiter_Hands_HM_235"+=hands=,id=173244,ilevel=235,bonus_id=7101/6648/6649
+profileset."Judgment_of_the_Arbiter_Wrists_HM_190"+=wrists=,id=173249,ilevel=190,bonus_id=7101/6648/6649,enchant=eternal_intellect
+profileset."Judgment_of_the_Arbiter_Wrists_HM_210"+=wrists=,id=173249,ilevel=210,bonus_id=7101/6648/6649,enchant=eternal_intellect
+profileset."Judgment_of_the_Arbiter_Wrists_HM_225"+=wrists=,id=173249,ilevel=225,bonus_id=7101/6648/6649,enchant=eternal_intellect
+profileset."Judgment_of_the_Arbiter_Wrists_HM_235"+=wrists=,id=173249,ilevel=235,bonus_id=7101/6648/6649,enchant=eternal_intellect
+profileset."Judgment_of_the_Arbiter_Finger_HM_190"+=finger1=,id=178926,ilevel=190,bonus_id=7101/6648/6649,enchant=tenet_of_haste
+profileset."Judgment_of_the_Arbiter_Finger_HM_210"+=finger1=,id=178926,ilevel=210,bonus_id=7101/6648/6649,enchant=tenet_of_haste
+profileset."Judgment_of_the_Arbiter_Finger_HM_225"+=finger1=,id=178926,ilevel=225,bonus_id=7101/6648/6649,enchant=tenet_of_haste
+profileset."Judgment_of_the_Arbiter_Finger_HM_235"+=finger1=,id=178926,ilevel=235,bonus_id=7101/6648/6649,enchant=tenet_of_haste
 
 # Sephuz's Proclamation - Neck,Shoulder,Chest - 7103
-profileset."Sephuzs_Proclamation_Chest_190"+=chest=,id=173241,ilevel=190,bonus_id=7103/6647/6649,enchant=eternal_insight
-profileset."Sephuzs_Proclamation_Chest_210"+=chest=,id=173241,ilevel=210,bonus_id=7103/6647/6649,enchant=eternal_insight
-profileset."Sephuzs_Proclamation_Chest_225"+=chest=,id=173241,ilevel=225,bonus_id=7103/6647/6649,enchant=eternal_insight
-profileset."Sephuzs_Proclamation_Chest_235"+=chest=,id=173241,ilevel=235,bonus_id=7103/6647/6649,enchant=eternal_insight
-profileset."Sephuzs_Proclamation_Shoulder_190"+=shoulder=,id=173247,ilevel=190,bonus_id=7103/6647/6649
-profileset."Sephuzs_Proclamation_Shoulder_210"+=shoulder=,id=173247,ilevel=210,bonus_id=7103/6647/6649
-profileset."Sephuzs_Proclamation_Shoulder_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7103/6647/6649
-profileset."Sephuzs_Proclamation_Shoulder_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7103/6647/6649
-profileset."Sephuzs_Proclamation_Neck_190"+=neck=,id=178927,ilevel=190,bonus_id=7103/6647/6649
-profileset."Sephuzs_Proclamation_Neck_210"+=neck=,id=178927,ilevel=190,bonus_id=7103/6647/6649
-profileset."Sephuzs_Proclamation_Neck_225"+=neck=,id=178927,ilevel=190,bonus_id=7103/6647/6649
-profileset."Sephuzs_Proclamation_Neck_235"+=neck=,id=178927,ilevel=190,bonus_id=7103/6647/6649
+profileset."Sephuzs_Proclamation_Chest_HC_190"+=chest=,id=173241,ilevel=190,bonus_id=7103/6647/6649,enchant=eternal_insight
+profileset."Sephuzs_Proclamation_Chest_HC_210"+=chest=,id=173241,ilevel=210,bonus_id=7103/6647/6649,enchant=eternal_insight
+profileset."Sephuzs_Proclamation_Chest_HC_225"+=chest=,id=173241,ilevel=225,bonus_id=7103/6647/6649,enchant=eternal_insight
+profileset."Sephuzs_Proclamation_Chest_HC_235"+=chest=,id=173241,ilevel=235,bonus_id=7103/6647/6649,enchant=eternal_insight
+profileset."Sephuzs_Proclamation_Shoulder_HC_190"+=shoulder=,id=173247,ilevel=190,bonus_id=7103/6647/6649
+profileset."Sephuzs_Proclamation_Shoulder_HC_210"+=shoulder=,id=173247,ilevel=210,bonus_id=7103/6647/6649
+profileset."Sephuzs_Proclamation_Shoulder_HC_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7103/6647/6649
+profileset."Sephuzs_Proclamation_Shoulder_HC_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7103/6647/6649
+profileset."Sephuzs_Proclamation_Neck_HC_190"+=neck=,id=178927,ilevel=190,bonus_id=7103/6647/6649
+profileset."Sephuzs_Proclamation_Neck_HC_210"+=neck=,id=178927,ilevel=190,bonus_id=7103/6647/6649
+profileset."Sephuzs_Proclamation_Neck_HC_225"+=neck=,id=178927,ilevel=190,bonus_id=7103/6647/6649
+profileset."Sephuzs_Proclamation_Neck_HC_235"+=neck=,id=178927,ilevel=190,bonus_id=7103/6647/6649
+
+profileset."Sephuzs_Proclamation_Chest_HM_190"+=chest=,id=173241,ilevel=190,bonus_id=7103/6648/6649,enchant=eternal_insight
+profileset."Sephuzs_Proclamation_Chest_HM_210"+=chest=,id=173241,ilevel=210,bonus_id=7103/6648/6649,enchant=eternal_insight
+profileset."Sephuzs_Proclamation_Chest_HM_225"+=chest=,id=173241,ilevel=225,bonus_id=7103/6648/6649,enchant=eternal_insight
+profileset."Sephuzs_Proclamation_Chest_HM_235"+=chest=,id=173241,ilevel=235,bonus_id=7103/6648/6649,enchant=eternal_insight
+profileset."Sephuzs_Proclamation_Shoulder_HM_190"+=shoulder=,id=173247,ilevel=190,bonus_id=7103/6648/6649
+profileset."Sephuzs_Proclamation_Shoulder_HM_210"+=shoulder=,id=173247,ilevel=210,bonus_id=7103/6648/6649
+profileset."Sephuzs_Proclamation_Shoulder_HM_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7103/6648/6649
+profileset."Sephuzs_Proclamation_Shoulder_HM_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7103/6648/6649
+profileset."Sephuzs_Proclamation_Neck_HM_190"+=neck=,id=178927,ilevel=190,bonus_id=7103/6648/6649
+profileset."Sephuzs_Proclamation_Neck_HM_210"+=neck=,id=178927,ilevel=190,bonus_id=7103/6648/6649
+profileset."Sephuzs_Proclamation_Neck_HM_225"+=neck=,id=178927,ilevel=190,bonus_id=7103/6648/6649
+profileset."Sephuzs_Proclamation_Neck_HM_235"+=neck=,id=178927,ilevel=190,bonus_id=7103/6648/6649
 
 # Third Eye of the Jailer - Head,Shoulder,Waist - 7105
-profileset."Third_Eye_of_the_Jailer_Head_190"+=head=,id=173245,ilevel=190,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Head_210"+=head=,id=173245,ilevel=210,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Head_225"+=head=,id=173245,ilevel=225,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Head_235"+=head=,id=173245,ilevel=235,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Shoulder_190"+=shoulder=,id=173247,ilevel=190,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Shoulder_210"+=shoulder=,id=173247,ilevel=210,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Shoulder_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Shoulder_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Waist_190"+=waist=,id=173248,ilevel=190,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Waist_210"+=waist=,id=173248,ilevel=210,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Waist_225"+=waist=,id=173248,ilevel=225,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Waist_235"+=waist=,id=173248,ilevel=235,bonus_id=7105/6647/6649
+profileset."Third_Eye_of_the_Jailer_Head_HC_190"+=head=,id=173245,ilevel=190,bonus_id=7105/6647/6649
+profileset."Third_Eye_of_the_Jailer_Head_HC_210"+=head=,id=173245,ilevel=210,bonus_id=7105/6647/6649
+profileset."Third_Eye_of_the_Jailer_Head_HC_225"+=head=,id=173245,ilevel=225,bonus_id=7105/6647/6649
+profileset."Third_Eye_of_the_Jailer_Head_HC_235"+=head=,id=173245,ilevel=235,bonus_id=7105/6647/6649
+profileset."Third_Eye_of_the_Jailer_Shoulder_HC_190"+=shoulder=,id=173247,ilevel=190,bonus_id=7105/6647/6649
+profileset."Third_Eye_of_the_Jailer_Shoulder_HC_210"+=shoulder=,id=173247,ilevel=210,bonus_id=7105/6647/6649
+profileset."Third_Eye_of_the_Jailer_Shoulder_HC_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7105/6647/6649
+profileset."Third_Eye_of_the_Jailer_Shoulder_HC_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7105/6647/6649
+profileset."Third_Eye_of_the_Jailer_Waist_HC_190"+=waist=,id=173248,ilevel=190,bonus_id=7105/6647/6649
+profileset."Third_Eye_of_the_Jailer_Waist_HC_210"+=waist=,id=173248,ilevel=210,bonus_id=7105/6647/6649
+profileset."Third_Eye_of_the_Jailer_Waist_HC_225"+=waist=,id=173248,ilevel=225,bonus_id=7105/6647/6649
+profileset."Third_Eye_of_the_Jailer_Waist_HC_235"+=waist=,id=173248,ilevel=235,bonus_id=7105/6647/6649
+
+profileset."Third_Eye_of_the_Jailer_Head_HM_190"+=head=,id=173245,ilevel=190,bonus_id=7105/6648/6649
+profileset."Third_Eye_of_the_Jailer_Head_HM_210"+=head=,id=173245,ilevel=210,bonus_id=7105/6648/6649
+profileset."Third_Eye_of_the_Jailer_Head_HM_225"+=head=,id=173245,ilevel=225,bonus_id=7105/6648/6649
+profileset."Third_Eye_of_the_Jailer_Head_HM_235"+=head=,id=173245,ilevel=235,bonus_id=7105/6648/6649
+profileset."Third_Eye_of_the_Jailer_Shoulder_HM_190"+=shoulder=,id=173247,ilevel=190,bonus_id=7105/6648/6649
+profileset."Third_Eye_of_the_Jailer_Shoulder_HM_210"+=shoulder=,id=173247,ilevel=210,bonus_id=7105/6648/6649
+profileset."Third_Eye_of_the_Jailer_Shoulder_HM_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7105/6648/6649
+profileset."Third_Eye_of_the_Jailer_Shoulder_HM_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7105/6648/6649
+profileset."Third_Eye_of_the_Jailer_Waist_HM_190"+=waist=,id=173248,ilevel=190,bonus_id=7105/6648/6649
+profileset."Third_Eye_of_the_Jailer_Waist_HM_210"+=waist=,id=173248,ilevel=210,bonus_id=7105/6648/6649
+profileset."Third_Eye_of_the_Jailer_Waist_HM_225"+=waist=,id=173248,ilevel=225,bonus_id=7105/6648/6649
+profileset."Third_Eye_of_the_Jailer_Waist_HM_235"+=waist=,id=173248,ilevel=235,bonus_id=7105/6648/6649
 
 # Echo of Eonar - Wasit,Wrist,Finger - 7100
 # TODO: Add allies?
-profileset."Echo_of_Eonar_Wrists_190"+=wrists=,id=173249,ilevel=190,bonus_id=7100/6647/6649,enchant=eternal_intellect
-profileset."Echo_of_Eonar_Wrists_210"+=wrists=,id=173249,ilevel=210,bonus_id=7100/6647/6649,enchant=eternal_intellect
-profileset."Echo_of_Eonar_Wrists_225"+=wrists=,id=173249,ilevel=225,bonus_id=7100/6647/6649,enchant=eternal_intellect
-profileset."Echo_of_Eonar_Wrists_235"+=wrists=,id=173249,ilevel=235,bonus_id=7100/6647/6649,enchant=eternal_intellect
-profileset."Echo_of_Eonar_Waist_190"+=waist=,id=173248,ilevel=190,bonus_id=7100/6647/6649
-profileset."Echo_of_Eonar_Waist_210"+=waist=,id=173248,ilevel=210,bonus_id=7100/6647/6649
-profileset."Echo_of_Eonar_Waist_225"+=waist=,id=173248,ilevel=225,bonus_id=7100/6647/6649
-profileset."Echo_of_Eonar_Waist_235"+=waist=,id=173248,ilevel=235,bonus_id=7100/6647/6649
-profileset."Echo_of_Eonar_Finger_190"+=finger1=,id=178926,ilevel=190,bonus_id=7100/6647/6649,enchant=tenet_of_haste
-profileset."Echo_of_Eonar_Finger_210"+=finger1=,id=178926,ilevel=210,bonus_id=7100/6647/6649,enchant=tenet_of_haste
-profileset."Echo_of_Eonar_Finger_225"+=finger1=,id=178926,ilevel=225,bonus_id=7100/6647/6649,enchant=tenet_of_haste
-profileset."Echo_of_Eonar_Finger_235"+=finger1=,id=178926,ilevel=235,bonus_id=7100/6647/6649,enchant=tenet_of_haste
+profileset."Echo_of_Eonar_Wrists_HC_190"+=wrists=,id=173249,ilevel=190,bonus_id=7100/6647/6649,enchant=eternal_intellect
+profileset."Echo_of_Eonar_Wrists_HC_210"+=wrists=,id=173249,ilevel=210,bonus_id=7100/6647/6649,enchant=eternal_intellect
+profileset."Echo_of_Eonar_Wrists_HC_225"+=wrists=,id=173249,ilevel=225,bonus_id=7100/6647/6649,enchant=eternal_intellect
+profileset."Echo_of_Eonar_Wrists_HC_235"+=wrists=,id=173249,ilevel=235,bonus_id=7100/6647/6649,enchant=eternal_intellect
+profileset."Echo_of_Eonar_Waist_HC_190"+=waist=,id=173248,ilevel=190,bonus_id=7100/6647/6649
+profileset."Echo_of_Eonar_Waist_HC_210"+=waist=,id=173248,ilevel=210,bonus_id=7100/6647/6649
+profileset."Echo_of_Eonar_Waist_HC_225"+=waist=,id=173248,ilevel=225,bonus_id=7100/6647/6649
+profileset."Echo_of_Eonar_Waist_HC_235"+=waist=,id=173248,ilevel=235,bonus_id=7100/6647/6649
+profileset."Echo_of_Eonar_Finger_HC_190"+=finger1=,id=178926,ilevel=190,bonus_id=7100/6647/6649,enchant=tenet_of_haste
+profileset."Echo_of_Eonar_Finger_HC_210"+=finger1=,id=178926,ilevel=210,bonus_id=7100/6647/6649,enchant=tenet_of_haste
+profileset."Echo_of_Eonar_Finger_HC_225"+=finger1=,id=178926,ilevel=225,bonus_id=7100/6647/6649,enchant=tenet_of_haste
+profileset."Echo_of_Eonar_Finger_HC_235"+=finger1=,id=178926,ilevel=235,bonus_id=7100/6647/6649,enchant=tenet_of_haste
+
+profileset."Echo_of_Eonar_Wrists_HM_190"+=wrists=,id=173249,ilevel=190,bonus_id=7100/6648/6649,enchant=eternal_intellect
+profileset."Echo_of_Eonar_Wrists_HM_210"+=wrists=,id=173249,ilevel=210,bonus_id=7100/6648/6649,enchant=eternal_intellect
+profileset."Echo_of_Eonar_Wrists_HM_225"+=wrists=,id=173249,ilevel=225,bonus_id=7100/6648/6649,enchant=eternal_intellect
+profileset."Echo_of_Eonar_Wrists_HM_235"+=wrists=,id=173249,ilevel=235,bonus_id=7100/6648/6649,enchant=eternal_intellect
+profileset."Echo_of_Eonar_Waist_HM_190"+=waist=,id=173248,ilevel=190,bonus_id=7100/6648/6649
+profileset."Echo_of_Eonar_Waist_HM_210"+=waist=,id=173248,ilevel=210,bonus_id=7100/6648/6649
+profileset."Echo_of_Eonar_Waist_HM_225"+=waist=,id=173248,ilevel=225,bonus_id=7100/6648/6649
+profileset."Echo_of_Eonar_Waist_HM_235"+=waist=,id=173248,ilevel=235,bonus_id=7100/6648/6649
+profileset."Echo_of_Eonar_Finger_HM_190"+=finger1=,id=178926,ilevel=190,bonus_id=7100/6648/6649,enchant=tenet_of_haste
+profileset."Echo_of_Eonar_Finger_HM_210"+=finger1=,id=178926,ilevel=210,bonus_id=7100/6648/6649,enchant=tenet_of_haste
+profileset."Echo_of_Eonar_Finger_HM_225"+=finger1=,id=178926,ilevel=225,bonus_id=7100/6648/6649,enchant=tenet_of_haste
+profileset."Echo_of_Eonar_Finger_HM_235"+=finger1=,id=178926,ilevel=235,bonus_id=7100/6648/6649,enchant=tenet_of_haste

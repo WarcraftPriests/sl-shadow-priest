@@ -1,8 +1,12 @@
 # Composite - hv-as
 | Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Kyrian|6946|1.00|0.54|0.48|0.46|0.42|0.26|
-|Necrolord|6776|1.00|0.56|0.48|0.48|0.43|0.27|
-|Night_Fae|6699|1.00|0.52|0.49|0.49|0.43|0.27|
-|Venthyr|6628|1.00|0.55|0.49|0.49|0.43|0.28|
-|Base|5528|1.00|0.55|0.49|0.47|0.43|0.33|
+|Necrolord_Shadowflame_Prism_Mindbender|7579|1.00|0.50|0.51|0.52|0.45|0.25|
+|Night_Fae_Shadowflame_Prism_Mindbender|7506|1.00|0.52|0.52|0.53|0.45|0.25|
+|Kyrian_Shadowflame_Prism_Mindbender|7451|1.00|0.51|0.51|0.48|0.45|0.25|
+|Venthyr_Shadowflame_Prism_Mindbender|7430|1.00|0.51|0.51|0.52|0.46|0.25|
+|Necrolord_Talbadars_Stratagem|7395|1.00|0.52|0.51|0.52|0.45|0.25|
+|Kyrian_Talbadars_Stratagem|7347|1.00|0.49|0.51|0.48|0.45|0.25|
+|Night_Fae_Talbadars_Stratagem|7325|1.00|0.51|0.52|0.53|0.45|0.25|
+|Venthyr_Talbadars_Stratagem|7255|1.00|0.54|0.51|0.52|0.45|0.26|
+|Base|5928|1.00|0.54|0.51|0.52|0.46|0.32|

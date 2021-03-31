@@ -8,7 +8,7 @@ covenant=kyrian
 
 default_actions=1
 
-head=depraved_physicians_mask,id=178759,ilevel=204
+head=depraved_physicians_mask,id=178759,ilevel=204,bonus_id=${legendary.id}
 neck=sin_stained_pendant,id=178827,ilevel=204
 shoulder=reanimators_mantle,id=178740,ilevel=204
 back=drape_of_twisted_loyalties,id=180123,ilevel=204
@@ -25,9 +25,9 @@ trinket2=darkmoon_deck__putrescence,id=173069
 main_hand=nathrian_ferula,id=178829,ilevel=204,enchant=sinful_revelation
 
 # Pelagos
-# 1 conduit setup
+# 2 conduit setup
 # Combat Meditation - 328266
-profileset."Pelagos-CM-${conduits.first.name}"+=soulbind=pelagos,${conduits.first.id}:6/328266
+profileset."Pelagos-CM-${conduits.first.name}_${conduits.second.name}"+=soulbind=pelagos,${conduits.first.id}:6/${conduits.second.id}:6/328266
 
 # Kleia
 # 1 conduit setup

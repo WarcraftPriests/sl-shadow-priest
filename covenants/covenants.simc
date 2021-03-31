@@ -7,82 +7,74 @@ talents=${talents}
 
 default_actions=1
 
-head=confidants_favored_cap,id=183021,ilevel=226
+head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
 neck=charm_of_eternal_winter,id=183040,ilevel=226
 shoulder=shawl_of_the_penitent,id=183020,ilevel=233
 back=crest_of_the_legionnaire_general,id=183032,ilevel=233
 chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
 wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect
-hands=,id=173244,ilevel=235,bonus_id=6983/6647/6649
+hands=impossibly_oversized_mitts,id=183022,ilevel=226
 waist=shadewarped_sash,id=183004,ilevel=226
-legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
+legs=purge_protocol_legwraps,id=180107,ilevel=226
 feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
 finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
 finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
-trinket1=macabre_sheet_music,id=184024,ilevel=226
+trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=cabalists_hymnal,id=184028,ilevel=233
-main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation
+main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
-# Legendary: Eternal Call to the Void
 # Soulbind: Nadjia - Nadjia-TS-1_2 + Nadjia-TS_DD-1
 profileset."Venthyr_Covenant_Only"+=covenant=venthyr
+profileset."Venthyr_Covenant_Only_Healing_Reversal"+=covenant=venthyr
+profileset."Venthyr_Covenant_Only_Healing_Reversal"+=priest.mindgames_healing_reversal=1
 profileset."Venthyr_Nadjia"+=covenant=venthyr
 profileset."Venthyr_Nadjia"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586
 profileset."Venthyr_Nadjia_DD"+=covenant=venthyr
 profileset."Venthyr_Nadjia_DD"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:7/331586/331584
-# Legendary: Eternal Call to the Void
 # Soulbind: Draven - Draven-BfW-1
 profileset."Venthyr_Draven"+=covenant=venthyr
 profileset."Venthyr_Draven"+=soulbind=general_draven,${conduits.first.id}:7/319973
-# Legendary: Eternal Call to the Void
 # Soulbind: Theotar - Theotar-SS-1_2
 profileset."Venthyr_Theotar"+=covenant=venthyr
 profileset."Venthyr_Theotar"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/336239
 
-# Legendary: Eternal Call to the Void
 # Soulbind: Pelagos - Pelagos-CM_LGotP-1_2
 profileset."Kyrian_Covenant_Only"+=covenant=kyrian
 profileset."Kyrian_Pelagos"+=covenant=kyrian
 profileset."Kyrian_Pelagos"+=soulbind=pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328266
-# Legendary: Eternal Call to the Void
 # Soulbind: Kleia - Kleia-PC-1
 profileset."Kyrian_Kleia"+=covenant=kyrian
 profileset."Kyrian_Kleia"+=soulbind=kleia,${conduits.first.id}:7/329778
-# Legendary: Eternal Call to the Void
 # Soulbind: Forgelite Prime Mikanikos - Forgelite-BCtA-1_2 + Forgelite-BCtA_HoG-1
 profileset."Kyrian_Forgelite"+=covenant=kyrian
 profileset."Kyrian_Forgelite"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:7/${conduits.second.id}:7/333950
 profileset."Kyrian_Forgelite_HoG"+=covenant=kyrian
 profileset."Kyrian_Forgelite_HoG"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:7/333950/333935
 
-# Legendary: Eternal Call to the Void
 # Soulbind: Dreamweaver - Dreamweaver-FoB-1_2
 profileset."Night_Fae_Covenant_Only"+=covenant=night_fae
+profileset."Night_Fae_Covenant_Only_No_CDR"+=covenant=night_fae
+profileset."Night_Fae_Covenant_Only_No_CDR"+=priest.self_benevolent_faerie=0
 profileset."Night_Fae_Dreamweaver"+=covenant=night_fae
 profileset."Night_Fae_Dreamweaver"+=soulbind=dreamweaver,${conduits.first.id}:7/${conduits.second.id}:7/319191
-# Legendary: Eternal Call to the Void
 # Soulbind: Korayn - Korayn-WHT-1_2 + Korayn-WHT_FS-1
 profileset."Night_Fae_Korayn"+=covenant=night_fae
 profileset."Night_Fae_Korayn"+=soulbind=korayn,${conduits.first.id}:7/${conduits.second.id}:7/325066
 profileset."Night_Fae_Korayn_FS"+=covenant=night_fae
 profileset."Night_Fae_Korayn_FS"+=soulbind=korayn,${conduits.first.id}:7/325066/325069
-# Legendary: Eternal Call to the Void
 # Soulbind: Niya - Niya-GI_NTB-1
 profileset."Night_Fae_Niya"+=covenant=night_fae
 profileset."Night_Fae_Niya"+=soulbind=niya,${conduits.first.id}:7/322721/320659
 
-# Legendary: Eternal Call to the Void
 # Soulbind: Bonesmith Heirmir - Bonesmith-1_2 + Bonesmith-HAMG-1
 profileset."Necrolord_Covenant_Only"+=covenant=necrolord
 profileset."Necrolord_Bonesmith"+=covenant=necrolord
 profileset."Necrolord_Bonesmith"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/${conduits.second.id}:7/326514
 profileset."Necrolord_Bonesmith_HAMG"+=covenant=necrolord
 profileset."Necrolord_Bonesmith_HAMG"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/326572/326514
-# Legendary: Eternal Call to the Void
 # Soulbind: Emeni - Emeni-LbE-1_2
 profileset."Necrolord_Emeni"+=covenant=necrolord
 profileset."Necrolord_Emeni"+=soulbind=emeni,${conduits.first.id}:7/${conduits.second.id}:7/342156
-# Legendary: Eternal Call to the Void
 # Soulbind: Marileth - Marileth-VS_Mastery-1_2 + Marileth-PPS_VS_Mastery-1
 profileset."Necrolord_Marileth_Mastery"+=shadowlands.volatile_solvent_type=mastery
 profileset."Necrolord_Marileth_Mastery"+=covenant=necrolord

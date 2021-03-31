@@ -1,14 +1,17 @@
 # Composite - stm - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|6205|4.42%|
-|Talbadars_Stratagem|6150|3.50%|
-|Judgment_of_the_Arbiter|6046|1.75%|
-|Echo_of_Eonar|6037|1.60%|
-|Shadowflame_Prism|6014|1.21%|
-|Painbreaker_Psalm|5974|0.54%|
-|Twins_of_the_Sun_Priestess_Conduit_7|5966|0.40%|
-|Sephuzs_Proclamation|5963|0.36%|
-|Base|5942|0.00%|
-|Third_Eye_of_the_Jailer|5942|-0.01%|
-|Shadowflame_Prism_Conduit_7|5909|-0.56%|
+|Shadowflame_Prism_Conduit_7_Mindbender|6779|7.67%|
+|Shadowflame_Prism_Mindbender|6766|7.46%|
+|Talbadars_Stratagem|6642|5.49%|
+|Talbadars_Stratagem_Mind_Devourer_7|6620|5.14%|
+|Eternal_Call_to_the_Void|6549|4.02%|
+|Shadowflame_Prism|6504|3.30%|
+|Shadowflame_Prism_Conduit_7|6399|1.63%|
+|Echo_of_Eonar|6396|1.59%|
+|Judgment_of_the_Arbiter|6394|1.55%|
+|Painbreaker_Psalm|6324|0.44%|
+|Twins_of_the_Sun_Priestess_Conduit_7|6322|0.41%|
+|Sephuzs_Proclamation|6319|0.37%|
+|Third_Eye_of_the_Jailer|6297|0.02%|
+|Base|6296|0.00%|

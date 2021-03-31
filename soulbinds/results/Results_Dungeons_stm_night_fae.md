@@ -1,10 +1,10 @@
 # Dungeons - stm - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Korayn-WHT_FS-HA|6708|9.23%|
-|Niya-GI_NTB-HA|6496|5.78%|
-|Korayn-WHT-HA_DE|6480|5.52%|
-|Niya-GI_NTP-HA_DE|6424|4.61%|
-|Dreamweaver-FoB-HA_DE|6406|4.32%|
-|Dreamweaver-FoB_SB-HA|6367|3.68%|
-|Base|6141|0.00%|
+|Korayn-WHT_FS-HA|7073|9.54%|
+|Dreamweaver-FoB-HA_DE|7044|9.09%|
+|Dreamweaver-FoB_SB-HA|7044|9.09%|
+|Niya-GI_NTB-HA|7008|8.53%|
+|Niya-GI_NTP-HA_DE|6939|7.46%|
+|Korayn-WHT-HA_DE|6820|5.62%|
+|Base|6457|0.00%|

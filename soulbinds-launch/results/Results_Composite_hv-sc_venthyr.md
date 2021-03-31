@@ -1,6 +1,6 @@
 # Composite - hv-sc - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Theotar-SS-DE|4939|6.17%|
-|Nadjia-TS-DE|4921|5.79%|
-|Base|4652|0.00%|
+|Theotar-SS-DE|5641|6.54%|
+|Nadjia-TS-DE|5604|5.84%|
+|Base|5294|0.00%|

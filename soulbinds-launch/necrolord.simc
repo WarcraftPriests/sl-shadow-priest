@@ -8,7 +8,7 @@ covenant=necrolord
 
 default_actions=1
 
-head=depraved_physicians_mask,id=178759,ilevel=204
+head=depraved_physicians_mask,id=178759,ilevel=204,bonus_id=${legendary.id}
 neck=sin_stained_pendant,id=178827,ilevel=204
 shoulder=reanimators_mantle,id=178740,ilevel=204
 back=drape_of_twisted_loyalties,id=180123,ilevel=204
@@ -24,36 +24,36 @@ trinket1=empyreal_ordnance,id=180117,ilevel=203
 trinket2=darkmoon_deck__putrescence,id=173069
 main_hand=nathrian_ferula,id=178829,ilevel=204,enchant=sinful_revelation
 
+# 2 conduit setup
+profileset."Marileth-VS_Crit-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=crit
+profileset."Marileth-VS_Crit-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/${conduits.second.id}:6/323074
+
+profileset."Marileth-VS_Mastery-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=mastery
+profileset."Marileth-VS_Mastery-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/${conduits.second.id}:6/323074
+
+profileset."Marileth-VS_Intellect-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=primary
+profileset."Marileth-VS_Intellect-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/${conduits.second.id}:6/323074
+
+profileset."Marileth-VS_Magic-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=magic
+profileset."Marileth-VS_Magic-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/${conduits.second.id}:6/323074
+
+profileset."Marileth-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/${conduits.second.id}:6
+
 # 1 conduit setup
-profileset."Marileth-VS_Crit-${conduits.first.name}"+=shadowlands.volatile_solvent_type=crit
-profileset."Marileth-VS_Crit-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074
-
-profileset."Marileth-VS_Mastery-${conduits.first.name}"+=shadowlands.volatile_solvent_type=mastery
-profileset."Marileth-VS_Mastery-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074
-
-profileset."Marileth-VS_Intellect-${conduits.first.name}"+=shadowlands.volatile_solvent_type=primary
-profileset."Marileth-VS_Intellect-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074
-
-profileset."Marileth-VS_Magic-${conduits.first.name}"+=shadowlands.volatile_solvent_type=magic
-profileset."Marileth-VS_Magic-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074
-
-profileset."Marileth-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6
-
-# 0 conduit setup
 # Plaguey's Preemptive Strike - 323090
-profileset."Marileth-PPS_VS_Crit"+=shadowlands.volatile_solvent_type=crit
-profileset."Marileth-PPS_VS_Crit"+=soulbind=plague_deviser_marileth,323074/323090
+profileset."Marileth-PPS_VS_Crit-${conduits.first.name}"+=shadowlands.volatile_solvent_type=crit
+profileset."Marileth-PPS_VS_Crit-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074/323090
 
-profileset."Marileth-PPS_VS_Mastery"+=shadowlands.volatile_solvent_type=mastery
-profileset."Marileth-PPS_VS_Mastery"+=soulbind=plague_deviser_marileth,323074/323090
+profileset."Marileth-PPS_VS_Mastery-${conduits.first.name}"+=shadowlands.volatile_solvent_type=mastery
+profileset."Marileth-PPS_VS_Mastery-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074/323090
 
-profileset."Marileth-PPS_VS_Intellect"+=shadowlands.volatile_solvent_type=primary
-profileset."Marileth-PPS_VS_Intellect"+=soulbind=plague_deviser_marileth,323074/323090
+profileset."Marileth-PPS_VS_Intellect-${conduits.first.name}"+=shadowlands.volatile_solvent_type=primary
+profileset."Marileth-PPS_VS_Intellect-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074/323090
 
-profileset."Marileth-PPS_VS_Magic"+=shadowlands.volatile_solvent_type=magic
-profileset."Marileth-PPS_VS_Magic"+=soulbind=plague_deviser_marileth,323074/323090
+profileset."Marileth-PPS_VS_Magic-${conduits.first.name}"+=shadowlands.volatile_solvent_type=magic
+profileset."Marileth-PPS_VS_Magic-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074/323090
 
-profileset."Marileth-PPS"+=soulbind=plague_deviser_marileth,323090
+profileset."Marileth-PPS-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323090
 
 # Emeni
 # 1 conduit setup

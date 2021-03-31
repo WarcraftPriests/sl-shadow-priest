@@ -1,7 +1,7 @@
 builds:
   am:
     composite: 1111131 # FotM_ToF_AS_VT_AM
-    dungeons: 1131321 # FotM_SN_SC_MB_AM
+    dungeons: 2131321 # DaM_SN_SC_MB_AM
     single: 1111131 # FotM_ToF_AS_VT_AM
     conduits:
       first:
@@ -12,7 +12,7 @@ builds:
         name: DE
   hv-as:
     composite: 1111132 # FotM_ToF_AS_VT_HV
-    dungeons: 1131122 # FotM_SN_AS_MB_HV
+    dungeons: 2131122 # DaM_SN_AS_MB_HV
     single: 1111132 # FotM_ToF_AS_VT_HV
     conduits:
       first:
@@ -23,7 +23,7 @@ builds:
         name: HA
   hv-sc:
     composite: 1111332 # FotM_ToF_SC_VT_HV
-    dungeons: 1131322 # FotM_SN_SC_MB_HV
+    dungeons: 2131322 # DaM_SN_SC_MB_HV
     single: 1111332 # FotM_ToF_SC_VT_HV
     conduits:
       first:
@@ -34,7 +34,7 @@ builds:
         name: HA
   stm:
     composite: 1111133 # FotM_ToF_AS_VT_STM
-    dungeons: 1131323 # FotM_SN_SC_MB_STM
+    dungeons: 2131323 # DaM_SN_SC_MB_STM
     single: 1111133 # FotM_ToF_AS_VT_STM
     conduits:
       first:
@@ -44,17 +44,38 @@ builds:
         id: "115"
         name: DE
 covenants:
-  - kyrian
-  - night_fae
-  - venthyr
-  - necrolord
+  list:
+    - kyrian
+    - night_fae
+    - venthyr
+    - necrolord
+  kyrian:
+    soulbind:
+      composite: "pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328266"
+      dungeons: "forgelite_prime_mikanikos,${conduits.first.id}:7/333950/333935"
+  necrolord:
+    soulbind:
+      composite: "emeni,${conduits.first.id}:7/${conduits.second.id}:7/342156"
+      dungeons: "bonesmith_heirmir,${conduits.first.id}:7/326572/326514"
+  night_fae:
+    soulbind:
+      composite: "niya,${conduits.first.id}:7/${conduits.second.id}:7/322721/320660"
+      dungeons: "korayn,${conduits.first.id}:7/325066/325069"
+  venthyr:
+    soulbind:
+      composite: "theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/336239"
+      dungeons: "nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586"
+legendary:
+    composite: "6982" # Shadowflame Prism
+    dungeons: "6983" # Eternal Call to the Void
+    single: "7162" # Talbadar's Stratagem
 sims:
   apl:
     description: "APL Sims used for testing rotational changes only"
     builds: true
     weights: false
     covenant:
-      lookup: false
+      lookup: true
       files: false
     lookupType: none
     steps:
@@ -134,7 +155,7 @@ sims:
     files:
       - covenants.simc
   covenants-launch:
-    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 12."
+    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 21."
     builds: true
     weights: false
     covenant:
@@ -195,7 +216,7 @@ sims:
     files:
       - legendaries.simc
   legendary-items:
-    description: "Using a base set of Mythic BiS gear from Castle Nathria we swap out for each Legendary Item + Power to get a sense for what would be an upgrade compared to the base pieces we have available."
+    description: "Using a base set of Mythic BiS gear from Castle Nathria we swap out for each Legendary Item + Power to get a sense for what would be an upgrade compared to the base pieces we have available. HC stands for Haste Crit, and HM stands for Haste Mastery."
     builds: true
     weights: false
     covenant:
@@ -227,13 +248,16 @@ sims:
     builds: true
     weights: false
     covenant:
-      lookup: false
-      files: false
+      lookup: true
+      files: true
     lookupType: spell
     steps:
       - DPS
     files:
-      - traits.simc
+      - necrolord.simc
+      - kyrian.simc
+      - night_fae.simc
+      - venthyr.simc
   soulbinds:
     description: "Sims the various paths for each given soulbind using Rank 7 conduits if selected. Base includes the Covenant ability for that Covenant."
     builds: true
@@ -250,7 +274,7 @@ sims:
       - night_fae.simc
       - venthyr.simc
   soulbinds-launch:
-    description: "Altered version of the Soulbinds sim but capped at level 12 renown for Mythic Raid launch week."
+    description: "Altered version of the Soulbinds sim but capped at level 21 renown."
     soulbinds:
     builds: true
     weights: false
@@ -307,6 +331,18 @@ sims:
       - AM.simc
       - HV.simc
       - STM.simc
+  talent-builds:
+    description: "Sims various combinations of power with different Talent builds."
+    builds: false
+    weights: false
+    covenant:
+      lookup: true
+      files: false
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - builds.simc
   trinket-combos:
     description: Combines the top trinkets together to get your BiS 2 trinkets.
     builds: true
@@ -328,24 +364,20 @@ sims:
       files: false
     lookupType: item
     steps:
-      - 155
       - 158
       - 164
       - 165
-      - 170
+      - 168
       - 171
-      - 175
       - 177
-      - 183
       - 184
       - 187
       - 190
       - 194
-      - 195
       - 197
+      - 198
       - 200
       - 203
-      - 204
       - 207
       - 210
       - 213

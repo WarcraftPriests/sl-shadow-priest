@@ -7,7 +7,7 @@ talents=${talents}
 
 default_actions=1
 
-head=depraved_physicians_mask,id=178759,ilevel=204
+head=depraved_physicians_mask,id=178759,ilevel=204,bonus_id=${legendary.id}
 neck=sin_stained_pendant,id=178827,ilevel=204
 shoulder=reanimators_mantle,id=178740,ilevel=204
 back=drape_of_twisted_loyalties,id=180123,ilevel=204
@@ -37,14 +37,14 @@ profileset."Venthyr_Theotar"+=soulbind=theotar_the_mad_duke,${conduits.first.id}
 
 # Soulbind: Pelagos - Pelagos-CM_LGotP-1_2
 profileset."Kyrian_Pelagos"+=covenant=kyrian
-profileset."Kyrian_Pelagos"+=soulbind=pelagos,${conduits.first.id}:6/328266
+profileset."Kyrian_Pelagos"+=soulbind=pelagos,${conduits.first.id}:6/${conduits.second.id}:6/328266
 # Soulbind: Kleia - Kleia-PC-1
 profileset."Kyrian_Kleia"+=covenant=kyrian
 profileset."Kyrian_Kleia"+=soulbind=kleia,${conduits.first.id}:6
 
 # Soulbind: Dreamweaver - Dreamweaver-FoB-1_2
 profileset."Night_Fae_Dreamweaver"+=covenant=night_fae
-profileset."Night_Fae_Dreamweaver"+=soulbind=dreamweaver,${conduits.first.id}:6
+profileset."Night_Fae_Dreamweaver"+=soulbind=dreamweaver,${conduits.first.id}:6/${conduits.second.id}:6
 profileset."Night_Fae_Dreamweaver_SB"+=covenant=night_fae
 profileset."Night_Fae_Dreamweaver_SB"+=soulbind=dreamweaver,${conduits.first.id}:6/319210
 # Soulbind: Niya - Niya-GI_NTB-1
@@ -55,9 +55,15 @@ profileset."Night_Fae_Niya"+=soulbind=niya,${conduits.first.id}:6/322721
 profileset."Necrolord_Emeni"+=covenant=necrolord
 profileset."Necrolord_Emeni"+=soulbind=emeni,${conduits.first.id}:6/342156
 # Soulbind: Marileth - Marileth-VS_Mastery-1_2 + Marileth-PPS_VS_Mastery-1
+profileset."Necrolord_Marileth"+=shadowlands.volatile_solvent_type=mastery
+profileset."Necrolord_Marileth"+=covenant=necrolord
+profileset."Necrolord_Marileth"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/${conduits.second.id}:6
+profileset."Necrolord_Marileth_PPS"+=shadowlands.volatile_solvent_type=mastery
+profileset."Necrolord_Marileth_PPS"+=covenant=necrolord
+profileset."Necrolord_Marileth_PPS"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323090
 profileset."Necrolord_Marileth_Mastery"+=shadowlands.volatile_solvent_type=mastery
 profileset."Necrolord_Marileth_Mastery"+=covenant=necrolord
-profileset."Necrolord_Marileth_Mastery"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074
+profileset."Necrolord_Marileth_Mastery"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/${conduits.second.id}:6/323074
 profileset."Necrolord_Marileth_Mastery_PPS"+=shadowlands.volatile_solvent_type=mastery
 profileset."Necrolord_Marileth_Mastery_PPS"+=covenant=necrolord
-profileset."Necrolord_Marileth_Mastery_PPS"+=soulbind=plague_deviser_marileth,323074/323090
+profileset."Necrolord_Marileth_Mastery_PPS"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074/323090

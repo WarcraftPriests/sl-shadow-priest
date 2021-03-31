@@ -1,8 +1,8 @@
 # Dungeons - stm - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Korayn-WHT-HA|5498|3.72%|
-|Dreamweaver-HA_DE|5483|3.43%|
-|Dreamweaver-SB-HA|5467|3.13%|
-|Niya-GI-HA|5454|2.89%|
-|Base|5301|0.00%|
+|Niya-GI-HA|5895|5.40%|
+|Korayn-WHT-HA|5811|3.90%|
+|Dreamweaver-SB-HA|5774|3.24%|
+|Dreamweaver-HA_DE|5773|3.22%|
+|Base|5593|0.00%|

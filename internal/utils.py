@@ -21,7 +21,7 @@ def get_covenant(args):
     if args.covenant:
         covenants = [args.covenant]
     elif config["sims"][args.dir]["covenant"]["lookup"]:
-        covenants = config["covenants"]
+        covenants = config["covenants"]["list"]
     else:
         covenants = []
     return covenants
@@ -30,7 +30,9 @@ def get_covenant(args):
 def get_simc_dir(talent, covenant, folder_name):
     """get proper directory based on talent and covenant options"""
     if covenant:
-        return os.path.join(folder_name, talent, covenant)
+        if talent:
+            return os.path.join(folder_name, talent, covenant)
+        return os.path.join(folder_name, covenant)
     if talent:
         return os.path.join(folder_name, talent)
     return folder_name
@@ -45,7 +47,10 @@ def generate_parser(description):
     parser.add_argument(
         '--talents', help='indicate talent build for output.', choices=config["builds"].keys())
     parser.add_argument(
-        '--covenant', help='indicate covenant build for output.', choices=config["covenants"])
+        '--covenant',
+        help='indicate covenant build for output.',
+        choices=config["covenants"]["list"]
+    )
     parser.add_argument(
         '--ptr', help='indicate if the sim should use ptr data.', action='store_true')
     return parser

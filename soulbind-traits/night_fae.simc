@@ -1,0 +1,45 @@
+priest="Base"
+level=60
+role=spell
+position=back
+spec=shadow
+talents=${talents}
+covenant=night_fae
+
+default_actions=1
+
+head=confidants_favored_cap,id=183021,ilevel=226
+neck=charm_of_eternal_winter,id=183040,ilevel=226
+shoulder=shawl_of_the_penitent,id=183020,ilevel=233
+back=crest_of_the_legionnaire_general,id=183032,ilevel=233
+chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
+wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect
+hands=impossibly_oversized_mitts,id=183022,ilevel=226
+waist=shadewarped_sash,id=183004,ilevel=226
+legs=purge_protocol_legwraps,id=180107,ilevel=226
+feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
+finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
+finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
+trinket1=dreadfire_vessel,id=184030,ilevel=233
+trinket2=cabalists_hymnal,id=184028,ilevel=233
+main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
+
+# Niya
+# Grove Invigoration - 322721
+# Niya's Tools: Poison - 320660
+# Niya's Tools: Burrs - 320659
+profileset."Night_Fae-Niya-Grove_Invigoration"+=soulbind=niya,322721
+profileset."Night_Fae-Niya-Niyas_Tools_Poison"+=soulbind=niya,320660
+profileset."Night_Fae-Niya-Niyas_Tools_Burrs"+=soulbind=niya,320659
+
+# Dreamweaver
+# Field of Blossoms - 319191
+# Social Butterfly - 319210
+profileset."Night_Fae-Dreamweaver-Field_of_Blossoms"+=soulbind=dreamweaver,319191
+profileset."Night_Fae-Dreamweaver-Social_Butterfly"+=soulbind=dreamweaver,319210
+
+# Korayn
+# Wild Hunt Tactics - 325066
+# First Strike - 325069
+profileset."Night_Fae-Korayn-Wild_Hunt_Tactics"+=soulbind=korayn,325066
+profileset."Night_Fae-Korayn-First_Strike"+=soulbind=korayn,325069

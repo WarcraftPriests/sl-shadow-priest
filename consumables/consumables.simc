@@ -13,13 +13,13 @@ chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
 wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect
 hands=impossibly_oversized_mitts,id=183022,ilevel=226
 waist=shadewarped_sash,id=183004,ilevel=226
-legs=leggings_of_lethal_reverberations,id=182981,ilevel=226
+legs=purge_protocol_legwraps,id=180107,ilevel=226
 feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
 finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
 finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
-trinket1=macabre_sheet_music,id=184024,ilevel=226
+trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=cabalists_hymnal,id=184028,ilevel=233
-main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation
+main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
 food=disabled
 augmentation=disabled
@@ -30,28 +30,21 @@ flask=disabled
 profileset."Veiled_Augment_Rune"+=augmentation=veiled_augment_rune
 
 # Gems - Deadly Jewel Cluster
-profileset."16_Versatility"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation,gem_id=173129
-profileset."16_Critical_Strike"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation,gem_id=173127
-profileset."16_Mastery"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation,gem_id=173130
-profileset."16_Haste"+=main_hand=torch_of_fiery_atonement,id=182418,ilevel=233,enchant=sinful_revelation,gem_id=173128
+profileset."16_Versatility"+=main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation,gem_id=173129
+profileset."16_Critical_Strike"+=main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation,gem_id=173127
+profileset."16_Mastery"+=main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation,gem_id=173130
+profileset."16_Haste"+=main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation,gem_id=173128
+profileset."7_Intellect"+=main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation,gem_id=168638
+profileset."6_Intellect"+=main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation,gem_id=153709
 
 # Flasks
 profileset."Spectral_Flask_of_Power"+=flask=spectral_flask_of_power
 
 # Potions
 profileset."Potion_of_Empowered_Exorcisms"+=potion=potion_of_empowered_exorcisms
-profileset."Potion_of_Empowered_Exorcisms_Shadowcore_Oil"+=potion=potion_of_empowered_exorcisms
-profileset."Potion_of_Empowered_Exorcisms_Shadowcore_Oil"+=trinket1=macabre_sheet_music,id=184024,ilevel=226,enchant=shadowcore_oil
-
 profileset."Potion_of_Phantom_Fire"+=potion=potion_of_phantom_fire
-profileset."Potion_of_Phantom_Fire_Shadowcore_Oil"+=potion=potion_of_phantom_fire
-profileset."Potion_of_Phantom_Fire_Shadowcore_Oil"+=trinket1=macabre_sheet_music,id=184024,ilevel=226,enchant=shadowcore_oil
-
 profileset."Potion_of_Spectral_Intellect"+=potion=potion_of_spectral_intellect
 profileset."Potion_of_Deathly_Fixation"+=potion=potion_of_deathly_fixation
-
-profileset."Potion_of_Deathly_Fixation_Shadowcore_Oil"+=potion=potion_of_deathly_fixation
-profileset."Potion_of_Deathly_Fixation_Shadowcore_Oil"+=trinket1=macabre_sheet_music,id=184024,ilevel=226,enchant=shadowcore_oil
 
 # Food
 profileset."Feast_of_Gluttonous_Hedonism"+=food=feast_of_gluttonous_hedonism
@@ -59,6 +52,3 @@ profileset."Spinefin_Souffle_and_Fries"+=food=spinefin_souffle_and_fries
 profileset."Tenebrous_Crown_Roast_Aspic"+=food=tenebrous_crown_roast_aspic
 profileset."Iridescent_Ravioli_with_Apple_Sauce"+=food=iridescent_ravioli_with_apple_sauce
 profileset."Steak_a_la_Mode"+=food=steak_a_la_mode
-
-# Weapon Oils
-profileset."Shadowcore_Oil"+=trinket1=macabre_sheet_music,id=184024,ilevel=226,enchant=shadowcore_oil

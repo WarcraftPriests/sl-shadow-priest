@@ -128,7 +128,7 @@ def analyze_data(args, talent, covenant, weights):
 
 
 def main():
-    # pylint: disable=import-outside-toplevel,too-many-branches,unsupported-assignment-operation
+    # pylint: disable=import-outside-toplevel,too-many-branches,unsupported-assignment-operation,duplicate-code
     """main function, runs and parses sims"""
     parser = utils.generate_parser("Parses a list of reports from Raidbots.")
     parser.add_argument(
@@ -163,13 +163,20 @@ def main():
     covenants = utils.get_covenant(args)
 
     if covenants:
-        for talent, covenant in [
-            (talent, covenant) for talent in talents for covenant in covenants
-        ]:
-            print("Simming {0}-{1} profiles...".format(talent, covenant))
-            run_sims(args, iterations, talent, covenant)
-            convert_to_csv(args, weights, talent, covenant)
-            analyze_data(args, talent, covenant, weights)
+        if talents:
+            for talent, covenant in [
+                (talent, covenant) for talent in talents for covenant in covenants
+            ]:
+                print("Simming {0}-{1} profiles...".format(talent, covenant))
+                run_sims(args, iterations, talent, covenant)
+                convert_to_csv(args, weights, talent, covenant)
+                analyze_data(args, talent, covenant, weights)
+        else:
+            for covenant in covenants:
+                print("Simming {0} profiles...".format(covenant))
+                run_sims(args, iterations, None, covenant)
+                convert_to_csv(args, weights, None, covenant)
+                analyze_data(args, None, covenant, weights)
     elif talents:
         for talent in talents:
             print("Simming {0} profiles...".format(talent))

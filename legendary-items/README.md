@@ -1,9 +1,14 @@
 # Legendary Item sims
 This goes a step ahead of the `legendaries/` sims and actually uses the raw items to compare against rather than just the power of the legendary effect.
 
-Base gear uses BiS pieces from Castle Nathria where appropriate. This means some pieces are 233 while most are 226 in that slot.
-
-Note that for the sake of evaluating full bis Dungeon gloves/wrists/legs were used for more optimal stat comparisons.
+## Notes
+- Base gear uses BiS pieces from Castle Nathria where appropriate. This means some pieces are 233 while most are 226 in that slot.
+- Note that for the sake of evaluating full bis Dungeon gloves/wrists/legs were used for more optimal stat comparisons.
+- `HC` and `HM` refer to the stats on the item. `HC` is Haste Crit and `HM` is Haste Mastery.
+- The `Conduit` versions of items refer to the following:
+  - Rabid Shadows for Shadowflame Prism
+  - Power Unto Others for Twins of the Sun Priestess
+  - Mind Devourer for Talbadar's Stratagem
 
 ## Night Fae
 ### Raids
@@ -19,10 +24,10 @@ Note that for the sake of evaluating full bis Dungeon gloves/wrists/legs were us
 - [Night Fae - Single - STM](results/Results_Single_stm_night_fae.md) - `FotM_ToF_AS_VT_STM`
 
 ### Dungeons
-- [Night Fae - Dungeons - AM](results/Results_Dungeons_am_night_fae.md) - `FotM_SN_SC_MB_AM`
-- [Night Fae - Dungeons - HV-AS](results/Results_Dungeons_hv-as_night_fae.md) - `FotM_SN_AS_MB_HV`
-- [Night Fae - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_night_fae.md) - `FotM_SN_SC_MB_HV`
-- [Night Fae - Dungeons - STM](results/Results_Dungeons_stm_night_fae.md) - `FotM_SN_SC_MB_STM`
+- [Night Fae - Dungeons - AM](results/Results_Dungeons_am_night_fae.md) - `DaM_SN_SC_MB_AM`
+- [Night Fae - Dungeons - HV-AS](results/Results_Dungeons_hv-as_night_fae.md) - `DaM_SN_AS_MB_HV`
+- [Night Fae - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_night_fae.md) - `DaM_SN_SC_MB_HV`
+- [Night Fae - Dungeons - STM](results/Results_Dungeons_stm_night_fae.md) - `DaMSN_SC_MB_STM`
 
 ## Kyrian
 ### Raids
@@ -38,10 +43,10 @@ Note that for the sake of evaluating full bis Dungeon gloves/wrists/legs were us
 - [Kyrian - Single - STM](results/Results_Single_stm_kyrian.md) - `FotM_ToF_AS_VT_STM`
 
 ### Dungeons
-- [Kyrian - Dungeons - AM](results/Results_Dungeons_am_kyrian.md) - `FotM_SN_SC_MB_AM`
-- [Kyrian - Dungeons - HV-AS](results/Results_Dungeons_hv-as_kyrian.md) - `FotM_SN_AS_MB_HV`
-- [Kyrian - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_kyrian.md) - `FotM_SN_SC_MB_HV`
-- [Kyrian - Dungeons - STM](results/Results_Dungeons_stm_kyrian.md) - `FotM_SN_SC_MB_STM`
+- [Kyrian - Dungeons - AM](results/Results_Dungeons_am_kyrian.md) - `DaM_SN_SC_MB_AM`
+- [Kyrian - Dungeons - HV-AS](results/Results_Dungeons_hv-as_kyrian.md) - `DaM_SN_AS_MB_HV`
+- [Kyrian - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_kyrian.md) - `DaM_SN_SC_MB_HV`
+- [Kyrian - Dungeons - STM](results/Results_Dungeons_stm_kyrian.md) - `DaM_SN_SC_MB_STM`
 
 ## Venthyr
 ### Raids
@@ -57,10 +62,10 @@ Note that for the sake of evaluating full bis Dungeon gloves/wrists/legs were us
 - [Venthyr - Single - STM](results/Results_Single_stm_venthyr.md) - `FotM_ToF_AS_VT_STM`
 
 ### Dungeons
-- [Venthyr - Dungeons - AM](results/Results_Dungeons_am_venthyr.md) - `FotM_SN_SC_MB_AM`
-- [Venthyr - Dungeons - HV-AS](results/Results_Dungeons_hv-as_venthyr.md) - `FotM_SN_AS_MB_HV`
-- [Venthyr - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_venthyr.md) - `FotM_SN_SC_MB_HV`
-- [Venthyr - Dungeons - STM](results/Results_Dungeons_stm_venthyr.md) - `FotM_SN_SC_MB_STM`
+- [Venthyr - Dungeons - AM](results/Results_Dungeons_am_venthyr.md) - `DaM_SN_SC_MB_AM`
+- [Venthyr - Dungeons - HV-AS](results/Results_Dungeons_hv-as_venthyr.md) - `DaM_SN_AS_MB_HV`
+- [Venthyr - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_venthyr.md) - `DaM_SN_SC_MB_HV`
+- [Venthyr - Dungeons - STM](results/Results_Dungeons_stm_venthyr.md) - `DaM_SN_SC_MB_STM`
 
 ## Necrolord
 ### Raids
@@ -76,7 +81,7 @@ Note that for the sake of evaluating full bis Dungeon gloves/wrists/legs were us
 - [Necrolord - Single - STM](results/Results_Single_stm_necrolord.md) - `FotM_ToF_AS_VT_STM`
 
 ### Dungeons
-- [Necrolord - Dungeons - AM](results/Results_Dungeons_am_necrolord.md) - `FotM_SN_SC_MB_AM`
-- [Necrolord - Dungeons - HV-AS](results/Results_Dungeons_hv-as_necrolord.md) - `FotM_SN_AS_MB_HV`
-- [Necrolord - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_necrolord.md) - `FotM_SN_SC_MB_HV`
-- [Necrolord - Dungeons - STM](results/Results_Dungeons_stm_necrolord.md) - `FotM_SN_SC_MB_STM`
+- [Necrolord - Dungeons - AM](results/Results_Dungeons_am_necrolord.md) - `DaM_SN_SC_MB_AM`
+- [Necrolord - Dungeons - HV-AS](results/Results_Dungeons_hv-as_necrolord.md) - `DaM_SN_AS_MB_HV`
+- [Necrolord - Dungeons - HV-SC](results/Results_Dungeons_hv-sc_necrolord.md) - `DaM_SN_SC_MB_HV`
+- [Necrolord - Dungeons - STM](results/Results_Dungeons_stm_necrolord.md) - `DaM_SN_SC_MB_STM`
