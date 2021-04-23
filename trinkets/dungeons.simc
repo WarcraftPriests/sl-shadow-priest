@@ -26,6 +26,14 @@ main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revela
 # Dungeon Trinkets: 158/171/184
 # Mythic+ Trinkets (+Great Vault): 187/190/194/197/200/203/207/210/213/216/220/223/226
 
+# Tazavesh, the Veiled Market
+# TODO: need to test all 4 stats?
+profileset."Soleahs_Secret_Technique_171"+=trinket1=soleahs_secret_technique,id=185818,ilevel=171
+profileset."Soleahs_Secret_Technique_184"+=trinket1=soleahs_secret_technique,id=185818,ilevel=184
+
+profileset."Miniscule_Mailemental_in_an_Envelope_171"+=trinket1=miniscule_mailemental_in_an_envelope,id=185846,ilevel=171
+profileset."Miniscule_Mailemental_in_an_Envelope_184"+=trinket1=miniscule_mailemental_in_an_envelope,id=185846,ilevel=184
+
 # Spires of Ascension
 profileset."Empyreal_Ordnance_171"+=trinket1=empyreal_ordnance,id=180117,ilevel=171
 profileset."Empyreal_Ordnance_184"+=trinket1=empyreal_ordnance,id=180117,ilevel=184

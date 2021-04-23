@@ -83,7 +83,7 @@ sims:
     files:
       - apl.simc
   conduit-combos:
-    description: "Sims picking two conduits together to see if this changes the conduit rankings at all."
+    description: "Sims picking two and three conduits together to see how this changes the conduit rankings."
     builds: true
     weights: false
     covenant:
@@ -98,7 +98,7 @@ sims:
       - night_fae.simc
       - venthyr.simc
   conduits:
-    description: "Conduit sims by rank/ilevel for each given conduit."
+    description: "Conduit sims by rank/ilevel for each given conduit up to rank 9."
     builds: true
     weights: false
     covenant:
@@ -113,6 +113,8 @@ sims:
       - 200
       - 213
       - 226
+      - 239
+      - 252
     files:
       - kyrian.simc
       - necrolord.simc
@@ -216,7 +218,7 @@ sims:
     files:
       - legendaries.simc
   legendary-items:
-    description: "Using a base set of Mythic BiS gear from Castle Nathria we swap out for each Legendary Item + Power to get a sense for what would be an upgrade compared to the base pieces we have available. HC stands for Haste Crit, and HM stands for Haste Mastery."
+    description: "Using a base set of Mythic BiS gear from Sanctum of Domination we swap out for each Legendary Item + Power to get a sense for what would be an upgrade compared to the base pieces we have available. HC stands for Haste Crit, and HM stands for Haste Mastery."
     builds: true
     weights: false
     covenant:
@@ -386,12 +388,16 @@ sims:
       - 223
       - 226
       - 233
+      - 239
+      - 246
+      - 252
+      - 259
     files:
       - raid.simc
       - dungeons.simc
       - other.simc
   weights:
-    description: Stat weight sims for BiS Mythic Castle Nathria gear.
+    description: Stat weight sims for BiS Mythic Sanctum of Domination gear.
     builds: true
     weights: true
     covenant:
@@ -402,7 +408,7 @@ sims:
       - DPS
     files:
       - weights.simc
-compositeWeights: weightsCastleNathria
+compositeWeights: weightsSanctumOfDomination
 singleTargetWeights: weightsSingle
 singleTargetProfiles:
   - pw_na_1

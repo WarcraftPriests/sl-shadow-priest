@@ -24,17 +24,31 @@ trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
+# HA, DE, MD, RS, SP
+
+# 3 Conduit Combinations
+profileset."HA_DE_MD"+=soulbind=theotar_the_mad_duke,107:9/115:9/113:9
+profileset."HA_DE_RS"+=soulbind=theotar_the_mad_duke,107:9/115:9/114:9
+profileset."DE_MD_RS"+=soulbind=theotar_the_mad_duke,115:9/113:9/114:9
+profileset."HA_MD_RS"+=soulbind=theotar_the_mad_duke,107:9/113:9/114:9
+
+profileset."HA_RS_SP"+=soulbind=theotar_the_mad_duke,107:9/114:9/105:9
+profileset."DE_MD_SP"+=soulbind=theotar_the_mad_duke,115:9/113:9/105:9
+profileset."DE_RS_SP"+=soulbind=theotar_the_mad_duke,115:9/114:9/105:9
+profileset."MD_RS_SP"+=soulbind=theotar_the_mad_duke,113:9/114:9/105:9
+profileset."HA_DE_SP"+=soulbind=theotar_the_mad_duke,107:9/115:9/105:9
+
 # 2 Conduit Combinations
-profileset."HA_DE_2"+=soulbind=theotar_the_mad_duke,107:7/115:7
-profileset."HA_MD_2"+=soulbind=theotar_the_mad_duke,107:7/113:7
-profileset."HA_RS_2"+=soulbind=theotar_the_mad_duke,107:7/114:7
-profileset."HA_SP_2"+=soulbind=theotar_the_mad_duke,107:7/105:7
+profileset."HA_DE_2"+=soulbind=theotar_the_mad_duke,107:9/115:9
+profileset."HA_MD_2"+=soulbind=theotar_the_mad_duke,107:9/113:9
+profileset."HA_RS_2"+=soulbind=theotar_the_mad_duke,107:9/114:9
+profileset."HA_SP_2"+=soulbind=theotar_the_mad_duke,107:9/105:9
 
-profileset."DE_MD_2"+=soulbind=theotar_the_mad_duke,115:7/113:7
-profileset."DE_RS_2"+=soulbind=theotar_the_mad_duke,115:7/114:7
-profileset."DE_SP_2"+=soulbind=theotar_the_mad_duke,115:7/105:7
+profileset."DE_MD_2"+=soulbind=theotar_the_mad_duke,115:9/113:9
+profileset."DE_RS_2"+=soulbind=theotar_the_mad_duke,115:9/114:9
+profileset."DE_SP_2"+=soulbind=theotar_the_mad_duke,115:9/105:9
 
-profileset."MD_RS_2"+=soulbind=theotar_the_mad_duke,113:7/114:7
-profileset."MD_SP_2"+=soulbind=theotar_the_mad_duke,113:7/105:7
+profileset."MD_RS_2"+=soulbind=theotar_the_mad_duke,113:9/114:9
+profileset."MD_SP_2"+=soulbind=theotar_the_mad_duke,113:9/105:9
 
-profileset."RS_SP_2"+=soulbind=theotar_the_mad_duke,114:7/105:7
+profileset."RS_SP_2"+=soulbind=theotar_the_mad_duke,114:9/105:9

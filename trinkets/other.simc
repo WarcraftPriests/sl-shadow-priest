@@ -125,6 +125,7 @@ profileset."Instructors_Divine_Bell_198"+=trinket1=instructors_divine_bell,id=18
 profileset."Instructors_Divine_Bell_203"+=trinket1=instructors_divine_bell,id=184842,ilevel=203
 
 # PVP Trinkets
+# TODO add 9.1 versions
 # Conquest: 190, 200, 207, 213, 220, 226
 profileset."Sinful_Gladiators_Badge_of_Ferocity_190"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921,ilevel=190
 profileset."Sinful_Gladiators_Badge_of_Ferocity_200"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921,ilevel=200
