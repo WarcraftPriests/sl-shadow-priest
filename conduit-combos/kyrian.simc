@@ -27,16 +27,16 @@ main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revela
 # HA, DE, MD, RS, CA
 
 # 3 Conduit Combinations
-profileset."HA_DE_MD"+=soulbind=theotar_the_mad_duke,107:9/115:9/113:9
-profileset."HA_DE_RS"+=soulbind=theotar_the_mad_duke,107:9/115:9/114:9
-profileset."DE_MD_RS"+=soulbind=theotar_the_mad_duke,115:9/113:9/114:9
-profileset."HA_MD_RS"+=soulbind=theotar_the_mad_duke,107:9/113:9/114:9
+profileset."HA_DE_MD_3"+=soulbind=theotar_the_mad_duke,107:9/115:9/113:9
+profileset."HA_DE_RS_3"+=soulbind=theotar_the_mad_duke,107:9/115:9/114:9
+profileset."DE_MD_RS_3"+=soulbind=theotar_the_mad_duke,115:9/113:9/114:9
+profileset."HA_MD_RS_3"+=soulbind=theotar_the_mad_duke,107:9/113:9/114:9
 
-profileset."HA_RS_CA"+=soulbind=theotar_the_mad_duke,107:9/114:9/87:9
-profileset."DE_MD_CA"+=soulbind=theotar_the_mad_duke,115:9/113:9/87:9
-profileset."DE_RS_CA"+=soulbind=theotar_the_mad_duke,115:9/114:9/87:9
-profileset."MD_RS_CA"+=soulbind=theotar_the_mad_duke,113:9/114:9/87:9
-profileset."HA_DE_CA"+=soulbind=theotar_the_mad_duke,107:9/115:9/87:9
+profileset."HA_RS_CA_3"+=soulbind=theotar_the_mad_duke,107:9/114:9/87:9
+profileset."DE_MD_CA_3"+=soulbind=theotar_the_mad_duke,115:9/113:9/87:9
+profileset."DE_RS_CA_3"+=soulbind=theotar_the_mad_duke,115:9/114:9/87:9
+profileset."MD_RS_CA_3"+=soulbind=theotar_the_mad_duke,113:9/114:9/87:9
+profileset."HA_DE_CA_3"+=soulbind=theotar_the_mad_duke,107:9/115:9/87:9
 
 # 2 Conduit Combinations
 profileset."HA_DE_2"+=soulbind=theotar_the_mad_duke,107:9/115:9
