@@ -5,7 +5,7 @@ position=back
 spec=shadow
 talents=${talents}
 covenant=${covenant}
-soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7
+soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9
 
 default_actions=1
 
@@ -89,31 +89,32 @@ profileset."Sephuzs_Proclamation_Neck_HM_225"+=neck=,id=178927,ilevel=190,bonus_
 profileset."Sephuzs_Proclamation_Neck_HM_235"+=neck=,id=178927,ilevel=190,bonus_id=7103/6648/6649
 
 # Third Eye of the Jailer - Head,Shoulder,Waist - 7105
-profileset."Third_Eye_of_the_Jailer_Head_HC_190"+=head=,id=173245,ilevel=190,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Head_HC_210"+=head=,id=173245,ilevel=210,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Head_HC_225"+=head=,id=173245,ilevel=225,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Head_HC_235"+=head=,id=173245,ilevel=235,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Shoulder_HC_190"+=shoulder=,id=173247,ilevel=190,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Shoulder_HC_210"+=shoulder=,id=173247,ilevel=210,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Shoulder_HC_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Shoulder_HC_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Waist_HC_190"+=waist=,id=173248,ilevel=190,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Waist_HC_210"+=waist=,id=173248,ilevel=210,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Waist_HC_225"+=waist=,id=173248,ilevel=225,bonus_id=7105/6647/6649
-profileset."Third_Eye_of_the_Jailer_Waist_HC_235"+=waist=,id=173248,ilevel=235,bonus_id=7105/6647/6649
+# NYI
+# profileset."Third_Eye_of_the_Jailer_Head_HC_190"+=head=,id=173245,ilevel=190,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Head_HC_210"+=head=,id=173245,ilevel=210,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Head_HC_225"+=head=,id=173245,ilevel=225,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Head_HC_235"+=head=,id=173245,ilevel=235,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Shoulder_HC_190"+=shoulder=,id=173247,ilevel=190,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Shoulder_HC_210"+=shoulder=,id=173247,ilevel=210,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Shoulder_HC_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Shoulder_HC_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Waist_HC_190"+=waist=,id=173248,ilevel=190,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Waist_HC_210"+=waist=,id=173248,ilevel=210,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Waist_HC_225"+=waist=,id=173248,ilevel=225,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Waist_HC_235"+=waist=,id=173248,ilevel=235,bonus_id=7105/6647/6649
 
-profileset."Third_Eye_of_the_Jailer_Head_HM_190"+=head=,id=173245,ilevel=190,bonus_id=7105/6648/6649
-profileset."Third_Eye_of_the_Jailer_Head_HM_210"+=head=,id=173245,ilevel=210,bonus_id=7105/6648/6649
-profileset."Third_Eye_of_the_Jailer_Head_HM_225"+=head=,id=173245,ilevel=225,bonus_id=7105/6648/6649
-profileset."Third_Eye_of_the_Jailer_Head_HM_235"+=head=,id=173245,ilevel=235,bonus_id=7105/6648/6649
-profileset."Third_Eye_of_the_Jailer_Shoulder_HM_190"+=shoulder=,id=173247,ilevel=190,bonus_id=7105/6648/6649
-profileset."Third_Eye_of_the_Jailer_Shoulder_HM_210"+=shoulder=,id=173247,ilevel=210,bonus_id=7105/6648/6649
-profileset."Third_Eye_of_the_Jailer_Shoulder_HM_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7105/6648/6649
-profileset."Third_Eye_of_the_Jailer_Shoulder_HM_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7105/6648/6649
-profileset."Third_Eye_of_the_Jailer_Waist_HM_190"+=waist=,id=173248,ilevel=190,bonus_id=7105/6648/6649
-profileset."Third_Eye_of_the_Jailer_Waist_HM_210"+=waist=,id=173248,ilevel=210,bonus_id=7105/6648/6649
-profileset."Third_Eye_of_the_Jailer_Waist_HM_225"+=waist=,id=173248,ilevel=225,bonus_id=7105/6648/6649
-profileset."Third_Eye_of_the_Jailer_Waist_HM_235"+=waist=,id=173248,ilevel=235,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Head_HM_190"+=head=,id=173245,ilevel=190,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Head_HM_210"+=head=,id=173245,ilevel=210,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Head_HM_225"+=head=,id=173245,ilevel=225,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Head_HM_235"+=head=,id=173245,ilevel=235,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Shoulder_HM_190"+=shoulder=,id=173247,ilevel=190,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Shoulder_HM_210"+=shoulder=,id=173247,ilevel=210,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Shoulder_HM_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Shoulder_HM_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Waist_HM_190"+=waist=,id=173248,ilevel=190,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Waist_HM_210"+=waist=,id=173248,ilevel=210,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Waist_HM_225"+=waist=,id=173248,ilevel=225,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Waist_HM_235"+=waist=,id=173248,ilevel=235,bonus_id=7105/6648/6649
 
 # Echo of Eonar - Wasit,Wrist,Finger - 7100
 # TODO: Add allies?

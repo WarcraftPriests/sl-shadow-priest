@@ -13,38 +13,10 @@ builds:
       third:
         id: "113"
         name: MD
-  hv-as:
+  hv:
     composite: 1111132 # FotM_ToF_AS_VT_HV
-    dungeons: 2131122 # DaM_SN_AS_MB_HV
-    single: 1111132 # FotM_ToF_AS_VT_HV
-    conduits:
-      first:
-        id: "107"
-        name: HA
-      second:
-        id: "115"
-        name: DE
-      third:
-        id: "113"
-        name: MD
-  hv-sc:
-    composite: 1111332 # FotM_ToF_SC_VT_HV
     dungeons: 2131322 # DaM_SN_SC_MB_HV
-    single: 1111332 # FotM_ToF_SC_VT_HV
-    conduits:
-      first:
-        id: "107"
-        name: HA
-      second:
-        id: "115"
-        name: DE
-      third:
-        id: "113"
-        name: MD
-  stm:
-    composite: 1111133 # FotM_ToF_AS_VT_STM
-    dungeons: 2131323 # DaM_SN_SC_MB_STM
-    single: 1111133 # FotM_ToF_AS_VT_STM
+    single: 1111132 # FotM_ToF_AS_VT_HV
     conduits:
       first:
         id: "107"

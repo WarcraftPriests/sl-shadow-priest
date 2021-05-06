@@ -1,16 +1,16 @@
 # Dungeons - am - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|6838|6.16%|
-|Shadowflame_Prism_Conduit_9|6830|6.04%|
-|Shadowflame_Prism_Conduit_9_Mindbender|6821|5.90%|
-|Shadowflame_Prism|6747|4.75%|
-|Shadowflame_Prism_Mindbender|6744|4.70%|
-|Painbreaker_Psalm|6692|3.90%|
-|Talbadars_Stratagem|6626|2.87%|
-|Sephuzs_Proclamation|6608|2.59%|
-|Echo_of_Eonar|6544|1.60%|
-|Judgment_of_the_Arbiter|6536|1.47%|
-|Twins_of_the_Sun_Priestess_Conduit_9|6498|0.88%|
-|Third_Eye_of_the_Jailer|6448|0.11%|
-|Base|6441|0.00%|
+|Eternal_Call_to_the_Void|6840|6.05%|
+|Shadowflame_Prism_Conduit_9_Mindbender|6827|5.84%|
+|Shadowflame_Prism_Conduit_9|6820|5.74%|
+|Shadowflame_Prism|6747|4.60%|
+|Shadowflame_Prism_Mindbender|6745|4.57%|
+|Painbreaker_Psalm|6684|3.63%|
+|Talbadars_Stratagem|6628|2.76%|
+|Sephuzs_Proclamation|6609|2.47%|
+|Echo_of_Eonar|6556|1.64%|
+|Judgment_of_the_Arbiter|6542|1.43%|
+|Twins_of_the_Sun_Priestess_Conduit_9|6487|0.57%|
+|Third_Eye_of_the_Jailer|6453|0.05%|
+|Base|6450|0.00%|
