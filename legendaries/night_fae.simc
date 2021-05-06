@@ -5,7 +5,7 @@ position=back
 spec=shadow
 talents=${talents}
 covenant=night_fae
-soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7
+soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9
 
 default_actions=1
 
@@ -32,20 +32,20 @@ profileset."Shadowflame_Prism"+=head=confidants_favored_cap,id=183021,ilevel=226
 profileset."Shadowflame_Prism_Mindbender"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
 profileset."Shadowflame_Prism_Mindbender"+=talents=${talents.mindbender}
 
-# Drop HA for RS
-profileset."Shadowflame_Prism_Conduit_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
-profileset."Shadowflame_Prism_Conduit_7"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/114:7
+# Drop MD for RS
+profileset."Shadowflame_Prism_Conduit_9"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Shadowflame_Prism_Conduit_9"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/114:9
 
-profileset."Shadowflame_Prism_Conduit_7_Mindbender"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
-profileset."Shadowflame_Prism_Conduit_7_Mindbender"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/114:7
-profileset."Shadowflame_Prism_Conduit_7_Mindbender"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Conduit_9_Mindbender"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Shadowflame_Prism_Conduit_9_Mindbender"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/114:9
+profileset."Shadowflame_Prism_Conduit_9_Mindbender"+=talents=${talents.mindbender}
 
 # Painbreaker Psalm
 profileset."Painbreaker_Psalm"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6981
 
 # PI Others
-profileset."Twins_of_the_Sun_Priestess_Conduit_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7002
-profileset."Twins_of_the_Sun_Priestess_Conduit_7"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/73:7
+profileset."Twins_of_the_Sun_Priestess_Conduit_9"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7002
+profileset."Twins_of_the_Sun_Priestess_Conduit_9"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/73:9
 
 # Eternal Call to the Void
 profileset."Eternal_Call_to_the_Void"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
@@ -53,8 +53,9 @@ profileset."Eternal_Call_to_the_Void"+=head=confidants_favored_cap,id=183021,ile
 # Talbadar's Stratagem
 profileset."Talbadars_Stratagem"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7162
 
-profileset."Talbadars_Stratagem_Mind_Devourer_7"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7162
-profileset."Talbadars_Stratagem_Mind_Devourer_7"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:7/mind_devourer:7
+# Using MD by default so dont need this
+# profileset."Talbadars_Stratagem_Mind_Devourer_9"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7162
+# profileset."Talbadars_Stratagem_Mind_Devourer_9"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/mind_devourer:9
 
 # Generic Legendaries
 # Judgment of the Arbiter

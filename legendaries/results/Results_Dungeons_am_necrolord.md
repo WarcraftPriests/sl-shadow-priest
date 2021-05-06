@@ -1,17 +1,16 @@
 # Dungeons - am - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|6791|7.86%|
-|Shadowflame_Prism_Conduit_7|6723|6.78%|
-|Shadowflame_Prism_Conduit_7_Mindbender|6717|6.69%|
-|Shadowflame_Prism_Mindbender|6668|5.91%|
-|Shadowflame_Prism|6666|5.88%|
-|Talbadars_Stratagem_Mind_Devourer_7|6517|3.51%|
-|Painbreaker_Psalm|6515|3.48%|
-|Talbadars_Stratagem|6480|2.92%|
-|Sephuzs_Proclamation|6464|2.67%|
-|Echo_of_Eonar|6403|1.70%|
-|Judgment_of_the_Arbiter|6391|1.51%|
-|Twins_of_the_Sun_Priestess_Conduit_7|6312|0.25%|
-|Third_Eye_of_the_Jailer|6298|0.03%|
-|Base|6296|0.00%|
+|Eternal_Call_to_the_Void|6880|7.07%|
+|Shadowflame_Prism_Conduit_9|6845|6.52%|
+|Shadowflame_Prism_Conduit_9_Mindbender|6840|6.44%|
+|Shadowflame_Prism_Mindbender|6729|4.72%|
+|Shadowflame_Prism|6726|4.67%|
+|Painbreaker_Psalm|6663|3.69%|
+|Talbadars_Stratagem|6619|3.00%|
+|Sephuzs_Proclamation|6593|2.60%|
+|Echo_of_Eonar|6527|1.57%|
+|Judgment_of_the_Arbiter|6518|1.43%|
+|Twins_of_the_Sun_Priestess_Conduit_9|6449|0.36%|
+|Third_Eye_of_the_Jailer|6427|0.02%|
+|Base|6426|0.00%|

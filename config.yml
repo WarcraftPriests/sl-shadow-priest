@@ -10,28 +10,37 @@ builds:
       second:
         id: "115"
         name: DE
+      third:
+        id: "113"
+        name: MD
   hv-as:
     composite: 1111132 # FotM_ToF_AS_VT_HV
     dungeons: 2131122 # DaM_SN_AS_MB_HV
     single: 1111132 # FotM_ToF_AS_VT_HV
     conduits:
       first:
-        id: "115"
-        name: DE
-      second:
         id: "107"
         name: HA
+      second:
+        id: "115"
+        name: DE
+      third:
+        id: "113"
+        name: MD
   hv-sc:
     composite: 1111332 # FotM_ToF_SC_VT_HV
     dungeons: 2131322 # DaM_SN_SC_MB_HV
     single: 1111332 # FotM_ToF_SC_VT_HV
     conduits:
       first:
-        id: "115"
-        name: DE
-      second:
         id: "107"
         name: HA
+      second:
+        id: "115"
+        name: DE
+      third:
+        id: "113"
+        name: MD
   stm:
     composite: 1111133 # FotM_ToF_AS_VT_STM
     dungeons: 2131323 # DaM_SN_SC_MB_STM
@@ -43,6 +52,9 @@ builds:
       second:
         id: "115"
         name: DE
+      third:
+        id: "113"
+        name: MD
 covenants:
   list:
     - kyrian
@@ -67,8 +79,8 @@ covenants:
       dungeons: "nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586"
 legendary:
     composite: "6982" # Shadowflame Prism
-    dungeons: "6983" # Eternal Call to the Void
-    single: "7162" # Talbadar's Stratagem
+    dungeons: "6982" # Shadowflame Prism
+    single: "6982" # Shadowflame Prism
 sims:
   apl:
     description: "APL Sims used for testing rotational changes only"

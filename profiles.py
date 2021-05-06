@@ -136,7 +136,7 @@ def replace_talents(talent_string, data):
 
 def replace_conduits(talent_string, data):
     """replace conduits with config values"""
-    positions = ["first", "second"]
+    positions = ["first", "second", "third"]
     items = ["id", "name"]
 
     # replace first.id, second.id, first.name, second.name

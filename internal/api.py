@@ -206,8 +206,9 @@ def raidbots(api_key, profile_location, simc_build, output_location, report_name
         # raidbots uses hasFullJson to indicate that there is another file with more info
         if 'hasFullJson' in sim_data['simbot']:
             sim_data = retrieve_data(api_url_base, sim_id, 'data.full.json')
-        output_file = open(output_location, 'w')
-        output_file.write(json.dumps(sim_data))
-        print(f"Saved results to {output_location}")
+        with open(output_location, 'w') as file:
+            file.write(json.dumps(sim_data))
+            print(f"Saved results to {output_location}")
+            file.close()
     else:
         print("Error getting data from Raidbots")

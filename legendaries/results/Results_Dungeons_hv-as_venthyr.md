@@ -1,17 +1,16 @@
 # Dungeons - hv-as - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|6784|7.51%|
-|Shadowflame_Prism_Conduit_7|6736|6.75%|
-|Shadowflame_Prism_Conduit_7_Mindbender|6727|6.61%|
-|Shadowflame_Prism_Mindbender|6707|6.29%|
-|Shadowflame_Prism|6697|6.13%|
-|Talbadars_Stratagem|6526|3.42%|
-|Painbreaker_Psalm|6513|3.22%|
-|Talbadars_Stratagem_Mind_Devourer_7|6509|3.15%|
-|Sephuzs_Proclamation|6462|2.41%|
-|Echo_of_Eonar|6411|1.60%|
-|Judgment_of_the_Arbiter|6399|1.41%|
-|Twins_of_the_Sun_Priestess_Conduit_7|6332|0.35%|
-|Third_Eye_of_the_Jailer|6314|0.06%|
-|Base|6310|0.00%|
+|Eternal_Call_to_the_Void|6829|6.89%|
+|Shadowflame_Prism_Conduit_9_Mindbender|6796|6.37%|
+|Shadowflame_Prism_Conduit_9|6791|6.29%|
+|Shadowflame_Prism_Mindbender|6706|4.96%|
+|Shadowflame_Prism|6701|4.88%|
+|Talbadars_Stratagem|6611|3.47%|
+|Painbreaker_Psalm|6600|3.30%|
+|Sephuzs_Proclamation|6551|2.54%|
+|Echo_of_Eonar|6496|1.67%|
+|Judgment_of_the_Arbiter|6482|1.46%|
+|Twins_of_the_Sun_Priestess_Conduit_9|6435|0.72%|
+|Third_Eye_of_the_Jailer|6396|0.11%|
+|Base|6389|0.00%|
