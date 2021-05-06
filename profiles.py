@@ -213,8 +213,8 @@ def build_profiles(talent_string, covenant_string):
             if talents_expr:
                 if profile in config["singleTargetProfiles"]:
                     new_talents = config["builds"][talent_string]["single"]
-                    # Only replace Mindbender talent if using Shadowflame Prism, and it is not a legendary sim
-                    if config["legendary"]["single"] == "6982" and args.dir[:-1] != 'legendaries' and args.dir[:-1] != 'legendary-items':
+                    # Only replace Mindbender talent if using Shadowflame Prism, and it is enabled in config to replace
+                    if config["legendary"]["single"] == "6982" and config["sims"][args.dir[:-1]]["legendary"]:
                         sim_data = replace_talents(update_talents(
                             talents_expr, "mindbender"), sim_data)
                     else:
@@ -224,7 +224,7 @@ def build_profiles(talent_string, covenant_string):
                 else:
                     if args.dungeons:
                         # Only replace Mindbender talent if using Shadowflame Prism, and it is not a legendary sim
-                        if config["legendary"]["dungeons"] == "6982" and args.dir[:-1] != 'legendaries' and args.dir[:-1] != 'legendary-items':
+                        if config["legendary"]["dungeons"] == "6982" and config["sims"][args.dir[:-1]]["legendary"]:
                             sim_data = replace_talents(update_talents(
                                 talents_expr, "mindbender"), sim_data)
                         else:
@@ -233,7 +233,7 @@ def build_profiles(talent_string, covenant_string):
                             "${legendary.id}", config["legendary"]["dungeons"])
                     else:
                         # Only replace Mindbender talent if using Shadowflame Prism, and it is not a legendary sim
-                        if config["legendary"]["composite"] == "6982" and args.dir[:-1] != 'legendaries' and args.dir[:-1] != 'legendary-items':
+                        if config["legendary"]["composite"] == "6982" and config["sims"][args.dir[:-1]]["legendary"]:
                             sim_data = replace_talents(update_talents(
                                 talents_expr, "mindbender"), sim_data)
                         else:

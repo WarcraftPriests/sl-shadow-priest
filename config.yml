@@ -61,6 +61,7 @@ sims:
     covenant:
       lookup: true
       files: false
+    legendary: false
     lookupType: none
     steps:
       - DPS
@@ -73,6 +74,7 @@ sims:
     covenant:
       lookup: true
       files: true
+    legendary: false
     lookupType: none
     steps:
       - DPS
@@ -88,6 +90,7 @@ sims:
     covenant:
       lookup: true
       files: true
+    legendary: false
     lookupType: spell
     steps:
       - 145
@@ -111,6 +114,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: true
     lookupType: spell
     steps:
       - DPS
@@ -123,6 +127,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: true
     lookupType: none
     steps:
       - CovenantRange
@@ -135,6 +140,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: true
     lookupType: spell
     steps:
       - DPS
@@ -147,6 +153,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: true
     lookupType: spell
     steps:
       - DPS
@@ -159,6 +166,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: true
     lookupType: spell
     steps:
       - DPS
@@ -171,6 +179,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: true
     lookupType: spell
     steps:
       - DPS
@@ -183,6 +192,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: false
     lookupType: item
     steps:
       - 226
@@ -196,6 +206,7 @@ sims:
     covenant:
       lookup: true
       files: true
+    legendary: false
     lookupType: spell
     steps:
       - DPS
@@ -208,6 +219,7 @@ sims:
     covenant:
       lookup: true
       files: false
+    legendary: false
     lookupType: spell
     steps:
       - 190
@@ -223,7 +235,8 @@ sims:
     weights: false
     covenant:
       lookup: false
-      files: false
+      files: false\
+    legendary: true
     lookupType: spell
     steps:
       - DPS
@@ -236,6 +249,7 @@ sims:
     covenant:
       lookup: true
       files: true
+    legendary: true
     lookupType: spell
     steps:
       - DPS
@@ -251,6 +265,7 @@ sims:
     covenant:
       lookup: true
       files: true
+    legendary: true
     lookupType: none
     steps:
       - DPS
@@ -267,6 +282,7 @@ sims:
     covenant:
       lookup: true
       files: true
+    legendary: true
     lookupType: none
     steps:
       - DPS
@@ -283,6 +299,7 @@ sims:
     covenant:
       lookup: true
       files: true
+    legendary: true
     lookupType: none
     steps:
       - DPS
@@ -298,6 +315,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: true
     lookupType: none
     steps:
       - DPS
@@ -310,6 +328,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: false
     lookupType: none
     steps:
       - DPS
@@ -324,6 +343,7 @@ sims:
     covenant:
       lookup: true
       files: false
+    legendary: false
     lookupType: none
     steps:
       - DPS
@@ -336,6 +356,7 @@ sims:
     covenant:
       lookup: true
       files: false
+    legendary: true
     lookupType: none
     steps:
       - DPS
@@ -348,6 +369,7 @@ sims:
     covenant:
       lookup: true
       files: false
+    legendary: true
     lookupType: item
     steps:
       - 158
@@ -387,6 +409,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: false
     lookupType: none
     steps:
       - DPS

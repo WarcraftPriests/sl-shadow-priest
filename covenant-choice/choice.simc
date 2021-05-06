@@ -23,6 +23,9 @@ trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
+# TODO: if covenant specific leggos become competitive will need to remove "legendary: true" from config
+# instead opt to specifically put each leggo in here for each build and adjust talents as needed
+
 # Kyrian
 profileset."Kyrian_1"+=covenant=kyrian
 profileset."Kyrian_1"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
