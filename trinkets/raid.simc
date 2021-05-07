@@ -45,10 +45,11 @@ profileset."Shadowed_Orb_of_Torment_226"+=trinket1=shadowed_orb_of_torment,id=18
 profileset."Shadowed_Orb_of_Torment_239"+=trinket1=shadowed_orb_of_torment,id=186428,ilevel=239
 profileset."Shadowed_Orb_of_Torment_252"+=trinket1=shadowed_orb_of_torment,id=186428,ilevel=252
 
-profileset."Ebonsoul_Vise_213"+=trinket1=ebonsoul_vise,id=186431,ilevel=213
-profileset."Ebonsoul_Vise_226"+=trinket1=ebonsoul_vise,id=186431,ilevel=226
-profileset."Ebonsoul_Vise_239"+=trinket1=ebonsoul_vise,id=186431,ilevel=239
-profileset."Ebonsoul_Vise_252"+=trinket1=ebonsoul_vise,id=186431,ilevel=252
+# As of 5/6/2021 this trinket crashes simc
+# profileset."Ebonsoul_Vise_213"+=trinket1=ebonsoul_vise,id=186431,ilevel=213
+# profileset."Ebonsoul_Vise_226"+=trinket1=ebonsoul_vise,id=186431,ilevel=226
+# profileset."Ebonsoul_Vise_239"+=trinket1=ebonsoul_vise,id=186431,ilevel=239
+# profileset."Ebonsoul_Vise_252"+=trinket1=ebonsoul_vise,id=186431,ilevel=252
 
 profileset."Carved_Ivory_Keepsake_213"+=trinket1=carved_ivory_keepsake,id=186435,ilevel=213
 profileset."Carved_Ivory_Keepsake_226"+=trinket1=carved_ivory_keepsake,id=186435,ilevel=226
