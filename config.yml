@@ -235,7 +235,7 @@ sims:
     weights: false
     covenant:
       lookup: false
-      files: false\
+      files: false
     legendary: true
     lookupType: spell
     steps:
