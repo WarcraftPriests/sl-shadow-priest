@@ -38,19 +38,19 @@ profileset."Venthyr-Nadjia-Fatal_Flaw_AND_Thrill_Seeker"+=soulbind=nadjia_the_mi
 # Wasteland Propriety - 319983
 # Soothing Shade - 336239
 # Refined Palate - 336243
-# Party Favors - 351750 (TODO: add options)
+# Party Favors - 351750
 profileset."Venthyr-Theotar-Wasteland_Propriety"+=soulbind=theotar_the_mad_duke,319983
 profileset."Venthyr-Theotar-Soothing_Shade"+=soulbind=theotar_the_mad_duke,336239
 profileset."Venthyr-Theotar-Refined_Palate"+=soulbind=theotar_the_mad_duke,336243
 
 profileset."Venthyr-Theotar-Party_Favors_Intellect"+=soulbind=theotar_the_mad_duke,351750
-# profileset."Venthyr-Theotar-Party_Favors_Intellect"+=
+profileset."Venthyr-Theotar-Party_Favors_Intellect"+=shadowlands.party_favor_type=primary
 profileset."Venthyr-Theotar-Party_Favors_Haste"+=soulbind=theotar_the_mad_duke,351750
-# profileset."Venthyr-Theotar-Party_Favors_Haste"+=
+profileset."Venthyr-Theotar-Party_Favors_Haste"+=shadowlands.party_favor_type=haste
 profileset."Venthyr-Theotar-Party_Favors_Crit"+=soulbind=theotar_the_mad_duke,351750
-# profileset."Venthyr-Theotar-Party_Favors_Crit"+=
+profileset."Venthyr-Theotar-Party_Favors_Crit"+=shadowlands.party_favor_type=crit
 profileset."Venthyr-Theotar-Party_Favors_Versatility"+=soulbind=theotar_the_mad_duke,351750
-# profileset."Venthyr-Theotar-Party_Favors_Versatility"+=
+profileset."Venthyr-Theotar-Party_Favors_Versatility"+=shadowlands.party_favor_type=versatility
 
 # General Draven
 # Built for War - 319973
