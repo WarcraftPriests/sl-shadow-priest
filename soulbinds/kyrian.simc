@@ -25,27 +25,35 @@ trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
 # Pelagos
-# 2 conduit setup
-# Let Go of the Past - 328257
+# 3 conduit setup
 # Combat Meditation - 328266
+# Better Together - 351146
+# Newfound Resolve - 351149
 # shadowlands.combat_meditation_extend_chance = 0.5
-profileset."Pelagos-CM-${conduits.first.name}_${conduits.second.name}"+=soulbind=pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328266
+profileset."Pelagos-CM_BT_NR-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=pelagos,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/328266/351146/351149
 
 # Kleia
-# 2 conduit setup
-profileset."Kleia-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:7/${conduits.second.id}:7
+# 3 conduit setup
+# Pointed Courage - 329778
+# Spear of the Archon - 351488
+# Light the Path (requires Valiant Strikes) - 351491 (329791)
+profileset."Kleia-VS_SotA_LtP-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=kleia,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/351491/329791/351488
 
-# 1 conduit setup
+# 2 conduit setup
 # Pointed Courage - 329778
 # shadowlands.pointed_courage_nearby = 5
-profileset."Kleia-PC-${conduits.first.name}"+=soulbind=kleia,${conduits.first.id}:7/329778
+profileset."Kleia-VS_PC_SotA_LtP-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:9/${conduits.second.id}:9/329778/351491/329791/351488
 
 # Forgelite Prime Mikanikos
+# 3 conduit setup
+# Bron's Call to Action - 333950
+# Soulglow Spectrometer - 352186
+# Effusive Anima Accelerator - 352188
+profileset."Forgelite-BCtA_SS_EAA-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/333950/352186/352188
+
 # 2 conduit setup
 # Bron's Call to Action - 333950
-profileset."Forgelite-BCtA-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:7/${conduits.second.id}:7/333950
-
-# 1 conduit setup
-# Bron's Call to Action - 333950
 # Hammer of Genesis - 333935
-profileset."Forgelite-BCtA_HoG-${conduits.first.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:7/333950/333935
+# Soulglow Spectrometer - 352186
+# Effusive Anima Accelerator - 352188
+profileset."Forgelite-BCtA_HoG_SS_EAA-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:9/${conduits.second.id}:9/333950/333935/352186/352188

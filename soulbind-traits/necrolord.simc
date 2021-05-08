@@ -25,8 +25,9 @@ trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
 # Plague Deviser Marileth
-# Volatile Solvent - 
+# Volatile Solvent - 323074
 # Plaguey's Preemptive Strike - 323090
+# Kevin's Oozeling - 352110
 profileset."Necrolord-Marileth-Volatile_Solvent_Crit"+=soulbind=plague_deviser_marileth,323074
 profileset."Necrolord-Marileth-Volatile_Solvent_Crit"+=shadowlands.volatile_solvent_type=crit
 
@@ -40,11 +41,13 @@ profileset."Necrolord-Marileth-Volatile_Solvent_Magic"+=soulbind=plague_deviser_
 profileset."Necrolord-Marileth-Volatile_Solvent_Magic"+=shadowlands.volatile_solvent_type=magic
 
 profileset."Necrolord-Marileth-Plagueys_Preemptive_Strike"+=soulbind=plague_deviser_marileth,323090
+profileset."Necrolord-Marileth-Kevins_Oozeling"+=soulbind=plague_deviser_marileth,352110
 
 # Emeni
 # Lead by Example - 342156
 # shadowlands.lead_by_example_nearby default 2
 # Gnashing Chompers - 323919
+# Pustule Eruption (requires Fleshcraft?)
 profileset."Necrolord-Emeni-Lead_by_Example_Allies_0"+=soulbind=emeni,342156
 profileset."Necrolord-Emeni-Lead_by_Example_Allies_0"+=shadowlands.lead_by_example_nearby=0
 
@@ -65,6 +68,10 @@ profileset."Necrolord-Emeni-Gnashing_Chompers"+=soulbind=emeni,323919
 # Bonesmith Heirmir
 # Serrated Spaulders - 326504
 # Heirmir's Arsenal: Marrowed Gemstone - 326572
+# Carver's Eye - 350899
+# Mnemonic Equipment - 350936
 profileset."Necrolord-Bonesmith-Serrated_Spaulders"+=soulbind=bonesmith_heirmir,326504
 profileset."Necrolord-Bonesmith-Heirmirs_Arsenal_Marrowed_Gemstone"+=soulbind=bonesmith_heirmir,326572
 profileset."Necrolord-Bonesmith-Forgeborne_Reveries"+=soulbind=bonesmith_heirmir,326514
+profileset."Necrolord-Bonesmith-Carvers_Eye"+=soulbind=bonesmith_heirmir,350899
+profileset."Necrolord-Bonesmith-Mnemonic_Equipment"+=soulbind=bonesmith_heirmir,350936

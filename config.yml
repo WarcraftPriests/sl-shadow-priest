@@ -35,20 +35,20 @@ covenants:
     - necrolord
   kyrian:
     soulbind:
-      composite: "pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328266"
-      dungeons: "forgelite_prime_mikanikos,${conduits.first.id}:7/333950/333935"
+      composite: "pelagos,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/328266/351146/351149"
+      dungeons: "forgelite_prime_mikanikos,${conduits.first.id}:9/${conduits.second.id}:9/333950/333935/352186/352188"
   necrolord:
     soulbind:
-      composite: "emeni,${conduits.first.id}:7/${conduits.second.id}:7/342156"
-      dungeons: "bonesmith_heirmir,${conduits.first.id}:7/326572/326514"
+      composite: "emeni,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/342156"
+      dungeons: "bonesmith_heirmir,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/326514/350899/350936"
   night_fae:
     soulbind:
-      composite: "niya,${conduits.first.id}:7/${conduits.second.id}:7/322721/320660"
-      dungeons: "korayn,${conduits.first.id}:7/325066/325069"
+      composite: "niya,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/322721/320660/352503"
+      dungeons: "dreamweaver,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/319191/352786"
   venthyr:
     soulbind:
-      composite: "theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/336239"
-      dungeons: "nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586"
+      composite: "theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/336239/351750"
+      dungeons: "soulbind=nadjia_the_mistblade,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/331586/352373"
 legendary:
     composite: "6982" # Shadowflame Prism
     dungeons: "6982" # Shadowflame Prism

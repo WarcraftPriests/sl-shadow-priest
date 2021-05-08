@@ -1,8 +1,8 @@
 # Soulbind Results
 
-Each Soulbind is simmed with all the possible DPS paths with the top 1 or 2 Conduits at rank 7 depending on the path chosen.
+Each Soulbind is simmed with all the possible DPS paths with the top 1, 2, or 3 Conduits at rank 9 depending on the path chosen.
 
-Anytime Shadowflame Prism is used the Mindbender talent is automatically selected over the default.
+Anytime Shadowflame Prism is used the Mindbender talent is automatically selected over the default in addition to Rabid Shadows being swapped for the third conduit if ever used.
 
 ## Night Fae
 ### Acronyms

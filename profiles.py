@@ -134,7 +134,7 @@ def replace_talents(talent_string, data):
     return data
 
 
-def replace_conduits(talent_string, data):
+def replace_conduits(talent_string, data, swap_to_rs):
     """replace conduits with config values"""
     positions = ["first", "second", "third"]
     items = ["id", "name"]
@@ -142,8 +142,16 @@ def replace_conduits(talent_string, data):
     # replace first.id, second.id, first.name, second.name
     for position in positions:
         for item in items:
-            data = data.replace("${{conduits.{0}.{1}}}".format(
-                position, item), config["builds"][talent_string]["conduits"][position][item])
+            # Override third conduit if using Shadowflame Prism
+            # RS > MD with SFP
+            if position == "third" and swap_to_rs:
+                if item == "name":
+                    data = data.replace("${conduits.third.name}", "RS")
+                if item == "id":
+                    data = data.replace("${conduits.third.id}", "114")
+            else:
+                data = data.replace("${{conduits.{0}.{1}}}".format(
+                    position, item), config["builds"][talent_string]["conduits"][position][item])
     return data
 
 
@@ -198,7 +206,6 @@ def build_profiles(talent_string, covenant_string):
             data = data.replace("${talents}", str(talents_expr))
             data = data.replace("${talents.mindbender}", update_talents(
                 str(talents_expr), "mindbender"))
-            data = replace_conduits(talent_string, data)
         if covenant_string:
             data = data.replace("${covenant}", covenant_string)
 
@@ -213,6 +220,14 @@ def build_profiles(talent_string, covenant_string):
             if talents_expr:
                 if profile in config["singleTargetProfiles"]:
                     new_talents = config["builds"][talent_string]["single"]
+                    # Replace conduits
+                    if config["legendary"]["single"] == "6982" and config["sims"][args.dir[:-1]]["legendary"]:
+                        replace_conduit = True
+                    else:
+                        replace_conduit = False
+                    sim_data = replace_conduits(
+                        talent_string, sim_data, replace_conduit)
+
                     # Only replace Mindbender talent if using Shadowflame Prism, and it is enabled in config to replace
                     if config["legendary"]["single"] == "6982" and config["sims"][args.dir[:-1]]["legendary"]:
                         sim_data = replace_talents(update_talents(
@@ -223,6 +238,13 @@ def build_profiles(talent_string, covenant_string):
                         "${legendary.id}", config["legendary"]["single"])
                 else:
                     if args.dungeons:
+                        # Replace conduits
+                        if config["legendary"]["dungeons"] == "6982" and config["sims"][args.dir[:-1]]["legendary"]:
+                            replace_conduit = True
+                        else:
+                            replace_conduit = False
+                        sim_data = replace_conduits(
+                            talent_string, sim_data, replace_conduit)
                         # Only replace Mindbender talent if using Shadowflame Prism, and it is not a legendary sim
                         if config["legendary"]["dungeons"] == "6982" and config["sims"][args.dir[:-1]]["legendary"]:
                             sim_data = replace_talents(update_talents(
@@ -232,6 +254,13 @@ def build_profiles(talent_string, covenant_string):
                         sim_data = sim_data.replace(
                             "${legendary.id}", config["legendary"]["dungeons"])
                     else:
+                        # Replace conduits
+                        if config["legendary"]["dungeons"] == "6982" and config["sims"][args.dir[:-1]]["legendary"]:
+                            replace_conduit = True
+                        else:
+                            replace_conduit = False
+                        sim_data = replace_conduits(
+                            talent_string, sim_data, replace_conduit)
                         # Only replace Mindbender talent if using Shadowflame Prism, and it is not a legendary sim
                         if config["legendary"]["composite"] == "6982" and config["sims"][args.dir[:-1]]["legendary"]:
                             sim_data = replace_talents(update_talents(

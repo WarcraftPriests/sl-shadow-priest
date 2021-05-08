@@ -24,38 +24,38 @@ trinket1=dreadfire_vessel,id=184030,ilevel=233
 trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
-# Baseline Conduits - Top 2
-# - HA_DE_2
-# - Dissonant Echoes - 115
-# - Haunting Apparitions - 107
-
 # Niya
-# 2 conduit setup
+# 3 conduit setup
 # Grove Invigoration - 322721
 # Niya's Tools: Poison - 320660
-profileset."Niya-GI_NTP-${conduits.first.name}_${conduits.second.name}"+=soulbind=niya,${conduits.first.id}:7/${conduits.second.id}:7/322721/320660
+# Bonded Hearts (requires Grove Invigoration) - 352503
+profileset."Niya-GI_NTP_BH-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=niya,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/322721/320660/352503
 
-# 1 conduit setup
+# 2 conduit setup
 # Grove Invigoration - 322721
 # Niya's Tools: Burrs - 320659
-profileset."Niya-GI_NTB-${conduits.first.name}"+=soulbind=niya,${conduits.first.id}:7/322721/320659
+# Bonded Hearts (requires Grove Invigoration) - 352503
+profileset."Niya-GI_NTB_BH-${conduits.first.name}_${conduits.second.name}"+=soulbind=niya,${conduits.first.id}:9/${conduits.second.id}:9/322721/320659/352503
 
 # Dreamweaver
-# 2 conduit setup
+# 3 conduit setup
 # Field of Blossoms - 319191
-profileset."Dreamweaver-FoB-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:7/${conduits.second.id}:7/319191
+# Dream Delver - 352786
+profileset."Dreamweaver-FoB_DD-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=dreamweaver,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/319191/352786
 
-# 1 conduit setup
+# 2 conduit setup
 # Field of Blossoms - 319191
 # Social Butterfly - 319210
-profileset."Dreamweaver-FoB_SB-${conduits.first.name}"+=soulbind=dreamweaver,${conduits.first.id}:7/319191/319210
+# Dream Delver - 352786
+profileset."Dreamweaver-FoB_SB_DD-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:9/${conduits.second.id}:9/319191/319210/352786
 
 # Korayn
+# 3 conduit setup
+# Wild Hunt Tactics - 325066
+# Wild Hunt Strategem (requires Wild Hunt Tactics) - 352805
+profileset."Korayn-WHT_WHS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=korayn,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/325066/352805
+
 # 2 conduit setup
 # Wild Hunt Tactics - 325066
-profileset."Korayn-WHT-${conduits.first.name}_${conduits.second.name}"+=soulbind=korayn,${conduits.first.id}:7/${conduits.second.id}:7/325066
-
-# 1 conduit setup
-# Wild Hunt Tactics - 325066
 # First Strike - 325069
-profileset."Korayn-WHT_FS-${conduits.first.name}"+=soulbind=korayn,${conduits.first.id}:7/325066/325069
+profileset."Korayn-WHT_FS_WHS-${conduits.first.name}_${conduits.second.name}"+=soulbind=korayn,${conduits.first.id}:9/${conduits.second.id}:9/325066/325069/352805

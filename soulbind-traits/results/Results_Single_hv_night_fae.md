@@ -1,0 +1,14 @@
+# Single - hv - night_fae
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Night_Fae-Niya-Bonded_Hearts_AND_Grove_Invigoration|6396|6.35%|
+|Night_Fae-Niya-Grove_Invigoration|6275|4.33%|
+|Night_Fae-Niya-Niyas_Tools_Burrs|6247|3.88%|
+|Night_Fae-Korayn-Wild_Hunt_Strategem_AND_Wild_Hunt_Tactics|6207|3.20%|
+|Night_Fae-Korayn-Wild_Hunt_Tactics|6205|3.17%|
+|Night_Fae-Dreamweaver-Dream_Delver|6169|2.56%|
+|Night_Fae-Dreamweaver-Field_of_Blossoms|6164|2.49%|
+|Night_Fae-Dreamweaver-Social_Butterfly|6099|1.41%|
+|Night_Fae-Korayn-First_Strike|6029|0.24%|
+|Base|6014|0.00%|
+|Night_Fae-Niya-Niyas_Tools_Poison|6014|0.00%|

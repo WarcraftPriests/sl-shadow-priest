@@ -1,10 +1,10 @@
 # Single - am - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Niya-GI_NTB-HA|6604|11.39%|
-|Niya-GI_NTP-HA_DE|6588|11.12%|
-|Korayn-WHT-HA_DE|6496|9.57%|
-|Dreamweaver-FoB-HA_DE|6479|9.28%|
-|Dreamweaver-FoB_SB-HA|6370|7.44%|
-|Korayn-WHT_FS-HA|6305|6.35%|
-|Base|5929|0.00%|
+|Niya-GI_NTP_BH-HA_DE_RS|6817|17.14%|
+|Niya-GI_NTB_BH-HA_DE|6801|16.87%|
+|Dreamweaver-FoB_DD-HA_DE_RS|6735|15.73%|
+|Korayn-WHT_WHS-HA_DE_RS|6618|13.72%|
+|Dreamweaver-FoB_SB_DD-HA_DE|6585|13.16%|
+|Korayn-WHT_FS_WHS-HA_DE|6395|9.90%|
+|Base|5819|0.00%|

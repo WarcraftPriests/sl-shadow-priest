@@ -25,13 +25,18 @@ trinket2=cabalists_hymnal,id=184028,ilevel=233
 main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
 # Pelagos
-# Let Go of the Past - 328257
 # Combat Meditation - 328266
+# Better Together - 351146
+# Newfound Resolve - 351149
 # shadowlands.combat_meditation_extend_chance = 0.5
 profileset."Kyrian-Pelagos-Combat_Meditation"+=soulbind=pelagos,328266
+profileset."Kyrian-Pelagos-Better_Together"+=soulbind=pelagos,351146
+profileset."Kyrian-Pelagos-Newfound_Resolve"+=soulbind=pelagos,351149
 
 # Kleia
 # Pointed Courage - 329778
+# Spear of the Archon - 351488
+# Light the Path (requires Valiant Strikes) - 351491 (329791)
 # shadowlands.pointed_courage_nearby = 1..5
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_1"+=soulbind=kleia,329778
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_1"+=shadowlands.pointed_courage_nearby=1
@@ -48,8 +53,15 @@ profileset."Kyrian-Kleia-Pointed_Courage_Allies_4"+=shadowlands.pointed_courage_
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_5"+=soulbind=kleia,329778
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_5"+=shadowlands.pointed_courage_nearby=5
 
+profileset."Kyrian-Kleia-Spear_of_the_Archon"+=soulbind=kleia,351488
+profileset."Kyrian-Kleia-Light_the_Path"+=soulbind=kleia,351491/329791
+
 # Forgelite Prime Mikanikos
 # Bron's Call to Action - 333950
 # Hammer of Genesis - 333935
+# Soulglow Spectrometer - 352186
+# Effusive Anima Accelerator - 352188
 profileset."Kyrian-Forgelite-Brons_Call_to_Action"+=soulbind=forgelite_prime_mikanikos,333950
 profileset."Kyrian-Forgelite-Hammer_of_Genesis"+=soulbind=forgelite_prime_mikanikos,333935
+profileset."Kyrian-Forgelite-Soulglow_Spectrometer"+=soulbind=forgelite_prime_mikanikos,352186
+profileset."Kyrian-Forgelite-Effusive_Anima_Accelerator"+=soulbind=forgelite_prime_mikanikos,352188

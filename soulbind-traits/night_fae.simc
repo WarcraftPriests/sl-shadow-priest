@@ -28,18 +28,24 @@ main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revela
 # Grove Invigoration - 322721
 # Niya's Tools: Poison - 320660
 # Niya's Tools: Burrs - 320659
+# Bonded Hearts (requires Grove Invigoration) - 352503
 profileset."Night_Fae-Niya-Grove_Invigoration"+=soulbind=niya,322721
 profileset."Night_Fae-Niya-Niyas_Tools_Poison"+=soulbind=niya,320660
 profileset."Night_Fae-Niya-Niyas_Tools_Burrs"+=soulbind=niya,320659
+profileset."Night_Fae-Niya-Bonded_Hearts_AND_Grove_Invigoration"+=soulbind=niya,352503/322721
 
 # Dreamweaver
 # Field of Blossoms - 319191
 # Social Butterfly - 319210
+# Dream Delver - 352786
 profileset."Night_Fae-Dreamweaver-Field_of_Blossoms"+=soulbind=dreamweaver,319191
 profileset."Night_Fae-Dreamweaver-Social_Butterfly"+=soulbind=dreamweaver,319210
+profileset."Night_Fae-Dreamweaver-Dream_Delver"+=soulbind=dreamweaver,352786
 
 # Korayn
 # Wild Hunt Tactics - 325066
 # First Strike - 325069
+# Wild Hunt Strategem (requires Wild Hunt Tactics) - 352805
 profileset."Night_Fae-Korayn-Wild_Hunt_Tactics"+=soulbind=korayn,325066
 profileset."Night_Fae-Korayn-First_Strike"+=soulbind=korayn,325069
+profileset."Night_Fae-Korayn-Wild_Hunt_Strategem_AND_Wild_Hunt_Tactics"+=soulbind=korayn,352805/325066

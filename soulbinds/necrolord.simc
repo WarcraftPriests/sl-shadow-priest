@@ -26,62 +26,65 @@ main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revela
 
 # Plague Deviser Marileth
 # Volatile Solvent - 323074
+# Kevin's Oozeling - 352110
+# 3 conduit setup
+profileset."Marileth-VS_Crit_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=crit
+profileset."Marileth-VS_Crit_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074/352110
+
+profileset."Marileth-VS_Mastery_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=mastery
+profileset."Marileth-VS_Mastery_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074/352110
+
+profileset."Marileth-VS_Intellect_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=primary
+profileset."Marileth-VS_Intellect_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074/352110
+
+profileset."Marileth-VS_Magic_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=magic
+profileset."Marileth-VS_Magic_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074/352110
+
+profileset."Marileth-KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/352110
 
 # 2 conduit setup
-profileset."Marileth-VS_Crit-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=crit
-profileset."Marileth-VS_Crit-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
-
-profileset."Marileth-VS_Mastery-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=mastery
-profileset."Marileth-VS_Mastery-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
-
-profileset."Marileth-VS_Intellect-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=primary
-profileset."Marileth-VS_Intellect-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
-
-profileset."Marileth-VS_Magic-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=magic
-profileset."Marileth-VS_Magic-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7/323074
-
-profileset."Marileth-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/${conduits.second.id}:7
-
-# 1 conduit setup
 # Plaguey's Preemptive Strike - 323090
-profileset."Marileth-PPS_VS_Crit-${conduits.first.name}"+=shadowlands.volatile_solvent_type=crit
-profileset."Marileth-PPS_VS_Crit-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
+# Kevin's Oozeling - 352110
+profileset."Marileth-PPS_VS_Crit-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=crit
+profileset."Marileth-PPS_VS_Crit-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090/352110
 
-profileset."Marileth-PPS_VS_Mastery-${conduits.first.name}"+=shadowlands.volatile_solvent_type=mastery
-profileset."Marileth-PPS_VS_Mastery-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
+profileset."Marileth-PPS_VS_Mastery-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=mastery
+profileset."Marileth-PPS_VS_Mastery-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090/352110
 
-profileset."Marileth-PPS_VS_Intellect-${conduits.first.name}"+=shadowlands.volatile_solvent_type=primary
-profileset."Marileth-PPS_VS_Intellect-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
+profileset."Marileth-PPS_VS_Intellect-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=primary
+profileset."Marileth-PPS_VS_Intellect-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090/352110
 
-profileset."Marileth-PPS_VS_Magic-${conduits.first.name}"+=shadowlands.volatile_solvent_type=magic
-profileset."Marileth-PPS_VS_Magic-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323074/323090
+profileset."Marileth-PPS_VS_Magic-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=magic
+profileset."Marileth-PPS_VS_Magic-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090/352110
 
-profileset."Marileth-PPS-${conduits.first.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:7/323090
+profileset."Marileth-PPS-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323090/352110
 
 # Emeni
-# 2 conduit setup
+# 3 conduit setup
 # Lead by Example - 342156
-profileset."Emeni-LbE-${conduits.first.name}_${conduits.second.name}"+=soulbind=emeni,${conduits.first.id}:7/${conduits.second.id}:7/342156
+profileset."Emeni-LbE-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=emeni,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/342156
 
-# 1 conduit setup
+# 2 conduit setup
 # Lead by Example - 342156
 # Gnashing Chompers - 323919
-profileset."Emeni-LbE_GC-${conduits.first.name}"+=soulbind=emeni,${conduits.first.id}:7/342156/323919
+profileset."Emeni-LbE_GC-${conduits.first.name}_${conduits.second.name}"+=soulbind=emeni,${conduits.first.id}:9/${conduits.second.id}:9/342156/323919
 
 # Bonesmith Heirmir
-# 2 conduit setup
+# 3 conduit setup
 # Forgeborne Reveries - 326514
-profileset."Bonesmith-FR-${conduits.first.name}_${conduits.second.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/${conduits.second.id}:7/326514
+# Carver's Eye - 350899
+# Mnemonic Equipment - 350936
+profileset."Bonesmith-FR_CE_ME-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/326514/350899/350936
+
+# 2 conduit setup
+# Serrated Spaulders - 326504
+profileset."Bonesmith-FR_SS_CE_ME-${conduits.first.name}_${conduits.second.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:9/${conduits.second.id}:9/326504/326514/350899/350936
+
+# 2 conduit setup
+# Heirmir's Arsenal: Marrowed Gemstone - 326572
+profileset."Bonesmith-FR_HAMG_CE_ME-${conduits.first.name}_${conduits.second.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:9/${conduits.second.id}:9/326572/326514/350899/350936
 
 # 1 conduit setup
 # Serrated Spaulders - 326504
-profileset."Bonesmith-FR_SS-${conduits.first.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/326504/326514
-
-# 1 conduit setup
 # Heirmir's Arsenal: Marrowed Gemstone - 326572
-profileset."Bonesmith-FR_HAMG-${conduits.first.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:7/326572/326514
-
-# 0 conduit setup
-# Serrated Spaulders - 326504
-# Heirmir's Arsenal: Marrowed Gemstone - 326572
-profileset."Bonesmith-FR_SS_HAMG"+=soulbind=bonesmith_heirmir,326504/326572/326514
+profileset."Bonesmith-FR_SS_HAMG_CE_ME-${conduits.first.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:9/326504/326572/326514/350899/350936
