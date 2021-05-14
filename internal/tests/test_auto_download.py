@@ -1,12 +1,10 @@
 'auto_download test file'
-
 from unittest.mock import Mock
 import os
 import sys
-sys.path.insert(0, os.path.abspath(
+sys.path.insert(0, os.path.abspath( # This should be the path back to the root directory.
     os.path.join(os.path.dirname(__file__), '..', '..')))
-
-from internal.auto_download import download_latest, BASE_URL, _cleanup_older_files, _find_7zip # pylint: disable=wrong-import-position
+from internal.auto_download import download_latest, BASE_URL, _cleanup_older_files, _find_7zip  # pylint: disable=wrong-import-position
 
 
 def assert_not_called_with(self, *args, **kwargs):
@@ -16,7 +14,7 @@ def assert_not_called_with(self, *args, **kwargs):
     except AssertionError:
         return
     raise AssertionError('Expected %s to not have been called.' %
-                         self._format_mock_call_signature(args, kwargs)) # pylint: disable=protected-access
+                         self._format_mock_call_signature(args, kwargs))  # pylint: disable=protected-access
 
 
 Mock.assert_not_called_with = assert_not_called_with
@@ -92,5 +90,5 @@ def test_find_seven_zip(mocker):
     path = _find_7zip(paths)
 
     assert path == "path-2"
-    for path in paths[:-1]: # Removing the last entry
+    for path in paths[:-1]:  # Removing the last entry
         spy.assert_any_call(path)

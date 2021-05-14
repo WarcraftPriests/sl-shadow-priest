@@ -2,11 +2,9 @@
 import os
 from itertools import combinations_with_replacement
 import re
-import yaml
-import internal.utils as utils
 
-with open("config.yml", "r") as ymlfile:
-    config = yaml.load(ymlfile, Loader=yaml.FullLoader)
+from internal import utils
+from internal.config import config
 
 
 fightExpressions = {
@@ -25,7 +23,7 @@ fightExpressions = {
 
 def assure_path_exists(path):
     """Make sure the path exists and contains a folder"""
-    dir_name = os.path.dirname(path)
+    dir_name = os.path.realpath(path)
     if not os.path.exists(dir_name):
         os.makedirs(dir_name)
 
@@ -76,7 +74,7 @@ def generate_stat_string(stat_distribution, name):
 def build_stats_files():
     """Build generated.simc stats file from stats.simc"""
     sim_file = 'stats.simc'
-    base_file = "{0}{1}".format(args.dir, sim_file)
+    base_file = os.path.join(args.dir, sim_file)
     stats = config["stats"]["include"]
     stats_base = config["stats"]["base"] / 4
     num_of_steps = (config["stats"]["total"] -
@@ -94,7 +92,7 @@ def build_stats_files():
         rating_combinations.append(combination)
     print("Simming {0} number of combinations".format(
         len(rating_combinations)))
-    output_file = "{0}/generated.simc".format(args.dir)
+    output_file = os.path.join(args.dir, "generated.simc")
     base_stats = """gear_crit_rating={0}
 gear_haste_rating={0}
 gear_mastery_rating={0}
@@ -167,13 +165,13 @@ def build_profiles(talent_string, covenant_string):
             fight, add, tar
         ) for fight in fight_styles for add in add_types for tar in targets
     ]
-    sim_files = config["sims"][args.dir[:-1]]["files"]
+    sim_files = config["sims"][args.dir]["files"]
 
-    if config["sims"][args.dir[:-1]]["covenant"]["files"]:
-        sim_files = ["{0}.simc".format(covenant_string)]
+    if config["sims"][args.dir]["covenant"]["files"]:
+        sim_files = [f"{covenant_string}.simc"]
 
     for sim_file in sim_files:
-        with open("{0}{1}".format(args.dir, sim_file), 'r') as file:
+        with open(os.path.join(args.dir, sim_file), 'r') as file:
             data = file.read()
             file.close()
         if args.dungeons:
@@ -207,7 +205,7 @@ def build_profiles(talent_string, covenant_string):
             # prefix the profile name with the base file name
             profile_name = "{0}_{1}".format(sim_file[:-5], profile)
             settings = build_settings(
-                profile, config["sims"][args.dir[:-1]]["weights"], covenant_string)
+                profile, config["sims"][args.dir]["weights"], covenant_string)
 
             # insert talents based on profile
             if talents_expr:
@@ -243,7 +241,7 @@ def build_profiles(talent_string, covenant_string):
 
             simc_file = build_simc_file(
                 talent_string, covenant_string, profile_name)
-            with open(args.dir + simc_file, "w+") as file:
+            with open(os.path.join(args.dir, simc_file), "w+") as file:
                 if args.ptr:
                     file.writelines(fightExpressions["ptr"])
                 file.writelines(sim_data)
@@ -255,13 +253,16 @@ if __name__ == '__main__':
     parser = utils.generate_parser('Generates sim profiles.')
     args = parser.parse_args()
 
+    # Normalize the directory
+    args.dir = os.path.normpath(args.dir)
+
     talents = utils.get_talents(args)
     covenants = utils.get_covenant(args)
 
-    clear_out_folders('%soutput/' % args.dir)
-    clear_out_folders('%sprofiles/' % args.dir)
+    clear_out_folders(os.path.join(args.dir, 'output'))
+    clear_out_folders(os.path.join(args.dir, 'profiles'))
 
-    if args.dir[:-1] == 'stats':
+    if args.dir == 'stats':
         build_stats_files()
 
     if covenants:
@@ -269,23 +270,20 @@ if __name__ == '__main__':
             for talent, covenant in [
                 (talent, covenant) for talent in talents for covenant in covenants
             ]:
-                clear_out_folders(
-                    '{0}output/{1}/{2}/'.format(args.dir, talent, covenant))
-                clear_out_folders(
-                    '{0}profiles/{1}/{2}/'.format(args.dir, talent, covenant))
+                clear_out_folders(os.path.join(args.dir, 'output', talent, covenant))
+                clear_out_folders(os.path.join(args.dir, 'profiles', talent, covenant))
                 print("Building {0}-{1} profiles...".format(talent, covenant))
                 build_profiles(talent, covenant)
         else:
             for covenant in covenants:
-                clear_out_folders('{0}output/{1}/'.format(args.dir, covenant))
-                clear_out_folders(
-                    '{0}profiles/{1}/'.format(args.dir, covenant))
+                clear_out_folders(os.path.join(args.dir, 'output', covenant))
+                clear_out_folders(os.path.join(args.dir, 'profiles', covenant))
                 print("Building {0} profiles...".format(covenant))
                 build_profiles(None, covenant)
     elif talents:
         for talent in talents:
-            clear_out_folders('{0}output/{1}/'.format(args.dir, talent))
-            clear_out_folders('{0}profiles/{1}/'.format(args.dir, talent))
+            clear_out_folders(os.path.join(args.dir, 'output', talent))
+            clear_out_folders(os.path.join(args.dir, 'profiles', talent))
             print("Building {0} profiles...".format(talent))
             build_profiles(talent, None)
     else:

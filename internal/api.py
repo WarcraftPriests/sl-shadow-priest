@@ -2,11 +2,9 @@
 import json
 import time
 import requests
-import yaml
 import tqdm
 
-with open("config.yml", "r") as ymlfile:
-    config = yaml.load(ymlfile, Loader=yaml.FullLoader)
+from internal.config import config
 
 num_of_retries = int(config["raidbots"]["numOfRetries"])
 retry_interval = int(config["raidbots"]["retryInterval"])

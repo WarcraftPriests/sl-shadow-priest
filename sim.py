@@ -6,13 +6,13 @@ import re
 import os
 from os import listdir
 import importlib
-import yaml
 
+from internal import utils
+from internal.config import config
 from internal.weights import find_weights
 from internal.sim_parser import parse_json
 from internal.sim_parser import get_timestamp
 from internal.analyze import analyze
-import internal.utils as utils
 
 api_secrets_spec = importlib.util.find_spec("api_secrets")
 local_secrets_spec = importlib.util.find_spec("local_secrets")
@@ -22,9 +22,6 @@ if api_secrets_spec:
 
 if local_secrets_spec:
     local_secrets = local_secrets_spec.loader.load_module()
-
-with open("config.yml", "r") as ymlfile:
-    config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 
 def get_path(simc_build_version):
@@ -82,29 +79,32 @@ def run_sims(args, iterations, talent, covenant):
         from internal.api import raidbots
 
     print("Running sims on {0} in {1}".format(config["simcBuild"], args.dir))
-    existing = listdir(
-        args.dir + utils.get_simc_dir(talent, covenant, 'output'))
-    profiles = listdir(
-        args.dir + utils.get_simc_dir(talent, covenant, 'profiles'))
-    count = 0
+    existing = listdir(os.path.join(
+        args.dir, utils.get_simc_dir(talent, covenant, 'output')))
+    profiles = listdir(os.path.join(
+        args.dir, utils.get_simc_dir(talent, covenant, 'profiles')
+    ))
 
-    for profile in profiles:
+    for index, profile in enumerate(profiles, start=1):
         profile_name = re.search(
             '((hm|lm|pw).+?(?=.simc)|dungeons.simc)', profile).group()
-        count = count + 1
         if not args.dungeons:
             weight = find_weights(config["compositeWeights"]).get(profile_name)
+            if weight is None:
+                print(f"Unable to find a valid weight for {profile_name}")
+                continue
         else:
             weight = 1
-        print("Simming {0} out of {1}.".format(count, len(profiles)))
+        print("Simming {0} out of {1}.".format(index, len(profiles)))
         output_name = profile.replace('simc', 'json')
         if output_name not in existing and weight > 0:
-            output_location = args.dir + \
-                utils.get_simc_dir(talent, covenant, 'output') + output_name
-            profile_location = args.dir + \
-                utils.get_simc_dir(talent, covenant, 'profiles') + profile
+            output_location = os.path.realpath(os.path.join(
+                args.dir, utils.get_simc_dir(talent, covenant, 'output'), output_name))
+            profile_location = os.path.realpath(os.path.join(
+                args.dir, utils.get_simc_dir(talent, covenant, 'profiles'), profile))
             # prefix the profile name with the base file name
-            profile_name_with_dir = "{0}{1}".format(args.dir, profile_name)
+            profile_name_with_dir = os.path.join(args.dir, profile_name)
+
             raidbots(get_api_key(args, config["simcBuild"]), profile_location,
                      config["simcBuild"], output_location, profile_name_with_dir, iterations)
         elif weight == 0:
@@ -114,15 +114,17 @@ def run_sims(args, iterations, talent, covenant):
 
 
 def convert_to_csv(args, weights, talent, covenant):
-    """creates results/statweights.txt"""
-    results_dir = args.dir + utils.get_simc_dir(talent, covenant, 'output')
+    """creates results/statweights.csv"""
+    results_dir = os.path.join(
+        args.dir, utils.get_simc_dir(talent, covenant, 'output'))
     parse_json(results_dir, weights)
 
 
 def analyze_data(args, talent, covenant, weights):
     """create results"""
+    time_stamp = get_timestamp(args.dir, talent, covenant)
     analyze(talent, args.dir, args.dungeons,
-            weights, get_timestamp(), covenant)
+            weights, time_stamp, covenant)
 
 
 def main():
@@ -141,6 +143,9 @@ def main():
 
     sys.path.insert(0, args.dir)
 
+    # Normalize the dir, removing extra slashes ect
+    args.dir = os.path.normpath(args.dir)
+
     # Download simc if needed
     if local_secrets and args.local and args.auto_download:
         from internal.auto_download import download_latest
@@ -148,7 +153,7 @@ def main():
         # Additional temp swap to using the latest build
         config['simcBuild'] = 'latest'
 
-    weights = config["sims"][args.dir[:-1]]["weights"]
+    weights = config["sims"][args.dir]["weights"]
     if args.iterations:
         iterations = args.iterations
     else:

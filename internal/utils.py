@@ -1,16 +1,15 @@
 """stores utils that are shared between scripts"""
+import os
 import argparse
-import yaml
 
-with open("config.yml", "r") as ymlfile:
-    config = yaml.load(ymlfile, Loader=yaml.FullLoader)
+from internal.config import config
 
 
 def get_talents(args):
     """lookup talents based on current config"""
     if args.talents:
         talents = [args.talents]
-    elif config["sims"][args.dir[:-1]]["builds"]:
+    elif config["sims"][args.dir]["builds"]:
         talents = config["builds"].keys()
     else:
         talents = []
@@ -21,7 +20,7 @@ def get_covenant(args):
     """lookup covenant based on current config"""
     if args.covenant:
         covenants = [args.covenant]
-    elif config["sims"][args.dir[:-1]]["covenant"]["lookup"]:
+    elif config["sims"][args.dir]["covenant"]["lookup"]:
         covenants = config["covenants"]["list"]
     else:
         covenants = []
@@ -32,15 +31,15 @@ def get_simc_dir(talent, covenant, folder_name):
     """get proper directory based on talent and covenant options"""
     if covenant:
         if talent:
-            return "{0}/{1}/{2}/".format(folder_name, talent, covenant)
-        return "{0}/{1}/".format(folder_name, covenant)
+            return os.path.join(folder_name, talent, covenant)
+        return os.path.join(folder_name, covenant)
     if talent:
-        return "{0}/{1}/".format(folder_name, talent)
-    return "{0}/".format(folder_name)
+        return os.path.join(folder_name, talent)
+    return folder_name
 
 
 def generate_parser(description):
-    """creates the shared argparser for sim.pu and profiles.py"""
+    """creates the shared argparser for sim.py and profiles.py"""
     parser = argparse.ArgumentParser(description=description)
     parser.add_argument('dir', help='Directory to generate profiles for.')
     parser.add_argument(
