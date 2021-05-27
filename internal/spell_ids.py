@@ -64,7 +64,13 @@ legendaries = {
     "Sephuzs_Proclamation": 339348,
     "Painbreaker_Psalm": 336165,
     "Third_Eye_of_the_Jailer": 339058,
-    "Echo_of_Eonar": 338477
+    "Echo_of_Eonar": 338477,
+    "Spheres_Harmony": 356395,
+    "Pallid_Command": 356390,
+    "Bwonsamdis_Pact_Benevolent": 356391,
+    "Bwonsamdis_Pact_Wrathful": 356391,
+    "Shadow_Word_Manipulation_7": 356392,
+    "Shadow_Word_Manipulation_7_Conduit_9": 356392,
 }
 
 legendary_items = {
