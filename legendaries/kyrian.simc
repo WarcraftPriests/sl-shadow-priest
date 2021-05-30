@@ -27,6 +27,8 @@ main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revela
 
 # Covenant Legendary
 profileset."Spheres_Harmony"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7728
+profileset."Spheres_Harmony_Conduit_9"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7728
+profileset."Spheres_Harmony_Conduit_9"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/courageous_ascension:9
 
 # Shadow Priest Legendaries
 # Shadowflame Prism
