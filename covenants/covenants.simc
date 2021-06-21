@@ -73,6 +73,8 @@ profileset."Night_Fae_Niya"+=soulbind=niya,${conduits.first.id}:11/${conduits.se
 # Soulbind: Dreamweaver - Dreamweaver-FoB_DD-HA_DE_RS
 profileset."Night_Fae_Dreamweaver"+=covenant=night_fae
 profileset."Night_Fae_Dreamweaver"+=soulbind=dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/319191/352786
+profileset."Night_Fae_Dreamweaver_no_FoB"+=covenant=night_fae
+profileset."Night_Fae_Dreamweaver_no_FoB"+=soulbind=dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/352786
 # Soulbind: Korayn - Korayn-WHT_WHS-HA_DE_RS + Korayn-WHT_FS_WHS-HA_DE
 profileset."Night_Fae_Korayn"+=covenant=night_fae
 profileset."Night_Fae_Korayn"+=soulbind=korayn,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/325066/352805
@@ -97,6 +99,9 @@ profileset."Venthyr_Theotar_Vers"+=soulbind=theotar_the_mad_duke,${conduits.firs
 profileset."Venthyr_Theotar_Vers"+=shadowlands.party_favor_type=versatility
 profileset."Venthyr_Theotar"+=covenant=venthyr
 profileset."Venthyr_Theotar"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239
+profileset."Venthyr_Theotar_Haste_no_SS"+=covenant=venthyr
+profileset."Venthyr_Theotar_Haste_no_SS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/351750
+profileset."Venthyr_Theotar_Haste_no_SS"+=shadowlands.party_favor_type=haste
 # Soulbind: Draven - Draven-BP-HA_DE_RS + Draven-BfW_BP-HA_DE
 profileset."Venthyr_Draven"+=covenant=venthyr
 profileset."Venthyr_Draven"+=soulbind=general_draven,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/352417
