@@ -34,10 +34,56 @@ main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 # 6649 - haste
 
 # Venthyr Legendaries
-# Shadow Word: Manipulation
-# profileset."Shadow_Word_Manipulation_7"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7704
-# profileset."Shadow_Word_Manipulation_7_Conduit_11"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7704
-# profileset."Shadow_Word_Manipulation_7_Conduit_11"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+# Shadow Word: Manipulation - 7704 (neck, wrist)
+profileset."Shadow_Word_Manipulation_7_Wrists_HC_225"+=wrists=,id=173249,ilevel=225,bonus_id=7704/6647/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_HC_235"+=wrists=,id=173249,ilevel=235,bonus_id=7704/6647/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_HC_250"+=wrists=,id=173249,ilevel=250,bonus_id=7704/6647/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_HC_260"+=wrists=,id=173249,ilevel=260,bonus_id=7704/6647/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_HM_225"+=wrists=,id=173249,ilevel=225,bonus_id=7704/6648/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_HM_235"+=wrists=,id=173249,ilevel=235,bonus_id=7704/6648/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_HM_250"+=wrists=,id=173249,ilevel=250,bonus_id=7704/6648/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_HM_260"+=wrists=,id=173249,ilevel=260,bonus_id=7704/6648/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Neck_HC_250"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Neck_HC_260"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Neck_HC_225"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Neck_HC_235"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Neck_HM_250"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_HM_260"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_HM_225"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_HM_235"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
+
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_225"+=wrists=,id=173249,ilevel=225,bonus_id=7704/6647/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_235"+=wrists=,id=173249,ilevel=235,bonus_id=7704/6647/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_250"+=wrists=,id=173249,ilevel=250,bonus_id=7704/6647/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_260"+=wrists=,id=173249,ilevel=260,bonus_id=7704/6647/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_225"+=wrists=,id=173249,ilevel=225,bonus_id=7704/6648/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_235"+=wrists=,id=173249,ilevel=235,bonus_id=7704/6648/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_250"+=wrists=,id=173249,ilevel=250,bonus_id=7704/6648/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_260"+=wrists=,id=173249,ilevel=260,bonus_id=7704/6648/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_250"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_260"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_225"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_235"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_250"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_260"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_225"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_235"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
 
 # Shadow Priest Legendaries
 # Shadowflame Prism - 6982
