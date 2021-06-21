@@ -218,17 +218,16 @@ sims:
     weights: false
     covenant:
       lookup: true
-      files: false
+      files: true
     legendary: false
     lookupType: spell
     steps:
-      - 190
-      - 210
       - 225
       - 235
+      - 250
+      - 260
     files:
-      - shadow.simc
-      - generic.simc
+      - legendaries.simc
   racials:
     description: "Swaps out the racial for a particular actor that includes all stat effects or special abilities where they prove to be a DPS increase."
     builds: true
@@ -372,30 +371,29 @@ sims:
     legendary: true
     lookupType: item
     steps:
-      - 158
-      - 164
       - 165
       - 168
-      - 171
-      - 177
-      - 184
       - 187
       - 190
       - 194
-      - 197
       - 198
       - 200
+      - 201
       - 203
       - 207
+      - 209
       - 210
       - 213
+      - 214
       - 216
       - 220
       - 223
       - 226
       - 233
       - 239
+      - 242
       - 246
+      - 249
       - 252
       - 259
     files:
@@ -432,9 +430,9 @@ analyze:
   csv: true
   json: true
 stats:
-  base: 800
+  base: 1200
   steps: 100
-  total: 1800
+  total: 2200
   include:
     - mastery
     - haste

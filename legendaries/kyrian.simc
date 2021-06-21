@@ -5,73 +5,73 @@ position=back
 spec=shadow
 talents=${talents}
 covenant=kyrian
-soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9
+soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11
 
 default_actions=1
 
-head=confidants_favored_cap,id=183021,ilevel=226
-neck=charm_of_eternal_winter,id=183040,ilevel=226
-shoulder=shawl_of_the_penitent,id=183020,ilevel=233
-back=crest_of_the_legionnaire_general,id=183032,ilevel=233
-chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
-wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect
-hands=impossibly_oversized_mitts,id=183022,ilevel=226
-waist=shadewarped_sash,id=183004,ilevel=226
-legs=purge_protocol_legwraps,id=180107,ilevel=226
-feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
-finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
-finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
-trinket1=dreadfire_vessel,id=184030,ilevel=233
-trinket2=cabalists_hymnal,id=184028,ilevel=233
-main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
+head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130
+neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
+shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
+back=cloak_of_scarred_honor,id=186289,ilevel=252
+chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats
+wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130,enchant=eternal_intellect
+hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252
+waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130
+legs=muehzalas_hexthread_sarong,id=179351,bonus_id=7187/1540,ilevel=252
+feet=sandals_of_sacred_symmetry,id=186354,ilevel=252
+finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
+finger2=death_gods_signet,id=179355,bonus_id=7187/1540/6935,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
+trinket1=soulletting_ruby,id=178809,bonus_id=6536/1540/6646,ilevel=252
+trinket2=forbidden_necromantic_tome,id=186421,ilevel=259
+main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 
 # Covenant Legendary
-profileset."Spheres_Harmony"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7728
-profileset."Spheres_Harmony_Conduit_9"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7728
-profileset."Spheres_Harmony_Conduit_9"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/courageous_ascension:9
+profileset."Spheres_Harmony"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7728
+profileset."Spheres_Harmony_Conduit_11"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7728
+profileset."Spheres_Harmony_Conduit_11"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11
 
 # Shadow Priest Legendaries
 # Shadowflame Prism
-profileset."Shadowflame_Prism"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Shadowflame_Prism"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=6982
 
-profileset."Shadowflame_Prism_Mindbender"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
+profileset."Shadowflame_Prism_Mindbender"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=6982
 profileset."Shadowflame_Prism_Mindbender"+=talents=${talents.mindbender}
 
 # Drop MD for RS
-profileset."Shadowflame_Prism_Conduit_9"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
-profileset."Shadowflame_Prism_Conduit_9"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/114:9
+profileset."Shadowflame_Prism_Conduit_11"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=6982
+profileset."Shadowflame_Prism_Conduit_11"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 
-profileset."Shadowflame_Prism_Conduit_9_Mindbender"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6982
-profileset."Shadowflame_Prism_Conduit_9_Mindbender"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/114:9
-profileset."Shadowflame_Prism_Conduit_9_Mindbender"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Conduit_11_Mindbender"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=6982
+profileset."Shadowflame_Prism_Conduit_11_Mindbender"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Conduit_11_Mindbender"+=talents=${talents.mindbender}
 
 # Painbreaker Psalm
-profileset."Painbreaker_Psalm"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6981
+profileset."Painbreaker_Psalm"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=6981
 
 # PI Others
-profileset."Twins_of_the_Sun_Priestess_Conduit_9"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7002
-profileset."Twins_of_the_Sun_Priestess_Conduit_9"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/73:9
+profileset."Twins_of_the_Sun_Priestess_Conduit_11"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7002
+profileset."Twins_of_the_Sun_Priestess_Conduit_11"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/73:11
 
 # Eternal Call to the Void
-profileset."Eternal_Call_to_the_Void"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=6983
+profileset."Eternal_Call_to_the_Void"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=6983
 
 # Talbadar's Stratagem
-profileset."Talbadars_Stratagem"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7162
+profileset."Talbadars_Stratagem"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7162
 
 # Using MD by default so dont need this
-# profileset."Talbadars_Stratagem_Mind_Devourer_9"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7162
-# profileset."Talbadars_Stratagem_Mind_Devourer_9"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/mind_devourer:9
+# profileset."Talbadars_Stratagem_Mind_Devourer_9"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7162
+# profileset."Talbadars_Stratagem_Mind_Devourer_9"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11
 
 # Generic Legendaries
 # Judgment of the Arbiter
-profileset."Judgment_of_the_Arbiter"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7101
+profileset."Judgment_of_the_Arbiter"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7101
 
 # Sephuz's Proclamation
-profileset."Sephuzs_Proclamation"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7103
+profileset."Sephuzs_Proclamation"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7103
 
 # Third Eye of the Jailer
-profileset."Third_Eye_of_the_Jailer"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7105
+profileset."Third_Eye_of_the_Jailer"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7105
 
 # Echo of Eonar
 # TODO: Add allies?
-profileset."Echo_of_Eonar"+=head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=7100
+profileset."Echo_of_Eonar"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7100
