@@ -1,0 +1,32 @@
+# Dungeons - hv
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Venthyr_Theotar_Haste|9803|16.61%|
+|Kyrian_Pelagos_TS|9751|15.99%|
+|Night_Fae_Dreamweaver|9743|15.89%|
+|Venthyr_Theotar_Vers|9717|15.58%|
+|Venthyr_Theotar_Intellect|9713|15.53%|
+|Venthyr_Theotar_Crit|9680|15.14%|
+|Kyrian_Pelagos|9678|15.12%|
+|Necrolord_Bonesmith_HAMG|9673|15.06%|
+|Venthyr_Nadjia|9645|14.73%|
+|Necrolord_Bonesmith|9638|14.64%|
+|Night_Fae_Korayn_FS|9638|14.64%|
+|Night_Fae_Niya|9629|14.54%|
+|Kyrian_Forgelite_HoG|9585|14.01%|
+|Venthyr_Draven_BfW|9509|13.11%|
+|Night_Fae_Korayn|9471|12.66%|
+|Kyrian_Forgelite_TS|9468|12.62%|
+|Venthyr_Theotar|9446|12.36%|
+|Necrolord_Emeni|9430|12.17%|
+|Venthyr_Draven|9421|12.06%|
+|Kyrian_Forgelite|9398|11.79%|
+|Necrolord_Marileth_Mastery|9377|11.54%|
+|Kyrian_Kleia|9295|10.56%|
+|Venthyr_Covenant_Only_Healing_Reversal|8895|5.80%|
+|Necrolord_Covenant_Only|8628|2.63%|
+|Venthyr_Covenant_Only|8616|2.49%|
+|Night_Fae_Covenant_Only|8562|1.84%|
+|Kyrian_Covenant_Only|8480|0.87%|
+|Base|8407|0.00%|
+|Night_Fae_Covenant_Only_No_CDR|8386|-0.25%|

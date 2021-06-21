@@ -29,22 +29,34 @@ flask=disabled
 # Domination Socket Gems
 # # Frost
 profileset."Shard_of_Cor"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187063
+profileset."Ominous_Shard_of_Cor"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187287
+profileset."Desolate_Shard_of_Cor"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187296
+profileset."Foreboding_Shard_of_Cor"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187305
+profileset."Portentous_Shard_of_Cor"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187315
 
-profileset."Frost_Set-Winds_of_Winter"+=hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252,gem_id=187065
-profileset."Frost_Set-Winds_of_Winter"+=back=cloak_of_scarred_honor,id=186289,ilevel=252,gem_id=187071
-profileset."Frost_Set-Winds_of_Winter"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187063
+profileset."Portentous_Frost_Set-Winds_of_Winter"+=hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252,gem_id=187065
+profileset."Portentous_Frost_Set-Winds_of_Winter"+=back=cloak_of_scarred_honor,id=186289,ilevel=252,gem_id=187071
+profileset."Portentous_Frost_Set-Winds_of_Winter"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187315
 # Unholy
 profileset."Shard_of_Dyz"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187073
+profileset."Ominous_Shard_of_Dyz"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187290
+profileset."Desolate_Shard_of_Dyz"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187299
+profileset."Foreboding_Shard_of_Dyz"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187308
+profileset."Portentous_Shard_of_Dyz"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187318
 
-profileset."Unholy_Set-Chaos_Bane"+=hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252,gem_id=187073
-profileset."Unholy_Set-Chaos_Bane"+=back=cloak_of_scarred_honor,id=186289,ilevel=252,gem_id=187076
-profileset."Unholy_Set-Chaos_Bane"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187079
+profileset."Portentous_Unholy_Set-Chaos_Bane"+=hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252,gem_id=187318
+profileset."Portentous_Unholy_Set-Chaos_Bane"+=back=cloak_of_scarred_honor,id=186289,ilevel=252,gem_id=187076
+profileset."Portentous_Unholy_Set-Chaos_Bane"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187079
 # Blood
 profileset."Shard_of_Bek"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187057
+profileset."Ominous_Shard_of_Bek"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187284
+profileset."Desolate_Shard_of_Bek"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187293
+profileset."Foreboding_Shard_of_Bek"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187302
+profileset."Portentous_Shard_of_Bek"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187312
 
-profileset."Blood_Set-Blood_Link"+=hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252,gem_id=187057
-profileset."Blood_Set-Blood_Link"+=back=cloak_of_scarred_honor,id=186289,ilevel=252,gem_id=187061
-profileset."Blood_Set-Blood_Link"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187059
+profileset."Portentous_Blood_Set-Blood_Link"+=hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252,gem_id=187312
+profileset."Portentous_Blood_Set-Blood_Link"+=back=cloak_of_scarred_honor,id=186289,ilevel=252,gem_id=187061
+profileset."Portentous_Blood_Set-Blood_Link"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187059
 
 # Runes
 profileset."Veiled_Augment_Rune"+=augmentation=veiled_augment_rune

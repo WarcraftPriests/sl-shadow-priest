@@ -161,6 +161,8 @@ def update_talents(talent_string, replacement):
     talent_string = str(talent_string)
     if replacement == "mindbender":
         new_talents = talent_string[:5] + "2" + talent_string[6:]
+    if replacement == "void_torrent":
+        new_talents = talent_string[:5] + "3" + talent_string[6:]
     return new_talents
 
 
@@ -211,6 +213,8 @@ def build_profiles(talent_string, covenant_string):
             data = data.replace("${talents}", str(talents_expr))
             data = data.replace("${talents.mindbender}", update_talents(
                 str(talents_expr), "mindbender"))
+            data = data.replace("${talents.void_torrent}", update_talents(
+                str(talents_expr), "void_torrent"))
         if covenant_string:
             data = data.replace("${covenant}", covenant_string)
 
