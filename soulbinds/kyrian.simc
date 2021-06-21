@@ -31,6 +31,7 @@ main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 # Newfound Resolve - 351149
 # shadowlands.combat_meditation_extend_chance = 0.5
 profileset."Pelagos-CM_BT_NR-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=pelagos,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/328266/351146/351149
+profileset."Pelagos-CM_BT_NR-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=pelagos,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/328266/351146/351149
 
 # Kleia
 # 3 conduit setup
@@ -38,6 +39,7 @@ profileset."Pelagos-CM_BT_NR-${conduits.first.name}_${conduits.second.name}_${co
 # Spear of the Archon - 351488
 # Light the Path (requires Valiant Strikes) - 351491 (329791)
 profileset."Kleia-VS_SotA_LtP-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=kleia,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/351491/329791/351488
+profileset."Kleia-VS_SotA_LtP-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=kleia,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/351491/329791/351488
 
 # 2 conduit setup
 # Pointed Courage - 329778
@@ -50,6 +52,7 @@ profileset."Kleia-VS_PC_SotA_LtP-${conduits.first.name}_${conduits.second.name}"
 # Soulglow Spectrometer - 352186
 # Effusive Anima Accelerator - 352188
 profileset."Forgelite-BCtA_SS_EAA-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/333950/352186/352188
+profileset."Forgelite-BCtA_SS_EAA-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/333950/352186/352188
 
 # 2 conduit setup
 # Bron's Call to Action - 333950
