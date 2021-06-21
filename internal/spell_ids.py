@@ -199,6 +199,12 @@ consumables = {
     "Shadowcore_Oil": 171285,
     "7_Intellect": 168638,
     "6_Intellect": 153709,
+    "Shard_of_Cor": 187063,
+    "Frost_Set-Winds_of_Winter": 355735,
+    "Shard_of_Dyz": 187073,
+    "Unholy_Set-Chaos_Bane": 355829,
+    "Shard_of_Bek": 187057,
+    "Blood_Set-Blood_Link": 355804
 }
 
 soulbind_traits = {

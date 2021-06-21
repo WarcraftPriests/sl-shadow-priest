@@ -26,6 +26,26 @@ augmentation=disabled
 potion=disabled
 flask=disabled
 
+# Domination Socket Gems
+# # Frost
+profileset."Shard_of_Cor"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187063
+
+profileset."Frost_Set-Winds_of_Winter"+=hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252,gem_id=187065
+profileset."Frost_Set-Winds_of_Winter"+=back=cloak_of_scarred_honor,id=186289,ilevel=252,gem_id=187071
+profileset."Frost_Set-Winds_of_Winter"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187063
+# Unholy
+profileset."Shard_of_Dyz"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187073
+
+profileset."Unholy_Set-Chaos_Bane"+=hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252,gem_id=187073
+profileset."Unholy_Set-Chaos_Bane"+=back=cloak_of_scarred_honor,id=186289,ilevel=252,gem_id=187076
+profileset."Unholy_Set-Chaos_Bane"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187079
+# Blood
+profileset."Shard_of_Bek"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187057
+
+profileset."Blood_Set-Blood_Link"+=hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252,gem_id=187057
+profileset."Blood_Set-Blood_Link"+=back=cloak_of_scarred_honor,id=186289,ilevel=252,gem_id=187061
+profileset."Blood_Set-Blood_Link"+=shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187059
+
 # Runes
 profileset."Veiled_Augment_Rune"+=augmentation=veiled_augment_rune
 

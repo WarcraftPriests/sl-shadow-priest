@@ -34,10 +34,33 @@ main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 # 6649 - haste
 
 # Night Fae Legendaries
-# Bwonsamdi's Pact
-# profileset."Bwonsamdis_Pact_Benevolent"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7703
-# profileset."Bwonsamdis_Pact_Wrathful"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7703
-# profileset."Bwonsamdis_Pact_Wrathful"+=priest.bwonsamdis_pact_mask_type="wrathful"
+# Bwonsamdi's Pact - 7703 (Head, Waist, Hands)
+profileset."Bwonsamdis_Pact_Benevolent_Head_HC_250"+=head=,id=173245,ilevel=250,bonus_id=7703/6647/6649
+profileset."Bwonsamdis_Pact_Benevolent_Head_HC_260"+=head=,id=173245,ilevel=260,bonus_id=7703/6647/6649
+profileset."Bwonsamdis_Pact_Benevolent_Head_HC_225"+=head=,id=173245,ilevel=225,bonus_id=7703/6647/6649
+profileset."Bwonsamdis_Pact_Benevolent_Head_HC_235"+=head=,id=173245,ilevel=235,bonus_id=7703/6647/6649
+profileset."Bwonsamdis_Pact_Benevolent_Head_HM_250"+=head=,id=173245,ilevel=250,bonus_id=7703/6648/6649
+profileset."Bwonsamdis_Pact_Benevolent_Head_HM_260"+=head=,id=173245,ilevel=260,bonus_id=7703/6648/6649
+profileset."Bwonsamdis_Pact_Benevolent_Head_HM_225"+=head=,id=173245,ilevel=225,bonus_id=7703/6648/6649
+profileset."Bwonsamdis_Pact_Benevolent_Head_HM_235"+=head=,id=173245,ilevel=235,bonus_id=7703/6648/6649
+
+profileset."Bwonsamdis_Pact_Benevolent_Hands_HC_250"+=hands=,id=173244,ilevel=250,bonus_id=7703/6647/6649
+profileset."Bwonsamdis_Pact_Benevolent_Hands_HC_260"+=hands=,id=173244,ilevel=260,bonus_id=7703/6647/6649
+profileset."Bwonsamdis_Pact_Benevolent_Hands_HC_225"+=hands=,id=173244,ilevel=225,bonus_id=7703/6647/6649
+profileset."Bwonsamdis_Pact_Benevolent_Hands_HC_235"+=hands=,id=173244,ilevel=235,bonus_id=7703/6647/6649
+profileset."Bwonsamdis_Pact_Benevolent_Hands_HM_250"+=hands=,id=173244,ilevel=250,bonus_id=7703/6648/6649
+profileset."Bwonsamdis_Pact_Benevolent_Hands_HM_260"+=hands=,id=173244,ilevel=260,bonus_id=7703/6648/6649
+profileset."Bwonsamdis_Pact_Benevolent_Hands_HM_225"+=hands=,id=173244,ilevel=225,bonus_id=7703/6648/6649
+profileset."Bwonsamdis_Pact_Benevolent_Hands_HM_235"+=hands=,id=173244,ilevel=235,bonus_id=7703/6648/6649
+
+profileset."Bwonsamdis_Pact_Benevolent_Waist_HC_250"+=waist=,id=173248,ilevel=250,bonus_id=7703/6647/6649
+profileset."Bwonsamdis_Pact_Benevolent_Waist_HC_260"+=waist=,id=173248,ilevel=260,bonus_id=7703/6647/6649
+profileset."Bwonsamdis_Pact_Benevolent_Waist_HC_225"+=waist=,id=173248,ilevel=225,bonus_id=7703/6647/6649
+profileset."Bwonsamdis_Pact_Benevolent_Waist_HC_235"+=waist=,id=173248,ilevel=235,bonus_id=7703/6647/6649
+profileset."Bwonsamdis_Pact_Benevolent_Waist_HM_250"+=waist=,id=173248,ilevel=250,bonus_id=7703/6648/6649
+profileset."Bwonsamdis_Pact_Benevolent_Waist_HM_260"+=waist=,id=173248,ilevel=260,bonus_id=7703/6648/6649
+profileset."Bwonsamdis_Pact_Benevolent_Waist_HM_225"+=waist=,id=173248,ilevel=225,bonus_id=7703/6648/6649
+profileset."Bwonsamdis_Pact_Benevolent_Waist_HM_235"+=waist=,id=173248,ilevel=235,bonus_id=7703/6648/6649
 
 # Shadow Priest Legendaries
 # Shadowflame Prism - 6982
