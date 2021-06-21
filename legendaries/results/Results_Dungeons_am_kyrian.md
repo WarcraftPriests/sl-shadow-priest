@@ -1,18 +1,18 @@
 # Dungeons - am - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|8943|6.45%|
-|Shadowflame_Prism_Conduit_11|8915|6.12%|
-|Shadowflame_Prism_Conduit_11_Mindbender|8903|5.98%|
-|Shadowflame_Prism|8780|4.51%|
-|Shadowflame_Prism_Mindbender|8769|4.38%|
-|Painbreaker_Psalm|8694|3.49%|
-|Talbadars_Stratagem|8641|2.86%|
-|Spheres_Harmony_Conduit_11|8613|2.52%|
-|Sephuzs_Proclamation|8601|2.38%|
-|Echo_of_Eonar|8536|1.61%|
-|Twins_of_the_Sun_Priestess_Conduit_11|8530|1.54%|
-|Judgment_of_the_Arbiter|8506|1.25%|
-|Base|8401|0.00%|
-|Third_Eye_of_the_Jailer|8400|-0.01%|
-|Spheres_Harmony|8393|-0.10%|
+|Eternal_Call_to_the_Void|9053|6.58%|
+|Shadowflame_Prism_Rabid_Shadows_11|8905|4.84%|
+|Shadowflame_Prism_Rabid_Shadows_11_Mindbender|8903|4.82%|
+|Shadowflame_Prism|8870|4.43%|
+|Shadowflame_Prism_Mindbender|8862|4.33%|
+|Painbreaker_Psalm|8835|4.01%|
+|Talbadars_Stratagem|8706|2.50%|
+|Sephuzs_Proclamation|8695|2.37%|
+|Talbadars_Stratagem_Mind_Devourer_11|8638|1.70%|
+|Echo_of_Eonar|8625|1.54%|
+|Spheres_Harmony|8613|1.40%|
+|Judgment_of_the_Arbiter|8600|1.25%|
+|Twins_of_the_Sun_Priestess_Conduit_11|8524|0.35%|
+|Third_Eye_of_the_Jailer|8495|0.01%|
+|Base|8494|0.00%|

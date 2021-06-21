@@ -1,18 +1,18 @@
 # Dungeons - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|7047|6.77%|
-|Shadowflame_Prism_Conduit_11_Mindbender|7047|6.77%|
-|Shadowflame_Prism_Conduit_11|7044|6.73%|
-|Shadowflame_Prism_Mindbender|6901|4.56%|
-|Shadowflame_Prism|6900|4.55%|
-|Shadow_Word_Manipulation_7_Conduit_11|6844|3.70%|
-|Shadow_Word_Manipulation_7|6822|3.36%|
-|Talbadars_Stratagem|6790|2.88%|
-|Painbreaker_Psalm|6777|2.68%|
-|Sephuzs_Proclamation|6777|2.68%|
-|Echo_of_Eonar|6701|1.53%|
-|Judgment_of_the_Arbiter|6691|1.38%|
-|Twins_of_the_Sun_Priestess_Conduit_11|6652|0.79%|
-|Third_Eye_of_the_Jailer|6603|0.05%|
+|Shadowflame_Prism_Rabid_Shadows_11|7055|6.89%|
+|Eternal_Call_to_the_Void|7054|6.88%|
+|Shadowflame_Prism_Rabid_Shadows_11_Mindbender|7044|6.73%|
+|Shadowflame_Prism|6899|4.53%|
+|Shadowflame_Prism_Mindbender|6899|4.53%|
+|Shadow_Word_Manipulation_7_Shattered_Perceptions_11|6850|3.79%|
+|Shadow_Word_Manipulation_7|6825|3.41%|
+|Talbadars_Stratagem|6794|2.94%|
+|Sephuzs_Proclamation|6783|2.77%|
+|Painbreaker_Psalm|6782|2.76%|
+|Echo_of_Eonar|6698|1.48%|
+|Judgment_of_the_Arbiter|6679|1.20%|
+|Twins_of_the_Sun_Priestess_Conduit_11|6645|0.68%|
 |Base|6600|0.00%|
+|Third_Eye_of_the_Jailer|6600|0.00%|
