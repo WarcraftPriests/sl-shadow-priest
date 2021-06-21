@@ -5,7 +5,7 @@ position=back
 spec=shadow
 talents=${talents}
 covenant=kyrian
-soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11
+soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11
 
 default_actions=1
 
@@ -27,8 +27,6 @@ main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 
 # Covenant Legendary
 profileset."Spheres_Harmony"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7728
-profileset."Spheres_Harmony_Conduit_11"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7728
-profileset."Spheres_Harmony_Conduit_11"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11
 
 # Shadow Priest Legendaries
 # Shadowflame Prism
@@ -38,12 +36,12 @@ profileset."Shadowflame_Prism_Mindbender"+=head=hood_of_vengeful_possession,id=1
 profileset."Shadowflame_Prism_Mindbender"+=talents=${talents.mindbender}
 
 # Drop MD for RS
-profileset."Shadowflame_Prism_Conduit_11"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=6982
-profileset."Shadowflame_Prism_Conduit_11"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Rabid_Shadows_11"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=6982
+profileset."Shadowflame_Prism_Rabid_Shadows_11"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 
-profileset."Shadowflame_Prism_Conduit_11_Mindbender"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=6982
-profileset."Shadowflame_Prism_Conduit_11_Mindbender"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Conduit_11_Mindbender"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Rabid_Shadows_11_Mindbender"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=6982
+profileset."Shadowflame_Prism_Rabid_Shadows_11_Mindbender"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Rabid_Shadows_11_Mindbender"+=talents=${talents.mindbender}
 
 # Painbreaker Psalm
 profileset."Painbreaker_Psalm"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=6981
@@ -58,9 +56,8 @@ profileset."Eternal_Call_to_the_Void"+=head=hood_of_vengeful_possession,id=18628
 # Talbadar's Stratagem
 profileset."Talbadars_Stratagem"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7162
 
-# Using MD by default so dont need this
-# profileset."Talbadars_Stratagem_Mind_Devourer_9"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7162
-# profileset."Talbadars_Stratagem_Mind_Devourer_9"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11
+profileset."Talbadars_Stratagem_Mind_Devourer_11"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7162
+profileset."Talbadars_Stratagem_Mind_Devourer_11"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11
 
 # Generic Legendaries
 # Judgment of the Arbiter

@@ -54,8 +54,8 @@ enchants = {
 legendaries = {
     "Shadowflame_Prism": 336143,
     "Shadowflame_Prism_Mindbender": 336143,
-    "Shadowflame_Prism_Conduit_11": 336143,
-    "Shadowflame_Prism_Conduit_11_Mindbender": 336143,
+    "Shadowflame_Prism_Rabid_Shadows_11": 336143,
+    "Shadowflame_Prism_Rabid_Shadows_11_Mindbender": 336143,
     "Twins_of_the_Sun_Priestess_Conduit_11": 336897,
     "Eternal_Call_to_the_Void": 336214,
     "Talbadars_Stratagem": 342415,
@@ -66,12 +66,11 @@ legendaries = {
     "Third_Eye_of_the_Jailer": 339058,
     "Echo_of_Eonar": 338477,
     "Spheres_Harmony": 356395,
-    "Spheres_Harmony_Conduit_11": 356395,
     "Pallid_Command": 356390,
     "Bwonsamdis_Pact_Benevolent": 356391,
     "Bwonsamdis_Pact_Wrathful": 356391,
     "Shadow_Word_Manipulation_7": 356392,
-    "Shadow_Word_Manipulation_7_Conduit_11": 356392,
+    "Shadow_Word_Manipulation_7_Shattered_Perceptions_11": 356392,
 }
 
 legendary_items = {

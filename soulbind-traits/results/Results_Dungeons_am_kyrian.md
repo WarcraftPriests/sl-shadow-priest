@@ -1,18 +1,18 @@
 # Dungeons - am - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Kyrian-Forgelite-Hammer_of_Genesis|6862|5.68%|
-|Kyrian-Kleia-Pointed_Courage_Allies_5|6768|4.24%|
-|Kyrian-Kleia-Pointed_Courage_Allies_4|6711|3.36%|
-|Kyrian-Forgelite-Effusive_Anima_Accelerator|6671|2.74%|
-|Kyrian-Kleia-Pointed_Courage_Allies_3|6657|2.53%|
-|Kyrian-Pelagos-Combat_Meditation|6648|2.39%|
-|Kyrian-Kleia-Pointed_Courage_Allies_2|6598|1.62%|
-|Kyrian-Forgelite-Brons_Call_to_Action|6572|1.22%|
-|Kyrian-Pelagos-Better_Together|6557|0.99%|
-|Kyrian-Kleia-Spear_of_the_Archon|6553|0.92%|
-|Kyrian-Kleia-Pointed_Courage_Allies_1|6548|0.85%|
-|Kyrian-Forgelite-Soulglow_Spectrometer|6499|0.09%|
-|Base|6493|0.00%|
-|Kyrian-Pelagos-Newfound_Resolve|6489|-0.06%|
-|Kyrian-Kleia-Light_the_Path|6484|-0.14%|
+|Kyrian-Forgelite-Hammer_of_Genesis|8854|5.51%|
+|Kyrian-Kleia-Pointed_Courage_Allies_5|8717|3.87%|
+|Kyrian-Kleia-Pointed_Courage_Allies_4|8664|3.24%|
+|Kyrian-Forgelite-Effusive_Anima_Accelerator|8625|2.78%|
+|Kyrian-Kleia-Pointed_Courage_Allies_3|8597|2.44%|
+|Kyrian-Pelagos-Combat_Meditation|8577|2.20%|
+|Kyrian-Pelagos-Newfound_Resolve|8541|1.78%|
+|Kyrian-Kleia-Pointed_Courage_Allies_2|8518|1.50%|
+|Kyrian-Forgelite-Brons_Call_to_Action|8494|1.22%|
+|Kyrian-Kleia-Spear_of_the_Archon|8477|1.01%|
+|Kyrian-Pelagos-Better_Together|8467|0.89%|
+|Kyrian-Kleia-Pointed_Courage_Allies_1|8459|0.80%|
+|Base|8392|0.00%|
+|Kyrian-Kleia-Light_the_Path|8392|0.00%|
+|Kyrian-Forgelite-Soulglow_Spectrometer|8391|-0.01%|
