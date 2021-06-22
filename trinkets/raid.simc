@@ -40,10 +40,10 @@ profileset."Shadowed_Orb_of_Torment_239"+=trinket1=shadowed_orb_of_torment,id=18
 profileset."Shadowed_Orb_of_Torment_252"+=trinket1=shadowed_orb_of_torment,id=186428,ilevel=252
 
 # As of 5/6/2021 this trinket crashes simc
-profileset."Ebonsoul_Vise_213"+=trinket1=ebonsoul_vise,id=186431,ilevel=213
-profileset."Ebonsoul_Vise_226"+=trinket1=ebonsoul_vise,id=186431,ilevel=226
-profileset."Ebonsoul_Vise_239"+=trinket1=ebonsoul_vise,id=186431,ilevel=239
-profileset."Ebonsoul_Vise_252"+=trinket1=ebonsoul_vise,id=186431,ilevel=252
+# profileset."Ebonsoul_Vise_213"+=trinket1=ebonsoul_vise,id=186431,ilevel=213
+# profileset."Ebonsoul_Vise_226"+=trinket1=ebonsoul_vise,id=186431,ilevel=226
+# profileset."Ebonsoul_Vise_239"+=trinket1=ebonsoul_vise,id=186431,ilevel=239
+# profileset."Ebonsoul_Vise_252"+=trinket1=ebonsoul_vise,id=186431,ilevel=252
 
 ## KT/Sylvanas Trinkets 220/233/246/259
 profileset."Forbidden_Necromantic_Tome_220"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=220
