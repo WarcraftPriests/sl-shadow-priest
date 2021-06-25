@@ -60,23 +60,27 @@ profileset."Necrolord_Marileth_Mastery"+=covenant=necrolord
 profileset."Necrolord_Marileth_Mastery"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/323074/352110
 profileset."Necrolord_Marileth_Mastery_PC"+=shadowlands.volatile_solvent_type=mastery
 profileset."Necrolord_Marileth_Mastery_PC"+=covenant=necrolord
-profileset."Necrolord_Marileth_Mastery_PC"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/323074/352110
+profileset."Necrolord_Marileth_Mastery_PC"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11/323074/352110
 profileset."Necrolord_Marileth_Mastery_PC"+=talents=${talents.void_torrent}
 profileset."Necrolord_Marileth_Mastery_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
 # Soulbind: Emeni - Emeni-LbE-HA_DE_RS
 profileset."Necrolord_Emeni"+=covenant=necrolord
 profileset."Necrolord_Emeni"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/342156
 profileset."Necrolord_Emeni_PC"+=covenant=necrolord
-profileset."Necrolord_Emeni_PC"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/342156
+profileset."Necrolord_Emeni_PC"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11/342156
 profileset."Necrolord_Emeni_PC"+=talents=${talents.void_torrent}
 profileset."Necrolord_Emeni_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Necrolord_Emeni_GC_PC"+=covenant=necrolord
+profileset."Necrolord_Emeni_GC_PC"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/342156/323919
+profileset."Necrolord_Emeni_GC_PC"+=talents=${talents.void_torrent}
+profileset."Necrolord_Emeni_GC_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
 # Soulbind: Bonesmith Heirmir - Bonesmith-FR_CE_ME-HA_DE_RS + Bonesmith-FR_HAMG_CE_ME-HA_DE
 profileset."Necrolord_Bonesmith"+=covenant=necrolord
 profileset."Necrolord_Bonesmith"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/326514/350899/350936
 profileset."Necrolord_Bonesmith_HAMG"+=covenant=necrolord
 profileset."Necrolord_Bonesmith_HAMG"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326572/326514/350899/350936
 profileset."Necrolord_Bonesmith_PC"+=covenant=necrolord
-profileset."Necrolord_Bonesmith_PC"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/326514/350899/350936
+profileset."Necrolord_Bonesmith_PC"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11/326514/350899/350936
 profileset."Necrolord_Bonesmith_PC"+=talents=${talents.void_torrent}
 profileset."Necrolord_Bonesmith_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
 profileset."Necrolord_Bonesmith_HAMG_PC"+=covenant=necrolord
@@ -124,3 +128,9 @@ profileset."Venthyr_Draven"+=covenant=venthyr
 profileset."Venthyr_Draven"+=soulbind=general_draven,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/352417
 profileset."Venthyr_Draven_BfW"+=covenant=venthyr
 profileset."Venthyr_Draven_BfW"+=soulbind=general_draven,${conduits.first.id}:11/${conduits.second.id}:11/319973/352417
+
+#Pelagos
+override.spell_data=effect.821722.coefficient=3.315789
+#Dreamer
+override.spell_data=effect.844100.base_value=15
+override.spell_data=spell.342761.duration=12000
