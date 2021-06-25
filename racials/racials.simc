@@ -5,10 +5,10 @@ position=back
 spec=shadow
 talents=${talents}
 
-head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
 shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
-back=cloak_of_scarred_honor,id=186289,ilevel=252
+back=drape_of_twisted_loyalties,id=180123,ilevel=252
 chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats
 wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130,enchant=eternal_intellect
 hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252

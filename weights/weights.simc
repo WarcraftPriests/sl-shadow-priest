@@ -7,10 +7,10 @@ talents=${talents}
 
 default_actions=1
 
-head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
 shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
-back=cloak_of_scarred_honor,id=186289,ilevel=252
+back=drape_of_twisted_loyalties,id=180123,ilevel=252
 chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats
 wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130,enchant=eternal_intellect
 hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252
@@ -26,45 +26,45 @@ main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 copy="Venthyr_Talbadars_Stratagem","Base"
 covenant=venthyr
 soulbind=nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586
-head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7162
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
 
 copy="Venthyr_Shadowflame_Prism_Mindbender","Base"
 covenant=venthyr
 soulbind=nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586
 talents=${talents.mindbender}
-head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=6982
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=6982
 
 copy="Kyrian_Talbadars_Stratagem","Base"
 covenant=kyrian
 soulbind=pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328257/328266
-head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7162
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
 
 copy="Kyrian_Shadowflame_Prism_Mindbender","Base"
 covenant=kyrian
 soulbind=pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328257/328266
 talents=${talents.mindbender}
-head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=6982
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=6982
 
 copy="Night_Fae_Talbadars_Stratagem","Base"
 covenant=night_fae
 soulbind=dreamweaver,${conduits.first.id}:7/${conduits.second.id}:7/319191
-head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7162
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
 
 copy="Night_Fae_Shadowflame_Prism_Mindbender","Base"
 covenant=night_fae
 soulbind=dreamweaver,${conduits.first.id}:7/${conduits.second.id}:7/319191
 talents=${talents.mindbender}
-head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=6982
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=6982
 
 copy="Necrolord_Talbadars_Stratagem","Base"
 covenant=necrolord
 soulbind=emeni,${conduits.first.id}:7/${conduits.second.id}:7/342156
-head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7162
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
 
 copy="Necrolord_Shadowflame_Prism_Mindbender","Base"
 covenant=necrolord
 soulbind=emeni,${conduits.first.id}:7/${conduits.second.id}:7/342156
 talents=${talents.mindbender}
-head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=6982
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=6982
 
 single_actor_batch=1

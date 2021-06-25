@@ -7,10 +7,10 @@ talents=${talents}
 
 default_actions=1
 
-head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
 shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
-back=cloak_of_scarred_honor,id=186289,ilevel=252
+back=drape_of_twisted_loyalties,id=180123,ilevel=252
 chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats
 wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130,enchant=eternal_intellect
 hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252
@@ -28,152 +28,152 @@ main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 
 # Kyrian
 profileset."Kyrian_1"+=covenant=kyrian
-profileset."Kyrian_1"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Kyrian_1"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Kyrian_1"+=soulbind=pelagos,${conduits.first.id}:11/${conduits.second.id}:11/328266
 
 profileset."Kyrian_2"+=covenant=kyrian
-profileset."Kyrian_2"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Kyrian_2"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Kyrian_2"+=soulbind=kleia,${conduits.first.id}:11/${conduits.second.id}:11
 
 profileset."Kyrian_3"+=covenant=kyrian
-profileset."Kyrian_3"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Kyrian_3"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Kyrian_3"+=soulbind=kleia,${conduits.first.id}:11/329778
 
 profileset."Kyrian_4"+=covenant=kyrian
-profileset."Kyrian_4"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Kyrian_4"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Kyrian_4"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/333950
 
 profileset."Kyrian_5"+=covenant=kyrian
-profileset."Kyrian_5"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Kyrian_5"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Kyrian_5"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:11/333950/333935
 
 # Necrolord
 profileset."Necrolord_1"+=covenant=necrolord
-profileset."Necrolord_1"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_1"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_1"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074
 profileset."Necrolord_1"+=shadowlands.volatile_solvent_type=crit
 
 profileset."Necrolord_2"+=covenant=necrolord
-profileset."Necrolord_2"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_2"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_2"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074
 profileset."Necrolord_2"+=shadowlands.volatile_solvent_type=mastery
 
 profileset."Necrolord_3"+=covenant=necrolord
-profileset."Necrolord_3"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_3"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_3"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074
 profileset."Necrolord_3"+=shadowlands.volatile_solvent_type=primary
 
 profileset."Necrolord_4"+=covenant=necrolord
-profileset."Necrolord_4"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_4"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_4"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074
 profileset."Necrolord_4"+=shadowlands.volatile_solvent_primary=magic
 
 profileset."Necrolord_5"+=covenant=necrolord
-profileset."Necrolord_5"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_5"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_5"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11
 
 profileset."Necrolord_6"+=covenant=necrolord
-profileset."Necrolord_6"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_6"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_6"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/323074/323090
 profileset."Necrolord_6"+=shadowlands.volatile_solvent_type=crit
 
 profileset."Necrolord_7"+=covenant=necrolord
-profileset."Necrolord_7"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_7"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_7"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/323074/323090
 profileset."Necrolord_7"+=shadowlands.volatile_solvent_type=mastery
 
 profileset."Necrolord_8"+=covenant=necrolord
-profileset."Necrolord_8"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_8"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_8"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/323074/323090
 profileset."Necrolord_8"+=shadowlands.volatile_solvent_type=primary
 
 profileset."Necrolord_9"+=covenant=necrolord
-profileset."Necrolord_9"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_9"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_9"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/323074/323090
 profileset."Necrolord_9"+=shadowlands.volatile_solvent_type=magic
 
 profileset."Necrolord_10"+=covenant=necrolord
-profileset."Necrolord_10"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_10"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_10"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/323090
 
 profileset."Necrolord_11"+=covenant=necrolord
-profileset."Necrolord_11"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_11"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_11"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/342156
 
 profileset."Necrolord_12"+=covenant=necrolord
-profileset."Necrolord_12"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_12"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_12"+=soulbind=emeni,${conduits.first.id}:11/342156/323919
 
 profileset."Necrolord_13"+=covenant=necrolord
-profileset."Necrolord_13"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_13"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_13"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326514
 
 profileset."Necrolord_14"+=covenant=necrolord
-profileset."Necrolord_14"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_14"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_14"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/326504/326514
 
 profileset."Necrolord_15"+=covenant=necrolord
-profileset."Necrolord_15"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_15"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_15"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/326572/326514
 
 profileset."Necrolord_16"+=covenant=necrolord
-profileset."Necrolord_16"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Necrolord_16"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Necrolord_16"+=soulbind=bonesmith_heirmir,326504/326572/326514
 
 # Night Fae
 profileset."Night_Fae_1"+=covenant=night_fae
-profileset."Night_Fae_1"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Night_Fae_1"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Night_Fae_1"+=soulbind=niya,${conduits.first.id}:11/${conduits.second.id}:11/322721/320660
 
 profileset."Night_Fae_2"+=covenant=night_fae
-profileset."Night_Fae_2"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Night_Fae_2"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Night_Fae_2"+=soulbind=niya,${conduits.first.id}:11/322721/320659
 
 profileset."Night_Fae_3"+=covenant=night_fae
-profileset."Night_Fae_3"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Night_Fae_3"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Night_Fae_3"+=soulbind=dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/319191
 
 profileset."Night_Fae_4"+=covenant=night_fae
-profileset."Night_Fae_4"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Night_Fae_4"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Night_Fae_4"+=soulbind=dreamweaver,${conduits.first.id}:11/319191/319210
 
 profileset."Night_Fae_5"+=covenant=night_fae
-profileset."Night_Fae_5"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Night_Fae_5"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Night_Fae_5"+=soulbind=korayn,${conduits.first.id}:11/${conduits.second.id}:11/325066
 
 profileset."Night_Fae_6"+=covenant=night_fae
-profileset."Night_Fae_6"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Night_Fae_6"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Night_Fae_6"+=soulbind=korayn,${conduits.first.id}:11/325066/325069
 
 # Venthyr
 profileset."Venthyr_1"+=covenant=venthyr
-profileset."Venthyr_1"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Venthyr_1"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Venthyr_1"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/331586
 
 profileset."Venthyr_2"+=covenant=venthyr
-profileset."Venthyr_2"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Venthyr_2"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Venthyr_2"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/331586/331580
 
 profileset."Venthyr_3"+=covenant=venthyr
-profileset."Venthyr_3"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Venthyr_3"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Venthyr_3"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/331586/331584
 
 profileset."Venthyr_4"+=covenant=venthyr
-profileset."Venthyr_4"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Venthyr_4"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Venthyr_4"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239
 
 profileset."Venthyr_5"+=covenant=venthyr
-profileset."Venthyr_5"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Venthyr_5"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Venthyr_5"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/319983/336239
 
 profileset."Venthyr_6"+=covenant=venthyr
-profileset."Venthyr_6"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Venthyr_6"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Venthyr_6"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/336239/336243
 
 profileset."Venthyr_7"+=covenant=venthyr
-profileset."Venthyr_7"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Venthyr_7"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Venthyr_7"+=soulbind=general_draven,${conduits.first.id}:11/${conduits.second.id}:11
 
 profileset."Venthyr_8"+=covenant=venthyr
-profileset."Venthyr_8"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+profileset."Venthyr_8"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 profileset."Venthyr_8"+=soulbind=general_draven,${conduits.first.id}:11/319973

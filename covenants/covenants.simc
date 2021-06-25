@@ -7,10 +7,10 @@ talents=${talents}
 
 default_actions=1
 
-head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=${legendary.id}
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
 shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
-back=cloak_of_scarred_honor,id=186289,ilevel=252
+back=drape_of_twisted_loyalties,id=180123,ilevel=252
 chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats
 wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130,enchant=eternal_intellect
 hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252
@@ -39,7 +39,7 @@ profileset."Kyrian_Pelagos"+=soulbind=pelagos,${conduits.first.id}:11/${conduits
 profileset."Kyrian_Pelagos_TS"+=covenant=kyrian
 profileset."Kyrian_Pelagos_TS"+=soulbind=soulbind=pelagos,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/328266/351146/351149
 profileset."Kyrian_Pelagos_TS"+=talents=${talents.void_torrent}
-profileset."Kyrian_Pelagos_TS"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7162
+profileset."Kyrian_Pelagos_TS"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
 # Soulbind: Kleia - Kleia-VS_PC_SotA_LtP-HA_DE
 profileset."Kyrian_Kleia"+=covenant=kyrian
 profileset."Kyrian_Kleia"+=soulbind=kleia,${conduits.first.id}:11/${conduits.second.id}:11/329778/351491/329791/351488
@@ -52,20 +52,37 @@ profileset."Kyrian_Forgelite_HoG"+=soulbind=forgelite_prime_mikanikos,${conduits
 profileset."Kyrian_Forgelite_TS"+=covenant=kyrian
 profileset."Kyrian_Forgelite_TS"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/333950/352186/352188
 profileset."Kyrian_Forgelite_TS"+=talents=${talents.void_torrent}
-profileset."Kyrian_Forgelite_TS"+=head=hood_of_vengeful_possession,id=186287,ilevel=252,gem_id=173130,bonus_id=7162
+profileset."Kyrian_Forgelite_TS"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
 
 # Soulbind: Marileth - Marileth-VS_Mastery_KO-HA_DE_RS
 profileset."Necrolord_Marileth_Mastery"+=shadowlands.volatile_solvent_type=mastery
 profileset."Necrolord_Marileth_Mastery"+=covenant=necrolord
 profileset."Necrolord_Marileth_Mastery"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/323074/352110
+profileset."Necrolord_Marileth_Mastery_PC"+=shadowlands.volatile_solvent_type=mastery
+profileset."Necrolord_Marileth_Mastery_PC"+=covenant=necrolord
+profileset."Necrolord_Marileth_Mastery_PC"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/323074/352110
+profileset."Necrolord_Marileth_Mastery_PC"+=talents=${talents.void_torrent}
+profileset."Necrolord_Marileth_Mastery_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
 # Soulbind: Emeni - Emeni-LbE-HA_DE_RS
 profileset."Necrolord_Emeni"+=covenant=necrolord
 profileset."Necrolord_Emeni"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/342156
+profileset."Necrolord_Emeni_PC"+=covenant=necrolord
+profileset."Necrolord_Emeni_PC"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/342156
+profileset."Necrolord_Emeni_PC"+=talents=${talents.void_torrent}
+profileset."Necrolord_Emeni_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
 # Soulbind: Bonesmith Heirmir - Bonesmith-FR_CE_ME-HA_DE_RS + Bonesmith-FR_HAMG_CE_ME-HA_DE
 profileset."Necrolord_Bonesmith"+=covenant=necrolord
 profileset."Necrolord_Bonesmith"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/326514/350899/350936
 profileset."Necrolord_Bonesmith_HAMG"+=covenant=necrolord
 profileset."Necrolord_Bonesmith_HAMG"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326572/326514/350899/350936
+profileset."Necrolord_Bonesmith_PC"+=covenant=necrolord
+profileset."Necrolord_Bonesmith_PC"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/326514/350899/350936
+profileset."Necrolord_Bonesmith_PC"+=talents=${talents.void_torrent}
+profileset."Necrolord_Bonesmith_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Necrolord_Bonesmith_HAMG_PC"+=covenant=necrolord
+profileset."Necrolord_Bonesmith_HAMG_PC"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326572/326514/350899/350936
+profileset."Necrolord_Bonesmith_HAMG_PC"+=talents=${talents.void_torrent}
+profileset."Necrolord_Bonesmith_HAMG_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
 
 # Soulbind: Niya - Niya-GI_NTP_BH-HA_DE_RS
 profileset."Night_Fae_Niya"+=covenant=night_fae
