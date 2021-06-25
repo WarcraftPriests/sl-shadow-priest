@@ -59,7 +59,7 @@ sims:
     builds: true
     weights: false
     covenant:
-      lookup: true
+      lookup: false
       files: false
     legendary: false
     lookupType: none
