@@ -1,7 +1,12 @@
 # Single - am - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|turn_off_ascended_nova_with_sfp|6620|3.18%|
-|remains_3|6613|3.07%|
-|remains_4|6609|3.00%|
-|Base|6416|0.00%|
+|cloak-cloak_of_scarred_honor_252|8577|0.09%|
+|Base|8569|0.00%|
+|wrists-cruel_overlords_shackles_252|8560|-0.11%|
+|shoulder-mantle_of_arthuras_chosen_252|8555|-0.17%|
+|ring-miniature_breaking_wheel_252|8531|-0.44%|
+|head-hood_of_vengeful_possession_252|8502|-0.78%|
+|oh-record_of_collapsing_realities_252+mh-signes_sonorous_scramaseax_252|8432|-1.60%|
+|2h-gnarled_staff_of_the_elder_shaman_252|8402|-1.96%|
+|2h-nathrian_ferula_252|8399|-1.99%|

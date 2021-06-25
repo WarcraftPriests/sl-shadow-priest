@@ -1,6 +1,12 @@
 # Composite - am - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|remains_3|7214|0.92%|
-|remains_4|7211|0.88%|
-|Base|7148|0.00%|
+|Base|9013|0.00%|
+|cloak-cloak_of_scarred_honor_252|9007|-0.06%|
+|wrists-cruel_overlords_shackles_252|9006|-0.08%|
+|shoulder-mantle_of_arthuras_chosen_252|8998|-0.17%|
+|ring-miniature_breaking_wheel_252|8967|-0.51%|
+|head-hood_of_vengeful_possession_252|8952|-0.68%|
+|oh-record_of_collapsing_realities_252+mh-signes_sonorous_scramaseax_252|8872|-1.56%|
+|2h-gnarled_staff_of_the_elder_shaman_252|8858|-1.72%|
+|2h-nathrian_ferula_252|8837|-1.95%|
