@@ -7,63 +7,118 @@ talents=${talents}
 
 default_actions=1
 
-head=depraved_physicians_mask,id=178759,ilevel=204,bonus_id=${legendary.id}
-neck=sin_stained_pendant,id=178827,ilevel=204
-shoulder=reanimators_mantle,id=178740,ilevel=204
-back=drape_of_twisted_loyalties,id=180123,ilevel=204
-chest=sinister_requiem_vestments,id=180098,ilevel=204,enchant=eternal_insight
-wrists=deathshackle_wristwraps,id=178704,ilevel=204,enchant=eternal_intellect
-hands=tricksprite_gloves,id=178705,ilevel=204
-waist=kintaras_baleful_cord,id=180109,ilevel=204
-legs=muehzalas_hexthread_sarong,id=179351,ilevel=204
-feet=slippers_of_leavened_station,id=178831,ilevel=204
-finger1=bloodoath_signet,id=178871,ilevel=204,enchant=tenet_of_haste
-finger2=signet_of_the_false_accuser,id=178824,ilevel=204,enchant=tenet_of_haste
-trinket1=empyreal_ordnance,id=180117,ilevel=203
-trinket2=darkmoon_deck__putrescence,id=173069
-main_hand=nathrian_ferula,id=178829,ilevel=204,enchant=sinful_revelation
+head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=${legendary.id}
+neck=charm_of_eternal_winter,id=183040,ilevel=226,gem_id=173130
+shoulder=shawl_of_the_penitent,id=183020,ilevel=233
+back=crest_of_the_legionnaire_general,id=183032,ilevel=233
+chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
+wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect,gem_id=173130
+hands=impossibly_oversized_mitts,id=183022,ilevel=226
+waist=shadewarped_sash,id=183004,ilevel=226,gem_id=173130
+legs=purge_protocol_legwraps,id=180107,ilevel=226
+feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
+finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste,gem_id=173130
+finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste,gem_id=173130
+trinket1=soulletting_ruby,id=178809,ilevel=226
+trinket2=cabalists_hymnal,id=184028,ilevel=233
+main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
 
-profileset."Night_Fae_Covenant_Only"+=covenant=night_fae
-profileset."Venthyr_Covenant_Only"+=covenant=venthyr
+# Renown: 49
+# Conduits: Rank 8
+
 profileset."Kyrian_Covenant_Only"+=covenant=kyrian
 profileset."Necrolord_Covenant_Only"+=covenant=necrolord
+profileset."Night_Fae_Covenant_Only"+=covenant=night_fae
+profileset."Night_Fae_Covenant_Only_No_CDR"+=covenant=night_fae
+profileset."Night_Fae_Covenant_Only_No_CDR"+=priest.self_benevolent_faerie=0
+profileset."Venthyr_Covenant_Only"+=covenant=venthyr
+profileset."Venthyr_Covenant_Only_Healing_Reversal"+=covenant=venthyr
+profileset."Venthyr_Covenant_Only_Healing_Reversal"+=priest.mindgames_healing_reversal=1
 
-# Soulbind: Nadjia - Nadjia-TS-1_2 + Nadjia-TS_DD-1
-profileset."Venthyr_Nadjia"+=covenant=venthyr
-profileset."Venthyr_Nadjia"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:6/331586
-# Soulbind: Theotar - Theotar-SS-1_2
-profileset."Venthyr_Theotar"+=covenant=venthyr
-profileset."Venthyr_Theotar"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:6/336239
-
-# Soulbind: Pelagos - Pelagos-CM_LGotP-1_2
+# Soulbind: Pelagos - Pelagos-CM_BT-HA_DE_RS
 profileset."Kyrian_Pelagos"+=covenant=kyrian
-profileset."Kyrian_Pelagos"+=soulbind=pelagos,${conduits.first.id}:6/${conduits.second.id}:6/328266
-# Soulbind: Kleia - Kleia-PC-1
+profileset."Kyrian_Pelagos"+=soulbind=pelagos,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/328266/351146
+# Soulbind: Pelagos - Pelagos-CM_BT-TS-HA_DE_CA
+profileset."Kyrian_Pelagos_TS"+=covenant=kyrian
+profileset."Kyrian_Pelagos_TS"+=soulbind=pelagos,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/328266/351146
+profileset."Kyrian_Pelagos_TS"+=talents=${talents.void_torrent}
+profileset."Kyrian_Pelagos_TS"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
+# Soulbind: Kleia - Kleia-PC_SotA-TS-HA_DE
 profileset."Kyrian_Kleia"+=covenant=kyrian
-profileset."Kyrian_Kleia"+=soulbind=kleia,${conduits.first.id}:6
+profileset."Kyrian_Kleia"+=soulbind=kleia,${conduits.first.id}:8/${conduits.second.id}:8/329778/351488
+profileset."Kyrian_Kleia"+=talents=${talents.void_torrent}
+profileset."Kyrian_Kleia"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
+# Soulbind: Forgelite Prime Mikanikos - Forgelite-BCtA_SS-HA_DE_RS + Forgelite-BCtA_HoG_SS-HA_DE
+profileset."Kyrian_Forgelite"+=covenant=kyrian
+profileset."Kyrian_Forgelite"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/333950/352186
+profileset."Kyrian_Forgelite_HoG"+=covenant=kyrian
+profileset."Kyrian_Forgelite_HoG"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/333950/333935/352186
+# Soulbind: Forgelite Prime Mikanikos - Forgelite-BCtA_SS-TS-HA_DE_CA
+profileset."Kyrian_Forgelite_TS"+=covenant=kyrian
+profileset."Kyrian_Forgelite_TS"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/courageous_ascension:8/333950/352186
+profileset."Kyrian_Forgelite_TS"+=talents=${talents.void_torrent}
+profileset."Kyrian_Forgelite_TS"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
 
-# Soulbind: Dreamweaver - Dreamweaver-FoB-1_2
-profileset."Night_Fae_Dreamweaver"+=covenant=night_fae
-profileset."Night_Fae_Dreamweaver"+=soulbind=dreamweaver,${conduits.first.id}:6/${conduits.second.id}:6
-profileset."Night_Fae_Dreamweaver_SB"+=covenant=night_fae
-profileset."Night_Fae_Dreamweaver_SB"+=soulbind=dreamweaver,${conduits.first.id}:6/319210
-# Soulbind: Niya - Niya-GI_NTB-1
-profileset."Night_Fae_Niya"+=covenant=night_fae
-profileset."Night_Fae_Niya"+=soulbind=niya,${conduits.first.id}:6/322721
-
-# Soulbind: Emeni - Emeni-LbE-1_2
-profileset."Necrolord_Emeni"+=covenant=necrolord
-profileset."Necrolord_Emeni"+=soulbind=emeni,${conduits.first.id}:6/342156
-# Soulbind: Marileth - Marileth-VS_Mastery-1_2 + Marileth-PPS_VS_Mastery-1
-profileset."Necrolord_Marileth"+=shadowlands.volatile_solvent_type=mastery
-profileset."Necrolord_Marileth"+=covenant=necrolord
-profileset."Necrolord_Marileth"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/${conduits.second.id}:6
-profileset."Necrolord_Marileth_PPS"+=shadowlands.volatile_solvent_type=mastery
-profileset."Necrolord_Marileth_PPS"+=covenant=necrolord
-profileset."Necrolord_Marileth_PPS"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323090
+# Soulbind: Marileth - Marileth-VS_Mastery-HA_DE_RS + Marileth-VS_Mastery-PC-HA_DE_RS
 profileset."Necrolord_Marileth_Mastery"+=shadowlands.volatile_solvent_type=mastery
 profileset."Necrolord_Marileth_Mastery"+=covenant=necrolord
-profileset."Necrolord_Marileth_Mastery"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/${conduits.second.id}:6/323074
-profileset."Necrolord_Marileth_Mastery_PPS"+=shadowlands.volatile_solvent_type=mastery
-profileset."Necrolord_Marileth_Mastery_PPS"+=covenant=necrolord
-profileset."Necrolord_Marileth_Mastery_PPS"+=soulbind=plague_deviser_marileth,${conduits.first.id}:6/323074/323090
+profileset."Necrolord_Marileth_Mastery"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/323074
+profileset."Necrolord_Marileth_Mastery_PC"+=shadowlands.volatile_solvent_type=mastery
+profileset."Necrolord_Marileth_Mastery_PC"+=covenant=necrolord
+profileset."Necrolord_Marileth_Mastery_PC"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/323074
+profileset."Necrolord_Marileth_Mastery_PC"+=talents=${talents.void_torrent}
+profileset."Necrolord_Marileth_Mastery_PC"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
+# Soulbind: Emeni - Emeni-LbE-HA_DE_RS
+profileset."Necrolord_Emeni"+=covenant=necrolord
+profileset."Necrolord_Emeni"+=soulbind=emeni,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/342156
+profileset."Necrolord_Emeni_PC"+=covenant=necrolord
+profileset."Necrolord_Emeni_PC"+=soulbind=emeni,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/342156
+profileset."Necrolord_Emeni_PC"+=talents=${talents.void_torrent}
+profileset."Necrolord_Emeni_PC"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
+profileset."Necrolord_Emeni_GC_PC"+=covenant=necrolord
+profileset."Necrolord_Emeni_GC_PC"+=soulbind=emeni,${conduits.first.id}:8/${conduits.second.id}:8/342156/323919
+profileset."Necrolord_Emeni_GC_PC"+=talents=${talents.void_torrent}
+profileset."Necrolord_Emeni_GC_PC"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
+# Soulbind: Bonesmith Heirmir - Bonesmith-FR_CE-HA_DE_RS + Bonesmith-FR_HAMG_CE-HA_DE
+profileset."Necrolord_Bonesmith"+=covenant=necrolord
+profileset."Necrolord_Bonesmith"+=soulbind=bonesmith_heirmir,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/326514/350899
+profileset."Necrolord_Bonesmith_HAMG"+=covenant=necrolord
+profileset."Necrolord_Bonesmith_HAMG"+=soulbind=bonesmith_heirmir,${conduits.first.id}:8/${conduits.second.id}:8/326572/326514/350899
+profileset."Necrolord_Bonesmith_PC"+=covenant=necrolord
+profileset."Necrolord_Bonesmith_PC"+=soulbind=bonesmith_heirmir,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/326514/350899
+profileset."Necrolord_Bonesmith_PC"+=talents=${talents.void_torrent}
+profileset."Necrolord_Bonesmith_PC"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
+profileset."Necrolord_Bonesmith_HAMG_PC"+=covenant=necrolord
+profileset."Necrolord_Bonesmith_HAMG_PC"+=soulbind=bonesmith_heirmir,${conduits.first.id}:8/${conduits.second.id}:8/326572/326514/350899
+profileset."Necrolord_Bonesmith_HAMG_PC"+=talents=${talents.void_torrent}
+profileset."Necrolord_Bonesmith_HAMG_PC"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
+
+# Soulbind: Niya - Niya-GI_NTP-HA_DE_RS
+profileset."Night_Fae_Niya"+=covenant=night_fae
+profileset."Night_Fae_Niya"+=soulbind=niya,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/322721/320660
+# Soulbind: Dreamweaver - Dreamweaver-FoB-HA_DE_RS
+profileset."Night_Fae_Dreamweaver"+=covenant=night_fae
+profileset."Night_Fae_Dreamweaver"+=soulbind=dreamweaver,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/319191
+profileset."Night_Fae_Dreamweaver_no_FoB"+=covenant=night_fae
+profileset."Night_Fae_Dreamweaver_no_FoB"+=soulbind=dreamweaver,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8
+# Soulbind: Korayn - Korayn-WHT-HA_DE_RS + Korayn-WHT_FS-HA_DE
+profileset."Night_Fae_Korayn"+=covenant=night_fae
+profileset."Night_Fae_Korayn"+=soulbind=korayn,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/325066
+profileset."Night_Fae_Korayn_FS"+=covenant=night_fae
+profileset."Night_Fae_Korayn_FS"+=soulbind=korayn,${conduits.first.id}:8/${conduits.second.id}:8/325066/325069
+
+# Soulbind: Nadjia - Nadjia-TS-HA_DE_RS
+profileset."Venthyr_Nadjia"+=covenant=venthyr
+profileset."Venthyr_Nadjia"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/331586
+# Soulbind: Theotar - Theotar-SS-HA_DE_RS
+profileset."Venthyr_Theotar"+=covenant=venthyr
+profileset."Venthyr_Theotar"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/336239
+# Soulbind: Draven - Draven-BfW-HA_DE
+profileset."Venthyr_Draven_BfW"+=covenant=venthyr
+profileset."Venthyr_Draven_BfW"+=soulbind=general_draven,${conduits.first.id}:8/${conduits.second.id}:8/319973
+
+#Pelagos
+override.spell_data=effect.821722.coefficient=3.315789
+#Dreamer
+override.spell_data=effect.844100.base_value=15
+override.spell_data=spell.342761.duration=12000

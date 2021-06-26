@@ -1,7 +1,24 @@
 # Composite - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Theotar-SS-HA|5889|5.88%|
-|Nadjia-TS-HA|5871|5.54%|
-|Draven-HA|5746|3.30%|
-|Base|5563|0.00%|
+|Theotar-SS_Party_Favor_Haste-HA_DE_RS|8231|17.68%|
+|Theotar-SS_Party_Favor_Intellect-HA_DE_RS|8177|16.90%|
+|Theotar-SS_Party_Favor_Versatility-HA_DE_RS|8160|16.66%|
+|Theotar-SS_Party_Favor_Crit-HA_DE_RS|8136|16.32%|
+|Nadjia-TS_FF-HA_DE_RS|8022|14.69%|
+|Theotar-SS_WP_Party_Favor_Haste-HA_DE|8003|14.42%|
+|Theotar-SS_RP_Party_Favor_Haste-HA_DE|7988|14.21%|
+|Theotar-SS_WP_Party_Favor_Intellect-HA_DE|7945|13.59%|
+|Theotar-SS-HA_DE_RS|7938|13.49%|
+|Theotar-SS_RP_Party_Favor_Intellect-HA_DE|7936|13.46%|
+|Nadjia-TS_DD_FF-HA_DE|7928|13.35%|
+|Theotar-SS_WP_Party_Favor_Versatility-HA_DE|7927|13.34%|
+|Theotar-SS_RP_Party_Favor_Versatility-HA_DE|7916|13.18%|
+|Theotar-SS_WP_Party_Favor_Crit-HA_DE|7907|13.04%|
+|Theotar-SS_RP_Party_Favor_Crit-HA_DE|7894|12.86%|
+|Nadjia-TS_EP_FF-HA_DE|7807|11.62%|
+|Draven-HA_DE_RS|7739|10.64%|
+|Draven-BfW-HA_DE|7718|10.35%|
+|Theotar-SS_WP-HA_DE|7716|10.32%|
+|Theotar-SS_RP-HA_DE|7700|10.09%|
+|Base|6994|0.00%|

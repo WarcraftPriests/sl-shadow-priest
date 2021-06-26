@@ -8,31 +8,58 @@ covenant=night_fae
 
 default_actions=1
 
-head=depraved_physicians_mask,id=178759,ilevel=204,bonus_id=${legendary.id}
-neck=sin_stained_pendant,id=178827,ilevel=204
-shoulder=reanimators_mantle,id=178740,ilevel=204
-back=drape_of_twisted_loyalties,id=180123,ilevel=204
-chest=sinister_requiem_vestments,id=180098,ilevel=204,enchant=eternal_insight
-wrists=deathshackle_wristwraps,id=178704,ilevel=204,enchant=eternal_intellect
-hands=tricksprite_gloves,id=178705,ilevel=204
-waist=kintaras_baleful_cord,id=180109,ilevel=204
-legs=muehzalas_hexthread_sarong,id=179351,ilevel=204
-feet=slippers_of_leavened_station,id=178831,ilevel=204
-finger1=bloodoath_signet,id=178871,ilevel=204,enchant=tenet_of_haste
-finger2=signet_of_the_false_accuser,id=178824,ilevel=204,enchant=tenet_of_haste
-trinket1=empyreal_ordnance,id=180117,ilevel=203
-trinket2=darkmoon_deck__putrescence,id=173069
-main_hand=nathrian_ferula,id=178829,ilevel=204,enchant=sinful_revelation
+head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=${legendary.id}
+neck=charm_of_eternal_winter,id=183040,ilevel=226,gem_id=173130
+shoulder=shawl_of_the_penitent,id=183020,ilevel=233
+back=crest_of_the_legionnaire_general,id=183032,ilevel=233
+chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
+wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect,gem_id=173130
+hands=impossibly_oversized_mitts,id=183022,ilevel=226
+waist=shadewarped_sash,id=183004,ilevel=226,gem_id=173130
+legs=purge_protocol_legwraps,id=180107,ilevel=226
+feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
+finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste,gem_id=173130
+finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste,gem_id=173130
+trinket1=soulletting_ruby,id=178809,ilevel=226
+trinket2=cabalists_hymnal,id=184028,ilevel=233
+main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
+
+# Renown: 49
+# Conduits: Rank 8
 
 # Niya
-# 1 conduit setup
+# 3 conduit setup
 # Grove Invigoration - 322721
-profileset."Niya-GI-${conduits.first.name}"+=soulbind=niya,${conduits.first.id}:6/322721
-
-# Dreamweaver
-# 1 conduit setup
-# Social Butterfly - 319210
-profileset."Dreamweaver-SB-${conduits.first.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/319210
+# Niya's Tools: Poison - 320660
+profileset."Niya-GI_NTP-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=niya,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/322721/320660
 
 # 2 conduit setup
-profileset."Dreamweaver-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:6/${conduits.second.id}:6
+# Grove Invigoration - 322721
+# Niya's Tools: Burrs - 320659
+profileset."Niya-GI_NTB-${conduits.first.name}_${conduits.second.name}"+=soulbind=niya,${conduits.first.id}:8/${conduits.second.id}:8/322721/320659
+
+# Dreamweaver
+# 3 conduit setup
+# Field of Blossoms - 319191
+profileset."Dreamweaver-FoB-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=dreamweaver,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/319191
+
+# 2 conduit setup
+# Field of Blossoms - 319191
+# Social Butterfly - 319210
+profileset."Dreamweaver-FoB_SB-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:8/${conduits.second.id}:8/319191/319210
+
+# Korayn
+# 3 conduit setup
+# Wild Hunt Tactics - 325066
+profileset."Korayn-WHT-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=korayn,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/325066
+
+# 2 conduit setup
+# Wild Hunt Tactics - 325066
+# First Strike - 325069
+profileset."Korayn-WHT_FS-${conduits.first.name}_${conduits.second.name}"+=soulbind=korayn,${conduits.first.id}:8/${conduits.second.id}:8/325066/325069
+
+#Pelagos
+override.spell_data=effect.821722.coefficient=3.315789
+#Dreamer
+override.spell_data=effect.844100.base_value=15
+override.spell_data=spell.342761.duration=12000

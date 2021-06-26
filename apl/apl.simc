@@ -5,11 +5,12 @@ position=back
 talents=${talents}
 covenant=necrolord
 soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326572/326514/350899/350936
+shadowlands.volatile_solvent_type=mastery
 spec=shadow
 
 default_actions=1
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
 shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
 back=drape_of_twisted_loyalties,id=180123,ilevel=252
@@ -32,6 +33,7 @@ position=back
 talents=${talents}
 covenant=necrolord
 soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326572/326514/350899/350936
+shadowlands.volatile_solvent_type=mastery
 spec=shadow
 
 default_actions=0
@@ -81,7 +83,7 @@ actions.boon=ascended_blast,if=spell_targets.mind_sear<=3
 actions.boon+=/ascended_nova,if=spell_targets.ascended_nova>1&spell_targets.mind_sear>1+talent.searing_nightmare.enabled
 
 # Use Power Infusion with Voidform. Hold for Voidform comes off cooldown in the next 10 seconds otherwise use on cd unless the Pelagos Trait Combat Meditation is talented, or if there will not be another Void Eruption this fight. Attempt to sync the last power infusion of the fight to void eruption for non Kyrians.
-actions.cds=power_infusion,if=priest.self_power_infusion&(buff.voidform.up|!covenant.kyrian&cooldown.void_eruption.remains>=10|fight_remains<cooldown.void_eruption.remains)&(fight_remains>=cooldown.void_eruption.remains+15&cooldown.void_eruption.remains<=gcd*4|fight_remains>cooldown.power_infusion.duration|fight_remains<cooldown.void_eruption.remains+15|covenant.kyrian|buff.bloodlust.up)
+actions.cds=power_infusion,if=priest.self_power_infusion&(buff.voidform.up|!soulbind.combat_meditation.enabled&cooldown.void_eruption.remains>=10|fight_remains<cooldown.void_eruption.remains)&(fight_remains>=cooldown.void_eruption.remains+15&cooldown.void_eruption.remains<=gcd*4|fight_remains>cooldown.power_infusion.duration|fight_remains<cooldown.void_eruption.remains+15|covenant.kyrian|buff.bloodlust.up|buff.voidform.up)
 # Use Silence on CD to proc Sephuz's Proclamation.
 actions.cds+=/silence,target_if=runeforge.sephuzs_proclamation.equipped&(target.is_add|target.debuff.casting.react)
 # Use Fae Guardians on CD outside of Voidform. Use Fae Guardiands in Voidform if you have either Grove Invigoration or Field of Blossoms. Wait for dots to be up before activating Fae Guardians to maximise the buff.
@@ -171,7 +173,7 @@ actions.trinkets+=/call_action_list,name=dmg_trinkets,if=(!talent.hungering_void
 # Default fallback for usable items: Use on cooldown in order by trinket slot.
 actions.trinkets+=/use_items,if=buff.voidform.up|buff.power_infusion.up|cooldown.void_eruption.remains>10
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
 shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
 back=drape_of_twisted_loyalties,id=180123,ilevel=252
@@ -194,6 +196,7 @@ position=back
 talents=${talents}
 covenant=necrolord
 soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326572/326514/350899/350936
+shadowlands.volatile_solvent_type=mastery
 spec=shadow
 
 default_actions=0
@@ -243,7 +246,7 @@ actions.boon=ascended_blast,if=spell_targets.mind_sear<=3
 actions.boon+=/ascended_nova,if=spell_targets.ascended_nova>1&spell_targets.mind_sear>1+talent.searing_nightmare.enabled
 
 # Use Power Infusion with Voidform. Hold for Voidform comes off cooldown in the next 10 seconds otherwise use on cd unless the Pelagos Trait Combat Meditation is talented, or if there will not be another Void Eruption this fight. Attempt to sync the last power infusion of the fight to void eruption for non Kyrians.
-actions.cds=power_infusion,if=priest.self_power_infusion&(buff.voidform.up|!covenant.kyrian&cooldown.void_eruption.remains>=10|fight_remains<cooldown.void_eruption.remains)&(fight_remains>=cooldown.void_eruption.remains+15&cooldown.void_eruption.remains<=gcd*4|fight_remains>cooldown.power_infusion.duration|fight_remains<cooldown.void_eruption.remains+15|covenant.kyrian|buff.bloodlust.up)
+actions.cds=power_infusion,if=priest.self_power_infusion&(buff.voidform.up|!soulbind.combat_meditation.enabled&cooldown.void_eruption.remains>=10|fight_remains<cooldown.void_eruption.remains)&(fight_remains>=cooldown.void_eruption.remains+15&cooldown.void_eruption.remains<=gcd*4|fight_remains>cooldown.power_infusion.duration|fight_remains<cooldown.void_eruption.remains+15|covenant.kyrian|buff.bloodlust.up|buff.voidform.up)
 # Use Silence on CD to proc Sephuz's Proclamation.
 actions.cds+=/silence,target_if=runeforge.sephuzs_proclamation.equipped&(target.is_add|target.debuff.casting.react)
 # Use Fae Guardians on CD outside of Voidform. Use Fae Guardiands in Voidform if you have either Grove Invigoration or Field of Blossoms. Wait for dots to be up before activating Fae Guardians to maximise the buff.
@@ -333,7 +336,7 @@ actions.trinkets+=/call_action_list,name=dmg_trinkets,if=(!talent.hungering_void
 # Default fallback for usable items: Use on cooldown in order by trinket slot.
 actions.trinkets+=/use_items,if=buff.voidform.up|buff.power_infusion.up|cooldown.void_eruption.remains>10
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
 shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
 back=drape_of_twisted_loyalties,id=180123,ilevel=252
@@ -356,6 +359,7 @@ position=back
 talents=${talents}
 covenant=necrolord
 soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326572/326514/350899/350936
+shadowlands.volatile_solvent_type=mastery
 spec=shadow
 
 default_actions=0
@@ -495,7 +499,7 @@ actions.trinkets+=/call_action_list,name=dmg_trinkets,if=(!talent.hungering_void
 # Default fallback for usable items: Use on cooldown in order by trinket slot.
 actions.trinkets+=/use_items,if=buff.voidform.up|buff.power_infusion.up|cooldown.void_eruption.remains>10
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
 shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
 back=drape_of_twisted_loyalties,id=180123,ilevel=252

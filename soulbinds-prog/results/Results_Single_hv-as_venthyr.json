@@ -1,1 +1,0 @@
-{"name": "Single - hv-as - venthyr", "data": {"Theotar-SS-DE": {"DPS": 5701}, "Nadjia-TS-DE": {"DPS": 5677}, "Draven-DE": {"DPS": 5560}, "Base": {"DPS": 5331}}, "ids": {"Theotar-SS-DE": null, "Nadjia-TS-DE": null, "Draven-DE": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Theotar-SS-DE", "Nadjia-TS-DE", "Draven-DE"], "last_updated": "2021-03-07"}

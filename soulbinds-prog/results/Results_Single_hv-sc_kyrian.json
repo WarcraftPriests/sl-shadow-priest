@@ -1,1 +1,0 @@
-{"name": "Single - hv-sc - kyrian", "data": {"Pelagos-CM-DE_HA": {"DPS": 5908}, "Forgelite-BCtA-DE": {"DPS": 5561}, "Kleia-DE": {"DPS": 5502}, "Base": {"DPS": 5299}}, "ids": {"Pelagos-CM-DE_HA": null, "Forgelite-BCtA-DE": null, "Kleia-DE": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Pelagos-CM-DE_HA", "Forgelite-BCtA-DE", "Kleia-DE"], "last_updated": "2021-03-07"}

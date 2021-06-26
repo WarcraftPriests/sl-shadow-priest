@@ -96,3 +96,9 @@ profileset."Draven-BP-${conduits.first.name}_${conduits.second.name}_${conduits.
 # Built for War - 319973
 # Battlefield Presence - 352417 (TODO: add options?)
 profileset."Draven-BfW_BP-${conduits.first.name}_${conduits.second.name}"+=soulbind=general_draven,${conduits.first.id}:11/${conduits.second.id}:11/319973/352417
+
+#Pelagos
+override.spell_data=effect.821722.coefficient=3.315789
+#Dreamer
+override.spell_data=effect.844100.base_value=15
+override.spell_data=spell.342761.duration=12000

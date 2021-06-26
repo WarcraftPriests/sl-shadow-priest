@@ -1,0 +1,32 @@
+# Composite - hv - necrolord
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Bonesmith-FR_HAMG_CE-PC-HA_DE|7748|16.99%|
+|Bonesmith-FR_CE-HA_DE_RS|7642|15.39%|
+|Emeni-LbE-HA_DE_RS|7614|14.97%|
+|Bonesmith-FR_CE-PC-HA_DE_RS|7613|14.96%|
+|Bonesmith-FR_HAMG_CE-HA_DE|7595|14.68%|
+|Emeni-LbE-PC-HA_DE_RS|7593|14.65%|
+|Bonesmith-FR_SS_CE-PC-HA_DE|7544|13.92%|
+|Emeni-LbE_GC-PC-HA_DE|7532|13.74%|
+|Marileth-VS_Mastery-HA_DE_RS|7489|13.09%|
+|Bonesmith-FR_SS_HAMG_CE-PC-HA|7489|13.08%|
+|Marileth-VS_Crit-HA_DE_RS|7469|12.78%|
+|Marileth-VS_Mastery-PC-HA_DE_RS|7458|12.62%|
+|Marileth-VS_Magic-HA_DE_RS|7456|12.59%|
+|Marileth-VS_Crit-PC-HA_DE_RS|7446|12.43%|
+|Marileth-VS_Magic-PC-HA_DE_RS|7442|12.37%|
+|Marileth-VS_Intellect-HA_DE_RS|7441|12.35%|
+|Marileth-VS_Intellect-PC-HA_DE_RS|7422|12.07%|
+|Marileth-PPS_VS_Mastery-PC-HA_DE|7418|12.01%|
+|Marileth-PPS_VS_Crit-PC-HA_DE|7408|11.86%|
+|Marileth-PPS_VS_Magic-PC-HA_DE|7402|11.77%|
+|Bonesmith-FR_SS_CE-HA_DE|7386|11.53%|
+|Marileth-PPS_VS_Intellect-PC-HA_DE|7380|11.44%|
+|Emeni-LbE_GC-HA_DE|7369|11.28%|
+|Bonesmith-FR_SS_HAMG_CE-HA|7316|10.47%|
+|Marileth-PPS_VS_Mastery-HA_DE|7278|9.90%|
+|Marileth-PPS_VS_Crit-HA_DE|7261|9.64%|
+|Marileth-PPS_VS_Magic-HA_DE|7249|9.46%|
+|Marileth-PPS_VS_Intellect-HA_DE|7236|9.26%|
+|Base|6622|0.00%|
