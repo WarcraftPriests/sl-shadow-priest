@@ -37,144 +37,144 @@ main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 # Shadow Word: Manipulation - 7704 (neck, wrist)
 profileset."Shadow_Word_Manipulation_7_Wrists_HC_225"+=wrists=,id=173249,ilevel=225,bonus_id=7704/6647/6649,enchant=eternal_intellect
 profileset."Shadow_Word_Manipulation_7_Wrists_HC_235"+=wrists=,id=173249,ilevel=235,bonus_id=7704/6647/6649,enchant=eternal_intellect
-profileset."Shadow_Word_Manipulation_7_Wrists_HC_250"+=wrists=,id=173249,ilevel=250,bonus_id=7704/6647/6649,enchant=eternal_intellect
-profileset."Shadow_Word_Manipulation_7_Wrists_HC_260"+=wrists=,id=173249,ilevel=260,bonus_id=7704/6647/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_HC_249"+=wrists=,id=173249,ilevel=249,bonus_id=7704/6647/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_HC_262"+=wrists=,id=173249,ilevel=262,bonus_id=7704/6647/6649,enchant=eternal_intellect
 profileset."Shadow_Word_Manipulation_7_Wrists_HM_225"+=wrists=,id=173249,ilevel=225,bonus_id=7704/6648/6649,enchant=eternal_intellect
 profileset."Shadow_Word_Manipulation_7_Wrists_HM_235"+=wrists=,id=173249,ilevel=235,bonus_id=7704/6648/6649,enchant=eternal_intellect
-profileset."Shadow_Word_Manipulation_7_Wrists_HM_250"+=wrists=,id=173249,ilevel=250,bonus_id=7704/6648/6649,enchant=eternal_intellect
-profileset."Shadow_Word_Manipulation_7_Wrists_HM_260"+=wrists=,id=173249,ilevel=260,bonus_id=7704/6648/6649,enchant=eternal_intellect
-profileset."Shadow_Word_Manipulation_7_Neck_HC_250"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
-profileset."Shadow_Word_Manipulation_7_Neck_HC_260"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
-profileset."Shadow_Word_Manipulation_7_Neck_HC_225"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
-profileset."Shadow_Word_Manipulation_7_Neck_HC_235"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
-profileset."Shadow_Word_Manipulation_7_Neck_HM_250"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
-profileset."Shadow_Word_Manipulation_7_Neck_HM_260"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
-profileset."Shadow_Word_Manipulation_7_Neck_HM_225"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
-profileset."Shadow_Word_Manipulation_7_Neck_HM_235"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Wrists_HM_249"+=wrists=,id=173249,ilevel=249,bonus_id=7704/6648/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_HM_262"+=wrists=,id=173249,ilevel=262,bonus_id=7704/6648/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Neck_HC_249"+=neck=,id=178927,ilevel=249,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Neck_HC_262"+=neck=,id=178927,ilevel=249,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Neck_HC_225"+=neck=,id=178927,ilevel=249,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Neck_HC_235"+=neck=,id=178927,ilevel=249,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Neck_HM_249"+=neck=,id=178927,ilevel=249,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_HM_262"+=neck=,id=178927,ilevel=249,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_HM_225"+=neck=,id=178927,ilevel=249,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_HM_235"+=neck=,id=178927,ilevel=249,bonus_id=7704/6648/6649
 
 profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_225"+=wrists=,id=173249,ilevel=225,bonus_id=7704/6647/6649,enchant=eternal_intellect
 profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
 profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_235"+=wrists=,id=173249,ilevel=235,bonus_id=7704/6647/6649,enchant=eternal_intellect
 profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
-profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_250"+=wrists=,id=173249,ilevel=250,bonus_id=7704/6647/6649,enchant=eternal_intellect
-profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
-profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_260"+=wrists=,id=173249,ilevel=260,bonus_id=7704/6647/6649,enchant=eternal_intellect
-profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_249"+=wrists=,id=173249,ilevel=249,bonus_id=7704/6647/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_262"+=wrists=,id=173249,ilevel=262,bonus_id=7704/6647/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HC_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
 profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_225"+=wrists=,id=173249,ilevel=225,bonus_id=7704/6648/6649,enchant=eternal_intellect
 profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
 profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_235"+=wrists=,id=173249,ilevel=235,bonus_id=7704/6648/6649,enchant=eternal_intellect
 profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
-profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_250"+=wrists=,id=173249,ilevel=250,bonus_id=7704/6648/6649,enchant=eternal_intellect
-profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
-profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_260"+=wrists=,id=173249,ilevel=260,bonus_id=7704/6648/6649,enchant=eternal_intellect
-profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
-profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_250"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
-profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
-profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_260"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
-profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
-profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_225"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_249"+=wrists=,id=173249,ilevel=249,bonus_id=7704/6648/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_262"+=wrists=,id=173249,ilevel=262,bonus_id=7704/6648/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_11_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_249"+=neck=,id=178927,ilevel=249,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_262"+=neck=,id=178927,ilevel=249,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_225"+=neck=,id=178927,ilevel=249,bonus_id=7704/6647/6649
 profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
-profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_235"+=neck=,id=178927,ilevel=250,bonus_id=7704/6647/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_235"+=neck=,id=178927,ilevel=249,bonus_id=7704/6647/6649
 profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HC_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
-profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_250"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
-profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
-profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_260"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
-profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
-profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_225"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_249"+=neck=,id=178927,ilevel=249,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_262"+=neck=,id=178927,ilevel=249,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_225"+=neck=,id=178927,ilevel=249,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
-profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_235"+=neck=,id=178927,ilevel=250,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_235"+=neck=,id=178927,ilevel=249,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Neck_Conduit_11_HM_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
 
 # Shadow Priest Legendaries
 # Shadowflame Prism - 6982
-profileset."Shadowflame_Prism_Head_HC_250"+=head=,id=173245,ilevel=250,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Head_HC_260"+=head=,id=173245,ilevel=260,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Head_HC_249"+=head=,id=173245,ilevel=249,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Head_HC_262"+=head=,id=173245,ilevel=262,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Head_HC_225"+=head=,id=173245,ilevel=225,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Head_HC_235"+=head=,id=173245,ilevel=235,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Hands_HC_250"+=hands=,id=173244,ilevel=250,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Hands_HC_260"+=hands=,id=173244,ilevel=260,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Hands_HC_249"+=hands=,id=173244,ilevel=249,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Hands_HC_262"+=hands=,id=173244,ilevel=262,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Hands_HC_225"+=hands=,id=173244,ilevel=225,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Hands_HC_235"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
 
-profileset."Shadowflame_Prism_Mindbender_Head_HC_250"+=head=,id=173245,ilevel=250,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Mindbender_Head_HC_250"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism_Mindbender_Head_HC_260"+=head=,id=173245,ilevel=260,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Mindbender_Head_HC_260"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Head_HC_249"+=head=,id=173245,ilevel=249,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Mindbender_Head_HC_249"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Head_HC_262"+=head=,id=173245,ilevel=262,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Mindbender_Head_HC_262"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Head_HC_225"+=head=,id=173245,ilevel=225,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Mindbender_Head_HC_225"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Head_HC_235"+=head=,id=173245,ilevel=235,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Mindbender_Head_HC_235"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism_Mindbender_Hands_HC_250"+=hands=,id=173244,ilevel=250,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Mindbender_Hands_HC_250"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism_Mindbender_Hands_HC_260"+=hands=,id=173244,ilevel=260,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Mindbender_Hands_HC_260"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Hands_HC_249"+=hands=,id=173244,ilevel=249,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Mindbender_Hands_HC_249"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Hands_HC_262"+=hands=,id=173244,ilevel=262,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Mindbender_Hands_HC_262"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Hands_HC_225"+=hands=,id=173244,ilevel=225,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Mindbender_Hands_HC_225"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Hands_HC_235"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Mindbender_Hands_HC_235"+=talents=${talents.mindbender}
 
-profileset."Shadowflame_Prism_Head_HM_250"+=head=,id=173245,ilevel=250,bonus_id=6982/6648/6649
-profileset."Shadowflame_Prism_Head_HM_260"+=head=,id=173245,ilevel=260,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Head_HM_249"+=head=,id=173245,ilevel=249,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Head_HM_262"+=head=,id=173245,ilevel=262,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Head_HM_225"+=head=,id=173245,ilevel=225,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Head_HM_235"+=head=,id=173245,ilevel=235,bonus_id=6982/6648/6649
-profileset."Shadowflame_Prism_Hands_HM_250"+=hands=,id=173244,ilevel=250,bonus_id=6982/6648/6649
-profileset."Shadowflame_Prism_Hands_HM_260"+=hands=,id=173244,ilevel=260,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Hands_HM_249"+=hands=,id=173244,ilevel=249,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Hands_HM_262"+=hands=,id=173244,ilevel=262,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Hands_HM_225"+=hands=,id=173244,ilevel=225,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Hands_HM_235"+=hands=,id=173244,ilevel=235,bonus_id=6982/6648/6649
 
-profileset."Shadowflame_Prism_Mindbender_Head_HM_250"+=head=,id=173245,ilevel=250,bonus_id=6982/6648/6649
-profileset."Shadowflame_Prism_Mindbender_Head_HM_250"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism_Mindbender_Head_HM_260"+=head=,id=173245,ilevel=260,bonus_id=6982/6648/6649
-profileset."Shadowflame_Prism_Mindbender_Head_HM_260"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Head_HM_249"+=head=,id=173245,ilevel=249,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Mindbender_Head_HM_249"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Head_HM_262"+=head=,id=173245,ilevel=262,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Mindbender_Head_HM_262"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Head_HM_225"+=head=,id=173245,ilevel=225,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Mindbender_Head_HM_225"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Head_HM_235"+=head=,id=173245,ilevel=235,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Mindbender_Head_HM_235"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism_Mindbender_Hands_HM_250"+=hands=,id=173244,ilevel=250,bonus_id=6982/6648/6649
-profileset."Shadowflame_Prism_Mindbender_Hands_HM_250"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism_Mindbender_Hands_HM_260"+=hands=,id=173244,ilevel=260,bonus_id=6982/6648/6649
-profileset."Shadowflame_Prism_Mindbender_Hands_HM_260"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Hands_HM_249"+=hands=,id=173244,ilevel=249,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Mindbender_Hands_HM_249"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Hands_HM_262"+=hands=,id=173244,ilevel=262,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Mindbender_Hands_HM_262"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Hands_HM_225"+=hands=,id=173244,ilevel=225,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Mindbender_Hands_HM_225"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Hands_HM_235"+=hands=,id=173244,ilevel=235,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Mindbender_Hands_HM_235"+=talents=${talents.mindbender}
 
 # Shadowflame Prism with Rabid Shadows
-profileset."Shadowflame_Prism_Conduit_Head_HC_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Conduit_Head_HC_250"+=head=,id=173245,ilevel=250,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Conduit_Head_HC_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Conduit_Head_HC_260"+=head=,id=173245,ilevel=260,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Conduit_Head_HC_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Conduit_Head_HC_249"+=head=,id=173245,ilevel=249,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Conduit_Head_HC_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Conduit_Head_HC_262"+=head=,id=173245,ilevel=262,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Conduit_Head_HC_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 profileset."Shadowflame_Prism_Conduit_Head_HC_225"+=head=,id=173245,ilevel=225,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Conduit_Head_HC_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 profileset."Shadowflame_Prism_Conduit_Head_HC_235"+=head=,id=173245,ilevel=235,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Conduit_Hands_HC_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Conduit_Hands_HC_250"+=hands=,id=173244,ilevel=250,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Conduit_Hands_HC_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Conduit_Hands_HC_260"+=hands=,id=173244,ilevel=260,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Conduit_Hands_HC_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Conduit_Hands_HC_249"+=hands=,id=173244,ilevel=249,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Conduit_Hands_HC_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Conduit_Hands_HC_262"+=hands=,id=173244,ilevel=262,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Conduit_Hands_HC_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 profileset."Shadowflame_Prism_Conduit_Hands_HC_225"+=hands=,id=173244,ilevel=225,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Conduit_Hands_HC_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 profileset."Shadowflame_Prism_Conduit_Hands_HC_235"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
 
-profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_250"+=head=,id=173245,ilevel=250,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_250"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_260"+=head=,id=173245,ilevel=260,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_260"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_249"+=head=,id=173245,ilevel=249,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_249"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_262"+=head=,id=173245,ilevel=262,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_262"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_225"+=head=,id=173245,ilevel=225,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_225"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_235"+=head=,id=173245,ilevel=235,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HC_235"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_250"+=hands=,id=173244,ilevel=250,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_250"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_260"+=hands=,id=173244,ilevel=260,bonus_id=6982/6647/6649
-profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_260"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_249"+=hands=,id=173244,ilevel=249,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_249"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_262"+=hands=,id=173244,ilevel=262,bonus_id=6982/6647/6649
+profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_262"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_225"+=hands=,id=173244,ilevel=225,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_225"+=talents=${talents.mindbender}
@@ -182,41 +182,41 @@ profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_235"+=soulbind=theotar
 profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_235"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
 profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HC_235"+=talents=${talents.mindbender}
 
-profileset."Shadowflame_Prism_Conduit_Head_HM_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Conduit_Head_HM_250"+=head=,id=173245,ilevel=250,bonus_id=6982/6648/6649
-profileset."Shadowflame_Prism_Conduit_Head_HM_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Conduit_Head_HM_260"+=head=,id=173245,ilevel=260,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Conduit_Head_HM_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Conduit_Head_HM_249"+=head=,id=173245,ilevel=249,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Conduit_Head_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Conduit_Head_HM_262"+=head=,id=173245,ilevel=262,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Conduit_Head_HM_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 profileset."Shadowflame_Prism_Conduit_Head_HM_225"+=head=,id=173245,ilevel=225,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Conduit_Head_HM_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 profileset."Shadowflame_Prism_Conduit_Head_HM_235"+=head=,id=173245,ilevel=235,bonus_id=6982/6648/6649
-profileset."Shadowflame_Prism_Conduit_Hands_HM_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Conduit_Hands_HM_250"+=hands=,id=173244,ilevel=250,bonus_id=6982/6648/6649
-profileset."Shadowflame_Prism_Conduit_Hands_HM_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Conduit_Hands_HM_260"+=hands=,id=173244,ilevel=260,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Conduit_Hands_HM_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Conduit_Hands_HM_249"+=hands=,id=173244,ilevel=249,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Conduit_Hands_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Conduit_Hands_HM_262"+=hands=,id=173244,ilevel=262,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Conduit_Hands_HM_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 profileset."Shadowflame_Prism_Conduit_Hands_HM_225"+=hands=,id=173244,ilevel=225,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Conduit_Hands_HM_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 profileset."Shadowflame_Prism_Conduit_Hands_HM_235"+=hands=,id=173244,ilevel=235,bonus_id=6982/6648/6649
 
-profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_250"+=head=,id=173245,ilevel=250,bonus_id=6982/6648/6649
-profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_250"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_260"+=head=,id=173245,ilevel=260,bonus_id=6982/6648/6649
-profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_260"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_249"+=head=,id=173245,ilevel=249,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_249"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_262"+=head=,id=173245,ilevel=262,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_262"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_225"+=head=,id=173245,ilevel=225,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_225"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_235"+=head=,id=173245,ilevel=235,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Mindbender_Conduit_Head_HM_235"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_250"+=hands=,id=173244,ilevel=250,bonus_id=6982/6648/6649
-profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_250"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_260"+=hands=,id=173244,ilevel=260,bonus_id=6982/6648/6649
-profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_260"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_249"+=hands=,id=173244,ilevel=249,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_249"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_262"+=hands=,id=173244,ilevel=262,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_262"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
 profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_225"+=hands=,id=173244,ilevel=225,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_225"+=talents=${talents.mindbender}
@@ -225,127 +225,127 @@ profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_235"+=hands=,id=173244
 profileset."Shadowflame_Prism_Mindbender_Conduit_Hands_HM_235"+=talents=${talents.mindbender}
 
 # Painbreaker Psalm - 6981
-profileset."Painbreaker_Psalm_Back_HC_250"+=back=,id=173242,ilevel=250,bonus_id=6981/6647/6649
-profileset."Painbreaker_Psalm_Back_HC_260"+=back=,id=173242,ilevel=260,bonus_id=6981/6647/6649
+profileset."Painbreaker_Psalm_Back_HC_249"+=back=,id=173242,ilevel=249,bonus_id=6981/6647/6649
+profileset."Painbreaker_Psalm_Back_HC_262"+=back=,id=173242,ilevel=262,bonus_id=6981/6647/6649
 profileset."Painbreaker_Psalm_Back_HC_225"+=back=,id=173242,ilevel=225,bonus_id=6981/6647/6649
 profileset."Painbreaker_Psalm_Back_HC_235"+=back=,id=173242,ilevel=235,bonus_id=6981/6647/6649
-profileset."Painbreaker_Psalm_Chest_HC_250"+=chest=,id=173241,ilevel=250,bonus_id=6981/6647/6649,enchant=eternal_insight
-profileset."Painbreaker_Psalm_Chest_HC_260"+=chest=,id=173241,ilevel=260,bonus_id=6981/6647/6649,enchant=eternal_insight
+profileset."Painbreaker_Psalm_Chest_HC_249"+=chest=,id=173241,ilevel=249,bonus_id=6981/6647/6649,enchant=eternal_insight
+profileset."Painbreaker_Psalm_Chest_HC_262"+=chest=,id=173241,ilevel=262,bonus_id=6981/6647/6649,enchant=eternal_insight
 profileset."Painbreaker_Psalm_Chest_HC_225"+=chest=,id=173241,ilevel=225,bonus_id=6981/6647/6649,enchant=eternal_insight
 profileset."Painbreaker_Psalm_Chest_HC_235"+=chest=,id=173241,ilevel=235,bonus_id=6981/6647/6649,enchant=eternal_insight
 
-profileset."Painbreaker_Psalm_Back_HM_250"+=back=,id=173242,ilevel=250,bonus_id=6981/6648/6649
-profileset."Painbreaker_Psalm_Back_HM_260"+=back=,id=173242,ilevel=260,bonus_id=6981/6648/6649
+profileset."Painbreaker_Psalm_Back_HM_249"+=back=,id=173242,ilevel=249,bonus_id=6981/6648/6649
+profileset."Painbreaker_Psalm_Back_HM_262"+=back=,id=173242,ilevel=262,bonus_id=6981/6648/6649
 profileset."Painbreaker_Psalm_Back_HM_225"+=back=,id=173242,ilevel=225,bonus_id=6981/6648/6649
 profileset."Painbreaker_Psalm_Back_HM_235"+=back=,id=173242,ilevel=235,bonus_id=6981/6648/6649
-profileset."Painbreaker_Psalm_Chest_HM_250"+=chest=,id=173241,ilevel=250,bonus_id=6981/6648/6649,enchant=eternal_insight
-profileset."Painbreaker_Psalm_Chest_HM_260"+=chest=,id=173241,ilevel=260,bonus_id=6981/6648/6649,enchant=eternal_insight
+profileset."Painbreaker_Psalm_Chest_HM_249"+=chest=,id=173241,ilevel=249,bonus_id=6981/6648/6649,enchant=eternal_insight
+profileset."Painbreaker_Psalm_Chest_HM_262"+=chest=,id=173241,ilevel=262,bonus_id=6981/6648/6649,enchant=eternal_insight
 profileset."Painbreaker_Psalm_Chest_HM_225"+=chest=,id=173241,ilevel=225,bonus_id=6981/6648/6649,enchant=eternal_insight
 profileset."Painbreaker_Psalm_Chest_HM_235"+=chest=,id=173241,ilevel=235,bonus_id=6981/6648/6649,enchant=eternal_insight
 
 # Twins of the Sun Priestess (7002) + Power Unto Others Conduit (73:11)
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HC_250"+=head=,id=173245,ilevel=250,bonus_id=7002/6647/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HC_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HC_260"+=head=,id=173245,ilevel=260,bonus_id=7002/6647/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HC_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HC_249"+=head=,id=173245,ilevel=249,bonus_id=7002/6647/6649
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HC_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HC_262"+=head=,id=173245,ilevel=262,bonus_id=7002/6647/6649
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HC_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HC_225"+=head=,id=173245,ilevel=225,bonus_id=7002/6647/6649
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HC_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HC_235"+=head=,id=173245,ilevel=235,bonus_id=7002/6647/6649
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HC_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HC_250"+=shoulder=,id=173247,ilevel=250,bonus_id=7002/6647/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HC_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HC_260"+=shoulder=,id=173247,ilevel=260,bonus_id=7002/6647/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HC_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HC_249"+=shoulder=,id=173247,ilevel=249,bonus_id=7002/6647/6649
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HC_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HC_262"+=shoulder=,id=173247,ilevel=262,bonus_id=7002/6647/6649
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HC_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HC_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7002/6647/6649
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HC_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HC_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7002/6647/6649
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HC_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
 
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HM_250"+=head=,id=173245,ilevel=250,bonus_id=7002/6648/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HM_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HM_260"+=head=,id=173245,ilevel=260,bonus_id=7002/6648/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HM_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HM_249"+=head=,id=173245,ilevel=249,bonus_id=7002/6648/6649
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HM_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HM_262"+=head=,id=173245,ilevel=262,bonus_id=7002/6648/6649
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HM_225"+=head=,id=173245,ilevel=225,bonus_id=7002/6648/6649
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HM_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HM_235"+=head=,id=173245,ilevel=235,bonus_id=7002/6648/6649
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Head_HM_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HM_250"+=shoulder=,id=173247,ilevel=250,bonus_id=7002/6648/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HM_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HM_260"+=shoulder=,id=173247,ilevel=260,bonus_id=7002/6648/6649
-profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HM_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HM_249"+=shoulder=,id=173247,ilevel=249,bonus_id=7002/6648/6649
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HM_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HM_262"+=shoulder=,id=173247,ilevel=262,bonus_id=7002/6648/6649
+profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HM_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7002/6648/6649
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HM_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HM_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7002/6648/6649
 profileset."Twins_of_the_Sun_Priestess_Conduit_9_Shoulder_HM_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/73:11
 
 # Eternal Call to the Void - 6983
-profileset."Eternal_Call_to_the_Void_Wrists_HC_250"+=wrists=,id=173249,ilevel=250,bonus_id=6983/6647/6649,enchant=eternal_intellect
-profileset."Eternal_Call_to_the_Void_Wrists_HC_260"+=wrists=,id=173249,ilevel=260,bonus_id=6983/6647/6649,enchant=eternal_intellect
+profileset."Eternal_Call_to_the_Void_Wrists_HC_249"+=wrists=,id=173249,ilevel=249,bonus_id=6983/6647/6649,enchant=eternal_intellect
+profileset."Eternal_Call_to_the_Void_Wrists_HC_262"+=wrists=,id=173249,ilevel=262,bonus_id=6983/6647/6649,enchant=eternal_intellect
 profileset."Eternal_Call_to_the_Void_Wrists_HC_225"+=wrists=,id=173249,ilevel=225,bonus_id=6983/6647/6649,enchant=eternal_intellect
 profileset."Eternal_Call_to_the_Void_Wrists_HC_235"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6647/6649,enchant=eternal_intellect
-profileset."Eternal_Call_to_the_Void_Hands_HC_250"+=hands=,id=173244,ilevel=250,bonus_id=6983/6647/6649
-profileset."Eternal_Call_to_the_Void_Hands_HC_260"+=hands=,id=173244,ilevel=260,bonus_id=6983/6647/6649
+profileset."Eternal_Call_to_the_Void_Hands_HC_249"+=hands=,id=173244,ilevel=249,bonus_id=6983/6647/6649
+profileset."Eternal_Call_to_the_Void_Hands_HC_262"+=hands=,id=173244,ilevel=262,bonus_id=6983/6647/6649
 profileset."Eternal_Call_to_the_Void_Hands_HC_225"+=hands=,id=173244,ilevel=225,bonus_id=6983/6647/6649
 profileset."Eternal_Call_to_the_Void_Hands_HC_235"+=hands=,id=173244,ilevel=235,bonus_id=6983/6647/6649
 
-profileset."Eternal_Call_to_the_Void_Wrists_HM_250"+=wrists=,id=173249,ilevel=250,bonus_id=6983/6648/6649,enchant=eternal_intellect
-profileset."Eternal_Call_to_the_Void_Wrists_HM_260"+=wrists=,id=173249,ilevel=260,bonus_id=6983/6648/6649,enchant=eternal_intellect
+profileset."Eternal_Call_to_the_Void_Wrists_HM_249"+=wrists=,id=173249,ilevel=249,bonus_id=6983/6648/6649,enchant=eternal_intellect
+profileset."Eternal_Call_to_the_Void_Wrists_HM_262"+=wrists=,id=173249,ilevel=262,bonus_id=6983/6648/6649,enchant=eternal_intellect
 profileset."Eternal_Call_to_the_Void_Wrists_HM_225"+=wrists=,id=173249,ilevel=225,bonus_id=6983/6648/6649,enchant=eternal_intellect
 profileset."Eternal_Call_to_the_Void_Wrists_HM_235"+=wrists=,id=173249,ilevel=235,bonus_id=6983/6648/6649,enchant=eternal_intellect
-profileset."Eternal_Call_to_the_Void_Hands_HM_250"+=hands=,id=173244,ilevel=250,bonus_id=6983/6648/6649
-profileset."Eternal_Call_to_the_Void_Hands_HM_260"+=hands=,id=173244,ilevel=260,bonus_id=6983/6648/6649
+profileset."Eternal_Call_to_the_Void_Hands_HM_249"+=hands=,id=173244,ilevel=249,bonus_id=6983/6648/6649
+profileset."Eternal_Call_to_the_Void_Hands_HM_262"+=hands=,id=173244,ilevel=262,bonus_id=6983/6648/6649
 profileset."Eternal_Call_to_the_Void_Hands_HM_225"+=hands=,id=173244,ilevel=225,bonus_id=6983/6648/6649
 profileset."Eternal_Call_to_the_Void_Hands_HM_235"+=hands=,id=173244,ilevel=235,bonus_id=6983/6648/6649
 
 # Talbadar's Stratagem - 7162
-profileset."Talbadars_Stratagem_Waist_HC_250"+=waist=,id=173248,ilevel=250,bonus_id=7162/6647/6649
-profileset."Talbadars_Stratagem_Waist_HC_260"+=waist=,id=173248,ilevel=260,bonus_id=7162/6647/6649
+profileset."Talbadars_Stratagem_Waist_HC_249"+=waist=,id=173248,ilevel=249,bonus_id=7162/6647/6649
+profileset."Talbadars_Stratagem_Waist_HC_262"+=waist=,id=173248,ilevel=262,bonus_id=7162/6647/6649
 profileset."Talbadars_Stratagem_Waist_HC_225"+=waist=,id=173248,ilevel=225,bonus_id=7162/6647/6649
 profileset."Talbadars_Stratagem_Waist_HC_235"+=waist=,id=173248,ilevel=235,bonus_id=7162/6647/6649
-profileset."Talbadars_Stratagem_Legs_HC_250"+=legs=,id=173246,ilevel=250,bonus_id=7162/6647/6649
-profileset."Talbadars_Stratagem_Legs_HC_260"+=legs=,id=173246,ilevel=260,bonus_id=7162/6647/6649
+profileset."Talbadars_Stratagem_Legs_HC_249"+=legs=,id=173246,ilevel=249,bonus_id=7162/6647/6649
+profileset."Talbadars_Stratagem_Legs_HC_262"+=legs=,id=173246,ilevel=262,bonus_id=7162/6647/6649
 profileset."Talbadars_Stratagem_Legs_HC_225"+=legs=,id=173246,ilevel=225,bonus_id=7162/6647/6649
 profileset."Talbadars_Stratagem_Legs_HC_235"+=legs=,id=173246,ilevel=235,bonus_id=7162/6647/6649
 
-profileset."Talbadars_Stratagem_Waist_HM_250"+=waist=,id=173248,ilevel=250,bonus_id=7162/6648/6649
-profileset."Talbadars_Stratagem_Waist_HM_260"+=waist=,id=173248,ilevel=260,bonus_id=7162/6648/6649
+profileset."Talbadars_Stratagem_Waist_HM_249"+=waist=,id=173248,ilevel=249,bonus_id=7162/6648/6649
+profileset."Talbadars_Stratagem_Waist_HM_262"+=waist=,id=173248,ilevel=262,bonus_id=7162/6648/6649
 profileset."Talbadars_Stratagem_Waist_HM_225"+=waist=,id=173248,ilevel=225,bonus_id=7162/6648/6649
 profileset."Talbadars_Stratagem_Waist_HM_235"+=waist=,id=173248,ilevel=235,bonus_id=7162/6648/6649
-profileset."Talbadars_Stratagem_Legs_HM_250"+=legs=,id=173246,ilevel=250,bonus_id=7162/6648/6649
-profileset."Talbadars_Stratagem_Legs_HM_260"+=legs=,id=173246,ilevel=260,bonus_id=7162/6648/6649
+profileset."Talbadars_Stratagem_Legs_HM_249"+=legs=,id=173246,ilevel=249,bonus_id=7162/6648/6649
+profileset."Talbadars_Stratagem_Legs_HM_262"+=legs=,id=173246,ilevel=262,bonus_id=7162/6648/6649
 profileset."Talbadars_Stratagem_Legs_HM_225"+=legs=,id=173246,ilevel=225,bonus_id=7162/6648/6649
 profileset."Talbadars_Stratagem_Legs_HM_235"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
 
 # Using MD by default so dont need this
-# profileset."Talbadars_Stratagem_Conduit_Waist_HC_250"+=waist=,id=173248,ilevel=250,bonus_id=7162/6647/6649
-# profileset."Talbadars_Stratagem_Conduit_Waist_HC_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
-# profileset."Talbadars_Stratagem_Conduit_Waist_HC_260"+=waist=,id=173248,ilevel=260,bonus_id=7162/6647/6649
-# profileset."Talbadars_Stratagem_Conduit_Waist_HC_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
+# profileset."Talbadars_Stratagem_Conduit_Waist_HC_249"+=waist=,id=173248,ilevel=249,bonus_id=7162/6647/6649
+# profileset."Talbadars_Stratagem_Conduit_Waist_HC_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
+# profileset."Talbadars_Stratagem_Conduit_Waist_HC_262"+=waist=,id=173248,ilevel=262,bonus_id=7162/6647/6649
+# profileset."Talbadars_Stratagem_Conduit_Waist_HC_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
 # profileset."Talbadars_Stratagem_Conduit_Waist_HC_225"+=waist=,id=173248,ilevel=225,bonus_id=7162/6647/6649
 # profileset."Talbadars_Stratagem_Conduit_Waist_HC_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
 # profileset."Talbadars_Stratagem_Conduit_Waist_HC_235"+=waist=,id=173248,ilevel=235,bonus_id=7162/6647/6649
 # profileset."Talbadars_Stratagem_Conduit_Waist_HC_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
-# profileset."Talbadars_Stratagem_Conduit_Legs_HC_250"+=legs=,id=173246,ilevel=250,bonus_id=7162/6647/6649
-# profileset."Talbadars_Stratagem_Conduit_Legs_HC_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
-# profileset."Talbadars_Stratagem_Conduit_Legs_HC_260"+=legs=,id=173246,ilevel=260,bonus_id=7162/6647/6649
-# profileset."Talbadars_Stratagem_Conduit_Legs_HC_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
+# profileset."Talbadars_Stratagem_Conduit_Legs_HC_249"+=legs=,id=173246,ilevel=249,bonus_id=7162/6647/6649
+# profileset."Talbadars_Stratagem_Conduit_Legs_HC_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
+# profileset."Talbadars_Stratagem_Conduit_Legs_HC_262"+=legs=,id=173246,ilevel=262,bonus_id=7162/6647/6649
+# profileset."Talbadars_Stratagem_Conduit_Legs_HC_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
 # profileset."Talbadars_Stratagem_Conduit_Legs_HC_225"+=legs=,id=173246,ilevel=225,bonus_id=7162/6647/6649
 # profileset."Talbadars_Stratagem_Conduit_Legs_HC_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
 # profileset."Talbadars_Stratagem_Conduit_Legs_HC_235"+=legs=,id=173246,ilevel=235,bonus_id=7162/6647/6649
 # profileset."Talbadars_Stratagem_Conduit_Legs_HC_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
 
-# profileset."Talbadars_Stratagem_Conduit_Waist_HM_250"+=waist=,id=173248,ilevel=250,bonus_id=7162/6648/6649
-# profileset."Talbadars_Stratagem_Conduit_Waist_HM_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
-# profileset."Talbadars_Stratagem_Conduit_Waist_HM_260"+=waist=,id=173248,ilevel=260,bonus_id=7162/6648/6649
-# profileset."Talbadars_Stratagem_Conduit_Waist_HM_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
+# profileset."Talbadars_Stratagem_Conduit_Waist_HM_249"+=waist=,id=173248,ilevel=249,bonus_id=7162/6648/6649
+# profileset."Talbadars_Stratagem_Conduit_Waist_HM_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
+# profileset."Talbadars_Stratagem_Conduit_Waist_HM_262"+=waist=,id=173248,ilevel=262,bonus_id=7162/6648/6649
+# profileset."Talbadars_Stratagem_Conduit_Waist_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
 # profileset."Talbadars_Stratagem_Conduit_Waist_HM_225"+=waist=,id=173248,ilevel=225,bonus_id=7162/6648/6649
 # profileset."Talbadars_Stratagem_Conduit_Waist_HM_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
 # profileset."Talbadars_Stratagem_Conduit_Waist_HM_235"+=waist=,id=173248,ilevel=235,bonus_id=7162/6648/6649
 # profileset."Talbadars_Stratagem_Conduit_Waist_HM_235"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
-# profileset."Talbadars_Stratagem_Conduit_Legs_HM_250"+=legs=,id=173246,ilevel=250,bonus_id=7162/6648/6649
-# profileset."Talbadars_Stratagem_Conduit_Legs_HM_250"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
-# profileset."Talbadars_Stratagem_Conduit_Legs_HM_260"+=legs=,id=173246,ilevel=260,bonus_id=7162/6648/6649
-# profileset."Talbadars_Stratagem_Conduit_Legs_HM_260"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
+# profileset."Talbadars_Stratagem_Conduit_Legs_HM_249"+=legs=,id=173246,ilevel=249,bonus_id=7162/6648/6649
+# profileset."Talbadars_Stratagem_Conduit_Legs_HM_249"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
+# profileset."Talbadars_Stratagem_Conduit_Legs_HM_262"+=legs=,id=173246,ilevel=262,bonus_id=7162/6648/6649
+# profileset."Talbadars_Stratagem_Conduit_Legs_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
 # profileset."Talbadars_Stratagem_Conduit_Legs_HM_225"+=legs=,id=173246,ilevel=225,bonus_id=7162/6648/6649
 # profileset."Talbadars_Stratagem_Conduit_Legs_HM_225"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/mind_devourer:11
 # profileset."Talbadars_Stratagem_Conduit_Legs_HM_235"+=legs=,id=173246,ilevel=235,bonus_id=7162/6648/6649
@@ -353,111 +353,111 @@ profileset."Talbadars_Stratagem_Legs_HM_235"+=legs=,id=173246,ilevel=235,bonus_i
 
 # Generic Legendaries
 # Judgment of the Arbiter - Wrist,Hands,Finger - 7101
-profileset."Judgment_of_the_Arbiter_Hands_HC_250"+=hands=,id=173244,ilevel=250,bonus_id=7101/6647/6649
-profileset."Judgment_of_the_Arbiter_Hands_HC_260"+=hands=,id=173244,ilevel=260,bonus_id=7101/6647/6649
+profileset."Judgment_of_the_Arbiter_Hands_HC_249"+=hands=,id=173244,ilevel=249,bonus_id=7101/6647/6649
+profileset."Judgment_of_the_Arbiter_Hands_HC_262"+=hands=,id=173244,ilevel=262,bonus_id=7101/6647/6649
 profileset."Judgment_of_the_Arbiter_Hands_HC_225"+=hands=,id=173244,ilevel=225,bonus_id=7101/6647/6649
 profileset."Judgment_of_the_Arbiter_Hands_HC_235"+=hands=,id=173244,ilevel=235,bonus_id=7101/6647/6649
-profileset."Judgment_of_the_Arbiter_Wrists_HC_250"+=wrists=,id=173249,ilevel=250,bonus_id=7101/6647/6649,enchant=eternal_intellect
-profileset."Judgment_of_the_Arbiter_Wrists_HC_260"+=wrists=,id=173249,ilevel=260,bonus_id=7101/6647/6649,enchant=eternal_intellect
+profileset."Judgment_of_the_Arbiter_Wrists_HC_249"+=wrists=,id=173249,ilevel=249,bonus_id=7101/6647/6649,enchant=eternal_intellect
+profileset."Judgment_of_the_Arbiter_Wrists_HC_262"+=wrists=,id=173249,ilevel=262,bonus_id=7101/6647/6649,enchant=eternal_intellect
 profileset."Judgment_of_the_Arbiter_Wrists_HC_225"+=wrists=,id=173249,ilevel=225,bonus_id=7101/6647/6649,enchant=eternal_intellect
 profileset."Judgment_of_the_Arbiter_Wrists_HC_235"+=wrists=,id=173249,ilevel=235,bonus_id=7101/6647/6649,enchant=eternal_intellect
-profileset."Judgment_of_the_Arbiter_Finger_HC_250"+=finger1=,id=178926,ilevel=250,bonus_id=7101/6647/6649,enchant=tenet_of_haste
-profileset."Judgment_of_the_Arbiter_Finger_HC_260"+=finger1=,id=178926,ilevel=260,bonus_id=7101/6647/6649,enchant=tenet_of_haste
+profileset."Judgment_of_the_Arbiter_Finger_HC_249"+=finger1=,id=178926,ilevel=249,bonus_id=7101/6647/6649,enchant=tenet_of_haste
+profileset."Judgment_of_the_Arbiter_Finger_HC_262"+=finger1=,id=178926,ilevel=262,bonus_id=7101/6647/6649,enchant=tenet_of_haste
 profileset."Judgment_of_the_Arbiter_Finger_HC_225"+=finger1=,id=178926,ilevel=225,bonus_id=7101/6647/6649,enchant=tenet_of_haste
 profileset."Judgment_of_the_Arbiter_Finger_HC_235"+=finger1=,id=178926,ilevel=235,bonus_id=7101/6647/6649,enchant=tenet_of_haste
 
-profileset."Judgment_of_the_Arbiter_Hands_HM_250"+=hands=,id=173244,ilevel=250,bonus_id=7101/6648/6649
-profileset."Judgment_of_the_Arbiter_Hands_HM_260"+=hands=,id=173244,ilevel=260,bonus_id=7101/6648/6649
+profileset."Judgment_of_the_Arbiter_Hands_HM_249"+=hands=,id=173244,ilevel=249,bonus_id=7101/6648/6649
+profileset."Judgment_of_the_Arbiter_Hands_HM_262"+=hands=,id=173244,ilevel=262,bonus_id=7101/6648/6649
 profileset."Judgment_of_the_Arbiter_Hands_HM_225"+=hands=,id=173244,ilevel=225,bonus_id=7101/6648/6649
 profileset."Judgment_of_the_Arbiter_Hands_HM_235"+=hands=,id=173244,ilevel=235,bonus_id=7101/6648/6649
-profileset."Judgment_of_the_Arbiter_Wrists_HM_250"+=wrists=,id=173249,ilevel=250,bonus_id=7101/6648/6649,enchant=eternal_intellect
-profileset."Judgment_of_the_Arbiter_Wrists_HM_260"+=wrists=,id=173249,ilevel=260,bonus_id=7101/6648/6649,enchant=eternal_intellect
+profileset."Judgment_of_the_Arbiter_Wrists_HM_249"+=wrists=,id=173249,ilevel=249,bonus_id=7101/6648/6649,enchant=eternal_intellect
+profileset."Judgment_of_the_Arbiter_Wrists_HM_262"+=wrists=,id=173249,ilevel=262,bonus_id=7101/6648/6649,enchant=eternal_intellect
 profileset."Judgment_of_the_Arbiter_Wrists_HM_225"+=wrists=,id=173249,ilevel=225,bonus_id=7101/6648/6649,enchant=eternal_intellect
 profileset."Judgment_of_the_Arbiter_Wrists_HM_235"+=wrists=,id=173249,ilevel=235,bonus_id=7101/6648/6649,enchant=eternal_intellect
-profileset."Judgment_of_the_Arbiter_Finger_HM_250"+=finger1=,id=178926,ilevel=250,bonus_id=7101/6648/6649,enchant=tenet_of_haste
-profileset."Judgment_of_the_Arbiter_Finger_HM_260"+=finger1=,id=178926,ilevel=260,bonus_id=7101/6648/6649,enchant=tenet_of_haste
+profileset."Judgment_of_the_Arbiter_Finger_HM_249"+=finger1=,id=178926,ilevel=249,bonus_id=7101/6648/6649,enchant=tenet_of_haste
+profileset."Judgment_of_the_Arbiter_Finger_HM_262"+=finger1=,id=178926,ilevel=262,bonus_id=7101/6648/6649,enchant=tenet_of_haste
 profileset."Judgment_of_the_Arbiter_Finger_HM_225"+=finger1=,id=178926,ilevel=225,bonus_id=7101/6648/6649,enchant=tenet_of_haste
 profileset."Judgment_of_the_Arbiter_Finger_HM_235"+=finger1=,id=178926,ilevel=235,bonus_id=7101/6648/6649,enchant=tenet_of_haste
 
 # Sephuz's Proclamation - Neck,Shoulder,Chest - 7103
-profileset."Sephuzs_Proclamation_Chest_HC_250"+=chest=,id=173241,ilevel=250,bonus_id=7103/6647/6649,enchant=eternal_insight
-profileset."Sephuzs_Proclamation_Chest_HC_260"+=chest=,id=173241,ilevel=260,bonus_id=7103/6647/6649,enchant=eternal_insight
+profileset."Sephuzs_Proclamation_Chest_HC_249"+=chest=,id=173241,ilevel=249,bonus_id=7103/6647/6649,enchant=eternal_insight
+profileset."Sephuzs_Proclamation_Chest_HC_262"+=chest=,id=173241,ilevel=262,bonus_id=7103/6647/6649,enchant=eternal_insight
 profileset."Sephuzs_Proclamation_Chest_HC_225"+=chest=,id=173241,ilevel=225,bonus_id=7103/6647/6649,enchant=eternal_insight
 profileset."Sephuzs_Proclamation_Chest_HC_235"+=chest=,id=173241,ilevel=235,bonus_id=7103/6647/6649,enchant=eternal_insight
-profileset."Sephuzs_Proclamation_Shoulder_HC_250"+=shoulder=,id=173247,ilevel=250,bonus_id=7103/6647/6649
-profileset."Sephuzs_Proclamation_Shoulder_HC_260"+=shoulder=,id=173247,ilevel=260,bonus_id=7103/6647/6649
+profileset."Sephuzs_Proclamation_Shoulder_HC_249"+=shoulder=,id=173247,ilevel=249,bonus_id=7103/6647/6649
+profileset."Sephuzs_Proclamation_Shoulder_HC_262"+=shoulder=,id=173247,ilevel=262,bonus_id=7103/6647/6649
 profileset."Sephuzs_Proclamation_Shoulder_HC_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7103/6647/6649
 profileset."Sephuzs_Proclamation_Shoulder_HC_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7103/6647/6649
-profileset."Sephuzs_Proclamation_Neck_HC_250"+=neck=,id=178927,ilevel=250,bonus_id=7103/6647/6649
-profileset."Sephuzs_Proclamation_Neck_HC_260"+=neck=,id=178927,ilevel=250,bonus_id=7103/6647/6649
-profileset."Sephuzs_Proclamation_Neck_HC_225"+=neck=,id=178927,ilevel=250,bonus_id=7103/6647/6649
-profileset."Sephuzs_Proclamation_Neck_HC_235"+=neck=,id=178927,ilevel=250,bonus_id=7103/6647/6649
+profileset."Sephuzs_Proclamation_Neck_HC_249"+=neck=,id=178927,ilevel=249,bonus_id=7103/6647/6649
+profileset."Sephuzs_Proclamation_Neck_HC_262"+=neck=,id=178927,ilevel=249,bonus_id=7103/6647/6649
+profileset."Sephuzs_Proclamation_Neck_HC_225"+=neck=,id=178927,ilevel=249,bonus_id=7103/6647/6649
+profileset."Sephuzs_Proclamation_Neck_HC_235"+=neck=,id=178927,ilevel=249,bonus_id=7103/6647/6649
 
-profileset."Sephuzs_Proclamation_Chest_HM_250"+=chest=,id=173241,ilevel=250,bonus_id=7103/6648/6649,enchant=eternal_insight
-profileset."Sephuzs_Proclamation_Chest_HM_260"+=chest=,id=173241,ilevel=260,bonus_id=7103/6648/6649,enchant=eternal_insight
+profileset."Sephuzs_Proclamation_Chest_HM_249"+=chest=,id=173241,ilevel=249,bonus_id=7103/6648/6649,enchant=eternal_insight
+profileset."Sephuzs_Proclamation_Chest_HM_262"+=chest=,id=173241,ilevel=262,bonus_id=7103/6648/6649,enchant=eternal_insight
 profileset."Sephuzs_Proclamation_Chest_HM_225"+=chest=,id=173241,ilevel=225,bonus_id=7103/6648/6649,enchant=eternal_insight
 profileset."Sephuzs_Proclamation_Chest_HM_235"+=chest=,id=173241,ilevel=235,bonus_id=7103/6648/6649,enchant=eternal_insight
-profileset."Sephuzs_Proclamation_Shoulder_HM_250"+=shoulder=,id=173247,ilevel=250,bonus_id=7103/6648/6649
-profileset."Sephuzs_Proclamation_Shoulder_HM_260"+=shoulder=,id=173247,ilevel=260,bonus_id=7103/6648/6649
+profileset."Sephuzs_Proclamation_Shoulder_HM_249"+=shoulder=,id=173247,ilevel=249,bonus_id=7103/6648/6649
+profileset."Sephuzs_Proclamation_Shoulder_HM_262"+=shoulder=,id=173247,ilevel=262,bonus_id=7103/6648/6649
 profileset."Sephuzs_Proclamation_Shoulder_HM_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7103/6648/6649
 profileset."Sephuzs_Proclamation_Shoulder_HM_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7103/6648/6649
-profileset."Sephuzs_Proclamation_Neck_HM_250"+=neck=,id=178927,ilevel=250,bonus_id=7103/6648/6649
-profileset."Sephuzs_Proclamation_Neck_HM_260"+=neck=,id=178927,ilevel=250,bonus_id=7103/6648/6649
-profileset."Sephuzs_Proclamation_Neck_HM_225"+=neck=,id=178927,ilevel=250,bonus_id=7103/6648/6649
-profileset."Sephuzs_Proclamation_Neck_HM_235"+=neck=,id=178927,ilevel=250,bonus_id=7103/6648/6649
+profileset."Sephuzs_Proclamation_Neck_HM_249"+=neck=,id=178927,ilevel=249,bonus_id=7103/6648/6649
+profileset."Sephuzs_Proclamation_Neck_HM_262"+=neck=,id=178927,ilevel=249,bonus_id=7103/6648/6649
+profileset."Sephuzs_Proclamation_Neck_HM_225"+=neck=,id=178927,ilevel=249,bonus_id=7103/6648/6649
+profileset."Sephuzs_Proclamation_Neck_HM_235"+=neck=,id=178927,ilevel=249,bonus_id=7103/6648/6649
 
 # Third Eye of the Jailer - Head,Shoulder,Waist - 7105
 # NYI
-# profileset."Third_Eye_of_the_Jailer_Head_HC_250"+=head=,id=173245,ilevel=250,bonus_id=7105/6647/6649
-# profileset."Third_Eye_of_the_Jailer_Head_HC_260"+=head=,id=173245,ilevel=260,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Head_HC_249"+=head=,id=173245,ilevel=249,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Head_HC_262"+=head=,id=173245,ilevel=262,bonus_id=7105/6647/6649
 # profileset."Third_Eye_of_the_Jailer_Head_HC_225"+=head=,id=173245,ilevel=225,bonus_id=7105/6647/6649
 # profileset."Third_Eye_of_the_Jailer_Head_HC_235"+=head=,id=173245,ilevel=235,bonus_id=7105/6647/6649
-# profileset."Third_Eye_of_the_Jailer_Shoulder_HC_250"+=shoulder=,id=173247,ilevel=250,bonus_id=7105/6647/6649
-# profileset."Third_Eye_of_the_Jailer_Shoulder_HC_260"+=shoulder=,id=173247,ilevel=260,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Shoulder_HC_249"+=shoulder=,id=173247,ilevel=249,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Shoulder_HC_262"+=shoulder=,id=173247,ilevel=262,bonus_id=7105/6647/6649
 # profileset."Third_Eye_of_the_Jailer_Shoulder_HC_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7105/6647/6649
 # profileset."Third_Eye_of_the_Jailer_Shoulder_HC_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7105/6647/6649
-# profileset."Third_Eye_of_the_Jailer_Waist_HC_250"+=waist=,id=173248,ilevel=250,bonus_id=7105/6647/6649
-# profileset."Third_Eye_of_the_Jailer_Waist_HC_260"+=waist=,id=173248,ilevel=260,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Waist_HC_249"+=waist=,id=173248,ilevel=249,bonus_id=7105/6647/6649
+# profileset."Third_Eye_of_the_Jailer_Waist_HC_262"+=waist=,id=173248,ilevel=262,bonus_id=7105/6647/6649
 # profileset."Third_Eye_of_the_Jailer_Waist_HC_225"+=waist=,id=173248,ilevel=225,bonus_id=7105/6647/6649
 # profileset."Third_Eye_of_the_Jailer_Waist_HC_235"+=waist=,id=173248,ilevel=235,bonus_id=7105/6647/6649
 
-# profileset."Third_Eye_of_the_Jailer_Head_HM_250"+=head=,id=173245,ilevel=250,bonus_id=7105/6648/6649
-# profileset."Third_Eye_of_the_Jailer_Head_HM_260"+=head=,id=173245,ilevel=260,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Head_HM_249"+=head=,id=173245,ilevel=249,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Head_HM_262"+=head=,id=173245,ilevel=262,bonus_id=7105/6648/6649
 # profileset."Third_Eye_of_the_Jailer_Head_HM_225"+=head=,id=173245,ilevel=225,bonus_id=7105/6648/6649
 # profileset."Third_Eye_of_the_Jailer_Head_HM_235"+=head=,id=173245,ilevel=235,bonus_id=7105/6648/6649
-# profileset."Third_Eye_of_the_Jailer_Shoulder_HM_250"+=shoulder=,id=173247,ilevel=250,bonus_id=7105/6648/6649
-# profileset."Third_Eye_of_the_Jailer_Shoulder_HM_260"+=shoulder=,id=173247,ilevel=260,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Shoulder_HM_249"+=shoulder=,id=173247,ilevel=249,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Shoulder_HM_262"+=shoulder=,id=173247,ilevel=262,bonus_id=7105/6648/6649
 # profileset."Third_Eye_of_the_Jailer_Shoulder_HM_225"+=shoulder=,id=173247,ilevel=225,bonus_id=7105/6648/6649
 # profileset."Third_Eye_of_the_Jailer_Shoulder_HM_235"+=shoulder=,id=173247,ilevel=235,bonus_id=7105/6648/6649
-# profileset."Third_Eye_of_the_Jailer_Waist_HM_250"+=waist=,id=173248,ilevel=250,bonus_id=7105/6648/6649
-# profileset."Third_Eye_of_the_Jailer_Waist_HM_260"+=waist=,id=173248,ilevel=260,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Waist_HM_249"+=waist=,id=173248,ilevel=249,bonus_id=7105/6648/6649
+# profileset."Third_Eye_of_the_Jailer_Waist_HM_262"+=waist=,id=173248,ilevel=262,bonus_id=7105/6648/6649
 # profileset."Third_Eye_of_the_Jailer_Waist_HM_225"+=waist=,id=173248,ilevel=225,bonus_id=7105/6648/6649
 # profileset."Third_Eye_of_the_Jailer_Waist_HM_235"+=waist=,id=173248,ilevel=235,bonus_id=7105/6648/6649
 
 # Echo of Eonar - Wasit,Wrist,Finger - 7100
 # TODO: Add allies?
-profileset."Echo_of_Eonar_Wrists_HC_250"+=wrists=,id=173249,ilevel=250,bonus_id=7100/6647/6649,enchant=eternal_intellect
-profileset."Echo_of_Eonar_Wrists_HC_260"+=wrists=,id=173249,ilevel=260,bonus_id=7100/6647/6649,enchant=eternal_intellect
+profileset."Echo_of_Eonar_Wrists_HC_249"+=wrists=,id=173249,ilevel=249,bonus_id=7100/6647/6649,enchant=eternal_intellect
+profileset."Echo_of_Eonar_Wrists_HC_262"+=wrists=,id=173249,ilevel=262,bonus_id=7100/6647/6649,enchant=eternal_intellect
 profileset."Echo_of_Eonar_Wrists_HC_225"+=wrists=,id=173249,ilevel=225,bonus_id=7100/6647/6649,enchant=eternal_intellect
 profileset."Echo_of_Eonar_Wrists_HC_235"+=wrists=,id=173249,ilevel=235,bonus_id=7100/6647/6649,enchant=eternal_intellect
-profileset."Echo_of_Eonar_Waist_HC_250"+=waist=,id=173248,ilevel=250,bonus_id=7100/6647/6649
-profileset."Echo_of_Eonar_Waist_HC_260"+=waist=,id=173248,ilevel=260,bonus_id=7100/6647/6649
+profileset."Echo_of_Eonar_Waist_HC_249"+=waist=,id=173248,ilevel=249,bonus_id=7100/6647/6649
+profileset."Echo_of_Eonar_Waist_HC_262"+=waist=,id=173248,ilevel=262,bonus_id=7100/6647/6649
 profileset."Echo_of_Eonar_Waist_HC_225"+=waist=,id=173248,ilevel=225,bonus_id=7100/6647/6649
 profileset."Echo_of_Eonar_Waist_HC_235"+=waist=,id=173248,ilevel=235,bonus_id=7100/6647/6649
-profileset."Echo_of_Eonar_Finger_HC_250"+=finger1=,id=178926,ilevel=250,bonus_id=7100/6647/6649,enchant=tenet_of_haste
-profileset."Echo_of_Eonar_Finger_HC_260"+=finger1=,id=178926,ilevel=260,bonus_id=7100/6647/6649,enchant=tenet_of_haste
+profileset."Echo_of_Eonar_Finger_HC_249"+=finger1=,id=178926,ilevel=249,bonus_id=7100/6647/6649,enchant=tenet_of_haste
+profileset."Echo_of_Eonar_Finger_HC_262"+=finger1=,id=178926,ilevel=262,bonus_id=7100/6647/6649,enchant=tenet_of_haste
 profileset."Echo_of_Eonar_Finger_HC_225"+=finger1=,id=178926,ilevel=225,bonus_id=7100/6647/6649,enchant=tenet_of_haste
 profileset."Echo_of_Eonar_Finger_HC_235"+=finger1=,id=178926,ilevel=235,bonus_id=7100/6647/6649,enchant=tenet_of_haste
 
-profileset."Echo_of_Eonar_Wrists_HM_250"+=wrists=,id=173249,ilevel=250,bonus_id=7100/6648/6649,enchant=eternal_intellect
-profileset."Echo_of_Eonar_Wrists_HM_260"+=wrists=,id=173249,ilevel=260,bonus_id=7100/6648/6649,enchant=eternal_intellect
+profileset."Echo_of_Eonar_Wrists_HM_249"+=wrists=,id=173249,ilevel=249,bonus_id=7100/6648/6649,enchant=eternal_intellect
+profileset."Echo_of_Eonar_Wrists_HM_262"+=wrists=,id=173249,ilevel=262,bonus_id=7100/6648/6649,enchant=eternal_intellect
 profileset."Echo_of_Eonar_Wrists_HM_225"+=wrists=,id=173249,ilevel=225,bonus_id=7100/6648/6649,enchant=eternal_intellect
 profileset."Echo_of_Eonar_Wrists_HM_235"+=wrists=,id=173249,ilevel=235,bonus_id=7100/6648/6649,enchant=eternal_intellect
-profileset."Echo_of_Eonar_Waist_HM_250"+=waist=,id=173248,ilevel=250,bonus_id=7100/6648/6649
-profileset."Echo_of_Eonar_Waist_HM_260"+=waist=,id=173248,ilevel=260,bonus_id=7100/6648/6649
+profileset."Echo_of_Eonar_Waist_HM_249"+=waist=,id=173248,ilevel=249,bonus_id=7100/6648/6649
+profileset."Echo_of_Eonar_Waist_HM_262"+=waist=,id=173248,ilevel=262,bonus_id=7100/6648/6649
 profileset."Echo_of_Eonar_Waist_HM_225"+=waist=,id=173248,ilevel=225,bonus_id=7100/6648/6649
 profileset."Echo_of_Eonar_Waist_HM_235"+=waist=,id=173248,ilevel=235,bonus_id=7100/6648/6649
-profileset."Echo_of_Eonar_Finger_HM_250"+=finger1=,id=178926,ilevel=250,bonus_id=7100/6648/6649,enchant=tenet_of_haste
-profileset."Echo_of_Eonar_Finger_HM_260"+=finger1=,id=178926,ilevel=260,bonus_id=7100/6648/6649,enchant=tenet_of_haste
+profileset."Echo_of_Eonar_Finger_HM_249"+=finger1=,id=178926,ilevel=249,bonus_id=7100/6648/6649,enchant=tenet_of_haste
+profileset."Echo_of_Eonar_Finger_HM_262"+=finger1=,id=178926,ilevel=262,bonus_id=7100/6648/6649,enchant=tenet_of_haste
 profileset."Echo_of_Eonar_Finger_HM_225"+=finger1=,id=178926,ilevel=225,bonus_id=7100/6648/6649,enchant=tenet_of_haste
 profileset."Echo_of_Eonar_Finger_HM_235"+=finger1=,id=178926,ilevel=235,bonus_id=7100/6648/6649,enchant=tenet_of_haste
