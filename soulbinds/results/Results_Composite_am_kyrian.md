@@ -1,20 +1,20 @@
 # Composite - am - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pelagos-CM_BT_NR-TS-HA_DE_CA|9433|20.63%|
-|Forgelite-BCtA_SS_EAA-TS-HA_DE_CA|9394|20.14%|
-|Pelagos-CM_BT_NR-HA_DE_RS|9359|19.68%|
-|Forgelite-BCtA_SS_EAA-HA_DE_RS|9356|19.65%|
-|Pelagos-CM_BT_NR-HA_DE_CA|9341|19.46%|
-|Forgelite-BCtA_SS_EAA-HA_DE_CA|9316|19.14%|
-|Pelagos-CM_BT_NR-TS-HA_DE_RS|9193|17.57%|
-|Forgelite-BCtA_SS_EAA-TS-HA_DE_RS|9184|17.45%|
-|Forgelite-BCtA_HoG_SS_EAA-TS-HA_DE|9102|16.41%|
-|Forgelite-BCtA_HoG_SS_EAA-HA_DE|9044|15.66%|
-|Kleia-VS_PC_SotA_LtP-TS-HA_DE|8805|12.60%|
-|Kleia-VS_SotA_LtP-TS-HA_DE_CA|8769|12.15%|
-|Kleia-VS_PC_SotA_LtP-HA_DE|8733|11.69%|
-|Kleia-VS_SotA_LtP-HA_DE_RS|8732|11.67%|
-|Kleia-VS_SotA_LtP-HA_DE_CA|8699|11.25%|
-|Kleia-VS_SotA_LtP-TS-HA_DE_RS|8122|3.88%|
-|Base|7819|0.00%|
+|Forgelite-BCtA_SoS_EAA-TS-HA_DE_CA|9395|20.14%|
+|Pelagos-CM_BT_NR-TS-HA_DE_CA|9389|20.06%|
+|Forgelite-BCtA_SoS_EAA-HA_DE_RS|9354|19.61%|
+|Pelagos-CM_BT_NR-HA_DE_RS|9320|19.18%|
+|Forgelite-BCtA_SoS_EAA-HA_DE_CA|9314|19.10%|
+|Pelagos-CM_BT_NR-HA_DE_CA|9296|18.86%|
+|Forgelite-BCtA_SoS_EAA-TS-HA_DE_RS|9185|17.45%|
+|Pelagos-CM_BT_NR-TS-HA_DE_RS|9149|16.99%|
+|Forgelite-BCtA_HoG_SoS_EAA-TS-HA_DE|9100|16.36%|
+|Forgelite-BCtA_HoG_SoS_EAA-HA_DE|9043|15.63%|
+|Kleia-VS_PoC_SotA_LtP-TS-HA_DE|8800|12.52%|
+|Kleia-VS_SotA_LtP-TS-HA_DE_CA|8768|12.12%|
+|Kleia-VS_PoC_SotA_LtP-HA_DE|8734|11.68%|
+|Kleia-VS_SotA_LtP-HA_DE_RS|8732|11.65%|
+|Kleia-VS_SotA_LtP-HA_DE_CA|8697|11.20%|
+|Kleia-VS_SotA_LtP-TS-HA_DE_RS|8553|9.37%|
+|Base|7820|0.00%|

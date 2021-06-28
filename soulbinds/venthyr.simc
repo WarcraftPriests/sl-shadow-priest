@@ -28,19 +28,19 @@ main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 # 3 conduit setup
 # Thrill Seeker - 331586
 # Fatal Flaw (requires Thrill Seeker) - 352373 (TODO: Add crit/vers?)
-profileset."Nadjia-TS_FF-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/331586/352373
+profileset."Nadjia-TS_FaFl-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/331586/352373
 
 # 2 conduit setup
 # Thrill Seeker - 331586
 # Exacting Preparation - 331580
 # Fatal Flaw (requires Thrill Seeker) - 352373 (TODO: Add crit/vers?)
-profileset."Nadjia-TS_EP_FF-${conduits.first.name}_${conduits.second.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/331586/331580/352373
+profileset."Nadjia-TS_EP_FaFl-${conduits.first.name}_${conduits.second.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/331586/331580/352373
 
 # 2 conduit setup
 # Thrill Seeker - 331586
 # Dauntless Duelist - 331584
 # Fatal Flaw (requires Thrill Seeker) - 352373 (TODO: Add crit/vers?)
-profileset."Nadjia-TS_DD_FF-${conduits.first.name}_${conduits.second.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/331586/331584/352373
+profileset."Nadjia-TS_DD_FaFl-${conduits.first.name}_${conduits.second.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/331586/331584/352373
 
 # Theotar
 # 3 conduit setup
@@ -48,14 +48,14 @@ profileset."Nadjia-TS_DD_FF-${conduits.first.name}_${conduits.second.name}"+=sou
 # Party Favors - 351750
 profileset."Theotar-SS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239
 
-profileset."Theotar-SS_Party_Favor_Intellect-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
-profileset."Theotar-SS_Party_Favor_Intellect-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.party_favor_type=primary
-profileset."Theotar-SS_Party_Favor_Haste-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
-profileset."Theotar-SS_Party_Favor_Haste-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.party_favor_type=haste
-profileset."Theotar-SS_Party_Favor_Crit-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
-profileset."Theotar-SS_Party_Favor_Crit-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.party_favor_type=crit
-profileset."Theotar-SS_Party_Favor_Versatility-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
-profileset."Theotar-SS_Party_Favor_Versatility-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.party_favor_type=versatility
+profileset."Theotar-SS_PF_Intellect-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
+profileset."Theotar-SS_PF_Intellect-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.PF_type=primary
+profileset."Theotar-SS_PF_Haste-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
+profileset."Theotar-SS_PF_Haste-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.PF_type=haste
+profileset."Theotar-SS_PF_Crit-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
+profileset."Theotar-SS_PF_Crit-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.PF_type=crit
+profileset."Theotar-SS_PF_Versatility-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
+profileset."Theotar-SS_PF_Versatility-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.PF_type=versatility
 
 # 2 conduit setup
 # Soothing Shade - 336239
@@ -63,14 +63,14 @@ profileset."Theotar-SS_Party_Favor_Versatility-${conduits.first.name}_${conduits
 # Party Favors - 351750
 profileset."Theotar-SS_WP-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239
 
-profileset."Theotar-SS_WP_Party_Favor_Intellect-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239/351750
-profileset."Theotar-SS_WP_Party_Favor_Intellect-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favor_type=primary
-profileset."Theotar-SS_WP_Party_Favor_Haste-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239/351750
-profileset."Theotar-SS_WP_Party_Favor_Haste-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favor_type=haste
-profileset."Theotar-SS_WP_Party_Favor_Crit-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239/351750
-profileset."Theotar-SS_WP_Party_Favor_Crit-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favor_type=crit
-profileset."Theotar-SS_WP_Party_Favor_Versatility-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239/351750
-profileset."Theotar-SS_WP_Party_Favor_Versatility-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favor_type=versatility
+profileset."Theotar-SS_WP_PF_Intellect-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239/351750
+profileset."Theotar-SS_WP_PF_Intellect-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=primary
+profileset."Theotar-SS_WP_PF_Haste-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239/351750
+profileset."Theotar-SS_WP_PF_Haste-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=haste
+profileset."Theotar-SS_WP_PF_Crit-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239/351750
+profileset."Theotar-SS_WP_PF_Crit-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=crit
+profileset."Theotar-SS_WP_PF_Versatility-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239/351750
+profileset."Theotar-SS_WP_PF_Versatility-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=versatility
 
 # 2 conduit setup
 # Soothing Shade - 336239
@@ -78,14 +78,14 @@ profileset."Theotar-SS_WP_Party_Favor_Versatility-${conduits.first.name}_${condu
 # Party Favors - 351750
 profileset."Theotar-SS_RP-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243
 
-profileset."Theotar-SS_RP_Party_Favor_Intellect-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243/351750
-profileset."Theotar-SS_RP_Party_Favor_Intellect-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favor_type=primary
-profileset."Theotar-SS_RP_Party_Favor_Haste-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243/351750
-profileset."Theotar-SS_RP_Party_Favor_Haste-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favor_type=haste
-profileset."Theotar-SS_RP_Party_Favor_Crit-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243/351750
-profileset."Theotar-SS_RP_Party_Favor_Crit-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favor_type=crit
-profileset."Theotar-SS_RP_Party_Favor_Versatility-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243/351750
-profileset."Theotar-SS_RP_Party_Favor_Versatility-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favor_type=versatility
+profileset."Theotar-SS_RP_PF_Intellect-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243/351750
+profileset."Theotar-SS_RP_PF_Intellect-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=primary
+profileset."Theotar-SS_RP_PF_Haste-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243/351750
+profileset."Theotar-SS_RP_PF_Haste-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=haste
+profileset."Theotar-SS_RP_PF_Crit-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243/351750
+profileset."Theotar-SS_RP_PF_Crit-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=crit
+profileset."Theotar-SS_RP_PF_Versatility-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243/351750
+profileset."Theotar-SS_RP_PF_Versatility-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=versatility
 
 # General Draven
 # 3 conduit setup

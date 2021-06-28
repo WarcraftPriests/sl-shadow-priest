@@ -8,7 +8,7 @@ talents=${talents}
 
 default_actions=1
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
 shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
 back=drape_of_twisted_loyalties,id=180123,ilevel=252
@@ -23,6 +23,19 @@ finger2=death_gods_signet,id=179355,bonus_id=7187/1540/6935,ilevel=252,gem_id=17
 trinket1=soulletting_ruby,id=178809,bonus_id=6536/1540/6646,ilevel=252
 trinket2=forbidden_necromantic_tome,id=186421,ilevel=259
 main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
+
+# Generic Conduits
+profileset."Adaptive_Armor_Fragment_145"+=soulbind=theotar_the_mad_duke,284:1
+profileset."Adaptive_Armor_Fragment_158"+=soulbind=theotar_the_mad_duke,284:2
+profileset."Adaptive_Armor_Fragment_171"+=soulbind=theotar_the_mad_duke,284:3
+profileset."Adaptive_Armor_Fragment_184"+=soulbind=theotar_the_mad_duke,284:4
+profileset."Adaptive_Armor_Fragment_200"+=soulbind=theotar_the_mad_duke,284:5
+profileset."Adaptive_Armor_Fragment_213"+=soulbind=theotar_the_mad_duke,284:6
+profileset."Adaptive_Armor_Fragment_226"+=soulbind=theotar_the_mad_duke,284:7
+profileset."Adaptive_Armor_Fragment_239"+=soulbind=theotar_the_mad_duke,284:8
+profileset."Adaptive_Armor_Fragment_252"+=soulbind=theotar_the_mad_duke,284:9
+profileset."Adaptive_Armor_Fragment_265"+=soulbind=theotar_the_mad_duke,284:10
+profileset."Adaptive_Armor_Fragment_278"+=soulbind=theotar_the_mad_duke,284:11
 
 # Shadow Conduits
 profileset."Haunting_Apparitions_145"+=soulbind=theotar_the_mad_duke,107:1

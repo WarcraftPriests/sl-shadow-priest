@@ -41,13 +41,13 @@ profileset."Niya-GI_NTB_BH-${conduits.first.name}_${conduits.second.name}"+=soul
 # 3 conduit setup
 # Field of Blossoms - 319191
 # Dream Delver - 352786
-profileset."Dreamweaver-FoB_DD-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/319191/352786
+profileset."Dreamweaver-FoB_DrD-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/319191/352786
 
 # 2 conduit setup
 # Field of Blossoms - 319191
 # Social Butterfly - 319210
 # Dream Delver - 352786
-profileset."Dreamweaver-FoB_SB_DD-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/319191/319210/352786
+profileset."Dreamweaver-FoB_SB_DrD-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/319191/319210/352786
 
 # Korayn
 # 3 conduit setup

@@ -183,7 +183,8 @@ conduits = {
     "Courageous_Ascension": 337966,
     "Fae_Fermata": 338305,
     "Festering_Transfusion": 337979,
-    "Shattered_Perceptions": 338315
+    "Shattered_Perceptions": 338315,
+    "Adaptive_Armor_Fragment": 357902
 }
 
 consumables = {
