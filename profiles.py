@@ -177,6 +177,10 @@ def build_profiles(talent_string, covenant_string):
     fight_styles = ["pw", "lm", "hm"]
     add_types = ["sa", "ba", "na"]
     targets = ["1", "2"]
+    overrides = ""
+    with open("internal/overrides.simc", 'r') as file:
+        overrides = file.read()
+        file.close()
     combinations = [
         "{0}_{1}_{2}".format(
             fight, add, tar
@@ -286,6 +290,7 @@ def build_profiles(talent_string, covenant_string):
                     file.writelines(fightExpressions["ptr"])
                 file.writelines(sim_data)
                 file.writelines(settings)
+                file.writelines(overrides)
                 file.close()
 
 

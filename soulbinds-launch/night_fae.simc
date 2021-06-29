@@ -57,9 +57,3 @@ profileset."Korayn-WHT-${conduits.first.name}_${conduits.second.name}_${conduits
 # Wild Hunt Tactics - 325066
 # First Strike - 325069
 profileset."Korayn-WHT_FS-${conduits.first.name}_${conduits.second.name}"+=soulbind=korayn,${conduits.first.id}:8/${conduits.second.id}:8/325066/325069
-
-#Pelagos
-override.spell_data=effect.821722.coefficient=3.315789
-#Dreamer
-override.spell_data=effect.844100.base_value=15
-override.spell_data=spell.342761.duration=12000

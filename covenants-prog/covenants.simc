@@ -131,9 +131,3 @@ profileset."Venthyr_Draven"+=covenant=venthyr
 profileset."Venthyr_Draven"+=soulbind=general_draven,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9
 profileset."Venthyr_Draven_BfW"+=covenant=venthyr
 profileset."Venthyr_Draven_BfW"+=soulbind=general_draven,${conduits.first.id}:9/${conduits.second.id}:9/319973
-
-#Pelagos
-override.spell_data=effect.821722.coefficient=3.315789
-#Dreamer
-override.spell_data=effect.844100.base_value=15
-override.spell_data=spell.342761.duration=12000

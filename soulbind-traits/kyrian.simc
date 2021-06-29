@@ -37,7 +37,7 @@ profileset."Kyrian-Pelagos-Newfound_Resolve"+=soulbind=pelagos,351149
 # Pointed Courage - 329778
 # Spear of the Archon - 351488
 # Light the Path (requires Valiant Strikes) - 351491 (329791)
-# shadowlands.pointed_courage_nearby = 1..5
+# shadowlands.pointed_courage_nearby = 1..3
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_1"+=soulbind=kleia,329778
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_1"+=shadowlands.pointed_courage_nearby=1
 
@@ -46,12 +46,6 @@ profileset."Kyrian-Kleia-Pointed_Courage_Allies_2"+=shadowlands.pointed_courage_
 
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_3"+=soulbind=kleia,329778
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_3"+=shadowlands.pointed_courage_nearby=3
-
-profileset."Kyrian-Kleia-Pointed_Courage_Allies_4"+=soulbind=kleia,329778
-profileset."Kyrian-Kleia-Pointed_Courage_Allies_4"+=shadowlands.pointed_courage_nearby=4
-
-profileset."Kyrian-Kleia-Pointed_Courage_Allies_5"+=soulbind=kleia,329778
-profileset."Kyrian-Kleia-Pointed_Courage_Allies_5"+=shadowlands.pointed_courage_nearby=5
 
 profileset."Kyrian-Kleia-Spear_of_the_Archon"+=soulbind=kleia,351488
 profileset."Kyrian-Kleia-Light_the_Path"+=soulbind=kleia,351491/329791

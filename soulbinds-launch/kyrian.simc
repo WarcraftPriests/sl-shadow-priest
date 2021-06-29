@@ -83,9 +83,3 @@ profileset."Forgelite-BCtA_HoG_SoS-${conduits.first.name}_${conduits.second.name
 profileset."Forgelite-BCtA_HoG_SoS-TS-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/333950/333935/352186
 profileset."Forgelite-BCtA_HoG_SoS-TS-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Forgelite-BCtA_HoG_SoS-TS-${conduits.first.name}_${conduits.second.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
-
-#Pelagos
-override.spell_data=effect.821722.coefficient=3.315789
-#Dreamer
-override.spell_data=effect.844100.base_value=15
-override.spell_data=spell.342761.duration=12000

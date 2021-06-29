@@ -135,9 +135,3 @@ profileset."Bonesmith-FR_SS_HAMG_CE_ME-${conduits.first.name}"+=soulbind=bonesmi
 profileset."Bonesmith-FR_SS_HAMG_CE_ME-PC-${conduits.first.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/326504/326572/326514/350899/350936
 profileset."Bonesmith-FR_SS_HAMG_CE_ME-PC-${conduits.first.name}"+=talents=${talents.void_torrent}
 profileset."Bonesmith-FR_SS_HAMG_CE_ME-PC-${conduits.first.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
-
-#Pelagos
-override.spell_data=effect.821722.coefficient=3.315789
-#Dreamer
-override.spell_data=effect.844100.base_value=15
-override.spell_data=spell.342761.duration=12000

@@ -65,9 +65,3 @@ profileset."Draven-${conduits.first.name}_${conduits.second.name}_${conduits.thi
 # 2 conduit setup
 # Built for War - 319973
 profileset."Draven-BfW-${conduits.first.name}_${conduits.second.name}"+=soulbind=general_draven,${conduits.first.id}:8/${conduits.second.id}:8/319973
-
-#Pelagos
-override.spell_data=effect.821722.coefficient=3.315789
-#Dreamer
-override.spell_data=effect.844100.base_value=15
-override.spell_data=spell.342761.duration=12000

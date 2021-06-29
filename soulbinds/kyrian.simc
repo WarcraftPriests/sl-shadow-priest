@@ -55,7 +55,7 @@ profileset."Kleia-VS_SotA_LtP-TS-${conduits.first.name}_${conduits.second.name}_
 
 # 2 conduit setup
 # Pointed Courage - 329778
-# shadowlands.pointed_courage_nearby = 5
+# shadowlands.pointed_courage_nearby = 3
 profileset."Kleia-VS_PoC_SotA_LtP-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:11/${conduits.second.id}:11/329778/351491/329791/351488
 profileset."Kleia-VS_PoC_SotA_LtP-TS-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:11/${conduits.second.id}:11/329778/351491/329791/351488
 profileset."Kleia-VS_PoC_SotA_LtP-TS-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
@@ -84,9 +84,3 @@ profileset."Forgelite-BCtA_HoG_SoS_EAA-${conduits.first.name}_${conduits.second.
 profileset."Forgelite-BCtA_HoG_SoS_EAA-TS-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/333950/333935/352186/352188
 profileset."Forgelite-BCtA_HoG_SoS_EAA-TS-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Forgelite-BCtA_HoG_SoS_EAA-TS-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
-
-#Pelagos
-override.spell_data=effect.821722.coefficient=3.315789
-#Dreamer
-override.spell_data=effect.844100.base_value=15
-override.spell_data=spell.342761.duration=12000

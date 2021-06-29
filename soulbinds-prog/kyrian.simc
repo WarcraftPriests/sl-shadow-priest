@@ -85,9 +85,3 @@ profileset."Forgelite-BCtA_HoG_SoS-${conduits.first.name}_${conduits.second.name
 profileset."Forgelite-BCtA_HoG_SoS-TS-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:9/${conduits.second.id}:9/333950/333935/352186
 profileset."Forgelite-BCtA_HoG_SoS-TS-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Forgelite-BCtA_HoG_SoS-TS-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7162
-
-#Pelagos
-override.spell_data=effect.821722.coefficient=3.315789
-#Dreamer
-override.spell_data=effect.844100.base_value=15
-override.spell_data=spell.342761.duration=12000

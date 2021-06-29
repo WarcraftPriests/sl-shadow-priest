@@ -116,9 +116,3 @@ profileset."Venthyr_Theotar"+=soulbind=theotar_the_mad_duke,${conduits.first.id}
 # Soulbind: Draven - Draven-BfW-HA_DE
 profileset."Venthyr_Draven_BfW"+=covenant=venthyr
 profileset."Venthyr_Draven_BfW"+=soulbind=general_draven,${conduits.first.id}:8/${conduits.second.id}:8/319973
-
-#Pelagos
-override.spell_data=effect.821722.coefficient=3.315789
-#Dreamer
-override.spell_data=effect.844100.base_value=15
-override.spell_data=spell.342761.duration=12000
