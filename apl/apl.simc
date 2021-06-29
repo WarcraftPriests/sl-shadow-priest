@@ -2,14 +2,14 @@ priest="Base"
 level=60
 role=spell
 position=back
-talents=${talents}
-covenant=night_fae
-soulbind=niya,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/322721/320660/352503
+talents=${talents.void_torrent}
+covenant=necrolord
+soulbind=marileth,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/323074/323090/352110
 spec=shadow
 
 default_actions=1
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
 shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
 back=drape_of_twisted_loyalties,id=180123,ilevel=252
@@ -25,13 +25,13 @@ trinket1=soulletting_ruby,id=178809,bonus_id=6536/1540/6646,ilevel=252
 trinket2=forbidden_necromantic_tome,id=186421,ilevel=259
 main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 
-priest="new"
+priest="fleshcraft_apl"
 level=60
 role=spell
 position=back
-talents=${talents}
-covenant=night_fae
-soulbind=niya,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/322721/320660/352503
+talents=${talents.void_torrent}
+covenant=necrolord
+soulbind=marileth,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/323074/323090/352110
 spec=shadow
 
 default_actions=0
@@ -93,6 +93,7 @@ actions.cds+=/unholy_nova,if=((!raid_event.adds.up&raid_event.adds.in>20)|raid_e
 # Use on CD but prioritise using Void Eruption first, if used inside of VF on ST use after a voidbolt for cooldown efficiency and for hungering void uptime if talented.
 actions.cds+=/boon_of_the_ascended,if=!buff.voidform.up&!cooldown.void_eruption.up&spell_targets.mind_sear>1&!talent.searing_nightmare.enabled|(buff.voidform.up&spell_targets.mind_sear<2&!talent.searing_nightmare.enabled&(prev_gcd.1.void_bolt&(!equipped.empyreal_ordnance|!talent.hungering_void.enabled)|equipped.empyreal_ordnance&trinket.empyreal_ordnance.cooldown.remains<=162&debuff.hungering_void.up))|(buff.voidform.up&talent.searing_nightmare.enabled)
 actions.cds+=/call_action_list,name=trinkets
+actions.cds+=/fleshcraft,if=soulbind.volatile_solvent&!buff.buff_volatile_solvent_humanoid.up
 
 # Use Searing Nightmare if you will hit enough targets and Power Infusion and Voidform are not ready, or to refresh SW:P on two or more targets.
 actions.cwc=searing_nightmare,use_while_casting=1,target_if=(variable.searing_nightmare_cutoff&!variable.pool_for_cds)|(dot.shadow_word_pain.refreshable&spell_targets.mind_sear>1)
@@ -119,7 +120,9 @@ actions.main+=/damnation,target_if=!variable.all_dots_up
 # Use Shadow Word Death if using Shadowflame Prism and bender will expire during the next gcd.
 actions.main+=/shadow_word_death,if=pet.fiend.active&runeforge.shadowflame_prism.equipped&pet.fiend.remains<=gcd
 # Always use mindblasts if capped and hungering void is up and using Shadowflame Prism and bender is up.Additionally, cast mindblast if you would be unable to get the rift by waiting a gcd.
-actions.main+=/mind_blast,if=(cooldown.mind_blast.charges>1&(debuff.hungering_void.up|!talent.hungering_void.enabled)|pet.fiend.remains<=cast_time+gcd)&pet.fiend.active&runeforge.shadowflame_prism.equipped&pet.fiend.remains>cast_time
+actions.main+=/mind_blast,if=(cooldown.mind_blast.charges>1&(debuff.hungering_void.up|!talent.hungering_void.enabled)|pet.fiend.remains<=cast_time+gcd)&pet.fiend.active&runeforge.shadowflame_prism.equipped&pet.fiend.remains>=cast_time
+# Instantly spend a mind blast charge after voidbolt if using shadowflame prism and mindblasts are capped.
+actions.main+=/mind_blast,if=cooldown.mind_blast.charges>1&pet.fiend.active&runeforge.shadowflame_prism.equipped&!cooldown.void_bolt.up
 # Use Void Bolt at higher priority with Hungering Void up to 4 targets, or other talents on ST.
 actions.main+=/void_bolt,if=insanity<=85&talent.hungering_void.enabled&talent.searing_nightmare.enabled&spell_targets.mind_sear<=6|((talent.hungering_void.enabled&!talent.searing_nightmare.enabled)|spell_targets.mind_sear=1)
 # Don't use Devouring Plague if you can get into Voidform instead, or if Searing Nightmare is talented and will hit enough targets.
@@ -171,7 +174,7 @@ actions.trinkets+=/call_action_list,name=dmg_trinkets,if=(!talent.hungering_void
 # Default fallback for usable items: Use on cooldown in order by trinket slot.
 actions.trinkets+=/use_items,if=buff.voidform.up|buff.power_infusion.up|cooldown.void_eruption.remains>10
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
 shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
 back=drape_of_twisted_loyalties,id=180123,ilevel=252
