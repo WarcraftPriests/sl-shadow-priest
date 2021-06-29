@@ -341,7 +341,7 @@ sims:
     weights: false
     covenant:
       lookup: true
-      files: false
+      files: true
     legendary: false
     lookupType: none
     steps:
