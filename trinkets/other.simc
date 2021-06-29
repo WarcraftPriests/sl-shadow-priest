@@ -7,21 +7,24 @@ talents=${talents}
 covenant=${covenant}
 soulbind=${soulbind}
 
+# Set global options for soulbinds
+shadowlands.party_favor_type=haste
+
 default_actions=1
 
-head=confidants_favored_cap,id=183021,ilevel=226,bonus_id=${legendary.id}
-neck=charm_of_eternal_winter,id=183040,ilevel=226
-shoulder=shawl_of_the_penitent,id=183020,ilevel=233
-back=crest_of_the_legionnaire_general,id=183032,ilevel=233
-chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
-wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect
-hands=impossibly_oversized_mitts,id=183022,ilevel=226
-waist=shadewarped_sash,id=183004,ilevel=226
-legs=purge_protocol_legwraps,id=180107,ilevel=226
-feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
-finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
-finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
-main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
+neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
+shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
+back=drape_of_twisted_loyalties,id=180123,ilevel=252
+chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats
+wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130,enchant=eternal_intellect
+hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252
+waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130
+legs=muehzalas_hexthread_sarong,id=179351,bonus_id=7187/1540,ilevel=252
+feet=sandals_of_sacred_symmetry,id=186354,ilevel=252
+finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
+finger2=death_gods_signet,id=179355,bonus_id=7187/1540/6935,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
+main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 
 # Darkmoon Cards
 profileset."Darkmoon_Deck_Putrescence_200"+=trinket1=darkmoon_deck__putrescence,id=173069
@@ -125,35 +128,18 @@ profileset."Instructors_Divine_Bell_198"+=trinket1=instructors_divine_bell,id=18
 profileset."Instructors_Divine_Bell_203"+=trinket1=instructors_divine_bell,id=184842,ilevel=203
 
 # PVP Trinkets
-# Conquest: 190, 200, 207, 213, 220, 226
-profileset."Sinful_Gladiators_Badge_of_Ferocity_190"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921,ilevel=190
-profileset."Sinful_Gladiators_Badge_of_Ferocity_200"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921,ilevel=200
-profileset."Sinful_Gladiators_Badge_of_Ferocity_207"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921,ilevel=207
-profileset."Sinful_Gladiators_Badge_of_Ferocity_213"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921,ilevel=213
-profileset."Sinful_Gladiators_Badge_of_Ferocity_220"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921,ilevel=220
-profileset."Sinful_Gladiators_Badge_of_Ferocity_226"+=trinket1=sinful_gladiators_badge_of_ferocity,id=175921,ilevel=226
+# Conquest: 194, 201, 207, 214, 220
+profileset."Unchained_Gladiators_Badge_of_Ferocity_194"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=194
+profileset."Unchained_Gladiators_Badge_of_Ferocity_201"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=201
+profileset."Unchained_Gladiators_Badge_of_Ferocity_207"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=207
+profileset."Unchained_Gladiators_Badge_of_Ferocity_214"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=214
+profileset."Unchained_Gladiators_Badge_of_Ferocity_220"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=220
 
-profileset."Sinful_Gladiators_Insignia_of_Alacrity_190"+=trinket1=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=190
-profileset."Sinful_Gladiators_Insignia_of_Alacrity_200"+=trinket1=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=200
-profileset."Sinful_Gladiators_Insignia_of_Alacrity_207"+=trinket1=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=207
-profileset."Sinful_Gladiators_Insignia_of_Alacrity_213"+=trinket1=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=213
-profileset."Sinful_Gladiators_Insignia_of_Alacrity_220"+=trinket1=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=220
-profileset."Sinful_Gladiators_Insignia_of_Alacrity_226"+=trinket1=sinful_gladiators_insignia_of_alacrity,id=178386,ilevel=226
-
-# Honor: 158, 164, 171, 177, 184, 190
-profileset."Sinful_Aspirants_Badge_of_Ferocity_158"+=trinket1=sinful_aspirants_badge_of_ferocity,id=175884,ilevel=158
-profileset."Sinful_Aspirants_Badge_of_Ferocity_164"+=trinket1=sinful_aspirants_badge_of_ferocity,id=175884,ilevel=164
-profileset."Sinful_Aspirants_Badge_of_Ferocity_171"+=trinket1=sinful_aspirants_badge_of_ferocity,id=175884,ilevel=171
-profileset."Sinful_Aspirants_Badge_of_Ferocity_177"+=trinket1=sinful_aspirants_badge_of_ferocity,id=175884,ilevel=177
-profileset."Sinful_Aspirants_Badge_of_Ferocity_184"+=trinket1=sinful_aspirants_badge_of_ferocity,id=175884,ilevel=184
-profileset."Sinful_Aspirants_Badge_of_Ferocity_190"+=trinket1=sinful_aspirants_badge_of_ferocity,id=175884,ilevel=190
-
-profileset."Sinful_Aspirants_Insignia_of_Alacrity_158"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298,ilevel=158
-profileset."Sinful_Aspirants_Insignia_of_Alacrity_164"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298,ilevel=164
-profileset."Sinful_Aspirants_Insignia_of_Alacrity_171"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298,ilevel=171
-profileset."Sinful_Aspirants_Insignia_of_Alacrity_177"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298,ilevel=177
-profileset."Sinful_Aspirants_Insignia_of_Alacrity_184"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298,ilevel=184
-profileset."Sinful_Aspirants_Insignia_of_Alacrity_190"+=trinket1=sinful_aspirants_insignia_of_alacrity,id=178298,ilevel=190
+profileset."Unchained_Gladiators_Insignia_of_Alacrity_194"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=194
+profileset."Unchained_Gladiators_Insignia_of_Alacrity_201"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=201
+profileset."Unchained_Gladiators_Insignia_of_Alacrity_207"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=207
+profileset."Unchained_Gladiators_Insignia_of_Alacrity_214"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=214
+profileset."Unchained_Gladiators_Insignia_of_Alacrity_220"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=220
 
 # Ulduar Timewalking
 profileset."Energy_Siphon_200"+=trinket1=energy_siphon,id=156021,ilevel=200

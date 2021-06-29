@@ -8,31 +8,36 @@ covenant=kyrian
 
 default_actions=1
 
-head=confidants_favored_cap,id=183021,ilevel=226
-neck=charm_of_eternal_winter,id=183040,ilevel=226
-shoulder=shawl_of_the_penitent,id=183020,ilevel=233
-back=crest_of_the_legionnaire_general,id=183032,ilevel=233
-chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
-wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect
-hands=impossibly_oversized_mitts,id=183022,ilevel=226
-waist=shadewarped_sash,id=183004,ilevel=226
-legs=purge_protocol_legwraps,id=180107,ilevel=226
-feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
-finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
-finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
-trinket1=dreadfire_vessel,id=184030,ilevel=233
-trinket2=cabalists_hymnal,id=184028,ilevel=233
-main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
+neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
+shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
+back=drape_of_twisted_loyalties,id=180123,ilevel=252
+chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats
+wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130,enchant=eternal_intellect
+hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252
+waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130
+legs=muehzalas_hexthread_sarong,id=179351,bonus_id=7187/1540,ilevel=252
+feet=sandals_of_sacred_symmetry,id=186354,ilevel=252
+finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
+finger2=death_gods_signet,id=179355,bonus_id=7187/1540/6935,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
+trinket1=soulletting_ruby,id=178809,bonus_id=6536/1540/6646,ilevel=252
+trinket2=forbidden_necromantic_tome,id=186421,ilevel=259
+main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 
 # Pelagos
-# Let Go of the Past - 328257
 # Combat Meditation - 328266
+# Better Together - 351146
+# Newfound Resolve - 351149
 # shadowlands.combat_meditation_extend_chance = 0.5
 profileset."Kyrian-Pelagos-Combat_Meditation"+=soulbind=pelagos,328266
+profileset."Kyrian-Pelagos-Better_Together"+=soulbind=pelagos,351146
+profileset."Kyrian-Pelagos-Newfound_Resolve"+=soulbind=pelagos,351149
 
 # Kleia
 # Pointed Courage - 329778
-# shadowlands.pointed_courage_nearby = 1..5
+# Spear of the Archon - 351488
+# Light the Path (requires Valiant Strikes) - 351491 (329791)
+# shadowlands.pointed_courage_nearby = 1..3
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_1"+=soulbind=kleia,329778
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_1"+=shadowlands.pointed_courage_nearby=1
 
@@ -42,14 +47,15 @@ profileset."Kyrian-Kleia-Pointed_Courage_Allies_2"+=shadowlands.pointed_courage_
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_3"+=soulbind=kleia,329778
 profileset."Kyrian-Kleia-Pointed_Courage_Allies_3"+=shadowlands.pointed_courage_nearby=3
 
-profileset."Kyrian-Kleia-Pointed_Courage_Allies_4"+=soulbind=kleia,329778
-profileset."Kyrian-Kleia-Pointed_Courage_Allies_4"+=shadowlands.pointed_courage_nearby=4
-
-profileset."Kyrian-Kleia-Pointed_Courage_Allies_5"+=soulbind=kleia,329778
-profileset."Kyrian-Kleia-Pointed_Courage_Allies_5"+=shadowlands.pointed_courage_nearby=5
+profileset."Kyrian-Kleia-Spear_of_the_Archon"+=soulbind=kleia,351488
+profileset."Kyrian-Kleia-Light_the_Path"+=soulbind=kleia,351491/329791
 
 # Forgelite Prime Mikanikos
 # Bron's Call to Action - 333950
 # Hammer of Genesis - 333935
+# Soulglow Spectrometer - 352186
+# Effusive Anima Accelerator - 352188
 profileset."Kyrian-Forgelite-Brons_Call_to_Action"+=soulbind=forgelite_prime_mikanikos,333950
 profileset."Kyrian-Forgelite-Hammer_of_Genesis"+=soulbind=forgelite_prime_mikanikos,333935
+profileset."Kyrian-Forgelite-Soulglow_Spectrometer"+=soulbind=forgelite_prime_mikanikos,352186
+profileset."Kyrian-Forgelite-Effusive_Anima_Accelerator"+=soulbind=forgelite_prime_mikanikos,352188

@@ -8,32 +8,92 @@ covenant=venthyr
 
 default_actions=1
 
-head=confidants_favored_cap,id=183021,ilevel=213,bonus_id=${legendary.id}
-neck=charm_of_eternal_winter,id=183040,ilevel=213
-shoulder=shawl_of_the_penitent,id=183020,ilevel=213
-back=crest_of_the_legionnaire_general,id=183032,ilevel=213
-chest=robes_of_the_cursed_commando,id=182998,ilevel=213,enchant=eternal_insight
-wrists=acolytes_velvet_bindings,id=183017,ilevel=213,enchant=eternal_intellect
-hands=tricksprite_gloves,id=178705,ilevel=226
-waist=shadewarped_sash,id=183004,ilevel=213
-legs=purge_protocol_legwraps,id=180107,ilevel=200
-feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=200
-finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=207,enchant=tenet_of_haste
-finger2=ritualists_treasured_ring,id=183037,ilevel=200,enchant=tenet_of_haste
-trinket1=dreadfire_vessel,id=184030,ilevel=220
-trinket2=cabalists_hymnal,id=184028,ilevel=220
-main_hand=sinbearers_absolution_staff,id=182392,ilevel=220,enchant=sinful_revelation
+head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=${legendary.id}
+neck=interplanar_keystone,id=186379,ilevel=246,gem_id=173130
+shoulders=frame_of_the_false_margrave,id=186324,ilevel=246
+back=drape_of_twisted_loyalties,id=180123,ilevel=239
+chest=sacrificers_sacramental_cassock,id=186282,ilevel=239,enchant=eternal_stats
+wrists=desecrators_keening_wristwraps,id=186321,ilevel=246,enchant=eternal_intellect
+hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=239
+waist=sash_of_duplicitous_magics,id=186322,ilevel=246
+legs=muehzalas_hexthread_sarong,id=179351,bonus_id=7187/1540,ilevel=239
+feet=sandals_of_sacred_symmetry,id=186354,ilevel=239
+finger1=sworn_oath_of_the_nine,id=186290,ilevel=239,gem_id=173130,enchant=tenet_of_mastery
+finger2=death_gods_signet,id=179355,bonus_id=7187/1540/6935,ilevel=239,gem_id=173130,enchant=tenet_of_mastery
+trinket1=soulletting_ruby,id=178809,bonus_id=6536/1540/6646,ilevel=239
+trinket2=forbidden_necromantic_tome,id=186421,ilevel=246
+main_hand=maledict_opus,id=186406,ilevel=246,enchant=sinful_revelation
+
+# Renown: 55
+# Conduits: Rank 9
 
 # Nadjia
+# 3 conduit setup
+# Thrill Seeker - 331586
+# Fatal Flaw (requires Thrill Seeker) - 352373 (TODO: Add crit/vers?)
+profileset."Nadjia-TS_FaFl-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/331586/352373
+
 # 2 conduit setup
 # Thrill Seeker - 331586
-profileset."Nadjia-TS-${conduits.first.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:6/331586
+# Exacting Preparation - 331580
+# Fatal Flaw (requires Thrill Seeker) - 352373 (TODO: Add crit/vers?)
+profileset."Nadjia-TS_EP_FaFl-${conduits.first.name}_${conduits.second.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:9/${conduits.second.id}:9/331586/331580/352373
+
+# 2 conduit setup
+# Thrill Seeker - 331586
+# Dauntless Duelist - 331584
+# Fatal Flaw (requires Thrill Seeker) - 352373 (TODO: Add crit/vers?)
+profileset."Nadjia-TS_DD_FaFl-${conduits.first.name}_${conduits.second.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:9/${conduits.second.id}:9/331586/331584/352373
 
 # Theotar
+# 3 conduit setup
+# Soothing Shade - 336239
+# Party Favors - 351750
+profileset."Theotar-SS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/336239
+
+profileset."Theotar-SS_PF_Intellect-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/336239/351750
+profileset."Theotar-SS_PF_Intellect-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.PF_type=primary
+profileset."Theotar-SS_PF_Haste-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/336239/351750
+profileset."Theotar-SS_PF_Haste-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.PF_type=haste
+profileset."Theotar-SS_PF_Crit-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/336239/351750
+profileset."Theotar-SS_PF_Crit-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.PF_type=crit
+profileset."Theotar-SS_PF_Versatility-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/336239/351750
+profileset."Theotar-SS_PF_Versatility-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.PF_type=versatility
+
 # 2 conduit setup
 # Soothing Shade - 336239
-profileset."Theotar-SS-${conduits.first.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:6/336239
+# Wasteland Propriety - 319983
+# Party Favors - 351750
+profileset."Theotar-SS_WP-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/319983/336239
+
+profileset."Theotar-SS_WP_PF_Intellect-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/319983/336239/351750
+profileset."Theotar-SS_WP_PF_Intellect-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=primary
+profileset."Theotar-SS_WP_PF_Haste-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/319983/336239/351750
+profileset."Theotar-SS_WP_PF_Haste-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=haste
+profileset."Theotar-SS_WP_PF_Crit-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/319983/336239/351750
+profileset."Theotar-SS_WP_PF_Crit-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=crit
+profileset."Theotar-SS_WP_PF_Versatility-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/319983/336239/351750
+profileset."Theotar-SS_WP_PF_Versatility-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=versatility
+
+# 2 conduit setup
+# Soothing Shade - 336239
+# Refined Palate - 336243
+# Party Favors - 351750
+profileset."Theotar-SS_RP-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/336239/336243
+
+profileset."Theotar-SS_RP_PF_Intellect-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/336239/336243/351750
+profileset."Theotar-SS_RP_PF_Intellect-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=primary
+profileset."Theotar-SS_RP_PF_Haste-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/336239/336243/351750
+profileset."Theotar-SS_RP_PF_Haste-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=haste
+profileset."Theotar-SS_RP_PF_Crit-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/336239/336243/351750
+profileset."Theotar-SS_RP_PF_Crit-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=crit
+profileset."Theotar-SS_RP_PF_Versatility-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/336239/336243/351750
+profileset."Theotar-SS_RP_PF_Versatility-${conduits.first.name}_${conduits.second.name}"+=shadowlands.PF_type=versatility
 
 # General Draven
+# 3 conduit setup
+profileset."Draven-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=general_draven,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9
+
 # 2 conduit setup
-profileset."Draven-${conduits.first.name}"+=soulbind=general_draven,${conduits.first.id}:6
+# Built for War - 319973
+profileset."Draven-BfW-${conduits.first.name}_${conduits.second.name}"+=soulbind=general_draven,${conduits.first.id}:9/${conduits.second.id}:9/319973

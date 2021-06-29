@@ -8,38 +8,52 @@ covenant=venthyr
 
 default_actions=1
 
-head=confidants_favored_cap,id=183021,ilevel=226
-neck=charm_of_eternal_winter,id=183040,ilevel=226
-shoulder=shawl_of_the_penitent,id=183020,ilevel=233
-back=crest_of_the_legionnaire_general,id=183032,ilevel=233
-chest=robes_of_the_cursed_commando,id=182998,ilevel=233,enchant=eternal_insight
-wrists=acolytes_velvet_bindings,id=183017,ilevel=226,enchant=eternal_intellect
-hands=impossibly_oversized_mitts,id=183022,ilevel=226
-waist=shadewarped_sash,id=183004,ilevel=226
-legs=purge_protocol_legwraps,id=180107,ilevel=226
-feet=slippers_of_the_forgotten_heretic,id=182979,ilevel=226
-finger1=most_regal_signet_of_sire_denathrius,id=183036,ilevel=233,enchant=tenet_of_haste
-finger2=ritualists_treasured_ring,id=183037,ilevel=226,enchant=tenet_of_haste
-trinket1=dreadfire_vessel,id=184030,ilevel=233
-trinket2=cabalists_hymnal,id=184028,ilevel=233
-main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revelation
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
+neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
+shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
+back=drape_of_twisted_loyalties,id=180123,ilevel=252
+chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats
+wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130,enchant=eternal_intellect
+hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252
+waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130
+legs=muehzalas_hexthread_sarong,id=179351,bonus_id=7187/1540,ilevel=252
+feet=sandals_of_sacred_symmetry,id=186354,ilevel=252
+finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
+finger2=death_gods_signet,id=179355,bonus_id=7187/1540/6935,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
+trinket1=soulletting_ruby,id=178809,bonus_id=6536/1540/6646,ilevel=252
+trinket2=forbidden_necromantic_tome,id=186421,ilevel=259
+main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 
 # Nadjia
 # Thrill Seeker - 331586
 # Exacting Preparation - 331580
 # Dauntless Duelist - 331584
+# Fatal Flaw (requires Thrill Seeker) - 352373 (TODO: Add crit/vers?)
 profileset."Venthyr-Nadjia-Thrill_Seeker"+=soulbind=nadjia_the_mistblade,331586
 profileset."Venthyr-Nadjia-Exacting_Preparation"+=soulbind=nadjia_the_mistblade,331580
 profileset."Venthyr-Nadjia-Dauntless_Duelist"+=soulbind=nadjia_the_mistblade,331584
+profileset."Venthyr-Nadjia-Fatal_Flaw_AND_Thrill_Seeker"+=soulbind=nadjia_the_mistblade,331586/352373
 
 # Theotar
 # Wasteland Propriety - 319983
 # Soothing Shade - 336239
 # Refined Palate - 336243
+# Party Favors - 351750
 profileset."Venthyr-Theotar-Wasteland_Propriety"+=soulbind=theotar_the_mad_duke,319983
 profileset."Venthyr-Theotar-Soothing_Shade"+=soulbind=theotar_the_mad_duke,336239
 profileset."Venthyr-Theotar-Refined_Palate"+=soulbind=theotar_the_mad_duke,336243
 
+profileset."Venthyr-Theotar-Party_Favors_Intellect"+=soulbind=theotar_the_mad_duke,351750
+profileset."Venthyr-Theotar-Party_Favors_Intellect"+=shadowlands.party_favor_type=primary
+profileset."Venthyr-Theotar-Party_Favors_Haste"+=soulbind=theotar_the_mad_duke,351750
+profileset."Venthyr-Theotar-Party_Favors_Haste"+=shadowlands.party_favor_type=haste
+profileset."Venthyr-Theotar-Party_Favors_Crit"+=soulbind=theotar_the_mad_duke,351750
+profileset."Venthyr-Theotar-Party_Favors_Crit"+=shadowlands.party_favor_type=crit
+profileset."Venthyr-Theotar-Party_Favors_Versatility"+=soulbind=theotar_the_mad_duke,351750
+profileset."Venthyr-Theotar-Party_Favors_Versatility"+=shadowlands.party_favor_type=versatility
+
 # General Draven
 # Built for War - 319973
+# Battlefield Presence - 352417 (TODO: add options?)
 profileset."Venthyr-Draven-Built_for_War"+=soulbind=general_draven,319973
+profileset."Venthyr-Draven-Battlefield_Presence"+=soulbind=general_draven,352417

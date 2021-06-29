@@ -10,39 +10,23 @@ builds:
       second:
         id: "115"
         name: DE
-  hv-as:
+      third:
+        id: "113"
+        name: MD
+  hv:
     composite: 1111132 # FotM_ToF_AS_VT_HV
-    dungeons: 2131122 # DaM_SN_AS_MB_HV
+    dungeons: 2131322 # DaM_SN_SC_MB_HV
     single: 1111132 # FotM_ToF_AS_VT_HV
     conduits:
       first:
-        id: "115"
-        name: DE
-      second:
-        id: "107"
-        name: HA
-  hv-sc:
-    composite: 1111332 # FotM_ToF_SC_VT_HV
-    dungeons: 2131322 # DaM_SN_SC_MB_HV
-    single: 1111332 # FotM_ToF_SC_VT_HV
-    conduits:
-      first:
-        id: "115"
-        name: DE
-      second:
-        id: "107"
-        name: HA
-  stm:
-    composite: 1111133 # FotM_ToF_AS_VT_STM
-    dungeons: 2131323 # DaM_SN_SC_MB_STM
-    single: 1111133 # FotM_ToF_AS_VT_STM
-    conduits:
-      first:
         id: "107"
         name: HA
       second:
         id: "115"
         name: DE
+      third:
+        id: "113"
+        name: MD
 covenants:
   list:
     - kyrian
@@ -51,44 +35,46 @@ covenants:
     - necrolord
   kyrian:
     soulbind:
-      composite: "pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328266"
-      dungeons: "forgelite_prime_mikanikos,${conduits.first.id}:7/333950/333935"
+      composite: "pelagos,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/328266/351146/351149"
+      dungeons: "forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/333950/333935/352186/352188"
   necrolord:
     soulbind:
-      composite: "emeni,${conduits.first.id}:7/${conduits.second.id}:7/342156"
-      dungeons: "bonesmith_heirmir,${conduits.first.id}:7/326572/326514"
+      composite: "bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/326514/350899/350936"
+      dungeons: "bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326572/326514/350899/350936"
   night_fae:
     soulbind:
-      composite: "niya,${conduits.first.id}:7/${conduits.second.id}:7/322721/320660"
-      dungeons: "korayn,${conduits.first.id}:7/325066/325069"
+      composite: "niya,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/322721/320660/352503"
+      dungeons: "dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/319191/352786"
   venthyr:
     soulbind:
-      composite: "theotar_the_mad_duke,${conduits.first.id}:7/${conduits.second.id}:7/336239"
-      dungeons: "nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586"
+      composite: "theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750"
+      dungeons: "nadjia_the_mistblade,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/331586/352373"
 legendary:
     composite: "6982" # Shadowflame Prism
-    dungeons: "6983" # Eternal Call to the Void
-    single: "7162" # Talbadar's Stratagem
+    dungeons: "6982" # Shadowflame Prism
+    single: "6982" # Shadowflame Prism
 sims:
   apl:
     description: "APL Sims used for testing rotational changes only"
     builds: true
     weights: false
     covenant:
-      lookup: true
+      lookup: false
       files: false
+    legendary: false
     lookupType: none
     steps:
       - DPS
     files:
       - apl.simc
   conduit-combos:
-    description: "Sims picking two conduits together to see if this changes the conduit rankings at all."
+    description: "Sims picking two and three conduits together to see how this changes the conduit rankings."
     builds: true
     weights: false
     covenant:
       lookup: true
       files: true
+    legendary: false
     lookupType: none
     steps:
       - DPS
@@ -98,12 +84,13 @@ sims:
       - night_fae.simc
       - venthyr.simc
   conduits:
-    description: "Conduit sims by rank/ilevel for each given conduit."
+    description: "Conduit sims by rank/ilevel for each given conduit up to rank 9."
     builds: true
     weights: false
     covenant:
       lookup: true
       files: true
+    legendary: false
     lookupType: spell
     steps:
       - 145
@@ -113,6 +100,8 @@ sims:
       - 200
       - 213
       - 226
+      - 239
+      - 252
     files:
       - kyrian.simc
       - necrolord.simc
@@ -125,6 +114,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: true
     lookupType: spell
     steps:
       - DPS
@@ -137,6 +127,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: true
     lookupType: none
     steps:
       - CovenantRange
@@ -149,30 +140,33 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: true
     lookupType: spell
     steps:
       - DPS
     files:
       - covenants.simc
   covenants-launch:
-    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 21."
+    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 49."
     builds: true
     weights: false
     covenant:
       lookup: false
       files: false
+    legendary: true
     lookupType: spell
     steps:
       - DPS
     files:
       - covenants.simc
   covenants-prog:
-    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and adds them with a legendary and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 22."
+    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and adds them with a legendary and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 55."
     builds: true
     weights: false
     covenant:
       lookup: false
       files: false
+    legendary: true
     lookupType: spell
     steps:
       - DPS
@@ -185,6 +179,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: true
     lookupType: spell
     steps:
       - DPS
@@ -197,6 +192,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: false
     lookupType: item
     steps:
       - 226
@@ -210,27 +206,28 @@ sims:
     covenant:
       lookup: true
       files: true
+    legendary: false
     lookupType: spell
     steps:
       - DPS
     files:
       - legendaries.simc
   legendary-items:
-    description: "Using a base set of Mythic BiS gear from Castle Nathria we swap out for each Legendary Item + Power to get a sense for what would be an upgrade compared to the base pieces we have available. HC stands for Haste Crit, and HM stands for Haste Mastery."
+    description: "Using a base set of Mythic BiS gear from Sanctum of Domination we swap out for each Legendary Item + Power to get a sense for what would be an upgrade compared to the base pieces we have available. HC stands for Haste Crit, and HM stands for Haste Mastery."
     builds: true
     weights: false
     covenant:
       lookup: true
-      files: false
+      files: true
+    legendary: false
     lookupType: spell
     steps:
-      - 190
-      - 210
       - 225
       - 235
+      - 250
+      - 260
     files:
-      - shadow.simc
-      - generic.simc
+      - legendaries.simc
   racials:
     description: "Swaps out the racial for a particular actor that includes all stat effects or special abilities where they prove to be a DPS increase."
     builds: true
@@ -238,6 +235,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: true
     lookupType: spell
     steps:
       - DPS
@@ -250,6 +248,7 @@ sims:
     covenant:
       lookup: true
       files: true
+    legendary: true
     lookupType: spell
     steps:
       - DPS
@@ -265,6 +264,7 @@ sims:
     covenant:
       lookup: true
       files: true
+    legendary: true
     lookupType: none
     steps:
       - DPS
@@ -274,13 +274,14 @@ sims:
       - night_fae.simc
       - venthyr.simc
   soulbinds-launch:
-    description: "Altered version of the Soulbinds sim but capped at level 21 renown."
+    description: "Altered version of the Soulbinds sim but capped at level 49 renown."
     soulbinds:
     builds: true
     weights: false
     covenant:
       lookup: true
       files: true
+    legendary: true
     lookupType: none
     steps:
       - DPS
@@ -290,13 +291,14 @@ sims:
       - night_fae.simc
       - venthyr.simc
   soulbinds-prog:
-    description: "Altered version of the Soulbinds sim but capped at level 22 renown for Mythic Prog time."
+    description: "Altered version of the Soulbinds sim but capped at level 55 renown for Mythic Prog time."
     soulbinds:
     builds: true
     weights: false
     covenant:
       lookup: true
       files: true
+    legendary: true
     lookupType: none
     steps:
       - DPS
@@ -312,6 +314,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: true
     lookupType: none
     steps:
       - DPS
@@ -324,6 +327,7 @@ sims:
     covenant:
       lookup: false
       files: false
+    legendary: false
     lookupType: none
     steps:
       - DPS
@@ -337,7 +341,8 @@ sims:
     weights: false
     covenant:
       lookup: true
-      files: false
+      files: true
+    legendary: false
     lookupType: none
     steps:
       - DPS
@@ -350,6 +355,7 @@ sims:
     covenant:
       lookup: true
       files: false
+    legendary: true
     lookupType: none
     steps:
       - DPS
@@ -362,47 +368,52 @@ sims:
     covenant:
       lookup: true
       files: false
+    legendary: true
     lookupType: item
     steps:
-      - 158
-      - 164
       - 165
       - 168
-      - 171
-      - 177
-      - 184
       - 187
       - 190
       - 194
-      - 197
       - 198
       - 200
+      - 201
       - 203
       - 207
+      - 209
       - 210
       - 213
+      - 214
       - 216
       - 220
       - 223
       - 226
       - 233
+      - 239
+      - 242
+      - 246
+      - 249
+      - 252
+      - 259
     files:
       - raid.simc
       - dungeons.simc
       - other.simc
   weights:
-    description: Stat weight sims for BiS Mythic Castle Nathria gear.
+    description: Stat weight sims for BiS Mythic Sanctum of Domination gear.
     builds: true
     weights: true
     covenant:
       lookup: false
       files: false
+    legendary: false
     lookupType: none
     steps:
       - DPS
     files:
       - weights.simc
-compositeWeights: weightsCastleNathria
+compositeWeights: weightsSanctumOfDomination
 singleTargetWeights: weightsSingle
 singleTargetProfiles:
   - pw_na_1
@@ -419,9 +430,9 @@ analyze:
   csv: true
   json: true
 stats:
-  base: 800
+  base: 1200
   steps: 100
-  total: 1800
+  total: 2200
   include:
     - mastery
     - haste

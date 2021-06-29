@@ -1,0 +1,21 @@
+
+# Overrides are added below here
+#Pelagos
+override.spell_data=effect.821722.coefficient=3.31579
+override.spell_data=effect.884286.base_value=10
+#Dreamer
+override.spell_data=effect.844100.base_value=15
+override.spell_data=spell.342761.duration=12000
+#Marileth
+override.spell_data=effect.883518.base_value=6
+override.spell_data=effect.883519.base_value=6
+override.spell_data=effect.883520.base_value=6
+#Theotar
+override.spell_data=effect.834570.coefficient=5.796491
+#Bonesmith
+override.spell_data=effect.881679.coefficient=1.438596
+#Mikky
+override.spell_data=spell.332514.max_stack=74
+#Draven
+override.spell_data=spell.332842.max_stack=5
+override.spell_data=effect.806786.period=2000

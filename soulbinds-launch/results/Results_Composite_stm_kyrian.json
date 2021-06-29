@@ -1,1 +1,0 @@
-{"name": "Composite - stm - kyrian", "data": {"Pelagos-CM-HA_DE": {"DPS": 5544}, "Kleia-HA": {"DPS": 5185}, "Base": {"DPS": 5022}}, "ids": {"Pelagos-CM-HA_DE": null, "Kleia-HA": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["Pelagos-CM-HA_DE", "Kleia-HA"], "last_updated": "2021-03-07"}

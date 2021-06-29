@@ -1,0 +1,7 @@
+# Composite - hv
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Base|9517|0.00%|
+|cast_nova_early|9516|-0.01%|
+|jaervs_apl_unmodified_cast_nova_early|9485|-0.34%|
+|jaervs_apl_unmodified|9484|-0.34%|
