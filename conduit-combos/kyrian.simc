@@ -5,7 +5,6 @@ position=back
 spec=shadow
 covenant=kyrian
 talents=${talents}
-soulbind=${soulbind}
 
 default_actions=1
 

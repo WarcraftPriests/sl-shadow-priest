@@ -5,7 +5,6 @@ position=back
 spec=shadow
 covenant=night_fae
 talents=${talents}
-soulbind=${soulbind}
 
 default_actions=1
 

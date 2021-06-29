@@ -5,7 +5,6 @@ position=back
 spec=shadow
 covenant=venthyr
 talents=${talents}
-soulbind=${soulbind}
 
 default_actions=1
 
