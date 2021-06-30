@@ -349,6 +349,7 @@ def build_talented_covenant_json(talents):
 
 
 def build_covenant_json():
+    # pylint: disable=too-many-locals
     """build aggregated covenant json"""
     sim_types = ["Composite", "Dungeons", "Single"]
     talents = config["builds"].keys()
