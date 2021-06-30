@@ -3,7 +3,7 @@ import os
 from itertools import combinations_with_replacement
 import re
 import yaml
-import internal.utils as utils
+from internal import utils
 
 with open("config.yml", "r") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
@@ -47,9 +47,10 @@ def build_settings(profile_name_string, weights, covenant_string):
     settings_string = '\n'
     if covenant_string:
         settings_string += "covenant={0}\n".format(covenant_string)
-    for expression in fightExpressions:
-        if expression in profile_name_string:
-            settings_string += fightExpressions[expression] + "\n"
+    for expression in fightExpressions.items():
+        abbreviation = expression[0]
+        if abbreviation in profile_name_string:
+            settings_string += fightExpressions[abbreviation] + "\n"
     if weights:
         settings_string += fightExpressions['weights']
     return settings_string

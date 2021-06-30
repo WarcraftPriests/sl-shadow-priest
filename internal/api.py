@@ -23,7 +23,9 @@ def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name,
     """submits a sim to the raidbots api"""
 
     iterations = int(iterations) if iterations != "smart" else iterations
-    simc_input = open(profile_location, 'r').read()
+    with open(profile_location, 'r') as file:
+        simc_input = file.read()
+        file.close()
     api_url = f'{api_url_base}/sim'
     data = {
         'apiKey': api_key,

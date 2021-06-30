@@ -26,6 +26,14 @@ finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_
 finger2=death_gods_signet,id=179355,bonus_id=7187/1540/6935,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
 main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 
+# Korthia Trinkets
+profileset."Tome_of_Insight_200"+=trinket1=tome_of_insight,id=186156,ilevel=200
+profileset."Tome_of_Insight_207"+=trinket1=tome_of_insight,id=186156,ilevel=207
+profileset."Tome_of_Insight_213"+=trinket1=tome_of_insight,id=186156,ilevel=213
+profileset."Tome_of_Insight_220"+=trinket1=tome_of_insight,id=186156,ilevel=220
+profileset."Tome_of_Insight_226"+=trinket1=tome_of_insight,id=186156,ilevel=226
+profileset."Tome_of_Insight_233"+=trinket1=tome_of_insight,id=186156,ilevel=233
+
 # Darkmoon Cards
 profileset."Darkmoon_Deck_Putrescence_200"+=trinket1=darkmoon_deck__putrescence,id=173069
 

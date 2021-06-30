@@ -8,7 +8,7 @@ import os
 from datetime import datetime
 import pandas
 import yaml
-import internal.utils as utils
+from internal import utils
 
 from internal.weights import find_weights
 from internal.spell_ids import find_ids
@@ -368,18 +368,19 @@ def build_covenant_json():
                 talent_data = json.load(data)
             covenant_data = talent_data['data'][sim_type.lower()]
             # for each set of covenant{} data populate new dict with min/max
-            for covenant in covenants:
-                if covenants[covenant]["max"]:
-                    covenants[covenant]["max"] = max(
-                        covenant_data[covenant]["max"], covenants[covenant]["max"])
+            for covenant in covenants.items():
+                covenant_name = covenant[0]
+                if covenants[covenant_name]["max"]:
+                    covenants[covenant_name]["max"] = max(
+                        covenant_data[covenant_name]["max"], covenants[covenant_name]["max"])
                 else:
-                    covenants[covenant]["max"] = covenant_data[covenant]["max"]
+                    covenants[covenant_name]["max"] = covenant_data[covenant_name]["max"]
 
-                if covenants[covenant]["min"]:
-                    covenants[covenant]["min"] = min(
-                        covenant_data[covenant]["min"], covenants[covenant]["min"])
+                if covenants[covenant_name]["min"]:
+                    covenants[covenant_name]["min"] = min(
+                        covenant_data[covenant_name]["min"], covenants[covenant_name]["min"])
                 else:
-                    covenants[covenant]["min"] = covenant_data[covenant]["min"]
+                    covenants[covenant_name]["min"] = covenant_data[covenant_name]["min"]
         # output 1 JSON file as Results_Aggregate.json
         results[sim_type.lower()] = covenants
     chart_data = {

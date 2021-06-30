@@ -12,7 +12,7 @@ from internal.weights import find_weights
 from internal.sim_parser import parse_json
 from internal.sim_parser import get_timestamp
 from internal.analyze import analyze
-import internal.utils as utils
+from internal import utils
 
 api_secrets_spec = importlib.util.find_spec("api_secrets")
 local_secrets_spec = importlib.util.find_spec("local_secrets")
