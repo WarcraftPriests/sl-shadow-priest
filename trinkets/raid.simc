@@ -26,6 +26,9 @@ finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_
 finger2=death_gods_signet,id=179355,bonus_id=7187/1540/6935,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
 main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 
+# World Boss
+profileset."Soul_Cage_Fragment_233"+=trinket1=soul_cage_fragment,id=187447,ilevel=233
+
 # Sanctum of Domination 213/226/239/252
 profileset."Tome_of_Monstrous_Constructions_213"+=trinket1=tome_of_monstrous_constructions,id=186422,ilevel=213
 profileset."Tome_of_Monstrous_Constructions_226"+=trinket1=tome_of_monstrous_constructions,id=186422,ilevel=226
