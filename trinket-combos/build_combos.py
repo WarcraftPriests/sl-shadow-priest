@@ -20,14 +20,15 @@ combos = {
     "Cabalists_Hymnal_Allies_4_233": "cabalists_hymnal,id=184028,ilevel=233",
     "Shadowed_Orb_of_Torment_252": "shadowed_orb_of_torment,id=186428,ilevel=252",
     "Shadowed_Orb_of_Torment_239": "shadowed_orb_of_torment,id=186428,ilevel=239",
-    # "Ebonsoul_Vise_252": "ebonsoul_vise,id=186431,ilevel=252",
-    # "Ebonsoul_Vise_239": "ebonsoul_vise,id=186431,ilevel=239",
+    "Ebonsoul_Vise_252": "ebonsoul_vise,id=186431,ilevel=252",
+    "Ebonsoul_Vise_239": "ebonsoul_vise,id=186431,ilevel=239",
     "Empyreal_Ordnance_252": "empyreal_ordnance,id=180117,ilevel=252",
     "Empyreal_Ordnance_236": "empyreal_ordnance,id=180117,ilevel=236",
     "Inscrutable_Quantum_Device_252": "inscrutable_quantum_device,id=179350,ilevel=252",
     "Inscrutable_Quantum_Device_236": "inscrutable_quantum_device,id=179350,ilevel=236",
     "Soulletting_Ruby_252": "soulletting_ruby,id=178809,ilevel=252",
-    "Soulletting_Ruby_236": "soulletting_ruby,id=178809,ilevel=236"
+    "Soulletting_Ruby_236": "soulletting_ruby,id=178809,ilevel=236",
+    "Tome_of_Insight_233": "tome_of_insight,id=186156,ilevel=233",
 }
 
 
