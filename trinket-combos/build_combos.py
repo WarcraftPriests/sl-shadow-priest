@@ -29,6 +29,7 @@ combos = {
     "Soulletting_Ruby_252": "soulletting_ruby,id=178809,ilevel=252",
     "Soulletting_Ruby_236": "soulletting_ruby,id=178809,ilevel=236",
     "Tome_of_Insight_233": "tome_of_insight,id=186156,ilevel=233",
+    "Tome_of_Insight_220": "tome_of_insight,id=186156,ilevel=220",
 }
 
 
