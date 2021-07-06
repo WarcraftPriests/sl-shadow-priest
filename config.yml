@@ -371,8 +371,6 @@ sims:
     legendary: true
     lookupType: item
     steps:
-      - 165
-      - 168
       - 187
       - 190
       - 194
@@ -389,6 +387,7 @@ sims:
       - 220
       - 223
       - 226
+      - 230
       - 233
       - 239
       - 242
