@@ -34,12 +34,12 @@ main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revela
 # shadowlands.combat_meditation_extend_chance = 0.5
 profileset."Pelagos-CM_BT-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=pelagos,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/328266/351146
 profileset."Pelagos-CM_BT-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=pelagos,${conduits.first.id}:8/${conduits.second.id}:8/courageous_ascension:8/328266/351146
-profileset."Pelagos-CM_BT-TS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=pelagos,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/328266/351146
-profileset."Pelagos-CM_BT-TS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Pelagos-CM_BT-TS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
-profileset."Pelagos-CM_BT-TS-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=pelagos,${conduits.first.id}:8/${conduits.second.id}:8/courageous_ascension:8/328266/351146
-profileset."Pelagos-CM_BT-TS-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
-profileset."Pelagos-CM_BT-TS-${conduits.first.name}_${conduits.second.name}_CA"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
+profileset."Pelagos-CM_BT-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=pelagos,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/328266/351146
+profileset."Pelagos-CM_BT-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
+profileset."Pelagos-CM_BT-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
+profileset."Pelagos-CM_BT-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=pelagos,${conduits.first.id}:8/${conduits.second.id}:8/courageous_ascension:8/328266/351146
+profileset."Pelagos-CM_BT-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
+profileset."Pelagos-CM_BT-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
 
 # Kleia
 # 3 conduit setup
@@ -47,20 +47,20 @@ profileset."Pelagos-CM_BT-TS-${conduits.first.name}_${conduits.second.name}_CA"+
 # Spear of the Archon - 351488
 profileset."Kleia-SotA-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=kleia,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/351488
 profileset."Kleia-SotA-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=kleia,${conduits.first.id}:8/${conduits.second.id}:8/courageous_ascension:8/351488
-profileset."Kleia-SotA-TS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=kleia,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/351488
-profileset."Kleia-SotA-TS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Kleia-SotA-TS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=716
-profileset."Kleia-SotA-TS-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=kleia,${conduits.first.id}:8/${conduits.second.id}:8/courageous_ascension:8/351488
-profileset."Kleia-SotA-TS-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
-profileset."Kleia-SotA-TS-${conduits.first.name}_${conduits.second.name}_CA"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
+profileset."Kleia-SotA-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=kleia,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/351488
+profileset."Kleia-SotA-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
+profileset."Kleia-SotA-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=716
+profileset."Kleia-SotA-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=kleia,${conduits.first.id}:8/${conduits.second.id}:8/courageous_ascension:8/351488
+profileset."Kleia-SotA-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
+profileset."Kleia-SotA-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
 
 # 2 conduit setup
 # Pointed Courage - 329778
 # shadowlands.pointed_courage_nearby = 5
 profileset."Kleia-PoC_SotA-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:8/${conduits.second.id}:8/329778/351488
-profileset."Kleia-PoC_SotA-TS-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:8/${conduits.second.id}:8/329778/351488
-profileset."Kleia-PoC_SotA-TS-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Kleia-PoC_SotA-TS-${conduits.first.name}_${conduits.second.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
+profileset."Kleia-PoC_SotA-Talbadars-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:8/${conduits.second.id}:8/329778/351488
+profileset."Kleia-PoC_SotA-Talbadars-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
+profileset."Kleia-PoC_SotA-Talbadars-${conduits.first.name}_${conduits.second.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
 
 # Forgelite Prime Mikanikos
 # 3 conduit setup
@@ -68,18 +68,18 @@ profileset."Kleia-PoC_SotA-TS-${conduits.first.name}_${conduits.second.name}"+=h
 # Soulglow Spectrometer - 352186
 profileset."Forgelite-BCtA_SoS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/333950/352186
 profileset."Forgelite-BCtA_SoS-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/courageous_ascension:8/333950/352186
-profileset."Forgelite-BCtA_SoS-TS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/333950/352186
-profileset."Forgelite-BCtA_SoS-TS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Forgelite-BCtA_SoS-TS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
-profileset."Forgelite-BCtA_SoS-TS-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/courageous_ascension:8/333950/352186
-profileset."Forgelite-BCtA_SoS-TS-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
-profileset."Forgelite-BCtA_SoS-TS-${conduits.first.name}_${conduits.second.name}_CA"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
+profileset."Forgelite-BCtA_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/333950/352186
+profileset."Forgelite-BCtA_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
+profileset."Forgelite-BCtA_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
+profileset."Forgelite-BCtA_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/courageous_ascension:8/333950/352186
+profileset."Forgelite-BCtA_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
+profileset."Forgelite-BCtA_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
 
 # 2 conduit setup
 # Bron's Call to Action - 333950
 # Hammer of Genesis - 333935
 # Soulglow Spectrometer - 352186
 profileset."Forgelite-BCtA_HoG_SoS-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/333950/333935/352186
-profileset."Forgelite-BCtA_HoG_SoS-TS-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/333950/333935/352186
-profileset."Forgelite-BCtA_HoG_SoS-TS-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Forgelite-BCtA_HoG_SoS-TS-${conduits.first.name}_${conduits.second.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
+profileset."Forgelite-BCtA_HoG_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/333950/333935/352186
+profileset."Forgelite-BCtA_HoG_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
+profileset."Forgelite-BCtA_HoG_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162

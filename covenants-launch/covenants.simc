@@ -39,10 +39,10 @@ profileset."Venthyr_Covenant_Only_Healing_Reversal"+=priest.mindgames_healing_re
 profileset."Kyrian_Pelagos"+=covenant=kyrian
 profileset."Kyrian_Pelagos"+=soulbind=pelagos,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/328266/351146
 # Soulbind: Pelagos - Pelagos-CM_BT-TS-HA_DE_CA
-profileset."Kyrian_Pelagos_TS"+=covenant=kyrian
-profileset."Kyrian_Pelagos_TS"+=soulbind=pelagos,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/328266/351146
-profileset."Kyrian_Pelagos_TS"+=talents=${talents.void_torrent}
-profileset."Kyrian_Pelagos_TS"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
+profileset."Kyrian_Pelagos_Talbadars"+=covenant=kyrian
+profileset."Kyrian_Pelagos_Talbadars"+=soulbind=pelagos,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/328266/351146
+profileset."Kyrian_Pelagos_Talbadars"+=talents=${talents.void_torrent}
+profileset."Kyrian_Pelagos_Talbadars"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
 # Soulbind: Kleia - Kleia-PC_SotA-TS-HA_DE
 profileset."Kyrian_Kleia"+=covenant=kyrian
 profileset."Kyrian_Kleia"+=soulbind=kleia,${conduits.first.id}:8/${conduits.second.id}:8/329778/351488
@@ -54,10 +54,10 @@ profileset."Kyrian_Forgelite"+=soulbind=forgelite_prime_mikanikos,${conduits.fir
 profileset."Kyrian_Forgelite_HoG"+=covenant=kyrian
 profileset."Kyrian_Forgelite_HoG"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/333950/333935/352186
 # Soulbind: Forgelite Prime Mikanikos - Forgelite-BCtA_SS-TS-HA_DE_CA
-profileset."Kyrian_Forgelite_TS"+=covenant=kyrian
-profileset."Kyrian_Forgelite_TS"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/courageous_ascension:8/333950/352186
-profileset."Kyrian_Forgelite_TS"+=talents=${talents.void_torrent}
-profileset."Kyrian_Forgelite_TS"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
+profileset."Kyrian_Forgelite_Talbadars"+=covenant=kyrian
+profileset."Kyrian_Forgelite_Talbadars"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/courageous_ascension:8/333950/352186
+profileset."Kyrian_Forgelite_Talbadars"+=talents=${talents.void_torrent}
+profileset."Kyrian_Forgelite_Talbadars"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
 
 # Soulbind: Marileth - Marileth-VS_Mastery-HA_DE_RS + Marileth-VS_Mastery-PC-HA_DE_RS
 profileset."Necrolord_Marileth_Mastery"+=shadowlands.volatile_solvent_type=mastery

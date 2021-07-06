@@ -30,6 +30,12 @@ combos = {
     "Soulletting_Ruby_236": "soulletting_ruby,id=178809,ilevel=236",
     "Tome_of_Insight_233": "tome_of_insight,id=186156,ilevel=233",
     "Tome_of_Insight_220": "tome_of_insight,id=186156,ilevel=220",
+    "Unbound_Changeling_All_252": "unbound_changeling,id=178708,ilevel=252",
+    "Unbound_Changeling_All_236": "unbound_changeling,id=178708,ilevel=236",
+    "Unbound_Changeling_Mastery_252": "unbound_changeling,id=178708,ilevel=252",
+    "Unbound_Changeling_Mastery_236": "unbound_changeling,id=178708,ilevel=236",
+    "Unbound_Changeling_Haste_252": "unbound_changeling,id=178708,ilevel=252",
+    "Unbound_Changeling_Haste_236": "unbound_changeling,id=178708,ilevel=236",
 }
 
 
@@ -54,6 +60,10 @@ def build_simc_string(trinkets):
                 allies_count = trinket[24]
                 result += "profileset.\"{0}-{1}\"+=shadowlands.crimson_choir_in_party={2}\n".format(
                     combo[0], combo[1], allies_count)
+            if "Unbound_Changeling" in trinket:
+                stat_type = trinket.split("_")[2].lower()
+                result += "profileset.\"{0}-{1}\"+=shadowlands.unbound_changeling_stat_type={2}\n".format(
+                    combo[0], combo[1], stat_type)
         result += "profileset.\"{0}-{1}\"+=trinket1={2}\n".format(
             combo[0], combo[1], combos[combo[0]])
         result += "profileset.\"{0}-{1}\"+=trinket2={2}\n\n".format(
