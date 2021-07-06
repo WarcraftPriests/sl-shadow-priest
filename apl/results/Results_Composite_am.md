@@ -1,7 +1,7 @@
 # Composite - am
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|9048|0.00%|
-|cast_nova_early|9047|-0.01%|
-|jaervs_apl_unmodified_cast_nova_early|9007|-0.45%|
-|jaervs_apl_unmodified|9007|-0.46%|
+|saeldur|9988|1.27%|
+|Base|9863|0.00%|
+|Base_sfp|9822|-0.41%|
+|saeldur_sfp|9803|-0.61%|

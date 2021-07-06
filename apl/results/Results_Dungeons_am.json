@@ -1,0 +1,1 @@
+{"name": "Dungeons - am", "data": {"Base": {"DPS": 10009}, "saeldur": {"DPS": 9949}, "Base_sfp": {"DPS": 9924}, "saeldur_sfp": {"DPS": 9897}}, "ids": {"saeldur": null, "Base_sfp": null, "saeldur_sfp": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur", "Base_sfp", "saeldur_sfp"], "last_updated": "2021-07-06"}

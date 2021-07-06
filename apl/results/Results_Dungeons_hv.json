@@ -1,0 +1,1 @@
+{"name": "Dungeons - hv", "data": {"Base": {"DPS": 10330}, "saeldur": {"DPS": 10182}, "Base_sfp": {"DPS": 10181}, "saeldur_sfp": {"DPS": 10148}}, "ids": {"saeldur": null, "Base_sfp": null, "saeldur_sfp": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["saeldur", "Base_sfp", "saeldur_sfp"], "last_updated": "2021-07-06"}

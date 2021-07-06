@@ -1,7 +1,7 @@
 # Single - hv
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|9251|0.00%|
-|cast_nova_early|9249|-0.02%|
-|jaervs_apl_unmodified_cast_nova_early|9211|-0.42%|
-|jaervs_apl_unmodified|9210|-0.44%|
+|saeldur|10170|1.37%|
+|Base|10032|0.00%|
+|Base_sfp|9971|-0.61%|
+|saeldur_sfp|9937|-0.95%|

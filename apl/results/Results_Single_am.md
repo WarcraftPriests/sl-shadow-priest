@@ -1,7 +1,7 @@
 # Single - am
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Base|8798|0.00%|
-|cast_nova_early|8797|-0.02%|
-|jaervs_apl_unmodified_cast_nova_early|8758|-0.45%|
-|jaervs_apl_unmodified|8758|-0.45%|
+|saeldur|9792|1.35%|
+|Base|9662|0.00%|
+|Base_sfp|9552|-1.14%|
+|saeldur_sfp|9528|-1.38%|
