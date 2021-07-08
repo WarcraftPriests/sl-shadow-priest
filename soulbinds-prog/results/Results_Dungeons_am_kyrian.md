@@ -1,20 +1,20 @@
 # Dungeons - am - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pelagos-CM_BT_NR-TS-HA_DE_CA|8435|15.28%|
-|Forgelite-BCtA_HoG_SoS-TS-HA_DE|8338|13.95%|
-|Kleia-VS_PoC_SotA_LtP-TS-HA_DE|8310|13.57%|
-|Pelagos-CM_BT_NR-TS-HA_DE_RS|8295|13.37%|
-|Pelagos-CM_BT_NR-HA_DE_CA|8211|12.22%|
-|Forgelite-BCtA_HoG_SoS-HA_DE|8181|11.81%|
-|Forgelite-BCtA_SoS-TS-HA_DE_CA|8176|11.74%|
-|Pelagos-CM_BT_NR-HA_DE_RS|8176|11.74%|
-|Kleia-VS_SotA_LtP-TS-HA_DE_CA|8145|11.32%|
-|Kleia-VS_PoC_SotA_LtP-HA_DE|8104|10.76%|
-|Forgelite-BCtA_SoS-TS-HA_DE_RS|8044|9.94%|
-|Forgelite-BCtA_SoS-HA_DE_CA|7976|9.01%|
-|Forgelite-BCtA_SoS-HA_DE_RS|7943|8.56%|
-|Kleia-VS_SotA_LtP-HA_DE_CA|7938|8.49%|
-|Kleia-VS_SotA_LtP-HA_DE_RS|7916|8.19%|
-|Kleia-VS_SotA_LtP-TS-HA_DE_RS|7841|7.16%|
-|Base|7317|0.00%|
+|Pelagos-CM_BT_NR-Talbadars-HA_DE_CA|8436|15.31%|
+|Forgelite-BCtA_HoG_SoS-Talbadars-HA_DE|8338|13.97%|
+|Kleia-VS_PoC_SotA_LtP-Talbadars-HA_DE|8303|13.49%|
+|Pelagos-CM_BT_NR-Talbadars-HA_DE_RS|8283|13.22%|
+|Pelagos-CM_BT_NR-HA_DE_CA|8212|12.25%|
+|Forgelite-BCtA_HoG_SoS-HA_DE|8187|11.91%|
+|Forgelite-BCtA_SoS-Talbadars-HA_DE_CA|8183|11.85%|
+|Pelagos-CM_BT_NR-HA_DE_RS|8173|11.71%|
+|Kleia-VS_SotA_LtP-Talbadars-HA_DE_CA|8145|11.33%|
+|Kleia-VS_PoC_SotA_LtP-HA_DE|8099|10.70%|
+|Forgelite-BCtA_SoS-Talbadars-HA_DE_RS|8036|9.84%|
+|Forgelite-BCtA_SoS-HA_DE_CA|7977|9.03%|
+|Forgelite-BCtA_SoS-HA_DE_RS|7946|8.61%|
+|Kleia-VS_SotA_LtP-HA_DE_CA|7941|8.54%|
+|Kleia-VS_SotA_LtP-HA_DE_RS|7912|8.15%|
+|Kleia-VS_SotA_LtP-Talbadars-HA_DE_RS|7845|7.23%|
+|Base|7316|0.00%|

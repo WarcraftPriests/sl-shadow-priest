@@ -1,12 +1,12 @@
 # Composite - hv - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Theotar-SS-HA_DE_RS|7479|14.10%|
-|Nadjia-TS-HA_DE_RS|7450|13.65%|
-|Nadjia-TS_DD-HA_DE|7414|13.10%|
-|Draven-BfW-HA_DE|7395|12.81%|
-|Theotar-SS_WP-HA_DE|7318|11.63%|
-|Theotar-SS_RP-HA_DE|7315|11.60%|
-|Nadjia-TS_EP-HA_DE|7306|11.46%|
-|Draven-HA_DE_RS|7297|11.32%|
-|Base|6555|0.00%|
+|Theotar-SS-HA_DE_RS|7480|14.14%|
+|Nadjia-TS-HA_DE_RS|7449|13.67%|
+|Nadjia-TS_DD-HA_DE|7413|13.13%|
+|Draven-BfW-HA_DE|7397|12.88%|
+|Theotar-SS_RP-HA_DE|7318|11.67%|
+|Theotar-SS_WP-HA_DE|7316|11.64%|
+|Nadjia-TS_EP-HA_DE|7308|11.53%|
+|Draven-HA_DE_RS|7300|11.40%|
+|Base|6553|0.00%|

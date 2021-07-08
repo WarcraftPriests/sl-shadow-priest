@@ -1,20 +1,20 @@
 # Composite - hv - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pelagos-CM_BT-TS-HA_DE_CA|7558|17.58%|
-|Pelagos-CM_BT-HA_DE_RS|7505|16.75%|
-|Pelagos-CM_BT-HA_DE_CA|7484|16.43%|
-|Forgelite-BCtA_SoS-TS-HA_DE_CA|7460|16.05%|
-|Forgelite-BCtA_SoS-HA_DE_RS|7416|15.36%|
-|Pelagos-CM_BT-TS-HA_DE_RS|7403|15.16%|
-|Kleia-PoC_SotA-TS-HA_DE|7399|15.10%|
-|Forgelite-BCtA_SoS-HA_DE_CA|7391|14.98%|
-|Kleia-PoC_SotA-HA_DE|7338|14.16%|
-|Forgelite-BCtA_SoS-TS-HA_DE_RS|7319|13.86%|
-|Forgelite-BCtA_HoG_SoS-TS-HA_DE|7266|13.03%|
-|Kleia-SotA-TS-HA_DE_CA|7217|12.28%|
-|Forgelite-BCtA_HoG_SoS-HA_DE|7199|11.98%|
-|Kleia-SotA-HA_DE_RS|7182|11.73%|
-|Kleia-SotA-HA_DE_CA|7157|11.34%|
-|Kleia-SotA-TS-HA_DE_RS|6705|4.30%|
-|Base|6428|0.00%|
+|Pelagos-CM_BT-Talbadars-HA_DE_CA|7556|17.57%|
+|Pelagos-CM_BT-HA_DE_RS|7501|16.72%|
+|Pelagos-CM_BT-HA_DE_CA|7488|16.52%|
+|Forgelite-BCtA_SoS-Talbadars-HA_DE_CA|7462|16.10%|
+|Forgelite-BCtA_SoS-HA_DE_RS|7415|15.38%|
+|Pelagos-CM_BT-Talbadars-HA_DE_RS|7400|15.15%|
+|Kleia-PoC_SotA-Talbadars-HA_DE|7396|15.08%|
+|Forgelite-BCtA_SoS-HA_DE_CA|7390|14.99%|
+|Kleia-PoC_SotA-HA_DE|7339|14.19%|
+|Forgelite-BCtA_SoS-Talbadars-HA_DE_RS|7318|13.86%|
+|Forgelite-BCtA_HoG_SoS-Talbadars-HA_DE|7269|13.10%|
+|Kleia-SotA-Talbadars-HA_DE_CA|7221|12.36%|
+|Forgelite-BCtA_HoG_SoS-HA_DE|7198|12.00%|
+|Kleia-SotA-HA_DE_RS|7180|11.73%|
+|Kleia-SotA-HA_DE_CA|7155|11.33%|
+|Kleia-SotA-Talbadars-HA_DE_RS|6706|4.34%|
+|Base|6427|0.00%|
