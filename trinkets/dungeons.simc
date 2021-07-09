@@ -30,9 +30,25 @@ main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 # Mythic+ Trinkets (+Great Vault): 209/213/216/220/223/226/233/236/239/242/246/249/252
 
 # Tazavesh, the Veiled Market: 226/233
-# TODO: need to test all 4 stats?
-profileset."Soleahs_Secret_Technique_226"+=trinket1=soleahs_secret_technique,id=185818,ilevel=226
-profileset."Soleahs_Secret_Technique_233"+=trinket1=soleahs_secret_technique,id=185818,ilevel=233
+profileset."Soleahs_Secret_Technique_Haste_226"+=trinket1=soleahs_secret_technique,id=185818,ilevel=226
+profileset."Soleahs_Secret_Technique_Haste_226"+=shadowlands.soleahs_secret_technique_type=haste
+profileset."Soleahs_Secret_Technique_Haste_233"+=trinket1=soleahs_secret_technique,id=185818,ilevel=233
+profileset."Soleahs_Secret_Technique_Haste_233"+=shadowlands.soleahs_secret_technique_type=haste
+
+profileset."Soleahs_Secret_Technique_Vers_226"+=trinket1=soleahs_secret_technique,id=185818,ilevel=226
+profileset."Soleahs_Secret_Technique_Vers_226"+=shadowlands.soleahs_secret_technique_type=versatility
+profileset."Soleahs_Secret_Technique_Vers_233"+=trinket1=soleahs_secret_technique,id=185818,ilevel=233
+profileset."Soleahs_Secret_Technique_Vers_233"+=shadowlands.soleahs_secret_technique_type=versatility
+
+profileset."Soleahs_Secret_Technique_Crit_226"+=trinket1=soleahs_secret_technique,id=185818,ilevel=226
+profileset."Soleahs_Secret_Technique_Crit_226"+=shadowlands.soleahs_secret_technique_type=crit
+profileset."Soleahs_Secret_Technique_Crit_233"+=trinket1=soleahs_secret_technique,id=185818,ilevel=233
+profileset."Soleahs_Secret_Technique_Crit_233"+=shadowlands.soleahs_secret_technique_type=crit
+
+profileset."Soleahs_Secret_Technique_Mastery_226"+=trinket1=soleahs_secret_technique,id=185818,ilevel=226
+profileset."Soleahs_Secret_Technique_Mastery_226"+=shadowlands.soleahs_secret_technique_type=mastery
+profileset."Soleahs_Secret_Technique_Mastery_233"+=trinket1=soleahs_secret_technique,id=185818,ilevel=233
+profileset."Soleahs_Secret_Technique_Mastery_233"+=shadowlands.soleahs_secret_technique_type=mastery
 
 profileset."Miniscule_Mailemental_in_an_Envelope_226"+=trinket1=miniscule_mailemental_in_an_envelope,id=185846,ilevel=226
 profileset."Miniscule_Mailemental_in_an_Envelope_233"+=trinket1=miniscule_mailemental_in_an_envelope,id=185846,ilevel=233

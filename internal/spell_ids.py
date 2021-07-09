@@ -70,7 +70,7 @@ legendaries = {
     "Bwonsamdis_Pact_Benevolent": 356391,
     "Bwonsamdis_Pact_Wrathful": 356391,
     "Shadow_Word_Manipulation_7": 356392,
-    "Shadow_Word_Manipulation_7_Shattered_Perceptions_11": 356392,
+    "Shadow_Word_Manipulation_9_Shattered_Perceptions_11": 356392,
 }
 
 legendary_items = {

@@ -28,8 +28,8 @@ main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 # Covenant Legendary
 profileset."Shadow_Word_Manipulation_7"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
 
-profileset."Shadow_Word_Manipulation_7_Shattered_Perceptions_11"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
-profileset."Shadow_Word_Manipulation_7_Shattered_Perceptions_11"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
+profileset."Shadow_Word_Manipulation_9_Shattered_Perceptions_11"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Shadow_Word_Manipulation_9_Shattered_Perceptions_11"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11
 
 # Shadow Priest Legendaries
 # Shadowflame Prism
