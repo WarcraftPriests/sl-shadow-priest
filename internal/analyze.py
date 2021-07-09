@@ -277,7 +277,8 @@ def build_json(sim_type, talent_string, results, directory, timestamp, covenant_
                     # split off the key to get the step
                     # key: Trinket_415 would turn into 415
                     key_step = key.split('_')[len(key.split('_')) - 1]
-                    if profile in key and str(key_step) == str(step):
+                    key_name = key[:-4]
+                    if profile == key_name and str(key_step) == str(step):
                         chart_data["data"][profile][step] = int(
                             round(value, 0))
         # Base isn't in unique_profiles so we handle that explicitly
