@@ -1,8 +1,7 @@
 # Soulbind Launch Results
+This is a modified version of the Soulbind sims with a capped 48 level of renown. Only pre-SoD pieces are used or Season 1.
 
-This is a modified version of the Soulbind sims with a capped 21 level of renown. Only pre-raid pieces are used at Mythic+10.
-
-Each soulbind is simmed with all the possible paths with the top 2 or 3 conduits depending on the path chosen. When slotting a conduit we are only slotting the rank6 version of that conduit for now.
+Each soulbind is simmed with all the possible paths with the top 2 or 3 conduits depending on the path chosen. When slotting a conduit we are only slotting the rank8 version of that conduit for now.
 
 ## Night Fae
 ### Acronyms

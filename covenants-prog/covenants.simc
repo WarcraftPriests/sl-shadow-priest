@@ -23,7 +23,7 @@ trinket1=soulletting_ruby,id=178809,bonus_id=6536/1540/6646,ilevel=239
 trinket2=forbidden_necromantic_tome,id=186421,ilevel=246
 main_hand=maledict_opus,id=186406,ilevel=246,enchant=sinful_revelation
 
-# Renown: 55
+# Renown: 54
 # Conduits: Rank 9
 
 profileset."Kyrian_Covenant_Only"+=covenant=kyrian
@@ -37,10 +37,10 @@ profileset."Venthyr_Covenant_Only_Healing_Reversal"+=priest.mindgames_healing_re
 
 # Soulbind: Pelagos - Pelagos-CM_BT_NR-HA_DE_RS
 profileset."Kyrian_Pelagos"+=covenant=kyrian
-profileset."Kyrian_Pelagos"+=soulbind=pelagos,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/328266/351146/351149
+profileset."Kyrian_Pelagos"+=soulbind=pelagos,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/328266/351146
 # Soulbind: Pelagos - Pelagos-CM_BT_NR-HA_DE_CA
 profileset."Kyrian_Pelagos_Talbadars"+=covenant=kyrian
-profileset."Kyrian_Pelagos_Talbadars"+=soulbind=soulbind=pelagos,${conduits.first.id}:9/${conduits.second.id}:9/courageous_ascension:9/328266/351146/351149
+profileset."Kyrian_Pelagos_Talbadars"+=soulbind=soulbind=pelagos,${conduits.first.id}:9/${conduits.second.id}:9/courageous_ascension:9/328266/351146
 profileset."Kyrian_Pelagos_Talbadars"+=talents=${talents.void_torrent}
 profileset."Kyrian_Pelagos_Talbadars"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
 # Soulbind: Kleia - Kleia-VS_PC_SotA_LtP-HA_DE
@@ -60,10 +60,10 @@ profileset."Kyrian_Forgelite_Talbadars"+=head=veil_of_the_banshee_queen,id=18632
 # Soulbind: Marileth - Marileth-VS_Mastery_KO-HA_DE_RS
 profileset."Necrolord_Marileth_Mastery"+=shadowlands.volatile_solvent_type=mastery
 profileset."Necrolord_Marileth_Mastery"+=covenant=necrolord
-profileset."Necrolord_Marileth_Mastery"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074/352110
+profileset."Necrolord_Marileth_Mastery"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074
 profileset."Necrolord_Marileth_Mastery_PC"+=shadowlands.volatile_solvent_type=mastery
 profileset."Necrolord_Marileth_Mastery_PC"+=covenant=necrolord
-profileset."Necrolord_Marileth_Mastery_PC"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/mind_devourer:9/323074/352110
+profileset."Necrolord_Marileth_Mastery_PC"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/mind_devourer:9/323074
 profileset."Necrolord_Marileth_Mastery_PC"+=talents=${talents.void_torrent}
 profileset."Necrolord_Marileth_Mastery_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
 # Soulbind: Emeni - Emeni-LbE-HA_DE_RS
@@ -93,7 +93,7 @@ profileset."Necrolord_Bonesmith_HAMG_PC"+=head=veil_of_the_banshee_queen,id=1863
 
 # Soulbind: Niya - Niya-GI_NTP_BH-HA_DE_RS
 profileset."Night_Fae_Niya"+=covenant=night_fae
-profileset."Night_Fae_Niya"+=soulbind=niya,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/322721/320660/352503
+profileset."Night_Fae_Niya"+=soulbind=niya,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/322721/320660
 # Soulbind: Dreamweaver - Dreamweaver-FoB_DD-HA_DE_RS
 profileset."Night_Fae_Dreamweaver"+=covenant=night_fae
 profileset."Night_Fae_Dreamweaver"+=soulbind=dreamweaver,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/319191/352786
@@ -107,7 +107,7 @@ profileset."Night_Fae_Korayn_FS"+=soulbind=korayn,${conduits.first.id}:9/${condu
 
 # Soulbind: Nadjia - Nadjia-TS_FF-HA_DE_RS
 profileset."Venthyr_Nadjia"+=covenant=venthyr
-profileset."Venthyr_Nadjia"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/331586/352373
+profileset."Venthyr_Nadjia"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/331586
 # Soulbind: Theotar - Theotar-SS_Party_Favor_Haste-HA_DE_RS
 profileset."Venthyr_Theotar_Intellect"+=covenant=venthyr
 profileset."Venthyr_Theotar_Intellect"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/336239/351750

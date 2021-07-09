@@ -40,6 +40,10 @@ profileset."Kyrian_Pelagos_Talbadars"+=covenant=kyrian
 profileset."Kyrian_Pelagos_Talbadars"+=soulbind=soulbind=pelagos,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/328266/351146/351149
 profileset."Kyrian_Pelagos_Talbadars"+=talents=${talents.void_torrent}
 profileset."Kyrian_Pelagos_Talbadars"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
+profileset."Kyrian_Pelagos_SH"+=covenant=kyrian
+profileset."Kyrian_Pelagos_SH"+=soulbind=soulbind=pelagos,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/328266/351146/351149
+profileset."Kyrian_Pelagos_SH"+=talents=${talents.void_torrent}
+profileset."Kyrian_Pelagos_SH"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7728
 # Soulbind: Kleia - Kleia-VS_PC_SotA_LtP-HA_DE
 profileset."Kyrian_Kleia"+=covenant=kyrian
 profileset."Kyrian_Kleia"+=soulbind=kleia,${conduits.first.id}:11/${conduits.second.id}:11/329778/351491/329791/351488
@@ -53,6 +57,10 @@ profileset."Kyrian_Forgelite_Talbadars"+=covenant=kyrian
 profileset."Kyrian_Forgelite_Talbadars"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/333950/352186/352188
 profileset."Kyrian_Forgelite_Talbadars"+=talents=${talents.void_torrent}
 profileset."Kyrian_Forgelite_Talbadars"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
+profileset."Kyrian_Forgelite_SH"+=covenant=kyrian
+profileset."Kyrian_Forgelite_SH"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/333950/352186/352188
+profileset."Kyrian_Forgelite_SH"+=talents=${talents.void_torrent}
+profileset."Kyrian_Forgelite_SH"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7728
 
 # Soulbind: Marileth - Marileth-VS_Mastery_KO-HA_DE_RS
 profileset."Necrolord_Marileth_Mastery"+=shadowlands.volatile_solvent_type=mastery

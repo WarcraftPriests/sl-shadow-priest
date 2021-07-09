@@ -147,7 +147,7 @@ sims:
     files:
       - covenants.simc
   covenants-launch:
-    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 49."
+    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 48."
     builds: true
     weights: false
     covenant:
@@ -160,7 +160,7 @@ sims:
     files:
       - covenants.simc
   covenants-prog:
-    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and adds them with a legendary and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 55."
+    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and adds them with a legendary and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 54."
     builds: true
     weights: false
     covenant:
@@ -274,7 +274,7 @@ sims:
       - night_fae.simc
       - venthyr.simc
   soulbinds-launch:
-    description: "Altered version of the Soulbinds sim but capped at level 49 renown."
+    description: "Altered version of the Soulbinds sim but capped at level 48 renown."
     soulbinds:
     builds: true
     weights: false
@@ -291,7 +291,7 @@ sims:
       - night_fae.simc
       - venthyr.simc
   soulbinds-prog:
-    description: "Altered version of the Soulbinds sim but capped at level 55 renown for Mythic Prog time."
+    description: "Altered version of the Soulbinds sim but capped at level 54 renown for Mythic Prog time."
     soulbinds:
     builds: true
     weights: false
@@ -387,6 +387,7 @@ sims:
       - 220
       - 223
       - 226
+      - 229
       - 230
       - 233
       - 239

@@ -27,7 +27,7 @@ finger2=death_gods_signet,id=179355,bonus_id=7187/1540/6935,ilevel=252,gem_id=17
 main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 
 # Dungeon Trinkets: 158/171/184
-# Mythic+ Trinkets (+Great Vault): 209/213/216/220/223/226/233/236/239/242/246/249/252
+# Mythic+ Trinkets (+Great Vault): 209/213/216/220/223/226/229/233/236/239/242/246/249/252
 
 # Tazavesh, the Veiled Market: 226/233
 profileset."Soleahs_Secret_Technique_Haste_226"+=trinket1=soleahs_secret_technique,id=185818,ilevel=226
@@ -60,6 +60,7 @@ profileset."Empyreal_Ordnance_216"+=trinket1=empyreal_ordnance,id=180117,ilevel=
 profileset."Empyreal_Ordnance_220"+=trinket1=empyreal_ordnance,id=180117,ilevel=220
 profileset."Empyreal_Ordnance_223"+=trinket1=empyreal_ordnance,id=180117,ilevel=223
 profileset."Empyreal_Ordnance_226"+=trinket1=empyreal_ordnance,id=180117,ilevel=226
+profileset."Empyreal_Ordnance_229"+=trinket1=empyreal_ordnance,id=180117,ilevel=229
 profileset."Empyreal_Ordnance_233"+=trinket1=empyreal_ordnance,id=180117,ilevel=233
 profileset."Empyreal_Ordnance_236"+=trinket1=empyreal_ordnance,id=180117,ilevel=236
 profileset."Empyreal_Ordnance_239"+=trinket1=empyreal_ordnance,id=180117,ilevel=239
@@ -82,6 +83,8 @@ profileset."Unbound_Changeling_Haste_223"+=trinket1=unbound_changeling,id=178708
 profileset."Unbound_Changeling_Haste_223"+=shadowlands.unbound_changeling_stat_type=haste
 profileset."Unbound_Changeling_Haste_226"+=trinket1=unbound_changeling,id=178708,ilevel=226
 profileset."Unbound_Changeling_Haste_226"+=shadowlands.unbound_changeling_stat_type=haste
+profileset."Unbound_Changeling_Haste_229"+=trinket1=unbound_changeling,id=178708,ilevel=229
+profileset."Unbound_Changeling_Haste_229"+=shadowlands.unbound_changeling_stat_type=haste
 profileset."Unbound_Changeling_Haste_233"+=trinket1=unbound_changeling_haste,id=178708,ilevel=233
 profileset."Unbound_Changeling_Haste_233"+=shadowlands.unbound_changeling_stat_type=haste
 profileset."Unbound_Changeling_Haste_236"+=trinket1=unbound_changeling_haste,id=178708,ilevel=236
@@ -109,6 +112,8 @@ profileset."Unbound_Changeling_Crit_223"+=trinket1=unbound_changeling,id=178708,
 profileset."Unbound_Changeling_Crit_223"+=shadowlands.unbound_changeling_stat_type=crit
 profileset."Unbound_Changeling_Crit_226"+=trinket1=unbound_changeling,id=178708,ilevel=226
 profileset."Unbound_Changeling_Crit_226"+=shadowlands.unbound_changeling_stat_type=crit
+profileset."Unbound_Changeling_Crit_229"+=trinket1=unbound_changeling,id=178708,ilevel=229
+profileset."Unbound_Changeling_Crit_229"+=shadowlands.unbound_changeling_stat_type=crit
 profileset."Unbound_Changeling_Crit_233"+=trinket1=unbound_changeling_crit,id=178708,ilevel=233
 profileset."Unbound_Changeling_Crit_233"+=shadowlands.unbound_changeling_stat_type=crit
 profileset."Unbound_Changeling_Crit_236"+=trinket1=unbound_changeling_crit,id=178708,ilevel=236
@@ -136,6 +141,8 @@ profileset."Unbound_Changeling_Mastery_223"+=trinket1=unbound_changeling,id=1787
 profileset."Unbound_Changeling_Mastery_223"+=shadowlands.unbound_changeling_stat_type=mastery
 profileset."Unbound_Changeling_Mastery_226"+=trinket1=unbound_changeling,id=178708,ilevel=226
 profileset."Unbound_Changeling_Mastery_226"+=shadowlands.unbound_changeling_stat_type=mastery
+profileset."Unbound_Changeling_Mastery_229"+=trinket1=unbound_changeling,id=178708,ilevel=229
+profileset."Unbound_Changeling_Mastery_229"+=shadowlands.unbound_changeling_stat_type=mastery
 profileset."Unbound_Changeling_Mastery_233"+=trinket1=unbound_changeling_mastery,id=178708,ilevel=233
 profileset."Unbound_Changeling_Mastery_233"+=shadowlands.unbound_changeling_stat_type=mastery
 profileset."Unbound_Changeling_Mastery_236"+=trinket1=unbound_changeling_mastery,id=178708,ilevel=236
@@ -163,6 +170,8 @@ profileset."Unbound_Changeling_All_223"+=trinket1=unbound_changeling,id=178708,i
 profileset."Unbound_Changeling_All_223"+=shadowlands.unbound_changeling_stat_type=all
 profileset."Unbound_Changeling_All_226"+=trinket1=unbound_changeling,id=178708,ilevel=226
 profileset."Unbound_Changeling_All_226"+=shadowlands.unbound_changeling_stat_type=all
+profileset."Unbound_Changeling_All_229"+=trinket1=unbound_changeling,id=178708,ilevel=229
+profileset."Unbound_Changeling_All_229"+=shadowlands.unbound_changeling_stat_type=all
 profileset."Unbound_Changeling_All_233"+=trinket1=unbound_changeling_all,id=178708,ilevel=233
 profileset."Unbound_Changeling_All_233"+=shadowlands.unbound_changeling_stat_type=all
 profileset."Unbound_Changeling_All_236"+=trinket1=unbound_changeling_all,id=178708,ilevel=236
@@ -185,6 +194,7 @@ profileset."Inscrutable_Quantum_Device_216"+=trinket1=inscrutable_quantum_device
 profileset."Inscrutable_Quantum_Device_220"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=220
 profileset."Inscrutable_Quantum_Device_223"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=223
 profileset."Inscrutable_Quantum_Device_226"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=226
+profileset."Inscrutable_Quantum_Device_229"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=229
 profileset."Inscrutable_Quantum_Device_233"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=233
 profileset."Inscrutable_Quantum_Device_236"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=236
 profileset."Inscrutable_Quantum_Device_239"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=239
@@ -207,6 +217,8 @@ profileset."Inscrutable_Quantum_Device_Only_Opener_223"+=trinket1=inscrutable_qu
 profileset."Inscrutable_Quantum_Device_Only_Opener_223"+=shadowlands.iqd_stat_fail_chance=1.0
 profileset."Inscrutable_Quantum_Device_Only_Opener_226"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=226
 profileset."Inscrutable_Quantum_Device_Only_Opener_226"+=shadowlands.iqd_stat_fail_chance=1.0
+profileset."Inscrutable_Quantum_Device_Only_Opener_229"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=229
+profileset."Inscrutable_Quantum_Device_Only_Opener_229"+=shadowlands.iqd_stat_fail_chance=1.0
 profileset."Inscrutable_Quantum_Device_Only_Opener_233"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=233
 profileset."Inscrutable_Quantum_Device_Only_Opener_233"+=shadowlands.iqd_stat_fail_chance=1.0
 profileset."Inscrutable_Quantum_Device_Only_Opener_236"+=trinket1=inscrutable_quantum_device,id=179350,ilevel=236
@@ -229,6 +241,7 @@ profileset."Overflowing_Anima_Prison_216"+=trinket1=overflowing_anima_prison,id=
 profileset."Overflowing_Anima_Prison_220"+=trinket1=overflowing_anima_prison,id=178849,ilevel=220
 profileset."Overflowing_Anima_Prison_223"+=trinket1=overflowing_anima_prison,id=178849,ilevel=223
 profileset."Overflowing_Anima_Prison_226"+=trinket1=overflowing_anima_prison,id=178849,ilevel=226
+profileset."Overflowing_Anima_Prison_229"+=trinket1=overflowing_anima_prison,id=178849,ilevel=229
 profileset."Overflowing_Anima_Prison_233"+=trinket1=overflowing_anima_prison,id=178849,ilevel=233
 profileset."Overflowing_Anima_Prison_236"+=trinket1=overflowing_anima_prison,id=178849,ilevel=236
 profileset."Overflowing_Anima_Prison_239"+=trinket1=overflowing_anima_prison,id=178849,ilevel=239
@@ -244,6 +257,7 @@ profileset."Sunblood_Amethyst_216"+=trinket1=sunblood_amethyst,id=178826,ilevel=
 profileset."Sunblood_Amethyst_220"+=trinket1=sunblood_amethyst,id=178826,ilevel=220
 profileset."Sunblood_Amethyst_223"+=trinket1=sunblood_amethyst,id=178826,ilevel=223
 profileset."Sunblood_Amethyst_226"+=trinket1=sunblood_amethyst,id=178826,ilevel=226
+profileset."Sunblood_Amethyst_229"+=trinket1=sunblood_amethyst,id=178826,ilevel=229
 profileset."Sunblood_Amethyst_233"+=trinket1=sunblood_amethyst,id=178826,ilevel=233
 profileset."Sunblood_Amethyst_236"+=trinket1=sunblood_amethyst,id=178826,ilevel=236
 profileset."Sunblood_Amethyst_239"+=trinket1=sunblood_amethyst,id=178826,ilevel=239
@@ -259,6 +273,7 @@ profileset."Soulletting_Ruby_216"+=trinket1=soulletting_ruby,id=178809,ilevel=21
 profileset."Soulletting_Ruby_220"+=trinket1=soulletting_ruby,id=178809,ilevel=220
 profileset."Soulletting_Ruby_223"+=trinket1=soulletting_ruby,id=178809,ilevel=223
 profileset."Soulletting_Ruby_226"+=trinket1=soulletting_ruby,id=178809,ilevel=226
+profileset."Soulletting_Ruby_229"+=trinket1=soulletting_ruby,id=178809,ilevel=229
 profileset."Soulletting_Ruby_233"+=trinket1=soulletting_ruby,id=178809,ilevel=233
 profileset."Soulletting_Ruby_236"+=trinket1=soulletting_ruby,id=178809,ilevel=236
 profileset."Soulletting_Ruby_239"+=trinket1=soulletting_ruby,id=178809,ilevel=239
@@ -274,6 +289,7 @@ profileset."Satchel_of_Misbegotten_Minions_216"+=trinket1=satchel_of_misbegotten
 profileset."Satchel_of_Misbegotten_Minions_220"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=220
 profileset."Satchel_of_Misbegotten_Minions_223"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=223
 profileset."Satchel_of_Misbegotten_Minions_226"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=226
+profileset."Satchel_of_Misbegotten_Minions_229"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=229
 profileset."Satchel_of_Misbegotten_Minions_233"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=233
 profileset."Satchel_of_Misbegotten_Minions_236"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=236
 profileset."Satchel_of_Misbegotten_Minions_239"+=trinket1=satchel_of_misbegotten_minions,id=178772,ilevel=239
@@ -289,6 +305,7 @@ profileset."Infinitely_Divisible_Ooze_216"+=trinket1=infinitely_divisible_ooze,i
 profileset."Infinitely_Divisible_Ooze_220"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=220
 profileset."Infinitely_Divisible_Ooze_223"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=223
 profileset."Infinitely_Divisible_Ooze_226"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=226
+profileset."Infinitely_Divisible_Ooze_229"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=229
 profileset."Infinitely_Divisible_Ooze_233"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=233
 profileset."Infinitely_Divisible_Ooze_236"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=236
 profileset."Infinitely_Divisible_Ooze_239"+=trinket1=infinitely_divisible_ooze,id=178769,ilevel=239

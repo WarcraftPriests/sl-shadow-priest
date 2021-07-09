@@ -1,12 +1,12 @@
 # Covenant Results
 
-This sim is for renown 21 with pre-raid BiS gear (204 ilevel).
+This is a modified version of the Soulbind sims with a capped 48 level of renown. Only pre-SoD pieces are used or Season 1.
 
 Each of the covenant sims is using the following over `Base`:
 - Covenant Ability
-- Top 1 or 2 Conduits per Covenant at rank 6
+- Top 2 or 3 Conduits per Covenant at rank 8
 - Top build(s) per Soulbind per Covenant
-- Eternal Call to the Void
+- Top Legendary
 
 The `Covenent_Only` actor is just adding the covenant ability. No conduits, legendaries, or soulbind traits.
 

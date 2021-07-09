@@ -1,8 +1,7 @@
 # Soulbind Results
+This is a modified version of the Soulbind sims with a capped 48 level of renown. Only SoD Heroic pieces or mythic+ items are used.
 
-Each Soulbind is simmed with all the possible DPS paths with the top 1 or 2 Conduits at rank 6 depending on the path chosen.
-
-Renown level is capped at 22.
+Each soulbind is simmed with all the possible paths with the top 2 or 3 conduits depending on the path chosen. When slotting a conduit we are only slotting the rank9 version of that conduit for now.
 
 ## Night Fae
 ### Acronyms

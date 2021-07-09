@@ -24,7 +24,7 @@ trinket1=soulletting_ruby,id=178809,bonus_id=6536/1540/6646,ilevel=239
 trinket2=forbidden_necromantic_tome,id=186421,ilevel=246
 main_hand=maledict_opus,id=186406,ilevel=246,enchant=sinful_revelation
 
-# Renown: 55
+# Renown: 54
 # Conduits: Rank 9
 
 # Niya
@@ -32,13 +32,13 @@ main_hand=maledict_opus,id=186406,ilevel=246,enchant=sinful_revelation
 # Grove Invigoration - 322721
 # Niya's Tools: Poison - 320660
 # Bonded Hearts (requires Grove Invigoration) - 352503
-profileset."Niya-GI_NTP_BH-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=niya,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/322721/320660/352503
+profileset."Niya-GI_NTP-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=niya,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/322721/320660
 
 # 2 conduit setup
 # Grove Invigoration - 322721
 # Niya's Tools: Burrs - 320659
 # Bonded Hearts (requires Grove Invigoration) - 352503
-profileset."Niya-GI_NTB_BH-${conduits.first.name}_${conduits.second.name}"+=soulbind=niya,${conduits.first.id}:9/${conduits.second.id}:9/322721/320659/352503
+profileset."Niya-GI_NTB-${conduits.first.name}_${conduits.second.name}"+=soulbind=niya,${conduits.first.id}:9/${conduits.second.id}:9/322721/320659
 
 # Dreamweaver
 # 3 conduit setup

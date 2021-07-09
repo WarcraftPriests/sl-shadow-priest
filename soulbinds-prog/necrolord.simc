@@ -24,71 +24,71 @@ trinket1=soulletting_ruby,id=178809,bonus_id=6536/1540/6646,ilevel=239
 trinket2=forbidden_necromantic_tome,id=186421,ilevel=246
 main_hand=maledict_opus,id=186406,ilevel=246,enchant=sinful_revelation
 
-# Renown: 55
+# Renown: 54
 # Conduits: Rank 9
 
 # Plague Deviser Marileth
 # Volatile Solvent - 323074
 # Kevin's Oozeling - 352110
 # 3 conduit setup
-profileset."Marileth-VS_Crit_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=crit
-profileset."Marileth-VS_Crit_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074/352110
-profileset."Marileth-VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=crit
-profileset."Marileth-VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074/352110
-profileset."Marileth-VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
+profileset."Marileth-VS_Crit-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=crit
+profileset."Marileth-VS_Crit-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074
+profileset."Marileth-VS_Crit-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=crit
+profileset."Marileth-VS_Crit-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074
+profileset."Marileth-VS_Crit-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
+profileset."Marileth-VS_Crit-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
 
-profileset."Marileth-VS_Mastery_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=mastery
-profileset."Marileth-VS_Mastery_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074/352110
-profileset."Marileth-VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=mastery
-profileset."Marileth-VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074/352110
-profileset."Marileth-VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
+profileset."Marileth-VS_Mastery-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=mastery
+profileset."Marileth-VS_Mastery-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074
+profileset."Marileth-VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=mastery
+profileset."Marileth-VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074
+profileset."Marileth-VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
+profileset."Marileth-VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
 
-profileset."Marileth-VS_Intellect_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=primary
-profileset."Marileth-VS_Intellect_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074/352110
-profileset."Marileth-VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=primary
-profileset."Marileth-VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074/352110
-profileset."Marileth-VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
+profileset."Marileth-VS_Intellect-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=primary
+profileset."Marileth-VS_Intellect-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074
+profileset."Marileth-VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=primary
+profileset."Marileth-VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074
+profileset."Marileth-VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
+profileset."Marileth-VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
 
-profileset."Marileth-VS_Magic_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=magic
-profileset."Marileth-VS_Magic_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074/352110
-profileset."Marileth-VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=magic
-profileset."Marileth-VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074/352110
-profileset."Marileth-VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
+profileset."Marileth-VS_Magic-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=magic
+profileset."Marileth-VS_Magic-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074
+profileset."Marileth-VS_Magic-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=magic
+profileset."Marileth-VS_Magic-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/323074
+profileset."Marileth-VS_Magic-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
+profileset."Marileth-VS_Magic-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
 
 # 2 conduit setup
 # Plaguey's Preemptive Strike - 323090
 # Kevin's Oozeling - 352110
-profileset."Marileth-PPS_VS_Crit_KO-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=crit
-profileset."Marileth-PPS_VS_Crit_KO-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090/352110
-profileset."Marileth-PPS_VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=crit
-profileset."Marileth-PPS_VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090/352110
-profileset."Marileth-PPS_VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-PPS_VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
+profileset."Marileth-PPS_VS_Crit-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=crit
+profileset."Marileth-PPS_VS_Crit-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090
+profileset."Marileth-PPS_VS_Crit-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=crit
+profileset."Marileth-PPS_VS_Crit-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090
+profileset."Marileth-PPS_VS_Crit-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
+profileset."Marileth-PPS_VS_Crit-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
 
-profileset."Marileth-PPS_VS_Mastery_KO-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=mastery
-profileset."Marileth-PPS_VS_Mastery_KO-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090/352110
-profileset."Marileth-PPS_VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=mastery
-profileset."Marileth-PPS_VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090/352110
-profileset."Marileth-PPS_VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-PPS_VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
+profileset."Marileth-PPS_VS_Mastery-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=mastery
+profileset."Marileth-PPS_VS_Mastery-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090
+profileset."Marileth-PPS_VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=mastery
+profileset."Marileth-PPS_VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090
+profileset."Marileth-PPS_VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
+profileset."Marileth-PPS_VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
 
-profileset."Marileth-PPS_VS_Intellect_KO-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=primary
-profileset."Marileth-PPS_VS_Intellect_KO-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090/352110
-profileset."Marileth-PPS_VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=primary
-profileset."Marileth-PPS_VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090/352110
-profileset."Marileth-PPS_VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-PPS_VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
+profileset."Marileth-PPS_VS_Intellect-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=primary
+profileset."Marileth-PPS_VS_Intellect-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090
+profileset."Marileth-PPS_VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=primary
+profileset."Marileth-PPS_VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090
+profileset."Marileth-PPS_VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
+profileset."Marileth-PPS_VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
 
-profileset."Marileth-PPS_VS_Magic_KO-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=magic
-profileset."Marileth-PPS_VS_Magic_KO-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090/352110
-profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=magic
-profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090/352110
-profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
+profileset."Marileth-PPS_VS_Magic-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=magic
+profileset."Marileth-PPS_VS_Magic-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090
+profileset."Marileth-PPS_VS_Magic-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=magic
+profileset."Marileth-PPS_VS_Magic-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:9/${conduits.second.id}:9/323074/323090
+profileset."Marileth-PPS_VS_Magic-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
+profileset."Marileth-PPS_VS_Magic-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7729
 
 
 # Emeni
