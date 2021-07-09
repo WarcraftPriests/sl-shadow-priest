@@ -39,13 +39,19 @@ combos = {
 }
 
 
+def item_id(trinket):
+    """given a comma-separated definition for a trinket, returns just the id"""
+    i = trinket.split(",")[1]
+    return i[3:]
+
+
 def build_combos():
     """generates the combination list with unique equipped trinkets only"""
     trinkets = combinations(combos.keys(), 2)
     unique_trinkets = []
     for pair in trinkets:
-        # check if name matches, trinkets are unique
-        if pair[0][:-5] != pair[1][:-5]:
+        # check if item id matches, trinkets are unique
+        if item_id(combos[pair[0]]) != item_id(combos[pair[1]]):
             unique_trinkets.append(pair)
     print("Generated {0} combinations.".format(len(unique_trinkets)))
     return unique_trinkets
