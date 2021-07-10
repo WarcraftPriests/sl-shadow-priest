@@ -43,6 +43,10 @@ profileset."Kyrian_Pelagos_Talbadars"+=covenant=kyrian
 profileset."Kyrian_Pelagos_Talbadars"+=soulbind=pelagos,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/328266/351146
 profileset."Kyrian_Pelagos_Talbadars"+=talents=${talents.void_torrent}
 profileset."Kyrian_Pelagos_Talbadars"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
+profileset."Kyrian_Pelagos_SH"+=covenant=kyrian
+profileset."Kyrian_Pelagos_SH"+=soulbind=soulbind=pelagos,${conduits.first.id}:8/${conduits.second.id}:8/courageous_ascension:8/328266/351146
+profileset."Kyrian_Pelagos_SH"+=talents=${talents.void_torrent}
+profileset."Kyrian_Pelagos_SH"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7728
 # Soulbind: Kleia - Kleia-PC_SotA-TS-HA_DE
 profileset."Kyrian_Kleia"+=covenant=kyrian
 profileset."Kyrian_Kleia"+=soulbind=kleia,${conduits.first.id}:8/${conduits.second.id}:8/329778/351488
@@ -58,6 +62,10 @@ profileset."Kyrian_Forgelite_Talbadars"+=covenant=kyrian
 profileset."Kyrian_Forgelite_Talbadars"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/courageous_ascension:8/333950/352186
 profileset."Kyrian_Forgelite_Talbadars"+=talents=${talents.void_torrent}
 profileset."Kyrian_Forgelite_Talbadars"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
+profileset."Kyrian_Forgelite_SH"+=covenant=kyrian
+profileset."Kyrian_Forgelite_SH"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/courageous_ascension:8/333950/352186
+profileset."Kyrian_Forgelite_SH"+=talents=${talents.void_torrent}
+profileset."Kyrian_Forgelite_SH"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7728
 
 # Soulbind: Marileth - Marileth-VS_Mastery-HA_DE_RS + Marileth-VS_Mastery-PC-HA_DE_RS
 profileset."Necrolord_Marileth_Mastery"+=shadowlands.volatile_solvent_type=mastery
@@ -110,9 +118,21 @@ profileset."Night_Fae_Korayn_FS"+=soulbind=korayn,${conduits.first.id}:8/${condu
 # Soulbind: Nadjia - Nadjia-TS-HA_DE_RS
 profileset."Venthyr_Nadjia"+=covenant=venthyr
 profileset."Venthyr_Nadjia"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/331586
+profileset."Venthyr_Nadjia_SWM-SP"+=talents=${talents.void_torrent}
+profileset."Venthyr_Nadjia_SWM-SP"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7704
+profileset."Venthyr_Nadjia_SWM-SP"+=covenant=venthyr
+profileset."Venthyr_Nadjia_SWM-SP"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:8/${conduits.second.id}:8/shattered_perceptions:8/331586
 # Soulbind: Theotar - Theotar-SS-HA_DE_RS
 profileset."Venthyr_Theotar"+=covenant=venthyr
 profileset."Venthyr_Theotar"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/336239
+profileset."Venthyr_Theotar_SWM-SP"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7704
+profileset."Venthyr_Theotar_SWM-SP"+=talents=${talents.void_torrent}
+profileset."Venthyr_Theotar_SWM-SP"+=covenant=venthyr
+profileset."Venthyr_Theotar_SWM-SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:8/${conduits.second.id}:8/shattered_perceptions:8/336239
 # Soulbind: Draven - Draven-BfW-HA_DE
 profileset."Venthyr_Draven_BfW"+=covenant=venthyr
 profileset."Venthyr_Draven_BfW"+=soulbind=general_draven,${conduits.first.id}:8/${conduits.second.id}:8/319973
+profileset."Venthyr_Draven_SWM-SP"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7704
+profileset."Venthyr_Draven_SWM-SP"+=talents=${talents.void_torrent}
+profileset."Venthyr_Draven_SWM-SP"+=covenant=venthyr
+profileset."Venthyr_Draven_SWM-SP"+=soulbind=general_draven,${conduits.first.id}:8/${conduits.second.id}:8/shattered_perceptions:8

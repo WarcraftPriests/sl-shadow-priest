@@ -2,6 +2,5 @@
 # # Overrides are added below here
 # Spheres Harmony
 override.spell_data=effect.890239.base_value=3
-override.spell_data=effect.890448.base_value=80
 # Shadow Word: Manipulation
 override.spell_data=effect.891259.base_value=5

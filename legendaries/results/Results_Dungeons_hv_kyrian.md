@@ -1,18 +1,18 @@
 # Dungeons - hv - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Eternal_Call_to_the_Void|9236|5.77%|
-|Shadowflame_Prism_Rabid_Shadows_11_Mindbender|9085|4.04%|
-|Shadowflame_Prism_Rabid_Shadows_11|9072|3.89%|
-|Shadowflame_Prism_Mindbender|9070|3.87%|
-|Shadowflame_Prism|9067|3.84%|
-|Painbreaker_Psalm|8990|2.95%|
-|Talbadars_Stratagem|8970|2.73%|
-|Sephuzs_Proclamation|8925|2.21%|
-|Talbadars_Stratagem_Mind_Devourer_11|8869|1.57%|
-|Echo_of_Eonar|8866|1.53%|
-|Judgment_of_the_Arbiter|8826|1.08%|
-|Twins_of_the_Sun_Priestess_Conduit_11|8780|0.55%|
-|Spheres_Harmony|8740|0.09%|
-|Base|8732|0.00%|
-|Third_Eye_of_the_Jailer|8729|-0.03%|
+|Eternal_Call_to_the_Void|9239|5.73%|
+|Shadowflame_Prism_Rabid_Shadows_11_Mindbender|9067|3.77%|
+|Shadowflame_Prism|9066|3.75%|
+|Shadowflame_Prism_Rabid_Shadows_11|9066|3.75%|
+|Shadowflame_Prism_Mindbender|9065|3.74%|
+|Painbreaker_Psalm|8992|2.91%|
+|Talbadars_Stratagem|8967|2.62%|
+|Sephuzs_Proclamation|8922|2.11%|
+|Echo_of_Eonar|8880|1.63%|
+|Talbadars_Stratagem_Mind_Devourer_11|8862|1.42%|
+|Judgment_of_the_Arbiter|8821|0.95%|
+|Twins_of_the_Sun_Priestess_Conduit_11|8772|0.39%|
+|Spheres_Harmony|8747|0.10%|
+|Base|8738|0.00%|
+|Third_Eye_of_the_Jailer|8728|-0.11%|
