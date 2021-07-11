@@ -4,7 +4,7 @@ role=spell
 position=back
 spec=shadow
 covenant=necrolord
-talents=${talents}
+talents=${talents.mindbender}
 
 default_actions=1
 
