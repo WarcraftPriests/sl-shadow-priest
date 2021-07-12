@@ -137,18 +137,29 @@ profileset."Instructors_Divine_Bell_198"+=trinket1=instructors_divine_bell,id=18
 profileset."Instructors_Divine_Bell_203"+=trinket1=instructors_divine_bell,id=184842,ilevel=203
 
 # PVP Trinkets
-# Conquest: 194, 201, 207, 214, 220
-profileset."Unchained_Gladiators_Badge_of_Ferocity_194"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=194
-profileset."Unchained_Gladiators_Badge_of_Ferocity_201"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=201
-profileset."Unchained_Gladiators_Badge_of_Ferocity_207"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=207
-profileset."Unchained_Gladiators_Badge_of_Ferocity_214"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=214
+# Honor:    190, 197, 203, 210, 216
+# Conquest: 220, 226, 233, 240, 246
+profileset."Unchained_Gladiators_Badge_of_Ferocity_190"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=190
+profileset."Unchained_Gladiators_Badge_of_Ferocity_197"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=197
+profileset."Unchained_Gladiators_Badge_of_Ferocity_203"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=203
+profileset."Unchained_Gladiators_Badge_of_Ferocity_210"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=210
+profileset."Unchained_Gladiators_Badge_of_Ferocity_216"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=216
 profileset."Unchained_Gladiators_Badge_of_Ferocity_220"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=220
+profileset."Unchained_Gladiators_Badge_of_Ferocity_226"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=226
+profileset."Unchained_Gladiators_Badge_of_Ferocity_233"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=233
+profileset."Unchained_Gladiators_Badge_of_Ferocity_240"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=240
+profileset."Unchained_Gladiators_Badge_of_Ferocity_246"+=trinket1=unchained_gladiators_badge_of_ferocity,id=185197,ilevel=246
 
-profileset."Unchained_Gladiators_Insignia_of_Alacrity_194"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=194
-profileset."Unchained_Gladiators_Insignia_of_Alacrity_201"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=201
-profileset."Unchained_Gladiators_Insignia_of_Alacrity_207"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=207
-profileset."Unchained_Gladiators_Insignia_of_Alacrity_214"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=214
+profileset."Unchained_Gladiators_Insignia_of_Alacrity_190"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=190
+profileset."Unchained_Gladiators_Insignia_of_Alacrity_197"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=197
+profileset."Unchained_Gladiators_Insignia_of_Alacrity_203"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=203
+profileset."Unchained_Gladiators_Insignia_of_Alacrity_210"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=210
+profileset."Unchained_Gladiators_Insignia_of_Alacrity_216"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=216
 profileset."Unchained_Gladiators_Insignia_of_Alacrity_220"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=220
+profileset."Unchained_Gladiators_Insignia_of_Alacrity_226"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=226
+profileset."Unchained_Gladiators_Insignia_of_Alacrity_233"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=233
+profileset."Unchained_Gladiators_Insignia_of_Alacrity_240"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=240
+profileset."Unchained_Gladiators_Insignia_of_Alacrity_246"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=246
 
 # Ulduar Timewalking
 profileset."Energy_Siphon_200"+=trinket1=energy_siphon,id=156021,ilevel=200
