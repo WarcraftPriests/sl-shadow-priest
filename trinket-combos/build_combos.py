@@ -28,8 +28,6 @@ combos = {
     "Inscrutable_Quantum_Device_236": "inscrutable_quantum_device,id=179350,ilevel=236",
     "Soulletting_Ruby_252": "soulletting_ruby,id=178809,ilevel=252",
     "Soulletting_Ruby_236": "soulletting_ruby,id=178809,ilevel=236",
-    "Tome_of_Insight_233": "tome_of_insight,id=186156,ilevel=233",
-    "Tome_of_Insight_220": "tome_of_insight,id=186156,ilevel=220",
     "Unbound_Changeling_All_252": "unbound_changeling,id=178708,ilevel=252",
     "Unbound_Changeling_All_236": "unbound_changeling,id=178708,ilevel=236",
     "Unbound_Changeling_Mastery_252": "unbound_changeling,id=178708,ilevel=252",

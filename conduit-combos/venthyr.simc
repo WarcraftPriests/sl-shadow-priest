@@ -4,7 +4,7 @@ role=spell
 position=back
 spec=shadow
 covenant=venthyr
-talents=${talents.mindbender}
+talents=${talents}
 
 default_actions=1
 
