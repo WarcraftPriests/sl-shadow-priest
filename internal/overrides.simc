@@ -1,19 +1,2 @@
 
 # # Overrides are added below here
-# Spheres Harmony
-override.spell_data=effect.890239.base_value=3
-# Shadow Word: Manipulation
-override.spell_data=effect.891259.base_value=5
-# Devouring Plague
-override.spell_data=effect.832086.sp_coefficient=0.49036
-override.spell_data=effect.832087.sp_coefficient=0.40756
-# Dissonant Echoes
-override.spell_data=effect.871431.base_value=19
-# Titanic Ocular Gland
-override.spell_data=effect.888315.coefficient=0.578942
-# Tome of Monstrous Constructions
-override.spell_data=effect.891503.coefficient=7.820094
-# Tormented Insight
-override.spell_data=effect.890129.coefficient=1.832908
-# Ebonsoul Vise - Cant add tick changes with overrides (in raidbots as of 7/10/2021)
-override.spell_data=effect.888344.coefficient=11.18004

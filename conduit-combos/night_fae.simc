@@ -24,40 +24,25 @@ trinket1=soulletting_ruby,id=178809,bonus_id=6536/1540/6646,ilevel=252
 trinket2=forbidden_necromantic_tome,id=186421,ilevel=259
 main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 
-# HA (107), DE (115), MD (113), RS (114), FF (101), AAF (284)
+# HA (107), DE (115), MD (113), RS (114), FF (101)
 
 # 3 Conduit Combinations
 profileset."HA_DE_MD_3"+=soulbind=theotar_the_mad_duke,107:11/115:11/113:11
 profileset."HA_DE_RS_3"+=soulbind=theotar_the_mad_duke,107:11/115:11/114:11
 profileset."DE_MD_RS_3"+=soulbind=theotar_the_mad_duke,115:11/113:11/114:11
 profileset."HA_MD_RS_3"+=soulbind=theotar_the_mad_duke,107:11/113:11/114:11
-profileset."HA_DE_AAF_3"+=soulbind=theotar_the_mad_duke,107:11/115:11/284:11
-profileset."HA_MD_AAF_3"+=soulbind=theotar_the_mad_duke,107:11/113:11/284:11
-profileset."HA_RS_AAF_3"+=soulbind=theotar_the_mad_duke,107:11/114:11/284:11
-profileset."DE_MD_AAF_3"+=soulbind=theotar_the_mad_duke,115:11/113:11/284:11
-profileset."DE_RS_AAF_3"+=soulbind=theotar_the_mad_duke,115:11/114:11/284:11
-profileset."MD_RS_AAF_3"+=soulbind=theotar_the_mad_duke,113:11/114:11/284:11
 
 profileset."HA_RS_FF_3"+=soulbind=theotar_the_mad_duke,107:11/114:11/101:11
 profileset."DE_MD_FF_3"+=soulbind=theotar_the_mad_duke,115:11/113:11/101:11
 profileset."DE_RS_FF_3"+=soulbind=theotar_the_mad_duke,115:11/114:11/101:11
 profileset."MD_RS_FF_3"+=soulbind=theotar_the_mad_duke,113:11/114:11/101:11
 profileset."HA_DE_FF_3"+=soulbind=theotar_the_mad_duke,107:11/115:11/101:11
-profileset."HA_FF_AAF_3"+=soulbind=theotar_the_mad_duke,107:11/101:11/284:11
-profileset."DE_FF_AAF_3"+=soulbind=theotar_the_mad_duke,115:11/101:11/284:11
-profileset."MD_FF_AAF_3"+=soulbind=theotar_the_mad_duke,113:11/101:11/284:11
-profileset."RS_FF_AAF_3"+=soulbind=theotar_the_mad_duke,114:11/101:11/284:11
 
 # 2 Conduit Combinations
 profileset."HA_DE_2"+=soulbind=theotar_the_mad_duke,107:11/115:11
 profileset."HA_MD_2"+=soulbind=theotar_the_mad_duke,107:11/113:11
 profileset."HA_RS_2"+=soulbind=theotar_the_mad_duke,107:11/114:11
 profileset."HA_FF_2"+=soulbind=theotar_the_mad_duke,107:11/101:11
-profileset."HA_AAF_2"+=soulbind=theotar_the_mad_duke,107:11/284:11
-profileset."DE_AAF_2"+=soulbind=theotar_the_mad_duke,115:11/284:11
-profileset."RS_AAF_2"+=soulbind=theotar_the_mad_duke,114:11/284:11
-profileset."MD_AAF_2"+=soulbind=theotar_the_mad_duke,113:11/284:11
-profileset."FF_AAF_2"+=soulbind=theotar_the_mad_duke,101:11/284:11
 
 profileset."DE_MD_2"+=soulbind=theotar_the_mad_duke,115:11/113:11
 profileset."DE_RS_2"+=soulbind=theotar_the_mad_duke,115:11/114:11

@@ -24,19 +24,6 @@ trinket1=soulletting_ruby,id=178809,bonus_id=6536/1540/6646,ilevel=252
 trinket2=forbidden_necromantic_tome,id=186421,ilevel=259
 main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 
-# Generic Conduits
-profileset."Adaptive_Armor_Fragment_145"+=soulbind=theotar_the_mad_duke,284:1
-profileset."Adaptive_Armor_Fragment_158"+=soulbind=theotar_the_mad_duke,284:2
-profileset."Adaptive_Armor_Fragment_171"+=soulbind=theotar_the_mad_duke,284:3
-profileset."Adaptive_Armor_Fragment_184"+=soulbind=theotar_the_mad_duke,284:4
-profileset."Adaptive_Armor_Fragment_200"+=soulbind=theotar_the_mad_duke,284:5
-profileset."Adaptive_Armor_Fragment_213"+=soulbind=theotar_the_mad_duke,284:6
-profileset."Adaptive_Armor_Fragment_226"+=soulbind=theotar_the_mad_duke,284:7
-profileset."Adaptive_Armor_Fragment_239"+=soulbind=theotar_the_mad_duke,284:8
-profileset."Adaptive_Armor_Fragment_252"+=soulbind=theotar_the_mad_duke,284:9
-profileset."Adaptive_Armor_Fragment_265"+=soulbind=theotar_the_mad_duke,284:10
-profileset."Adaptive_Armor_Fragment_278"+=soulbind=theotar_the_mad_duke,284:11
-
 # Shadow Conduits
 profileset."Haunting_Apparitions_145"+=soulbind=theotar_the_mad_duke,107:1
 profileset."Haunting_Apparitions_158"+=soulbind=theotar_the_mad_duke,107:2
