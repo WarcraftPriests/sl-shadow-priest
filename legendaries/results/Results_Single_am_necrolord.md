@@ -1,17 +1,17 @@
 # Single - am - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pallid_Command|8944|10.61%|
-|Shadowflame_Prism_Rabid_Shadows_11_Mindbender|8775|8.52%|
-|Talbadars_Stratagem|8662|7.13%|
-|Shadowflame_Prism_Mindbender|8563|5.90%|
-|Eternal_Call_to_the_Void|8494|5.04%|
-|Shadowflame_Prism|8398|3.86%|
-|Shadowflame_Prism_Rabid_Shadows_11|8373|3.55%|
-|Painbreaker_Psalm|8230|1.77%|
-|Echo_of_Eonar|8217|1.62%|
-|Judgment_of_the_Arbiter|8204|1.45%|
-|Base|8086|0.00%|
-|Sephuzs_Proclamation|8086|0.00%|
-|Third_Eye_of_the_Jailer|8085|-0.01%|
-|Twins_of_the_Sun_Priestess_Conduit_11|8036|-0.62%|
+|Pallid_Command|8777|10.81%|
+|Shadowflame_Prism_Rabid_Shadows_11_Mindbender|8612|8.73%|
+|Talbadars_Stratagem|8492|7.21%|
+|Shadowflame_Prism_Mindbender|8399|6.04%|
+|Eternal_Call_to_the_Void|8319|5.03%|
+|Shadowflame_Prism|8235|3.97%|
+|Shadowflame_Prism_Rabid_Shadows_11|8214|3.70%|
+|Painbreaker_Psalm|8060|1.76%|
+|Echo_of_Eonar|8047|1.60%|
+|Judgment_of_the_Arbiter|8034|1.44%|
+|Third_Eye_of_the_Jailer|7924|0.04%|
+|Base|7921|0.00%|
+|Sephuzs_Proclamation|7920|0.00%|
+|Twins_of_the_Sun_Priestess_Conduit_11|7871|-0.62%|
