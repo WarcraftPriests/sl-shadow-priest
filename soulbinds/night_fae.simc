@@ -36,6 +36,7 @@ profileset."Niya-GI_NTP_BH-${conduits.first.name}_${conduits.second.name}_${cond
 # Niya's Tools: Burrs - 320659
 # Bonded Hearts (requires Grove Invigoration) - 352503
 profileset."Niya-GI_NTB_BH-${conduits.first.name}_${conduits.second.name}"+=soulbind=niya,${conduits.first.id}:11/${conduits.second.id}:11/322721/320659/352503
+profileset."Niya-GI_NTB_BH-${conduits.first.name}_RS"+=soulbind=niya,${conduits.first.id}:11/rabid_shadows:11/322721/320659/352503
 
 # Dreamweaver
 # 3 conduit setup
@@ -48,6 +49,7 @@ profileset."Dreamweaver-FoB_DrD-${conduits.first.name}_${conduits.second.name}_$
 # Social Butterfly - 319210
 # Dream Delver - 352786
 profileset."Dreamweaver-FoB_SB_DrD-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/319191/319210/352786
+profileset."Dreamweaver-FoB_SB_DrD-${conduits.first.name}_RS"+=soulbind=dreamweaver,${conduits.first.id}:11/rabid_shadows:11/319191/319210/352786
 
 # Korayn
 # 3 conduit setup
@@ -59,3 +61,4 @@ profileset."Korayn-WHT_WHS-${conduits.first.name}_${conduits.second.name}_${cond
 # Wild Hunt Tactics - 325066
 # First Strike - 325069
 profileset."Korayn-WHT_FS_WHS-${conduits.first.name}_${conduits.second.name}"+=soulbind=korayn,${conduits.first.id}:11/${conduits.second.id}:11/325066/325069/352805
+profileset."Korayn-WHT_FS_WHS-${conduits.first.name}_RS"+=soulbind=korayn,${conduits.first.id}:11/rabid_shadows:11/325066/325069/352805

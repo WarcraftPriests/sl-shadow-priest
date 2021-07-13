@@ -75,6 +75,7 @@ profileset."Kleia-VS_PoC_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.se
 profileset."Kleia-VS_PoC_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:11/${conduits.second.id}:11/329778/351491/329791/351488
 profileset."Kleia-VS_PoC_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Kleia-VS_PoC_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7728
+profileset."Kleia-VS_PoC_SotA_LtP-${conduits.first.name}_RS"+=soulbind=kleia,${conduits.first.id}:11/rabid_shadows:11/329778/351491/329791/351488=7162=7728
 
 # Forgelite Prime Mikanikos
 # 3 conduit setup
@@ -108,3 +109,4 @@ profileset."Forgelite-BCtA_HoG_SoS_EAA-Talbadars-${conduits.first.name}_${condui
 profileset."Forgelite-BCtA_HoG_SoS_EAA-Spheres-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/333950/333935/352186/352188
 profileset."Forgelite-BCtA_HoG_SoS_EAA-Spheres-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Forgelite-BCtA_HoG_SoS_EAA-Spheres-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7728
+profileset."Forgelite-BCtA_HoG_SoS_EAA-${conduits.first.name}_RS"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:11/rabid_shadows:11/333950/333935/352186/352188

@@ -61,6 +61,8 @@ profileset."Marileth-VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.nam
 # Kevin's Oozeling - 352110
 profileset."Marileth-PPS_VS_Crit_KO-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=crit
 profileset."Marileth-PPS_VS_Crit_KO-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074/323090/352110
+profileset."Marileth-PPS_VS_Crit_KO-${conduits.first.name}_RS"+=shadowlands.volatile_solvent_type=crit
+profileset."Marileth-PPS_VS_Crit_KO-${conduits.first.name}_RS"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/rabid_shadows:11/323074/323090/352110
 profileset."Marileth-PPS_VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=crit
 profileset."Marileth-PPS_VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074/323090/352110
 profileset."Marileth-PPS_VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
@@ -68,6 +70,8 @@ profileset."Marileth-PPS_VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.
 
 profileset."Marileth-PPS_VS_Mastery_KO-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=mastery
 profileset."Marileth-PPS_VS_Mastery_KO-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074/323090/352110
+profileset."Marileth-PPS_VS_Mastery_KO-${conduits.first.name}_RS"+=shadowlands.volatile_solvent_type=mastery
+profileset."Marileth-PPS_VS_Mastery_KO-${conduits.first.name}_RS"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/rabid_shadows:11/323074/323090/352110
 profileset."Marileth-PPS_VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=mastery
 profileset."Marileth-PPS_VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074/323090/352110
 profileset."Marileth-PPS_VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
@@ -75,6 +79,8 @@ profileset."Marileth-PPS_VS_Mastery_KO-PC-${conduits.first.name}_${conduits.seco
 
 profileset."Marileth-PPS_VS_Intellect_KO-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=primary
 profileset."Marileth-PPS_VS_Intellect_KO-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074/323090/352110
+profileset."Marileth-PPS_VS_Intellect_KO-${conduits.first.name}_RS"+=shadowlands.volatile_solvent_type=primary
+profileset."Marileth-PPS_VS_Intellect_KO-${conduits.first.name}_RS"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/rabid_shadows:11/323074/323090/352110
 profileset."Marileth-PPS_VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=primary
 profileset."Marileth-PPS_VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074/323090/352110
 profileset."Marileth-PPS_VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
@@ -82,6 +88,8 @@ profileset."Marileth-PPS_VS_Intellect_KO-PC-${conduits.first.name}_${conduits.se
 
 profileset."Marileth-PPS_VS_Magic_KO-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=magic
 profileset."Marileth-PPS_VS_Magic_KO-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074/323090/352110
+profileset."Marileth-PPS_VS_Magic_KO-${conduits.first.name}_RS"+=shadowlands.volatile_solvent_type=magic
+profileset."Marileth-PPS_VS_Magic_KO-${conduits.first.name}_RS"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/rabid_shadows:11/323074/323090/352110
 profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=magic
 profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074/323090/352110
 profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
@@ -100,6 +108,7 @@ profileset."Emeni-LbE-PC-${conduits.first.name}_${conduits.second.name}_${condui
 # Lead by Example - 342156
 # Gnashing Chompers - 323919
 profileset."Emeni-LbE_GC-${conduits.first.name}_${conduits.second.name}"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/342156/323919
+profileset."Emeni-LbE_GC-${conduits.first.name}_RS"+=soulbind=emeni,${conduits.first.id}:11/rabid_shadows:11/342156/323919
 profileset."Emeni-LbE_GC-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/342156/323919
 profileset."Emeni-LbE_GC-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Emeni-LbE_GC-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
@@ -117,6 +126,7 @@ profileset."Bonesmith-FR_CE_ME-PC-${conduits.first.name}_${conduits.second.name}
 # 2 conduit setup
 # Serrated Spaulders - 326504
 profileset."Bonesmith-FR_SS_CE_ME-${conduits.first.name}_${conduits.second.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326504/326514/350899/350936
+profileset."Bonesmith-FR_SS_CE_ME-${conduits.first.name}_RS"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/rabid_shadows:11/326504/326514/350899/350936
 profileset."Bonesmith-FR_SS_CE_ME-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326504/326514/350899/350936
 profileset."Bonesmith-FR_SS_CE_ME-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Bonesmith-FR_SS_CE_ME-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
@@ -124,6 +134,7 @@ profileset."Bonesmith-FR_SS_CE_ME-PC-${conduits.first.name}_${conduits.second.na
 # 2 conduit setup
 # Heirmir's Arsenal: Marrowed Gemstone - 326572
 profileset."Bonesmith-FR_HAMG_CE_ME-${conduits.first.name}_${conduits.second.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326572/326514/350899/350936
+profileset."Bonesmith-FR_HAMG_CE_ME-${conduits.first.name}_RS"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/rabid_shadows:11/326572/326514/350899/350936
 profileset."Bonesmith-FR_HAMG_CE_ME-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326572/326514/350899/350936
 profileset."Bonesmith-FR_HAMG_CE_ME-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Bonesmith-FR_HAMG_CE_ME-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
