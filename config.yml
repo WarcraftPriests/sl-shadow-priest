@@ -241,6 +241,19 @@ sims:
       - DPS
     files:
       - racials.simc
+  shards-of-domination:
+    description: "Sims all Domination Shards and their corresponding Set Bonuses"
+    builds: true
+    weights: false
+    covenant:
+      lookup: false
+      files: false
+    legendary: true
+    lookupType: spell
+    steps:
+      - DPS
+    files:
+      - shards.simc
   soulbind-traits:
     description: "Individual sims for each soulbind trait + covenant ability from base. Can subtract covenant only effect to see just that increase."
     builds: true

@@ -208,24 +208,44 @@ consumables = {
     "Steak_a_la_Mode": 172051,
     "Shadowcore_Oil": 171285,
     "7_Intellect": 168638,
-    "6_Intellect": 153709,
+    "6_Intellect": 153709
+}
+
+shards_of_domination = {
     "Shard_of_Cor": 187063,
     "Ominous_Shard_of_Cor": 187287,
     "Desolate_Shard_of_Cor": 187296,
     "Foreboding_Shard_of_Cor": 187305,
     "Portentous_Shard_of_Cor": 187315,
+    "Frost_Set-Winds_of_Winter": 355735,
+    "Ominous_Frost_Set-Winds_of_Winter": 355735,
+    "Desolate_Frost_Set-Winds_of_Winter": 355735,
+    "Foreboding_Frost_Set-Winds_of_Winter": 355735,
     "Portentous_Frost_Set-Winds_of_Winter": 355735,
     "Shard_of_Dyz": 187073,
     "Ominous_Shard_of_Dyz": 187290,
     "Desolate_Shard_of_Dyz": 187299,
-    "Foreboding_Shard_of_Dyz": 187308,
-    "Portentous_Shard_of_Dyz": 187318,
+    "Foreboding_Shard_of_Zed": 187308,
+    "Portentous_Shard_of_Zed": 187318,
+    "Shard_of_Zed": 187079,
+    "Ominous_Shard_of_Zed": 187292,
+    "Desolate_Shard_of_Zed": 187301,
+    "Foreboding_Shard_of_Dyz": 187310,
+    "Portentous_Shard_of_Dyz": 187320,
+    "Unholy_Set-Chaos_Bane": 355829,
+    "Ominous_Unholy_Set-Chaos_Bane": 355829,
+    "Desolate_Unholy_Set-Chaos_Bane": 355829,
+    "Foreboding_Unholy_Set-Chaos_Bane": 355829,
     "Portentous_Unholy_Set-Chaos_Bane": 355829,
     "Shard_of_Bek": 187057,
     "Ominous_Shard_of_Bek": 187284,
     "Desolate_Shard_of_Bek": 187293,
     "Foreboding_Shard_of_Bek": 187302,
     "Portentous_Shard_of_Bek": 187312,
+    "Blood_Set-Blood_Link": 355804,
+    "Ominous_Blood_Set-Blood_Link": 355804,
+    "Desolate_Blood_Set-Blood_Link": 355804,
+    "Foreboding_Blood_Set-Blood_Link": 355804,
     "Portentous_Blood_Set-Blood_Link": 355804
 }
 
@@ -294,6 +314,8 @@ soulbind_traits = {
 def find_ids(key):
     # pylint: disable=too-many-return-statements
     """return the matching dict"""
+    if key == "shards-of-domination":
+        return shards_of_domination
     if key == 'racials':
         return racials
     if key == 'enchants':
