@@ -8,14 +8,14 @@ talents=${talents}
 
 default_actions=1
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=${legendary.id}
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
-shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
+shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187318
 back=drape_of_twisted_loyalties,id=180123,ilevel=252
-chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats
-wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130,enchant=eternal_intellect
+chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats,gem_id=187319
+wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130/187315,enchant=eternal_intellect
 hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252
-waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130
+waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130/187312
 legs=muehzalas_hexthread_sarong,id=179351,bonus_id=7187/1540,ilevel=252
 feet=sandals_of_sacred_symmetry,id=186354,ilevel=252
 finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_of_mastery

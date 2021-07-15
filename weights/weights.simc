@@ -7,14 +7,14 @@ talents=${talents}
 
 default_actions=1
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=${legendary.id}
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
-shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
+shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187318
 back=drape_of_twisted_loyalties,id=180123,ilevel=252
-chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats
-wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130,enchant=eternal_intellect
+chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats,gem_id=187319
+wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130/187315,enchant=eternal_intellect
 hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252
-waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130
+waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130/187312
 legs=muehzalas_hexthread_sarong,id=179351,bonus_id=7187/1540,ilevel=252
 feet=sandals_of_sacred_symmetry,id=186354,ilevel=252
 finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
@@ -25,46 +25,46 @@ main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 
 copy="Venthyr_Talbadars_Stratagem","Base"
 covenant=venthyr
-soulbind=nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
+soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/331586
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7162
 
 copy="Venthyr_Shadowflame_Prism_Mindbender","Base"
 covenant=venthyr
-soulbind=nadjia_the_mistblade,${conduits.first.id}:7/${conduits.second.id}:7/331586
+soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/331586
 talents=${talents.mindbender}
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=6982
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
 
 copy="Kyrian_Talbadars_Stratagem","Base"
 covenant=kyrian
-soulbind=pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328257/328266
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
+soulbind=pelagos,${conduits.first.id}:11/${conduits.second.id}:11/328257/328266
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7162
 
 copy="Kyrian_Shadowflame_Prism_Mindbender","Base"
 covenant=kyrian
-soulbind=pelagos,${conduits.first.id}:7/${conduits.second.id}:7/328257/328266
+soulbind=pelagos,${conduits.first.id}:11/${conduits.second.id}:11/328257/328266
 talents=${talents.mindbender}
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=6982
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
 
 copy="Night_Fae_Talbadars_Stratagem","Base"
 covenant=night_fae
-soulbind=dreamweaver,${conduits.first.id}:7/${conduits.second.id}:7/319191
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
+soulbind=dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/319191
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7162
 
 copy="Night_Fae_Shadowflame_Prism_Mindbender","Base"
 covenant=night_fae
-soulbind=dreamweaver,${conduits.first.id}:7/${conduits.second.id}:7/319191
+soulbind=dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/319191
 talents=${talents.mindbender}
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=6982
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
 
 copy="Necrolord_Talbadars_Stratagem","Base"
 covenant=necrolord
-soulbind=emeni,${conduits.first.id}:7/${conduits.second.id}:7/342156
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
+soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/342156
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7162
 
 copy="Necrolord_Shadowflame_Prism_Mindbender","Base"
 covenant=necrolord
-soulbind=emeni,${conduits.first.id}:7/${conduits.second.id}:7/342156
+soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/342156
 talents=${talents.mindbender}
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=6982
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
 
 single_actor_batch=1

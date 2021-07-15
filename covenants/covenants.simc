@@ -7,14 +7,14 @@ talents=${talents}
 
 default_actions=1
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=${legendary.id}
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
-shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
+shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187318
 back=drape_of_twisted_loyalties,id=180123,ilevel=252
-chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats
-wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130,enchant=eternal_intellect
+chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats,gem_id=187319
+wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130/187315,enchant=eternal_intellect
 hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252
-waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130
+waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130/187312
 legs=muehzalas_hexthread_sarong,id=179351,bonus_id=7187/1540,ilevel=252
 feet=sandals_of_sacred_symmetry,id=186354,ilevel=252
 finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
@@ -39,11 +39,11 @@ profileset."Kyrian_Pelagos"+=soulbind=pelagos,${conduits.first.id}:11/${conduits
 profileset."Kyrian_Pelagos_Talbadars"+=covenant=kyrian
 profileset."Kyrian_Pelagos_Talbadars"+=soulbind=soulbind=pelagos,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/328266/351146/351149
 profileset."Kyrian_Pelagos_Talbadars"+=talents=${talents.void_torrent}
-profileset."Kyrian_Pelagos_Talbadars"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
+profileset."Kyrian_Pelagos_Talbadars"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7162
 profileset."Kyrian_Pelagos_SH"+=covenant=kyrian
 profileset."Kyrian_Pelagos_SH"+=soulbind=soulbind=pelagos,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/328266/351146/351149
 profileset."Kyrian_Pelagos_SH"+=talents=${talents.void_torrent}
-profileset."Kyrian_Pelagos_SH"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7728
+profileset."Kyrian_Pelagos_SH"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7728
 # Soulbind: Kleia - Kleia-VS_PC_SotA_LtP-HA_DE
 profileset."Kyrian_Kleia"+=covenant=kyrian
 profileset."Kyrian_Kleia"+=soulbind=kleia,${conduits.first.id}:11/${conduits.second.id}:11/329778/351491/329791/351488
@@ -56,11 +56,11 @@ profileset."Kyrian_Forgelite_HoG"+=soulbind=forgelite_prime_mikanikos,${conduits
 profileset."Kyrian_Forgelite_Talbadars"+=covenant=kyrian
 profileset."Kyrian_Forgelite_Talbadars"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/333950/352186/352188
 profileset."Kyrian_Forgelite_Talbadars"+=talents=${talents.void_torrent}
-profileset."Kyrian_Forgelite_Talbadars"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
+profileset."Kyrian_Forgelite_Talbadars"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7162
 profileset."Kyrian_Forgelite_SH"+=covenant=kyrian
 profileset."Kyrian_Forgelite_SH"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/333950/352186/352188
 profileset."Kyrian_Forgelite_SH"+=talents=${talents.void_torrent}
-profileset."Kyrian_Forgelite_SH"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7728
+profileset."Kyrian_Forgelite_SH"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7728
 
 # Soulbind: Marileth - Marileth-VS_Mastery_KO-HA_DE_RS
 profileset."Necrolord_Marileth_Mastery"+=shadowlands.volatile_solvent_type=mastery
@@ -70,18 +70,18 @@ profileset."Necrolord_Marileth_Mastery_PC"+=shadowlands.volatile_solvent_type=ma
 profileset."Necrolord_Marileth_Mastery_PC"+=covenant=necrolord
 profileset."Necrolord_Marileth_Mastery_PC"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11/323074/352110
 profileset."Necrolord_Marileth_Mastery_PC"+=talents=${talents.void_torrent}
-profileset."Necrolord_Marileth_Mastery_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Necrolord_Marileth_Mastery_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 # Soulbind: Emeni - Emeni-LbE-HA_DE_RS
 profileset."Necrolord_Emeni"+=covenant=necrolord
 profileset."Necrolord_Emeni"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/342156
 profileset."Necrolord_Emeni_PC"+=covenant=necrolord
 profileset."Necrolord_Emeni_PC"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11/342156
 profileset."Necrolord_Emeni_PC"+=talents=${talents.void_torrent}
-profileset."Necrolord_Emeni_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Necrolord_Emeni_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 profileset."Necrolord_Emeni_GC_PC"+=covenant=necrolord
 profileset."Necrolord_Emeni_GC_PC"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/342156/323919
 profileset."Necrolord_Emeni_GC_PC"+=talents=${talents.void_torrent}
-profileset."Necrolord_Emeni_GC_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Necrolord_Emeni_GC_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 # Soulbind: Bonesmith Heirmir - Bonesmith-FR_CE_ME-HA_DE_RS + Bonesmith-FR_HAMG_CE_ME-HA_DE
 profileset."Necrolord_Bonesmith"+=covenant=necrolord
 profileset."Necrolord_Bonesmith"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/326514/350899/350936
@@ -90,11 +90,11 @@ profileset."Necrolord_Bonesmith_HAMG"+=soulbind=bonesmith_heirmir,${conduits.fir
 profileset."Necrolord_Bonesmith_PC"+=covenant=necrolord
 profileset."Necrolord_Bonesmith_PC"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11/326514/350899/350936
 profileset."Necrolord_Bonesmith_PC"+=talents=${talents.void_torrent}
-profileset."Necrolord_Bonesmith_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Necrolord_Bonesmith_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 profileset."Necrolord_Bonesmith_HAMG_PC"+=covenant=necrolord
 profileset."Necrolord_Bonesmith_HAMG_PC"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326572/326514/350899/350936
 profileset."Necrolord_Bonesmith_HAMG_PC"+=talents=${talents.void_torrent}
-profileset."Necrolord_Bonesmith_HAMG_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Necrolord_Bonesmith_HAMG_PC"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
 # Soulbind: Niya - Niya-GI_NTP_BH-HA_DE_RS
 profileset."Night_Fae_Niya"+=covenant=night_fae
@@ -114,7 +114,7 @@ profileset."Night_Fae_Korayn_FS"+=soulbind=korayn,${conduits.first.id}:11/${cond
 profileset."Venthyr_Nadjia"+=covenant=venthyr
 profileset."Venthyr_Nadjia"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/331586/352373
 profileset."Venthyr_Nadjia_SWM-SP"+=talents=${talents.void_torrent}
-profileset."Venthyr_Nadjia_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Venthyr_Nadjia_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Venthyr_Nadjia_SWM-SP"+=covenant=venthyr
 profileset."Venthyr_Nadjia_SWM-SP"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/331586/352373
 # Soulbind: Theotar - Theotar-SS_Party_Favor_Haste-HA_DE_RS
@@ -122,7 +122,7 @@ profileset."Venthyr_Theotar_Intellect"+=covenant=venthyr
 profileset."Venthyr_Theotar_Intellect"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
 profileset."Venthyr_Theotar_Intellect"+=shadowlands.party_favor_type=primary
 profileset."Venthyr_Theotar_Intellect_SWM-SP"+=talents=${talents.void_torrent}
-profileset."Venthyr_Theotar_Intellect_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Venthyr_Theotar_Intellect_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Venthyr_Theotar_Intellect_SWM-SP"+=covenant=venthyr
 profileset."Venthyr_Theotar_Intellect_SWM-SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239/351750
 profileset."Venthyr_Theotar_Intellect_SWM-SP"+=shadowlands.party_favor_type=primary
@@ -130,7 +130,7 @@ profileset."Venthyr_Theotar_Haste"+=covenant=venthyr
 profileset."Venthyr_Theotar_Haste"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
 profileset."Venthyr_Theotar_Haste"+=shadowlands.party_favor_type=haste
 profileset."Venthyr_Theotar_Haste_SWM-SP"+=talents=${talents.void_torrent}
-profileset."Venthyr_Theotar_Haste_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Venthyr_Theotar_Haste_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Venthyr_Theotar_Haste_SWM-SP"+=covenant=venthyr
 profileset."Venthyr_Theotar_Haste_SWM-SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239/351750
 profileset."Venthyr_Theotar_Haste_SWM-SP"+=shadowlands.party_favor_type=haste
@@ -138,7 +138,7 @@ profileset."Venthyr_Theotar_Crit"+=covenant=venthyr
 profileset."Venthyr_Theotar_Crit"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
 profileset."Venthyr_Theotar_Crit"+=shadowlands.party_favor_type=crit
 profileset."Venthyr_Theotar_Crit_SWM-SP"+=talents=${talents.void_torrent}
-profileset."Venthyr_Theotar_Crit_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Venthyr_Theotar_Crit_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Venthyr_Theotar_Crit_SWM-SP"+=covenant=venthyr
 profileset."Venthyr_Theotar_Crit_SWM-SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239/351750
 profileset."Venthyr_Theotar_Crit_SWM-SP"+=shadowlands.party_favor_type=crit
@@ -146,21 +146,21 @@ profileset."Venthyr_Theotar_Vers"+=covenant=venthyr
 profileset."Venthyr_Theotar_Vers"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
 profileset."Venthyr_Theotar_Vers"+=shadowlands.party_favor_type=versatility
 profileset."Venthyr_Theotar_Vers_SWM-SP"+=talents=${talents.void_torrent}
-profileset."Venthyr_Theotar_Vers_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Venthyr_Theotar_Vers_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Venthyr_Theotar_Vers_SWM-SP"+=covenant=venthyr
 profileset."Venthyr_Theotar_Vers_SWM-SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239/351750
 profileset."Venthyr_Theotar_Vers_SWM-SP"+=shadowlands.party_favor_type=versatility
 profileset."Venthyr_Theotar"+=covenant=venthyr
 profileset."Venthyr_Theotar"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239
 profileset."Venthyr_Theotar_SWM-SP"+=talents=${talents.void_torrent}
-profileset."Venthyr_Theotar_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Venthyr_Theotar_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Venthyr_Theotar_SWM-SP"+=covenant=venthyr
 profileset."Venthyr_Theotar_SWM-SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239
 profileset."Venthyr_Theotar_Haste_no_SS"+=covenant=venthyr
 profileset."Venthyr_Theotar_Haste_no_SS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/351750
 profileset."Venthyr_Theotar_Haste_no_SS"+=shadowlands.party_favor_type=haste
 profileset."Venthyr_Theotar_Haste_no_SS_SWM-SP"+=talents=${talents.void_torrent}
-profileset."Venthyr_Theotar_Haste_no_SS_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Venthyr_Theotar_Haste_no_SS_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Venthyr_Theotar_Haste_no_SS_SWM-SP"+=covenant=venthyr
 profileset."Venthyr_Theotar_Haste_no_SS_SWM-SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/351750
 profileset."Venthyr_Theotar_Haste_no_SS_SWM-SP"+=shadowlands.party_favor_type=haste
@@ -168,12 +168,12 @@ profileset."Venthyr_Theotar_Haste_no_SS_SWM-SP"+=shadowlands.party_favor_type=ha
 profileset."Venthyr_Draven"+=covenant=venthyr
 profileset."Venthyr_Draven"+=soulbind=general_draven,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/352417
 profileset."Venthyr_Draven_SWM-SP"+=talents=${talents.void_torrent}
-profileset."Venthyr_Draven_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Venthyr_Draven_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Venthyr_Draven_SWM-SP"+=covenant=venthyr
 profileset."Venthyr_Draven_SWM-SP"+=soulbind=general_draven,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/352417
 profileset."Venthyr_Draven_BfW"+=covenant=venthyr
 profileset."Venthyr_Draven_BfW"+=soulbind=general_draven,${conduits.first.id}:11/${conduits.second.id}:11/319973/352417
 profileset."Venthyr_Draven_BfW_SWM-SP"+=talents=${talents.void_torrent}
-profileset."Venthyr_Draven_BfW_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Venthyr_Draven_BfW_SWM-SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Venthyr_Draven_BfW_SWM-SP"+=covenant=venthyr
 profileset."Venthyr_Draven_BfW_SWM-SP"+=soulbind=general_draven,${conduits.first.id}:11/${conduits.second.id}:11/319973/352417

@@ -8,14 +8,14 @@ covenant=venthyr
 
 default_actions=1
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=${legendary.id}
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
-shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
+shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187318
 back=drape_of_twisted_loyalties,id=180123,ilevel=252
-chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats
-wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130,enchant=eternal_intellect
+chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats,gem_id=187319
+wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130/187315,enchant=eternal_intellect
 hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252
-waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130
+waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130/187312
 legs=muehzalas_hexthread_sarong,id=179351,bonus_id=7187/1540,ilevel=252
 feet=sandals_of_sacred_symmetry,id=186354,ilevel=252
 finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
@@ -30,10 +30,10 @@ main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 # Fatal Flaw (requires Thrill Seeker) - 352373 (TODO: Add crit/vers?)
 profileset."Nadjia-TS_FaFl-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/331586/352373
 profileset."Nadjia-TS_FaFl-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Nadjia-TS_FaFl-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Nadjia-TS_FaFl-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Nadjia-TS_FaFl-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/331586/352373
 profileset."Nadjia-TS_FaFl-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=talents=${talents.void_torrent}
-profileset."Nadjia-TS_FaFl-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Nadjia-TS_FaFl-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Nadjia-TS_FaFl-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/331586/352373
 
 # 2 conduit setup
@@ -43,13 +43,13 @@ profileset."Nadjia-TS_FaFl-SWM-${conduits.first.name}_${conduits.second.name}_SP
 profileset."Nadjia-TS_EP_FaFl-${conduits.first.name}_${conduits.second.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/331586/331580/352373
 profileset."Nadjia-TS_EP_FaFl-${conduits.first.name}_RS"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/rabid_shadows:11/331586/331580/352373
 profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_${conduits.second.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/331586/331580/352373
 profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_SP"+=talents=${talents.void_torrent}
-profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_SP"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/shattered_perceptions:11/331586/331580/352373
 profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_RS"+=talents=${talents.void_torrent}
-profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_RS"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_RS"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_RS"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/rabid_shadows:11/331586/331580/352373
 
 # 2 conduit setup
@@ -59,13 +59,13 @@ profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_RS"+=soulbind=nadjia_th
 profileset."Nadjia-TS_DD_FaFl-${conduits.first.name}_${conduits.second.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/331586/331584/352373
 profileset."Nadjia-TS_DD_FaFl-${conduits.first.name}_RS"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/rabid_shadows:11/331586/331584/352373
 profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_${conduits.second.name}"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/${conduits.second.id}:11/331586/331584/352373
 profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_SP"+=talents=${talents.void_torrent}
-profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_SP"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/shattered_perceptions:11/331586/331584/352373
 profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_RS"+=talents=${talents.void_torrent}
-profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_RS"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_RS"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_RS"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/rabid_shadows:11/331586/331584/352373
 
 # Theotar
@@ -74,53 +74,53 @@ profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_RS"+=soulbind=nadjia_th
 # Party Favors - 351750
 profileset."Theotar-SS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239
 profileset."Theotar-SS-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Theotar-SS-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239
 profileset."Theotar-SS-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=talents=${talents.void_torrent}
-profileset."Theotar-SS-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239
 
 profileset."Theotar-SS_PF_Intellect-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
 profileset."Theotar-SS_PF_Intellect-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.party_favors_type=primary
 profileset."Theotar-SS_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
 profileset."Theotar-SS_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.party_favors_type=primary
 profileset."Theotar-SS_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239/351750
 profileset."Theotar-SS_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=shadowlands.party_favors_type=primary
 
 profileset."Theotar-SS_PF_Haste-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
 profileset."Theotar-SS_PF_Haste-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.party_favors_type=haste
 profileset."Theotar-SS_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
 profileset."Theotar-SS_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.party_favors_type=conduits
 profileset."Theotar-SS_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239/351750
 profileset."Theotar-SS_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=shadowlands.party_favors_type=conduits
 
 profileset."Theotar-SS_PF_Crit-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
 profileset."Theotar-SS_PF_Crit-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.party_favors_type=crit
 profileset."Theotar-SS_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
 profileset."Theotar-SS_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.party_favors_type=crit
 profileset."Theotar-SS_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239/351750
 profileset."Theotar-SS_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=shadowlands.party_favors_type=crit
 
 profileset."Theotar-SS_PF_Versatility-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
 profileset."Theotar-SS_PF_Versatility-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.party_favors_type=versatility
 profileset."Theotar-SS_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
 profileset."Theotar-SS_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.party_favors_type=versatility
 profileset."Theotar-SS_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239/351750
 profileset."Theotar-SS_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=shadowlands.party_favors_type=versatility
 
@@ -131,10 +131,10 @@ profileset."Theotar-SS_PF_Versatility-SWM-${conduits.first.name}_${conduits.seco
 profileset."Theotar-SS_WP-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239
 profileset."Theotar-SS_WP-${conduits.first.name}_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/rabid_shadows:11/319983/336239
 profileset."Theotar-SS_WP-SWM-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_WP-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_WP-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_WP-SWM-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239
 profileset."Theotar-SS_WP-SWM-${conduits.first.name}_SP"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_WP-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_WP-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_WP-SWM-${conduits.first.name}_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/shattered_perceptions:11/319983/336239
 
 profileset."Theotar-SS_WP_PF_Intellect-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239/351750
@@ -142,11 +142,11 @@ profileset."Theotar-SS_WP_PF_Intellect-${conduits.first.name}_${conduits.second.
 profileset."Theotar-SS_WP_PF_Intellect-${conduits.first.name}_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/rabid_shadows:11/319983/336239/351750
 profileset."Theotar-SS_WP_PF_Intellect-${conduits.first.name}_RS"+=shadowlands.party_favors_type=primary
 profileset."Theotar-SS_WP_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_WP_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_WP_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_WP_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239/351750
 profileset."Theotar-SS_WP_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favors_type=primary
 profileset."Theotar-SS_WP_PF_Intellect-SWM-${conduits.first.name}_SP"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_WP_PF_Intellect-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_WP_PF_Intellect-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_WP_PF_Intellect-SWM-${conduits.first.name}_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/shattered_perceptions:11/319983/336239/351750
 profileset."Theotar-SS_WP_PF_Intellect-SWM-${conduits.first.name}_SP"+=shadowlands.party_favors_type=primary
 
@@ -155,11 +155,11 @@ profileset."Theotar-SS_WP_PF_Haste-${conduits.first.name}_${conduits.second.name
 profileset."Theotar-SS_WP_PF_Haste-${conduits.first.name}_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/rabid_shadows:11/319983/336239/351750
 profileset."Theotar-SS_WP_PF_Haste-${conduits.first.name}_RS"+=shadowlands.party_favors_type=haste
 profileset."Theotar-SS_WP_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_WP_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_WP_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_WP_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239/351750
 profileset."Theotar-SS_WP_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favors_type=haste
 profileset."Theotar-SS_WP_PF_Haste-SWM-${conduits.first.name}_SP"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_WP_PF_Haste-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_WP_PF_Haste-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_WP_PF_Haste-SWM-${conduits.first.name}_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/shattered_perceptions:11/319983/336239/351750
 profileset."Theotar-SS_WP_PF_Haste-SWM-${conduits.first.name}_SP"+=shadowlands.party_favors_type=haste
 
@@ -168,11 +168,11 @@ profileset."Theotar-SS_WP_PF_Crit-${conduits.first.name}_${conduits.second.name}
 profileset."Theotar-SS_WP_PF_Crit-${conduits.first.name}_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/rabid_shadows:11/319983/336239/351750
 profileset."Theotar-SS_WP_PF_Crit-${conduits.first.name}_RS"+=shadowlands.party_favors_type=crit
 profileset."Theotar-SS_WP_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_WP_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_WP_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_WP_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239/351750
 profileset."Theotar-SS_WP_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favors_type=crit
 profileset."Theotar-SS_WP_PF_Crit-SWM-${conduits.first.name}_SP"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_WP_PF_Crit-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_WP_PF_Crit-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_WP_PF_Crit-SWM-${conduits.first.name}_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/shattered_perceptions:11/319983/336239/351750
 profileset."Theotar-SS_WP_PF_Crit-SWM-${conduits.first.name}_SP"+=shadowlands.party_favors_type=crit
 
@@ -181,11 +181,11 @@ profileset."Theotar-SS_WP_PF_Versatility-${conduits.first.name}_${conduits.secon
 profileset."Theotar-SS_WP_PF_Versatility-${conduits.first.name}_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/rabid_shadows:11/319983/336239/351750
 profileset."Theotar-SS_WP_PF_Versatility-${conduits.first.name}_RS"+=shadowlands.party_favors_type=versatility
 profileset."Theotar-SS_WP_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_WP_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_WP_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_WP_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/319983/336239/351750
 profileset."Theotar-SS_WP_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favors_type=versatility
 profileset."Theotar-SS_WP_PF_Versatility-SWM-${conduits.first.name}_SP"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_WP_PF_Versatility-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_WP_PF_Versatility-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_WP_PF_Versatility-SWM-${conduits.first.name}_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/shattered_perceptions:11/319983/336239/351750
 profileset."Theotar-SS_WP_PF_Versatility-SWM-${conduits.first.name}_SP"+=shadowlands.party_favors_type=versatility
 
@@ -196,10 +196,10 @@ profileset."Theotar-SS_WP_PF_Versatility-SWM-${conduits.first.name}_SP"+=shadowl
 profileset."Theotar-SS_RP-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243
 profileset."Theotar-SS_RP-${conduits.first.name}_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/rabid_shadows:11/336239/336243
 profileset."Theotar-SS_RP-SWM-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_RP-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_RP-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_RP-SWM-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243
 profileset."Theotar-SS_RP-SWM-${conduits.first.name}_SP"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_RP-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_RP-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_RP-SWM-${conduits.first.name}_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/shattered_perceptions:11/336239/336243
 
 profileset."Theotar-SS_RP_PF_Intellect-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243/351750
@@ -207,11 +207,11 @@ profileset."Theotar-SS_RP_PF_Intellect-${conduits.first.name}_${conduits.second.
 profileset."Theotar-SS_RP_PF_Intellect-${conduits.first.name}_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/rabid_shadows:11/336239/336243/351750
 profileset."Theotar-SS_RP_PF_Intellect-${conduits.first.name}_RS"+=shadowlands.party_favors_type=primary
 profileset."Theotar-SS_RP_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_RP_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_RP_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_RP_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243/351750
 profileset."Theotar-SS_RP_PF_Intellect-SWM-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favors_type=primary
 profileset."Theotar-SS_RP_PF_Intellect-SWM-${conduits.first.name}_SP"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_RP_PF_Intellect-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_RP_PF_Intellect-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_RP_PF_Intellect-SWM-${conduits.first.name}_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/shattered_perceptions:11/336239/336243/351750
 profileset."Theotar-SS_RP_PF_Intellect-SWM-${conduits.first.name}_SP"+=shadowlands.party_favors_type=primary
 
@@ -220,11 +220,11 @@ profileset."Theotar-SS_RP_PF_Haste-${conduits.first.name}_${conduits.second.name
 profileset."Theotar-SS_RP_PF_Haste-${conduits.first.name}_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/rabid_shadows:11/336239/336243/351750
 profileset."Theotar-SS_RP_PF_Haste-${conduits.first.name}_RS"+=shadowlands.party_favors_type=haste
 profileset."Theotar-SS_RP_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_RP_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_RP_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_RP_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243/351750
 profileset."Theotar-SS_RP_PF_Haste-SWM-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favors_type=haste
 profileset."Theotar-SS_RP_PF_Haste-SWM-${conduits.first.name}_SP"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_RP_PF_Haste-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_RP_PF_Haste-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_RP_PF_Haste-SWM-${conduits.first.name}_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/shattered_perceptions:11/336239/336243/351750
 profileset."Theotar-SS_RP_PF_Haste-SWM-${conduits.first.name}_SP"+=shadowlands.party_favors_type=haste
 
@@ -233,11 +233,11 @@ profileset."Theotar-SS_RP_PF_Crit-${conduits.first.name}_${conduits.second.name}
 profileset."Theotar-SS_RP_PF_Crit-${conduits.first.name}_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/rabid_shadows:11/336239/336243/351750
 profileset."Theotar-SS_RP_PF_Crit-${conduits.first.name}_RS"+=shadowlands.party_favors_type=crit
 profileset."Theotar-SS_RP_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_RP_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_RP_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_RP_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243/351750
 profileset."Theotar-SS_RP_PF_Crit-SWM-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favors_type=crit
 profileset."Theotar-SS_RP_PF_Crit-SWM-${conduits.first.name}_SP"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_RP_PF_Crit-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_RP_PF_Crit-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_RP_PF_Crit-SWM-${conduits.first.name}_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/shattered_perceptions:11/336239/336243/351750
 profileset."Theotar-SS_RP_PF_Crit-SWM-${conduits.first.name}_SP"+=shadowlands.party_favors_type=crit
 
@@ -246,11 +246,11 @@ profileset."Theotar-SS_RP_PF_Versatility-${conduits.first.name}_${conduits.secon
 profileset."Theotar-SS_RP_PF_Versatility-${conduits.first.name}_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/rabid_shadows:11/336239/336243/351750
 profileset."Theotar-SS_RP_PF_Versatility-${conduits.first.name}_RS"+=shadowlands.party_favors_type=versatility
 profileset."Theotar-SS_RP_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_RP_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_RP_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_RP_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/336239/336243/351750
 profileset."Theotar-SS_RP_PF_Versatility-SWM-${conduits.first.name}_${conduits.second.name}"+=shadowlands.party_favors_type=versatility
 profileset."Theotar-SS_RP_PF_Versatility-SWM-${conduits.first.name}_SP"+=talents=${talents.void_torrent}
-profileset."Theotar-SS_RP_PF_Versatility-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Theotar-SS_RP_PF_Versatility-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Theotar-SS_RP_PF_Versatility-SWM-${conduits.first.name}_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/shattered_perceptions:11/336239/336243/351750
 profileset."Theotar-SS_RP_PF_Versatility-SWM-${conduits.first.name}_SP"+=shadowlands.party_favors_type=versatility
 
@@ -259,10 +259,10 @@ profileset."Theotar-SS_RP_PF_Versatility-SWM-${conduits.first.name}_SP"+=shadowl
 # Battlefield Presence - 352417 (TODO: add options?)
 profileset."Draven-BP-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=general_draven,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/352417
 profileset."Draven-BP-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Draven-BP-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Draven-BP-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Draven-BP-SWM-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=general_draven,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/352417
 profileset."Draven-BP-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=talents=${talents.void_torrent}
-profileset."Draven-BP-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Draven-BP-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Draven-BP-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=soulbind=general_draven,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/352417
 
 # 2 conduit setup
@@ -271,8 +271,8 @@ profileset."Draven-BP-SWM-${conduits.first.name}_${conduits.second.name}_SP"+=so
 profileset."Draven-BfW_BP-${conduits.first.name}_${conduits.second.name}"+=soulbind=general_draven,${conduits.first.id}:11/${conduits.second.id}:11/319973/352417
 profileset."Draven-BfW_BP-${conduits.first.name}_RS"+=soulbind=general_draven,${conduits.first.id}:11/rabid_shadows:11/319973/352417
 profileset."Draven-BfW_BP-SWM-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Draven-BfW_BP-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Draven-BfW_BP-SWM-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Draven-BfW_BP-SWM-${conduits.first.name}_${conduits.second.name}"+=soulbind=general_draven,${conduits.first.id}:11/${conduits.second.id}:11/319973/352417
 profileset."Draven-BfW_BP-SWM-${conduits.first.name}_SP"+=talents=${talents.void_torrent}
-profileset."Draven-BfW_BP-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7704
+profileset."Draven-BfW_BP-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Draven-BfW_BP-SWM-${conduits.first.name}_SP"+=soulbind=general_draven,${conduits.first.id}:11/shattered_perceptions:11/319973/352417

@@ -8,14 +8,14 @@ covenant=necrolord
 
 default_actions=1
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=${legendary.id}
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=${legendary.id}
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
-shoulders=frame_of_the_false_margrave,id=186324,ilevel=259
+shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187318
 back=drape_of_twisted_loyalties,id=180123,ilevel=252
-chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats
-wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130,enchant=eternal_intellect
+chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats,gem_id=187319
+wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130/187315,enchant=eternal_intellect
 hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252
-waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130
+waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130/187312
 legs=muehzalas_hexthread_sarong,id=179351,bonus_id=7187/1540,ilevel=252
 feet=sandals_of_sacred_symmetry,id=186354,ilevel=252
 finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
@@ -33,28 +33,28 @@ profileset."Marileth-VS_Crit_KO-${conduits.first.name}_${conduits.second.name}_$
 profileset."Marileth-VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=crit
 profileset."Marileth-VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/323074/352110
 profileset."Marileth-VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Marileth-VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
 profileset."Marileth-VS_Mastery_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=mastery
 profileset."Marileth-VS_Mastery_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/323074/352110
 profileset."Marileth-VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=mastery
 profileset."Marileth-VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/323074/352110
 profileset."Marileth-VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Marileth-VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
 profileset."Marileth-VS_Intellect_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=primary
 profileset."Marileth-VS_Intellect_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/323074/352110
 profileset."Marileth-VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=primary
 profileset."Marileth-VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/323074/352110
 profileset."Marileth-VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Marileth-VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
 profileset."Marileth-VS_Magic_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=magic
 profileset."Marileth-VS_Magic_KO-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/323074/352110
 profileset."Marileth-VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=magic
 profileset."Marileth-VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/323074/352110
 profileset."Marileth-VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Marileth-VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
 # 2 conduit setup
 # Plaguey's Preemptive Strike - 323090
@@ -66,7 +66,7 @@ profileset."Marileth-PPS_VS_Crit_KO-${conduits.first.name}_RS"+=soulbind=plague_
 profileset."Marileth-PPS_VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=crit
 profileset."Marileth-PPS_VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074/323090/352110
 profileset."Marileth-PPS_VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-PPS_VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Marileth-PPS_VS_Crit_KO-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
 profileset."Marileth-PPS_VS_Mastery_KO-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=mastery
 profileset."Marileth-PPS_VS_Mastery_KO-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074/323090/352110
@@ -75,7 +75,7 @@ profileset."Marileth-PPS_VS_Mastery_KO-${conduits.first.name}_RS"+=soulbind=plag
 profileset."Marileth-PPS_VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=mastery
 profileset."Marileth-PPS_VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074/323090/352110
 profileset."Marileth-PPS_VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-PPS_VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Marileth-PPS_VS_Mastery_KO-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
 profileset."Marileth-PPS_VS_Intellect_KO-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=primary
 profileset."Marileth-PPS_VS_Intellect_KO-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074/323090/352110
@@ -84,7 +84,7 @@ profileset."Marileth-PPS_VS_Intellect_KO-${conduits.first.name}_RS"+=soulbind=pl
 profileset."Marileth-PPS_VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=primary
 profileset."Marileth-PPS_VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074/323090/352110
 profileset."Marileth-PPS_VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-PPS_VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Marileth-PPS_VS_Intellect_KO-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
 profileset."Marileth-PPS_VS_Magic_KO-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=magic
 profileset."Marileth-PPS_VS_Magic_KO-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074/323090/352110
@@ -93,7 +93,7 @@ profileset."Marileth-PPS_VS_Magic_KO-${conduits.first.name}_RS"+=soulbind=plague
 profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}"+=shadowlands.volatile_solvent_type=magic
 profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/323074/323090/352110
 profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
 
 # Emeni
@@ -102,7 +102,7 @@ profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second
 profileset."Emeni-LbE-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/342156
 profileset."Emeni-LbE-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/342156
 profileset."Emeni-LbE-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Emeni-LbE-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Emeni-LbE-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
 # 2 conduit setup
 # Lead by Example - 342156
@@ -111,7 +111,7 @@ profileset."Emeni-LbE_GC-${conduits.first.name}_${conduits.second.name}"+=soulbi
 profileset."Emeni-LbE_GC-${conduits.first.name}_RS"+=soulbind=emeni,${conduits.first.id}:11/rabid_shadows:11/342156/323919
 profileset."Emeni-LbE_GC-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/342156/323919
 profileset."Emeni-LbE_GC-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Emeni-LbE_GC-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Emeni-LbE_GC-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
 # Bonesmith Heirmir
 # 3 conduit setup
@@ -121,7 +121,7 @@ profileset."Emeni-LbE_GC-PC-${conduits.first.name}_${conduits.second.name}"+=hea
 profileset."Bonesmith-FR_CE_ME-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/326514/350899/350936
 profileset."Bonesmith-FR_CE_ME-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/326514/350899/350936
 profileset."Bonesmith-FR_CE_ME-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Bonesmith-FR_CE_ME-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Bonesmith-FR_CE_ME-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
 # 2 conduit setup
 # Serrated Spaulders - 326504
@@ -129,7 +129,7 @@ profileset."Bonesmith-FR_SS_CE_ME-${conduits.first.name}_${conduits.second.name}
 profileset."Bonesmith-FR_SS_CE_ME-${conduits.first.name}_RS"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/rabid_shadows:11/326504/326514/350899/350936
 profileset."Bonesmith-FR_SS_CE_ME-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326504/326514/350899/350936
 profileset."Bonesmith-FR_SS_CE_ME-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Bonesmith-FR_SS_CE_ME-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Bonesmith-FR_SS_CE_ME-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
 # 2 conduit setup
 # Heirmir's Arsenal: Marrowed Gemstone - 326572
@@ -137,7 +137,7 @@ profileset."Bonesmith-FR_HAMG_CE_ME-${conduits.first.name}_${conduits.second.nam
 profileset."Bonesmith-FR_HAMG_CE_ME-${conduits.first.name}_RS"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/rabid_shadows:11/326572/326514/350899/350936
 profileset."Bonesmith-FR_HAMG_CE_ME-PC-${conduits.first.name}_${conduits.second.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326572/326514/350899/350936
 profileset."Bonesmith-FR_HAMG_CE_ME-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Bonesmith-FR_HAMG_CE_ME-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Bonesmith-FR_HAMG_CE_ME-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
 # 1 conduit setup
 # Serrated Spaulders - 326504
@@ -145,4 +145,4 @@ profileset."Bonesmith-FR_HAMG_CE_ME-PC-${conduits.first.name}_${conduits.second.
 profileset."Bonesmith-FR_SS_HAMG_CE_ME-${conduits.first.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/326504/326572/326514/350899/350936
 profileset."Bonesmith-FR_SS_HAMG_CE_ME-PC-${conduits.first.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/326504/326572/326514/350899/350936
 profileset."Bonesmith-FR_SS_HAMG_CE_ME-PC-${conduits.first.name}"+=talents=${talents.void_torrent}
-profileset."Bonesmith-FR_SS_HAMG_CE_ME-PC-${conduits.first.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7729
+profileset."Bonesmith-FR_SS_HAMG_CE_ME-PC-${conduits.first.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
