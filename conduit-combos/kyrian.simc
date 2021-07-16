@@ -4,11 +4,12 @@ role=spell
 position=back
 spec=shadow
 covenant=kyrian
-talents=${talents}
+talents=${talents.void_torrent}
 
 default_actions=1
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=${legendary.id}
+# Talbadar's
+head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7162
 neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
 shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187318
 back=drape_of_twisted_loyalties,id=180123,ilevel=252

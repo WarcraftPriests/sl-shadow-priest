@@ -172,6 +172,11 @@ def shadowflame_active(sim_type):
     return config["legendary"][sim_type] == "6982" and config["sims"][args.dir[:-1]]["legendary"]
 
 
+def talents_override(data):
+    """determines if there are talent overrides in the original data"""
+    return "${talents.mindbender}" in data or "${talents.void_torrent}" in data
+
+
 def build_profiles(talent_string, covenant_string):
     # pylint: disable=R0912, too-many-locals, too-many-statements, line-too-long, too-many-nested-blocks, simplifiable-if-statement
     """build combination list e.g. pw_sa_1"""
@@ -196,6 +201,7 @@ def build_profiles(talent_string, covenant_string):
         with open("{0}{1}".format(args.dir, sim_file), 'r') as file:
             data = file.read()
             file.close()
+        talents_are_overriden = talents_override(data)
         if args.dungeons:
             combinations = ["dungeons"]
         if talent_string:
@@ -246,7 +252,7 @@ def build_profiles(talent_string, covenant_string):
                     if shadowflame_active("single"):
                         sim_data = replace_talents(update_talents(
                             talents_expr, "mindbender"), sim_data)
-                    else:
+                    elif not talents_are_overriden:
                         sim_data = replace_talents(new_talents, sim_data)
                     sim_data = sim_data.replace(
                         "${legendary.id}", config["legendary"]["single"])
@@ -263,7 +269,7 @@ def build_profiles(talent_string, covenant_string):
                         if shadowflame_active("dungeons"):
                             sim_data = replace_talents(update_talents(
                                 talents_expr, "mindbender"), sim_data)
-                        else:
+                        elif not talents_are_overriden:
                             sim_data = replace_talents(talents_expr, sim_data)
                         sim_data = sim_data.replace(
                             "${legendary.id}", config["legendary"]["dungeons"])
@@ -279,7 +285,7 @@ def build_profiles(talent_string, covenant_string):
                         if shadowflame_active("composite"):
                             sim_data = replace_talents(update_talents(
                                 talents_expr, "mindbender"), sim_data)
-                        else:
+                        elif not talents_are_overriden:
                             sim_data = replace_talents(talents_expr, sim_data)
                         sim_data = sim_data.replace(
                             "${legendary.id}", config["legendary"]["composite"])

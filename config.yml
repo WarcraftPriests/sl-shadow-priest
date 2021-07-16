@@ -74,7 +74,7 @@ sims:
     covenant:
       lookup: true
       files: true
-    legendary: true
+    legendary: false
     lookupType: none
     steps:
       - DPS
@@ -90,7 +90,7 @@ sims:
     covenant:
       lookup: true
       files: true
-    legendary: true
+    legendary: false
     lookupType: spell
     steps:
       - 145
