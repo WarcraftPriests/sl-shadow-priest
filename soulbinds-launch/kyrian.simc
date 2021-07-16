@@ -75,9 +75,15 @@ profileset."Kleia-PoC_SotA-${conduits.first.name}_RS"+=soulbind=kleia,${conduits
 profileset."Kleia-PoC_SotA-Talbadars-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:8/${conduits.second.id}:8/329778/351488
 profileset."Kleia-PoC_SotA-Talbadars-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Kleia-PoC_SotA-Talbadars-${conduits.first.name}_${conduits.second.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
+profileset."Kleia-PoC_SotA-Talbadars-${conduits.first.name}_CA"+=soulbind=kleia,${conduits.first.id}:8/courageous_ascension:8/329778/351488
+profileset."Kleia-PoC_SotA-Talbadars-${conduits.first.name}_CA"+=talents=${talents.void_torrent}
+profileset."Kleia-PoC_SotA-Talbadars-${conduits.first.name}_CA"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
 profileset."Kleia-PoC_SotA-Spheres-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:8/${conduits.second.id}:8/329778/351488
 profileset."Kleia-PoC_SotA-Spheres-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Kleia-PoC_SotA-Spheres-${conduits.first.name}_${conduits.second.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7728
+profileset."Kleia-PoC_SotA-Spheres-${conduits.first.name}_CA"+=soulbind=kleia,${conduits.first.id}:8/courageous_ascension:8/329778/351488
+profileset."Kleia-PoC_SotA-Spheres-${conduits.first.name}_CA"+=talents=${talents.void_torrent}
+profileset."Kleia-PoC_SotA-Spheres-${conduits.first.name}_CA"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7728
 
 # Forgelite Prime Mikanikos
 # 3 conduit setup
@@ -108,6 +114,12 @@ profileset."Forgelite-BCtA_HoG_SoS-${conduits.first.name}_CA"+=soulbind=forgelit
 profileset."Forgelite-BCtA_HoG_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/333950/333935/352186
 profileset."Forgelite-BCtA_HoG_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Forgelite-BCtA_HoG_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
+profileset."Forgelite-BCtA_HoG_SoS-Talbadars-${conduits.first.name}_CA"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/courageous_ascension:8/333950/333935/352186
+profileset."Forgelite-BCtA_HoG_SoS-Talbadars-${conduits.first.name}_CA"+=talents=${talents.void_torrent}
+profileset."Forgelite-BCtA_HoG_SoS-Talbadars-${conduits.first.name}_CA"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7162
 profileset."Forgelite-BCtA_HoG_SoS-Spheres-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/333950/333935/352186
 profileset."Forgelite-BCtA_HoG_SoS-Spheres-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Forgelite-BCtA_HoG_SoS-Spheres-${conduits.first.name}_${conduits.second.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7728
+profileset."Forgelite-BCtA_HoG_SoS-Spheres-${conduits.first.name}_CA"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:8/${conduits.second.id}:8/333950/333935/352186
+profileset."Forgelite-BCtA_HoG_SoS-Spheres-${conduits.first.name}_CA"+=talents=${talents.void_torrent}
+profileset."Forgelite-BCtA_HoG_SoS-Spheres-${conduits.first.name}_CA"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7728

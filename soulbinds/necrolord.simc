@@ -95,7 +95,6 @@ profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second
 profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Marileth-PPS_VS_Magic_KO-PC-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
-
 # Emeni
 # 3 conduit setup
 # Lead by Example - 342156

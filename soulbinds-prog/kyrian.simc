@@ -8,14 +8,14 @@ talents=${talents}
 
 default_actions=1
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=${legendary.id}
+head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=${legendary.id}
 neck=interplanar_keystone,id=186379,ilevel=246,gem_id=173130
-shoulders=frame_of_the_false_margrave,id=186324,ilevel=246
+shoulders=frame_of_the_false_margrave,id=186324,ilevel=246,gem_id=187318
 back=drape_of_twisted_loyalties,id=180123,ilevel=239
-chest=sacrificers_sacramental_cassock,id=186282,ilevel=239,enchant=eternal_stats
-wrists=desecrators_keening_wristwraps,id=186321,ilevel=246,enchant=eternal_intellect
+chest=sacrificers_sacramental_cassock,id=186282,ilevel=239,enchant=eternal_stats,gem_id=187319
+wrists=desecrators_keening_wristwraps,id=186321,ilevel=246,enchant=eternal_intellect,gem_id=173130/187315
 hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=239
-waist=sash_of_duplicitous_magics,id=186322,ilevel=246
+waist=sash_of_duplicitous_magics,id=186322,ilevel=246,gem_id=173130/187312
 legs=muehzalas_hexthread_sarong,id=179351,bonus_id=7187/1540,ilevel=239
 feet=sandals_of_sacred_symmetry,id=186354,ilevel=239
 finger1=sworn_oath_of_the_nine,id=186290,ilevel=239,gem_id=173130,enchant=tenet_of_mastery
@@ -31,16 +31,21 @@ main_hand=maledict_opus,id=186406,ilevel=246,enchant=sinful_revelation
 # 3 conduit setup
 # Combat Meditation - 328266
 # Better Together - 351146
-# Newfound Resolve - 351149
 # shadowlands.combat_meditation_extend_chance = 0.5
 profileset."Pelagos-CM_BT-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=pelagos,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/328266/351146
 profileset."Pelagos-CM_BT-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=pelagos,${conduits.first.id}:9/${conduits.second.id}:9/courageous_ascension:9/328266/351146
 profileset."Pelagos-CM_BT-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=pelagos,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/328266/351146
 profileset."Pelagos-CM_BT-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Pelagos-CM_BT-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7162
+profileset."Pelagos-CM_BT-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7162
 profileset."Pelagos-CM_BT-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=pelagos,${conduits.first.id}:9/${conduits.second.id}:9/courageous_ascension:9/328266/351146
 profileset."Pelagos-CM_BT-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
-profileset."Pelagos-CM_BT-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7162
+profileset."Pelagos-CM_BT-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7162
+profileset."Pelagos-CM_BT-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=pelagos,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/328266/351146
+profileset."Pelagos-CM_BT-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
+profileset."Pelagos-CM_BT-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7728
+profileset."Pelagos-CM_BT-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=pelagos,${conduits.first.id}:9/${conduits.second.id}:9/courageous_ascension:9/328266/351146
+profileset."Pelagos-CM_BT-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
+profileset."Pelagos-CM_BT-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7728
 
 # Kleia
 # 3 conduit setup
@@ -51,18 +56,28 @@ profileset."Kleia-VS_SotA_LtP-${conduits.first.name}_${conduits.second.name}_${c
 profileset."Kleia-VS_SotA_LtP-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=kleia,${conduits.first.id}:9/${conduits.second.id}:9/courageous_ascension:9/351491/329791/351488
 profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=kleia,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/351491/329791/351488
 profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=716
+profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7162
 profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=kleia,${conduits.first.id}:9/${conduits.second.id}:9/courageous_ascension:9/351491/329791/351488
 profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
-profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7162
+profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7162
+profileset."Kleia-VS_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=kleia,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/351491/329791/351488
+profileset."Kleia-VS_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
+profileset."Kleia-VS_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7728
+profileset."Kleia-VS_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=kleia,${conduits.first.id}:9/${conduits.second.id}:9/courageous_ascension:9/351491/329791/351488
+profileset."Kleia-VS_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
+profileset."Kleia-VS_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7728
 
 # 2 conduit setup
 # Pointed Courage - 329778
-# shadowlands.pointed_courage_nearby = 5
+# shadowlands.pointed_courage_nearby = 3
 profileset."Kleia-VS_PoC_SotA_LtP-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:9/${conduits.second.id}:9/329778/351491/329791/351488
 profileset."Kleia-VS_PoC_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:9/${conduits.second.id}:9/329778/351491/329791/351488
 profileset."Kleia-VS_PoC_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Kleia-VS_PoC_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7162
+profileset."Kleia-VS_PoC_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7162
+profileset."Kleia-VS_PoC_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:9/${conduits.second.id}:9/329778/351491/329791/351488
+profileset."Kleia-VS_PoC_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
+profileset."Kleia-VS_PoC_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7728
+profileset."Kleia-VS_PoC_SotA_LtP-${conduits.first.name}_RS"+=soulbind=kleia,${conduits.first.id}:9/rabid_shadows:9/329778/351491/329791/351488=7162=7728
 
 # Forgelite Prime Mikanikos
 # 3 conduit setup
@@ -72,10 +87,16 @@ profileset."Forgelite-BCtA_SoS-${conduits.first.name}_${conduits.second.name}_${
 profileset."Forgelite-BCtA_SoS-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:9/${conduits.second.id}:9/courageous_ascension:9/333950/352186
 profileset."Forgelite-BCtA_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/333950/352186
 profileset."Forgelite-BCtA_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Forgelite-BCtA_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7162
+profileset."Forgelite-BCtA_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7162
 profileset."Forgelite-BCtA_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:9/${conduits.second.id}:9/courageous_ascension:9/333950/352186
 profileset."Forgelite-BCtA_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
-profileset."Forgelite-BCtA_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7162
+profileset."Forgelite-BCtA_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7162
+profileset."Forgelite-BCtA_SoS-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/333950/352186
+profileset."Forgelite-BCtA_SoS-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
+profileset."Forgelite-BCtA_SoS-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7728
+profileset."Forgelite-BCtA_SoS-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:9/${conduits.second.id}:9/courageous_ascension:9/333950/352186
+profileset."Forgelite-BCtA_SoS-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
+profileset."Forgelite-BCtA_SoS-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7728
 
 # 2 conduit setup
 # Bron's Call to Action - 333950
@@ -84,4 +105,8 @@ profileset."Forgelite-BCtA_SoS-Talbadars-${conduits.first.name}_${conduits.secon
 profileset."Forgelite-BCtA_HoG_SoS-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:9/${conduits.second.id}:9/333950/333935/352186
 profileset."Forgelite-BCtA_HoG_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:9/${conduits.second.id}:9/333950/333935/352186
 profileset."Forgelite-BCtA_HoG_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
-profileset."Forgelite-BCtA_HoG_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130,bonus_id=7162
+profileset."Forgelite-BCtA_HoG_SoS-Talbadars-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7162
+profileset."Forgelite-BCtA_HoG_SoS-Spheres-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:9/${conduits.second.id}:9/333950/333935/352186
+profileset."Forgelite-BCtA_HoG_SoS-Spheres-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
+profileset."Forgelite-BCtA_HoG_SoS-Spheres-${conduits.first.name}_${conduits.second.name}"+=head=veil_of_the_banshee_queen,id=186325,ilevel=246,gem_id=173130/187320,bonus_id=7728
+profileset."Forgelite-BCtA_HoG_SoS-${conduits.first.name}_RS"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:9/rabid_shadows:9/333950/333935/352186

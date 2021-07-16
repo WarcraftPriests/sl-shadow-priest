@@ -48,9 +48,6 @@ profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_${conduits.second.name}
 profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_SP"+=talents=${talents.void_torrent}
 profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_SP"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/shattered_perceptions:11/331586/331580/352373
-profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_RS"+=talents=${talents.void_torrent}
-profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_RS"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
-profileset."Nadjia-TS_EP_FaFl-SWM-${conduits.first.name}_RS"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/rabid_shadows:11/331586/331580/352373
 
 # 2 conduit setup
 # Thrill Seeker - 331586
@@ -64,9 +61,6 @@ profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_${conduits.second.name}
 profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_SP"+=talents=${talents.void_torrent}
 profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_SP"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_SP"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/shattered_perceptions:11/331586/331584/352373
-profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_RS"+=talents=${talents.void_torrent}
-profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_RS"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
-profileset."Nadjia-TS_DD_FaFl-SWM-${conduits.first.name}_RS"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:11/rabid_shadows:11/331586/331584/352373
 
 # Theotar
 # 3 conduit setup
