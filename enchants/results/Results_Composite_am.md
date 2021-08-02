@@ -1,21 +1,21 @@
 # Composite - am
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Weapon_Celestial_Guidance|8649|2.14%|
-|Weapon_Sinful_Revelation|8640|2.03%|
-|Chest_Eternal_Insight|8584|1.37%|
-|Chest_Eternal_Stats|8577|1.29%|
-|Weapon_Lightless_Force|8566|1.16%|
-|Chest_Sacred_Stats|8540|0.85%|
+|Weapon_Celestial_Guidance|8649|2.13%|
+|Weapon_Sinful_Revelation|8641|2.03%|
+|Chest_Eternal_Insight|8585|1.37%|
+|Chest_Eternal_Stats|8576|1.27%|
+|Weapon_Lightless_Force|8567|1.16%|
 |Chest_Eternal_Bounds|8540|0.84%|
-|Ring_Tenet_of_Haste|8524|0.66%|
-|Ring_Tenet_of_Mastery|8507|0.46%|
+|Chest_Sacred_Stats|8539|0.83%|
+|Ring_Tenet_of_Haste|8519|0.60%|
+|Ring_Tenet_of_Mastery|8509|0.48%|
 |Ring_Bargain_of_Haste|8506|0.44%|
-|Ring_Tenet_of_Critical_Strike|8501|0.38%|
-|Ring_Bargain_of_Mastery|8498|0.35%|
-|Ring_Tenet_of_Versatility|8497|0.35%|
-|Ring_Bargain_of_Critical_Strike|8490|0.25%|
-|Ring_Bargain_of_Versatility|8490|0.25%|
-|Wrists_Illuminated_Soul|8469|0.01%|
-|Base|8468|0.00%|
-|Wrists_Eternal_Intellect|8466|-0.02%|
+|Ring_Tenet_of_Versatility|8498|0.35%|
+|Ring_Bargain_of_Mastery|8497|0.33%|
+|Ring_Tenet_of_Critical_Strike|8496|0.33%|
+|Ring_Bargain_of_Critical_Strike|8492|0.28%|
+|Ring_Bargain_of_Versatility|8491|0.26%|
+|Base|8469|0.00%|
+|Wrists_Illuminated_Soul|8468|-0.01%|
+|Wrists_Eternal_Intellect|8467|-0.02%|

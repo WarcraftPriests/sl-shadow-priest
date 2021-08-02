@@ -6,6 +6,7 @@ profiles/
 __pycache__/
 .idea/
 *.DS_Store
+internal/suite.csv
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
