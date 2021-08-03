@@ -73,14 +73,14 @@ profileset."Necrolord_Marileth_Mastery"+=covenant=necrolord
 profileset."Necrolord_Marileth_Mastery"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/323074
 profileset."Necrolord_Marileth_Mastery_PC"+=shadowlands.volatile_solvent_type=mastery
 profileset."Necrolord_Marileth_Mastery_PC"+=covenant=necrolord
-profileset."Necrolord_Marileth_Mastery_PC"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/323074
+profileset."Necrolord_Marileth_Mastery_PC"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/mind_devourer:8/323074
 profileset."Necrolord_Marileth_Mastery_PC"+=talents=${talents.void_torrent}
 profileset."Necrolord_Marileth_Mastery_PC"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
 # Soulbind: Emeni - Emeni-LbE-HA_DE_RS
 profileset."Necrolord_Emeni"+=covenant=necrolord
 profileset."Necrolord_Emeni"+=soulbind=emeni,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/342156
 profileset."Necrolord_Emeni_PC"+=covenant=necrolord
-profileset."Necrolord_Emeni_PC"+=soulbind=emeni,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/342156
+profileset."Necrolord_Emeni_PC"+=soulbind=emeni,${conduits.first.id}:8/${conduits.second.id}:8/mind_devourer:8/342156
 profileset."Necrolord_Emeni_PC"+=talents=${talents.void_torrent}
 profileset."Necrolord_Emeni_PC"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
 profileset."Necrolord_Emeni_GC_PC"+=covenant=necrolord
@@ -93,7 +93,7 @@ profileset."Necrolord_Bonesmith"+=soulbind=bonesmith_heirmir,${conduits.first.id
 profileset."Necrolord_Bonesmith_HAMG"+=covenant=necrolord
 profileset."Necrolord_Bonesmith_HAMG"+=soulbind=bonesmith_heirmir,${conduits.first.id}:8/${conduits.second.id}:8/326572/326514/350899
 profileset."Necrolord_Bonesmith_PC"+=covenant=necrolord
-profileset."Necrolord_Bonesmith_PC"+=soulbind=bonesmith_heirmir,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/326514/350899
+profileset."Necrolord_Bonesmith_PC"+=soulbind=bonesmith_heirmir,${conduits.first.id}:8/${conduits.second.id}:8/mind_devourer:8/326514/350899
 profileset."Necrolord_Bonesmith_PC"+=talents=${talents.void_torrent}
 profileset."Necrolord_Bonesmith_PC"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
 profileset."Necrolord_Bonesmith_HAMG_PC"+=covenant=necrolord

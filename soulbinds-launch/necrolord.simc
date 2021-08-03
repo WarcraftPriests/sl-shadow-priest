@@ -32,31 +32,31 @@ main_hand=sinbearers_absolution_staff,id=182392,ilevel=233,enchant=sinful_revela
 # 3 conduit setup
 profileset."Marileth-VS_Crit-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=crit
 profileset."Marileth-VS_Crit-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/323074
-profileset."Marileth-VS_Crit-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=crit
-profileset."Marileth-VS_Crit-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/323074
-profileset."Marileth-VS_Crit-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-VS_Crit-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
+profileset."Marileth-VS_Crit-PC-${conduits.first.name}_${conduits.second.name}_MD"+=shadowlands.volatile_solvent_type=crit
+profileset."Marileth-VS_Crit-PC-${conduits.first.name}_${conduits.second.name}_MD"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/mind_devourer:8/323074
+profileset."Marileth-VS_Crit-PC-${conduits.first.name}_${conduits.second.name}_MD"+=talents=${talents.void_torrent}
+profileset."Marileth-VS_Crit-PC-${conduits.first.name}_${conduits.second.name}_MD"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
 
 profileset."Marileth-VS_Mastery-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=mastery
 profileset."Marileth-VS_Mastery-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/323074
-profileset."Marileth-VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=mastery
-profileset."Marileth-VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/323074
-profileset."Marileth-VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
+profileset."Marileth-VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}_MD"+=shadowlands.volatile_solvent_type=mastery
+profileset."Marileth-VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}_MD"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/mind_devourer:8/323074
+profileset."Marileth-VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}_MD"+=talents=${talents.void_torrent}
+profileset."Marileth-VS_Mastery-PC-${conduits.first.name}_${conduits.second.name}_MD"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
 
 profileset."Marileth-VS_Intellect-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=primary
 profileset."Marileth-VS_Intellect-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/323074
-profileset."Marileth-VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=primary
-profileset."Marileth-VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/323074
-profileset."Marileth-VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
+profileset."Marileth-VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}_MD"+=shadowlands.volatile_solvent_type=primary
+profileset."Marileth-VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}_MD"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/mind_devourer:8/323074
+profileset."Marileth-VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}_MD"+=talents=${talents.void_torrent}
+profileset."Marileth-VS_Intellect-PC-${conduits.first.name}_${conduits.second.name}_MD"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
 
 profileset."Marileth-VS_Magic-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=magic
 profileset."Marileth-VS_Magic-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/323074
-profileset."Marileth-VS_Magic-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=shadowlands.volatile_solvent_type=magic
-profileset."Marileth-VS_Magic-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/323074
-profileset."Marileth-VS_Magic-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Marileth-VS_Magic-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
+profileset."Marileth-VS_Magic-PC-${conduits.first.name}_${conduits.second.name}_MD"+=shadowlands.volatile_solvent_type=magic
+profileset."Marileth-VS_Magic-PC-${conduits.first.name}_${conduits.second.name}_MD"+=soulbind=plague_deviser_marileth,${conduits.first.id}:8/${conduits.second.id}:8/mind_devourer:8/323074
+profileset."Marileth-VS_Magic-PC-${conduits.first.name}_${conduits.second.name}_MD"+=talents=${talents.void_torrent}
+profileset."Marileth-VS_Magic-PC-${conduits.first.name}_${conduits.second.name}_MD"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
 
 # 2 conduit setup
 # Plaguey's Preemptive Strike - 323090
@@ -100,9 +100,9 @@ profileset."Marileth-PPS_VS_Magic-PC-${conduits.first.name}_${conduits.second.na
 # 3 conduit setup
 # Lead by Example - 342156
 profileset."Emeni-LbE-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=emeni,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/342156
-profileset."Emeni-LbE-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=emeni,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/342156
-profileset."Emeni-LbE-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Emeni-LbE-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
+profileset."Emeni-LbE-PC-${conduits.first.name}_${conduits.second.name}_MD"+=soulbind=emeni,${conduits.first.id}:8/${conduits.second.id}:8/mind_devourer:8/342156
+profileset."Emeni-LbE-PC-${conduits.first.name}_${conduits.second.name}_MD"+=talents=${talents.void_torrent}
+profileset."Emeni-LbE-PC-${conduits.first.name}_${conduits.second.name}_MD"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
 
 # 2 conduit setup
 # Lead by Example - 342156
@@ -118,9 +118,9 @@ profileset."Emeni-LbE_GC-PC-${conduits.first.name}_${conduits.second.name}"+=hea
 # Forgeborne Reveries - 326514
 # Carver's Eye - 350899
 profileset."Bonesmith-FR_CE-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/326514/350899
-profileset."Bonesmith-FR_CE-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=bonesmith_heirmir,${conduits.first.id}:8/${conduits.second.id}:8/${conduits.third.id}:8/326514/350899
-profileset."Bonesmith-FR_CE-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
-profileset."Bonesmith-FR_CE-PC-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
+profileset."Bonesmith-FR_CE-PC-${conduits.first.name}_${conduits.second.name}_MD"+=soulbind=bonesmith_heirmir,${conduits.first.id}:8/${conduits.second.id}:8/mind_devourer:8/326514/350899
+profileset."Bonesmith-FR_CE-PC-${conduits.first.name}_${conduits.second.name}_MD"+=talents=${talents.void_torrent}
+profileset."Bonesmith-FR_CE-PC-${conduits.first.name}_${conduits.second.name}_MD"+=head=confidants_favored_cap,id=183021,ilevel=226,gem_id=173130,bonus_id=7729
 
 # 2 conduit setup
 # Serrated Spaulders - 326504

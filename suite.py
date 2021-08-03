@@ -29,6 +29,8 @@ def check_state(sim_dir, sim_type, output_file):
     with open(output_file, 'r') as file:
         sims = csv.reader(file, delimiter=',')
         for row in sims:
+            if len(row) == 0:
+                continue
             if row[0] == sim_dir and row[1] == sim_type:
                 return False
     return True
@@ -55,13 +57,14 @@ def main():
     for sim in config["sims"].keys():
         if sim in args.exclude:
             continue
-        print("Running sim suite for {0}".format(sim))
         sim_dir = ("{0}/").format(sim)
         if check_state(sim_dir, "composite", output_file):
+            print("Running sim suite for {0} - Composite".format(sim))
             call_process(["python", "profiles.py", sim_dir])
             call_process(["python", "sim.py", sim_dir])
             update_state(sim_dir, 'composite', output_file)
         if check_state(sim_dir, "dungeons", output_file):
+            print("Running sim suite for {0} - Dungeons".format(sim))
             call_process(["python", "profiles.py", sim_dir, "--dungeons"])
             call_process(["python", "sim.py", sim_dir, "--dungeons"])
             update_state(sim_dir, 'dungeons', output_file)

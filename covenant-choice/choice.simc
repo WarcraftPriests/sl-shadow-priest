@@ -108,7 +108,7 @@ profileset."Necrolord_1"+=soulbind=plague_deviser_marileth,${conduits.first.id}:
 
 profileset."Necrolord_2"+=covenant=necrolord
 profileset."Necrolord_2"+=shadowlands.volatile_solvent_type=mastery
-profileset."Necrolord_2"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/323074/352110
+profileset."Necrolord_2"+=soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11/323074/352110
 profileset."Necrolord_2"+=talents=${talents.void_torrent}
 profileset."Necrolord_2"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
@@ -129,7 +129,7 @@ profileset."Necrolord_5"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,ge
 profileset."Necrolord_5"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/342156
 
 profileset."Necrolord_6"+=covenant=necrolord
-profileset."Necrolord_6"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/342156
+profileset."Necrolord_6"+=soulbind=emeni,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11/342156
 profileset."Necrolord_6"+=talents=${talents.void_torrent}
 profileset."Necrolord_6"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
@@ -148,7 +148,7 @@ profileset."Necrolord_9"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,ge
 profileset."Necrolord_9"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/326514/350899/350936
 
 profileset."Necrolord_10"+=covenant=necrolord
-profileset."Necrolord_10"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/326514/350899/350936
+profileset."Necrolord_10"+=soulbind=bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11/326514/350899/350936
 profileset."Necrolord_10"+=talents=${talents.void_torrent}
 profileset."Necrolord_10"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 
