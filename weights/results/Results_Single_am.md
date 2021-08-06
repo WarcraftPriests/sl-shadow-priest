@@ -1,12 +1,13 @@
 # Single - am
 | Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Necrolord_Talbadars_Stratagem|6618|1.00|0.47|0.45|0.52|0.45|0.28|
-|Kyrian_Talbadars_Stratagem|6617|1.00|0.42|0.45|0.48|0.46|0.28|
-|Necrolord_Shadowflame_Prism_Mindbender|6571|1.00|0.52|0.46|0.53|0.46|0.28|
-|Night_Fae_Shadowflame_Prism_Mindbender|6508|1.00|0.44|0.45|0.53|0.45|0.29|
-|Venthyr_Shadowflame_Prism_Mindbender|6504|1.00|0.51|0.45|0.53|0.46|0.29|
-|Venthyr_Talbadars_Stratagem|6504|1.00|0.51|0.46|0.53|0.45|0.28|
-|Night_Fae_Talbadars_Stratagem|6485|1.00|0.45|0.45|0.53|0.45|0.29|
-|Kyrian_Shadowflame_Prism_Mindbender|6456|1.00|0.50|0.45|0.49|0.46|0.29|
-|Base|5444|1.00|0.47|0.46|0.52|0.46|0.34|
+|Necrolord_Shadowflame_Prism_Mindbender|10080|1.00|0.56|0.54|0.71|0.55|0.24|
+|Necrolord_Talbadars_Stratagem|10031|1.00|0.59|0.55|0.71|0.54|0.24|
+|Kyrian_Talbadars_Stratagem|9978|1.00|0.51|0.54|0.66|0.55|0.24|
+|Night_Fae_Shadowflame_Prism_Mindbender|9819|1.00|0.55|0.55|0.71|0.56|0.24|
+|Venthyr_Talbadars_Stratagem|9799|1.00|0.57|0.55|0.70|0.55|0.24|
+|Necrolord_Pallid_Command|9787|1.00|0.58|0.54|0.70|0.55|0.25|
+|Night_Fae_Talbadars_Stratagem|9786|1.00|0.54|0.55|0.71|0.55|0.24|
+|Venthyr_Shadowflame_Prism_Mindbender|9766|1.00|0.59|0.55|0.71|0.55|0.25|
+|Kyrian_Shadowflame_Prism_Mindbender|9764|1.00|0.51|0.55|0.67|0.55|0.25|
+|Base|8540|1.00|0.67|0.56|0.71|0.55|0.28|
