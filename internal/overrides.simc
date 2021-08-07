@@ -1,6 +1,2 @@
 
 # Overrides are added below here
-# Blood Link
-override.spell_data="effect.889131.coefficient=26.80944"
-# Winds of Winter
-override.spell_data="effect.889057.coefficient=10.79825"

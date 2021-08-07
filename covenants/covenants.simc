@@ -102,6 +102,9 @@ profileset."Night_Fae_Niya"+=soulbind=niya,${conduits.first.id}:11/${conduits.se
 # Soulbind: Dreamweaver - Dreamweaver-FoB_DD-HA_DE_RS
 profileset."Night_Fae_Dreamweaver"+=covenant=night_fae
 profileset."Night_Fae_Dreamweaver"+=soulbind=dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/319191/352786
+profileset."Night_Fae_Dreamweaver_80%_FoB"+=covenant=night_fae
+profileset."Night_Fae_Dreamweaver_80%_FoB"+=soulbind=dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/319191/352786
+profileset."Night_Fae_Dreamweaver_80%_FoB"+=shadowlands.field_of_blossoms_duration_multiplier=0.8
 profileset."Night_Fae_Dreamweaver_no_FoB"+=covenant=night_fae
 profileset."Night_Fae_Dreamweaver_no_FoB"+=soulbind=dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/352786
 # Soulbind: Korayn - Korayn-WHT_WHS-HA_DE_RS + Korayn-WHT_FS_WHS-HA_DE
