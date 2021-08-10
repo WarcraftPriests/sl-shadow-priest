@@ -162,15 +162,18 @@ profileset."Unchained_Gladiators_Insignia_of_Alacrity_240"+=trinket1=unchained_g
 profileset."Unchained_Gladiators_Insignia_of_Alacrity_246"+=trinket1=unchained_gladiators_insignia_of_alacrity,id=185278,ilevel=246
 
 # Ulduar Timewalking
-profileset."Energy_Siphon_200"+=trinket1=energy_siphon,id=156021,ilevel=200
-profileset."Eye_of_the_Broodmother_200"+=trinket1=eye_of_the_broodmother,id=156036,ilevel=200
-profileset."Living_Flame_200"+=trinket1=living_flame,id=155947,ilevel=200
-profileset."Elemental_Focus_Stone_200"+=trinket1=elemental_focus_stone,id=156288,ilevel=200
-profileset."Scale_of_Fates_200"+=trinket1=scale_of_fates,id=156187,ilevel=200
-profileset."Pandoras_Plea_200"+=trinket1=pandoras_plea,id=156207,ilevel=200
-profileset."Flare_of_the_Heavens_200"+=trinket1=flare_of_the_heavens,id=156230,ilevel=200
-profileset."Vanquished_Cluthes_of_Yogg_Saron_200"+=trinket1=vanquished_clutches_of_yogg_saron,id=156458,ilevel=200
+profileset."Energy_Siphon_226"+=trinket1=energy_siphon,id=156021,ilevel=226
+profileset."Eye_of_the_Broodmother_226"+=trinket1=eye_of_the_broodmother,id=156036,ilevel=226
+profileset."Living_Flame_226"+=trinket1=living_flame,id=155947,ilevel=226
+profileset."Elemental_Focus_Stone_226"+=trinket1=elemental_focus_stone,id=156288,ilevel=226
+profileset."Scale_of_Fates_226"+=trinket1=scale_of_fates,id=156187,ilevel=226
+profileset."Pandoras_Plea_226"+=trinket1=pandoras_plea,id=156207,ilevel=226
+profileset."Flare_of_the_Heavens_226"+=trinket1=flare_of_the_heavens,id=156230,ilevel=226
+profileset."Vanquished_Cluthes_of_Yogg_Saron_226"+=trinket1=vanquished_clutches_of_yogg_saron,id=156458,ilevel=226
 
 # Firelands Timewalking
-profileset."Necromantic_Focus_200"+=trinket1=necromantic_focus,id=171644,ilevel=200
-profileset."Variable_Pulse_Lightning_Capacitor_200"+=trinket1=variable_pulse_lightning_capacitor,id=171640,ilevel=200
+profileset."Necromantic_Focus_226"+=trinket1=necromantic_focus,id=171644,ilevel=226
+profileset."Variable_Pulse_Lightning_Capacitor_226"+=trinket1=variable_pulse_lightning_capacitor,id=171640,ilevel=226
+
+# Black Temple Timewalking
+profileset."The_Skull_of_Guldan_226"+=trinket1=the_skull_of_guldan,id=150522,ilevel=226
