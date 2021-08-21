@@ -1,18 +1,18 @@
 # Composite - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Shadowflame_Prism_Rabid_Shadows_11_Mindbender|10294|9.14%|
-|Shadow_Word_Manipulation_9_Shattered_Perceptions_11|10231|8.48%|
-|Shadow_Word_Manipulation_7|10158|7.70%|
-|Talbadars_Stratagem|10087|6.95%|
-|Shadowflame_Prism_Mindbender|10082|6.90%|
-|Eternal_Call_to_the_Void|9881|4.77%|
-|Shadowflame_Prism|9803|3.94%|
-|Shadowflame_Prism_Rabid_Shadows_11|9773|3.62%|
-|Painbreaker_Psalm|9676|2.60%|
-|Echo_of_Eonar|9589|1.67%|
-|Judgment_of_the_Arbiter|9549|1.25%|
-|Sephuzs_Proclamation|9448|0.18%|
-|Base|9431|0.00%|
-|Third_Eye_of_the_Jailer|9431|-0.01%|
-|Twins_of_the_Sun_Priestess_Conduit_11|9390|-0.43%|
+|Shadowflame_Prism_Rabid_Shadows_11_Mindbender|10292|8.89%|
+|Shadow_Word_Manipulation_9_Shattered_Perceptions_11|10250|8.44%|
+|Shadow_Word_Manipulation_7|10170|7.60%|
+|Talbadars_Stratagem|10105|6.91%|
+|Shadowflame_Prism_Mindbender|10081|6.66%|
+|Eternal_Call_to_the_Void|9900|4.74%|
+|Shadowflame_Prism|9810|3.79%|
+|Shadowflame_Prism_Rabid_Shadows_11|9787|3.55%|
+|Painbreaker_Psalm|9690|2.52%|
+|Echo_of_Eonar|9598|1.55%|
+|Judgment_of_the_Arbiter|9566|1.21%|
+|Sephuzs_Proclamation|9465|0.14%|
+|Base|9452|0.00%|
+|Third_Eye_of_the_Jailer|9448|-0.04%|
+|Twins_of_the_Sun_Priestess_Conduit_11|9407|-0.48%|
