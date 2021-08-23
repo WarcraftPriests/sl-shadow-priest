@@ -2,7 +2,7 @@
 import argparse
 import yaml
 
-with open("config.yml", "r") as ymlfile:
+with open("config.yml", "r", encoding="utf8") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 

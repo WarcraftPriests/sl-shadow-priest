@@ -117,7 +117,7 @@ def _download_simc_version(url, filepath):
     'Download the specific file'
     print(f"Retrieving simc from url '{url}' to '{filepath}'.")
     with requests.get(url, stream=True) as req:
-        with open(filepath, 'wb') as handler:
+        with open(filepath, 'wb', encoding="utf8") as handler:
             shutil.copyfileobj(req.raw, handler)
 
 

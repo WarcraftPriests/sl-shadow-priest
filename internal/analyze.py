@@ -13,7 +13,7 @@ from internal import utils
 from internal.weights import find_weights
 from internal.spell_ids import find_ids
 
-with open("config.yml", "r") as ymlfile:
+with open("config.yml", "r", encoding="utf8") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 
@@ -123,7 +123,7 @@ def build_markdown(sim_type, talent_string, results, weights, base_dps, covenant
     """converts result data into markdown files"""
     output_file = build_output_string(
         sim_type, talent_string, covenant_string, "md")
-    with open(output_file, 'w+') as results_md:
+    with open(output_file, 'w+', encoding="utf8") as results_md:
         if weights:
             results_md.write(
                 '# {0}\n| Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight '
@@ -160,7 +160,7 @@ def build_csv(sim_type, talent_string, results, weights, base_dps, covenant_stri
     """build csv from results dict"""
     output_file = build_output_string(
         sim_type, talent_string, covenant_string, "csv")
-    with open(output_file, 'w') as results_csv:
+    with open(output_file, 'w', encoding="utf8") as results_csv:
         if weights:
             results_csv.write(
                 'profile,actor,DPS,int,haste,crit,mastery,vers,dpsW,\n')
@@ -217,7 +217,7 @@ def lookup_item_id(item_name, directory):
     loop over them and search for the item name line by line
     """
     for sim_file in config["sims"][directory[:-1]]["files"]:
-        with open(sim_file, 'r') as file:
+        with open(sim_file, 'r', encoding="utf8") as file:
             for line in file:
                 if item_name in line:
                     # find ,id= -> take 2nd half ->
@@ -285,7 +285,7 @@ def build_json(sim_type, talent_string, results, directory, timestamp, covenant_
         chart_data["data"]["Base"] = {}
         chart_data["data"]["Base"]["DPS"] = int(round(results.get("Base"), 0))
     json_data = json.dumps(chart_data)
-    with open(output_file, 'w') as results_json:
+    with open(output_file, 'w', encoding="utf8") as results_json:
         results_json.write(json_data)
 
 
@@ -345,7 +345,7 @@ def build_talented_covenant_json(talents):
     }
     json_data = json.dumps(chart_data)
     output_file = "results/Results_Aggregate_{0}.json".format(talents)
-    with open(output_file, 'w') as results_json:
+    with open(output_file, 'w', encoding="utf8") as results_json:
         results_json.write(json_data)
 
 
@@ -366,7 +366,7 @@ def build_covenant_json():
         # loop over config["builds"] to get each set of covenant{} data
         for talent in talents:
             input_file = "results/Results_Aggregate_{0}.json".format(talent)
-            with open(input_file) as data:
+            with open(input_file, 'r', encoding="utf8") as data:
                 talent_data = json.load(data)
             covenant_data = talent_data['data'][sim_type.lower()]
             # for each set of covenant{} data populate new dict with min/max
@@ -392,7 +392,7 @@ def build_covenant_json():
     }
     json_data = json.dumps(chart_data)
     output_file = "results/Results_Aggregate.json"
-    with open(output_file, 'w') as results_json:
+    with open(output_file, 'w', encoding="utf8") as results_json:
         results_json.write(json_data)
 
 

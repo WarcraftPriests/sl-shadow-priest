@@ -7,7 +7,7 @@ def sim_local(simc_path, profile_location, output_location, iterations):
     # pylint: disable=bare-except
     """sim against a local simc instance"""
     location_list = output_location.split("/")
-    with open(output_location.replace("json", "log"), 'w') as file:
+    with open(output_location.replace("json", "log"), 'w', encoding="utf8") as file:
         try:
             subprocess.check_call(
                 [
@@ -19,7 +19,7 @@ def sim_local(simc_path, profile_location, output_location, iterations):
         except:
             print(
                 "-- {0} has an error. Skipping file.".format(location_list[-1]))
-            with open(output_location.replace("json", "log")) as file:
+            with open(output_location.replace("json", "log"), encoding="utf8") as file:
                 lines = file.readlines()
                 print("-- {0}".format(lines[-1]))
 

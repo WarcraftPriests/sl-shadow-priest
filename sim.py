@@ -23,7 +23,7 @@ if api_secrets_spec:
 if local_secrets_spec:
     local_secrets = local_secrets_spec.loader.load_module()
 
-with open("config.yml", "r") as ymlfile:
+with open("config.yml", "r", encoding="utf8") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 

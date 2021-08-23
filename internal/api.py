@@ -5,7 +5,7 @@ import requests
 import yaml
 import tqdm
 
-with open("config.yml", "r") as ymlfile:
+with open("config.yml", "r", encoding="utf8") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 num_of_retries = int(config["raidbots"]["numOfRetries"])
@@ -23,7 +23,7 @@ def submit_sim(api_url_base, api_key, profile_location, simc_build, report_name,
     """submits a sim to the raidbots api"""
 
     iterations = int(iterations) if iterations != "smart" else iterations
-    with open(profile_location, 'r') as file:
+    with open(profile_location, 'r', encoding="utf8") as file:
         simc_input = file.read()
         file.close()
     api_url = f'{api_url_base}/sim'
@@ -208,7 +208,7 @@ def raidbots(api_key, profile_location, simc_build, output_location, report_name
         # raidbots uses hasFullJson to indicate that there is another file with more info
         if 'hasFullJson' in sim_data['simbot']:
             sim_data = retrieve_data(api_url_base, sim_id, 'data.full.json')
-        with open(output_location, 'w') as file:
+        with open(output_location, 'w', encoding="utf8") as file:
             file.write(json.dumps(sim_data))
             print(f"Saved results to {output_location}")
             file.close()

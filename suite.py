@@ -7,7 +7,7 @@ import sys
 import yaml
 
 
-with open("config.yml", "r") as ymlfile:
+with open("config.yml", "r", encoding="utf8") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 
@@ -19,14 +19,14 @@ def call_process(process_args):
 
 def update_state(directory, sim_type, output_file, script):
     """updates state text file"""
-    with open(output_file, 'a+') as file:
+    with open(output_file, 'a+', encoding="utf8") as file:
         file.write("{0},{1},{2},\n".format(directory, sim_type, script))
         file.close()
 
 
 def check_state(sim_dir, sim_type, output_file, script):
     """opens state file to see if the sim has been ran yet"""
-    with open(output_file, 'r') as file:
+    with open(output_file, 'r', encoding="utf8") as file:
         sims = csv.reader(file, delimiter=',')
         for row in sims:
             if len(row) == 0:
@@ -72,7 +72,7 @@ def main():
     args = parser.parse_args()
 
     if args.fresh or not os.path.exists(output_file):
-        with open(output_file, 'w') as file:
+        with open(output_file, 'w', encoding="utf8") as file:
             file.write('dir,type,sim,\n')
             file.close()
 

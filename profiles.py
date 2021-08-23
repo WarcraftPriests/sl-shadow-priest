@@ -5,7 +5,7 @@ import re
 import yaml
 from internal import utils
 
-with open("config.yml", "r") as ymlfile:
+with open("config.yml", "r", encoding="utf8") as ymlfile:
     config = yaml.load(ymlfile, Loader=yaml.FullLoader)
 
 
@@ -101,10 +101,10 @@ gear_haste_rating={0}
 gear_mastery_rating={0}
 gear_versatility_rating={0}\n\n""".format(
         int(stats_base))
-    with open(base_file, 'r') as file:
+    with open(base_file, 'r', encoding="utf8") as file:
         data = file.read()
         file.close()
-    with open(output_file, 'w+') as file:
+    with open(output_file, 'w+', encoding="utf8") as file:
         file.writelines(data)
         file.writelines(base_stats)
         for combo in rating_combinations:
@@ -184,7 +184,7 @@ def build_profiles(talent_string, covenant_string):
     add_types = ["sa", "ba", "na"]
     targets = ["1", "2"]
     overrides = ""
-    with open("internal/overrides.simc", 'r') as file:
+    with open("internal/overrides.simc", 'r', encoding="utf8") as file:
         overrides = file.read()
         file.close()
     combinations = [
@@ -292,7 +292,7 @@ def build_profiles(talent_string, covenant_string):
 
             simc_file = build_simc_file(
                 talent_string, covenant_string, profile_name)
-            with open(args.dir + simc_file, "w+") as file:
+            with open(args.dir + simc_file, "w+", encoding="utf8") as file:
                 if args.ptr:
                     file.writelines(fightExpressions["ptr"])
                 file.writelines(sim_data)
