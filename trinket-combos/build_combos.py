@@ -75,10 +75,10 @@ def build_simc_string(trinkets):
 
 def generate_sim_file(input_string):
     """reads in the base simc file and creates the generated.simc file"""
-    with open("base.simc", 'r') as file:
+    with open("base.simc", 'r', encoding="utf8") as file:
         data = file.read()
         file.close()
-    with open("generated.simc", 'w+') as file:
+    with open("generated.simc", 'w+', encoding="utf8") as file:
         file.writelines(data)
         file.writelines(input_string)
 

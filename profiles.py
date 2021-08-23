@@ -198,7 +198,7 @@ def build_profiles(talent_string, covenant_string):
         sim_files = ["{0}.simc".format(covenant_string)]
 
     for sim_file in sim_files:
-        with open("{0}{1}".format(args.dir, sim_file), 'r') as file:
+        with open("{0}{1}".format(args.dir, sim_file), 'r', encoding="utf8") as file:
             data = file.read()
             file.close()
         talents_are_overriden = talents_override(data)
