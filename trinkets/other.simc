@@ -35,7 +35,7 @@ profileset."Tome_of_Insight_226"+=trinket1=tome_of_insight,id=186156,ilevel=226
 profileset."Tome_of_Insight_233"+=trinket1=tome_of_insight,id=186156,ilevel=233
 
 # Darkmoon Cards
-profileset."Darkmoon_Deck_Putrescence_200"+=trinket1=darkmoon_deck__putrescence,id=173069
+profileset."Darkmoon_Deck_Putrescence_200"+=trinket1=darkmoon_deck_putrescence,id=173069
 
 # Alchemy Stones
 # this trinket shows up 4 times 171323 - 175942 - 175941 - 175943
@@ -169,7 +169,7 @@ profileset."Elemental_Focus_Stone_226"+=trinket1=elemental_focus_stone,id=156288
 profileset."Scale_of_Fates_226"+=trinket1=scale_of_fates,id=156187,ilevel=226
 profileset."Pandoras_Plea_226"+=trinket1=pandoras_plea,id=156207,ilevel=226
 profileset."Flare_of_the_Heavens_226"+=trinket1=flare_of_the_heavens,id=156230,ilevel=226
-profileset."Vanquished_Cluthes_of_Yogg_Saron_226"+=trinket1=vanquished_clutches_of_yogg_saron,id=156458,ilevel=226
+profileset."Vanquished_Clutches_of_Yogg_Saron_226"+=trinket1=vanquished_clutches_of_yoggsaron,id=156458,ilevel=226
 
 # Firelands Timewalking
 profileset."Necromantic_Focus_226"+=trinket1=necromantic_focus,id=171644,ilevel=226
@@ -177,3 +177,19 @@ profileset."Variable_Pulse_Lightning_Capacitor_226"+=trinket1=variable_pulse_lig
 
 # Black Temple Timewalking
 profileset."The_Skull_of_Guldan_226"+=trinket1=the_skull_of_guldan,id=150522,ilevel=226
+
+# Legion Mythic+ Timewalking - 246 Max Upg
+# Black Rook Hold
+profileset."Caged_Horror_246"+=trinket1=caged_horror,id=136716,ilevel=246
+# Eye of Azshara
+profileset."Stormsinger_Fulmination_Charge_246"+=trinket1=stormsinger_fulmination_charge,id=137367,ilevel=246
+# Darkheart Thicket
+profileset."Oakhearts_Gnarled_Root_246"+=trinket1=oakhearts_gnarled_root,id=137306,ilevel=246
+profileset."Corrupted_Starlight_246"+=trinket1=corrupted_starlight,id=137301,ilevel=246
+# Vault of the Wardens
+profileset."Moonlit_Prism_246"+=trinket1=moonlit_prism,id=137541,ilevel=246
+# Neltharion’s Lair
+profileset."Naraxas_Spiked_Tongue_20_yd_246"+=trinket1=naraxas_spiked_tongue,id=137349,ilevel=246
+profileset."Naraxas_Spiked_Tongue_20_yd_246"+=distance=20
+# Court of Stars
+profileset."Infernal_Writ_246"+=trinket1=infernal_writ,id=137485,ilevel=246
