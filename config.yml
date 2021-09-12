@@ -39,11 +39,11 @@ covenants:
       dungeons: "forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/333950/333935/352186/352188"
   necrolord:
     soulbind:
-      composite: "bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/326514/350899/350936"
+      composite: "plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11/323074/352110"
       dungeons: "bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326572/326514/350899/350936"
   night_fae:
     soulbind:
-      composite: "niya,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/322721/320660/352503"
+      composite: "dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/319191/352786"
       dungeons: "dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/319191/352786"
   venthyr:
     soulbind:
@@ -378,7 +378,7 @@ sims:
     weights: false
     chart: true
     covenant:
-      lookup: false
+      lookup: true
       files: false
     legendary: true
     lookupType: none
