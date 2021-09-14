@@ -1,14 +1,14 @@
 # Dungeons - am - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Night_Fae-Dreamweaver-Field_of_Blossoms|9312|6.39%|
-|Night_Fae-Korayn-First_Strike|9143|4.46%|
-|Night_Fae-Niya-Bonded_Hearts_AND_Grove_Invigoration|9109|4.07%|
-|Night_Fae-Niya-Grove_Invigoration|9054|3.44%|
-|Night_Fae-Korayn-Wild_Hunt_Strategem_AND_Wild_Hunt_Tactics|9042|3.30%|
-|Night_Fae-Niya-Niyas_Tools_Burrs|8984|2.64%|
-|Night_Fae-Korayn-Wild_Hunt_Tactics|8971|2.49%|
-|Night_Fae-Dreamweaver-Dream_Delver|8908|1.77%|
-|Night_Fae-Dreamweaver-Social_Butterfly|8884|1.50%|
-|Base|8753|0.00%|
-|Night_Fae-Niya-Niyas_Tools_Poison|8753|0.00%|
+|Night_Fae-Dreamweaver-Field_of_Blossoms|9300|5.55%|
+|Night_Fae-Korayn-First_Strike|9179|4.18%|
+|Night_Fae-Niya-Bonded_Hearts_AND_Grove_Invigoration|9156|3.92%|
+|Night_Fae-Korayn-Wild_Hunt_Strategem_AND_Wild_Hunt_Tactics|9115|3.45%|
+|Night_Fae-Niya-Grove_Invigoration|9099|3.27%|
+|Night_Fae-Korayn-Wild_Hunt_Tactics|9047|2.68%|
+|Night_Fae-Niya-Niyas_Tools_Burrs|9043|2.63%|
+|Night_Fae-Dreamweaver-Dream_Delver|8984|1.96%|
+|Night_Fae-Dreamweaver-Social_Butterfly|8938|1.44%|
+|Base|8811|0.00%|
+|Night_Fae-Niya-Niyas_Tools_Poison|8811|0.00%|

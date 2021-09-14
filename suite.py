@@ -36,25 +36,25 @@ def check_state(sim_dir, sim_type, output_file, script):
     return True
 
 
-def generate_args(sim_dir, sim_type, script):
+def generate_args(sim_dir, sim_type, script, ptr):
     """generates arguments for each script based on input"""
     arguments = []
     if sim_type == "composite":
-        arguments = ["python", script, sim_dir]
+        arguments = ["python", script, sim_dir, ptr]
     elif sim_type == "dungeons":
-        arguments = ["python", script, sim_dir, "--dungeons"]
+        arguments = ["python", script, sim_dir, "--dungeons", ptr]
     return arguments
 
 
-def run_suite(sim_dir, sim_type, output_file, sim):
+def run_suite(sim_dir, sim_type, output_file, sim, ptr):
     """helper function to orchestrate other calls"""
     if check_state(sim_dir, sim_type, output_file, "profiles"):
-        call_process(generate_args(sim_dir, sim_type, "profiles.py"))
+        call_process(generate_args(sim_dir, sim_type, "profiles.py", ptr))
         update_state(sim_dir, sim_type, output_file, "profiles")
 
     if check_state(sim_dir, sim_type, output_file, "sim"):
         print("Running sim suite for {0} - Composite".format(sim))
-        call_process(generate_args(sim_dir, sim_type, "sim.py"))
+        call_process(generate_args(sim_dir, sim_type, "sim.py", ptr))
         update_state(sim_dir, sim_type, output_file, "sim")
 
 
@@ -69,6 +69,8 @@ def main():
         nargs='+', required=False)
     parser.add_argument(
         '--fresh', help='restart suite from start', action='store_true')
+    parser.add_argument(
+        '--ptr', help='indicate if the sim should use ptr data.', action='store_true')
     args = parser.parse_args()
 
     if args.fresh or not os.path.exists(output_file):
@@ -76,12 +78,17 @@ def main():
             file.write('dir,type,sim,\n')
             file.close()
 
+    ptr = ""
+    if args.ptr:
+        print("Running sims with PTR data...")
+        ptr = "--ptr"
+
     for sim in config["sims"].keys():
         if sim in args.exclude:
             continue
         sim_dir = ("{0}/").format(sim)
-        run_suite(sim_dir, "composite", output_file, sim)
-        run_suite(sim_dir, "dungeons", output_file, sim)
+        run_suite(sim_dir, "composite", output_file, sim, ptr)
+        run_suite(sim_dir, "dungeons", output_file, sim, ptr)
 
 
 if __name__ == "__main__":

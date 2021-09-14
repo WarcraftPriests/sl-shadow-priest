@@ -1,14 +1,14 @@
 # Single - hv - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Shadow_Word_Manipulation-Shadowflame_Prism|11233|15.98%|
-|Shadow_Word_Manipulation-Talbadars_Stratagem|11169|15.32%|
-|Shadowflame_Prism-Talbadars_Stratagem|11064|14.24%|
-|Shadowflame_Prism-Eternal_Call_to_the_Void|10908|12.63%|
-|Shadow_Word_Manipulation-Eternal_Call_to_the_Void|10871|12.25%|
-|Eternal_Call_to_the_Void-Talbadars_Stratagem|10819|11.71%|
-|Shadowflame_Prism-Painbreaker_Psalm|10571|9.15%|
-|Shadow_Word_Manipulation-Painbreaker_Psalm|10515|8.57%|
-|Painbreaker_Psalm-Talbadars_Stratagem|10393|7.31%|
-|Painbreaker_Psalm-Eternal_Call_to_the_Void|10103|4.32%|
-|Base|9685|0.00%|
+|Shadow_Word_Manipulation-Shadowflame_Prism|11269|15.40%|
+|Shadow_Word_Manipulation-Talbadars_Stratagem|11253|15.23%|
+|Shadowflame_Prism-Talbadars_Stratagem|11095|13.62%|
+|Shadow_Word_Manipulation-Eternal_Call_to_the_Void|10953|12.16%|
+|Shadowflame_Prism-Eternal_Call_to_the_Void|10939|12.02%|
+|Eternal_Call_to_the_Void-Talbadars_Stratagem|10895|11.56%|
+|Shadow_Word_Manipulation-Painbreaker_Psalm|10597|8.51%|
+|Shadowflame_Prism-Painbreaker_Psalm|10588|8.42%|
+|Painbreaker_Psalm-Talbadars_Stratagem|10468|7.20%|
+|Painbreaker_Psalm-Eternal_Call_to_the_Void|10183|4.28%|
+|Base|9765|0.00%|
