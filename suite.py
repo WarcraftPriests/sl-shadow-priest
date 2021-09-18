@@ -20,7 +20,7 @@ def call_process(process_args):
 def update_state(directory, sim_type, output_file, script):
     """updates state text file"""
     with open(output_file, 'a+', encoding="utf8") as file:
-        file.write("{0},{1},{2},\n".format(directory, sim_type, script))
+        file.write(f"{directory},{sim_type},{script},\n")
         file.close()
 
 
@@ -53,7 +53,7 @@ def run_suite(sim_dir, sim_type, output_file, sim, ptr):
         update_state(sim_dir, sim_type, output_file, "profiles")
 
     if check_state(sim_dir, sim_type, output_file, "sim"):
-        print("Running sim suite for {0} - Composite".format(sim))
+        print(f"Running sim suite for {sim} - Composite")
         call_process(generate_args(sim_dir, sim_type, "sim.py", ptr))
         update_state(sim_dir, sim_type, output_file, "sim")
 
@@ -86,7 +86,7 @@ def main():
     for sim in config["sims"].keys():
         if sim in args.exclude:
             continue
-        sim_dir = ("{0}/").format(sim)
+        sim_dir = (f"{sim}/")
         run_suite(sim_dir, "composite", output_file, sim, ptr)
         run_suite(sim_dir, "dungeons", output_file, sim, ptr)
 

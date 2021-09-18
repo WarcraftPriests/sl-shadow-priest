@@ -14,12 +14,7 @@ def build_range(min_ilevel, max_ilevel):
 def build_trinket(name, item_id, ilevel):
     """build the correct trinket string"""
     item_name = name.lower()
-    return "profileset.\"{0}_{2}\"+=trinket1={3},id={1},ilevel={2}".format(
-        name,
-        item_id,
-        ilevel,
-        item_name
-    )
+    return f"profileset.\"{name}_{ilevel}\"+=trinket1={item_name},id={item_id},ilevel={ilevel}"
 
 
 def main():

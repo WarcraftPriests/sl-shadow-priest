@@ -46,7 +46,7 @@ def build_settings(profile_name_string, weights, covenant_string):
     """Add any and all expressions to the bottom of the profile"""
     settings_string = '\n'
     if covenant_string:
-        settings_string += "covenant={0}\n".format(covenant_string)
+        settings_string += f"covenant={covenant_string}\n"
     for expression in fightExpressions.items():
         abbreviation = expression[0]
         if abbreviation in profile_name_string:
@@ -62,7 +62,7 @@ def generate_combination_name(stat_distribution):
     versatility = stat_distribution.count('versatility')
     haste = stat_distribution.count('haste')
     crit = stat_distribution.count('crit')
-    return "M{0}_V{1}_H{2}_C{3}".format(mastery, versatility, haste, crit)
+    return f"M{mastery}_V{versatility}_H{haste}_C{crit}"
 
 
 def generate_stat_string(stat_distribution, name):
@@ -71,13 +71,13 @@ def generate_stat_string(stat_distribution, name):
     stats_base = config["stats"]["base"] / 4
     extra_line = "\n" if name == "versatility" else ""
     stat_amount = (count * config["stats"]["steps"]) + int(stats_base)
-    return "gear_{0}_rating={1}{2}".format(name, stat_amount, extra_line)
+    return f"gear_{name}_rating={stat_amount}{extra_line}"
 
 
 def build_stats_files():
     """Build generated.simc stats file from stats.simc"""
     sim_file = 'stats.simc'
-    base_file = "{0}{1}".format(args.dir, sim_file)
+    base_file = f"{args.dir}{sim_file}"
     stats = config["stats"]["include"]
     stats_base = config["stats"]["base"] / 4
     num_of_steps = (config["stats"]["total"] -
@@ -93,14 +93,12 @@ def build_stats_files():
             "crit": generate_stat_string(dist, "crit")
         }
         rating_combinations.append(combination)
-    print("Simming {0} number of combinations".format(
-        len(rating_combinations)))
-    output_file = "{0}/generated.simc".format(args.dir)
-    base_stats = """gear_crit_rating={0}
-gear_haste_rating={0}
-gear_mastery_rating={0}
-gear_versatility_rating={0}\n\n""".format(
-        int(stats_base))
+    print(f"Simming {rating_combinations} number of combinations")
+    output_file = f"{args.dir}/generated.simc"
+    base_stats = f"""gear_crit_rating={int(stats_base)}
+gear_haste_rating={int(stats_base)}
+gear_mastery_rating={int(stats_base)}
+gear_versatility_rating={int(stats_base)}\n\n"""
     with open(base_file, 'r', encoding="utf8") as file:
         data = file.read()
         file.close()
@@ -110,28 +108,27 @@ gear_versatility_rating={0}\n\n""".format(
         for combo in rating_combinations:
             for stat in stats:
                 file.write(
-                    'profileset."{0}"+={1}\n'.format(combo.get('name'), combo.get(stat)))
+                    f'profileset."{combo.get("name")}"+={combo.get(stat)}\n')
 
 
 def build_simc_file(talent_string, covenant_string, profile_name):
     """Returns output file name based on talent and covenant strings"""
     if covenant_string:
         if talent_string:
-            return "profiles/{0}/{1}/{2}.simc".format(talent_string, covenant_string, profile_name)
-        return "profiles/{0}/{1}.simc".format(covenant_string, profile_name)
+            return f"profiles/{talent_string}/{covenant_string}/{profile_name}.simc"
+        return f"profiles/{covenant_string}/{profile_name}.simc"
     if talent_string:
-        return "profiles/{0}/{1}.simc".format(talent_string, profile_name)
-    return "profiles/{0}.simc".format(profile_name)
+        return f"profiles/{talent_string}/{profile_name}.simc"
+    return f"profiles/{profile_name}.simc"
 
 
 def replace_talents(talent_string, data):
     """Replaces the talents variable with the talent string given"""
     if "talents=" in data:
-        data = re.sub(
-            r'talents=.*', "talents={}".format(talent_string), data, 1)
+        data = re.sub(r'talents=.*', f"talents={talent_string}", data, 1)
     else:
         data.replace(
-            "spec=shadow", "spec=shadow\ntalents={0}".format(talent_string))
+            "spec=shadow", f"spec=shadow\ntalents={talent_string}")
     return data
 
 
@@ -151,8 +148,8 @@ def replace_conduits(talent_string, data, swap_to_rs):
                 if item == "id":
                     data = data.replace("${conduits.third.id}", "114")
             else:
-                data = data.replace("${{conduits.{0}.{1}}}".format(
-                    position, item), config["builds"][talent_string]["conduits"][position][item])
+                data = data.replace(f"${{conduits.{position}.{item}}}",
+                                    config["builds"][talent_string]["conduits"][position][item])
     return data
 
 
@@ -188,7 +185,7 @@ def replace_legendary(data, sim_type, covenant_string):
     """replaces legendary.id with the appropriate legendary from config"""
     if covenant_string:
         data = data.replace("${legendary.id}",
-                     config["legendary"]["covenants"][covenant_string][sim_type])
+                            config["legendary"]["covenants"][covenant_string][sim_type])
     else:
         data = data.replace("${legendary.id}", config["legendary"][sim_type])
     return data
@@ -205,20 +202,18 @@ def build_profiles(talent_string, covenant_string):
         overrides = file.read()
         file.close()
     combinations = [
-        "{0}_{1}_{2}".format(
-            fight, add, tar
-        ) for fight in fight_styles for add in add_types for tar in targets
+        f"{fight}_{add}_{tar}" for fight in fight_styles for add in add_types for tar in targets
     ]
     sim_files = config["sims"][args.dir[:-1]]["files"]
 
     if config["sims"][args.dir[:-1]]["covenant"]["files"]:
-        sim_files = ["{0}.simc".format(covenant_string)]
+        sim_files = [f"{covenant_string}.simc"]
 
     for sim_file in sim_files:
-        with open("{0}{1}".format(args.dir, sim_file), 'r', encoding="utf8") as file:
+        with open(f"{args.dir}{sim_file}", 'r', encoding="utf8") as file:
             data = file.read()
             file.close()
-        talents_are_overriden = talents_override(data)
+        talents_are_overridden = talents_override(data)
         if args.dungeons:
             combinations = ["dungeons"]
         if talent_string:
@@ -249,7 +244,7 @@ def build_profiles(talent_string, covenant_string):
         for profile in combinations:
             sim_data = data
             # prefix the profile name with the base file name
-            profile_name = "{0}_{1}".format(sim_file[:-5], profile)
+            profile_name = f"{sim_file[:-5]}_{profile}"
             settings = build_settings(
                 profile, config["sims"][args.dir[:-1]]["weights"], covenant_string)
 
@@ -269,7 +264,7 @@ def build_profiles(talent_string, covenant_string):
                     if shadowflame_active("single", covenant_string):
                         sim_data = replace_talents(update_talents(
                             talents_expr, "mindbender"), sim_data)
-                    elif not talents_are_overriden:
+                    elif not talents_are_overridden:
                         sim_data = replace_talents(new_talents, sim_data)
                     sim_data = replace_legendary(
                         sim_data, "single", covenant_string)
@@ -286,7 +281,7 @@ def build_profiles(talent_string, covenant_string):
                         if shadowflame_active("dungeons", covenant_string):
                             sim_data = replace_talents(update_talents(
                                 talents_expr, "mindbender"), sim_data)
-                        elif not talents_are_overriden:
+                        elif not talents_are_overridden:
                             sim_data = replace_talents(talents_expr, sim_data)
                         sim_data = replace_legendary(
                             sim_data, "dungeons", covenant_string)
@@ -302,7 +297,7 @@ def build_profiles(talent_string, covenant_string):
                         if shadowflame_active("composite", covenant_string):
                             sim_data = replace_talents(update_talents(
                                 talents_expr, "mindbender"), sim_data)
-                        elif not talents_are_overriden:
+                        elif not talents_are_overridden:
                             sim_data = replace_talents(talents_expr, sim_data)
                         sim_data = replace_legendary(
                             sim_data, "composite", covenant_string)
@@ -336,24 +331,21 @@ if __name__ == '__main__':
             for talent, covenant in [
                 (talent, covenant) for talent in talents for covenant in covenants
             ]:
-                clear_out_folders(
-                    '{0}output/{1}/{2}/'.format(args.dir, talent, covenant))
-                clear_out_folders(
-                    '{0}profiles/{1}/{2}/'.format(args.dir, talent, covenant))
-                print("Building {0}-{1} profiles...".format(talent, covenant))
+                clear_out_folders(f'{args.dir}output/{talent}/{covenant}/')
+                clear_out_folders(f'{args.dir}profiles/{talent}/{covenant}/')
+                print(f"Building {talent}-{covenant} profiles...")
                 build_profiles(talent, covenant)
         else:
             for covenant in covenants:
-                clear_out_folders('{0}output/{1}/'.format(args.dir, covenant))
-                clear_out_folders(
-                    '{0}profiles/{1}/'.format(args.dir, covenant))
-                print("Building {0} profiles...".format(covenant))
+                clear_out_folders(f'{args.dir}output/{covenant}/')
+                clear_out_folders(f'{args.dir}profiles/{covenant}/')
+                print(f"Building {covenant} profiles...")
                 build_profiles(None, covenant)
     elif talents:
         for talent in talents:
-            clear_out_folders('{0}output/{1}/'.format(args.dir, talent))
-            clear_out_folders('{0}profiles/{1}/'.format(args.dir, talent))
-            print("Building {0} profiles...".format(talent))
+            clear_out_folders(f'{args.dir}output/{talent}/')
+            clear_out_folders(f'{args.dir}profiles/{talent}/')
+            print(f"Building {talent} profiles...")
             build_profiles(talent, None)
     else:
         print("Building default profiles...")

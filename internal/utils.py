@@ -32,11 +32,11 @@ def get_simc_dir(talent, covenant, folder_name):
     """get proper directory based on talent and covenant options"""
     if covenant:
         if talent:
-            return "{0}/{1}/{2}/".format(folder_name, talent, covenant)
-        return "{0}/{1}/".format(folder_name, covenant)
+            return f"{folder_name}/{talent}/{covenant}/"
+        return f"{folder_name}/{covenant}/"
     if talent:
-        return "{0}/{1}/".format(folder_name, talent)
-    return "{0}/".format(folder_name)
+        return f"{folder_name}/{talent}/"
+    return f"{folder_name}/"
 
 
 def generate_parser(description):

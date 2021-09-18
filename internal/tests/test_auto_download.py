@@ -16,7 +16,7 @@ def assert_not_called_with(self, *args, **kwargs):
     except AssertionError:
         return
     raise AssertionError('Expected %s to not have been called.' %
-                         self._format_mock_call_signature(args, kwargs)) # pylint: disable=protected-access
+                         self._format_mock_call_signature(args, kwargs)) # pylint: disable=protected-access,consider-using-f-string
 
 
 Mock.assert_not_called_with = assert_not_called_with

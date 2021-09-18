@@ -12,16 +12,15 @@ def sim_local(simc_path, profile_location, output_location, iterations):
             subprocess.check_call(
                 [
                     simc_path,
-                    "json2={0}".format(output_location),
-                    "iterations={0}".format(iterations),
+                    f"json2={output_location}",
+                    f"iterations={iterations}",
                     profile_location
                 ], stdout=file, stderr=file)
         except:
-            print(
-                "-- {0} has an error. Skipping file.".format(location_list[-1]))
+            print(f"-- {location_list[-1]} has an error. Skipping file.")
             with open(output_location.replace("json", "log"), encoding="utf8") as file:
                 lines = file.readlines()
-                print("-- {0}".format(lines[-1]))
+                print(f"-- {lines[-1]}")
 
         os.remove(output_location.replace("json", "log"))
         file.close()

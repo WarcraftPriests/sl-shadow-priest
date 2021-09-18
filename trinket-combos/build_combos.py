@@ -45,7 +45,7 @@ def build_combos():
         # check if item id matches, trinkets are unique
         if item_id(combos[pair[0]]) != item_id(combos[pair[1]]):
             unique_trinkets.append(pair)
-    print("Generated {0} combinations.".format(len(unique_trinkets)))
+    print(f"Generated {len(unique_trinkets)} combinations.")
     return unique_trinkets
 
 
@@ -54,18 +54,19 @@ def build_simc_string(trinkets):
     result = ""
     for combo in trinkets:
         for trinket in combo:
+            trinket_one = combo[0]
+            trinket_two = combo[1]
+            trinket_one_value = combos[trinket_one]
+            trinket_two_value = combos[trinket_two]
+            profileset_name = f"{trinket_one}-{trinket_two}"
             if "Cabalists_Hymnal_Allies" in trinket:
                 allies_count = trinket[24]
-                result += "profileset.\"{0}-{1}\"+=shadowlands.crimson_choir_in_party={2}\n".format(
-                    combo[0], combo[1], allies_count)
+                result += f"profileset.\"{profileset_name}\"+=shadowlands.crimson_choir_in_party={allies_count}\n"
             if "Unbound_Changeling" in trinket:
                 stat_type = trinket.split("_")[2].lower()
-                result += "profileset.\"{0}-{1}\"+=shadowlands.unbound_changeling_stat_type={2}\n".format(
-                    combo[0], combo[1], stat_type)
-        result += "profileset.\"{0}-{1}\"+=trinket1={2}\n".format(
-            combo[0], combo[1], combos[combo[0]])
-        result += "profileset.\"{0}-{1}\"+=trinket2={2}\n\n".format(
-            combo[0], combo[1], combos[combo[1]])
+                result += f"profileset.\"{profileset_name}\"+=shadowlands.unbound_changeling_stat_type={stat_type}\n"
+        result += f"profileset.\"{profileset_name}\"+=trinket1={trinket_one_value}\n"
+        result += f"profileset.\"{profileset_name}\"+=trinket2={trinket_two_value}\n\n"
     return result
 
 

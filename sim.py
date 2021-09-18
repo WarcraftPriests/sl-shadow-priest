@@ -43,15 +43,15 @@ def get_path(simc_build_version):
 def handle_path_darwin(path):
     """find the proper path if using darwin based OS"""
     if path.endswith("/"):
-        return "{0}simc".format(path)
-    return "{0}/simc".format(path)
+        return f"{path}simc"
+    return f"{path}/simc"
 
 
 def handle_path_win(path):
     """find the proper path if using windows based OS"""
     if path.endswith("\\"):
-        return "{0}simc.exe".format(path)
-    return "{0}\\simc.exe".format(path)
+        return f"{path}simc.exe"
+    return f"{path}\\simc.exe"
 
 
 def get_api_key(args, simc_build_version):
@@ -61,8 +61,8 @@ def get_api_key(args, simc_build_version):
 
         if is_executable(executable):
             return executable
-        print("{0} not a valid executable please check your local_secrets.py or your path".format(
-            executable))
+        print(
+            f"{executable} not a valid executable please check your local_secrets.py or your path")
         sys.exit()
     else:
         return api_secrets.api_key
@@ -80,8 +80,8 @@ def run_sims(args, iterations, talent, covenant):
         from internal.simc import raidbots
     else:
         from internal.api import raidbots
-
-    print("Running sims on {0} in {1}".format(config["simcBuild"], args.dir))
+    simc_build = config["simcBuild"]
+    print(f"Running sims on {simc_build} in {args.dir}")
     existing = listdir(
         args.dir + utils.get_simc_dir(talent, covenant, 'output'))
     profiles = listdir(
@@ -96,7 +96,7 @@ def run_sims(args, iterations, talent, covenant):
             weight = find_weights(config["compositeWeights"]).get(profile_name)
         else:
             weight = 1
-        print("Simming {0} out of {1}.".format(count, len(profiles)))
+        print(f"Simming {count} out of {len(profiles)}.")
         output_name = profile.replace('simc', 'json')
         if output_name not in existing and weight > 0:
             output_location = args.dir + \
@@ -104,13 +104,13 @@ def run_sims(args, iterations, talent, covenant):
             profile_location = args.dir + \
                 utils.get_simc_dir(talent, covenant, 'profiles') + profile
             # prefix the profile name with the base file name
-            profile_name_with_dir = "{0}{1}".format(args.dir, profile_name)
+            profile_name_with_dir = f"{args.dir}{profile_name}"
             raidbots(get_api_key(args, config["simcBuild"]), profile_location,
                      config["simcBuild"], output_location, profile_name_with_dir, iterations)
         elif weight == 0:
-            print("-- {0} has a weight of 0. Skipping file.".format(output_name))
+            print(f"-- {output_name} has a weight of 0. Skipping file.")
         else:
-            print("-- {0} already exists. Skipping file.".format(output_name))
+            print(f"-- {output_name} already exists. Skipping file.")
 
 
 def convert_to_csv(args, weights, talent, covenant):
@@ -162,19 +162,19 @@ def main():
             for talent, covenant in [
                 (talent, covenant) for talent in talents for covenant in covenants
             ]:
-                print("Simming {0}-{1} profiles...".format(talent, covenant))
+                print(f"Simming {talent}-{covenant} profiles...")
                 run_sims(args, iterations, talent, covenant)
                 convert_to_csv(args, weights, talent, covenant)
                 analyze_data(args, talent, covenant, weights)
         else:
             for covenant in covenants:
-                print("Simming {0} profiles...".format(covenant))
+                print(f"Simming {covenant} profiles...")
                 run_sims(args, iterations, None, covenant)
                 convert_to_csv(args, weights, None, covenant)
                 analyze_data(args, None, covenant, weights)
     elif talents:
         for talent in talents:
-            print("Simming {0} profiles...".format(talent))
+            print(f"Simming {talent} profiles...")
             run_sims(args, iterations, talent, None)
             convert_to_csv(args, weights, talent, None)
             analyze_data(args, talent, None, weights)
