@@ -320,8 +320,8 @@ if __name__ == '__main__':
     talents = utils.get_talents(args)
     covenants = utils.get_covenant(args)
 
-    clear_out_folders('%soutput/' % args.dir)
-    clear_out_folders('%sprofiles/' % args.dir)
+    clear_out_folders(f'{args.dir}output/')
+    clear_out_folders(f'{args.dir}profiles/')
 
     if args.dir[:-1] == 'stats':
         build_stats_files()

@@ -10,13 +10,14 @@ from internal.auto_download import download_latest, BASE_URL, _cleanup_older_fil
 
 
 def assert_not_called_with(self, *args, **kwargs):
+    # pylint: disable=consider-using-f-string
     'Inverted assert_called_with function'
     try:
         self.assert_called_with(*args, **kwargs)
     except AssertionError:
         return
     raise AssertionError('Expected %s to not have been called.' %
-                         self._format_mock_call_signature(args, kwargs)) # pylint: disable=protected-access,consider-using-f-string
+                         self._format_mock_call_signature(args, kwargs)) # pylint: disable=protected-access
 
 
 Mock.assert_not_called_with = assert_not_called_with

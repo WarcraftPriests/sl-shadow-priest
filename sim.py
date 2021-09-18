@@ -74,7 +74,7 @@ def is_executable(path):
 
 
 def run_sims(args, iterations, talent, covenant):
-    # pylint: disable=import-outside-toplevel
+    # pylint: disable=import-outside-toplevel,too-many-locals
     """run sims with the given config"""
     if args.local:
         from internal.simc import raidbots
