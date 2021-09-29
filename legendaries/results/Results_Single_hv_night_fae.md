@@ -1,18 +1,18 @@
 # Single - hv - night_fae
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Shadowflame_Prism_Rabid_Shadows_11_Mindbender|10438|7.84%|
-|Talbadars_Stratagem|10412|7.56%|
-|Shadowflame_Prism_Mindbender|10267|6.06%|
-|Eternal_Call_to_the_Void|10098|4.32%|
-|Shadowflame_Prism|9987|3.17%|
-|Shadowflame_Prism_Rabid_Shadows_11|9930|2.59%|
-|Echo_of_Eonar|9837|1.62%|
-|Bwonsamdis_Pact_Benevolent|9818|1.43%|
-|Judgment_of_the_Arbiter|9800|1.24%|
-|Painbreaker_Psalm|9764|0.87%|
-|Bwonsamdis_Pact_Wrathful|9722|0.44%|
-|Sephuzs_Proclamation|9683|0.03%|
-|Third_Eye_of_the_Jailer|9682|0.02%|
-|Base|9680|0.00%|
-|Twins_of_the_Sun_Priestess_Conduit_11|9661|-0.20%|
+|Talbadars_Stratagem|10472|7.62%|
+|Shadowflame_Prism_Rabid_Shadows_11_Mindbender|10460|7.50%|
+|Shadowflame_Prism_Mindbender|10286|5.71%|
+|Eternal_Call_to_the_Void|10117|3.97%|
+|Shadowflame_Prism|10039|3.17%|
+|Shadowflame_Prism_Rabid_Shadows_11|9983|2.59%|
+|Bwonsamdis_Pact_Benevolent|9913|1.87%|
+|Painbreaker_Psalm|9889|1.63%|
+|Echo_of_Eonar|9885|1.58%|
+|Judgment_of_the_Arbiter|9854|1.27%|
+|Bwonsamdis_Pact_Wrathful|9776|0.47%|
+|Base|9730|0.00%|
+|Third_Eye_of_the_Jailer|9728|-0.02%|
+|Sephuzs_Proclamation|9728|-0.03%|
+|Twins_of_the_Sun_Priestess_Conduit_11|9723|-0.07%|

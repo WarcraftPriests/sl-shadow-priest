@@ -1,14 +1,14 @@
 # Dungeons - hv - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pallid_Command-Eternal_Call_to_the_Void|10365|14.24%|
-|Pallid_Command-Shadowflame_Prism|10313|13.67%|
-|Shadowflame_Prism-Eternal_Call_to_the_Void|10095|11.26%|
-|Pallid_Command-Talbadars_Stratagem|10092|11.23%|
-|Pallid_Command-Painbreaker_Psalm|10049|10.76%|
-|Eternal_Call_to_the_Void-Talbadars_Stratagem|9918|9.31%|
-|Shadowflame_Prism-Talbadars_Stratagem|9828|8.32%|
-|Shadowflame_Prism-Painbreaker_Psalm|9801|8.02%|
-|Painbreaker_Psalm-Eternal_Call_to_the_Void|9768|7.66%|
-|Painbreaker_Psalm-Talbadars_Stratagem|9549|5.25%|
-|Base|9073|0.00%|
+|Pallid_Command-Shadowflame_Prism|10410|14.65%|
+|Pallid_Command-Eternal_Call_to_the_Void|10397|14.50%|
+|Shadowflame_Prism-Eternal_Call_to_the_Void|10196|12.29%|
+|Pallid_Command-Talbadars_Stratagem|10160|11.89%|
+|Eternal_Call_to_the_Void-Talbadars_Stratagem|10005|10.19%|
+|Pallid_Command-Painbreaker_Psalm|10002|10.15%|
+|Shadowflame_Prism-Talbadars_Stratagem|9895|8.98%|
+|Shadowflame_Prism-Painbreaker_Psalm|9849|8.47%|
+|Painbreaker_Psalm-Eternal_Call_to_the_Void|9771|7.61%|
+|Painbreaker_Psalm-Talbadars_Stratagem|9593|5.65%|
+|Base|9080|0.00%|

@@ -1,17 +1,17 @@
 # Composite - hv - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Venthyr-Draven-Built_for_War|10045|4.76%|
-|Venthyr-Nadjia-Fatal_Flaw_AND_Thrill_Seeker|9932|3.58%|
-|Venthyr-Theotar-Party_Favors_Haste|9889|3.13%|
-|Venthyr-Theotar-Party_Favors_Intellect|9869|2.92%|
-|Venthyr-Nadjia-Dauntless_Duelist|9864|2.87%|
-|Venthyr-Theotar-Party_Favors_Versatility|9849|2.72%|
-|Venthyr-Theotar-Party_Favors_Crit|9844|2.66%|
-|Venthyr-Theotar-Soothing_Shade|9835|2.57%|
-|Venthyr-Nadjia-Thrill_Seeker|9783|2.03%|
-|Venthyr-Nadjia-Exacting_Preparation|9701|1.17%|
-|Venthyr-Theotar-Wasteland_Propriety|9692|1.08%|
-|Venthyr-Draven-Battlefield_Presence|9689|1.04%|
-|Venthyr-Theotar-Refined_Palate|9669|0.84%|
-|Base|9589|0.00%|
+|Venthyr-Draven-Built_for_War|10061|4.81%|
+|Venthyr-Nadjia-Fatal_Flaw_AND_Thrill_Seeker|9945|3.60%|
+|Venthyr-Theotar-Party_Favors_Haste|9903|3.16%|
+|Venthyr-Nadjia-Dauntless_Duelist|9882|2.94%|
+|Venthyr-Theotar-Party_Favors_Intellect|9881|2.93%|
+|Venthyr-Theotar-Party_Favors_Versatility|9866|2.77%|
+|Venthyr-Theotar-Party_Favors_Crit|9861|2.73%|
+|Venthyr-Theotar-Soothing_Shade|9844|2.55%|
+|Venthyr-Nadjia-Thrill_Seeker|9799|2.08%|
+|Venthyr-Nadjia-Exacting_Preparation|9715|1.20%|
+|Venthyr-Theotar-Wasteland_Propriety|9709|1.14%|
+|Venthyr-Draven-Battlefield_Presence|9704|1.09%|
+|Venthyr-Theotar-Refined_Palate|9683|0.87%|
+|Base|9600|0.00%|
