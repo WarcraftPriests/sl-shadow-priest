@@ -37,10 +37,10 @@ profileset."Haunting_Apparitions_239"+=soulbind=theotar_the_mad_duke,107:8
 profileset."Haunting_Apparitions_252"+=soulbind=theotar_the_mad_duke,107:9
 profileset."Haunting_Apparitions_265"+=soulbind=theotar_the_mad_duke,107:10
 profileset."Haunting_Apparitions_278"+=soulbind=theotar_the_mad_duke,107:11
-# profileset."Haunting_Apparitions_291"+=soulbind=theotar_the_mad_duke,107:12
-# profileset."Haunting_Apparitions_304"+=soulbind=theotar_the_mad_duke,107:13
-# profileset."Haunting_Apparitions_317"+=soulbind=theotar_the_mad_duke,107:14
-# profileset."Haunting_Apparitions_330"+=soulbind=theotar_the_mad_duke,107:15
+profileset."Haunting_Apparitions_291"+=soulbind=theotar_the_mad_duke,107:12
+profileset."Haunting_Apparitions_304"+=soulbind=theotar_the_mad_duke,107:13
+profileset."Haunting_Apparitions_317"+=soulbind=theotar_the_mad_duke,107:14
+profileset."Haunting_Apparitions_330"+=soulbind=theotar_the_mad_duke,107:15
 
 profileset."Dissonant_Echoes_145"+=soulbind=theotar_the_mad_duke,115:1
 profileset."Dissonant_Echoes_158"+=soulbind=theotar_the_mad_duke,115:2
@@ -53,10 +53,10 @@ profileset."Dissonant_Echoes_239"+=soulbind=theotar_the_mad_duke,115:8
 profileset."Dissonant_Echoes_252"+=soulbind=theotar_the_mad_duke,115:9
 profileset."Dissonant_Echoes_265"+=soulbind=theotar_the_mad_duke,115:10
 profileset."Dissonant_Echoes_278"+=soulbind=theotar_the_mad_duke,115:11
-# profileset."Dissonant_Echoes_291"+=soulbind=theotar_the_mad_duke,115:12
-# profileset."Dissonant_Echoes_304"+=soulbind=theotar_the_mad_duke,115:13
-# profileset."Dissonant_Echoes_317"+=soulbind=theotar_the_mad_duke,115:14
-# profileset."Dissonant_Echoes_330"+=soulbind=theotar_the_mad_duke,115:15
+profileset."Dissonant_Echoes_291"+=soulbind=theotar_the_mad_duke,115:12
+profileset."Dissonant_Echoes_304"+=soulbind=theotar_the_mad_duke,115:13
+profileset."Dissonant_Echoes_317"+=soulbind=theotar_the_mad_duke,115:14
+profileset."Dissonant_Echoes_330"+=soulbind=theotar_the_mad_duke,115:15
 
 profileset."Mind_Devourer_145"+=soulbind=theotar_the_mad_duke,113:1
 profileset."Mind_Devourer_158"+=soulbind=theotar_the_mad_duke,113:2
@@ -69,10 +69,10 @@ profileset."Mind_Devourer_239"+=soulbind=theotar_the_mad_duke,113:8
 profileset."Mind_Devourer_252"+=soulbind=theotar_the_mad_duke,113:9
 profileset."Mind_Devourer_265"+=soulbind=theotar_the_mad_duke,113:10
 profileset."Mind_Devourer_278"+=soulbind=theotar_the_mad_duke,113:11
-# profileset."Mind_Devourer_291"+=soulbind=theotar_the_mad_duke,113:12
-# profileset."Mind_Devourer_304"+=soulbind=theotar_the_mad_duke,113:13
-# profileset."Mind_Devourer_317"+=soulbind=theotar_the_mad_duke,113:14
-# profileset."Mind_Devourer_330"+=soulbind=theotar_the_mad_duke,113:15
+profileset."Mind_Devourer_291"+=soulbind=theotar_the_mad_duke,113:12
+profileset."Mind_Devourer_304"+=soulbind=theotar_the_mad_duke,113:13
+profileset."Mind_Devourer_317"+=soulbind=theotar_the_mad_duke,113:14
+profileset."Mind_Devourer_330"+=soulbind=theotar_the_mad_duke,113:15
 
 profileset."Rabid_Shadows_145"+=soulbind=theotar_the_mad_duke,114:1
 profileset."Rabid_Shadows_158"+=soulbind=theotar_the_mad_duke,114:2
@@ -85,10 +85,10 @@ profileset."Rabid_Shadows_239"+=soulbind=theotar_the_mad_duke,114:8
 profileset."Rabid_Shadows_252"+=soulbind=theotar_the_mad_duke,114:9
 profileset."Rabid_Shadows_265"+=soulbind=theotar_the_mad_duke,114:10
 profileset."Rabid_Shadows_278"+=soulbind=theotar_the_mad_duke,114:11
-# profileset."Rabid_Shadows_291"+=soulbind=theotar_the_mad_duke,114:12
-# profileset."Rabid_Shadows_304"+=soulbind=theotar_the_mad_duke,114:13
-# profileset."Rabid_Shadows_317"+=soulbind=theotar_the_mad_duke,114:14
-# profileset."Rabid_Shadows_330"+=soulbind=theotar_the_mad_duke,114:15
+profileset."Rabid_Shadows_291"+=soulbind=theotar_the_mad_duke,114:12
+profileset."Rabid_Shadows_304"+=soulbind=theotar_the_mad_duke,114:13
+profileset."Rabid_Shadows_317"+=soulbind=theotar_the_mad_duke,114:14
+profileset."Rabid_Shadows_330"+=soulbind=theotar_the_mad_duke,114:15
 
 # Covenant Ability Conduits
 profileset."Courageous_Ascension_145"+=soulbind=theotar_the_mad_duke,87:1
@@ -102,7 +102,7 @@ profileset."Courageous_Ascension_239"+=soulbind=theotar_the_mad_duke,87:8
 profileset."Courageous_Ascension_252"+=soulbind=theotar_the_mad_duke,87:9
 profileset."Courageous_Ascension_265"+=soulbind=theotar_the_mad_duke,87:10
 profileset."Courageous_Ascension_278"+=soulbind=theotar_the_mad_duke,87:11
-# profileset."Courageous_Ascension_291"+=soulbind=theotar_the_mad_duke,87:12
-# profileset."Courageous_Ascension_304"+=soulbind=theotar_the_mad_duke,87:13
-# profileset."Courageous_Ascension_317"+=soulbind=theotar_the_mad_duke,87:14
-# profileset."Courageous_Ascension_330"+=soulbind=theotar_the_mad_duke,87:15
+profileset."Courageous_Ascension_291"+=soulbind=theotar_the_mad_duke,87:12
+profileset."Courageous_Ascension_304"+=soulbind=theotar_the_mad_duke,87:13
+profileset."Courageous_Ascension_317"+=soulbind=theotar_the_mad_duke,87:14
+profileset."Courageous_Ascension_330"+=soulbind=theotar_the_mad_duke,87:15

@@ -5,7 +5,7 @@ position=back
 spec=shadow
 talents=${talents}
 covenant=venthyr
-soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11
+soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
 
 default_actions=1
 
@@ -31,6 +31,9 @@ main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 # Painbreak Psalm - 6981
 # Talbadar's Stratagem - 7162
 
+# Venthyr_Theotar
+# soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750
+
 # TODO: Check Shattered Perceptions conduit combos (drop DE?)
 profileset."Shadow_Word_Manipulation-Shadowflame_Prism"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Shadow_Word_Manipulation-Shadowflame_Prism"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6982
@@ -46,26 +49,26 @@ profileset."Shadow_Word_Manipulation-Eternal_Call_to_the_Void"+=neck=interplanar
 profileset."Shadow_Word_Manipulation-Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
 profileset."Shadow_Word_Manipulation-Talbadars_Stratagem"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=7162
 
-profileset."Shadowflame_Prism-Painbreaker_Psalm"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
-profileset."Shadowflame_Prism-Painbreaker_Psalm"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6981
-profileset."Shadowflame_Prism-Painbreaker_Psalm"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism-Painbreaker_Psalm"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadow_Word_Manipulation-Kiss_of_Death"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
+profileset."Shadow_Word_Manipulation-Kiss_of_Death"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6979
 
-profileset."Shadowflame_Prism-Eternal_Call_to_the_Void"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
-profileset."Shadowflame_Prism-Eternal_Call_to_the_Void"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6983
-profileset."Shadowflame_Prism-Eternal_Call_to_the_Void"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism-Eternal_Call_to_the_Void"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadow_Word_Manipulation_SP-Shadowflame_Prism"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
+profileset."Shadow_Word_Manipulation_SP-Shadowflame_Prism"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6982
+profileset."Shadow_Word_Manipulation_SP-Shadowflame_Prism"+=talents=${talents.mindbender}
+profileset."Shadow_Word_Manipulation_SP-Shadowflame_Prism"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/shattered_perceptions:11/114:11/336239/351750
 
-profileset."Shadowflame_Prism-Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
-profileset."Shadowflame_Prism-Talbadars_Stratagem"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=7162
-profileset."Shadowflame_Prism-Talbadars_Stratagem"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism-Talbadars_Stratagem"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Shadow_Word_Manipulation_SP-Painbreaker_Psalm"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
+profileset."Shadow_Word_Manipulation_SP-Painbreaker_Psalm"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6981
+profileset."Shadow_Word_Manipulation_SP-Painbreaker_Psalm"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239/351750
 
-profileset."Painbreaker_Psalm-Eternal_Call_to_the_Void"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6981
-profileset."Painbreaker_Psalm-Eternal_Call_to_the_Void"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6983
+profileset."Shadow_Word_Manipulation_SP-Eternal_Call_to_the_Void"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
+profileset."Shadow_Word_Manipulation_SP-Eternal_Call_to_the_Void"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6983
+profileset."Shadow_Word_Manipulation_SP-Eternal_Call_to_the_Void"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239/351750
 
-profileset."Painbreaker_Psalm-Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6981
-profileset."Painbreaker_Psalm-Talbadars_Stratagem"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=7162
+profileset."Shadow_Word_Manipulation_SP-Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
+profileset."Shadow_Word_Manipulation_SP-Talbadars_Stratagem"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=7162
+profileset."Shadow_Word_Manipulation_SP-Talbadars_Stratagem"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239/351750
 
-profileset."Eternal_Call_to_the_Void-Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6983
-profileset."Eternal_Call_to_the_Void-Talbadars_Stratagem"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=7162
+profileset."Shadow_Word_Manipulation_SP-Kiss_of_Death"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7704
+profileset."Shadow_Word_Manipulation_SP-Kiss_of_Death"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6979
+profileset."Shadow_Word_Manipulation_SP-Kiss_of_Death"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239/351750

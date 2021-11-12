@@ -1,14 +1,14 @@
 # Single - am - venthyr
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Shadow_Word_Manipulation-Shadowflame_Prism|10713|15.99%|
-|Shadow_Word_Manipulation-Talbadars_Stratagem|10702|15.86%|
-|Shadowflame_Prism-Talbadars_Stratagem|10596|14.72%|
-|Shadowflame_Prism-Eternal_Call_to_the_Void|10522|13.92%|
-|Shadow_Word_Manipulation-Eternal_Call_to_the_Void|10424|12.86%|
-|Eternal_Call_to_the_Void-Talbadars_Stratagem|10407|12.67%|
-|Shadow_Word_Manipulation-Painbreaker_Psalm|10116|9.53%|
-|Shadowflame_Prism-Painbreaker_Psalm|10108|9.44%|
-|Painbreaker_Psalm-Talbadars_Stratagem|10107|9.42%|
-|Painbreaker_Psalm-Eternal_Call_to_the_Void|9764|5.71%|
-|Base|9236|0.00%|
+|Shadow_Word_Manipulation_SP-Shadowflame_Prism|11272|16.39%|
+|Shadow_Word_Manipulation_SP-Talbadars_Stratagem|11228|15.94%|
+|Shadow_Word_Manipulation-Talbadars_Stratagem|11218|15.84%|
+|Shadow_Word_Manipulation_SP-Eternal_Call_to_the_Void|11049|14.09%|
+|Shadow_Word_Manipulation-Eternal_Call_to_the_Void|10937|12.94%|
+|Shadow_Word_Manipulation_SP-Painbreaker_Psalm|10737|10.87%|
+|Shadow_Word_Manipulation-Shadowflame_Prism|10634|9.81%|
+|Shadow_Word_Manipulation_SP-Kiss_of_Death|10631|9.77%|
+|Shadow_Word_Manipulation-Painbreaker_Psalm|10616|9.62%|
+|Shadow_Word_Manipulation-Kiss_of_Death|10549|8.93%|
+|Base|9684|0.00%|

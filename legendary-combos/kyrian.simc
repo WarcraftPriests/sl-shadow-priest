@@ -5,7 +5,7 @@ position=back
 spec=shadow
 talents=${talents}
 covenant=kyrian
-soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11
+soulbind=forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/333950/352186/352188
 
 default_actions=1
 
@@ -31,10 +31,13 @@ main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 # Painbreak Psalm - 6981
 # Talbadar's Stratagem - 7162
 
+# Kyrian_Forgelite_Talbadars
+# soulbind=forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/333950/352186/352188
+
 profileset."Spheres_Harmony-Shadowflame_Prism"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7728
 profileset."Spheres_Harmony-Shadowflame_Prism"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6982
 profileset."Spheres_Harmony-Shadowflame_Prism"+=talents=${talents.mindbender}
-profileset."Spheres_Harmony-Shadowflame_Prism"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Spheres_Harmony-Shadowflame_Prism"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11/333950/352186/352188
 
 profileset."Spheres_Harmony-Painbreaker_Psalm"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7728
 profileset."Spheres_Harmony-Painbreaker_Psalm"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6981
@@ -45,26 +48,5 @@ profileset."Spheres_Harmony-Eternal_Call_to_the_Void"+=neck=interplanar_keystone
 profileset."Spheres_Harmony-Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7728
 profileset."Spheres_Harmony-Talbadars_Stratagem"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=7162
 
-profileset."Shadowflame_Prism-Painbreaker_Psalm"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
-profileset."Shadowflame_Prism-Painbreaker_Psalm"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6981
-profileset."Shadowflame_Prism-Painbreaker_Psalm"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism-Painbreaker_Psalm"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-
-profileset."Shadowflame_Prism-Eternal_Call_to_the_Void"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
-profileset."Shadowflame_Prism-Eternal_Call_to_the_Void"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6983
-profileset."Shadowflame_Prism-Eternal_Call_to_the_Void"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism-Eternal_Call_to_the_Void"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-
-profileset."Shadowflame_Prism-Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
-profileset."Shadowflame_Prism-Talbadars_Stratagem"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=7162
-profileset."Shadowflame_Prism-Talbadars_Stratagem"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism-Talbadars_Stratagem"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-
-profileset."Painbreaker_Psalm-Eternal_Call_to_the_Void"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6981
-profileset."Painbreaker_Psalm-Eternal_Call_to_the_Void"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6983
-
-profileset."Painbreaker_Psalm-Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6981
-profileset."Painbreaker_Psalm-Talbadars_Stratagem"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=7162
-
-profileset."Eternal_Call_to_the_Void-Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6983
-profileset."Eternal_Call_to_the_Void-Talbadars_Stratagem"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=7162
+profileset."Spheres_Harmony-Kiss_of_Death"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7728
+profileset."Spheres_Harmony-Kiss_of_Death"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6979

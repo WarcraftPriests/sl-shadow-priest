@@ -5,7 +5,7 @@ position=back
 spec=shadow
 talents=${talents}
 covenant=necrolord
-soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11
+soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/323074/352110
 
 default_actions=1
 
@@ -31,10 +31,13 @@ main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
 # Painbreak Psalm - 6981
 # Talbadar's Stratagem - 7162
 
+# Necrolord_Marileth_Mastery_PC
+# soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11/323074/352110
+
 profileset."Pallid_Command-Shadowflame_Prism"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 profileset."Pallid_Command-Shadowflame_Prism"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6982
 profileset."Pallid_Command-Shadowflame_Prism"+=talents=${talents.mindbender}
-profileset."Pallid_Command-Shadowflame_Prism"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
+profileset."Pallid_Command-Shadowflame_Prism"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11/323074/352110
 
 profileset."Pallid_Command-Painbreaker_Psalm"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 profileset."Pallid_Command-Painbreaker_Psalm"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6981
@@ -45,26 +48,5 @@ profileset."Pallid_Command-Eternal_Call_to_the_Void"+=neck=interplanar_keystone,
 profileset."Pallid_Command-Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 profileset."Pallid_Command-Talbadars_Stratagem"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=7162
 
-profileset."Shadowflame_Prism-Painbreaker_Psalm"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
-profileset."Shadowflame_Prism-Painbreaker_Psalm"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6981
-profileset."Shadowflame_Prism-Painbreaker_Psalm"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism-Painbreaker_Psalm"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-
-profileset."Shadowflame_Prism-Eternal_Call_to_the_Void"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
-profileset."Shadowflame_Prism-Eternal_Call_to_the_Void"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6983
-profileset."Shadowflame_Prism-Eternal_Call_to_the_Void"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism-Eternal_Call_to_the_Void"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-
-profileset."Shadowflame_Prism-Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
-profileset."Shadowflame_Prism-Talbadars_Stratagem"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=7162
-profileset."Shadowflame_Prism-Talbadars_Stratagem"+=talents=${talents.mindbender}
-profileset."Shadowflame_Prism-Talbadars_Stratagem"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/114:11
-
-profileset."Painbreaker_Psalm-Eternal_Call_to_the_Void"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6981
-profileset."Painbreaker_Psalm-Eternal_Call_to_the_Void"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6983
-
-profileset."Painbreaker_Psalm-Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6981
-profileset."Painbreaker_Psalm-Talbadars_Stratagem"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=7162
-
-profileset."Eternal_Call_to_the_Void-Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6983
-profileset."Eternal_Call_to_the_Void-Talbadars_Stratagem"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=7162
+profileset."Pallid_Command-Kiss_of_Death"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
+profileset."Pallid_Command-Kiss_of_Death"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6979
