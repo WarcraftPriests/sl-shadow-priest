@@ -241,10 +241,10 @@ sims:
     files:
       - legendaries.simc
   legendary-combos:
-    description: "WIP - Sims using 2 legendaries at once. This just sims the legendary power, not the item swap specifically."
+    description: "Sims using 2 legendaries at once. This just sims the legendary power, not the item swap specifically."
     builds: true
     weights: false
-    chart: false
+    chart: true
     covenant:
       lookup: true
       files: true

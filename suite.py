@@ -40,9 +40,15 @@ def generate_args(sim_dir, sim_type, script, ptr):
     """generates arguments for each script based on input"""
     arguments = []
     if sim_type == "composite":
-        arguments = ["python", script, sim_dir, ptr]
+        if ptr:
+            arguments = ["python", script, sim_dir, ptr]
+        else:
+            arguments = ["python", script, sim_dir]
     elif sim_type == "dungeons":
-        arguments = ["python", script, sim_dir, "--dungeons", ptr]
+        if ptr:
+            arguments = ["python", script, sim_dir, "--dungeons", ptr]
+        else:
+            arguments = ["python", script, sim_dir, "--dungeons"]
     return arguments
 
 
