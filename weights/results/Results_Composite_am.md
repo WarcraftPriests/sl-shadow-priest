@@ -1,10 +1,10 @@
 # Composite - am
 | Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Necrolord_Pallid_Command|11332|1.00|0.57|0.55|0.60|0.55|0.21|
-|Necrolord_Shadowflame_Prism_Mindbender|11029|1.00|0.57|0.54|0.65|0.55|0.22|
-|Kyrian_Talbadars_Stratagem|10867|1.00|0.52|0.55|0.67|0.56|0.22|
-|Night_Fae_Shadowflame_Prism_Mindbender|10580|1.00|0.55|0.55|0.71|0.55|0.23|
-|Venthyr_Shadowflame_Prism_Mindbender|10539|1.00|0.52|0.55|0.67|0.54|0.23|
-|Venthyr_Shadow_Word_Manipulation|10513|1.00|0.52|0.56|0.68|0.55|0.23|
-|Base|8322|1.00|0.56|0.56|0.70|0.55|0.29|
+|Necrolord_Pallid_Command|11346|1.00|0.57|0.55|0.60|0.55|0.21|
+|Necrolord_Shadowflame_Prism_Mindbender|11031|1.00|0.57|0.54|0.66|0.55|0.22|
+|Kyrian_Talbadars_Stratagem|10872|1.00|0.52|0.55|0.66|0.55|0.22|
+|Night_Fae_Shadowflame_Prism_Mindbender|10582|1.00|0.54|0.54|0.70|0.54|0.23|
+|Venthyr_Shadowflame_Prism_Mindbender|10536|1.00|0.52|0.54|0.66|0.54|0.23|
+|Venthyr_Shadow_Word_Manipulation|10518|1.00|0.53|0.56|0.68|0.54|0.23|
+|Base|8328|1.00|0.56|0.56|0.70|0.55|0.29|

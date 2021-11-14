@@ -122,6 +122,12 @@ sims:
       - 226
       - 239
       - 252
+      - 265
+      - 278
+      - 291
+      - 304
+      - 317
+      - 330
     files:
       - kyrian.simc
       - necrolord.simc
