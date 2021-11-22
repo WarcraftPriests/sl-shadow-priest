@@ -8,47 +8,47 @@ talents=${talents.mindbender}
 
 default_actions=1
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=${legendary.id}
-neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
-shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187318
-back=drape_of_twisted_loyalties,id=180123,ilevel=252
-chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats,gem_id=187319
-wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130/187315,enchant=eternal_intellect
-hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252
-waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130/187312
-legs=muehzalas_hexthread_sarong,id=179351,bonus_id=7187/1540,ilevel=252
-feet=sandals_of_sacred_symmetry,id=186354,ilevel=252
-finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
-finger2=death_gods_signet,id=179355,bonus_id=7187/1540/6935,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
-trinket1=soulletting_ruby,id=178809,bonus_id=6536/1540/6646,ilevel=252
-trinket2=forbidden_necromantic_tome,id=186421,ilevel=259
-main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
+head=${gear.head},bonus_id=${legendary.id}
+neck=${gear.neck}
+shoulders=${gear.shoulders}
+back=${gear.back}
+chest=${gear.chest},enchant=eternal_stats
+wrists=${gear.wrists},enchant=eternal_intellect
+hands=${gear.hands},ilevel=252
+waist=${gear.waist}
+legs=${gear.legs}
+feet=${gear.feet}
+finger1=${gear.finger1},enchant=tenet_of_mastery
+finger2=${gear.finger2},enchant=tenet_of_mastery
+trinket1=${gear.trinket1}
+trinket2=${gear.trinket2}
+main_hand=${gear.main_hand},enchant=sinful_revelation
 
 # HA (107), DE (115), MD (113), RS (114), SP (105)
 
 # 3 Conduit Combinations
-profileset."HA_DE_MD_3"+=soulbind=theotar_the_mad_duke,107:11/115:11/113:11
-profileset."HA_DE_RS_3"+=soulbind=theotar_the_mad_duke,107:11/115:11/114:11
-profileset."DE_MD_RS_3"+=soulbind=theotar_the_mad_duke,115:11/113:11/114:11
-profileset."HA_MD_RS_3"+=soulbind=theotar_the_mad_duke,107:11/113:11/114:11
+profileset."HA_DE_MD_3"+=soulbind=theotar_the_mad_duke,107:15/115:15/113:15
+profileset."HA_DE_RS_3"+=soulbind=theotar_the_mad_duke,107:15/115:15/114:15
+profileset."DE_MD_RS_3"+=soulbind=theotar_the_mad_duke,115:15/113:15/114:15
+profileset."HA_MD_RS_3"+=soulbind=theotar_the_mad_duke,107:15/113:15/114:15
 
-profileset."HA_RS_SP_3"+=soulbind=theotar_the_mad_duke,107:11/114:11/105:11
-profileset."DE_MD_SP_3"+=soulbind=theotar_the_mad_duke,115:11/113:11/105:11
-profileset."DE_RS_SP_3"+=soulbind=theotar_the_mad_duke,115:11/114:11/105:11
-profileset."MD_RS_SP_3"+=soulbind=theotar_the_mad_duke,113:11/114:11/105:11
-profileset."HA_DE_SP_3"+=soulbind=theotar_the_mad_duke,107:11/115:11/105:11
+profileset."HA_RS_SP_3"+=soulbind=theotar_the_mad_duke,107:15/114:15/105:15
+profileset."DE_MD_SP_3"+=soulbind=theotar_the_mad_duke,115:15/113:15/105:15
+profileset."DE_RS_SP_3"+=soulbind=theotar_the_mad_duke,115:15/114:15/105:15
+profileset."MD_RS_SP_3"+=soulbind=theotar_the_mad_duke,113:15/114:15/105:15
+profileset."HA_DE_SP_3"+=soulbind=theotar_the_mad_duke,107:15/115:15/105:15
 
 # 2 Conduit Combinations
-profileset."HA_DE_2"+=soulbind=theotar_the_mad_duke,107:11/115:11
-profileset."HA_MD_2"+=soulbind=theotar_the_mad_duke,107:11/113:11
-profileset."HA_RS_2"+=soulbind=theotar_the_mad_duke,107:11/114:11
-profileset."HA_SP_2"+=soulbind=theotar_the_mad_duke,107:11/105:11
+profileset."HA_DE_2"+=soulbind=theotar_the_mad_duke,107:15/115:15
+profileset."HA_MD_2"+=soulbind=theotar_the_mad_duke,107:15/113:15
+profileset."HA_RS_2"+=soulbind=theotar_the_mad_duke,107:15/114:15
+profileset."HA_SP_2"+=soulbind=theotar_the_mad_duke,107:15/105:15
 
-profileset."DE_MD_2"+=soulbind=theotar_the_mad_duke,115:11/113:11
-profileset."DE_RS_2"+=soulbind=theotar_the_mad_duke,115:11/114:11
-profileset."DE_SP_2"+=soulbind=theotar_the_mad_duke,115:11/105:11
+profileset."DE_MD_2"+=soulbind=theotar_the_mad_duke,115:15/113:15
+profileset."DE_RS_2"+=soulbind=theotar_the_mad_duke,115:15/114:15
+profileset."DE_SP_2"+=soulbind=theotar_the_mad_duke,115:15/105:15
 
-profileset."MD_RS_2"+=soulbind=theotar_the_mad_duke,113:11/114:11
-profileset."MD_SP_2"+=soulbind=theotar_the_mad_duke,113:11/105:11
+profileset."MD_RS_2"+=soulbind=theotar_the_mad_duke,113:15/114:15
+profileset."MD_SP_2"+=soulbind=theotar_the_mad_duke,113:15/105:15
 
-profileset."RS_SP_2"+=soulbind=theotar_the_mad_duke,114:11/105:11
+profileset."RS_SP_2"+=soulbind=theotar_the_mad_duke,114:15/105:15

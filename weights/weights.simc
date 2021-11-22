@@ -7,26 +7,26 @@ talents=${talents}
 
 default_actions=1
 
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320
-neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130
-shoulders=frame_of_the_false_margrave,id=186324,ilevel=259,gem_id=187318
-back=drape_of_twisted_loyalties,id=180123,ilevel=252
-chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats,gem_id=187319
-wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130/187315,enchant=eternal_intellect
-hands=grasps_of_the_clairvoyant_sage,id=186288,ilevel=252
-waist=sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130/187312
-legs=muehzalas_hexthread_sarong,id=179351,bonus_id=7187/1540,ilevel=252
-feet=sandals_of_sacred_symmetry,id=186354,ilevel=252
-finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
-finger2=death_gods_signet,id=179355,bonus_id=7187/1540/6935,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
-trinket1=soulletting_ruby,id=178809,bonus_id=6536/1540/6646,ilevel=252
-trinket2=forbidden_necromantic_tome,id=186421,ilevel=259
-main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
+head=${gear.head}
+neck=${gear.neck}
+shoulders=${gear.shoulders}
+back=${gear.back}
+chest=${gear.chest},enchant=eternal_stats
+wrists=${gear.wrists},enchant=eternal_intellect
+hands=${gear.hands},ilevel=252
+waist=${gear.waist}
+legs=${gear.legs}
+feet=${gear.feet}
+finger1=${gear.finger1},enchant=tenet_of_mastery
+finger2=${gear.finger2},enchant=tenet_of_mastery
+trinket1=${gear.trinket1}
+trinket2=${gear.trinket2}
+main_hand=${gear.main_hand},enchant=sinful_revelation
 
 # Venthyr_Theotar_Haste_SWM-SP
 copy="Venthyr_Shadow_Word_Manipulation","Base"
 covenant=venthyr
-soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239/351750
+soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750
 talents=${talents.void_torrent}
 shadowlands.party_favor_type=haste
 head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7162
@@ -34,7 +34,7 @@ head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_i
 # Venthyr_Theotar_Haste
 copy="Venthyr_Shadowflame_Prism_Mindbender","Base"
 covenant=venthyr
-soulbind=theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/shattered_perceptions:11/336239/351750
+soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750
 talents=${talents.mindbender}
 shadowlands.party_favor_type=haste
 head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
@@ -42,14 +42,14 @@ head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_i
 # Kyrian_Forgelite_Talbadars
 copy="Kyrian_Talbadars_Stratagem","Base"
 covenant=kyrian
-soulbind=forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/courageous_ascension:11/333950/352186/352188
+soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/333950/352186/352188
 talents=${talents.void_torrent}
 head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7162
 
 # Night_Fae_Dreamweaver
 copy="Night_Fae_Shadowflame_Prism_Mindbender","Base"
 covenant=night_fae
-soulbind=dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/319191/352786
+soulbind=dreamweaver,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/319191/352786
 talents=${talents.mindbender}
 head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
 
@@ -57,7 +57,7 @@ head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_i
 copy="Necrolord_Shadowflame_Prism_Mindbender","Base"
 covenant=necrolord
 shadowlands.volatile_solvent_type=mastery
-soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11/323074/352110
+soulbind=plague_deviser_marileth,${conduits.first.id}:15/${conduits.second.id}:15/mind_devourer:15/323074/352110
 talents=${talents.mindbender}
 head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
 
@@ -65,7 +65,7 @@ head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_i
 copy="Necrolord_Pallid_Command","Base"
 covenant=necrolord
 shadowlands.volatile_solvent_type=mastery
-soulbind=plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11/323074/352110
+soulbind=plague_deviser_marileth,${conduits.first.id}:15/${conduits.second.id}:15/mind_devourer:15/323074/352110
 talents=${talents.void_torrent}
 head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
 

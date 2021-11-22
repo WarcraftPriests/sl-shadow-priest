@@ -93,7 +93,7 @@ def build_stats_files():
             "crit": generate_stat_string(dist, "crit")
         }
         rating_combinations.append(combination)
-    print(f"Simming {rating_combinations} number of combinations")
+    print(f"Simming {len(rating_combinations)} number of combinations")
     output_file = f"{args.dir}/generated.simc"
     base_stats = f"""gear_crit_rating={int(stats_base)}
 gear_haste_rating={int(stats_base)}
@@ -191,6 +191,13 @@ def replace_legendary(data, sim_type, covenant_string):
     return data
 
 
+def replace_gear(data):
+    """replaces gear based on the default in config"""
+    for slot in config["gear"]:
+        data = data.replace(f"${{gear.{slot}}}", config["gear"][slot])
+    return data
+
+
 def build_profiles(talent_string, covenant_string):
     # pylint: disable=R0912, too-many-locals, too-many-statements, line-too-long, too-many-nested-blocks, simplifiable-if-statement
     """build combination list e.g. pw_sa_1"""
@@ -223,6 +230,7 @@ def build_profiles(talent_string, covenant_string):
                 talents_expr = config["builds"][talent_string]["composite"]
         else:
             talents_expr = ''
+        data = replace_gear(data)
         # insert soulbinds before we replace conduits
         if covenant_string:
             if args.dungeons:
