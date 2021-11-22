@@ -12,7 +12,7 @@ shoulders=${gear.shoulders}
 back=${gear.back}
 chest=${gear.chest},enchant=eternal_stats
 wrists=${gear.wrists},enchant=eternal_intellect
-hands=${gear.hands},ilevel=252
+hands=${gear.hands}
 waist=${gear.waist}
 legs=${gear.legs}
 feet=${gear.feet}

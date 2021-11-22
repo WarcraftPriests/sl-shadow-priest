@@ -5,13 +5,13 @@ position=back
 spec=shadow
 talents=${talents}
 
-head=${gear.head},bonus_id=${legendary.id}
+head=${gear.head},bonus_id=${covenant.id}/${legendary.id}
 neck=${gear.neck}
 shoulders=${gear.shoulders}
 back=${gear.back}
 chest=${gear.chest}
 wrists=${gear.wrists}
-hands=${gear.hands},ilevel=252
+hands=${gear.hands}
 waist=${gear.waist}
 legs=${gear.legs}
 feet=${gear.feet}

@@ -157,6 +157,8 @@ def update_talents(talent_string, replacement):
     """replaces talent in string with given replacement"""
     new_talents = ""
     talent_string = str(talent_string)
+    if replacement == "damnation":
+        new_talents = talent_string[:5] + "1" + talent_string[6:]
     if replacement == "mindbender":
         new_talents = talent_string[:5] + "2" + talent_string[6:]
     if replacement == "void_torrent":
@@ -178,7 +180,7 @@ def shadowflame_active(sim_type, covenant_string):
 
 def talents_override(data):
     """determines if there are talent overrides in the original data"""
-    return "${talents.mindbender}" in data or "${talents.void_torrent}" in data
+    return "${talents.damnation}" in data or "${talents.mindbender}" in data or "${talents.void_torrent}" in data
 
 
 def replace_legendary(data, sim_type, covenant_string):
@@ -244,6 +246,8 @@ def build_profiles(talent_string, covenant_string):
         # insert talents in here so copy= works correctly
         if talents_expr:
             data = data.replace("${talents}", str(talents_expr))
+            data = data.replace("${talents.damnation}", update_talents(
+                str(talents_expr), "damnation"))
             data = data.replace("${talents.mindbender}", update_talents(
                 str(talents_expr), "mindbender"))
             data = data.replace("${talents.void_torrent}", update_talents(

@@ -81,7 +81,7 @@ gear:
   back: "drape_of_twisted_loyalties,id=180123,ilevel=252"
   chest: "sacrificers_sacramental_cassock,id=186282,ilevel=252"
   wrists: "desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130"
-  hands: "grasps_of_the_clairvoyant_sage,id=186288"
+  hands: "grasps_of_the_clairvoyant_sage,id=186288,ilevel=252"
   waist: "sash_of_duplicitous_magics,id=186322,ilevel=259,gem_id=173130"
   legs: "muehzalas_hexthread_sarong,id=179351,bonus_id=7187/1540,ilevel=252"
   feet: "sandals_of_sacred_symmetry,id=186354,ilevel=252"
@@ -335,6 +335,20 @@ sims:
       - DPS
     files:
       - generated.simc
+  talent-builds:
+    description: "Sims various combinations of power with different Talent builds."
+    builds: false
+    weights: false
+    chart: true
+    covenant:
+      lookup: true
+      files: true
+    legendary: false
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - builds.simc
   talents:
     description: "Sims every talent build against each other with no borrowed power."
     builds: false
@@ -351,20 +365,20 @@ sims:
       - AM.simc
       - HV.simc
       - STM.simc
-  talent-builds:
-    description: "Sims various combinations of power with different Talent builds."
-    builds: false
+  tiersets:
+    description: "Sims each tier set currently available by just activating the set, not with the gear."
+    builds: true
     weights: false
     chart: true
     covenant:
       lookup: true
-      files: true
-    legendary: false
-    lookupType: none
+      files: false
+    legendary: true
+    lookupType: spell
     steps:
       - DPS
     files:
-      - builds.simc
+      - tiersets.simc
   trinket-combos:
     description: Combines the top trinkets together to get your BiS 2 trinkets.
     builds: true
