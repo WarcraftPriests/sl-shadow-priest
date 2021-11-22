@@ -29,7 +29,7 @@ covenant=venthyr
 soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750
 talents=${talents.void_torrent}
 shadowlands.party_favor_type=haste
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7162
+head=${gear.head},bonus_id=7162
 
 # Venthyr_Theotar_Haste
 copy="Venthyr_Shadowflame_Prism_Mindbender","Base"
@@ -37,21 +37,21 @@ covenant=venthyr
 soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750
 talents=${talents.mindbender}
 shadowlands.party_favor_type=haste
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
+head=${gear.head},bonus_id=6982
 
 # Kyrian_Forgelite_Talbadars
 copy="Kyrian_Talbadars_Stratagem","Base"
 covenant=kyrian
 soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/333950/352186/352188
 talents=${talents.void_torrent}
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7162
+head=${gear.head},bonus_id=7162
 
 # Night_Fae_Dreamweaver
 copy="Night_Fae_Shadowflame_Prism_Mindbender","Base"
 covenant=night_fae
 soulbind=dreamweaver,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/319191/352786
 talents=${talents.mindbender}
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
+head=${gear.head},bonus_id=6982
 
 # Necrolord_Marileth_Mastery_PC
 copy="Necrolord_Shadowflame_Prism_Mindbender","Base"
@@ -59,7 +59,7 @@ covenant=necrolord
 shadowlands.volatile_solvent_type=mastery
 soulbind=plague_deviser_marileth,${conduits.first.id}:15/${conduits.second.id}:15/mind_devourer:15/323074/352110
 talents=${talents.mindbender}
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=6982
+head=${gear.head},bonus_id=6982
 
 # Necrolord_Marileth_Mastery_PC
 copy="Necrolord_Pallid_Command","Base"
@@ -67,6 +67,6 @@ covenant=necrolord
 shadowlands.volatile_solvent_type=mastery
 soulbind=plague_deviser_marileth,${conduits.first.id}:15/${conduits.second.id}:15/mind_devourer:15/323074/352110
 talents=${talents.void_torrent}
-head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130/187320,bonus_id=7729
+head=${gear.head},bonus_id=7729
 
 single_actor_batch=1

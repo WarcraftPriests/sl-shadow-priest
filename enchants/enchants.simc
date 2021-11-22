@@ -22,27 +22,27 @@ trinket2=${gear.trinket2}
 main_hand=${gear.main_hand}
 
 # Weapons
-profileset."Weapon_Lightless_Force"+=main_hand=maledict_opus,id=186406,ilevel=259,enchant=lightless_force
-profileset."Weapon_Sinful_Revelation"+=main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation
-profileset."Weapon_Celestial_Guidance"+=main_hand=maledict_opus,id=186406,ilevel=259,enchant=celestial_guidance
+profileset."Weapon_Lightless_Force"+=main_hand=${gear.main_hand},enchant=lightless_force
+profileset."Weapon_Sinful_Revelation"+=main_hand=${gear.main_hand},enchant=sinful_revelation
+profileset."Weapon_Celestial_Guidance"+=main_hand=${gear.main_hand},enchant=celestial_guidance
 
 # Bracers
-profileset."Wrists_Illuminated_Soul"+=wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130,enchant=illuminated_soul
-profileset."Wrists_Eternal_Intellect"+=wrists=desecrators_keening_wristwraps,id=186321,ilevel=259,gem_id=173130,enchant=eternal_intellect
+profileset."Wrists_Illuminated_Soul"+=wrists=${gear.wrists},enchant=illuminated_soul
+profileset."Wrists_Eternal_Intellect"+=wrists=${gear.wrists},enchant=eternal_intellect
 
 # Chest
-profileset."Chest_Eternal_Bounds"+=chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_bounds
-profileset."Chest_Eternal_Stats"+=chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_stats
-profileset."Chest_Eternal_Insight"+=chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=eternal_insight
-profileset."Chest_Sacred_Stats"+=chest=sacrificers_sacramental_cassock,id=186282,ilevel=252,enchant=sacred_stats
+profileset."Chest_Eternal_Bounds"+=chest=${gear.chest},enchant=eternal_bounds
+profileset."Chest_Eternal_Stats"+=chest=${gear.chest},enchant=eternal_stats
+profileset."Chest_Eternal_Insight"+=chest=${gear.chest},enchant=eternal_insight
+profileset."Chest_Sacred_Stats"+=chest=${gear.chest},enchant=sacred_stats
 
 # Ring
-profileset."Ring_Tenet_of_Critical_Strike"+=finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_of_critical_strike
-profileset."Ring_Tenet_of_Versatility"+=finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_of_versatility
-profileset."Ring_Tenet_of_Haste"+=finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_of_haste
-profileset."Ring_Tenet_of_Mastery"+=finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=tenet_of_mastery
+profileset."Ring_Tenet_of_Critical_Strike"+=finger1=${gear.finger1},enchant=tenet_of_critical_strike
+profileset."Ring_Tenet_of_Versatility"+=finger1=${gear.finger1},enchant=tenet_of_versatility
+profileset."Ring_Tenet_of_Haste"+=finger1=${gear.finger1},enchant=tenet_of_haste
+profileset."Ring_Tenet_of_Mastery"+=finger1=${gear.finger1},enchant=tenet_of_mastery
 
-profileset."Ring_Bargain_of_Critical_Strike"+=finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=bargain_of_critical_strike
-profileset."Ring_Bargain_of_Versatility"+=finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=bargain_of_versatility
-profileset."Ring_Bargain_of_Haste"+=finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=bargain_of_haste
-profileset."Ring_Bargain_of_Mastery"+=finger1=sworn_oath_of_the_nine,id=186290,ilevel=252,gem_id=173130,enchant=bargain_of_mastery
+profileset."Ring_Bargain_of_Critical_Strike"+=finger1=${gear.finger1},enchant=bargain_of_critical_strike
+profileset."Ring_Bargain_of_Versatility"+=finger1=${gear.finger1},enchant=bargain_of_versatility
+profileset."Ring_Bargain_of_Haste"+=finger1=${gear.finger1},enchant=bargain_of_haste
+profileset."Ring_Bargain_of_Mastery"+=finger1=${gear.finger1},enchant=bargain_of_mastery

@@ -34,19 +34,19 @@ main_hand=${gear.main_hand},enchant=sinful_revelation
 # Kyrian_Forgelite_Talbadars
 # soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/333950/352186/352188
 
-profileset."Spheres_Harmony-Shadowflame_Prism"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7728
-profileset."Spheres_Harmony-Shadowflame_Prism"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6982
+profileset."Spheres_Harmony-Shadowflame_Prism"+=head=${gear.head},bonus_id=7728
+profileset."Spheres_Harmony-Shadowflame_Prism"+=neck=${gear.neck},bonus_id=6982
 profileset."Spheres_Harmony-Shadowflame_Prism"+=talents=${talents.mindbender}
 profileset."Spheres_Harmony-Shadowflame_Prism"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/114:15/333950/352186/352188
 
-profileset."Spheres_Harmony-Painbreaker_Psalm"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7728
-profileset."Spheres_Harmony-Painbreaker_Psalm"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6981
+profileset."Spheres_Harmony-Painbreaker_Psalm"+=head=${gear.head},bonus_id=7728
+profileset."Spheres_Harmony-Painbreaker_Psalm"+=neck=${gear.neck},bonus_id=6981
 
-profileset."Spheres_Harmony-Eternal_Call_to_the_Void"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7728
-profileset."Spheres_Harmony-Eternal_Call_to_the_Void"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6983
+profileset."Spheres_Harmony-Eternal_Call_to_the_Void"+=head=${gear.head},bonus_id=7728
+profileset."Spheres_Harmony-Eternal_Call_to_the_Void"+=neck=${gear.neck},bonus_id=6983
 
-profileset."Spheres_Harmony-Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7728
-profileset."Spheres_Harmony-Talbadars_Stratagem"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=7162
+profileset."Spheres_Harmony-Talbadars_Stratagem"+=head=${gear.head},bonus_id=7728
+profileset."Spheres_Harmony-Talbadars_Stratagem"+=neck=${gear.neck},bonus_id=7162
 
-profileset."Spheres_Harmony-Kiss_of_Death"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7728
-profileset."Spheres_Harmony-Kiss_of_Death"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6979
+profileset."Spheres_Harmony-Kiss_of_Death"+=head=${gear.head},bonus_id=7728
+profileset."Spheres_Harmony-Kiss_of_Death"+=neck=${gear.neck},bonus_id=6979

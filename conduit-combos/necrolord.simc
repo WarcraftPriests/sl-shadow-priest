@@ -9,7 +9,7 @@ talents=${talents.void_torrent}
 default_actions=1
 
 # Pallid Command
-head=${gear.head},bonus_id=7729
+head=${gear.head},bonus_id=${covenant.id}/${legendary.id}
 neck=${gear.neck}
 shoulders=${gear.shoulders}
 back=${gear.back}

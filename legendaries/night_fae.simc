@@ -26,52 +26,52 @@ trinket2=${gear.trinket2}
 main_hand=${gear.main_hand},enchant=sinful_revelation
 
 # Covenant Legendary
-profileset."Bwonsamdis_Pact_Benevolent"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7703
-profileset."Bwonsamdis_Pact_Wrathful"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7703
+profileset."Bwonsamdis_Pact_Benevolent"+=head=${gear.head},bonus_id=7703
+profileset."Bwonsamdis_Pact_Wrathful"+=head=${gear.head},bonus_id=7703
 profileset."Bwonsamdis_Pact_Wrathful"+=priest.bwonsamdis_pact_mask_type="wrathful"
 
 # Shadow Priest Legendaries
 # Shadowflame Prism
-profileset."Shadowflame_Prism"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=6982
+profileset."Shadowflame_Prism"+=head=${gear.head},bonus_id=6982
 
-profileset."Shadowflame_Prism_Mindbender"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=6982
+profileset."Shadowflame_Prism_Mindbender"+=head=${gear.head},bonus_id=6982
 profileset."Shadowflame_Prism_Mindbender"+=talents=${talents.mindbender}
 
 # Drop MD for RS
-profileset."Shadowflame_Prism_Rabid_Shadows_15"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=6982
+profileset."Shadowflame_Prism_Rabid_Shadows_15"+=head=${gear.head},bonus_id=6982
 profileset."Shadowflame_Prism_Rabid_Shadows_15"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/114:15
 
-profileset."Shadowflame_Prism_Rabid_Shadows_15_Mindbender"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=6982
+profileset."Shadowflame_Prism_Rabid_Shadows_15_Mindbender"+=head=${gear.head},bonus_id=6982
 profileset."Shadowflame_Prism_Rabid_Shadows_15_Mindbender"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/114:15
 profileset."Shadowflame_Prism_Rabid_Shadows_15_Mindbender"+=talents=${talents.mindbender}
 
 # Painbreaker Psalm
-profileset."Painbreaker_Psalm"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=6981
+profileset."Painbreaker_Psalm"+=head=${gear.head},bonus_id=6981
 
 # PI Others
-profileset."Twins_of_the_Sun_Priestess_Conduit_15"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7002
+profileset."Twins_of_the_Sun_Priestess_Conduit_15"+=head=${gear.head},bonus_id=7002
 profileset."Twins_of_the_Sun_Priestess_Conduit_15"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/73:15
 
 # Eternal Call to the Void
-profileset."Eternal_Call_to_the_Void"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=6983
+profileset."Eternal_Call_to_the_Void"+=head=${gear.head},bonus_id=6983
 
 # Talbadar's Stratagem
-profileset."Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
+profileset."Talbadars_Stratagem"+=head=${gear.head},bonus_id=7162
 
 # Using MD by default so dont need this
-# profileset."Talbadars_Stratagem_Mind_Devourer_9"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7162
+# profileset."Talbadars_Stratagem_Mind_Devourer_9"+=head=${gear.head},bonus_id=7162
 # profileset."Talbadars_Stratagem_Mind_Devourer_9"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/mind_devourer:15
 
 # Generic Legendaries
 # Judgment of the Arbiter
-profileset."Judgment_of_the_Arbiter"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7101
+profileset."Judgment_of_the_Arbiter"+=head=${gear.head},bonus_id=7101
 
 # Sephuz's Proclamation
-profileset."Sephuzs_Proclamation"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7103
+profileset."Sephuzs_Proclamation"+=head=${gear.head},bonus_id=7103
 
 # Third Eye of the Jailer
-profileset."Third_Eye_of_the_Jailer"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7105
+profileset."Third_Eye_of_the_Jailer"+=head=${gear.head},bonus_id=7105
 
 # Echo of Eonar
 # TODO: Add allies?
-profileset."Echo_of_Eonar"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7100
+profileset."Echo_of_Eonar"+=head=${gear.head},bonus_id=7100

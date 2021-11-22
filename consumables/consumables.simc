@@ -5,7 +5,7 @@ position=back
 spec=shadow
 talents=${talents}
 
-head=${gear.head},bonus_id=${legendary.id}
+head=${gear.head},bonus_id=${covenant.id}/${legendary.id}
 neck=${gear.neck}
 shoulders=${gear.shoulders}
 back=${gear.back}
@@ -30,12 +30,12 @@ flask=disabled
 profileset."Veiled_Augment_Rune"+=augmentation=veiled_augment_rune
 
 # Gems - Deadly Jewel Cluster
-profileset."16_Versatility"+=main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation,gem_id=173129
-profileset."16_Critical_Strike"+=main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation,gem_id=173127
-profileset."16_Mastery"+=main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation,gem_id=173130
-profileset."16_Haste"+=main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation,gem_id=173128
-profileset."7_Intellect"+=main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation,gem_id=168638
-profileset."6_Intellect"+=main_hand=maledict_opus,id=186406,ilevel=259,enchant=sinful_revelation,gem_id=153709
+profileset."16_Versatility"+=main_hand=${gear.main_hand},enchant=sinful_revelation,gem_id=173129
+profileset."16_Critical_Strike"+=main_hand=${gear.main_hand},enchant=sinful_revelation,gem_id=173127
+profileset."16_Mastery"+=main_hand=${gear.main_hand},enchant=sinful_revelation,gem_id=173130
+profileset."16_Haste"+=main_hand=${gear.main_hand},enchant=sinful_revelation,gem_id=173128
+profileset."7_Intellect"+=main_hand=${gear.main_hand},enchant=sinful_revelation,gem_id=168638
+profileset."6_Intellect"+=main_hand=${gear.main_hand},enchant=sinful_revelation,gem_id=153709
 
 # Flasks
 profileset."Spectral_Flask_of_Power"+=flask=spectral_flask_of_power

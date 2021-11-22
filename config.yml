@@ -55,22 +55,22 @@ legendary:
     single: "6982" # Shadowflame Prism
     covenants:
       kyrian:
-        covenant: "" # Sphere's Harmony
+        covenant: "7728" # Sphere's Harmony
         composite: "7162" # Talbadar's Stratagem
         dungeons: "6982" # Shadowflame Prism
         single: "7162" # Talbadar's Stratagem
       necrolord:
         covenant: "7729" # Pallid Command
-        composite: "7729" # Pallid Command
-        dungeons: "7729" # Pallid Command
-        single: "7729" # Pallid Command
+        composite: "6982" # Shadowflame Prism
+        dungeons: "6982" # Shadowflame Prism
+        single: "6982" # Shadowflame Prism
       night_fae:
-        covenant: "" # Bwonsamdi's Pact
+        covenant: "7703" # Bwonsamdi's Pact
         composite: "6982" # Shadowflame Prism
         dungeons: "6982" # Shadowflame Prism
         single: "6982" # Shadowflame Prism
       venthyr:
-        covenant: "" # Shadow Word: Manipulation
+        covenant: "7704" # Shadow Word: Manipulation
         composite: "6982" # Shadowflame Prism
         dungeons: "6982" # Shadowflame Prism
         single: "6982" # Shadowflame Prism

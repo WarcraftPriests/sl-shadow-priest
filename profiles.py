@@ -182,10 +182,12 @@ def talents_override(data):
 
 
 def replace_legendary(data, sim_type, covenant_string):
-    """replaces legendary.id with the appropriate legendary from config"""
+    """replaces legendary.id and covenant.id with the appropriate legendary from config"""
     if covenant_string:
         data = data.replace("${legendary.id}",
                             config["legendary"]["covenants"][covenant_string][sim_type])
+        data = data.replace(
+            "${covenant.id}", config["legendary"]["covenants"][covenant_string]["covenant"])
     else:
         data = data.replace("${legendary.id}", config["legendary"][sim_type])
     return data

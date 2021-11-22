@@ -34,19 +34,19 @@ main_hand=${gear.main_hand},enchant=sinful_revelation
 # Night_Fae_Dreamweaver
 # soulbind=dreamweaver,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/319191/352786
 
-profileset."Bwonsamdis_Pact-Shadowflame_Prism"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7703
-profileset."Bwonsamdis_Pact-Shadowflame_Prism"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6982
+profileset."Bwonsamdis_Pact-Shadowflame_Prism"+=head=${gear.head},bonus_id=7703
+profileset."Bwonsamdis_Pact-Shadowflame_Prism"+=neck=${gear.neck},bonus_id=6982
 profileset."Bwonsamdis_Pact-Shadowflame_Prism"+=talents=${talents.mindbender}
 profileset."Bwonsamdis_Pact-Shadowflame_Prism"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/114:15/319191/352786
 
-profileset."Bwonsamdis_Pact-Painbreaker_Psalm"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7703
-profileset."Bwonsamdis_Pact-Painbreaker_Psalm"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6981
+profileset."Bwonsamdis_Pact-Painbreaker_Psalm"+=head=${gear.head},bonus_id=7703
+profileset."Bwonsamdis_Pact-Painbreaker_Psalm"+=neck=${gear.neck},bonus_id=6981
 
-profileset."Bwonsamdis_Pact-Eternal_Call_to_the_Void"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7703
-profileset."Bwonsamdis_Pact-Eternal_Call_to_the_Void"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6983
+profileset."Bwonsamdis_Pact-Eternal_Call_to_the_Void"+=head=${gear.head},bonus_id=7703
+profileset."Bwonsamdis_Pact-Eternal_Call_to_the_Void"+=neck=${gear.neck},bonus_id=6983
 
-profileset."Bwonsamdis_Pact-Talbadars_Stratagem"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7703
-profileset."Bwonsamdis_Pact-Talbadars_Stratagem"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=7162
+profileset."Bwonsamdis_Pact-Talbadars_Stratagem"+=head=${gear.head},bonus_id=7703
+profileset."Bwonsamdis_Pact-Talbadars_Stratagem"+=neck=${gear.neck},bonus_id=7162
 
-profileset."Bwonsamdis_Pact-Kiss_of_Death"+=head=veil_of_the_banshee_queen,id=186325,ilevel=259,gem_id=173130,bonus_id=7703
-profileset."Bwonsamdis_Pact-Kiss_of_Death"+=neck=interplanar_keystone,id=186379,ilevel=259,gem_id=173130,bonus_id=6979
+profileset."Bwonsamdis_Pact-Kiss_of_Death"+=head=${gear.head},bonus_id=7703
+profileset."Bwonsamdis_Pact-Kiss_of_Death"+=neck=${gear.neck},bonus_id=6979
