@@ -8,6 +8,8 @@ covenant=necrolord
 soulbind=plague_deviser_marileth,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/323074/352110
 
 default_actions=1
+set_bonus=tier28_2pc=1
+set_bonus=tier28_4pc=1
 
 head=${gear.head}
 neck=${gear.neck}

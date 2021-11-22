@@ -8,6 +8,8 @@ covenant=kyrian
 soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/333950/352186/352188
 
 default_actions=1
+set_bonus=tier28_2pc=1
+set_bonus=tier28_4pc=1
 
 head=${gear.head}
 neck=${gear.neck}

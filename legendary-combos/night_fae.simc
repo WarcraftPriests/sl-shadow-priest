@@ -8,6 +8,8 @@ covenant=night_fae
 soulbind=dreamweaver,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/319191/352786
 
 default_actions=1
+set_bonus=tier28_2pc=1
+set_bonus=tier28_4pc=1
 
 head=${gear.head}
 neck=${gear.neck}

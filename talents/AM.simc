@@ -5,6 +5,8 @@ position=back
 spec=shadow
 
 default_actions=1
+set_bonus=tier28_2pc=1
+set_bonus=tier28_4pc=1
 
 head=${gear.head}
 neck=${gear.neck}

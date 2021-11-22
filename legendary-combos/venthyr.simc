@@ -8,6 +8,8 @@ covenant=venthyr
 soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/336239/351750
 
 default_actions=1
+set_bonus=tier28_2pc=1
+set_bonus=tier28_4pc=1
 
 head=${gear.head}
 neck=${gear.neck}
