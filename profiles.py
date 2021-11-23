@@ -179,6 +179,7 @@ def shadowflame_active(sim_type, covenant_string):
 
 
 def talents_override(data):
+    # pylint: disable=line-too-long
     """determines if there are talent overrides in the original data"""
     return "${talents.damnation}" in data or "${talents.mindbender}" in data or "${talents.void_torrent}" in data
 

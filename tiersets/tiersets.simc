@@ -9,7 +9,7 @@ soulbind=${soulbind}
 
 default_actions=1
 
-head=${gear.head},bonus_id=${covenant.id}/${legendary.id}id}
+head=${gear.head},bonus_id=${covenant.id}/${legendary.id}
 neck=${gear.neck}
 shoulders=${gear.shoulders}
 back=${gear.back}
