@@ -36,41 +36,50 @@ main_hand=${gear.main_hand},enchant=sinful_revelation
 # Venthyr_Theotar
 # soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/336239/351750
 
-# TODO: Check Shattered Perceptions conduit combos (drop DE?)
-profileset."Shadow_Word_Manipulation-Shadowflame_Prism"+=head=${gear.head},bonus_id=7704
-profileset."Shadow_Word_Manipulation-Shadowflame_Prism"+=neck=${gear.neck},bonus_id=6982
-profileset."Shadow_Word_Manipulation-Shadowflame_Prism"+=talents=${talents.mindbender}
-profileset."Shadow_Word_Manipulation-Shadowflame_Prism"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/114:15
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_DE_RS"+=head=${gear.head},bonus_id=7704
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_DE_RS"+=neck=${gear.neck},bonus_id=6982
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_DE_RS"+=talents=${talents.mindbender}
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_DE_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/114:15
 
-profileset."Shadow_Word_Manipulation-Painbreaker_Psalm"+=head=${gear.head},bonus_id=7704
-profileset."Shadow_Word_Manipulation-Painbreaker_Psalm"+=neck=${gear.neck},bonus_id=6981
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_MD_RS"+=head=${gear.head},bonus_id=7704
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_MD_RS"+=neck=${gear.neck},bonus_id=6982
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_MD_RS"+=talents=${talents.mindbender}
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_MD_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/mind_devourer:15/114:15
 
-profileset."Shadow_Word_Manipulation-Eternal_Call_to_the_Void"+=head=${gear.head},bonus_id=7704
-profileset."Shadow_Word_Manipulation-Eternal_Call_to_the_Void"+=neck=${gear.neck},bonus_id=6983
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_MD_SP"+=head=${gear.head},bonus_id=7704
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_MD_SP"+=neck=${gear.neck},bonus_id=6982
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_MD_SP"+=talents=${talents.mindbender}
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_MD_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/shattered_perceptions:15/114:15
 
-profileset."Shadow_Word_Manipulation-Talbadars_Stratagem"+=head=${gear.head},bonus_id=7704
-profileset."Shadow_Word_Manipulation-Talbadars_Stratagem"+=neck=${gear.neck},bonus_id=7162
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_SP_RS"+=head=${gear.head},bonus_id=7704
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_SP_RS"+=neck=${gear.neck},bonus_id=6982
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_SP_RS"+=talents=${talents.mindbender}
+profileset."Shadow_Word_Manipulation-Shadowflame_Prism-HA_SP_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/shattered_perceptions:15/114:15/336239/351750
 
-profileset."Shadow_Word_Manipulation-Kiss_of_Death"+=head=${gear.head},bonus_id=7704
-profileset."Shadow_Word_Manipulation-Kiss_of_Death"+=neck=${gear.neck},bonus_id=6979
+profileset."Shadow_Word_Manipulation-Painbreaker_Psalm-HA_DE_MD"+=head=${gear.head},bonus_id=7704
+profileset."Shadow_Word_Manipulation-Painbreaker_Psalm-HA_DE_MD"+=neck=${gear.neck},bonus_id=6981
 
-profileset."Shadow_Word_Manipulation_SP-Shadowflame_Prism"+=head=${gear.head},bonus_id=7704
-profileset."Shadow_Word_Manipulation_SP-Shadowflame_Prism"+=neck=${gear.neck},bonus_id=6982
-profileset."Shadow_Word_Manipulation_SP-Shadowflame_Prism"+=talents=${talents.mindbender}
-profileset."Shadow_Word_Manipulation_SP-Shadowflame_Prism"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/shattered_perceptions:15/114:15/336239/351750
+profileset."Shadow_Word_Manipulation-Painbreaker_Psalm-HA_DE_SP"+=head=${gear.head},bonus_id=7704
+profileset."Shadow_Word_Manipulation-Painbreaker_Psalm-HA_DE_SP"+=neck=${gear.neck},bonus_id=6981
+profileset."Shadow_Word_Manipulation-Painbreaker_Psalm-HA_DE_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750
 
-profileset."Shadow_Word_Manipulation_SP-Painbreaker_Psalm"+=head=${gear.head},bonus_id=7704
-profileset."Shadow_Word_Manipulation_SP-Painbreaker_Psalm"+=neck=${gear.neck},bonus_id=6981
-profileset."Shadow_Word_Manipulation_SP-Painbreaker_Psalm"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750
+profileset."Shadow_Word_Manipulation-Eternal_Call_to_the_Void-HA_DE_MD"+=head=${gear.head},bonus_id=7704
+profileset."Shadow_Word_Manipulation-Eternal_Call_to_the_Void-HA_DE_MD"+=neck=${gear.neck},bonus_id=6983
 
-profileset."Shadow_Word_Manipulation_SP-Eternal_Call_to_the_Void"+=head=${gear.head},bonus_id=7704
-profileset."Shadow_Word_Manipulation_SP-Eternal_Call_to_the_Void"+=neck=${gear.neck},bonus_id=6983
-profileset."Shadow_Word_Manipulation_SP-Eternal_Call_to_the_Void"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750
+profileset."Shadow_Word_Manipulation-Eternal_Call_to_the_Void-HA_DE_SP"+=head=${gear.head},bonus_id=7704
+profileset."Shadow_Word_Manipulation-Eternal_Call_to_the_Void-HA_DE_SP"+=neck=${gear.neck},bonus_id=6983
+profileset."Shadow_Word_Manipulation-Eternal_Call_to_the_Void-HA_DE_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750
 
-profileset."Shadow_Word_Manipulation_SP-Talbadars_Stratagem"+=head=${gear.head},bonus_id=7704
-profileset."Shadow_Word_Manipulation_SP-Talbadars_Stratagem"+=neck=${gear.neck},bonus_id=7162
-profileset."Shadow_Word_Manipulation_SP-Talbadars_Stratagem"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750
+profileset."Shadow_Word_Manipulation-Talbadars_Stratagem-HA_DE_MD"+=head=${gear.head},bonus_id=7704
+profileset."Shadow_Word_Manipulation-Talbadars_Stratagem-HA_DE_MD"+=neck=${gear.neck},bonus_id=7162
 
-profileset."Shadow_Word_Manipulation_SP-Kiss_of_Death"+=head=${gear.head},bonus_id=7704
-profileset."Shadow_Word_Manipulation_SP-Kiss_of_Death"+=neck=${gear.neck},bonus_id=6979
-profileset."Shadow_Word_Manipulation_SP-Kiss_of_Death"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750
+profileset."Shadow_Word_Manipulation-Talbadars_Stratagem-HA_DE_SP"+=head=${gear.head},bonus_id=7704
+profileset."Shadow_Word_Manipulation-Talbadars_Stratagem-HA_DE_SP"+=neck=${gear.neck},bonus_id=7162
+profileset."Shadow_Word_Manipulation-Talbadars_Stratagem-HA_DE_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750
+
+profileset."Shadow_Word_Manipulation-Kiss_of_Death-HA_DE_MD"+=head=${gear.head},bonus_id=7704
+profileset."Shadow_Word_Manipulation-Kiss_of_Death-HA_DE_MD"+=neck=${gear.neck},bonus_id=6979
+
+profileset."Shadow_Word_Manipulation-Kiss_of_Death-HA_DE_SP"+=head=${gear.head},bonus_id=7704
+profileset."Shadow_Word_Manipulation-Kiss_of_Death-HA_DE_SP"+=neck=${gear.neck},bonus_id=6979
+profileset."Shadow_Word_Manipulation-Kiss_of_Death-HA_DE_SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750

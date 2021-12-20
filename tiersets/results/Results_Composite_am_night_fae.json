@@ -1,1 +1,1 @@
-{"name": "Composite - am - night_fae", "data": {"T28-2_4-set": {"DPS": 10611}, "T28-2-set": {"DPS": 9886}, "Base": {"DPS": 9555}}, "ids": {"T28-2_4-set": null, "T28-2-set": null}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2_4-set", "T28-2-set"], "last_updated": "2021-11-22"}
+{"name": "Composite - am - night_fae", "data": {"T28-2_4-set": {"DPS": 12093}, "T28-2-set": {"DPS": 10130}, "Base": {"DPS": 9555}}, "ids": {"T28-2_4-set": 363469, "T28-2-set": 364424}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2_4-set", "T28-2-set"], "last_updated": "2021-12-18"}

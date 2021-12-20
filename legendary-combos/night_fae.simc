@@ -36,10 +36,20 @@ main_hand=${gear.main_hand},enchant=sinful_revelation
 # Night_Fae_Dreamweaver
 # soulbind=dreamweaver,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/319191/352786
 
-profileset."Bwonsamdis_Pact-Shadowflame_Prism"+=head=${gear.head},bonus_id=7703
-profileset."Bwonsamdis_Pact-Shadowflame_Prism"+=neck=${gear.neck},bonus_id=6982
-profileset."Bwonsamdis_Pact-Shadowflame_Prism"+=talents=${talents.mindbender}
-profileset."Bwonsamdis_Pact-Shadowflame_Prism"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/114:15/319191/352786
+profileset."Bwonsamdis_Pact-Shadowflame_Prism_HA_DE_RS"+=head=${gear.head},bonus_id=7703
+profileset."Bwonsamdis_Pact-Shadowflame_Prism_HA_DE_RS"+=neck=${gear.neck},bonus_id=6982
+profileset."Bwonsamdis_Pact-Shadowflame_Prism_HA_DE_RS"+=talents=${talents.mindbender}
+profileset."Bwonsamdis_Pact-Shadowflame_Prism_HA_DE_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/114:15/319191/352786
+
+profileset."Bwonsamdis_Pact-Shadowflame_Prism_HA_DE_MD"+=head=${gear.head},bonus_id=7703
+profileset."Bwonsamdis_Pact-Shadowflame_Prism_HA_DE_MD"+=neck=${gear.neck},bonus_id=6982
+profileset."Bwonsamdis_Pact-Shadowflame_Prism_HA_DE_MD"+=talents=${talents.mindbender}
+profileset."Bwonsamdis_Pact-Shadowflame_Prism_HA_DE_MD"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/mind_devourer:15/319191/352786
+
+profileset."Bwonsamdis_Pact-Shadowflame_Prism_HA_MD_RS"+=head=${gear.head},bonus_id=7703
+profileset."Bwonsamdis_Pact-Shadowflame_Prism_HA_MD_RS"+=neck=${gear.neck},bonus_id=6982
+profileset."Bwonsamdis_Pact-Shadowflame_Prism_HA_MD_RS"+=talents=${talents.mindbender}
+profileset."Bwonsamdis_Pact-Shadowflame_Prism_HA_MD_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/mind_devourer:15/114:15/319191/352786
 
 profileset."Bwonsamdis_Pact-Painbreaker_Psalm"+=head=${gear.head},bonus_id=7703
 profileset."Bwonsamdis_Pact-Painbreaker_Psalm"+=neck=${gear.neck},bonus_id=6981

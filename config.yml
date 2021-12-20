@@ -13,6 +13,47 @@ builds:
       third:
         id: "113"
         name: MD
+      covenants:
+        kyrian:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "115"
+            name: DE
+          third:
+            id: "113"
+            name: MD
+        night_fae:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "115"
+            name: DE
+          third:
+            id: "114"
+            name: RS
+        necrolord:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "115"
+            name: DE
+          third:
+            id: "114"
+            name: RS
+        venthyr:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "105"
+            name: SP
+          third:
+            id: "114"
+            name: RS
   hv:
     composite: 1111132 # FotM_ToF_AS_VT_HV
     dungeons: 2131322 # DaM_SN_SC_MB_HV
@@ -27,6 +68,47 @@ builds:
       third:
         id: "113"
         name: MD
+      covenants:
+        kyrian:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "115"
+            name: DE
+          third:
+            id: "113"
+            name: MD
+        night_fae:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "115"
+            name: DE
+          third:
+            id: "114"
+            name: RS
+        necrolord:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "115"
+            name: DE
+          third:
+            id: "114"
+            name: RS
+        venthyr:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "105"
+            name: SP
+          third:
+            id: "114"
+            name: RS
 covenants:
   list:
     - kyrian
@@ -39,7 +121,7 @@ covenants:
       dungeons: "forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/333950/333935/352186/352188"
   necrolord:
     soulbind:
-      composite: "plague_deviser_marileth,${conduits.first.id}:15/${conduits.second.id}:15/mind_devourer:15/323074/352110"
+      composite: "plague_deviser_marileth,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/323074/352110"
       dungeons: "bonesmith_heirmir,${conduits.first.id}:15/${conduits.second.id}:15/326572/326514/350899/350936"
   night_fae:
     soulbind:
@@ -48,7 +130,7 @@ covenants:
   venthyr:
     soulbind:
       composite: "theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/336239/351750"
-      dungeons: "nadjia_the_mistblade,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/331586/352373"
+      dungeons: "nadjia_the_mistblade,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/331586/352373"
 legendary:
     composite: "6982" # Shadowflame Prism
     dungeons: "6982" # Shadowflame Prism

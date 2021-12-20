@@ -1,18 +1,18 @@
 # Composite - hv - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Talbadars_Stratagem|10645|5.35%|
-|Talbadars_Stratagem_Mind_Devourer_11|10576|4.67%|
-|Shadowflame_Prism_Rabid_Shadows_11_Mindbender|10517|4.08%|
-|Eternal_Call_to_the_Void|10509|4.01%|
-|Shadowflame_Prism_Mindbender|10489|3.80%|
-|Spheres_Harmony|10342|2.35%|
-|Shadowflame_Prism|10328|2.21%|
-|Painbreaker_Psalm|10276|1.69%|
-|Echo_of_Eonar|10258|1.52%|
-|Judgment_of_the_Arbiter|10217|1.11%|
-|Shadowflame_Prism_Rabid_Shadows_11|10150|0.45%|
-|Sephuzs_Proclamation|10111|0.07%|
-|Base|10104|0.00%|
-|Third_Eye_of_the_Jailer|10100|-0.04%|
-|Twins_of_the_Sun_Priestess_Conduit_11|9923|-1.79%|
+|Shadowflame_Prism_Rabid_Shadows_15_Mindbender|11078|6.41%|
+|Talbadars_Stratagem_Mind_Devourer_15|10993|5.60%|
+|Talbadars_Stratagem|10985|5.51%|
+|Shadowflame_Prism_Mindbender|10966|5.33%|
+|Eternal_Call_to_the_Void|10777|3.52%|
+|Spheres_Harmony|10715|2.93%|
+|Shadowflame_Prism|10622|2.03%|
+|Echo_of_Eonar|10557|1.40%|
+|Judgment_of_the_Arbiter|10521|1.06%|
+|Shadowflame_Prism_Rabid_Shadows_15|10465|0.52%|
+|Sephuzs_Proclamation|10423|0.12%|
+|Base|10411|0.00%|
+|Third_Eye_of_the_Jailer|10409|-0.01%|
+|Twins_of_the_Sun_Priestess_Conduit_15|10373|-0.36%|
+|Painbreaker_Psalm|10347|-0.61%|

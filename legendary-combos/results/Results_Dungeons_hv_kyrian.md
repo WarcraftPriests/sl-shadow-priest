@@ -1,9 +1,9 @@
 # Dungeons - hv - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Spheres_Harmony-Eternal_Call_to_the_Void|10244|11.77%|
-|Spheres_Harmony-Shadowflame_Prism|10100|10.20%|
-|Spheres_Harmony-Talbadars_Stratagem|10030|9.44%|
-|Spheres_Harmony-Painbreaker_Psalm|9831|7.27%|
-|Spheres_Harmony-Kiss_of_Death|9728|6.14%|
-|Base|9165|0.00%|
+|Spheres_Harmony-Shadowflame_Prism|11577|8.65%|
+|Spheres_Harmony-Eternal_Call_to_the_Void|11528|8.19%|
+|Spheres_Harmony-Talbadars_Stratagem|11387|6.87%|
+|Spheres_Harmony-Kiss_of_Death|11021|3.44%|
+|Spheres_Harmony-Painbreaker_Psalm|10950|2.77%|
+|Base|10655|0.00%|

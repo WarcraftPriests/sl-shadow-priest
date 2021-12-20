@@ -235,7 +235,7 @@ profileset."Venthyr_Nadjia_SFP-RS"+=soulbind=nadjia_the_mistblade,${conduits.fir
 profileset."Venthyr_Nadjia_SFP-RS"+=head=${gear.head},bonus_id=7704/6982
 profileset."Venthyr_Nadjia_SFP-RS"+=talents=${talents.mindbender}
 profileset."Venthyr_Nadjia_SFP-SP"+=covenant=venthyr
-profileset."Venthyr_Nadjia_SFP-SP"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/331586/352373
+profileset."Venthyr_Nadjia_SFP-SP"+=soulbind=nadjia_the_mistblade,${conduits.first.id}:15/shattered_perceptions:15/rabid_shadows:15/331586/352373
 profileset."Venthyr_Nadjia_SFP-SP"+=head=${gear.head},bonus_id=7704/6982
 profileset."Venthyr_Nadjia_SFP-SP"+=talents=${talents.mindbender}
 profileset."Venthyr_Nadjia_Talbadars-MD-VoiT"+=covenant=venthyr
@@ -261,7 +261,7 @@ profileset."Venthyr_Theotar_Intellect_SFP-RS"+=shadowlands.party_favor_type=prim
 profileset."Venthyr_Theotar_Intellect_SFP-RS"+=head=${gear.head},bonus_id=7704/6982
 profileset."Venthyr_Theotar_Intellect_SFP-RS"+=talents=${talents.mindbender}
 profileset."Venthyr_Theotar_Intellect_SFP-SP"+=covenant=venthyr
-profileset."Venthyr_Theotar_Intellect_SFP-SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750
+profileset."Venthyr_Theotar_Intellect_SFP-SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/shattered_perceptions:15/rabid_shadows:15/336239/351750
 profileset."Venthyr_Theotar_Intellect_SFP-SP"+=shadowlands.party_favor_type=primary
 profileset."Venthyr_Theotar_Intellect_SFP-SP"+=head=${gear.head},bonus_id=7704/6982
 profileset."Venthyr_Theotar_Intellect_SFP-SP"+=talents=${talents.mindbender}
@@ -291,7 +291,7 @@ profileset."Venthyr_Theotar_Haste_SFP-RS"+=shadowlands.party_favor_type=haste
 profileset."Venthyr_Theotar_Haste_SFP-RS"+=head=${gear.head},bonus_id=7704/6982
 profileset."Venthyr_Theotar_Haste_SFP-RS"+=talents=${talents.mindbender}
 profileset."Venthyr_Theotar_Haste_SFP-SP"+=covenant=venthyr
-profileset."Venthyr_Theotar_Haste_SFP-SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750
+profileset."Venthyr_Theotar_Haste_SFP-SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/shattered_perceptions:15/rabid_shadows:15/336239/351750
 profileset."Venthyr_Theotar_Haste_SFP-SP"+=shadowlands.party_favor_type=haste
 profileset."Venthyr_Theotar_Haste_SFP-SP"+=head=${gear.head},bonus_id=7704/6982
 profileset."Venthyr_Theotar_Haste_SFP-SP"+=talents=${talents.mindbender}
@@ -321,7 +321,7 @@ profileset."Venthyr_Theotar_Crit_SFP-RS"+=shadowlands.party_favor_type=crit
 profileset."Venthyr_Theotar_Crit_SFP-RS"+=head=${gear.head},bonus_id=7704/6982
 profileset."Venthyr_Theotar_Crit_SFP-RS"+=talents=${talents.mindbender}
 profileset."Venthyr_Theotar_Crit_SFP-SP"+=covenant=venthyr
-profileset."Venthyr_Theotar_Crit_SFP-SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750
+profileset."Venthyr_Theotar_Crit_SFP-SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/shattered_perceptions:15/rabid_shadows:15/336239/351750
 profileset."Venthyr_Theotar_Crit_SFP-SP"+=shadowlands.party_favor_type=crit
 profileset."Venthyr_Theotar_Crit_SFP-SP"+=head=${gear.head},bonus_id=7704/6982
 profileset."Venthyr_Theotar_Crit_SFP-SP"+=talents=${talents.mindbender}
@@ -351,7 +351,7 @@ profileset."Venthyr_Theotar_Versatility_SFP-RS"+=shadowlands.party_favor_type=ve
 profileset."Venthyr_Theotar_Versatility_SFP-RS"+=head=${gear.head},bonus_id=7704/6982
 profileset."Venthyr_Theotar_Versatility_SFP-RS"+=talents=${talents.mindbender}
 profileset."Venthyr_Theotar_Versatility_SFP-SP"+=covenant=venthyr
-profileset."Venthyr_Theotar_Versatility_SFP-SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/336239/351750
+profileset."Venthyr_Theotar_Versatility_SFP-SP"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/shattered_perceptions:15/rabid_shadows:15/336239/351750
 profileset."Venthyr_Theotar_Versatility_SFP-SP"+=shadowlands.party_favor_type=versatility
 profileset."Venthyr_Theotar_Versatility_SFP-SP"+=head=${gear.head},bonus_id=7704/6982
 profileset."Venthyr_Theotar_Versatility_SFP-SP"+=talents=${talents.mindbender}
@@ -381,7 +381,7 @@ profileset."Venthyr_Draven_SFP-RS"+=soulbind=general_draven,${conduits.first.id}
 profileset."Venthyr_Draven_SFP-RS"+=head=${gear.head},bonus_id=7704/6982
 profileset."Venthyr_Draven_SFP-RS"+=talents=${talents.mindbender}
 profileset."Venthyr_Draven_SFP-SP"+=covenant=venthyr
-profileset."Venthyr_Draven_SFP-SP"+=soulbind=general_draven,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15/352417
+profileset."Venthyr_Draven_SFP-SP"+=soulbind=general_draven,${conduits.first.id}:15/shattered_perceptions:15/rabid_shadows:15/352417
 profileset."Venthyr_Draven_SFP-SP"+=head=${gear.head},bonus_id=7704/6982
 profileset."Venthyr_Draven_SFP-SP"+=talents=${talents.mindbender}
 profileset."Venthyr_Draven_Talbadars-MD-VoiT"+=covenant=venthyr

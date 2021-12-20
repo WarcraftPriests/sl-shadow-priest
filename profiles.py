@@ -132,7 +132,8 @@ def replace_talents(talent_string, data):
     return data
 
 
-def replace_conduits(talent_string, data, swap_to_rs):
+def replace_conduits(talent_string, data, swap_to_rs, covenant_string):
+    # pylint: disable=line-too-long
     """replace conduits with config values"""
     positions = ["first", "second", "third"]
     items = ["id", "name"]
@@ -147,6 +148,9 @@ def replace_conduits(talent_string, data, swap_to_rs):
                     data = data.replace("${conduits.third.name}", "RS")
                 if item == "id":
                     data = data.replace("${conduits.third.id}", "114")
+            elif covenant_string:
+                data = data.replace(f"${{conduits.{position}.{item}}}",
+                                    config["builds"][talent_string]["conduits"]["covenants"][covenant_string][position][item])
             else:
                 data = data.replace(f"${{conduits.{position}.{item}}}",
                                     config["builds"][talent_string]["conduits"][position][item])
@@ -273,7 +277,7 @@ def build_profiles(talent_string, covenant_string):
                     else:
                         replace_conduit = False
                     sim_data = replace_conduits(
-                        talent_string, sim_data, replace_conduit)
+                        talent_string, sim_data, replace_conduit, covenant_string)
 
                     # Only replace Mindbender talent if using Shadowflame Prism, and it is enabled in config to replace
                     if shadowflame_active("single", covenant_string):
@@ -291,7 +295,7 @@ def build_profiles(talent_string, covenant_string):
                         else:
                             replace_conduit = False
                         sim_data = replace_conduits(
-                            talent_string, sim_data, replace_conduit)
+                            talent_string, sim_data, replace_conduit, covenant_string)
                         # Only replace Mindbender talent if using Shadowflame Prism, and it is not a legendary sim
                         if shadowflame_active("dungeons", covenant_string):
                             sim_data = replace_talents(update_talents(
@@ -307,7 +311,7 @@ def build_profiles(talent_string, covenant_string):
                         else:
                             replace_conduit = False
                         sim_data = replace_conduits(
-                            talent_string, sim_data, replace_conduit)
+                            talent_string, sim_data, replace_conduit, covenant_string)
                         # Only replace Mindbender talent if using Shadowflame Prism, and it is not a legendary sim
                         if shadowflame_active("composite", covenant_string):
                             sim_data = replace_talents(update_talents(

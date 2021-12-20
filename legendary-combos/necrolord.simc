@@ -36,10 +36,20 @@ main_hand=${gear.main_hand},enchant=sinful_revelation
 # Necrolord_Marileth_Mastery_PC
 # soulbind=plague_deviser_marileth,${conduits.first.id}:15/${conduits.second.id}:15/mind_devourer:15/323074/352110
 
-profileset."Pallid_Command-Shadowflame_Prism"+=head=${gear.head},bonus_id=7729
-profileset."Pallid_Command-Shadowflame_Prism"+=neck=${gear.neck},bonus_id=6982
-profileset."Pallid_Command-Shadowflame_Prism"+=talents=${talents.mindbender}
-profileset."Pallid_Command-Shadowflame_Prism"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/114:15/323074/352110
+profileset."Pallid_Command-Shadowflame_Prism_HA_DE_RS"+=head=${gear.head},bonus_id=7729
+profileset."Pallid_Command-Shadowflame_Prism_HA_DE_RS"+=neck=${gear.neck},bonus_id=6982
+profileset."Pallid_Command-Shadowflame_Prism_HA_DE_RS"+=talents=${talents.mindbender}
+profileset."Pallid_Command-Shadowflame_Prism_HA_DE_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/114:15/323074/352110
+
+profileset."Pallid_Command-Shadowflame_Prism_HA_DE_MD"+=head=${gear.head},bonus_id=7729
+profileset."Pallid_Command-Shadowflame_Prism_HA_DE_MD"+=neck=${gear.neck},bonus_id=6982
+profileset."Pallid_Command-Shadowflame_Prism_HA_DE_MD"+=talents=${talents.mindbender}
+profileset."Pallid_Command-Shadowflame_Prism_HA_DE_MD"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/mind_devourer:15/323074/352110
+
+profileset."Pallid_Command-Shadowflame_Prism_HA_MD_RS"+=head=${gear.head},bonus_id=7729
+profileset."Pallid_Command-Shadowflame_Prism_HA_MD_RS"+=neck=${gear.neck},bonus_id=6982
+profileset."Pallid_Command-Shadowflame_Prism_HA_MD_RS"+=talents=${talents.mindbender}
+profileset."Pallid_Command-Shadowflame_Prism_HA_MD_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/rabid_shadows:15/mind_devourer:15/323074/352110
 
 profileset."Pallid_Command-Painbreaker_Psalm"+=head=${gear.head},bonus_id=7729
 profileset."Pallid_Command-Painbreaker_Psalm"+=neck=${gear.neck},bonus_id=6981
