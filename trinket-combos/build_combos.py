@@ -8,15 +8,8 @@ from itertools import combinations
 
 combos = {
     "Forbidden_Necromantic_Tome_259": "forbidden_necromantic_tome,id=186421,ilevel=259",
-    "Forbidden_Necromantic_Tome_246": "forbidden_necromantic_tome,id=186421,ilevel=246",
-    "Tome_of_Monstrous_Constructions_252": "tome_of_monstrous_constructions,id=186422,ilevel=252",
-    "Tome_of_Monstrous_Constructions_239": "tome_of_monstrous_constructions,id=186422,ilevel=239",
     "Titanic_Ocular_Gland_252": "titanic_ocular_gland,id=186423,ilevel=252",
-    "Titanic_Ocular_Gland_239": "titanic_ocular_gland,id=186423,ilevel=239",
     "Shadowed_Orb_of_Torment_252": "shadowed_orb_of_torment,id=186428,ilevel=252",
-    "Shadowed_Orb_of_Torment_239": "shadowed_orb_of_torment,id=186428,ilevel=239",
-    "Ebonsoul_Vise_252": "ebonsoul_vise,id=186431,ilevel=252",
-    "Ebonsoul_Vise_239": "ebonsoul_vise,id=186431,ilevel=239",
     "Empyreal_Ordnance_252": "empyreal_ordnance,id=180117,ilevel=252",
     "Empyreal_Ordnance_242": "empyreal_ordnance,id=180117,ilevel=242",
     "Inscrutable_Quantum_Device_252": "inscrutable_quantum_device,id=179350,ilevel=252",
@@ -26,8 +19,7 @@ combos = {
     "Unbound_Changeling_Mastery_252": "unbound_changeling,id=178708,ilevel=252",
     "Unbound_Changeling_Mastery_246": "unbound_changeling,id=178708,ilevel=246",
     "Unbound_Changeling_Haste_252": "unbound_changeling,id=178708,ilevel=252",
-    "Unbound_Changeling_Haste_246": "unbound_changeling,id=178708,ilevel=246",
-    "Moonlit_Prism_246": "moonlit_prism,id=137541,ilevel=246",
+    "Unbound_Changeling_Haste_246": "unbound_changeling,id=178708,ilevel=246"
 }
 
 
