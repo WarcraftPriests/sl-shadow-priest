@@ -1,8 +1,8 @@
 builds:
   am:
-    composite: 1111131 # FotM_ToF_AS_VT_AM
+    composite: 1111111 # FotM_ToF_AS_DM_AM
     dungeons: 2131321 # DaM_SN_SC_MB_AM
-    single: 1111131 # FotM_ToF_AS_VT_AM
+    single: 1111111 # FotM_ToF_AS_DM_AM
     conduits:
       first:
         id: "107"
@@ -55,9 +55,9 @@ builds:
             id: "114"
             name: RS
   hv:
-    composite: 1111132 # FotM_ToF_AS_VT_HV
+    composite: 1111112 # FotM_ToF_AS_DM_HV
     dungeons: 2131322 # DaM_SN_SC_MB_HV
-    single: 1111132 # FotM_ToF_AS_VT_HV
+    single: 1111112 # FotM_ToF_AS_DM_HV
     conduits:
       first:
         id: "107"
@@ -117,20 +117,20 @@ covenants:
     - necrolord
   kyrian:
     soulbind:
-      composite: "pelagos,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/328266/351146/351149"
-      dungeons: "forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/333950/333935/352186/352188"
+      composite: "pelagos,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/328266/351146/351149"
+      dungeons: "forgelite_prime_mikanikos,${conduits.first.id}:13/${conduits.second.id}:13/333950/333935/352186/352188"
   necrolord:
     soulbind:
-      composite: "plague_deviser_marileth,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/323074/352110"
-      dungeons: "bonesmith_heirmir,${conduits.first.id}:15/${conduits.second.id}:15/326572/326514/350899/350936"
+      composite: "plague_deviser_marileth,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/323074/352110"
+      dungeons: "bonesmith_heirmir,${conduits.first.id}:13/${conduits.second.id}:13/326572/326514/350899/350936"
   night_fae:
     soulbind:
-      composite: "dreamweaver,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/319191/352786"
-      dungeons: "dreamweaver,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/319191/352786"
+      composite: "dreamweaver,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/319191/352786"
+      dungeons: "dreamweaver,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/319191/352786"
   venthyr:
     soulbind:
-      composite: "theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/336239/351750"
-      dungeons: "nadjia_the_mistblade,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/331586/352373"
+      composite: "theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/336239/351750"
+      dungeons: "nadjia_the_mistblade,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/331586/352373"
 legendary:
     composite: "6982" # Shadowflame Prism
     dungeons: "6982" # Shadowflame Prism
@@ -196,7 +196,7 @@ sims:
     covenant:
       lookup: true
       files: true
-    legendary: false
+    legendary: true
     lookupType: none
     steps:
       - DPS
@@ -213,7 +213,7 @@ sims:
     covenant:
       lookup: true
       files: true
-    legendary: false
+    legendary: true
     lookupType: spell
     steps:
       - 145
@@ -229,8 +229,6 @@ sims:
       - 278
       - 291
       - 304
-      - 317
-      - 330
     files:
       - kyrian.simc
       - necrolord.simc

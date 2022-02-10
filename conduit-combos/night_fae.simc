@@ -4,7 +4,7 @@ role=spell
 position=back
 spec=shadow
 covenant=night_fae
-talents=${talents.mindbender}
+talents=${talents}
 
 default_actions=1
 set_bonus=tier28_2pc=1
@@ -29,28 +29,28 @@ main_hand=${gear.main_hand},enchant=sinful_revelation
 # HA (107), DE (115), MD (113), RS (114), FF (101)
 
 # 3 Conduit Combinations
-profileset."HA_DE_MD_3"+=soulbind=theotar_the_mad_duke,107:15/115:15/113:15
-profileset."HA_DE_RS_3"+=soulbind=theotar_the_mad_duke,107:15/115:15/114:15
-profileset."DE_MD_RS_3"+=soulbind=theotar_the_mad_duke,115:15/113:15/114:15
-profileset."HA_MD_RS_3"+=soulbind=theotar_the_mad_duke,107:15/113:15/114:15
+profileset."HA_DE_MD_3"+=soulbind=theotar_the_mad_duke,107:13/115:13/113:13
+profileset."HA_DE_RS_3"+=soulbind=theotar_the_mad_duke,107:13/115:13/114:13
+profileset."DE_MD_RS_3"+=soulbind=theotar_the_mad_duke,115:13/113:13/114:13
+profileset."HA_MD_RS_3"+=soulbind=theotar_the_mad_duke,107:13/113:13/114:13
 
-profileset."HA_RS_FF_3"+=soulbind=theotar_the_mad_duke,107:15/114:15/101:15
-profileset."DE_MD_FF_3"+=soulbind=theotar_the_mad_duke,115:15/113:15/101:15
-profileset."DE_RS_FF_3"+=soulbind=theotar_the_mad_duke,115:15/114:15/101:15
-profileset."MD_RS_FF_3"+=soulbind=theotar_the_mad_duke,113:15/114:15/101:15
-profileset."HA_DE_FF_3"+=soulbind=theotar_the_mad_duke,107:15/115:15/101:15
+profileset."HA_RS_FF_3"+=soulbind=theotar_the_mad_duke,107:13/114:13/101:13
+profileset."DE_MD_FF_3"+=soulbind=theotar_the_mad_duke,115:13/113:13/101:13
+profileset."DE_RS_FF_3"+=soulbind=theotar_the_mad_duke,115:13/114:13/101:13
+profileset."MD_RS_FF_3"+=soulbind=theotar_the_mad_duke,113:13/114:13/101:13
+profileset."HA_DE_FF_3"+=soulbind=theotar_the_mad_duke,107:13/115:13/101:13
 
 # 2 Conduit Combinations
-profileset."HA_DE_2"+=soulbind=theotar_the_mad_duke,107:15/115:15
-profileset."HA_MD_2"+=soulbind=theotar_the_mad_duke,107:15/113:15
-profileset."HA_RS_2"+=soulbind=theotar_the_mad_duke,107:15/114:15
-profileset."HA_FF_2"+=soulbind=theotar_the_mad_duke,107:15/101:15
+profileset."HA_DE_2"+=soulbind=theotar_the_mad_duke,107:13/115:13
+profileset."HA_MD_2"+=soulbind=theotar_the_mad_duke,107:13/113:13
+profileset."HA_RS_2"+=soulbind=theotar_the_mad_duke,107:13/114:13
+profileset."HA_FF_2"+=soulbind=theotar_the_mad_duke,107:13/101:13
 
-profileset."DE_MD_2"+=soulbind=theotar_the_mad_duke,115:15/113:15
-profileset."DE_RS_2"+=soulbind=theotar_the_mad_duke,115:15/114:15
-profileset."DE_FF_2"+=soulbind=theotar_the_mad_duke,115:15/101:15
+profileset."DE_MD_2"+=soulbind=theotar_the_mad_duke,115:13/113:13
+profileset."DE_RS_2"+=soulbind=theotar_the_mad_duke,115:13/114:13
+profileset."DE_FF_2"+=soulbind=theotar_the_mad_duke,115:13/101:13
 
-profileset."MD_RS_2"+=soulbind=theotar_the_mad_duke,113:15/114:15
-profileset."MD_FF_2"+=soulbind=theotar_the_mad_duke,113:15/101:15
+profileset."MD_RS_2"+=soulbind=theotar_the_mad_duke,113:13/114:13
+profileset."MD_FF_2"+=soulbind=theotar_the_mad_duke,113:13/101:13
 
-profileset."RS_FF_2"+=soulbind=theotar_the_mad_duke,114:15/101:15
+profileset."RS_FF_2"+=soulbind=theotar_the_mad_duke,114:13/101:13

@@ -5,7 +5,7 @@ position=back
 spec=shadow
 talents=${talents}
 covenant=venthyr
-soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15
+soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13
 
 default_actions=1
 set_bonus=tier28_2pc=1
@@ -30,8 +30,8 @@ main_hand=${gear.main_hand},enchant=sinful_revelation
 # Covenant Legendary
 profileset."Shadow_Word_Manipulation_7"+=head=${gear.head},bonus_id=7704
 
-profileset."Shadow_Word_Manipulation_9_Shattered_Perceptions_15"+=head=${gear.head},bonus_id=7704
-profileset."Shadow_Word_Manipulation_9_Shattered_Perceptions_15"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/shattered_perceptions:15
+profileset."Shadow_Word_Manipulation_9_Shattered_Perceptions_13"+=head=${gear.head},bonus_id=7704
+profileset."Shadow_Word_Manipulation_9_Shattered_Perceptions_13"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
 
 # Shadow Priest Legendaries
 # Shadowflame Prism
@@ -41,19 +41,19 @@ profileset."Shadowflame_Prism_Mindbender"+=head=${gear.head},bonus_id=6982
 profileset."Shadowflame_Prism_Mindbender"+=talents=${talents.mindbender}
 
 # Drop MD for RS
-profileset."Shadowflame_Prism_Rabid_Shadows_15"+=head=${gear.head},bonus_id=6982
-profileset."Shadowflame_Prism_Rabid_Shadows_15"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/114:15
+profileset."Shadowflame_Prism_Rabid_Shadows_13"+=head=${gear.head},bonus_id=6982
+profileset."Shadowflame_Prism_Rabid_Shadows_13"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/114:13
 
-profileset."Shadowflame_Prism_Rabid_Shadows_15_Mindbender"+=head=${gear.head},bonus_id=6982
-profileset."Shadowflame_Prism_Rabid_Shadows_15_Mindbender"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/114:15
-profileset."Shadowflame_Prism_Rabid_Shadows_15_Mindbender"+=talents=${talents.mindbender}
+profileset."Shadowflame_Prism_Rabid_Shadows_13_Mindbender"+=head=${gear.head},bonus_id=6982
+profileset."Shadowflame_Prism_Rabid_Shadows_13_Mindbender"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/114:13
+profileset."Shadowflame_Prism_Rabid_Shadows_13_Mindbender"+=talents=${talents.mindbender}
 
 # Painbreaker Psalm
 profileset."Painbreaker_Psalm"+=head=${gear.head},bonus_id=6981
 
 # PI Others
-profileset."Twins_of_the_Sun_Priestess_Conduit_15"+=head=${gear.head},bonus_id=7002
-profileset."Twins_of_the_Sun_Priestess_Conduit_15"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/73:15
+profileset."Twins_of_the_Sun_Priestess_Conduit_13"+=head=${gear.head},bonus_id=7002
+profileset."Twins_of_the_Sun_Priestess_Conduit_13"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/73:13
 
 # Eternal Call to the Void
 profileset."Eternal_Call_to_the_Void"+=head=${gear.head},bonus_id=6983
@@ -63,7 +63,7 @@ profileset."Talbadars_Stratagem"+=head=${gear.head},bonus_id=7162
 
 # Using MD by default so dont need this
 # profileset."Talbadars_Stratagem_Mind_Devourer_9"+=head=${gear.head},bonus_id=7162
-# profileset."Talbadars_Stratagem_Mind_Devourer_9"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/mind_devourer:15
+# profileset."Talbadars_Stratagem_Mind_Devourer_9"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/mind_devourer:13
 
 # Generic Legendaries
 # Judgment of the Arbiter

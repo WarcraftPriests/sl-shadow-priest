@@ -31,36 +31,36 @@ main_hand=${gear.main_hand},enchant=sinful_revelation
 # Grove Invigoration - 322721
 # Niya's Tools: Poison - 320660
 # Bonded Hearts (requires Grove Invigoration) - 352503
-profileset."Niya-GI_NTP_BH-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=niya,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/322721/320660/352503
+profileset."Niya-GI_NTP_BH-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=niya,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/322721/320660/352503
 
 # 2 conduit setup
 # Grove Invigoration - 322721
 # Niya's Tools: Burrs - 320659
 # Bonded Hearts (requires Grove Invigoration) - 352503
-profileset."Niya-GI_NTB_BH-${conduits.first.name}_${conduits.second.name}"+=soulbind=niya,${conduits.first.id}:15/${conduits.second.id}:15/322721/320659/352503
-profileset."Niya-GI_NTB_BH-${conduits.first.name}_RS"+=soulbind=niya,${conduits.first.id}:15/rabid_shadows:15/322721/320659/352503
+profileset."Niya-GI_NTB_BH-${conduits.first.name}_${conduits.second.name}"+=soulbind=niya,${conduits.first.id}:13/${conduits.second.id}:13/322721/320659/352503
+profileset."Niya-GI_NTB_BH-${conduits.first.name}_RS"+=soulbind=niya,${conduits.first.id}:13/rabid_shadows:13/322721/320659/352503
 
 # Dreamweaver
 # 3 conduit setup
 # Field of Blossoms - 319191
 # Dream Delver - 352786
-profileset."Dreamweaver-FoB_DrD-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=dreamweaver,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/319191/352786
+profileset."Dreamweaver-FoB_DrD-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=dreamweaver,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/319191/352786
 
 # 2 conduit setup
 # Field of Blossoms - 319191
 # Social Butterfly - 319210
 # Dream Delver - 352786
-profileset."Dreamweaver-FoB_SB_DrD-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:15/${conduits.second.id}:15/319191/319210/352786
-profileset."Dreamweaver-FoB_SB_DrD-${conduits.first.name}_RS"+=soulbind=dreamweaver,${conduits.first.id}:15/rabid_shadows:15/319191/319210/352786
+profileset."Dreamweaver-FoB_SB_DrD-${conduits.first.name}_${conduits.second.name}"+=soulbind=dreamweaver,${conduits.first.id}:13/${conduits.second.id}:13/319191/319210/352786
+profileset."Dreamweaver-FoB_SB_DrD-${conduits.first.name}_RS"+=soulbind=dreamweaver,${conduits.first.id}:13/rabid_shadows:13/319191/319210/352786
 
 # Korayn
 # 3 conduit setup
 # Wild Hunt Tactics - 325066
 # Wild Hunt Strategem (requires Wild Hunt Tactics) - 352805
-profileset."Korayn-WHT_WHS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=korayn,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/325066/352805
+profileset."Korayn-WHT_WHS-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=korayn,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/325066/352805
 
 # 2 conduit setup
 # Wild Hunt Tactics - 325066
 # First Strike - 325069
-profileset."Korayn-WHT_FS_WHS-${conduits.first.name}_${conduits.second.name}"+=soulbind=korayn,${conduits.first.id}:15/${conduits.second.id}:15/325066/325069/352805
-profileset."Korayn-WHT_FS_WHS-${conduits.first.name}_RS"+=soulbind=korayn,${conduits.first.id}:15/rabid_shadows:15/325066/325069/352805
+profileset."Korayn-WHT_FS_WHS-${conduits.first.name}_${conduits.second.name}"+=soulbind=korayn,${conduits.first.id}:13/${conduits.second.id}:13/325066/325069/352805
+profileset."Korayn-WHT_FS_WHS-${conduits.first.name}_RS"+=soulbind=korayn,${conduits.first.id}:13/rabid_shadows:13/325066/325069/352805

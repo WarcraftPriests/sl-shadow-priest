@@ -4,7 +4,7 @@ role=spell
 position=back
 spec=shadow
 covenant=night_fae
-talents=${talents.mindbender}
+talents=${talents}
 
 default_actions=1
 set_bonus=tier28_2pc=1
@@ -40,8 +40,8 @@ profileset."Haunting_Apparitions_265"+=soulbind=theotar_the_mad_duke,107:10
 profileset."Haunting_Apparitions_278"+=soulbind=theotar_the_mad_duke,107:11
 profileset."Haunting_Apparitions_291"+=soulbind=theotar_the_mad_duke,107:12
 profileset."Haunting_Apparitions_304"+=soulbind=theotar_the_mad_duke,107:13
-profileset."Haunting_Apparitions_317"+=soulbind=theotar_the_mad_duke,107:14
-profileset."Haunting_Apparitions_330"+=soulbind=theotar_the_mad_duke,107:15
+# profileset."Haunting_Apparitions_317"+=soulbind=theotar_the_mad_duke,107:14
+# profileset."Haunting_Apparitions_330"+=soulbind=theotar_the_mad_duke,107:15
 
 profileset."Dissonant_Echoes_145"+=soulbind=theotar_the_mad_duke,115:1
 profileset."Dissonant_Echoes_158"+=soulbind=theotar_the_mad_duke,115:2
@@ -56,8 +56,8 @@ profileset."Dissonant_Echoes_265"+=soulbind=theotar_the_mad_duke,115:10
 profileset."Dissonant_Echoes_278"+=soulbind=theotar_the_mad_duke,115:11
 profileset."Dissonant_Echoes_291"+=soulbind=theotar_the_mad_duke,115:12
 profileset."Dissonant_Echoes_304"+=soulbind=theotar_the_mad_duke,115:13
-profileset."Dissonant_Echoes_317"+=soulbind=theotar_the_mad_duke,115:14
-profileset."Dissonant_Echoes_330"+=soulbind=theotar_the_mad_duke,115:15
+# profileset."Dissonant_Echoes_317"+=soulbind=theotar_the_mad_duke,115:14
+# profileset."Dissonant_Echoes_330"+=soulbind=theotar_the_mad_duke,115:15
 
 profileset."Mind_Devourer_145"+=soulbind=theotar_the_mad_duke,113:1
 profileset."Mind_Devourer_158"+=soulbind=theotar_the_mad_duke,113:2
@@ -72,8 +72,8 @@ profileset."Mind_Devourer_265"+=soulbind=theotar_the_mad_duke,113:10
 profileset."Mind_Devourer_278"+=soulbind=theotar_the_mad_duke,113:11
 profileset."Mind_Devourer_291"+=soulbind=theotar_the_mad_duke,113:12
 profileset."Mind_Devourer_304"+=soulbind=theotar_the_mad_duke,113:13
-profileset."Mind_Devourer_317"+=soulbind=theotar_the_mad_duke,113:14
-profileset."Mind_Devourer_330"+=soulbind=theotar_the_mad_duke,113:15
+# profileset."Mind_Devourer_317"+=soulbind=theotar_the_mad_duke,113:14
+# profileset."Mind_Devourer_330"+=soulbind=theotar_the_mad_duke,113:15
 
 profileset."Rabid_Shadows_145"+=soulbind=theotar_the_mad_duke,114:1
 profileset."Rabid_Shadows_158"+=soulbind=theotar_the_mad_duke,114:2
@@ -88,8 +88,8 @@ profileset."Rabid_Shadows_265"+=soulbind=theotar_the_mad_duke,114:10
 profileset."Rabid_Shadows_278"+=soulbind=theotar_the_mad_duke,114:11
 profileset."Rabid_Shadows_291"+=soulbind=theotar_the_mad_duke,114:12
 profileset."Rabid_Shadows_304"+=soulbind=theotar_the_mad_duke,114:13
-profileset."Rabid_Shadows_317"+=soulbind=theotar_the_mad_duke,114:14
-profileset."Rabid_Shadows_330"+=soulbind=theotar_the_mad_duke,114:15
+# profileset."Rabid_Shadows_317"+=soulbind=theotar_the_mad_duke,114:14
+# profileset."Rabid_Shadows_330"+=soulbind=theotar_the_mad_duke,114:15
 
 # Covenant Ability Conduits
 profileset."Fae_Fermata_145"+=soulbind=theotar_the_mad_duke,101:1
@@ -105,5 +105,5 @@ profileset."Fae_Fermata_265"+=soulbind=theotar_the_mad_duke,101:10
 profileset."Fae_Fermata_278"+=soulbind=theotar_the_mad_duke,101:11
 profileset."Fae_Fermata_291"+=soulbind=theotar_the_mad_duke,101:12
 profileset."Fae_Fermata_304"+=soulbind=theotar_the_mad_duke,101:13
-profileset."Fae_Fermata_317"+=soulbind=theotar_the_mad_duke,101:14
-profileset."Fae_Fermata_330"+=soulbind=theotar_the_mad_duke,101:15
+# profileset."Fae_Fermata_317"+=soulbind=theotar_the_mad_duke,101:14
+# profileset."Fae_Fermata_330"+=soulbind=theotar_the_mad_duke,101:15

@@ -28,107 +28,107 @@ main_hand=${gear.main_hand},enchant=sinful_revelation
 # Ancient Madness
 profileset."FotM_ToF_AS_MB_AM-Shadowflame-DE_HA_MD-Niya"+=talents=1111121
 profileset."FotM_ToF_AS_MB_AM-Shadowflame-DE_HA_MD-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."FotM_ToF_AS_MB_AM-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."FotM_ToF_AS_MB_AM-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."FotM_ToF_AS_MB_AM-Shadowflame-DE_HA_RS-Niya"+=talents=1111121
 profileset."FotM_ToF_AS_MB_AM-Shadowflame-DE_HA_RS-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."FotM_ToF_AS_MB_AM-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/rabid_shadows:15/322721/320660/352503
+profileset."FotM_ToF_AS_MB_AM-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/rabid_shadows:13/322721/320660/352503
 
 profileset."DaM_SN_SC_MB_AM-Shadowflame-DE_HA_MD-Niya"+=talents=2131321
 profileset."DaM_SN_SC_MB_AM-Shadowflame-DE_HA_MD-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."DaM_SN_SC_MB_AM-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."DaM_SN_SC_MB_AM-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."DaM_SN_SC_MB_AM-Shadowflame-DE_HA_RS-Niya"+=talents=2131321
 profileset."DaM_SN_SC_MB_AM-Shadowflame-DE_HA_RS-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."DaM_SN_SC_MB_AM-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/rabid_shadows:15/322721/320660/352503
+profileset."DaM_SN_SC_MB_AM-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/rabid_shadows:13/322721/320660/352503
 
 profileset."DaM_SN_AS_MB_AM-Shadowflame-DE_HA_MD-Niya"+=talents=2131121
 profileset."DaM_SN_AS_MB_AM-Shadowflame-DE_HA_MD-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."DaM_SN_AS_MB_AM-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."DaM_SN_AS_MB_AM-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."DaM_SN_AS_MB_AM-Shadowflame-DE_HA_RS-Niya"+=talents=2131121
 profileset."DaM_SN_AS_MB_AM-Shadowflame-DE_HA_RS-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."DaM_SN_AS_MB_AM-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/rabid_shadows:15/322721/320660/352503
+profileset."DaM_SN_AS_MB_AM-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/rabid_shadows:13/322721/320660/352503
 
 profileset."FotM_SN_PL_MB_AM-Shadowflame-DE_HA_MD-Niya"+=talents=1131221
 profileset."FotM_SN_PL_MB_AM-Shadowflame-DE_HA_MD-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."FotM_SN_PL_MB_AM-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."FotM_SN_PL_MB_AM-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."FotM_SN_PL_MB_AM-Shadowflame-DE_HA_RS-Niya"+=talents=1131221
 profileset."FotM_SN_PL_MB_AM-Shadowflame-DE_HA_RS-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."FotM_SN_PL_MB_AM-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/rabid_shadows:15/322721/320660/352503
+profileset."FotM_SN_PL_MB_AM-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/rabid_shadows:13/322721/320660/352503
 
 ## DE + HA
 profileset."FotM_ToF_AS_VT_AM-Talbadars-DE_HA_MD-Niya"+=talents=1111131
 profileset."FotM_ToF_AS_VT_AM-Talbadars-DE_HA_MD-Niya"+=legs=,id=173246,ilevel=262,bonus_id=7162/6648/6649
-profileset."FotM_ToF_AS_VT_AM-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."FotM_ToF_AS_VT_AM-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."FotM_ToF_PL_VT_AM-Talbadars-DE_HA_MD-Niya"+=talents=1111231
 profileset."FotM_ToF_PL_VT_AM-Talbadars-DE_HA_MD-Niya"+=legs=,id=173246,ilevel=262,bonus_id=7162/6648/6649
-profileset."FotM_ToF_PL_VT_AM-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."FotM_ToF_PL_VT_AM-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."DaM_SN_SC_MB_AM-Talbadars-DE_HA_MD-Niya"+=talents=2131321
 profileset."DaM_SN_SC_MB_AM-Talbadars-DE_HA_MD-Niya"+=legs=,id=173246,ilevel=262,bonus_id=7162/6648/6649
-profileset."DaM_SN_SC_MB_AM-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."DaM_SN_SC_MB_AM-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."FotM_SN_PL_MB_AM-Talbadars-DE_HA_MD-Niya"+=talents=1131221
 profileset."FotM_SN_PL_MB_AM-Talbadars-DE_HA_MD-Niya"+=legs=,id=173246,ilevel=262,bonus_id=7162/6648/6649
-profileset."FotM_SN_PL_MB_AM-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."FotM_SN_PL_MB_AM-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 # Hungering Void
 profileset."FotM_ToF_AS_MB_HV-Shadowflame-DE_HA_MD-Niya"+=talents=1111122
 profileset."FotM_ToF_AS_MB_HV-Shadowflame-DE_HA_MD-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."FotM_ToF_AS_MB_HV-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."FotM_ToF_AS_MB_HV-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."FotM_ToF_AS_MB_HV-Shadowflame-DE_HA_RS-Niya"+=talents=1111122
 profileset."FotM_ToF_AS_MB_HV-Shadowflame-DE_HA_RS-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."FotM_ToF_AS_MB_HV-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/rabid_shadows:15/322721/320660/352503
+profileset."FotM_ToF_AS_MB_HV-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/rabid_shadows:13/322721/320660/352503
 
 profileset."DaM_SN_SC_MB_HV-Shadowflame-DE_HA_MD-Niya"+=talents=2131322
 profileset."DaM_SN_SC_MB_HV-Shadowflame-DE_HA_MD-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."DaM_SN_SC_MB_HV-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."DaM_SN_SC_MB_HV-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."DaM_SN_SC_MB_HV-Shadowflame-DE_HA_RS-Niya"+=talents=2131322
 profileset."DaM_SN_SC_MB_HV-Shadowflame-DE_HA_RS-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."DaM_SN_SC_MB_HV-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/rabid_shadows:15/322721/320660/352503
+profileset."DaM_SN_SC_MB_HV-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/rabid_shadows:13/322721/320660/352503
 
 profileset."DaM_SN_AS_MB_HV-Shadowflame-DE_HA_MD-Niya"+=talents=2131122
 profileset."DaM_SN_AS_MB_HV-Shadowflame-DE_HA_MD-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."DaM_SN_AS_MB_HV-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."DaM_SN_AS_MB_HV-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."DaM_SN_AS_MB_HV-Shadowflame-DE_HA_RS-Niya"+=talents=2131122
 profileset."DaM_SN_AS_MB_HV-Shadowflame-DE_HA_RS-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."DaM_SN_AS_MB_HV-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/rabid_shadows:15/322721/320660/352503
+profileset."DaM_SN_AS_MB_HV-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/rabid_shadows:13/322721/320660/352503
 
 profileset."FotM_SN_PL_MB_HV-Shadowflame-DE_HA_MD-Niya"+=talents=1131222
 profileset."FotM_SN_PL_MB_HV-Shadowflame-DE_HA_MD-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."FotM_SN_PL_MB_HV-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."FotM_SN_PL_MB_HV-Shadowflame-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."FotM_SN_PL_MB_HV-Shadowflame-DE_HA_RS-Niya"+=talents=1131222
 profileset."FotM_SN_PL_MB_HV-Shadowflame-DE_HA_RS-Niya"+=hands=,id=173244,ilevel=235,bonus_id=6982/6647/6649
-profileset."FotM_SN_PL_MB_HV-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/rabid_shadows:15/322721/320660/352503
+profileset."FotM_SN_PL_MB_HV-Shadowflame-DE_HA_RS-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/rabid_shadows:13/322721/320660/352503
 
 ## DE + HA
 profileset."FotM_ToF_AS_VT_HV-Talbadars-DE_HA_MD-Niya"+=talents=1111132
 profileset."FotM_ToF_AS_VT_HV-Talbadars-DE_HA_MD-Niya"+=legs=,id=173246,ilevel=262,bonus_id=7162/6648/6649
-profileset."FotM_ToF_AS_VT_HV-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."FotM_ToF_AS_VT_HV-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."FotM_ToF_PL_VT_HV-Talbadars-DE_HA_MD-Niya"+=talents=1111232
 profileset."FotM_ToF_PL_VT_HV-Talbadars-DE_HA_MD-Niya"+=legs=,id=173246,ilevel=262,bonus_id=7162/6648/6649
-profileset."FotM_ToF_PL_VT_HV-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."FotM_ToF_PL_VT_HV-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."DaM_SN_AS_MB_HV-Talbadars-DE_HA_MD-Niya"+=talents=2131122
 profileset."DaM_SN_AS_MB_HV-Talbadars-DE_HA_MD-Niya"+=legs=,id=173246,ilevel=262,bonus_id=7162/6648/6649
-profileset."DaM_SN_AS_MB_HV-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."DaM_SN_AS_MB_HV-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."FotM_ToF_SC_VT_HV-Talbadars-DE_HA_MD-Niya"+=talents=1111332
 profileset."FotM_ToF_SC_VT_HV-Talbadars-DE_HA_MD-Niya"+=legs=,id=173246,ilevel=262,bonus_id=7162/6648/6649
-profileset."FotM_ToF_SC_VT_HV-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."FotM_ToF_SC_VT_HV-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."DaM_SN_SC_MB_HV-Talbadars-DE_HA_MD-Niya"+=talents=2131322
 profileset."DaM_SN_SC_MB_HV-Talbadars-DE_HA_MD-Niya"+=legs=,id=173246,ilevel=262,bonus_id=7162/6648/6649
-profileset."DaM_SN_SC_MB_HV-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."DaM_SN_SC_MB_HV-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503
 
 profileset."FotM_SN_PL_MB_HV-Talbadars-DE_HA_MD-Niya"+=talents=1131222
 profileset."FotM_SN_PL_MB_HV-Talbadars-DE_HA_MD-Niya"+=legs=,id=173246,ilevel=262,bonus_id=7162/6648/6649
-profileset."FotM_SN_PL_MB_HV-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:15/haunting_apparitions:15/mind_devourer:15/322721/320660/352503
+profileset."FotM_SN_PL_MB_HV-Talbadars-DE_HA_MD-Niya"+=soulbind=niya,dissonant_echoes:13/haunting_apparitions:13/mind_devourer:13/322721/320660/352503

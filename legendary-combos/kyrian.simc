@@ -5,7 +5,7 @@ position=back
 spec=shadow
 talents=${talents}
 covenant=kyrian
-soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/333950/352186/352188
+soulbind=forgelite_prime_mikanikos,${conduits.first.id}:13/${conduits.second.id}:13/courageous_ascension:13/333950/352186/352188
 
 default_actions=1
 set_bonus=tier28_2pc=1
@@ -34,78 +34,78 @@ main_hand=${gear.main_hand},enchant=sinful_revelation
 # Talbadar's Stratagem - 7162
 
 # Kyrian_Forgelite_Talbadars
-# soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/333950/352186/352188
+# soulbind=forgelite_prime_mikanikos,${conduits.first.id}:13/${conduits.second.id}:13/courageous_ascension:13/333950/352186/352188
 
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_DE_RS"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_DE_RS"+=neck=${gear.neck},bonus_id=6982
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_DE_RS"+=talents=${talents.mindbender}
-profileset."Spheres_Harmony-Shadowflame_Prism-HA_DE_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/114:15/333950/352186/352188
+profileset."Spheres_Harmony-Shadowflame_Prism-HA_DE_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/114:13/333950/352186/352188
 
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_DE_CA"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_DE_CA"+=neck=${gear.neck},bonus_id=6982
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_DE_CA"+=talents=${talents.mindbender}
-profileset."Spheres_Harmony-Shadowflame_Prism-HA_DE_CA"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/333950/352186/352188
+profileset."Spheres_Harmony-Shadowflame_Prism-HA_DE_CA"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/courageous_ascension:13/333950/352186/352188
 
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_DE_MD"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_DE_MD"+=neck=${gear.neck},bonus_id=6982
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_DE_MD"+=talents=${talents.mindbender}
-profileset."Spheres_Harmony-Shadowflame_Prism-HA_DE_MD"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/${conduits.second.id}:15/mind_devourer:15/333950/352186/352188
+profileset."Spheres_Harmony-Shadowflame_Prism-HA_DE_MD"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/mind_devourer:13/333950/352186/352188
 
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_MD_RS"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_MD_RS"+=neck=${gear.neck},bonus_id=6982
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_MD_RS"+=talents=${talents.mindbender}
-profileset."Spheres_Harmony-Shadowflame_Prism-HA_MD_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/mind_devourer:15/114:15/333950/352186/352188
+profileset."Spheres_Harmony-Shadowflame_Prism-HA_MD_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/mind_devourer:13/114:13/333950/352186/352188
 
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_CA_RS"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_CA_RS"+=neck=${gear.neck},bonus_id=6982
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_CA_RS"+=talents=${talents.mindbender}
-profileset."Spheres_Harmony-Shadowflame_Prism-HA_CA_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/courageous_ascension:15/114:15/333950/352186/352188
+profileset."Spheres_Harmony-Shadowflame_Prism-HA_CA_RS"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/courageous_ascension:13/114:13/333950/352186/352188
 
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_CA_MD"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_CA_MD"+=neck=${gear.neck},bonus_id=6982
 profileset."Spheres_Harmony-Shadowflame_Prism-HA_CA_MD"+=talents=${talents.mindbender}
-profileset."Spheres_Harmony-Shadowflame_Prism-HA_CA_MD"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/courageous_ascension::15/mind_devourer:15/333950/352186/352188
+profileset."Spheres_Harmony-Shadowflame_Prism-HA_CA_MD"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/courageous_ascension::13/mind_devourer:13/333950/352186/352188
 
 profileset."Spheres_Harmony-Painbreaker_Psalm-HA_DE_MD"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Painbreaker_Psalm-HA_DE_MD"+=neck=${gear.neck},bonus_id=6981
 
 profileset."Spheres_Harmony-Painbreaker_Psalm-HA_CA_MD"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Painbreaker_Psalm-HA_CA_MD"+=neck=${gear.neck},bonus_id=6981
-profileset."Spheres_Harmony-Painbreaker_Psalm-HA_CA_MD"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/courageous_ascension::15/mind_devourer:15/333950/352186/352188
+profileset."Spheres_Harmony-Painbreaker_Psalm-HA_CA_MD"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/courageous_ascension::13/mind_devourer:13/333950/352186/352188
 
 profileset."Spheres_Harmony-Painbreaker_Psalm-HA_DE_CA"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Painbreaker_Psalm-HA_DE_CA"+=neck=${gear.neck},bonus_id=6981
-profileset."Spheres_Harmony-Painbreaker_Psalm-HA_DE_CA"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/courageous_ascension::15/dissonant_echoes:15/333950/352186/352188
+profileset."Spheres_Harmony-Painbreaker_Psalm-HA_DE_CA"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/courageous_ascension::13/dissonant_echoes:13/333950/352186/352188
 
 profileset."Spheres_Harmony-Eternal_Call_to_the_Void-HA_DE_MD"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Eternal_Call_to_the_Void-HA_DE_MD"+=neck=${gear.neck},bonus_id=6983
 
 profileset."Spheres_Harmony-Eternal_Call_to_the_Void-HA_DE_CA"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Eternal_Call_to_the_Void-HA_DE_CA"+=neck=${gear.neck},bonus_id=6983
-profileset."Spheres_Harmony-Eternal_Call_to_the_Void-HA_DE_CA"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/courageous_ascension::15/dissonant_echoes:15/333950/352186/352188
+profileset."Spheres_Harmony-Eternal_Call_to_the_Void-HA_DE_CA"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/courageous_ascension::13/dissonant_echoes:13/333950/352186/352188
 
 profileset."Spheres_Harmony-Eternal_Call_to_the_Void-HA_CA_MD"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Eternal_Call_to_the_Void-HA_CA_MD"+=neck=${gear.neck},bonus_id=6983
-profileset."Spheres_Harmony-Eternal_Call_to_the_Void-HA_CA_MD"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/courageous_ascension::15/mind_devourer:15/333950/352186/352188
+profileset."Spheres_Harmony-Eternal_Call_to_the_Void-HA_CA_MD"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/courageous_ascension::13/mind_devourer:13/333950/352186/352188
 
 profileset."Spheres_Harmony-Talbadars_Stratagem-HA_DE_MD"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Talbadars_Stratagem-HA_DE_MD"+=neck=${gear.neck},bonus_id=7162
 
 profileset."Spheres_Harmony-Talbadars_Stratagem-HA_DE_CA"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Talbadars_Stratagem-HA_DE_CA"+=neck=${gear.neck},bonus_id=7162
-profileset."Spheres_Harmony-Talbadars_Stratagem-HA_DE_CA"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/courageous_ascension::15/dissonant_echoes:15/333950/352186/352188
+profileset."Spheres_Harmony-Talbadars_Stratagem-HA_DE_CA"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/courageous_ascension::13/dissonant_echoes:13/333950/352186/352188
 
 profileset."Spheres_Harmony-Talbadars_Stratagem-HA_CA_MD"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Talbadars_Stratagem-HA_CA_MD"+=neck=${gear.neck},bonus_id=7162
-profileset."Spheres_Harmony-Talbadars_Stratagem-HA_CA_MD"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/courageous_ascension::15/mind_devourer:15/333950/352186/352188
+profileset."Spheres_Harmony-Talbadars_Stratagem-HA_CA_MD"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/courageous_ascension::13/mind_devourer:13/333950/352186/352188
 
 profileset."Spheres_Harmony-Kiss_of_Death-HA_DE_MD"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Kiss_of_Death-HA_DE_MD"+=neck=${gear.neck},bonus_id=6979
 
 profileset."Spheres_Harmony-Kiss_of_Death-HA_DE_CA"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Kiss_of_Death-HA_DE_CA"+=neck=${gear.neck},bonus_id=6979
-profileset."Spheres_Harmony-Kiss_of_Death-HA_DE_CA"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/courageous_ascension::15/dissonant_echoes:15/333950/352186/352188
+profileset."Spheres_Harmony-Kiss_of_Death-HA_DE_CA"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/courageous_ascension::13/dissonant_echoes:13/333950/352186/352188
 
 profileset."Spheres_Harmony-Kiss_of_Death-HA_CA_MD"+=head=${gear.head},bonus_id=7728
 profileset."Spheres_Harmony-Kiss_of_Death-HA_CA_MD"+=neck=${gear.neck},bonus_id=6979
-profileset."Spheres_Harmony-Kiss_of_Death-HA_CA_MD"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:15/courageous_ascension::15/mind_devourer:15/333950/352186/352188
+profileset."Spheres_Harmony-Kiss_of_Death-HA_CA_MD"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/courageous_ascension::13/mind_devourer:13/333950/352186/352188

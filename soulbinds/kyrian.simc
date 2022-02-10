@@ -32,18 +32,18 @@ main_hand=${gear.main_hand},enchant=sinful_revelation
 # Better Together - 351146
 # Newfound Resolve - 351149
 # shadowlands.combat_meditation_extend_chance = 0.5
-profileset."Pelagos-CM_BT_NR-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=pelagos,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/328266/351146/351149
-profileset."Pelagos-CM_BT_NR-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=pelagos,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/328266/351146/351149
-profileset."Pelagos-CM_BT_NR-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=pelagos,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/328266/351146/351149
+profileset."Pelagos-CM_BT_NR-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=pelagos,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/328266/351146/351149
+profileset."Pelagos-CM_BT_NR-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=pelagos,${conduits.first.id}:13/${conduits.second.id}:13/courageous_ascension:13/328266/351146/351149
+profileset."Pelagos-CM_BT_NR-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=pelagos,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/328266/351146/351149
 profileset."Pelagos-CM_BT_NR-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
 profileset."Pelagos-CM_BT_NR-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=${gear.head},bonus_id=7162
-profileset."Pelagos-CM_BT_NR-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=pelagos,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/328266/351146/351149
+profileset."Pelagos-CM_BT_NR-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=pelagos,${conduits.first.id}:13/${conduits.second.id}:13/courageous_ascension:13/328266/351146/351149
 profileset."Pelagos-CM_BT_NR-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
 profileset."Pelagos-CM_BT_NR-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=head=${gear.head},bonus_id=7162
-profileset."Pelagos-CM_BT_NR-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=pelagos,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/328266/351146/351149
+profileset."Pelagos-CM_BT_NR-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=pelagos,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/328266/351146/351149
 profileset."Pelagos-CM_BT_NR-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
 profileset."Pelagos-CM_BT_NR-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=${gear.head},bonus_id=7728
-profileset."Pelagos-CM_BT_NR-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=pelagos,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/328266/351146/351149
+profileset."Pelagos-CM_BT_NR-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=pelagos,${conduits.first.id}:13/${conduits.second.id}:13/courageous_ascension:13/328266/351146/351149
 profileset."Pelagos-CM_BT_NR-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
 profileset."Pelagos-CM_BT_NR-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=head=${gear.head},bonus_id=7728
 
@@ -52,50 +52,50 @@ profileset."Pelagos-CM_BT_NR-Spheres-${conduits.first.name}_${conduits.second.na
 # Pointed Courage - 329778
 # Spear of the Archon - 351488
 # Light the Path (requires Valiant Strikes) - 351491 (329791)
-profileset."Kleia-VS_SotA_LtP-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=kleia,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/351491/329791/351488
-profileset."Kleia-VS_SotA_LtP-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=kleia,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/351491/329791/351488
-profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=kleia,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/351491/329791/351488
+profileset."Kleia-VS_SotA_LtP-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=kleia,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/351491/329791/351488
+profileset."Kleia-VS_SotA_LtP-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=kleia,${conduits.first.id}:13/${conduits.second.id}:13/courageous_ascension:13/351491/329791/351488
+profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=kleia,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/351491/329791/351488
 profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
 profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=${gear.head},bonus_id=7162
-profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=kleia,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/351491/329791/351488
+profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=kleia,${conduits.first.id}:13/${conduits.second.id}:13/courageous_ascension:13/351491/329791/351488
 profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
 profileset."Kleia-VS_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=head=${gear.head},bonus_id=7162
-profileset."Kleia-VS_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=kleia,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/351491/329791/351488
+profileset."Kleia-VS_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=kleia,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/351491/329791/351488
 profileset."Kleia-VS_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
 profileset."Kleia-VS_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=${gear.head},bonus_id=7728
-profileset."Kleia-VS_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=kleia,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/351491/329791/351488
+profileset."Kleia-VS_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=kleia,${conduits.first.id}:13/${conduits.second.id}:13/courageous_ascension:13/351491/329791/351488
 profileset."Kleia-VS_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
 profileset."Kleia-VS_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=head=${gear.head},bonus_id=7728
 
 # 2 conduit setup
 # Pointed Courage - 329778
 # shadowlands.pointed_courage_nearby = 3
-profileset."Kleia-VS_PoC_SotA_LtP-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:15/${conduits.second.id}:15/329778/351491/329791/351488
-profileset."Kleia-VS_PoC_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:15/${conduits.second.id}:15/329778/351491/329791/351488
+profileset."Kleia-VS_PoC_SotA_LtP-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:13/${conduits.second.id}:13/329778/351491/329791/351488
+profileset."Kleia-VS_PoC_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:13/${conduits.second.id}:13/329778/351491/329791/351488
 profileset."Kleia-VS_PoC_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Kleia-VS_PoC_SotA_LtP-Talbadars-${conduits.first.name}_${conduits.second.name}"+=head=${gear.head},bonus_id=7162
-profileset."Kleia-VS_PoC_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:15/${conduits.second.id}:15/329778/351491/329791/351488
+profileset."Kleia-VS_PoC_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}"+=soulbind=kleia,${conduits.first.id}:13/${conduits.second.id}:13/329778/351491/329791/351488
 profileset."Kleia-VS_PoC_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Kleia-VS_PoC_SotA_LtP-Spheres-${conduits.first.name}_${conduits.second.name}"+=head=${gear.head},bonus_id=7728
-profileset."Kleia-VS_PoC_SotA_LtP-${conduits.first.name}_RS"+=soulbind=kleia,${conduits.first.id}:15/rabid_shadows:15/329778/351491/329791/351488=7162=7728
+profileset."Kleia-VS_PoC_SotA_LtP-${conduits.first.name}_RS"+=soulbind=kleia,${conduits.first.id}:13/rabid_shadows:13/329778/351491/329791/351488=7162=7728
 
 # Forgelite Prime Mikanikos
 # 3 conduit setup
 # Bron's Call to Action - 333950
 # Soulglow Spectrometer - 352186
 # Effusive Anima Accelerator - 352188
-profileset."Forgelite-BCtA_SoS_EAA-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/333950/352186/352188
-profileset."Forgelite-BCtA_SoS_EAA-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/333950/352186/352188
-profileset."Forgelite-BCtA_SoS_EAA-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/333950/352186/352188
+profileset."Forgelite-BCtA_SoS_EAA-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/333950/352186/352188
+profileset."Forgelite-BCtA_SoS_EAA-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:13/${conduits.second.id}:13/courageous_ascension:13/333950/352186/352188
+profileset."Forgelite-BCtA_SoS_EAA-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/333950/352186/352188
 profileset."Forgelite-BCtA_SoS_EAA-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
 profileset."Forgelite-BCtA_SoS_EAA-Talbadars-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=${gear.head},bonus_id=7162
-profileset."Forgelite-BCtA_SoS_EAA-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/333950/352186/352188
+profileset."Forgelite-BCtA_SoS_EAA-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:13/${conduits.second.id}:13/courageous_ascension:13/333950/352186/352188
 profileset."Forgelite-BCtA_SoS_EAA-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
 profileset."Forgelite-BCtA_SoS_EAA-Talbadars-${conduits.first.name}_${conduits.second.name}_CA"+=head=${gear.head},bonus_id=7162
-profileset."Forgelite-BCtA_SoS_EAA-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/${conduits.third.id}:15/333950/352186/352188
+profileset."Forgelite-BCtA_SoS_EAA-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/333950/352186/352188
 profileset."Forgelite-BCtA_SoS_EAA-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=talents=${talents.void_torrent}
 profileset."Forgelite-BCtA_SoS_EAA-Spheres-${conduits.first.name}_${conduits.second.name}_${conduits.third.name}"+=head=${gear.head},bonus_id=7728
-profileset."Forgelite-BCtA_SoS_EAA-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/courageous_ascension:15/333950/352186/352188
+profileset."Forgelite-BCtA_SoS_EAA-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:13/${conduits.second.id}:13/courageous_ascension:13/333950/352186/352188
 profileset."Forgelite-BCtA_SoS_EAA-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=talents=${talents.void_torrent}
 profileset."Forgelite-BCtA_SoS_EAA-Spheres-${conduits.first.name}_${conduits.second.name}_CA"+=head=${gear.head},bonus_id=7728
 
@@ -104,11 +104,11 @@ profileset."Forgelite-BCtA_SoS_EAA-Spheres-${conduits.first.name}_${conduits.sec
 # Hammer of Genesis - 333935
 # Soulglow Spectrometer - 352186
 # Effusive Anima Accelerator - 352188
-profileset."Forgelite-BCtA_HoG_SoS_EAA-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/333950/333935/352186/352188
-profileset."Forgelite-BCtA_HoG_SoS_EAA-Talbadars-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/333950/333935/352186/352188
+profileset."Forgelite-BCtA_HoG_SoS_EAA-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:13/${conduits.second.id}:13/333950/333935/352186/352188
+profileset."Forgelite-BCtA_HoG_SoS_EAA-Talbadars-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:13/${conduits.second.id}:13/333950/333935/352186/352188
 profileset."Forgelite-BCtA_HoG_SoS_EAA-Talbadars-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Forgelite-BCtA_HoG_SoS_EAA-Talbadars-${conduits.first.name}_${conduits.second.name}"+=head=${gear.head},bonus_id=7162
-profileset."Forgelite-BCtA_HoG_SoS_EAA-Spheres-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/${conduits.second.id}:15/333950/333935/352186/352188
+profileset."Forgelite-BCtA_HoG_SoS_EAA-Spheres-${conduits.first.name}_${conduits.second.name}"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:13/${conduits.second.id}:13/333950/333935/352186/352188
 profileset."Forgelite-BCtA_HoG_SoS_EAA-Spheres-${conduits.first.name}_${conduits.second.name}"+=talents=${talents.void_torrent}
 profileset."Forgelite-BCtA_HoG_SoS_EAA-Spheres-${conduits.first.name}_${conduits.second.name}"+=head=${gear.head},bonus_id=7728
-profileset."Forgelite-BCtA_HoG_SoS_EAA-${conduits.first.name}_RS"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:15/rabid_shadows:15/333950/333935/352186/352188
+profileset."Forgelite-BCtA_HoG_SoS_EAA-${conduits.first.name}_RS"+=soulbind=forgelite_prime_mikanikos,${conduits.first.id}:13/rabid_shadows:13/333950/333935/352186/352188

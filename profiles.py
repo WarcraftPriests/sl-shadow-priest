@@ -170,15 +170,15 @@ def update_talents(talent_string, replacement):
     return new_talents
 
 
-def shadowflame_active(sim_type, covenant_string):
+def legendary_active(sim_type, covenant_string, legendary_id):
     # pylint: disable=line-too-long
-    """returns if shadowflame prism is being used for this sim with the given type"""
+    """returns if given legendary is being used for this sim with the given type"""
     active = False
     legendary_replacement = config["sims"][args.dir[:-1]]["legendary"]
     if covenant_string:
-        active = config["legendary"]["covenants"][covenant_string][sim_type] == "6982" and legendary_replacement
+        active = config["legendary"]["covenants"][covenant_string][sim_type] == legendary_id and legendary_replacement
     else:
-        active = config["legendary"][sim_type] == "6982" and legendary_replacement
+        active = config["legendary"][sim_type] == legendary_id and legendary_replacement
     return active
 
 
@@ -272,7 +272,7 @@ def build_profiles(talent_string, covenant_string):
                 if profile in config["singleTargetProfiles"]:
                     new_talents = config["builds"][talent_string]["single"]
                     # Replace conduits
-                    if shadowflame_active("single", covenant_string):
+                    if legendary_active("single", covenant_string, "6982"):
                         replace_conduit = True
                     else:
                         replace_conduit = False
@@ -280,9 +280,13 @@ def build_profiles(talent_string, covenant_string):
                         talent_string, sim_data, replace_conduit, covenant_string)
 
                     # Only replace Mindbender talent if using Shadowflame Prism, and it is enabled in config to replace
-                    if shadowflame_active("single", covenant_string):
+                    if legendary_active("single", covenant_string, "6982"):
                         sim_data = replace_talents(update_talents(
                             talents_expr, "mindbender"), sim_data)
+                    # Only replace Damnation talent if using Talbadar's Stratagem, and it is enabled in config to replace
+                    elif legendary_active("single", covenant_string, "7162"):
+                        sim_data = replace_talents(update_talents(
+                            talents_expr, "damnation"), sim_data)
                     elif not talents_are_overridden:
                         sim_data = replace_talents(new_talents, sim_data)
                     sim_data = replace_legendary(
@@ -290,32 +294,40 @@ def build_profiles(talent_string, covenant_string):
                 else:
                     if args.dungeons:
                         # Replace conduits
-                        if shadowflame_active("dungeons", covenant_string):
+                        if legendary_active("dungeons", covenant_string, "6982"):
                             replace_conduit = True
                         else:
                             replace_conduit = False
                         sim_data = replace_conduits(
                             talent_string, sim_data, replace_conduit, covenant_string)
                         # Only replace Mindbender talent if using Shadowflame Prism, and it is not a legendary sim
-                        if shadowflame_active("dungeons", covenant_string):
+                        if legendary_active("dungeons", covenant_string, "6982"):
                             sim_data = replace_talents(update_talents(
                                 talents_expr, "mindbender"), sim_data)
+                        # Only replace Damnation talent if using Talbadar's Stratagem, and it is enabled in config to replace
+                        elif legendary_active("dungeons", covenant_string, "7162"):
+                            sim_data = replace_talents(update_talents(
+                                talents_expr, "damnation"), sim_data)
                         elif not talents_are_overridden:
                             sim_data = replace_talents(talents_expr, sim_data)
                         sim_data = replace_legendary(
                             sim_data, "dungeons", covenant_string)
                     else:
                         # Replace conduits
-                        if shadowflame_active("dungeons", covenant_string):
+                        if legendary_active("dungeons", covenant_string, "6982"):
                             replace_conduit = True
                         else:
                             replace_conduit = False
                         sim_data = replace_conduits(
                             talent_string, sim_data, replace_conduit, covenant_string)
                         # Only replace Mindbender talent if using Shadowflame Prism, and it is not a legendary sim
-                        if shadowflame_active("composite", covenant_string):
+                        if legendary_active("composite", covenant_string, "6982"):
                             sim_data = replace_talents(update_talents(
                                 talents_expr, "mindbender"), sim_data)
+                        # Only replace Damnation talent if using Talbadar's Stratagem, and it is enabled in config to replace
+                        elif legendary_active("composite", covenant_string, "7162"):
+                            sim_data = replace_talents(update_talents(
+                                talents_expr, "damnation"), sim_data)
                         elif not talents_are_overridden:
                             sim_data = replace_talents(talents_expr, sim_data)
                         sim_data = replace_legendary(
