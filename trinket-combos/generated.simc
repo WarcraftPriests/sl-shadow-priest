@@ -24,6 +24,7 @@ feet=${gear.feet}
 finger1=${gear.finger1},enchant=tenet_of_mastery
 finger2=${gear.finger2},enchant=tenet_of_mastery
 main_hand=${gear.main_hand},enchant=sinful_revelation
+${gear.off_hand}
 
 profileset."Forbidden_Necromantic_Tome_259-Titanic_Ocular_Gland_252"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=259
 profileset."Forbidden_Necromantic_Tome_259-Titanic_Ocular_Gland_252"+=trinket2=titanic_ocular_gland,id=186423,ilevel=252

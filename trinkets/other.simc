@@ -24,6 +24,7 @@ feet=${gear.feet}
 finger1=${gear.finger1},enchant=tenet_of_mastery
 finger2=${gear.finger2},enchant=tenet_of_mastery
 main_hand=${gear.main_hand},enchant=sinful_revelation
+${gear.off_hand}
 
 # Korthia Trinkets
 profileset."Tome_of_Insight_200"+=trinket1=tome_of_insight,id=186156,ilevel=200

@@ -23,6 +23,7 @@ finger2=${gear.finger2}
 trinket1=${gear.trinket1}
 trinket2=${gear.trinket2}
 main_hand=${gear.main_hand}
+${gear.off_hand}
 
 # Weapons
 profileset."Weapon_Lightless_Force"+=main_hand=${gear.main_hand},enchant=lightless_force

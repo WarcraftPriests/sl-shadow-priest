@@ -24,6 +24,7 @@ finger2=${gear.finger2},enchant=tenet_of_mastery
 trinket1=${gear.trinket1}
 trinket2=${gear.trinket2}
 main_hand=${gear.main_hand},enchant=sinful_revelation
+${gear.off_hand}
 
 # Ancient Madness
 profileset."FotM_ToF_AS_MB_AM-Shadowflame-DE_HA_MD-Niya"+=talents=1111121

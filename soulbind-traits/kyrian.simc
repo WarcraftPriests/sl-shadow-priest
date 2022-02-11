@@ -25,6 +25,7 @@ finger2=${gear.finger2},enchant=tenet_of_mastery
 trinket1=${gear.trinket1}
 trinket2=${gear.trinket2}
 main_hand=${gear.main_hand},enchant=sinful_revelation
+${gear.off_hand}
 
 # Pelagos
 # Combat Meditation - 328266
