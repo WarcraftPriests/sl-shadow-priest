@@ -163,11 +163,12 @@ gear:
   back: "shroud_of_the_sires_chosen,id=189847,ilevel=285"
   chest: "habit_of_the_empyrean,id=188875,ilevel=285"
   wrists: "cuffs_of_the_covert_commander,id=189842,ilevel=285"
-  hands: "caress_of_the_empyrean,id=188881,ilevel=285"
+  hands: "caress_of_the_empyrean,id=188881,ilevel=278"
   waist: "sash_of_the_silent_sonata,id=189793,ilevel=278"
   legs: "muehzalas_hexthread_sarong,id=179351,ilevel=278"
   feet: "stolen_nathrian_slippers,id=189823,ilevel=278"
-  finger1: "soulwarped_seal_of_wrynn,id=189839,ilevel=278"
+  finger1: "loquacious_keepers_peridot,id=189802,ilevel=278"
+  # finger1: "soulwarped_seal_of_wrynn,id=189839,ilevel=278"
   finger2: "death_gods_signet,id=179355,ilevel=278"
   trinket1: "soulletting_ruby,id=178809,ilevel=278"
   trinket2: "the_first_sigil,id=188271,ilevel=278"
@@ -365,10 +366,9 @@ sims:
     legendary: false
     lookupType: spell
     steps:
-      - 225
-      - 235
-      - 250
-      - 260
+      - 262
+      - 265
+      - 291
     files:
       - legendaries.simc
   racials:
