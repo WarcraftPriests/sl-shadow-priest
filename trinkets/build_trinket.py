@@ -56,6 +56,7 @@ def main():
     # ilevel_range = build_range(int(args.min_ilevel), int(args.max_ilevel))
     ilevel_range = [236, 239, 242, 246, 249, 252,
                     255, 259, 262, 265, 268, 272, 275, 278]
+    # ilevel_range = [246, 259, 272, 285]
     trinket_list = []
     for ilevel in ilevel_range:
         if ilevel < int(args.min_ilevel) or ilevel > int(args.max_ilevel):

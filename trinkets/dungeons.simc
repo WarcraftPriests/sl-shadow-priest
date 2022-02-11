@@ -26,6 +26,7 @@ finger2=${gear.finger2},enchant=tenet_of_mastery
 main_hand=${gear.main_hand},enchant=sinful_revelation
 
 # Mythic+ Trinkets (+Great Vault): 236/239/242/246/249/252/255/259/262/265/268/272/275/278
+# Highest from key: 262 // Highest from vault: 278
 
 # Tazavesh, the Veiled Market: 252/259
 # old: 185818 // new: 190958

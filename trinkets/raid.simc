@@ -25,6 +25,39 @@ finger1=${gear.finger1},enchant=tenet_of_mastery
 finger2=${gear.finger2},enchant=tenet_of_mastery
 main_hand=${gear.main_hand},enchant=sinful_revelation
 
+# TODO: some of these will need options
+# Sepulcher of the First Ones 239/252/265/278
+profileset."Resonant_Reservoir_239"+=trinket1=resonant_reservoir,id=188272,ilevel=239
+profileset."Resonant_Reservoir_252"+=trinket1=resonant_reservoir,id=188272,ilevel=252
+profileset."Resonant_Reservoir_265"+=trinket1=resonant_reservoir,id=188272,ilevel=265
+profileset."Resonant_Reservoir_278"+=trinket1=resonant_reservoir,id=188272,ilevel=278
+
+profileset."Elegy_of_the_Eternals_239"+=trinket1=elegy_of_the_eternals,id=188270,ilevel=239
+profileset."Elegy_of_the_Eternals_252"+=trinket1=elegy_of_the_eternals,id=188270,ilevel=252
+profileset."Elegy_of_the_Eternals_265"+=trinket1=elegy_of_the_eternals,id=188270,ilevel=265
+profileset."Elegy_of_the_Eternals_278"+=trinket1=elegy_of_the_eternals,id=188270,ilevel=278
+
+profileset."The_First_Sigil_239"+=trinket1=the_first_sigil,id=188271,ilevel=239
+profileset."The_First_Sigil_252"+=trinket1=the_first_sigil,id=188271,ilevel=252
+profileset."The_First_Sigil_265"+=trinket1=the_first_sigil,id=188271,ilevel=265
+profileset."The_First_Sigil_278"+=trinket1=the_first_sigil,id=188271,ilevel=278
+
+profileset."Architects_Ingenuity_Core_239"+=trinket1=architects_ingenuity_core,id=188268,ilevel=239
+profileset."Architects_Ingenuity_Core_252"+=trinket1=architects_ingenuity_core,id=188268,ilevel=252
+profileset."Architects_Ingenuity_Core_265"+=trinket1=architects_ingenuity_core,id=188268,ilevel=265
+profileset."Architects_Ingenuity_Core_278"+=trinket1=architects_ingenuity_core,id=188268,ilevel=278
+
+# Lord of Dread/Rygelon/The Jailer 246/259/272/285
+profileset."Grim_Eclipse_246"+=trinket1=grim_eclipse,id=188254,ilevel=246
+profileset."Grim_Eclipse_259"+=trinket1=grim_eclipse,id=188254,ilevel=259
+profileset."Grim_Eclipse_272"+=trinket1=grim_eclipse,id=188254,ilevel=272
+profileset."Grim_Eclipse_285"+=trinket1=grim_eclipse,id=188254,ilevel=285
+
+profileset."Scars_of_Fraternal_Strife_246"+=trinket1=scars_of_fraternal_strife,id=188253,ilevel=246
+profileset."Scars_of_Fraternal_Strife_259"+=trinket1=scars_of_fraternal_strife,id=188253,ilevel=259
+profileset."Scars_of_Fraternal_Strife_272"+=trinket1=scars_of_fraternal_strife,id=188253,ilevel=272
+profileset."Scars_of_Fraternal_Strife_285"+=trinket1=scars_of_fraternal_strife,id=188253,ilevel=285
+
 # World Boss
 profileset."Soul_Cage_Fragment_233"+=trinket1=soul_cage_fragment,id=187447,ilevel=233
 

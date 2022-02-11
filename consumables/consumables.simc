@@ -5,6 +5,8 @@ position=back
 spec=shadow
 talents=${talents}
 
+make this a covenant file
+
 set_bonus=tier28_2pc=1
 set_bonus=tier28_4pc=1
 
