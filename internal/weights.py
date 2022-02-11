@@ -1,5 +1,26 @@
 """weight dict definitions"""
 
+weightsSepulcherOfTheFirstOnes = {
+    'pw_ba_1': 0.000,
+    'pw_sa_1': 0.055,
+    'pw_na_1': 0.570,
+    'lm_ba_1': 0.000,
+    'lm_sa_1': 0.050,
+    'lm_na_1': 0.205,
+    'hm_ba_1': 0.000,
+    'hm_sa_1': 0.000,
+    'hm_na_1': 0.000,
+    'pw_ba_2': 0.020,
+    'pw_sa_2': 0.020,
+    'pw_na_2': 0.050,
+    'lm_ba_2': 0.020,
+    'lm_sa_2': 0.000,
+    'lm_na_2': 0.010,
+    'hm_ba_2': 0.000,
+    'hm_sa_2': 0.000,
+    'hm_na_2': 0.000,
+}
+
 weights_sanctum_of_domination = {
     'pw_ba_1': 0.000,
     'pw_sa_1': 0.055,
@@ -57,4 +78,6 @@ def find_weights(key):
         return weights_castle_nathria
     if key == 'weightsSanctumOfDomination':
         return weights_sanctum_of_domination
+    if key == 'weightsSepulcherOfTheFirstOnes':
+        return weightsSepulcherOfTheFirstOnes
     return None

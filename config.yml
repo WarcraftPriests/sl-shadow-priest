@@ -550,7 +550,7 @@ sims:
       - DPS
     files:
       - weights.simc
-compositeWeights: weightsSanctumOfDomination
+compositeWeights: weightsSepulcherOfTheFirstOnes
 singleTargetWeights: weightsSingle
 singleTargetProfiles:
   - pw_na_1
