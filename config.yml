@@ -258,7 +258,7 @@ sims:
     weights: false
     chart: true
     covenant:
-      lookup: false
+      lookup: true
       files: false
     legendary: true
     lookupType: spell
@@ -300,7 +300,7 @@ sims:
     weights: false
     chart: true
     covenant:
-      lookup: false
+      lookup: true
       files: false
     legendary: true
     lookupType: spell
@@ -377,7 +377,7 @@ sims:
     weights: false
     chart: true
     covenant:
-      lookup: false
+      lookup: true
       files: false
     legendary: true
     lookupType: spell
@@ -531,6 +531,7 @@ sims:
       - 272
       - 275
       - 278
+      - 285
     files:
       - raid.simc
       - dungeons.simc

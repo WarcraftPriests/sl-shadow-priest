@@ -5,12 +5,10 @@ position=back
 spec=shadow
 talents=${talents}
 
-make this a covenant file
-
 set_bonus=tier28_2pc=1
 set_bonus=tier28_4pc=1
 
-head=${gear.head},bonus_id=${legendary.id}
+head=${gear.head},bonus_id=${covenant.id}/${legendary.id}
 neck=${gear.neck}
 shoulders=${gear.shoulders}
 back=${gear.back}
