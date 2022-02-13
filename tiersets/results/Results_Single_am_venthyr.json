@@ -1,1 +1,1 @@
-{"name": "Single - am - venthyr", "data": {"T28-2_4-set": {"DPS": 12120}, "T28-2-set": {"DPS": 10361}, "Base": {"DPS": 9745}}, "ids": {"T28-2_4-set": 363469, "T28-2-set": 364424}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2_4-set", "T28-2-set"], "last_updated": "2021-12-18"}
+{"name": "Single - am - venthyr", "data": {"T28-2-set": {"DPS": 14101}, "Base": {"DPS": 14097}, "T28-2_4-set": {"DPS": 14092}}, "ids": {"T28-2-set": 364424, "T28-2_4-set": 363469}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2-set", "T28-2_4-set"], "last_updated": "2022-02-11"}

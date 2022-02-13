@@ -1,18 +1,18 @@
 # Composite - am - kyrian
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Shadowflame_Prism_Rabid_Shadows_15_Mindbender|10662|7.08%|
-|Shadowflame_Prism_Mindbender|10550|5.96%|
-|Talbadars_Stratagem|10487|5.32%|
-|Talbadars_Stratagem_Mind_Devourer_15|10450|4.95%|
-|Eternal_Call_to_the_Void|10384|4.28%|
-|Shadowflame_Prism|10224|2.68%|
-|Spheres_Harmony|10220|2.64%|
-|Echo_of_Eonar|10094|1.37%|
-|Judgment_of_the_Arbiter|10069|1.13%|
-|Shadowflame_Prism_Rabid_Shadows_15|10065|1.08%|
-|Sephuzs_Proclamation|9972|0.15%|
-|Base|9957|0.00%|
-|Third_Eye_of_the_Jailer|9954|-0.03%|
-|Painbreaker_Psalm|9924|-0.33%|
-|Twins_of_the_Sun_Priestess_Conduit_15|9903|-0.54%|
+|Shadowflame_Prism_Rabid_Shadows_13_Mindbender|12346|9.94%|
+|Shadowflame_Prism_Mindbender|12202|8.66%|
+|Talbadars_Stratagem_Mind_Devourer_13|12079|7.56%|
+|Talbadars_Stratagem|12035|7.17%|
+|Eternal_Call_to_the_Void|11837|5.41%|
+|Shadowflame_Prism|11647|3.71%|
+|Shadowflame_Prism_Rabid_Shadows_13|11479|2.22%|
+|Spheres_Harmony|11469|2.13%|
+|Painbreaker_Psalm|11414|1.64%|
+|Echo_of_Eonar|11385|1.38%|
+|Judgment_of_the_Arbiter|11348|1.06%|
+|Sephuzs_Proclamation|11246|0.15%|
+|Base|11230|0.00%|
+|Third_Eye_of_the_Jailer|11226|-0.03%|
+|Twins_of_the_Sun_Priestess_Conduit_13|11162|-0.61%|

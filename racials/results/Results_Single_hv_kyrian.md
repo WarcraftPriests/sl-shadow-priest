@@ -1,0 +1,32 @@
+# Single - hv - kyrian
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Mechagnome|11368|1.37%|
+|Void_Elf|11368|1.36%|
+|Human|11365|1.34%|
+|Gnome|11356|1.26%|
+|Goblin|11354|1.24%|
+|Blood_Elf|11351|1.21%|
+|Night_Elf_Haste|11350|1.20%|
+|Troll|11341|1.12%|
+|Dark_Iron_Dwarf|11332|1.05%|
+|Panda_Mastery|11329|1.02%|
+|Nightborne|11324|0.97%|
+|Draenei|11320|0.93%|
+|Night_Elf_Crit|11316|0.90%|
+|Zandalari_Troll_Paku|11313|0.88%|
+|Panda_Feast|11313|0.88%|
+|Kul_Tiran|11310|0.85%|
+|Maghar_Orc|11303|0.78%|
+|Worgen|11295|0.71%|
+|Tauren|11290|0.67%|
+|Dwarf|11286|0.63%|
+|Panda_Crit|11284|0.62%|
+|Zandalari_Troll_Bwonsamdi|11278|0.56%|
+|Panda_Vers|11275|0.54%|
+|Zandalari_Troll_Kimbul|11271|0.50%|
+|Undead|11266|0.45%|
+|Panda_Haste|11255|0.36%|
+|Lightforged_Draenei|11226|0.09%|
+|Vulpera|11223|0.07%|
+|Base|11215|0.00%|

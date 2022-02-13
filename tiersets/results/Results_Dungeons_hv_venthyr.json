@@ -1,1 +1,1 @@
-{"name": "Dungeons - hv - venthyr", "data": {"T28-2_4-set": {"DPS": 12019}, "T28-2-set": {"DPS": 10104}, "Base": {"DPS": 9703}}, "ids": {"T28-2_4-set": 363469, "T28-2-set": 364424}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2_4-set", "T28-2-set"], "last_updated": "2021-12-18"}
+{"name": "Dungeons - hv - venthyr", "data": {"Base": {"DPS": 14095}, "T28-2-set": {"DPS": 14091}, "T28-2_4-set": {"DPS": 14083}}, "ids": {"T28-2-set": 364424, "T28-2_4-set": 363469}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2-set", "T28-2_4-set"], "last_updated": "2022-02-11"}

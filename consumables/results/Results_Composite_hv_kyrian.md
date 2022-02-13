@@ -1,0 +1,21 @@
+# Composite - hv - kyrian
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Spectral_Flask_of_Power|11196|3.04%|
+|Potion_of_Spectral_Intellect|11039|1.60%|
+|Potion_of_Phantom_Fire|11015|1.37%|
+|Iridescent_Ravioli_with_Apple_Sauce|10967|0.94%|
+|Feast_of_Gluttonous_Hedonism|10963|0.90%|
+|Potion_of_Empowered_Exorcisms|10955|0.82%|
+|Veiled_Augment_Rune|10954|0.81%|
+|Steak_a_la_Mode|10949|0.76%|
+|Spinefin_Souffle_and_Fries|10948|0.76%|
+|Tenebrous_Crown_Roast_Aspic|10927|0.57%|
+|16_Mastery|10923|0.53%|
+|16_Critical_Strike|10915|0.46%|
+|Potion_of_Deathly_Fixation|10910|0.41%|
+|16_Versatility|10908|0.39%|
+|7_Intellect|10901|0.33%|
+|16_Haste|10899|0.31%|
+|6_Intellect|10896|0.28%|
+|Base|10866|0.00%|

@@ -1,0 +1,21 @@
+# Single - hv - night_fae
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Spectral_Flask_of_Power|11337|3.03%|
+|Potion_of_Spectral_Intellect|11204|1.82%|
+|Potion_of_Phantom_Fire|11166|1.47%|
+|Iridescent_Ravioli_with_Apple_Sauce|11104|0.91%|
+|Feast_of_Gluttonous_Hedonism|11100|0.88%|
+|Potion_of_Empowered_Exorcisms|11095|0.83%|
+|Spinefin_Souffle_and_Fries|11091|0.79%|
+|Veiled_Augment_Rune|11090|0.78%|
+|Steak_a_la_Mode|11074|0.64%|
+|Tenebrous_Crown_Roast_Aspic|11061|0.52%|
+|16_Mastery|11060|0.51%|
+|Potion_of_Deathly_Fixation|11048|0.41%|
+|16_Critical_Strike|11047|0.39%|
+|16_Versatility|11043|0.36%|
+|6_Intellect|11037|0.30%|
+|16_Haste|11036|0.29%|
+|7_Intellect|11036|0.29%|
+|Base|11004|0.00%|

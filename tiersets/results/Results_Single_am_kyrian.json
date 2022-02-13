@@ -1,1 +1,1 @@
-{"name": "Single - am - kyrian", "data": {"T28-2_4-set": {"DPS": 11071}, "T28-2-set": {"DPS": 9592}, "Base": {"DPS": 9211}}, "ids": {"T28-2_4-set": 363469, "T28-2-set": 364424}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2_4-set", "T28-2-set"], "last_updated": "2021-12-18"}
+{"name": "Single - am - kyrian", "data": {"Base": {"DPS": 12859}, "T28-2_4-set": {"DPS": 12858}, "T28-2-set": {"DPS": 12853}}, "ids": {"T28-2_4-set": 363469, "T28-2-set": 364424}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2_4-set", "T28-2-set"], "last_updated": "2022-02-11"}
