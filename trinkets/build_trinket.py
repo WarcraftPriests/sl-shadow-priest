@@ -25,7 +25,8 @@ def build_trinket_with_options(name, item_id, ilevel, options):
         trinkets.append(build_option(name, ilevel, options[0]))
     else:
         for option in options:
-            trinkets.append(build_trinket(name + "_" + option, item_id, ilevel))
+            trinkets.append(build_trinket(
+                name + "_" + option, item_id, ilevel))
             trinkets.append(build_option(name, ilevel, option))
     return trinkets
 
@@ -54,9 +55,11 @@ def main():
 
     # Shadowlands ilvls are not static
     # ilevel_range = build_range(int(args.min_ilevel), int(args.max_ilevel))
-    ilevel_range = [236, 239, 242, 246, 249, 252,
-                    255, 259, 262, 265, 268, 272, 275, 278]
+    # ilevel_range = [236, 239, 242, 246, 249, 252,
+    #                 255, 259, 262, 265, 268, 272, 275, 278]
     # ilevel_range = [246, 259, 272, 285]
+    # ilevel_range = [249, 252, 255, 259, 262, 265, 268, 272, 275]
+    ilevel_range = [203, 210, 216, 223, 229, 236, 242]
     trinket_list = []
     for ilevel in ilevel_range:
         if ilevel < int(args.min_ilevel) or ilevel > int(args.max_ilevel):
