@@ -39,12 +39,12 @@ ${gear.off_hand}
 
 # Venthyr Legendaries
 # Shadow Word: Manipulation - 7704 (Head, Neck, Shoulder, Chest, Waist, Legs, Feet, Wrist, Hands, Finger, Back)
-profileset."Shadow_Word_Manipulation_7_Head_HM_262"+=head=,id=173245,ilevel=262,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Head_HM_262"+=head=,id=173245,ilevel=262,bonus_id=7704/6648/6649,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Head_HM_262"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
-profileset."Shadow_Word_Manipulation_7_Head_HM_291"+=head=,id=173245,ilevel=291,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Head_HM_291"+=head=,id=173245,ilevel=291,bonus_id=7704/6648/6649,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Head_HM_291"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
-profileset."Shadow_Word_Manipulation_7_Neck_HM_262"+=neck=,id=178927,ilevel=262,bonus_id=7704/6648/6649
-profileset."Shadow_Word_Manipulation_7_Neck_HM_291"+=neck=,id=178927,ilevel=291,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_HM_262"+=neck=,id=178927,ilevel=262,bonus_id=7704/6648/6649,gem_id=173130
+profileset."Shadow_Word_Manipulation_7_Neck_HM_291"+=neck=,id=178927,ilevel=291,bonus_id=7704/6648/6649,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Shoulder_HM_262"+=shoulder=,id=173247,ilevel=262,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Shoulder_HM_262"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 profileset."Shadow_Word_Manipulation_7_Shoulder_HM_291"+=shoulder=,id=173247,ilevel=291,bonus_id=7704/6648/6649
@@ -53,33 +53,33 @@ profileset."Shadow_Word_Manipulation_7_Chest_HM_262"+=chest=,id=173241,ilevel=26
 profileset."Shadow_Word_Manipulation_7_Chest_HM_262"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 profileset."Shadow_Word_Manipulation_7_Chest_HM_291"+=chest=,id=173241,ilevel=291,bonus_id=7704/6648/6649,enchant=eternal_stats
 profileset."Shadow_Word_Manipulation_7_Chest_HM_291"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
-profileset."Shadow_Word_Manipulation_7_Waist_HM_262"+=waist=,id=173248,ilevel=262,bonus_id=7704/6648/6649
-profileset."Shadow_Word_Manipulation_7_Waist_HM_291"+=waist=,id=173248,ilevel=291,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Waist_HM_262"+=waist=,id=173248,ilevel=262,bonus_id=7704/6648/6649,gem_id=173130
+profileset."Shadow_Word_Manipulation_7_Waist_HM_291"+=waist=,id=173248,ilevel=291,bonus_id=7704/6648/6649,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Legs_HM_262"+=legs=,id=173246,ilevel=262,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Legs_HM_291"+=legs=,id=173246,ilevel=291,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Feet_HM_262"+=feet=grim_veiled_sandals,id=173243,ilevel=262,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Feet_HM_291"+=feet=grim_veiled_sandals,id=173243,ilevel=291,bonus_id=7704/6648/6649
-profileset."Shadow_Word_Manipulation_7_Wrists_HM_291"+=wrists=,id=173249,ilevel=291,bonus_id=7704/6648/6649,enchant=eternal_intellect
-profileset."Shadow_Word_Manipulation_7_Wrists_HM_262"+=wrists=,id=173249,ilevel=262,bonus_id=7704/6648/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_HM_291"+=wrists=,id=173249,ilevel=291,bonus_id=7704/6648/6649,enchant=eternal_intellect,gem_id=173130
+profileset."Shadow_Word_Manipulation_7_Wrists_HM_262"+=wrists=,id=173249,ilevel=262,bonus_id=7704/6648/6649,enchant=eternal_intellect,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Hands_HM_262"+=hands=,id=173244,ilevel=262,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Hands_HM_262"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 profileset."Shadow_Word_Manipulation_7_Hands_HM_291"+=hands=,id=173244,ilevel=291,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Hands_HM_291"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
-profileset."Shadow_Word_Manipulation_7_Finger_HM_262"+=finger2=,id=178926,ilevel=262,bonus_id=7704/6648/6649,enchant=tenet_of_mastery
-profileset."Shadow_Word_Manipulation_7_Finger_HM_291"+=finger2=,id=178926,ilevel=291,bonus_id=7704/6648/6649,enchant=tenet_of_mastery
+profileset."Shadow_Word_Manipulation_7_Finger_HM_262"+=finger2=,id=178926,ilevel=262,bonus_id=7704/6648/6649,enchant=tenet_of_mastery,gem_id=173130
+profileset."Shadow_Word_Manipulation_7_Finger_HM_291"+=finger2=,id=178926,ilevel=291,bonus_id=7704/6648/6649,enchant=tenet_of_mastery,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Back_HM_262"+=back=,id=173242,ilevel=262,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Back_HM_291"+=back=,id=173242,ilevel=291,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Cord_of_Unity_265"+=waist=cord_of_unity,id=190468,ilevel=265,bonus_id=7704
 
-profileset."Shadow_Word_Manipulation_7_Head_Conduit_13_HM_262"+=head=,id=173245,ilevel=262,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Head_Conduit_13_HM_262"+=head=,id=173245,ilevel=262,bonus_id=7704/6648/6649,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Head_Conduit_13_HM_262"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 profileset."Shadow_Word_Manipulation_7_Head_Conduit_13_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
-profileset."Shadow_Word_Manipulation_7_Head_Conduit_13_HM_291"+=head=,id=173245,ilevel=291,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Head_Conduit_13_HM_291"+=head=,id=173245,ilevel=291,bonus_id=7704/6648/6649,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Head_Conduit_13_HM_291"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 profileset."Shadow_Word_Manipulation_7_Head_Conduit_13_HM_291"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
-profileset."Shadow_Word_Manipulation_7_Neck_Conduit_13_HM_262"+=neck=,id=178927,ilevel=262,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_13_HM_262"+=neck=,id=178927,ilevel=262,bonus_id=7704/6648/6649,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Neck_Conduit_13_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
-profileset."Shadow_Word_Manipulation_7_Neck_Conduit_13_HM_291"+=neck=,id=178927,ilevel=291,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Neck_Conduit_13_HM_291"+=neck=,id=178927,ilevel=291,bonus_id=7704/6648/6649,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Neck_Conduit_13_HM_291"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
 profileset."Shadow_Word_Manipulation_7_Shoulder_Conduit_13_HM_262"+=shoulder=,id=173247,ilevel=262,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Shoulder_Conduit_13_HM_262"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
@@ -93,9 +93,9 @@ profileset."Shadow_Word_Manipulation_7_Chest_Conduit_13_HM_262"+=soulbind=theota
 profileset."Shadow_Word_Manipulation_7_Chest_Conduit_13_HM_291"+=chest=,id=173241,ilevel=291,bonus_id=7704/6648/6649,enchant=eternal_stats
 profileset."Shadow_Word_Manipulation_7_Chest_Conduit_13_HM_291"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 profileset."Shadow_Word_Manipulation_7_Chest_Conduit_13_HM_291"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
-profileset."Shadow_Word_Manipulation_7_Waist_Conduit_13_HM_262"+=waist=,id=173248,ilevel=262,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Waist_Conduit_13_HM_262"+=waist=,id=173248,ilevel=262,bonus_id=7704/6648/6649,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Waist_Conduit_13_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
-profileset."Shadow_Word_Manipulation_7_Waist_Conduit_13_HM_291"+=waist=,id=173248,ilevel=291,bonus_id=7704/6648/6649
+profileset."Shadow_Word_Manipulation_7_Waist_Conduit_13_HM_291"+=waist=,id=173248,ilevel=291,bonus_id=7704/6648/6649,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Waist_Conduit_13_HM_291"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
 profileset."Shadow_Word_Manipulation_7_Legs_Conduit_13_HM_262"+=legs=,id=173246,ilevel=262,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Legs_Conduit_13_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
@@ -105,9 +105,9 @@ profileset."Shadow_Word_Manipulation_7_Feet_Conduit_13_HM_262"+=feet=grim_veiled
 profileset."Shadow_Word_Manipulation_7_Feet_Conduit_13_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
 profileset."Shadow_Word_Manipulation_7_Feet_Conduit_13_HM_291"+=feet=grim_veiled_sandals,id=173243,ilevel=291,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Feet_Conduit_13_HM_291"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
-profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_13_HM_291"+=wrists=,id=173249,ilevel=291,bonus_id=7704/6648/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_13_HM_291"+=wrists=,id=173249,ilevel=291,bonus_id=7704/6648/6649,enchant=eternal_intellect,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_13_HM_291"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
-profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_13_HM_262"+=wrists=,id=173249,ilevel=262,bonus_id=7704/6648/6649,enchant=eternal_intellect
+profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_13_HM_262"+=wrists=,id=173249,ilevel=262,bonus_id=7704/6648/6649,enchant=eternal_intellect,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Wrists_Conduit_13_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
 profileset."Shadow_Word_Manipulation_7_Hands_Conduit_13_HM_262"+=hands=,id=173244,ilevel=262,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Hands_Conduit_13_HM_262"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
@@ -115,9 +115,9 @@ profileset."Shadow_Word_Manipulation_7_Hands_Conduit_13_HM_262"+=soulbind=theota
 profileset."Shadow_Word_Manipulation_7_Hands_Conduit_13_HM_291"+=hands=,id=173244,ilevel=291,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Hands_Conduit_13_HM_291"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 profileset."Shadow_Word_Manipulation_7_Hands_Conduit_13_HM_291"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
-profileset."Shadow_Word_Manipulation_7_Finger_Conduit_13_HM_262"+=finger2=,id=178926,ilevel=262,bonus_id=7704/6648/6649,enchant=tenet_of_mastery
+profileset."Shadow_Word_Manipulation_7_Finger_Conduit_13_HM_262"+=finger2=,id=178926,ilevel=262,bonus_id=7704/6648/6649,enchant=tenet_of_mastery,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Finger_Conduit_13_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
-profileset."Shadow_Word_Manipulation_7_Finger_Conduit_13_HM_291"+=finger2=,id=178926,ilevel=291,bonus_id=7704/6648/6649,enchant=tenet_of_mastery
+profileset."Shadow_Word_Manipulation_7_Finger_Conduit_13_HM_291"+=finger2=,id=178926,ilevel=291,bonus_id=7704/6648/6649,enchant=tenet_of_mastery,gem_id=173130
 profileset."Shadow_Word_Manipulation_7_Finger_Conduit_13_HM_291"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
 profileset."Shadow_Word_Manipulation_7_Back_Conduit_13_HM_262"+=back=,id=173242,ilevel=262,bonus_id=7704/6648/6649
 profileset."Shadow_Word_Manipulation_7_Back_Conduit_13_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/shattered_perceptions:13
@@ -129,19 +129,19 @@ profileset."Shadow_Word_Manipulation_7_Cord_of_Unity_Conduit_13_265"+=waist=cord
 
 # Shadow Priest Legendaries
 # Shadowflame Prism - 6982
-profileset."Shadowflame_Prism_Head_HM_262"+=head=,id=173245,ilevel=262,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Head_HM_262"+=head=,id=173245,ilevel=262,bonus_id=6982/6648/6649,gem_id=173130
 profileset."Shadowflame_Prism_Head_HM_262"+legs=leggings_of_the_empyrean,id=188878,ilevel=278
-profileset."Shadowflame_Prism_Head_HM_291"+=head=,id=173245,ilevel=291,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Head_HM_291"+=head=,id=173245,ilevel=291,bonus_id=6982/6648/6649,gem_id=173130
 profileset."Shadowflame_Prism_Head_HM_291"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 profileset."Shadowflame_Prism_Hands_HM_262"+=hands=,id=173244,ilevel=262,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Hands_HM_262"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 profileset."Shadowflame_Prism_Hands_HM_291"+=hands=,id=173244,ilevel=291,bonus_id=6982/6648/6649
 profileset."Shadowflame_Prism_Hands_HM_291"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 
-profileset."Shadowflame_Prism_Mindbender_Head_HM_262"+=head=,id=173245,ilevel=262,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Mindbender_Head_HM_262"+=head=,id=173245,ilevel=262,bonus_id=6982/6648/6649,gem_id=173130
 profileset."Shadowflame_Prism_Mindbender_Head_HM_262"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Head_HM_262"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
-profileset."Shadowflame_Prism_Mindbender_Head_HM_291"+=head=,id=173245,ilevel=291,bonus_id=6982/6648/6649
+profileset."Shadowflame_Prism_Mindbender_Head_HM_291"+=head=,id=173245,ilevel=291,bonus_id=6982/6648/6649,gem_id=173130
 profileset."Shadowflame_Prism_Mindbender_Head_HM_291"+=talents=${talents.mindbender}
 profileset."Shadowflame_Prism_Mindbender_Head_HM_291"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 profileset."Shadowflame_Prism_Mindbender_Hands_HM_262"+=hands=,id=173244,ilevel=262,bonus_id=6982/6648/6649
@@ -191,10 +191,10 @@ profileset."Painbreaker_Psalm_Chest_HM_291"+=chest=,id=173241,ilevel=291,bonus_i
 profileset."Painbreaker_Psalm_Chest_HM_291"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 
 # Twins of the Sun Priestess (7002) + Power Unto Others Conduit (73:13)
-profileset."Twins_of_the_Sun_Priestess_Conduit_13_Head_HM_262"+=head=,id=173245,ilevel=262,bonus_id=7002/6648/6649
+profileset."Twins_of_the_Sun_Priestess_Conduit_13_Head_HM_262"+=head=,id=173245,ilevel=262,bonus_id=7002/6648/6649,gem_id=173130
 profileset."Twins_of_the_Sun_Priestess_Conduit_13_Head_HM_262"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/73:13
 profileset."Twins_of_the_Sun_Priestess_Conduit_13_Head_HM_262"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
-profileset."Twins_of_the_Sun_Priestess_Conduit_13_Head_HM_291"+=head=,id=173245,ilevel=291,bonus_id=7002/6648/6649
+profileset."Twins_of_the_Sun_Priestess_Conduit_13_Head_HM_291"+=head=,id=173245,ilevel=291,bonus_id=7002/6648/6649,gem_id=173130
 profileset."Twins_of_the_Sun_Priestess_Conduit_13_Head_HM_291"+=soulbind=theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/73:13
 profileset."Twins_of_the_Sun_Priestess_Conduit_13_Head_HM_291"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 profileset."Twins_of_the_Sun_Priestess_Conduit_13_Shoulder_HM_262"+=shoulder=,id=173247,ilevel=262,bonus_id=7002/6648/6649
@@ -205,16 +205,16 @@ profileset."Twins_of_the_Sun_Priestess_Conduit_13_Shoulder_HM_291"+=soulbind=the
 profileset."Twins_of_the_Sun_Priestess_Conduit_13_Shoulder_HM_291"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 
 # Eternal Call to the Void - 6983
-profileset."Eternal_Call_to_the_Void_Wrists_HM_262"+=wrists=,id=173249,ilevel=262,bonus_id=6983/6648/6649,enchant=eternal_intellect
-profileset."Eternal_Call_to_the_Void_Wrists_HM_291"+=wrists=,id=173249,ilevel=291,bonus_id=6983/6648/6649,enchant=eternal_intellect
+profileset."Eternal_Call_to_the_Void_Wrists_HM_262"+=wrists=,id=173249,ilevel=262,bonus_id=6983/6648/6649,enchant=eternal_intellect,gem_id=173130
+profileset."Eternal_Call_to_the_Void_Wrists_HM_291"+=wrists=,id=173249,ilevel=291,bonus_id=6983/6648/6649,enchant=eternal_intellect,gem_id=173130
 profileset."Eternal_Call_to_the_Void_Hands_HM_262"+=hands=,id=173244,ilevel=262,bonus_id=6983/6648/6649
 profileset."Eternal_Call_to_the_Void_Hands_HM_262"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 profileset."Eternal_Call_to_the_Void_Hands_HM_291"+=hands=,id=173244,ilevel=291,bonus_id=6983/6648/6649
 profileset."Eternal_Call_to_the_Void_Hands_HM_291"+=legs=leggings_of_the_empyrean,id=188878,ilevel=278
 
 # Talbadar's Stratagem - 7162
-profileset."Talbadars_Stratagem_Waist_HM_262"+=waist=,id=173248,ilevel=262,bonus_id=7162/6648/6649
-profileset."Talbadars_Stratagem_Waist_HM_291"+=waist=,id=173248,ilevel=291,bonus_id=7162/6648/6649
+profileset."Talbadars_Stratagem_Waist_HM_262"+=waist=,id=173248,ilevel=262,bonus_id=7162/6648/6649,gem_id=173130
+profileset."Talbadars_Stratagem_Waist_HM_291"+=waist=,id=173248,ilevel=291,bonus_id=7162/6648/6649,gem_id=173130
 profileset."Talbadars_Stratagem_Legs_HM_262"+=legs=,id=173246,ilevel=262,bonus_id=7162/6648/6649
 profileset."Talbadars_Stratagem_Legs_HM_291"+=legs=,id=173246,ilevel=291,bonus_id=7162/6648/6649
 

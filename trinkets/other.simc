@@ -92,8 +92,9 @@ profileset."Newcomers_Gladiatorial_Badge_210"+=trinket1=newcomers_gladiatorial_b
 profileset."Stolen_Maw_Badge_207"+=trinket1=stolen_maw_badge,id=175731,ilevel=207
 profileset."Stolen_Maw_Badge_210"+=trinket1=stolen_maw_badge,id=175731,ilevel=210
 
-profileset."Instructors_Divine_Bell_207"+=trinket1=instructors_divine_bell,id=184842,ilevel=207
-profileset."Instructors_Divine_Bell_210"+=trinket1=instructors_divine_bell,id=184842,ilevel=210
+# old: 184842 // new: 190641
+profileset."Instructors_Divine_Bell_207"+=trinket1=instructors_divine_bell,id=190641,ilevel=207
+profileset."Instructors_Divine_Bell_210"+=trinket1=instructors_divine_bell,id=190641,ilevel=210
 
 # PVP Trinkets
 # Honor:    203, 210, 216, 223, 229, 236, 242

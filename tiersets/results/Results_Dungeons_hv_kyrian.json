@@ -1,1 +1,1 @@
-{"name": "Dungeons - hv - kyrian", "data": {"Base": {"DPS": 13416}, "T28-2_4-set": {"DPS": 13411}, "T28-2-set": {"DPS": 13402}}, "ids": {"T28-2_4-set": 363469, "T28-2-set": 364424}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2_4-set", "T28-2-set"], "last_updated": "2022-02-11"}
+{"name": "Dungeons - hv - kyrian", "data": {"T28-2_4-set": {"DPS": 13605}, "T28-2-set": {"DPS": 12389}, "Base": {"DPS": 12014}}, "ids": {"T28-2_4-set": 363469, "T28-2-set": 364424}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2_4-set", "T28-2-set"], "last_updated": "2022-02-15"}

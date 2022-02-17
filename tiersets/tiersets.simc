@@ -8,6 +8,8 @@ covenant=${covenant}
 soulbind=${soulbind}
 
 default_actions=1
+set_bonus=tier28_2pc=0
+set_bonus=tier28_4pc=0
 
 head=${gear.head},bonus_id=${covenant.id}/${legendary.id}
 neck=${gear.neck}
