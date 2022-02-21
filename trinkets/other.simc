@@ -162,18 +162,18 @@ profileset."Variable_Pulse_Lightning_Capacitor_252"+=trinket1=variable_pulse_lig
 # Black Temple Timewalking
 profileset."The_Skull_of_Guldan_252"+=trinket1=the_skull_of_guldan,id=150522,ilevel=252
 
-# Legion Mythic+ Timewalking - 246 Max Upg
+# Legion Mythic+ Timewalking - 272 Max Upg
 # Black Rook Hold
-profileset."Caged_Horror_246"+=trinket1=caged_horror,id=136716,ilevel=246
+profileset."Caged_Horror_272"+=trinket1=caged_horror,id=136716,ilevel=272
 # Eye of Azshara
-profileset."Stormsinger_Fulmination_Charge_246"+=trinket1=stormsinger_fulmination_charge,id=137367,ilevel=246
+profileset."Stormsinger_Fulmination_Charge_272"+=trinket1=stormsinger_fulmination_charge,id=137367,ilevel=272
 # Darkheart Thicket
-profileset."Oakhearts_Gnarled_Root_246"+=trinket1=oakhearts_gnarled_root,id=137306,ilevel=246
-profileset."Corrupted_Starlight_246"+=trinket1=corrupted_starlight,id=137301,ilevel=246
+profileset."Oakhearts_Gnarled_Root_272"+=trinket1=oakhearts_gnarled_root,id=137306,ilevel=272
+profileset."Corrupted_Starlight_272"+=trinket1=corrupted_starlight,id=137301,ilevel=272
 # Vault of the Wardens
-profileset."Moonlit_Prism_246"+=trinket1=moonlit_prism,id=137541,ilevel=246
+profileset."Moonlit_Prism_272"+=trinket1=moonlit_prism,id=137541,ilevel=272
 # Neltharion’s Lair
-profileset."Naraxas_Spiked_Tongue_20_yd_246"+=trinket1=naraxas_spiked_tongue,id=137349,ilevel=246
-profileset."Naraxas_Spiked_Tongue_20_yd_246"+=distance=20
+profileset."Naraxas_Spiked_Tongue_20_yd_272"+=trinket1=naraxas_spiked_tongue,id=137349,ilevel=272
+profileset."Naraxas_Spiked_Tongue_20_yd_272"+=distance=20
 # Court of Stars
-profileset."Infernal_Writ_246"+=trinket1=infernal_writ,id=137485,ilevel=246
+profileset."Infernal_Writ_272"+=trinket1=infernal_writ,id=137485,ilevel=272
