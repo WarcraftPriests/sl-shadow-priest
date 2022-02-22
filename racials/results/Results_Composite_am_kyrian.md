@@ -1,0 +1,32 @@
+# Composite - am - kyrian
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Human|11378|1.67%|
+|Gnome|11363|1.53%|
+|Goblin|11359|1.50%|
+|Mechagnome|11351|1.42%|
+|Night_Elf_Haste|11349|1.41%|
+|Troll|11346|1.38%|
+|Void_Elf|11345|1.37%|
+|Dark_Iron_Dwarf|11320|1.14%|
+|Blood_Elf|11303|0.99%|
+|Nightborne|11301|0.98%|
+|Draenei|11298|0.95%|
+|Panda_Mastery|11296|0.94%|
+|Kul_Tiran|11292|0.90%|
+|Panda_Feast|11290|0.88%|
+|Zandalari_Troll_Paku|11289|0.87%|
+|Night_Elf_Crit|11287|0.86%|
+|Maghar_Orc|11282|0.81%|
+|Panda_Haste|11280|0.79%|
+|Dwarf|11277|0.77%|
+|Worgen|11274|0.74%|
+|Tauren|11271|0.71%|
+|Panda_Crit|11259|0.60%|
+|Panda_Vers|11257|0.58%|
+|Zandalari_Troll_Bwonsamdi|11256|0.58%|
+|Zandalari_Troll_Kimbul|11244|0.47%|
+|Undead|11243|0.46%|
+|Lightforged_Draenei|11218|0.24%|
+|Vulpera|11205|0.12%|
+|Base|11192|0.00%|

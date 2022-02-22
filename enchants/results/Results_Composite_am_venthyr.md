@@ -1,0 +1,21 @@
+# Composite - am - venthyr
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Weapon_Celestial_Guidance|12151|2.13%|
+|Weapon_Sinful_Revelation|12106|1.75%|
+|Chest_Eternal_Stats|12046|1.25%|
+|Chest_Eternal_Insight|12041|1.21%|
+|Weapon_Lightless_Force|12009|0.94%|
+|Chest_Sacred_Stats|11994|0.81%|
+|Chest_Eternal_Bounds|11990|0.78%|
+|Wrists_Eternal_Intellect|11965|0.57%|
+|Ring_Tenet_of_Haste|11958|0.51%|
+|Ring_Tenet_of_Mastery|11946|0.41%|
+|Wrists_Illuminated_Soul|11944|0.40%|
+|Ring_Tenet_of_Versatility|11941|0.37%|
+|Ring_Bargain_of_Mastery|11939|0.35%|
+|Ring_Bargain_of_Haste|11938|0.34%|
+|Ring_Tenet_of_Critical_Strike|11933|0.30%|
+|Ring_Bargain_of_Critical_Strike|11928|0.26%|
+|Ring_Bargain_of_Versatility|11924|0.23%|
+|Base|11897|0.00%|

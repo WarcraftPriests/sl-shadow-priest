@@ -1,0 +1,32 @@
+# Dungeons - hv - venthyr
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Gnome|13629|1.64%|
+|Human|13628|1.63%|
+|Goblin|13613|1.52%|
+|Mechagnome|13588|1.33%|
+|Night_Elf_Haste|13585|1.31%|
+|Troll|13564|1.16%|
+|Draenei|13530|0.90%|
+|Void_Elf|13530|0.90%|
+|Blood_Elf|13528|0.89%|
+|Panda_Feast|13522|0.84%|
+|Dwarf|13517|0.81%|
+|Panda_Haste|13517|0.81%|
+|Dark_Iron_Dwarf|13516|0.80%|
+|Kul_Tiran|13516|0.80%|
+|Nightborne|13513|0.78%|
+|Zandalari_Troll_Paku|13511|0.76%|
+|Night_Elf_Crit|13506|0.72%|
+|Tauren|13506|0.72%|
+|Panda_Mastery|13498|0.66%|
+|Worgen|13493|0.63%|
+|Panda_Crit|13486|0.57%|
+|Panda_Vers|13486|0.57%|
+|Zandalari_Troll_Bwonsamdi|13460|0.38%|
+|Maghar_Orc|13454|0.34%|
+|Undead|13447|0.28%|
+|Zandalari_Troll_Kimbul|13441|0.24%|
+|Lightforged_Draenei|13420|0.08%|
+|Base|13409|0.00%|
+|Vulpera|13408|-0.01%|

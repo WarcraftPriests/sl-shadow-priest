@@ -1,0 +1,32 @@
+# Dungeons - hv - necrolord
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Gnome|14168|1.76%|
+|Goblin|14166|1.75%|
+|Human|14163|1.72%|
+|Night_Elf_Haste|14158|1.69%|
+|Troll|14115|1.38%|
+|Mechagnome|14105|1.31%|
+|Blood_Elf|14076|1.10%|
+|Draenei|14072|1.07%|
+|Dark_Iron_Dwarf|14067|1.03%|
+|Kul_Tiran|14063|1.01%|
+|Panda_Haste|14053|0.93%|
+|Void_Elf|14053|0.93%|
+|Panda_Feast|14048|0.90%|
+|Night_Elf_Crit|14047|0.89%|
+|Maghar_Orc|14037|0.82%|
+|Worgen|14022|0.71%|
+|Nightborne|14019|0.69%|
+|Zandalari_Troll_Paku|14019|0.69%|
+|Panda_Mastery|14010|0.62%|
+|Panda_Vers|14009|0.62%|
+|Tauren|14008|0.61%|
+|Dwarf|14002|0.57%|
+|Panda_Crit|13992|0.50%|
+|Zandalari_Troll_Kimbul|13972|0.35%|
+|Undead|13969|0.33%|
+|Zandalari_Troll_Bwonsamdi|13968|0.32%|
+|Base|13923|0.00%|
+|Lightforged_Draenei|13921|-0.01%|
+|Vulpera|13914|-0.06%|

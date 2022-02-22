@@ -1,0 +1,32 @@
+# Dungeons - am - night_fae
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Goblin|13483|1.61%|
+|Mechagnome|13470|1.51%|
+|Gnome|13463|1.45%|
+|Human|13463|1.45%|
+|Night_Elf_Haste|13446|1.33%|
+|Blood_Elf|13408|1.04%|
+|Draenei|13400|0.98%|
+|Panda_Feast|13395|0.94%|
+|Troll|13394|0.93%|
+|Void_Elf|13394|0.93%|
+|Nightborne|13384|0.86%|
+|Zandalari_Troll_Paku|13383|0.85%|
+|Lightforged_Draenei|13382|0.84%|
+|Night_Elf_Crit|13378|0.81%|
+|Dark_Iron_Dwarf|13372|0.77%|
+|Panda_Haste|13369|0.75%|
+|Dwarf|13367|0.73%|
+|Kul_Tiran|13366|0.72%|
+|Tauren|13364|0.71%|
+|Worgen|13360|0.68%|
+|Panda_Mastery|13359|0.67%|
+|Panda_Vers|13349|0.60%|
+|Maghar_Orc|13342|0.54%|
+|Panda_Crit|13326|0.42%|
+|Zandalari_Troll_Bwonsamdi|13323|0.40%|
+|Undead|13317|0.35%|
+|Zandalari_Troll_Kimbul|13309|0.29%|
+|Vulpera|13280|0.08%|
+|Base|13270|0.00%|

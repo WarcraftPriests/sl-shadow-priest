@@ -1,8 +1,8 @@
 builds:
   am:
-    composite: 1111131 # FotM_ToF_AS_VT_AM
+    composite: 1111111 # FotM_ToF_AS_DM_AM
     dungeons: 2131321 # DaM_SN_SC_MB_AM
-    single: 1111131 # FotM_ToF_AS_VT_AM
+    single: 1111111 # FotM_ToF_AS_DM_AM
     conduits:
       first:
         id: "107"
@@ -13,10 +13,51 @@ builds:
       third:
         id: "113"
         name: MD
+      covenants:
+        kyrian:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "115"
+            name: DE
+          third:
+            id: "113"
+            name: MD
+        night_fae:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "115"
+            name: DE
+          third:
+            id: "114"
+            name: RS
+        necrolord:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "115"
+            name: DE
+          third:
+            id: "114"
+            name: RS
+        venthyr:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "105"
+            name: SP
+          third:
+            id: "114"
+            name: RS
   hv:
-    composite: 1111132 # FotM_ToF_AS_VT_HV
+    composite: 1111112 # FotM_ToF_AS_DM_HV
     dungeons: 2131322 # DaM_SN_SC_MB_HV
-    single: 1111132 # FotM_ToF_AS_VT_HV
+    single: 1111112 # FotM_ToF_AS_DM_HV
     conduits:
       first:
         id: "107"
@@ -27,6 +68,47 @@ builds:
       third:
         id: "113"
         name: MD
+      covenants:
+        kyrian:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "115"
+            name: DE
+          third:
+            id: "113"
+            name: MD
+        night_fae:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "115"
+            name: DE
+          third:
+            id: "114"
+            name: RS
+        necrolord:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "115"
+            name: DE
+          third:
+            id: "114"
+            name: RS
+        venthyr:
+          first:
+            id: "107"
+            name: HA
+          second:
+            id: "105"
+            name: SP
+          third:
+            id: "114"
+            name: RS
 covenants:
   list:
     - kyrian
@@ -35,41 +117,81 @@ covenants:
     - necrolord
   kyrian:
     soulbind:
-      composite: "pelagos,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/328266/351146/351149"
-      dungeons: "forgelite_prime_mikanikos,${conduits.first.id}:11/${conduits.second.id}:11/333950/333935/352186/352188"
+      composite: "pelagos,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/328266/351146/351149"
+      dungeons: "forgelite_prime_mikanikos,${conduits.first.id}:13/${conduits.second.id}:13/333950/333935/352186/352188"
   necrolord:
     soulbind:
-      composite: "plague_deviser_marileth,${conduits.first.id}:11/${conduits.second.id}:11/mind_devourer:11/323074/352110"
-      dungeons: "bonesmith_heirmir,${conduits.first.id}:11/${conduits.second.id}:11/326572/326514/350899/350936"
+      composite: "plague_deviser_marileth,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/323074/352110"
+      dungeons: "bonesmith_heirmir,${conduits.first.id}:13/${conduits.second.id}:13/326572/326514/350899/350936"
   night_fae:
     soulbind:
-      composite: "dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/319191/352786"
-      dungeons: "dreamweaver,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/319191/352786"
+      composite: "dreamweaver,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/319191/352786"
+      dungeons: "dreamweaver,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/319191/352786"
   venthyr:
     soulbind:
-      composite: "theotar_the_mad_duke,${conduits.first.id}:11/${conduits.second.id}:11/${conduits.third.id}:11/336239/351750"
-      dungeons: "nadjia_the_mistblade,${conduits.first.id}:9/${conduits.second.id}:9/${conduits.third.id}:9/331586/352373"
+      composite: "theotar_the_mad_duke,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/336239/351750"
+      dungeons: "nadjia_the_mistblade,${conduits.first.id}:13/${conduits.second.id}:13/${conduits.third.id}:13/331586/352373"
 legendary:
     composite: "6982" # Shadowflame Prism
     dungeons: "6982" # Shadowflame Prism
     single: "6982" # Shadowflame Prism
     covenants:
       kyrian:
+        covenant: "7728" # Sphere's Harmony
         composite: "7162" # Talbadar's Stratagem
         dungeons: "6982" # Shadowflame Prism
         single: "7162" # Talbadar's Stratagem
       necrolord:
-        composite: "7729" # Pallid Command
-        dungeons: "7729" # Pallid Command
-        single: "7729" # Pallid Command
+        covenant: "7729" # Pallid Command
+        composite: "6982" # Shadowflame Prism
+        dungeons: "6982" # Shadowflame Prism
+        single: "6982" # Shadowflame Prism
       night_fae:
+        covenant: "7703" # Bwonsamdi's Pact
         composite: "6982" # Shadowflame Prism
         dungeons: "6982" # Shadowflame Prism
         single: "6982" # Shadowflame Prism
       venthyr:
+        covenant: "7704" # Shadow Word: Manipulation
         composite: "6982" # Shadowflame Prism
         dungeons: "6982" # Shadowflame Prism
         single: "6982" # Shadowflame Prism
+gear:
+  head: "amice_of_the_empyrean,id=188880,ilevel=278"
+  neck: "worldkiller_iris,id=189859,ilevel=285"
+  shoulders: "capelet_of_the_empyrean,id=188879,ilevel=285"
+  back: "shroud_of_the_sires_chosen,id=189847,ilevel=285"
+  chest: "habit_of_the_empyrean,id=188875,ilevel=285"
+  wrists: "cuffs_of_the_covert_commander,id=189842,ilevel=285"
+  hands: "caress_of_the_empyrean,id=188881,ilevel=278"
+  waist: "sash_of_the_silent_sonata,id=189793,ilevel=278"
+  legs: "muehzalas_hexthread_sarong,id=179351,ilevel=278"
+  feet: "stolen_nathrian_slippers,id=189823,ilevel=278"
+  finger1: "loquacious_keepers_peridot,id=189802,ilevel=278"
+  # finger1: "soulwarped_seal_of_wrynn,id=189839,ilevel=278"
+  finger2: "death_gods_signet,id=179355,ilevel=278"
+  trinket1: "soulletting_ruby,id=178809,ilevel=278"
+  trinket2: "the_first_sigil,id=188271,ilevel=278"
+  main_hand: "guardstaff_of_the_great_cycle,id=189834,ilevel=278"
+  off_hand: ""
+gearBackup:
+  headOne: "Amice of the Empyrean" # Haste>Crit 278 TIER
+  headTwo: "Ephemera-Charged Thinking Cap" # Mastery>Haste 278
+  neck: "Wordlkiller Iris" # Crit=Haste=Mastery 285
+  shoulders: "Capelet of the Empyrean" # Crit>Mastery 285 TIER
+  backOne: "Shroud of the Sire's Chosen" # Haste>Crit 285
+  backTwo: "Lurking Predator's Camouflage" # Haste>Mastery 278
+  chest: "Habit of the Empyrean" # Haste>Mastery 285 TIER
+  wrists: "Cuffs of the Covert Commander" # Vers>Haste 285
+  hands: "Caress of the Empyrean" # Haste>Mastery 285 TIER
+  waist: "Sash of the Silent Sonata" # Haste>Crit 278
+  legs: "Leggings of the Empyrean" # Vers>Haste 278 TIER
+  feet: "Stolen Nathrian Slippers" # Haste>Mastery 278
+  finger1: "Soulwarped Seal of Wrynn" # effect 278
+  finger2: "Loquacious Keeper's Peridot" # Haste>Crit 278
+  main_hand: "Antumbra, Shadow of the Cosmos" # effect 285
+  two_hand: "Guardstaff of the Great Cycle" # Haste>Mastery 278
+  off_hand: "Forbidden Truth" # Mastery>Haste 285
 sims:
   apl:
     description: "APL Sims used for testing rotational changes only"
@@ -93,7 +215,7 @@ sims:
     covenant:
       lookup: true
       files: true
-    legendary: false
+    legendary: true
     lookupType: none
     steps:
       - DPS
@@ -110,7 +232,7 @@ sims:
     covenant:
       lookup: true
       files: true
-    legendary: false
+    legendary: true
     lookupType: spell
     steps:
       - 145
@@ -126,8 +248,6 @@ sims:
       - 278
       - 291
       - 304
-      - 317
-      - 330
     files:
       - kyrian.simc
       - necrolord.simc
@@ -139,7 +259,7 @@ sims:
     weights: false
     chart: true
     covenant:
-      lookup: false
+      lookup: true
       files: false
     legendary: true
     lookupType: spell
@@ -175,41 +295,13 @@ sims:
       - DPS
     files:
       - covenants.simc
-  covenants-launch:
-    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 48."
-    builds: true
-    weights: false
-    chart: true
-    covenant:
-      lookup: false
-      files: false
-    legendary: true
-    lookupType: spell
-    steps:
-      - DPS
-    files:
-      - covenants.simc
-  covenants-prog:
-    description: "This sim takes the soulbinds sim 1 step further and takes the top builds by fight type for each soulbind and adds them with a legendary and the covenant ability to get the actual percent increase for all borrowed power in Shadowlands at renown 54."
-    builds: true
-    weights: false
-    chart: true
-    covenant:
-      lookup: false
-      files: false
-    legendary: true
-    lookupType: spell
-    steps:
-      - DPS
-    files:
-      - covenants.simc
   enchants:
     description: "Sims all possible enchants to your characters gear by slot."
     builds: true
     weights: false
     chart: true
     covenant:
-      lookup: false
+      lookup: true
       files: false
     legendary: true
     lookupType: spell
@@ -274,10 +366,9 @@ sims:
     legendary: false
     lookupType: spell
     steps:
-      - 225
-      - 235
-      - 250
-      - 260
+      - 262
+      - 265
+      - 291
     files:
       - legendaries.simc
   racials:
@@ -286,7 +377,7 @@ sims:
     weights: false
     chart: true
     covenant:
-      lookup: false
+      lookup: true
       files: false
     legendary: true
     lookupType: spell
@@ -294,20 +385,6 @@ sims:
       - DPS
     files:
       - racials.simc
-  shards-of-domination:
-    description: "Sims all Domination Shards and their corresponding Set Bonuses"
-    builds: true
-    weights: false
-    chart: true
-    covenant:
-      lookup: false
-      files: false
-    legendary: true
-    lookupType: spell
-    steps:
-      - DPS
-    files:
-      - shards.simc
   soulbind-traits:
     description: "Individual sims for each soulbind trait + covenant ability from base. Can subtract covenant only effect to see just that increase."
     builds: true
@@ -342,42 +419,6 @@ sims:
       - kyrian.simc
       - night_fae.simc
       - venthyr.simc
-  soulbinds-launch:
-    description: "Altered version of the Soulbinds sim but capped at level 48 renown."
-    soulbinds:
-    builds: true
-    weights: false
-    chart: true
-    covenant:
-      lookup: true
-      files: true
-    legendary: true
-    lookupType: none
-    steps:
-      - DPS
-    files:
-      - necrolord.simc
-      - kyrian.simc
-      - night_fae.simc
-      - venthyr.simc
-  soulbinds-prog:
-    description: "Altered version of the Soulbinds sim but capped at level 54 renown for Mythic Prog time."
-    soulbinds:
-    builds: true
-    weights: false
-    chart: true
-    covenant:
-      lookup: true
-      files: true
-    legendary: true
-    lookupType: none
-    steps:
-      - DPS
-    files:
-      - necrolord.simc
-      - kyrian.simc
-      - night_fae.simc
-      - venthyr.simc
   stats:
     description: "Stat distribution sim to see where we would want to add stats given the option. Each letter stands for a secondary stat and the number indicates how many steps were added to that build. So H10 means we add 10 steps of haste (currently 100 stat each step)."
     builds: true
@@ -392,6 +433,20 @@ sims:
       - DPS
     files:
       - generated.simc
+  talent-builds:
+    description: "Sims various combinations of power with different Talent builds."
+    builds: false
+    weights: false
+    chart: true
+    covenant:
+      lookup: true
+      files: true
+    legendary: false
+    lookupType: none
+    steps:
+      - DPS
+    files:
+      - builds.simc
   talents:
     description: "Sims every talent build against each other with no borrowed power."
     builds: false
@@ -408,20 +463,20 @@ sims:
       - AM.simc
       - HV.simc
       - STM.simc
-  talent-builds:
-    description: "Sims various combinations of power with different Talent builds."
-    builds: false
+  tiersets:
+    description: "Sims each tier set currently available by just activating the set, not with the gear."
+    builds: true
     weights: false
     chart: true
     covenant:
       lookup: true
-      files: true
-    legendary: false
-    lookupType: none
+      files: false
+    legendary: true
+    lookupType: spell
     steps:
       - DPS
     files:
-      - builds.simc
+      - tiersets.simc
   trinket-combos:
     description: Combines the top trinkets together to get your BiS 2 trinkets.
     builds: true
@@ -447,15 +502,9 @@ sims:
     legendary: true
     lookupType: item
     steps:
-      - 187
-      - 190
-      - 194
-      - 197
-      - 198
       - 200
       - 203
       - 207
-      - 209
       - 210
       - 213
       - 216
@@ -465,13 +514,21 @@ sims:
       - 229
       - 230
       - 233
+      - 236
       - 239
-      - 240
       - 242
       - 246
       - 249
       - 252
+      - 255
       - 259
+      - 262
+      - 265
+      - 268
+      - 272
+      - 275
+      - 278
+      - 285
     files:
       - raid.simc
       - dungeons.simc
@@ -490,7 +547,7 @@ sims:
       - DPS
     files:
       - weights.simc
-compositeWeights: weightsSanctumOfDomination
+compositeWeights: weightsSepulcherOfTheFirstOnes
 singleTargetWeights: weightsSingle
 singleTargetProfiles:
   - pw_na_1

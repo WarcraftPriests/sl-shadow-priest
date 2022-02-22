@@ -217,7 +217,7 @@ def lookup_item_id(item_name, directory):
     for sim_file in config["sims"][directory[:-1]]["files"]:
         with open(sim_file, 'r', encoding="utf8") as file:
             for line in file:
-                if item_name in line:
+                if item_name in line and "id=" in line:
                     # find ,id= -> take 2nd half ->
                     # find , -> take 1st half
                     return int(line.split(',id=')[1].split(',')[0])

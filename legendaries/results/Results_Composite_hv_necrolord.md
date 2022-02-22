@@ -1,17 +1,14 @@
 # Composite - hv - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Pallid_Command|11249|10.49%|
-|Shadowflame_Prism_Rabid_Shadows_11_Mindbender|10973|7.79%|
-|Talbadars_Stratagem|10835|6.43%|
-|Shadowflame_Prism_Mindbender|10803|6.12%|
-|Eternal_Call_to_the_Void|10613|4.25%|
-|Shadowflame_Prism|10490|3.04%|
-|Shadowflame_Prism_Rabid_Shadows_11|10436|2.50%|
-|Echo_of_Eonar|10348|1.65%|
-|Painbreaker_Psalm|10332|1.48%|
-|Judgment_of_the_Arbiter|10307|1.24%|
-|Sephuzs_Proclamation|10202|0.21%|
-|Third_Eye_of_the_Jailer|10188|0.07%|
-|Base|10181|0.00%|
-|Twins_of_the_Sun_Priestess_Conduit_11|10015|-1.62%|
+|Shadowflame_Prism_Rabid_Shadows_13_Mindbender|14072|14.61%|
+|Talbadars_Stratagem|13268|8.06%|
+|Pallid_Command|13125|6.89%|
+|Eternal_Call_to_the_Void|12876|4.86%|
+|Painbreaker_Psalm|12525|2.01%|
+|Echo_of_Eonar|12452|1.41%|
+|Judgment_of_the_Arbiter|12396|0.96%|
+|Sephuzs_Proclamation|12299|0.17%|
+|Base|12279|0.00%|
+|Third_Eye_of_the_Jailer|12277|-0.02%|
+|Twins_of_the_Sun_Priestess_Conduit_13|12011|-2.18%|

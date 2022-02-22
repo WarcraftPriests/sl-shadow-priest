@@ -1,0 +1,32 @@
+# Composite - hv - necrolord
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Troll|13550|1.88%|
+|Human|13512|1.59%|
+|Gnome|13498|1.48%|
+|Goblin|13493|1.44%|
+|Night_Elf_Haste|13486|1.40%|
+|Mechagnome|13483|1.37%|
+|Dark_Iron_Dwarf|13449|1.12%|
+|Void_Elf|13429|0.97%|
+|Draenei|13426|0.94%|
+|Panda_Mastery|13421|0.90%|
+|Maghar_Orc|13418|0.88%|
+|Night_Elf_Crit|13416|0.86%|
+|Zandalari_Troll_Paku|13415|0.86%|
+|Kul_Tiran|13413|0.84%|
+|Panda_Feast|13410|0.82%|
+|Panda_Haste|13406|0.79%|
+|Nightborne|13400|0.75%|
+|Worgen|13398|0.73%|
+|Dwarf|13388|0.65%|
+|Panda_Crit|13385|0.64%|
+|Blood_Elf|13385|0.64%|
+|Tauren|13384|0.63%|
+|Panda_Vers|13365|0.48%|
+|Zandalari_Troll_Bwonsamdi|13354|0.40%|
+|Zandalari_Troll_Kimbul|13347|0.35%|
+|Undead|13347|0.35%|
+|Lightforged_Draenei|13320|0.15%|
+|Vulpera|13304|0.03%|
+|Base|13301|0.00%|

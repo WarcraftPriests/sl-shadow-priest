@@ -1,0 +1,32 @@
+# Single - am - necrolord
+| Actor | DPS | Increase |
+|---|:---:|:---:|
+|Troll|12555|1.85%|
+|Human|12511|1.49%|
+|Mechagnome|12501|1.41%|
+|Gnome|12499|1.39%|
+|Goblin|12498|1.39%|
+|Dark_Iron_Dwarf|12494|1.35%|
+|Night_Elf_Haste|12486|1.29%|
+|Void_Elf|12458|1.06%|
+|Draenei|12441|0.92%|
+|Kul_Tiran|12435|0.88%|
+|Panda_Feast|12433|0.86%|
+|Panda_Mastery|12433|0.86%|
+|Maghar_Orc|12433|0.86%|
+|Zandalari_Troll_Paku|12429|0.82%|
+|Night_Elf_Crit|12427|0.81%|
+|Blood_Elf|12422|0.76%|
+|Dwarf|12417|0.73%|
+|Nightborne|12417|0.72%|
+|Tauren|12416|0.72%|
+|Panda_Haste|12412|0.69%|
+|Worgen|12410|0.67%|
+|Panda_Crit|12395|0.55%|
+|Panda_Vers|12392|0.53%|
+|Zandalari_Troll_Bwonsamdi|12386|0.47%|
+|Undead|12381|0.44%|
+|Zandalari_Troll_Kimbul|12378|0.41%|
+|Vulpera|12336|0.07%|
+|Lightforged_Draenei|12329|0.01%|
+|Base|12327|0.00%|
