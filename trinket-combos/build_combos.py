@@ -31,7 +31,8 @@ combos = {
     "Grim_Eclipse_272": "grim_eclipse,id=188254,ilevel=272",
     "Grim_Eclipse_285": "grim_eclipse,id=188254,ilevel=285",
     "Scars_of_Fraternal_Strife_272": "scars_of_fraternal_strife,id=188253,ilevel=272",
-    "Scars_of_Fraternal_Strife_285": "scars_of_fraternal_strife,id=188253,ilevel=285"
+    "Scars_of_Fraternal_Strife_285": "scars_of_fraternal_strife,id=188253,ilevel=285",
+    "Moonlit_Prism_272": "moonlit_prism,id=137541,ilevel=272"
 }
 
 

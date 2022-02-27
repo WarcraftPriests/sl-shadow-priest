@@ -171,27 +171,9 @@ gear:
   # finger1: "soulwarped_seal_of_wrynn,id=189839,ilevel=278"
   finger2: "death_gods_signet,id=179355,ilevel=278"
   trinket1: "soulletting_ruby,id=178809,ilevel=278"
-  trinket2: "the_first_sigil,id=188271,ilevel=278"
-  main_hand: "guardstaff_of_the_great_cycle,id=189834,ilevel=278"
-  off_hand: ""
-gearBackup:
-  headOne: "Amice of the Empyrean" # Haste>Crit 278 TIER
-  headTwo: "Ephemera-Charged Thinking Cap" # Mastery>Haste 278
-  neck: "Wordlkiller Iris" # Crit=Haste=Mastery 285
-  shoulders: "Capelet of the Empyrean" # Crit>Mastery 285 TIER
-  backOne: "Shroud of the Sire's Chosen" # Haste>Crit 285
-  backTwo: "Lurking Predator's Camouflage" # Haste>Mastery 278
-  chest: "Habit of the Empyrean" # Haste>Mastery 285 TIER
-  wrists: "Cuffs of the Covert Commander" # Vers>Haste 285
-  hands: "Caress of the Empyrean" # Haste>Mastery 285 TIER
-  waist: "Sash of the Silent Sonata" # Haste>Crit 278
-  legs: "Leggings of the Empyrean" # Vers>Haste 278 TIER
-  feet: "Stolen Nathrian Slippers" # Haste>Mastery 278
-  finger1: "Soulwarped Seal of Wrynn" # effect 278
-  finger2: "Loquacious Keeper's Peridot" # Haste>Crit 278
-  main_hand: "Antumbra, Shadow of the Cosmos" # effect 285
-  two_hand: "Guardstaff of the Great Cycle" # Haste>Mastery 278
-  off_hand: "Forbidden Truth" # Mastery>Haste 285
+  trinket2: "unbound_changeling,id=178708,ilevel=278"
+  main_hand: "antumbra_shadow_of_the_cosmos,id=189852,ilevel=278"
+  off_hand: "forbidden_truth,id=189860,ilevel=285"
 sims:
   apl:
     description: "APL Sims used for testing rotational changes only"

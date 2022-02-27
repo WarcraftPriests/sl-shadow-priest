@@ -1,1 +1,1 @@
-{"name": "Composite - hv - kyrian", "data": {"T28-2_4-set": {"DPS": 14210}, "T28-2-set": {"DPS": 12836}, "Base": {"DPS": 12158}}, "ids": {"T28-2_4-set": 363469, "T28-2-set": 364424}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2_4-set", "T28-2-set"], "last_updated": "2022-02-18"}
+{"name": "Composite - hv - kyrian", "data": {"T28-2_4-set": {"DPS": 12599}, "T28-2-set": {"DPS": 11352}, "Base": {"DPS": 10743}}, "ids": {"T28-2_4-set": 363469, "T28-2-set": 364424}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2_4-set", "T28-2-set"], "last_updated": "2022-02-26"}
