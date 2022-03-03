@@ -35,62 +35,62 @@ profileset."Darkmoon_Deck_Putrescence_200"+=trinket1=darkmoon_deck_putrescence,i
 # Alchemy Stones
 # this trinket shows up 4 times 171323 - 175942 - 175941 - 175943
 # 165, 168, 200, 230
-profileset."Spiritual_Alchemy_Stone_200"+=trinket1=spiritual_alchemy_stone,id=171323,ilevel=200
-profileset."Spiritual_Alchemy_Stone_230"+=trinket1=spiritual_alchemy_stone,id=171323,ilevel=230
+# profileset."Spiritual_Alchemy_Stone_200"+=trinket1=spiritual_alchemy_stone,id=171323,ilevel=200
+# profileset."Spiritual_Alchemy_Stone_230"+=trinket1=spiritual_alchemy_stone,id=171323,ilevel=230
 
 # Questing Trinkets
 # TODO: figure out ilvl range? Wowhead shows 85 -> 455
 # 207 / 210
-profileset."Withergrove_Shardling_207"+=trinket1=withergrove_shardling,id=181459,ilevel=207
-profileset."Withergrove_Shardling_210"+=trinket1=withergrove_shardling,id=181459,ilevel=210
+# profileset."Withergrove_Shardling_207"+=trinket1=withergrove_shardling,id=181459,ilevel=207
+# profileset."Withergrove_Shardling_210"+=trinket1=withergrove_shardling,id=181459,ilevel=210
 
-profileset."Flame_of_Battle_207"+=trinket1=flame_of_battle,id=181501,ilevel=207
-profileset."Flame_of_Battle_210"+=trinket1=flame_of_battle,id=181501,ilevel=210
+# profileset."Flame_of_Battle_207"+=trinket1=flame_of_battle,id=181501,ilevel=207
+# profileset."Flame_of_Battle_210"+=trinket1=flame_of_battle,id=181501,ilevel=210
 
-profileset."Vial_of_Caustic_Liquid_207"+=trinket1=vial_of_caustic_liquid,id=181503,ilevel=207
-profileset."Vial_of_Caustic_Liquid_210"+=trinket1=vial_of_caustic_liquid,id=181503,ilevel=210
+# profileset."Vial_of_Caustic_Liquid_207"+=trinket1=vial_of_caustic_liquid,id=181503,ilevel=207
+# profileset."Vial_of_Caustic_Liquid_210"+=trinket1=vial_of_caustic_liquid,id=181503,ilevel=210
 
-profileset."Wakeners_Frond_207"+=trinket1=wakeners_frond,id=181457,ilevel=207
-profileset."Wakeners_Frond_210"+=trinket1=wakeners_frond,id=181457,ilevel=210
+# profileset."Wakeners_Frond_207"+=trinket1=wakeners_frond,id=181457,ilevel=207
+# profileset."Wakeners_Frond_210"+=trinket1=wakeners_frond,id=181457,ilevel=210
 
-profileset."Overflowing_Ember_Mirror_207"+=trinket1=overflowing_ember_mirror,id=177657,ilevel=207
-profileset."Overflowing_Ember_Mirror_210"+=trinket1=overflowing_ember_mirror,id=177657,ilevel=210
+# profileset."Overflowing_Ember_Mirror_207"+=trinket1=overflowing_ember_mirror,id=177657,ilevel=207
+# profileset."Overflowing_Ember_Mirror_210"+=trinket1=overflowing_ember_mirror,id=177657,ilevel=210
 
-profileset."Tablet_of_Despair_207"+=trinket1=tablet_of_despair,id=181357,ilevel=207
-profileset."Tablet_of_Despair_210"+=trinket1=tablet_of_despair,id=181357,ilevel=210
+# profileset."Tablet_of_Despair_207"+=trinket1=tablet_of_despair,id=181357,ilevel=207
+# profileset."Tablet_of_Despair_210"+=trinket1=tablet_of_despair,id=181357,ilevel=210
 
-profileset."Glowing_Endmire_Stinger_207"+=trinket1=glowing_endmire_stinger,id=179927,ilevel=207
-profileset."Glowing_Endmire_Stinger_210"+=trinket1=glowing_endmire_stinger,id=179927,ilevel=210
+# profileset."Glowing_Endmire_Stinger_207"+=trinket1=glowing_endmire_stinger,id=179927,ilevel=207
+# profileset."Glowing_Endmire_Stinger_210"+=trinket1=glowing_endmire_stinger,id=179927,ilevel=210
 
-profileset."Rotbriar_Sprout_207"+=trinket1=rotbriar_sprout,id=175729,ilevel=207
-profileset."Rotbriar_Sprout_210"+=trinket1=rotbriar_sprout,id=175729,ilevel=210
+# profileset."Rotbriar_Sprout_207"+=trinket1=rotbriar_sprout,id=175729,ilevel=207
+# profileset."Rotbriar_Sprout_210"+=trinket1=rotbriar_sprout,id=175729,ilevel=210
 
-profileset."Murmurs_in_the_Dark_207"+=trinket1=murmurs_in_the_dark,id=182454,ilevel=207
-profileset."Murmurs_in_the_Dark_210"+=trinket1=murmurs_in_the_dark,id=182454,ilevel=210
+# profileset."Murmurs_in_the_Dark_207"+=trinket1=murmurs_in_the_dark,id=182454,ilevel=207
+# profileset."Murmurs_in_the_Dark_210"+=trinket1=murmurs_in_the_dark,id=182454,ilevel=210
 
-profileset."Book_Borrower_Identification_207"+=trinket1=book_borrower_identification,id=182682,ilevel=207
-profileset."Book_Borrower_Identification_210"+=trinket1=book_borrower_identification,id=182682,ilevel=210
+# profileset."Book_Borrower_Identification_207"+=trinket1=book_borrower_identification,id=182682,ilevel=207
+# profileset."Book_Borrower_Identification_210"+=trinket1=book_borrower_identification,id=182682,ilevel=210
 
-profileset."Primalists_Kelpling_207"+=trinket1=primalists_kelpling,id=175726,ilevel=207
-profileset."Primalists_Kelpling_210"+=trinket1=primalists_kelpling,id=175726,ilevel=210
+# profileset."Primalists_Kelpling_207"+=trinket1=primalists_kelpling,id=175726,ilevel=207
+# profileset."Primalists_Kelpling_210"+=trinket1=primalists_kelpling,id=175726,ilevel=210
 
-profileset."Elders_Stormseed_207"+=trinket1=elders_stormseed,id=175727,ilevel=207
-profileset."Elders_Stormseed_210"+=trinket1=elders_stormseed,id=175727,ilevel=210
+# profileset."Elders_Stormseed_207"+=trinket1=elders_stormseed,id=175727,ilevel=207
+# profileset."Elders_Stormseed_210"+=trinket1=elders_stormseed,id=175727,ilevel=210
 
-profileset."Ascended_Defenders_Crest_207"+=trinket1=ascended_defenders_crest,id=175718,ilevel=207
-profileset."Ascended_Defenders_Crest_210"+=trinket1=ascended_defenders_crest,id=175718,ilevel=210
+# profileset."Ascended_Defenders_Crest_207"+=trinket1=ascended_defenders_crest,id=175718,ilevel=207
+# profileset."Ascended_Defenders_Crest_210"+=trinket1=ascended_defenders_crest,id=175718,ilevel=210
 
-profileset."Agithas_Void_Tinged_Speartip_207"+=trinket1=agithas_void_tinged_speartip,id=175719,ilevel=207
-profileset."Agithas_Void_Tinged_Speartip_210"+=trinket1=agithas_void_tinged_speartip,id=175719,ilevel=210
+# profileset."Agithas_Void_Tinged_Speartip_207"+=trinket1=agithas_void_tinged_speartip,id=175719,ilevel=207
+# profileset."Agithas_Void_Tinged_Speartip_210"+=trinket1=agithas_void_tinged_speartip,id=175719,ilevel=210
 
-profileset."Misfiring_Centurion_Controller_207"+=trinket1=misfiring_centurion_controller,id=184839,ilevel=207
-profileset."Misfiring_Centurion_Controller_210"+=trinket1=misfiring_centurion_controller,id=184839,ilevel=210
+# profileset."Misfiring_Centurion_Controller_207"+=trinket1=misfiring_centurion_controller,id=184839,ilevel=207
+# profileset."Misfiring_Centurion_Controller_210"+=trinket1=misfiring_centurion_controller,id=184839,ilevel=210
 
-profileset."Newcomers_Gladiatorial_Badge_207"+=trinket1=newcomers_gladiatorial_badge,id=175725,ilevel=207
-profileset."Newcomers_Gladiatorial_Badge_210"+=trinket1=newcomers_gladiatorial_badge,id=175725,ilevel=210
+# profileset."Newcomers_Gladiatorial_Badge_207"+=trinket1=newcomers_gladiatorial_badge,id=175725,ilevel=207
+# profileset."Newcomers_Gladiatorial_Badge_210"+=trinket1=newcomers_gladiatorial_badge,id=175725,ilevel=210
 
-profileset."Stolen_Maw_Badge_207"+=trinket1=stolen_maw_badge,id=175731,ilevel=207
-profileset."Stolen_Maw_Badge_210"+=trinket1=stolen_maw_badge,id=175731,ilevel=210
+# profileset."Stolen_Maw_Badge_207"+=trinket1=stolen_maw_badge,id=175731,ilevel=207
+# profileset."Stolen_Maw_Badge_210"+=trinket1=stolen_maw_badge,id=175731,ilevel=210
 
 # old: 184842 // new: 190641
 profileset."Instructors_Divine_Bell_207"+=trinket1=instructors_divine_bell,id=190641,ilevel=207
