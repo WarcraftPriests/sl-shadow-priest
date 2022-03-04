@@ -1,10 +1,10 @@
 # Dungeons - hv
 | Actor | DPS | Int | Haste | Crit | Mastery | Vers | DPS Weight |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Necrolord_Shadowflame_Prism_Mindbender|14622|1.00|0.65|0.56|0.63|0.57|0.17|
-|Night_Fae_Shadowflame_Prism_Mindbender|14472|1.00|0.62|0.59|0.59|0.55|0.17|
-|Necrolord_Pallid_Command|14448|1.00|0.56|0.55|0.57|0.54|0.18|
-|Venthyr_Shadowflame_Prism_Mindbender|14090|1.00|0.60|0.57|0.61|0.53|0.17|
-|Venthyr_Shadow_Word_Manipulation|13704|1.00|0.55|0.60|0.56|0.54|0.18|
-|Kyrian_Talbadars_Stratagem|13580|1.00|0.64|0.59|0.57|0.54|0.18|
-|Base|11668|1.00|0.75|0.60|0.58|0.56|0.21|
+|Night_Fae_Shadowflame_Prism_Mindbender|12950|1.00|0.38|0.56|0.56|0.52|0.17|
+|Necrolord_Shadowflame_Prism_Mindbender|12809|1.00|0.57|0.51|0.55|0.53|0.18|
+|Necrolord_Pallid_Command|12637|1.00|0.50|0.52|0.54|0.51|0.18|
+|Venthyr_Shadowflame_Prism_Mindbender|12565|1.00|0.56|0.57|0.53|0.52|0.18|
+|Venthyr_Shadow_Word_Manipulation|12189|1.00|0.50|0.53|0.50|0.50|0.18|
+|Kyrian_Talbadars_Stratagem|11991|1.00|0.52|0.56|0.54|0.52|0.19|
+|Base|10448|1.00|0.56|0.56|0.53|0.53|0.21|
