@@ -203,7 +203,11 @@ def replace_legendary(data, sim_type, covenant_string):
 def replace_gear(data):
     """replaces gear based on the default in config"""
     for slot in config["gear"]:
-        data = data.replace(f"${{gear.{slot}}}", config["gear"][slot])
+        if slot == "off_hand":
+            replacement_string = "off_hand=" + config["gear"][slot]
+            data = data.replace(f"${{gear.{slot}}}", replacement_string)
+        else:
+            data = data.replace(f"${{gear.{slot}}}", config["gear"][slot])
     return data
 
 
