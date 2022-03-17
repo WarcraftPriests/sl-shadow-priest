@@ -1,14 +1,14 @@
 # Single - hv - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Shadowflame_Prism_Rabid_Shadows_13_Mindbender|13557|14.78%|
-|Talbadars_Stratagem|12812|8.48%|
-|Pallid_Command|12654|7.14%|
-|Eternal_Call_to_the_Void|12410|5.07%|
-|Painbreaker_Psalm|12097|2.42%|
-|Echo_of_Eonar|11979|1.42%|
-|Judgment_of_the_Arbiter|11927|0.99%|
-|Sephuzs_Proclamation|11814|0.03%|
-|Base|11811|0.00%|
-|Third_Eye_of_the_Jailer|11809|-0.01%|
-|Twins_of_the_Sun_Priestess_Conduit_13|11553|-2.18%|
+|Shadowflame_Prism_Rabid_Shadows_13_Mindbender|14097|14.63%|
+|Talbadars_Stratagem|13350|8.55%|
+|Pallid_Command|13115|6.64%|
+|Eternal_Call_to_the_Void|12956|5.35%|
+|Painbreaker_Psalm|12600|2.45%|
+|Echo_of_Eonar|12464|1.35%|
+|Judgment_of_the_Arbiter|12419|0.98%|
+|Base|12298|0.00%|
+|Sephuzs_Proclamation|12295|-0.03%|
+|Third_Eye_of_the_Jailer|12292|-0.05%|
+|Twins_of_the_Sun_Priestess_Conduit_13|12098|-1.63%|

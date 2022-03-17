@@ -98,10 +98,13 @@ profileset."Instructors_Divine_Bell_210"+=trinket1=instructors_divine_bell,id=19
 
 # ZM Trinkets
 profileset."Extract_of_Prodigious_Sands_236"+=trinket1=extract_of_prodigious_sands,id=190726,ilevel=236
+profileset."Extract_of_Prodigious_Sands_246"+=trinket1=extract_of_prodigious_sands,id=190726,ilevel=246
 
 profileset."Symbol_Of_The_Raptora_226"+=trinket1=symbol_of_the_raptora,id=190602,ilevel=226
 profileset."Symbol_Of_The_Raptora_236"+=trinket1=symbol_of_the_raptora,id=190602,ilevel=236
 profileset."Symbol_Of_The_Raptora_242"+=trinket1=symbol_of_the_raptora,id=190602,ilevel=242
+
+profileset."Gemstone_of_Prismatic_Brilliance_246"+=trinket1=gemstone_of_prismatic_brilliance,id=190374,ilevel=246
 
 # PVP Trinkets
 # Honor:    203, 210, 216, 223, 229, 236, 242
