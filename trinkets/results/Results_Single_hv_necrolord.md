@@ -3,23 +3,6 @@
 |---|:---:|:---:|
 |Moonlit_Prism_272|14659|11.99%|
 |Soulletting_Ruby_278|14658|11.98%|
-|The_First_Sigil_278|14556|11.20%|
-|Shadowed_Orb_of_Torment_252|14432|10.25%|
-|Empyreal_Ordnance_278|14396|9.98%|
-|Inscrutable_Quantum_Device_278|14386|9.90%|
-|Grim_Eclipse_285|14369|9.78%|
-|Energy_Siphon_252|14354|9.65%|
-|Unbound_Changeling_Mastery_278|14342|9.57%|
-|Elegy_of_the_Eternals_278|14250|8.87%|
-|Scars_of_Fraternal_Strife_285|14246|8.84%|
-|Resonant_Reservoir_278|13985|6.84%|
-|Architects_Ingenuity_Core_278|13858|5.87%|
-
-# Single - hv - necrolord
-| Actor | DPS | Increase |
-|---|:---:|:---:|
-|Moonlit_Prism_272|14659|11.99%|
-|Soulletting_Ruby_278|14658|11.98%|
 |Soulletting_Ruby_275|14634|11.80%|
 |Soulletting_Ruby_272|14600|11.54%|
 |Soulletting_Ruby_268|14563|11.26%|
