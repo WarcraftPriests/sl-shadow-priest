@@ -1,14 +1,14 @@
 # Composite - am - necrolord
 | Actor | DPS | Increase |
 |---|:---:|:---:|
-|Shadowflame_Prism_Rabid_Shadows_13_Mindbender|13932|15.78%|
-|Talbadars_Stratagem|13002|8.05%|
-|Pallid_Command|12810|6.46%|
-|Eternal_Call_to_the_Void|12761|6.05%|
-|Painbreaker_Psalm|12254|1.84%|
-|Echo_of_Eonar|12194|1.33%|
-|Judgment_of_the_Arbiter|12148|0.96%|
-|Sephuzs_Proclamation|12051|0.15%|
-|Third_Eye_of_the_Jailer|12034|0.01%|
-|Base|12033|0.00%|
-|Twins_of_the_Sun_Priestess_Conduit_13|11884|-1.24%|
+|Shadowflame_Prism_Rabid_Shadows_13_Mindbender|14508|15.65%|
+|Talbadars_Stratagem|13512|7.71%|
+|Pallid_Command|13325|6.22%|
+|Eternal_Call_to_the_Void|13253|5.64%|
+|Painbreaker_Psalm|12715|1.35%|
+|Echo_of_Eonar|12712|1.33%|
+|Judgment_of_the_Arbiter|12662|0.93%|
+|Sephuzs_Proclamation|12559|0.11%|
+|Base|12545|0.00%|
+|Third_Eye_of_the_Jailer|12540|-0.04%|
+|Twins_of_the_Sun_Priestess_Conduit_13|12387|-1.26%|

@@ -1,24 +1,24 @@
 """weight dict definitions"""
 
 weightsSepulcherOfTheFirstOnes = {
-    'pw_ba_1': 0.000,
-    'pw_sa_1': 0.055,
-    'pw_na_1': 0.570,
-    'lm_ba_1': 0.000,
-    'lm_sa_1': 0.050,
-    'lm_na_1': 0.205,
+    'pw_ba_1': 0.009,
+    'pw_sa_1': 0.127,
+    'pw_na_1': 0.377,
+    'lm_ba_1': 0.003,
+    'lm_sa_1': 0.048,
+    'lm_na_1': 0.138,
     'hm_ba_1': 0.000,
     'hm_sa_1': 0.000,
-    'hm_na_1': 0.000,
-    'pw_ba_2': 0.020,
-    'pw_sa_2': 0.020,
-    'pw_na_2': 0.050,
-    'lm_ba_2': 0.020,
+    'hm_na_1': 0.027,
+    'pw_ba_2': 0.027,
+    'pw_sa_2': 0.043,
+    'pw_na_2': 0.150,
+    'lm_ba_2': 0.005,
     'lm_sa_2': 0.000,
-    'lm_na_2': 0.010,
+    'lm_na_2': 0.036,
     'hm_ba_2': 0.000,
     'hm_sa_2': 0.000,
-    'hm_na_2': 0.000,
+    'hm_na_2': 0.009,
 }
 
 weights_sanctum_of_domination = {
@@ -64,9 +64,9 @@ weights_castle_nathria = {
 }
 
 weights_single = {
-    'pw_na_1': 0.73548387097,
-    'lm_na_1': 0.26451612903,
-    'hm_na_1': 0.00000000000,
+    'pw_na_1': 0.69514237856,
+    'lm_na_1': 0.25460636516,
+    'hm_na_1': 0.05025125628,
 }
 
 

@@ -1,1 +1,1 @@
-{"name": "Single - hv - night_fae", "data": {"T28-2_4-set": {"DPS": 15054}, "T28-2-set": {"DPS": 13717}, "Base": {"DPS": 13004}}, "ids": {"T28-2_4-set": 363469, "T28-2-set": 364424}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2_4-set", "T28-2-set"], "last_updated": "2022-03-17"}
+{"name": "Single - hv - night_fae", "data": {"T28-2_4-set": {"DPS": 14990}, "T28-2-set": {"DPS": 13663}, "Base": {"DPS": 12942}}, "ids": {"T28-2_4-set": 363469, "T28-2-set": 364424}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2_4-set", "T28-2-set"], "last_updated": "2022-04-01"}

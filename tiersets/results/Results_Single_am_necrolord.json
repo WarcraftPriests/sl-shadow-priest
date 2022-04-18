@@ -1,1 +1,1 @@
-{"name": "Single - am - necrolord", "data": {"T28-2_4-set": {"DPS": 15176}, "T28-2-set": {"DPS": 13892}, "Base": {"DPS": 13119}}, "ids": {"T28-2_4-set": 363469, "T28-2-set": 364424}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2_4-set", "T28-2-set"], "last_updated": "2022-03-17"}
+{"name": "Single - am - necrolord", "data": {"T28-2_4-set": {"DPS": 15108}, "T28-2-set": {"DPS": 13835}, "Base": {"DPS": 13062}}, "ids": {"T28-2_4-set": 363469, "T28-2-set": 364424}, "simulated_steps": ["DPS"], "sorted_data_keys": ["T28-2_4-set", "T28-2-set"], "last_updated": "2022-04-01"}
