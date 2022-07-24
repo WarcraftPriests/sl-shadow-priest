@@ -7,30 +7,32 @@ from itertools import combinations
 # pylint: disable=line-too-long
 
 combos = {
-    "Shadowed_Orb_of_Torment_252": "shadowed_orb_of_torment,id=186428,ilevel=252",
-    "Empyreal_Ordnance_278": "empyreal_ordnance,id=180117,ilevel=278",
-    "Empyreal_Ordnance_272": "empyreal_ordnance,id=180117,ilevel=272",
-    "Inscrutable_Quantum_Device_278": "inscrutable_quantum_device,id=179350,ilevel=278",
-    "Inscrutable_Quantum_Device_272": "inscrutable_quantum_device,id=179350,ilevel=272",
+    # dungeons
     "Soulletting_Ruby_278": "soulletting_ruby,id=178809,ilevel=278",
     "Soulletting_Ruby_272": "soulletting_ruby,id=178809,ilevel=272",
-    "Unbound_Changeling_Mastery_278": "unbound_changeling,id=178708,ilevel=278",
-    "Unbound_Changeling_Mastery_272": "unbound_changeling,id=178708,ilevel=272",
-    "Unbound_Changeling_Haste_278": "unbound_changeling,id=178708,ilevel=278",
-    "Unbound_Changeling_Haste_272": "unbound_changeling,id=178708,ilevel=272",
-    "Resonant_Reservoir_265": "resonant_reservoir,id=188272,ilevel=265",
-    "Resonant_Reservoir_278": "resonant_reservoir,id=188272,ilevel=278",
-    "Elegy_of_the_Eternals_265": "elegy_of_the_eternals,id=188270,ilevel=265",
-    "Elegy_of_the_Eternals_278": "elegy_of_the_eternals,id=188270,ilevel=278",
-    "The_First_Sigil_265": "the_first_sigil,id=188271,ilevel=265",
-    "The_First_Sigil_278": "the_first_sigil,id=188271,ilevel=278",
-    "Architects_Ingenuity_Core_265": "architects_ingenuity_core,id=188268,ilevel=265",
-    "Architects_Ingenuity_Core_278": "architects_ingenuity_core,id=188268,ilevel=278",
-    "Grim_Eclipse_272": "grim_eclipse,id=188254,ilevel=272",
-    "Grim_Eclipse_285": "grim_eclipse,id=188254,ilevel=285",
-    "Scars_of_Fraternal_Strife_272": "scars_of_fraternal_strife,id=188253,ilevel=272",
-    "Scars_of_Fraternal_Strife_285": "scars_of_fraternal_strife,id=188253,ilevel=285",
-    "Moonlit_Prism_272": "moonlit_prism,id=137541,ilevel=272"
+    "Moonlit_Prism_298": "moonlit_prism,id=137541,ilevel=298",
+    "Soleahs_Secret_Technique_Haste_304": "soleahs_secret_technique_haste,id=190958,ilevel=304",
+    "Soleahs_Secret_Technique_Mastery_304": "soleahs_secret_technique_mastery,id=190958,ilevel=304",
+    "Miniscule_Mailemental_in_an_Envelope_304": "miniscule_mailemental_in_an_envelope,id=185846,ilevel=304",
+    "Tovras_Lightning_Repository_304": "tovras_lightning_repository,id=110001,ilevel=304",
+    "Fleshrenders_Meathook_304": "fleshrenders_meathook,id=110002,ilevel=304",
+    # castle nathria
+    "Cabalists_Hymnal_Allies_0_297": "cabalists_hymnal,id=184028,ilevel=297",
+    "Cabalists_Hymnal_Allies_4_297": "cabalists_hymnal,id=184028,ilevel=297",
+    "Cabalists_Hymnal_Allies_0_311": "cabalists_hymnal,id=184028,ilevel=311",
+    "Cabalists_Hymnal_Allies_4_311": "cabalists_hymnal,id=184028,ilevel=311",
+    # sanctum of domination
+    "Titanic_Ocular_Gland_291": "titanic_ocular_gland,id=186423,ilevel=291",
+    "Titanic_Ocular_Gland_304": "titanic_ocular_gland,id=186423,ilevel=304",
+    "Forbidden_Necromantic_Tome_297": "forbidden_necromantic_tome,id=186421,ilevel=297",
+    "Forbidden_Necromantic_Tome_311": "forbidden_necromantic_tome,id=186421,ilevel=311",
+    "Shadowed_Orb_of_Torment_291": "shadowed_orb_of_torment,id=186428,ilevel=291",
+    "Shadowed_Orb_of_Torment_304": "shadowed_orb_of_torment,id=186428,ilevel=304",
+    # sepulcher of the first ones
+    "Elegy_of_the_Eternals_291": "elegy_of_the_eternals,id=188270,ilevel=291",
+    "Elegy_of_the_Eternals_304": "elegy_of_the_eternals,id=188270,ilevel=304",
+    "The_First_Sigil_291": "the_first_sigil,id=188271,ilevel=291",
+    "The_First_Sigil_304": "the_first_sigil,id=188271,ilevel=304",
 }
 
 
@@ -68,6 +70,9 @@ def build_simc_string(trinkets):
             if "Unbound_Changeling" in trinket:
                 stat_type = trinket.split("_")[2].lower()
                 result += f"profileset.\"{profileset_name}\"+=shadowlands.unbound_changeling_stat_type={stat_type}\n"
+            if "Soleahs_Secret_Technique" in trinket:
+                stat_type = trinket.split("_")[3].lower()
+                result += f"profileset.\"{profileset_name}\"+=shadowlands.soleahs_secret_technique_type={stat_type}\n"
         result += f"profileset.\"{profileset_name}\"+=trinket1={trinket_one_value}\n"
         result += f"profileset.\"{profileset_name}\"+=trinket2={trinket_two_value}\n\n"
     return result

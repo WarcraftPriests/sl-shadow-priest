@@ -55,11 +55,10 @@ def main():
 
     # Shadowlands ilvls are not static
     # ilevel_range = build_range(int(args.min_ilevel), int(args.max_ilevel))
-    # ilevel_range = [236, 239, 242, 246, 249, 252,
-    #                 255, 259, 262, 265, 268, 272, 275, 278]
-    # ilevel_range = [246, 259, 272, 285]
-    # ilevel_range = [249, 252, 255, 259, 262, 265, 268, 272, 275]
-    ilevel_range = [203, 210, 216, 223, 229, 236, 242]
+    # ilevel_range = [265, 278, 291, 304]
+    # ilevel_range = [272, 285, 297, 311]
+    ilevel_range = [262, 265, 268, 272, 275, 278,
+                    281, 285, 288, 291, 294, 298, 301, 304]
     trinket_list = []
     for ilevel in ilevel_range:
         if ilevel < int(args.min_ilevel) or ilevel > int(args.max_ilevel):

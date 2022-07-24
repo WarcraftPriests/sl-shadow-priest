@@ -157,22 +157,22 @@ legendary:
         dungeons: "6982" # Shadowflame Prism
         single: "6982" # Shadowflame Prism
 gear:
-  head: "amice_of_the_empyrean,id=188880,ilevel=278"
-  neck: "worldkiller_iris,id=189859,ilevel=285"
-  shoulders: "capelet_of_the_empyrean,id=188879,ilevel=285"
-  back: "shroud_of_the_sires_chosen,id=189847,ilevel=285"
-  chest: "habit_of_the_empyrean,id=188875,ilevel=285"
-  wrists: "cuffs_of_the_covert_commander,id=189842,ilevel=285"
-  hands: "caress_of_the_empyrean,id=188881,ilevel=278"
-  waist: "sash_of_the_silent_sonata,id=189793,ilevel=278"
-  legs: "muehzalas_hexthread_sarong,id=179351,ilevel=278"
-  feet: "stolen_nathrian_slippers,id=189823,ilevel=278"
-  finger1: "soulwarped_seal_of_wrynn,id=189839,ilevel=278"
-  finger2: "death_gods_signet,id=179355,ilevel=278"
-  trinket1: "soulletting_ruby,id=178809,ilevel=278"
-  trinket2: "unbound_changeling,id=178708,ilevel=278"
-  main_hand: "antumbra_shadow_of_the_cosmos,id=189852,ilevel=285"
-  off_hand: "forbidden_truth,id=189860,ilevel=285"
+  head: "amice_of_the_empyrean,id=188880,ilevel=304"
+  neck: "worldkiller_iris,id=189859,ilevel=311" # crit haste mastery
+  shoulders: "capelet_of_the_empyrean,id=188879,ilevel=311"
+  back: "shroud_of_the_sires_chosen,id=189847,ilevel=311" # haste crit
+  chest: "habit_of_the_empyrean,id=188875,ilevel=311"
+  wrists: "cuffs_of_the_covert_commander,id=189842,ilevel=311" # vers haste
+  hands: "caress_of_the_empyrean,id=188881,ilevel=304"
+  waist: "sash_of_the_silent_sonata,id=189793,ilevel=304" # haste crit
+  legs: "muehzalas_hexthread_sarong,id=179351,ilevel=304" # haste mast
+  feet: "stolen_nathrian_slippers,id=189823,ilevel=304" # haste mast
+  finger1: "soulwarped_seal_of_wrynn,id=189839,ilevel=304"
+  finger2: "most_regal_signet_of_sire_denathrius,id=183036,ilevel=311" # haste mast
+  trinket1: "shadowed_orb_of_torment,id=186428,ilevel=304"
+  trinket2: "cabalists_hymnal,id=184028,ilevel=311\nshadowlands.crimson_choir_in_party=4"
+  main_hand: "antumbra_shadow_of_the_cosmos,id=189852,ilevel=311"
+  off_hand: "forbidden_truth,id=189860,ilevel=311" # mast haste
 sims:
   apl:
     description: "APL Sims used for testing rotational changes only"
@@ -483,39 +483,27 @@ sims:
     legendary: true
     lookupType: item
     steps:
-      - 200
-      - 203
-      - 207
-      - 210
-      - 213
-      - 216
-      - 220
-      - 223
-      - 226
-      - 229
-      - 230
-      - 233
-      - 236
-      - 239
-      - 242
-      - 246
-      - 249
-      - 252
-      - 255
-      - 259
       - 262
       - 265
       - 268
       - 272
       - 275
       - 278
+      - 281
       - 285
+      - 288
+      - 291
+      - 294
+      - 297
+      - 301
+      - 304
+      - 311
     files:
       - raid.simc
       - dungeons.simc
       - other.simc
   weights:
-    description: Stat weight sims for BiS Mythic Sanctum of Domination gear.
+    description: Stat weight sims for BiS Mythic S4 gear.
     builds: true
     weights: true
     chart: true

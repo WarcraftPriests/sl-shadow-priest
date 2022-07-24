@@ -27,10 +27,10 @@ main_hand=${gear.main_hand},enchant=sinful_revelation
 ${gear.off_hand}
 
 # Korthia Trinkets
-profileset."Tome_of_Insight_233"+=trinket1=tome_of_insight,id=186156,ilevel=233
+# profileset."Tome_of_Insight_233"+=trinket1=tome_of_insight,id=186156,ilevel=233
 
-# Darkmoon Cards
-profileset."Darkmoon_Deck_Putrescence_200"+=trinket1=darkmoon_deck_putrescence,id=173069
+# # Darkmoon Cards
+# profileset."Darkmoon_Deck_Putrescence_200"+=trinket1=darkmoon_deck_putrescence,id=173069
 
 # Alchemy Stones
 # this trinket shows up 4 times 171323 - 175942 - 175941 - 175943
@@ -93,97 +93,97 @@ profileset."Darkmoon_Deck_Putrescence_200"+=trinket1=darkmoon_deck_putrescence,i
 # profileset."Stolen_Maw_Badge_210"+=trinket1=stolen_maw_badge,id=175731,ilevel=210
 
 # old: 184842 // new: 190641
-profileset."Instructors_Divine_Bell_207"+=trinket1=instructors_divine_bell,id=190641,ilevel=207
-profileset."Instructors_Divine_Bell_210"+=trinket1=instructors_divine_bell,id=190641,ilevel=210
+# profileset."Instructors_Divine_Bell_207"+=trinket1=instructors_divine_bell,id=190641,ilevel=207
+# profileset."Instructors_Divine_Bell_210"+=trinket1=instructors_divine_bell,id=190641,ilevel=210
 
 # ZM Trinkets
-profileset."Extract_of_Prodigious_Sands_236"+=trinket1=extract_of_prodigious_sands,id=190726,ilevel=236
-profileset."Extract_of_Prodigious_Sands_246"+=trinket1=extract_of_prodigious_sands,id=190726,ilevel=246
+# profileset."Extract_of_Prodigious_Sands_236"+=trinket1=extract_of_prodigious_sands,id=190726,ilevel=236
+# profileset."Extract_of_Prodigious_Sands_246"+=trinket1=extract_of_prodigious_sands,id=190726,ilevel=246
 
-profileset."Symbol_Of_The_Raptora_226"+=trinket1=symbol_of_the_raptora,id=190602,ilevel=226
-profileset."Symbol_Of_The_Raptora_236"+=trinket1=symbol_of_the_raptora,id=190602,ilevel=236
-profileset."Symbol_Of_The_Raptora_242"+=trinket1=symbol_of_the_raptora,id=190602,ilevel=242
+# profileset."Symbol_Of_The_Raptora_226"+=trinket1=symbol_of_the_raptora,id=190602,ilevel=226
+# profileset."Symbol_Of_The_Raptora_236"+=trinket1=symbol_of_the_raptora,id=190602,ilevel=236
+# profileset."Symbol_Of_The_Raptora_242"+=trinket1=symbol_of_the_raptora,id=190602,ilevel=242
 
-profileset."Gemstone_of_Prismatic_Brilliance_246"+=trinket1=gemstone_of_prismatic_brilliance,id=190374,ilevel=246
+# profileset."Gemstone_of_Prismatic_Brilliance_246"+=trinket1=gemstone_of_prismatic_brilliance,id=190374,ilevel=246
 
 # PVP Trinkets
 # Honor:    203, 210, 216, 223, 229, 236, 242
 # Conquest: 249, 252, 255, 259, 262, 265, 268, 272, 275
-profileset."Cosmic_Aspirants_Badge_of_Ferocity_203"+=trinket1=cosmic_aspirants_badge_of_ferocity,id=186906,ilevel=203
-profileset."Cosmic_Aspirants_Badge_of_Ferocity_210"+=trinket1=cosmic_aspirants_badge_of_ferocity,id=186906,ilevel=210
-profileset."Cosmic_Aspirants_Badge_of_Ferocity_216"+=trinket1=cosmic_aspirants_badge_of_ferocity,id=186906,ilevel=216
-profileset."Cosmic_Aspirants_Badge_of_Ferocity_223"+=trinket1=cosmic_aspirants_badge_of_ferocity,id=186906,ilevel=223
-profileset."Cosmic_Aspirants_Badge_of_Ferocity_229"+=trinket1=cosmic_aspirants_badge_of_ferocity,id=186906,ilevel=229
-profileset."Cosmic_Aspirants_Badge_of_Ferocity_236"+=trinket1=cosmic_aspirants_badge_of_ferocity,id=186906,ilevel=236
-profileset."Cosmic_Aspirants_Badge_of_Ferocity_242"+=trinket1=cosmic_aspirants_badge_of_ferocity,id=186906,ilevel=242
+# profileset."Cosmic_Aspirants_Badge_of_Ferocity_203"+=trinket1=cosmic_aspirants_badge_of_ferocity,id=186906,ilevel=203
+# profileset."Cosmic_Aspirants_Badge_of_Ferocity_210"+=trinket1=cosmic_aspirants_badge_of_ferocity,id=186906,ilevel=210
+# profileset."Cosmic_Aspirants_Badge_of_Ferocity_216"+=trinket1=cosmic_aspirants_badge_of_ferocity,id=186906,ilevel=216
+# profileset."Cosmic_Aspirants_Badge_of_Ferocity_223"+=trinket1=cosmic_aspirants_badge_of_ferocity,id=186906,ilevel=223
+# profileset."Cosmic_Aspirants_Badge_of_Ferocity_229"+=trinket1=cosmic_aspirants_badge_of_ferocity,id=186906,ilevel=229
+# profileset."Cosmic_Aspirants_Badge_of_Ferocity_236"+=trinket1=cosmic_aspirants_badge_of_ferocity,id=186906,ilevel=236
+# profileset."Cosmic_Aspirants_Badge_of_Ferocity_242"+=trinket1=cosmic_aspirants_badge_of_ferocity,id=186906,ilevel=242
 
-profileset."Cosmic_Aspirants_Insignia_of_Alacrity_203"+=trinket1=cosmic_aspirants_insignia_of_alacrity,id=186942,ilevel=203
-profileset."Cosmic_Aspirants_Insignia_of_Alacrity_210"+=trinket1=cosmic_aspirants_insignia_of_alacrity,id=186942,ilevel=210
-profileset."Cosmic_Aspirants_Insignia_of_Alacrity_216"+=trinket1=cosmic_aspirants_insignia_of_alacrity,id=186942,ilevel=216
-profileset."Cosmic_Aspirants_Insignia_of_Alacrity_223"+=trinket1=cosmic_aspirants_insignia_of_alacrity,id=186942,ilevel=223
-profileset."Cosmic_Aspirants_Insignia_of_Alacrity_229"+=trinket1=cosmic_aspirants_insignia_of_alacrity,id=186942,ilevel=229
-profileset."Cosmic_Aspirants_Insignia_of_Alacrity_236"+=trinket1=cosmic_aspirants_insignia_of_alacrity,id=186942,ilevel=236
-profileset."Cosmic_Aspirants_Insignia_of_Alacrity_242"+=trinket1=cosmic_aspirants_insignia_of_alacrity,id=186942,ilevel=242
+# profileset."Cosmic_Aspirants_Insignia_of_Alacrity_203"+=trinket1=cosmic_aspirants_insignia_of_alacrity,id=186942,ilevel=203
+# profileset."Cosmic_Aspirants_Insignia_of_Alacrity_210"+=trinket1=cosmic_aspirants_insignia_of_alacrity,id=186942,ilevel=210
+# profileset."Cosmic_Aspirants_Insignia_of_Alacrity_216"+=trinket1=cosmic_aspirants_insignia_of_alacrity,id=186942,ilevel=216
+# profileset."Cosmic_Aspirants_Insignia_of_Alacrity_223"+=trinket1=cosmic_aspirants_insignia_of_alacrity,id=186942,ilevel=223
+# profileset."Cosmic_Aspirants_Insignia_of_Alacrity_229"+=trinket1=cosmic_aspirants_insignia_of_alacrity,id=186942,ilevel=229
+# profileset."Cosmic_Aspirants_Insignia_of_Alacrity_236"+=trinket1=cosmic_aspirants_insignia_of_alacrity,id=186942,ilevel=236
+# profileset."Cosmic_Aspirants_Insignia_of_Alacrity_242"+=trinket1=cosmic_aspirants_insignia_of_alacrity,id=186942,ilevel=242
 
-profileset."Cosmic_Gladiators_Badge_of_Ferocity_249"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=249
-profileset."Cosmic_Gladiators_Badge_of_Ferocity_252"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=252
-profileset."Cosmic_Gladiators_Badge_of_Ferocity_255"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=255
-profileset."Cosmic_Gladiators_Badge_of_Ferocity_259"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=259
-profileset."Cosmic_Gladiators_Badge_of_Ferocity_262"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=262
-profileset."Cosmic_Gladiators_Badge_of_Ferocity_265"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=265
-profileset."Cosmic_Gladiators_Badge_of_Ferocity_268"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=268
-profileset."Cosmic_Gladiators_Badge_of_Ferocity_272"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=272
-profileset."Cosmic_Gladiators_Badge_of_Ferocity_275"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=275
+# profileset."Cosmic_Gladiators_Badge_of_Ferocity_249"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=249
+# profileset."Cosmic_Gladiators_Badge_of_Ferocity_252"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=252
+# profileset."Cosmic_Gladiators_Badge_of_Ferocity_255"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=255
+# profileset."Cosmic_Gladiators_Badge_of_Ferocity_259"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=259
+# profileset."Cosmic_Gladiators_Badge_of_Ferocity_262"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=262
+# profileset."Cosmic_Gladiators_Badge_of_Ferocity_265"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=265
+# profileset."Cosmic_Gladiators_Badge_of_Ferocity_268"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=268
+# profileset."Cosmic_Gladiators_Badge_of_Ferocity_272"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=272
+# profileset."Cosmic_Gladiators_Badge_of_Ferocity_275"+=trinket1=cosmic_gladiators_badge_of_ferocity,id=186866,ilevel=275
 
-profileset."Cosmic_Gladiators_Insignia_of_Alacrity_249"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=249
-profileset."Cosmic_Gladiators_Insignia_of_Alacrity_252"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=252
-profileset."Cosmic_Gladiators_Insignia_of_Alacrity_255"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=255
-profileset."Cosmic_Gladiators_Insignia_of_Alacrity_259"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=259
-profileset."Cosmic_Gladiators_Insignia_of_Alacrity_262"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=262
-profileset."Cosmic_Gladiators_Insignia_of_Alacrity_265"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=265
-profileset."Cosmic_Gladiators_Insignia_of_Alacrity_268"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=268
-profileset."Cosmic_Gladiators_Insignia_of_Alacrity_272"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=272
-profileset."Cosmic_Gladiators_Insignia_of_Alacrity_275"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=275
+# profileset."Cosmic_Gladiators_Insignia_of_Alacrity_249"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=249
+# profileset."Cosmic_Gladiators_Insignia_of_Alacrity_252"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=252
+# profileset."Cosmic_Gladiators_Insignia_of_Alacrity_255"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=255
+# profileset."Cosmic_Gladiators_Insignia_of_Alacrity_259"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=259
+# profileset."Cosmic_Gladiators_Insignia_of_Alacrity_262"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=262
+# profileset."Cosmic_Gladiators_Insignia_of_Alacrity_265"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=265
+# profileset."Cosmic_Gladiators_Insignia_of_Alacrity_268"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=268
+# profileset."Cosmic_Gladiators_Insignia_of_Alacrity_272"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=272
+# profileset."Cosmic_Gladiators_Insignia_of_Alacrity_275"+=trinket1=cosmic_gladiators_insignia_of_alacrity,id=186867,ilevel=275
 
-profileset."Cosmic_Gladiators_Resonator_249"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=249
-profileset."Cosmic_Gladiators_Resonator_252"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=252
-profileset."Cosmic_Gladiators_Resonator_255"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=255
-profileset."Cosmic_Gladiators_Resonator_259"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=259
-profileset."Cosmic_Gladiators_Resonator_262"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=262
-profileset."Cosmic_Gladiators_Resonator_265"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=265
-profileset."Cosmic_Gladiators_Resonator_268"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=268
-profileset."Cosmic_Gladiators_Resonator_272"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=272
-profileset."Cosmic_Gladiators_Resonator_275"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=275
+# profileset."Cosmic_Gladiators_Resonator_249"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=249
+# profileset."Cosmic_Gladiators_Resonator_252"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=252
+# profileset."Cosmic_Gladiators_Resonator_255"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=255
+# profileset."Cosmic_Gladiators_Resonator_259"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=259
+# profileset."Cosmic_Gladiators_Resonator_262"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=262
+# profileset."Cosmic_Gladiators_Resonator_265"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=265
+# profileset."Cosmic_Gladiators_Resonator_268"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=268
+# profileset."Cosmic_Gladiators_Resonator_272"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=272
+# profileset."Cosmic_Gladiators_Resonator_275"+=trinket1=cosmic_gladiators_resonator,id=188766,ilevel=275
 
-# Ulduar Timewalking
-profileset."Energy_Siphon_252"+=trinket1=energy_siphon,id=156021,ilevel=252
-profileset."Eye_of_the_Broodmother_252"+=trinket1=eye_of_the_broodmother,id=156036,ilevel=252
-profileset."Living_Flame_252"+=trinket1=living_flame,id=155947,ilevel=252
-profileset."Elemental_Focus_Stone_252"+=trinket1=elemental_focus_stone,id=156288,ilevel=252
-profileset."Scale_of_Fates_252"+=trinket1=scale_of_fates,id=156187,ilevel=252
-profileset."Pandoras_Plea_252"+=trinket1=pandoras_plea,id=156207,ilevel=252
-profileset."Flare_of_the_Heavens_252"+=trinket1=flare_of_the_heavens,id=156230,ilevel=252
-profileset."Vanquished_Clutches_of_Yogg_Saron_252"+=trinket1=vanquished_clutches_of_yoggsaron,id=156458,ilevel=252
+# # Ulduar Timewalking
+# profileset."Energy_Siphon_252"+=trinket1=energy_siphon,id=156021,ilevel=252
+# profileset."Eye_of_the_Broodmother_252"+=trinket1=eye_of_the_broodmother,id=156036,ilevel=252
+# profileset."Living_Flame_252"+=trinket1=living_flame,id=155947,ilevel=252
+# profileset."Elemental_Focus_Stone_252"+=trinket1=elemental_focus_stone,id=156288,ilevel=252
+# profileset."Scale_of_Fates_252"+=trinket1=scale_of_fates,id=156187,ilevel=252
+# profileset."Pandoras_Plea_252"+=trinket1=pandoras_plea,id=156207,ilevel=252
+# profileset."Flare_of_the_Heavens_252"+=trinket1=flare_of_the_heavens,id=156230,ilevel=252
+# profileset."Vanquished_Clutches_of_Yogg_Saron_252"+=trinket1=vanquished_clutches_of_yoggsaron,id=156458,ilevel=252
 
-# Firelands Timewalking
-profileset."Necromantic_Focus_252"+=trinket1=necromantic_focus,id=171644,ilevel=252
-profileset."Variable_Pulse_Lightning_Capacitor_252"+=trinket1=variable_pulse_lightning_capacitor,id=171640,ilevel=252
+# # Firelands Timewalking
+# profileset."Necromantic_Focus_252"+=trinket1=necromantic_focus,id=171644,ilevel=252
+# profileset."Variable_Pulse_Lightning_Capacitor_252"+=trinket1=variable_pulse_lightning_capacitor,id=171640,ilevel=252
 
-# Black Temple Timewalking
-profileset."The_Skull_of_Guldan_252"+=trinket1=the_skull_of_guldan,id=150522,ilevel=252
+# # Black Temple Timewalking
+# profileset."The_Skull_of_Guldan_252"+=trinket1=the_skull_of_guldan,id=150522,ilevel=252
 
-# Legion Mythic+ Timewalking - 272 Max Upg
+# Legion Mythic+ Timewalking - 298 Max Upg
 # Black Rook Hold
-profileset."Caged_Horror_272"+=trinket1=caged_horror,id=136716,ilevel=272
+profileset."Caged_Horror_298"+=trinket1=caged_horror,id=136716,ilevel=298
 # Eye of Azshara
-profileset."Stormsinger_Fulmination_Charge_272"+=trinket1=stormsinger_fulmination_charge,id=137367,ilevel=272
+profileset."Stormsinger_Fulmination_Charge_298"+=trinket1=stormsinger_fulmination_charge,id=137367,ilevel=298
 # Darkheart Thicket
-profileset."Oakhearts_Gnarled_Root_272"+=trinket1=oakhearts_gnarled_root,id=137306,ilevel=272
-profileset."Corrupted_Starlight_272"+=trinket1=corrupted_starlight,id=137301,ilevel=272
+profileset."Oakhearts_Gnarled_Root_298"+=trinket1=oakhearts_gnarled_root,id=137306,ilevel=298
+profileset."Corrupted_Starlight_298"+=trinket1=corrupted_starlight,id=137301,ilevel=298
 # Vault of the Wardens
-profileset."Moonlit_Prism_272"+=trinket1=moonlit_prism,id=137541,ilevel=272
+profileset."Moonlit_Prism_298"+=trinket1=moonlit_prism,id=137541,ilevel=298
 # Neltharion’s Lair
-profileset."Naraxas_Spiked_Tongue_20_yd_272"+=trinket1=naraxas_spiked_tongue,id=137349,ilevel=272
-profileset."Naraxas_Spiked_Tongue_20_yd_272"+=distance=20
+profileset."Naraxas_Spiked_Tongue_20_yd_298"+=trinket1=naraxas_spiked_tongue,id=137349,ilevel=298
+profileset."Naraxas_Spiked_Tongue_20_yd_298"+=distance=20
 # Court of Stars
-profileset."Infernal_Writ_272"+=trinket1=infernal_writ,id=137485,ilevel=272
+profileset."Infernal_Writ_298"+=trinket1=infernal_writ,id=137485,ilevel=298
