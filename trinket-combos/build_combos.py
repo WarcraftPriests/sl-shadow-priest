@@ -15,8 +15,6 @@ combos = {
     "Soleahs_Secret_Technique_Mastery_298": "soleahs_secret_technique_mastery,id=190958,ilevel=298",
     "Soleahs_Secret_Technique_Haste_304": "soleahs_secret_technique_haste,id=190958,ilevel=304",
     "Soleahs_Secret_Technique_Mastery_304": "soleahs_secret_technique_mastery,id=190958,ilevel=304",
-    "Miniscule_Mailemental_in_an_Envelope_304": "miniscule_mailemental_in_an_envelope,id=185846,ilevel=304",
-    "Miniscule_Mailemental_in_an_Envelope_298": "miniscule_mailemental_in_an_envelope,id=185846,ilevel=298",
     "Tovras_Lightning_Repository_298": "tovras_lightning_repository,id=110001,ilevel=298",
     "Tovras_Lightning_Repository_304": "tovras_lightning_repository,id=110001,ilevel=304",
     "Fleshrenders_Meathook_298": "fleshrenders_meathook,id=110002,ilevel=298",
@@ -38,6 +36,8 @@ combos = {
     "Elegy_of_the_Eternals_304": "elegy_of_the_eternals,id=188270,ilevel=304",
     "The_First_Sigil_291": "the_first_sigil,id=188271,ilevel=291",
     "The_First_Sigil_304": "the_first_sigil,id=188271,ilevel=304",
+    "Scars_of_Fraternal_Strife_297": "scars_of_fraternal_strife,id=188253,ilevel=297",
+    "Scars_of_Fraternal_Strife_311": "scars_of_fraternal_strife,id=188253,ilevel=311",
 }
 
 

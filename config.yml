@@ -8,29 +8,29 @@ builds:
         id: "107"
         name: HA
       second:
-        id: "115"
-        name: DE
-      third:
         id: "113"
         name: MD
+      third:
+        id: "115"
+        name: DE
       covenants:
         kyrian:
           first:
             id: "107"
             name: HA
           second:
-            id: "115"
-            name: DE
-          third:
             id: "113"
             name: MD
+          third:
+            id: "115"
+            name: DE
         night_fae:
           first:
             id: "107"
             name: HA
           second:
-            id: "115"
-            name: DE
+            id: "113"
+            name: MD
           third:
             id: "114"
             name: RS
@@ -39,8 +39,8 @@ builds:
             id: "107"
             name: HA
           second:
-            id: "115"
-            name: DE
+            id: "113"
+            name: MD
           third:
             id: "114"
             name: RS
@@ -63,29 +63,29 @@ builds:
         id: "107"
         name: HA
       second:
-        id: "115"
-        name: DE
-      third:
         id: "113"
         name: MD
+      third:
+        id: "115"
+        name: DE
       covenants:
         kyrian:
           first:
             id: "107"
             name: HA
           second:
-            id: "115"
-            name: DE
-          third:
             id: "113"
             name: MD
+          third:
+            id: "115"
+            name: DE
         night_fae:
           first:
             id: "107"
             name: HA
           second:
-            id: "115"
-            name: DE
+            id: "113"
+            name: MD
           third:
             id: "114"
             name: RS
@@ -94,8 +94,8 @@ builds:
             id: "107"
             name: HA
           second:
-            id: "115"
-            name: DE
+            id: "113"
+            name: MD
           third:
             id: "114"
             name: RS
@@ -157,7 +157,7 @@ legendary:
         dungeons: "6982" # Shadowflame Prism
         single: "6982" # Shadowflame Prism
 gear:
-  head: "amice_of_the_empyrean,id=188880,ilevel=304"
+  head: "amice_of_the_empyrean,id=188880,ilevel=311"
   neck: "worldkiller_iris,id=189859,ilevel=311" # crit haste mastery
   shoulders: "capelet_of_the_empyrean,id=188879,ilevel=311"
   back: "shroud_of_the_sires_chosen,id=189847,ilevel=311" # haste crit
@@ -527,8 +527,8 @@ simcBuild: nightly
 defaultIterations: 10000
 raidbots:
   apiUrlBase: https://www.raidbots.com
-  numOfRetries: 10
-  retryInterval: 2
+  numOfRetries: 20
+  retryInterval: 5
 analyze:
   markdown: true
   csv: true
