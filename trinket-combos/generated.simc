@@ -11,186 +11,20 @@ default_actions=1
 set_bonus=tier28_2pc=1
 set_bonus=tier28_4pc=1
 
-head=${gear.head},bonus_id=head=${gear.head},bonus_id=${covenant.id}/${legendary.id}
-neck=${gear.neck}
+head=${gear.head},bonus_id=${covenant.id}/${legendary.id},gem_id=173130
+neck=${gear.neck},gem_id=173130
 shoulders=${gear.shoulders}
 back=${gear.back}
 chest=${gear.chest},enchant=eternal_stats
-wrists=${gear.wrists},enchant=eternal_intellect
+wrists=${gear.wrists},enchant=eternal_intellect,gem_id=173130
 hands=${gear.hands}
 waist=${gear.waist}
 legs=${gear.legs}
 feet=${gear.feet}
-finger1=${gear.finger1},enchant=tenet_of_mastery
-finger2=${gear.finger2},enchant=tenet_of_mastery
+finger1=${gear.finger1},enchant=tenet_of_mastery,gem_id=173130
+finger2=${gear.finger2},enchant=tenet_of_mastery,gem_id=173130
 main_hand=${gear.main_hand},enchant=sinful_revelation
 ${gear.off_hand}
-
-profileset."Soulletting_Ruby_278-Moonlit_Prism_298"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Moonlit_Prism_298"+=trinket2=moonlit_prism,id=137541,ilevel=298
-
-profileset."Soulletting_Ruby_278-Soleahs_Secret_Technique_Haste_298"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soulletting_Ruby_278-Soleahs_Secret_Technique_Haste_298"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Soleahs_Secret_Technique_Haste_298"+=trinket2=soleahs_secret_technique_haste,id=190958,ilevel=298
-
-profileset."Soulletting_Ruby_278-Soleahs_Secret_Technique_Mastery_298"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soulletting_Ruby_278-Soleahs_Secret_Technique_Mastery_298"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Soleahs_Secret_Technique_Mastery_298"+=trinket2=soleahs_secret_technique_mastery,id=190958,ilevel=298
-
-profileset."Soulletting_Ruby_278-Soleahs_Secret_Technique_Haste_304"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soulletting_Ruby_278-Soleahs_Secret_Technique_Haste_304"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Soleahs_Secret_Technique_Haste_304"+=trinket2=soleahs_secret_technique_haste,id=190958,ilevel=304
-
-profileset."Soulletting_Ruby_278-Soleahs_Secret_Technique_Mastery_304"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soulletting_Ruby_278-Soleahs_Secret_Technique_Mastery_304"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Soleahs_Secret_Technique_Mastery_304"+=trinket2=soleahs_secret_technique_mastery,id=190958,ilevel=304
-
-profileset."Soulletting_Ruby_278-Tovras_Lightning_Repository_298"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Tovras_Lightning_Repository_298"+=trinket2=tovras_lightning_repository,id=110001,ilevel=298
-
-profileset."Soulletting_Ruby_278-Tovras_Lightning_Repository_304"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Tovras_Lightning_Repository_304"+=trinket2=tovras_lightning_repository,id=110001,ilevel=304
-
-profileset."Soulletting_Ruby_278-Fleshrenders_Meathook_298"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Fleshrenders_Meathook_298"+=trinket2=fleshrenders_meathook,id=110002,ilevel=298
-
-profileset."Soulletting_Ruby_278-Fleshrenders_Meathook_304"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Fleshrenders_Meathook_304"+=trinket2=fleshrenders_meathook,id=110002,ilevel=304
-
-profileset."Soulletting_Ruby_278-Cabalists_Hymnal_Allies_0_297"+=shadowlands.crimson_choir_in_party=0
-profileset."Soulletting_Ruby_278-Cabalists_Hymnal_Allies_0_297"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Cabalists_Hymnal_Allies_0_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
-
-profileset."Soulletting_Ruby_278-Cabalists_Hymnal_Allies_4_297"+=shadowlands.crimson_choir_in_party=4
-profileset."Soulletting_Ruby_278-Cabalists_Hymnal_Allies_4_297"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Cabalists_Hymnal_Allies_4_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
-
-profileset."Soulletting_Ruby_278-Cabalists_Hymnal_Allies_0_311"+=shadowlands.crimson_choir_in_party=0
-profileset."Soulletting_Ruby_278-Cabalists_Hymnal_Allies_0_311"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Cabalists_Hymnal_Allies_0_311"+=trinket2=cabalists_hymnal,id=184028,ilevel=311
-
-profileset."Soulletting_Ruby_278-Cabalists_Hymnal_Allies_4_311"+=shadowlands.crimson_choir_in_party=4
-profileset."Soulletting_Ruby_278-Cabalists_Hymnal_Allies_4_311"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Cabalists_Hymnal_Allies_4_311"+=trinket2=cabalists_hymnal,id=184028,ilevel=311
-
-profileset."Soulletting_Ruby_278-Titanic_Ocular_Gland_291"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Titanic_Ocular_Gland_291"+=trinket2=titanic_ocular_gland,id=186423,ilevel=291
-
-profileset."Soulletting_Ruby_278-Titanic_Ocular_Gland_304"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
-
-profileset."Soulletting_Ruby_278-Forbidden_Necromantic_Tome_297"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
-
-profileset."Soulletting_Ruby_278-Forbidden_Necromantic_Tome_311"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Forbidden_Necromantic_Tome_311"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=311
-
-profileset."Soulletting_Ruby_278-Shadowed_Orb_of_Torment_291"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Shadowed_Orb_of_Torment_291"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=291
-
-profileset."Soulletting_Ruby_278-Shadowed_Orb_of_Torment_304"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Shadowed_Orb_of_Torment_304"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=304
-
-profileset."Soulletting_Ruby_278-Elegy_of_the_Eternals_291"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Elegy_of_the_Eternals_291"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=291
-
-profileset."Soulletting_Ruby_278-Elegy_of_the_Eternals_304"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Elegy_of_the_Eternals_304"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=304
-
-profileset."Soulletting_Ruby_278-The_First_Sigil_291"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-The_First_Sigil_291"+=trinket2=the_first_sigil,id=188271,ilevel=291
-
-profileset."Soulletting_Ruby_278-The_First_Sigil_304"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
-
-profileset."Soulletting_Ruby_278-Scars_of_Fraternal_Strife_297"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
-
-profileset."Soulletting_Ruby_278-Scars_of_Fraternal_Strife_311"+=trinket1=soulletting_ruby,id=178809,ilevel=278
-profileset."Soulletting_Ruby_278-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
-
-profileset."Soulletting_Ruby_272-Moonlit_Prism_298"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Moonlit_Prism_298"+=trinket2=moonlit_prism,id=137541,ilevel=298
-
-profileset."Soulletting_Ruby_272-Soleahs_Secret_Technique_Haste_298"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soulletting_Ruby_272-Soleahs_Secret_Technique_Haste_298"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Soleahs_Secret_Technique_Haste_298"+=trinket2=soleahs_secret_technique_haste,id=190958,ilevel=298
-
-profileset."Soulletting_Ruby_272-Soleahs_Secret_Technique_Mastery_298"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soulletting_Ruby_272-Soleahs_Secret_Technique_Mastery_298"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Soleahs_Secret_Technique_Mastery_298"+=trinket2=soleahs_secret_technique_mastery,id=190958,ilevel=298
-
-profileset."Soulletting_Ruby_272-Soleahs_Secret_Technique_Haste_304"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soulletting_Ruby_272-Soleahs_Secret_Technique_Haste_304"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Soleahs_Secret_Technique_Haste_304"+=trinket2=soleahs_secret_technique_haste,id=190958,ilevel=304
-
-profileset."Soulletting_Ruby_272-Soleahs_Secret_Technique_Mastery_304"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soulletting_Ruby_272-Soleahs_Secret_Technique_Mastery_304"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Soleahs_Secret_Technique_Mastery_304"+=trinket2=soleahs_secret_technique_mastery,id=190958,ilevel=304
-
-profileset."Soulletting_Ruby_272-Tovras_Lightning_Repository_298"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Tovras_Lightning_Repository_298"+=trinket2=tovras_lightning_repository,id=110001,ilevel=298
-
-profileset."Soulletting_Ruby_272-Tovras_Lightning_Repository_304"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Tovras_Lightning_Repository_304"+=trinket2=tovras_lightning_repository,id=110001,ilevel=304
-
-profileset."Soulletting_Ruby_272-Fleshrenders_Meathook_298"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Fleshrenders_Meathook_298"+=trinket2=fleshrenders_meathook,id=110002,ilevel=298
-
-profileset."Soulletting_Ruby_272-Fleshrenders_Meathook_304"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Fleshrenders_Meathook_304"+=trinket2=fleshrenders_meathook,id=110002,ilevel=304
-
-profileset."Soulletting_Ruby_272-Cabalists_Hymnal_Allies_0_297"+=shadowlands.crimson_choir_in_party=0
-profileset."Soulletting_Ruby_272-Cabalists_Hymnal_Allies_0_297"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Cabalists_Hymnal_Allies_0_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
-
-profileset."Soulletting_Ruby_272-Cabalists_Hymnal_Allies_4_297"+=shadowlands.crimson_choir_in_party=4
-profileset."Soulletting_Ruby_272-Cabalists_Hymnal_Allies_4_297"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Cabalists_Hymnal_Allies_4_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
-
-profileset."Soulletting_Ruby_272-Cabalists_Hymnal_Allies_0_311"+=shadowlands.crimson_choir_in_party=0
-profileset."Soulletting_Ruby_272-Cabalists_Hymnal_Allies_0_311"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Cabalists_Hymnal_Allies_0_311"+=trinket2=cabalists_hymnal,id=184028,ilevel=311
-
-profileset."Soulletting_Ruby_272-Cabalists_Hymnal_Allies_4_311"+=shadowlands.crimson_choir_in_party=4
-profileset."Soulletting_Ruby_272-Cabalists_Hymnal_Allies_4_311"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Cabalists_Hymnal_Allies_4_311"+=trinket2=cabalists_hymnal,id=184028,ilevel=311
-
-profileset."Soulletting_Ruby_272-Titanic_Ocular_Gland_291"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Titanic_Ocular_Gland_291"+=trinket2=titanic_ocular_gland,id=186423,ilevel=291
-
-profileset."Soulletting_Ruby_272-Titanic_Ocular_Gland_304"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
-
-profileset."Soulletting_Ruby_272-Forbidden_Necromantic_Tome_297"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
-
-profileset."Soulletting_Ruby_272-Forbidden_Necromantic_Tome_311"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Forbidden_Necromantic_Tome_311"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=311
-
-profileset."Soulletting_Ruby_272-Shadowed_Orb_of_Torment_291"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Shadowed_Orb_of_Torment_291"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=291
-
-profileset."Soulletting_Ruby_272-Shadowed_Orb_of_Torment_304"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Shadowed_Orb_of_Torment_304"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=304
-
-profileset."Soulletting_Ruby_272-Elegy_of_the_Eternals_291"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Elegy_of_the_Eternals_291"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=291
-
-profileset."Soulletting_Ruby_272-Elegy_of_the_Eternals_304"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Elegy_of_the_Eternals_304"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=304
-
-profileset."Soulletting_Ruby_272-The_First_Sigil_291"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-The_First_Sigil_291"+=trinket2=the_first_sigil,id=188271,ilevel=291
-
-profileset."Soulletting_Ruby_272-The_First_Sigil_304"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
-
-profileset."Soulletting_Ruby_272-Scars_of_Fraternal_Strife_297"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
-
-profileset."Soulletting_Ruby_272-Scars_of_Fraternal_Strife_311"+=trinket1=soulletting_ruby,id=178809,ilevel=272
-profileset."Soulletting_Ruby_272-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
 
 profileset."Moonlit_Prism_298-Soleahs_Secret_Technique_Haste_298"+=shadowlands.soleahs_secret_technique_type=haste
 profileset."Moonlit_Prism_298-Soleahs_Secret_Technique_Haste_298"+=trinket1=moonlit_prism,id=137541,ilevel=298
@@ -214,19 +48,13 @@ profileset."Moonlit_Prism_298-Tovras_Lightning_Repository_298"+=trinket2=tovras_
 profileset."Moonlit_Prism_298-Tovras_Lightning_Repository_304"+=trinket1=moonlit_prism,id=137541,ilevel=298
 profileset."Moonlit_Prism_298-Tovras_Lightning_Repository_304"+=trinket2=tovras_lightning_repository,id=110001,ilevel=304
 
-profileset."Moonlit_Prism_298-Fleshrenders_Meathook_298"+=trinket1=moonlit_prism,id=137541,ilevel=298
-profileset."Moonlit_Prism_298-Fleshrenders_Meathook_298"+=trinket2=fleshrenders_meathook,id=110002,ilevel=298
+profileset."Moonlit_Prism_298-Cabalists_Hymnal_Allies_0_298"+=shadowlands.crimson_choir_in_party=0
+profileset."Moonlit_Prism_298-Cabalists_Hymnal_Allies_0_298"+=trinket1=moonlit_prism,id=137541,ilevel=298
+profileset."Moonlit_Prism_298-Cabalists_Hymnal_Allies_0_298"+=trinket2=cabalists_hymnal,id=184028,ilevel=298
 
-profileset."Moonlit_Prism_298-Fleshrenders_Meathook_304"+=trinket1=moonlit_prism,id=137541,ilevel=298
-profileset."Moonlit_Prism_298-Fleshrenders_Meathook_304"+=trinket2=fleshrenders_meathook,id=110002,ilevel=304
-
-profileset."Moonlit_Prism_298-Cabalists_Hymnal_Allies_0_297"+=shadowlands.crimson_choir_in_party=0
-profileset."Moonlit_Prism_298-Cabalists_Hymnal_Allies_0_297"+=trinket1=moonlit_prism,id=137541,ilevel=298
-profileset."Moonlit_Prism_298-Cabalists_Hymnal_Allies_0_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
-
-profileset."Moonlit_Prism_298-Cabalists_Hymnal_Allies_4_297"+=shadowlands.crimson_choir_in_party=4
-profileset."Moonlit_Prism_298-Cabalists_Hymnal_Allies_4_297"+=trinket1=moonlit_prism,id=137541,ilevel=298
-profileset."Moonlit_Prism_298-Cabalists_Hymnal_Allies_4_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
+profileset."Moonlit_Prism_298-Cabalists_Hymnal_Allies_4_298"+=shadowlands.crimson_choir_in_party=4
+profileset."Moonlit_Prism_298-Cabalists_Hymnal_Allies_4_298"+=trinket1=moonlit_prism,id=137541,ilevel=298
+profileset."Moonlit_Prism_298-Cabalists_Hymnal_Allies_4_298"+=trinket2=cabalists_hymnal,id=184028,ilevel=298
 
 profileset."Moonlit_Prism_298-Cabalists_Hymnal_Allies_0_311"+=shadowlands.crimson_choir_in_party=0
 profileset."Moonlit_Prism_298-Cabalists_Hymnal_Allies_0_311"+=trinket1=moonlit_prism,id=137541,ilevel=298
@@ -242,8 +70,8 @@ profileset."Moonlit_Prism_298-Titanic_Ocular_Gland_291"+=trinket2=titanic_ocular
 profileset."Moonlit_Prism_298-Titanic_Ocular_Gland_304"+=trinket1=moonlit_prism,id=137541,ilevel=298
 profileset."Moonlit_Prism_298-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
 
-profileset."Moonlit_Prism_298-Forbidden_Necromantic_Tome_297"+=trinket1=moonlit_prism,id=137541,ilevel=298
-profileset."Moonlit_Prism_298-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
+profileset."Moonlit_Prism_298-Forbidden_Necromantic_Tome_298"+=trinket1=moonlit_prism,id=137541,ilevel=298
+profileset."Moonlit_Prism_298-Forbidden_Necromantic_Tome_298"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=298
 
 profileset."Moonlit_Prism_298-Forbidden_Necromantic_Tome_311"+=trinket1=moonlit_prism,id=137541,ilevel=298
 profileset."Moonlit_Prism_298-Forbidden_Necromantic_Tome_311"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=311
@@ -266,8 +94,8 @@ profileset."Moonlit_Prism_298-The_First_Sigil_291"+=trinket2=the_first_sigil,id=
 profileset."Moonlit_Prism_298-The_First_Sigil_304"+=trinket1=moonlit_prism,id=137541,ilevel=298
 profileset."Moonlit_Prism_298-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Moonlit_Prism_298-Scars_of_Fraternal_Strife_297"+=trinket1=moonlit_prism,id=137541,ilevel=298
-profileset."Moonlit_Prism_298-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Moonlit_Prism_298-Scars_of_Fraternal_Strife_298"+=trinket1=moonlit_prism,id=137541,ilevel=298
+profileset."Moonlit_Prism_298-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Moonlit_Prism_298-Scars_of_Fraternal_Strife_311"+=trinket1=moonlit_prism,id=137541,ilevel=298
 profileset."Moonlit_Prism_298-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
@@ -280,23 +108,15 @@ profileset."Soleahs_Secret_Technique_Haste_298-Tovras_Lightning_Repository_304"+
 profileset."Soleahs_Secret_Technique_Haste_298-Tovras_Lightning_Repository_304"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=298
 profileset."Soleahs_Secret_Technique_Haste_298-Tovras_Lightning_Repository_304"+=trinket2=tovras_lightning_repository,id=110001,ilevel=304
 
-profileset."Soleahs_Secret_Technique_Haste_298-Fleshrenders_Meathook_298"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soleahs_Secret_Technique_Haste_298-Fleshrenders_Meathook_298"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=298
-profileset."Soleahs_Secret_Technique_Haste_298-Fleshrenders_Meathook_298"+=trinket2=fleshrenders_meathook,id=110002,ilevel=298
+profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_0_298"+=shadowlands.soleahs_secret_technique_type=haste
+profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_0_298"+=shadowlands.crimson_choir_in_party=0
+profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_0_298"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=298
+profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_0_298"+=trinket2=cabalists_hymnal,id=184028,ilevel=298
 
-profileset."Soleahs_Secret_Technique_Haste_298-Fleshrenders_Meathook_304"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soleahs_Secret_Technique_Haste_298-Fleshrenders_Meathook_304"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=298
-profileset."Soleahs_Secret_Technique_Haste_298-Fleshrenders_Meathook_304"+=trinket2=fleshrenders_meathook,id=110002,ilevel=304
-
-profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_0_297"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_0_297"+=shadowlands.crimson_choir_in_party=0
-profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_0_297"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=298
-profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_0_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
-
-profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_4_297"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_4_297"+=shadowlands.crimson_choir_in_party=4
-profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_4_297"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=298
-profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_4_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
+profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_4_298"+=shadowlands.soleahs_secret_technique_type=haste
+profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_4_298"+=shadowlands.crimson_choir_in_party=4
+profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_4_298"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=298
+profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_4_298"+=trinket2=cabalists_hymnal,id=184028,ilevel=298
 
 profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_0_311"+=shadowlands.soleahs_secret_technique_type=haste
 profileset."Soleahs_Secret_Technique_Haste_298-Cabalists_Hymnal_Allies_0_311"+=shadowlands.crimson_choir_in_party=0
@@ -316,9 +136,9 @@ profileset."Soleahs_Secret_Technique_Haste_298-Titanic_Ocular_Gland_304"+=shadow
 profileset."Soleahs_Secret_Technique_Haste_298-Titanic_Ocular_Gland_304"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=298
 profileset."Soleahs_Secret_Technique_Haste_298-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
 
-profileset."Soleahs_Secret_Technique_Haste_298-Forbidden_Necromantic_Tome_297"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soleahs_Secret_Technique_Haste_298-Forbidden_Necromantic_Tome_297"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=298
-profileset."Soleahs_Secret_Technique_Haste_298-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
+profileset."Soleahs_Secret_Technique_Haste_298-Forbidden_Necromantic_Tome_298"+=shadowlands.soleahs_secret_technique_type=haste
+profileset."Soleahs_Secret_Technique_Haste_298-Forbidden_Necromantic_Tome_298"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=298
+profileset."Soleahs_Secret_Technique_Haste_298-Forbidden_Necromantic_Tome_298"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=298
 
 profileset."Soleahs_Secret_Technique_Haste_298-Forbidden_Necromantic_Tome_311"+=shadowlands.soleahs_secret_technique_type=haste
 profileset."Soleahs_Secret_Technique_Haste_298-Forbidden_Necromantic_Tome_311"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=298
@@ -348,9 +168,9 @@ profileset."Soleahs_Secret_Technique_Haste_298-The_First_Sigil_304"+=shadowlands
 profileset."Soleahs_Secret_Technique_Haste_298-The_First_Sigil_304"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=298
 profileset."Soleahs_Secret_Technique_Haste_298-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Soleahs_Secret_Technique_Haste_298-Scars_of_Fraternal_Strife_297"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soleahs_Secret_Technique_Haste_298-Scars_of_Fraternal_Strife_297"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=298
-profileset."Soleahs_Secret_Technique_Haste_298-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Soleahs_Secret_Technique_Haste_298-Scars_of_Fraternal_Strife_298"+=shadowlands.soleahs_secret_technique_type=haste
+profileset."Soleahs_Secret_Technique_Haste_298-Scars_of_Fraternal_Strife_298"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=298
+profileset."Soleahs_Secret_Technique_Haste_298-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Soleahs_Secret_Technique_Haste_298-Scars_of_Fraternal_Strife_311"+=shadowlands.soleahs_secret_technique_type=haste
 profileset."Soleahs_Secret_Technique_Haste_298-Scars_of_Fraternal_Strife_311"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=298
@@ -364,23 +184,15 @@ profileset."Soleahs_Secret_Technique_Mastery_298-Tovras_Lightning_Repository_304
 profileset."Soleahs_Secret_Technique_Mastery_298-Tovras_Lightning_Repository_304"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=298
 profileset."Soleahs_Secret_Technique_Mastery_298-Tovras_Lightning_Repository_304"+=trinket2=tovras_lightning_repository,id=110001,ilevel=304
 
-profileset."Soleahs_Secret_Technique_Mastery_298-Fleshrenders_Meathook_298"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soleahs_Secret_Technique_Mastery_298-Fleshrenders_Meathook_298"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=298
-profileset."Soleahs_Secret_Technique_Mastery_298-Fleshrenders_Meathook_298"+=trinket2=fleshrenders_meathook,id=110002,ilevel=298
+profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_0_298"+=shadowlands.soleahs_secret_technique_type=mastery
+profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_0_298"+=shadowlands.crimson_choir_in_party=0
+profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_0_298"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=298
+profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_0_298"+=trinket2=cabalists_hymnal,id=184028,ilevel=298
 
-profileset."Soleahs_Secret_Technique_Mastery_298-Fleshrenders_Meathook_304"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soleahs_Secret_Technique_Mastery_298-Fleshrenders_Meathook_304"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=298
-profileset."Soleahs_Secret_Technique_Mastery_298-Fleshrenders_Meathook_304"+=trinket2=fleshrenders_meathook,id=110002,ilevel=304
-
-profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_0_297"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_0_297"+=shadowlands.crimson_choir_in_party=0
-profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_0_297"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=298
-profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_0_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
-
-profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_4_297"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_4_297"+=shadowlands.crimson_choir_in_party=4
-profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_4_297"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=298
-profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_4_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
+profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_4_298"+=shadowlands.soleahs_secret_technique_type=mastery
+profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_4_298"+=shadowlands.crimson_choir_in_party=4
+profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_4_298"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=298
+profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_4_298"+=trinket2=cabalists_hymnal,id=184028,ilevel=298
 
 profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_0_311"+=shadowlands.soleahs_secret_technique_type=mastery
 profileset."Soleahs_Secret_Technique_Mastery_298-Cabalists_Hymnal_Allies_0_311"+=shadowlands.crimson_choir_in_party=0
@@ -400,9 +212,9 @@ profileset."Soleahs_Secret_Technique_Mastery_298-Titanic_Ocular_Gland_304"+=shad
 profileset."Soleahs_Secret_Technique_Mastery_298-Titanic_Ocular_Gland_304"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=298
 profileset."Soleahs_Secret_Technique_Mastery_298-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
 
-profileset."Soleahs_Secret_Technique_Mastery_298-Forbidden_Necromantic_Tome_297"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soleahs_Secret_Technique_Mastery_298-Forbidden_Necromantic_Tome_297"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=298
-profileset."Soleahs_Secret_Technique_Mastery_298-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
+profileset."Soleahs_Secret_Technique_Mastery_298-Forbidden_Necromantic_Tome_298"+=shadowlands.soleahs_secret_technique_type=mastery
+profileset."Soleahs_Secret_Technique_Mastery_298-Forbidden_Necromantic_Tome_298"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=298
+profileset."Soleahs_Secret_Technique_Mastery_298-Forbidden_Necromantic_Tome_298"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=298
 
 profileset."Soleahs_Secret_Technique_Mastery_298-Forbidden_Necromantic_Tome_311"+=shadowlands.soleahs_secret_technique_type=mastery
 profileset."Soleahs_Secret_Technique_Mastery_298-Forbidden_Necromantic_Tome_311"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=298
@@ -432,9 +244,9 @@ profileset."Soleahs_Secret_Technique_Mastery_298-The_First_Sigil_304"+=shadowlan
 profileset."Soleahs_Secret_Technique_Mastery_298-The_First_Sigil_304"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=298
 profileset."Soleahs_Secret_Technique_Mastery_298-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Soleahs_Secret_Technique_Mastery_298-Scars_of_Fraternal_Strife_297"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soleahs_Secret_Technique_Mastery_298-Scars_of_Fraternal_Strife_297"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=298
-profileset."Soleahs_Secret_Technique_Mastery_298-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Soleahs_Secret_Technique_Mastery_298-Scars_of_Fraternal_Strife_298"+=shadowlands.soleahs_secret_technique_type=mastery
+profileset."Soleahs_Secret_Technique_Mastery_298-Scars_of_Fraternal_Strife_298"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=298
+profileset."Soleahs_Secret_Technique_Mastery_298-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Soleahs_Secret_Technique_Mastery_298-Scars_of_Fraternal_Strife_311"+=shadowlands.soleahs_secret_technique_type=mastery
 profileset."Soleahs_Secret_Technique_Mastery_298-Scars_of_Fraternal_Strife_311"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=298
@@ -448,23 +260,15 @@ profileset."Soleahs_Secret_Technique_Haste_304-Tovras_Lightning_Repository_304"+
 profileset."Soleahs_Secret_Technique_Haste_304-Tovras_Lightning_Repository_304"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=304
 profileset."Soleahs_Secret_Technique_Haste_304-Tovras_Lightning_Repository_304"+=trinket2=tovras_lightning_repository,id=110001,ilevel=304
 
-profileset."Soleahs_Secret_Technique_Haste_304-Fleshrenders_Meathook_298"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soleahs_Secret_Technique_Haste_304-Fleshrenders_Meathook_298"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=304
-profileset."Soleahs_Secret_Technique_Haste_304-Fleshrenders_Meathook_298"+=trinket2=fleshrenders_meathook,id=110002,ilevel=298
+profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_0_298"+=shadowlands.soleahs_secret_technique_type=haste
+profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_0_298"+=shadowlands.crimson_choir_in_party=0
+profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_0_298"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=304
+profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_0_298"+=trinket2=cabalists_hymnal,id=184028,ilevel=298
 
-profileset."Soleahs_Secret_Technique_Haste_304-Fleshrenders_Meathook_304"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soleahs_Secret_Technique_Haste_304-Fleshrenders_Meathook_304"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=304
-profileset."Soleahs_Secret_Technique_Haste_304-Fleshrenders_Meathook_304"+=trinket2=fleshrenders_meathook,id=110002,ilevel=304
-
-profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_0_297"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_0_297"+=shadowlands.crimson_choir_in_party=0
-profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_0_297"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=304
-profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_0_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
-
-profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_4_297"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_4_297"+=shadowlands.crimson_choir_in_party=4
-profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_4_297"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=304
-profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_4_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
+profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_4_298"+=shadowlands.soleahs_secret_technique_type=haste
+profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_4_298"+=shadowlands.crimson_choir_in_party=4
+profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_4_298"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=304
+profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_4_298"+=trinket2=cabalists_hymnal,id=184028,ilevel=298
 
 profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_0_311"+=shadowlands.soleahs_secret_technique_type=haste
 profileset."Soleahs_Secret_Technique_Haste_304-Cabalists_Hymnal_Allies_0_311"+=shadowlands.crimson_choir_in_party=0
@@ -484,9 +288,9 @@ profileset."Soleahs_Secret_Technique_Haste_304-Titanic_Ocular_Gland_304"+=shadow
 profileset."Soleahs_Secret_Technique_Haste_304-Titanic_Ocular_Gland_304"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=304
 profileset."Soleahs_Secret_Technique_Haste_304-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
 
-profileset."Soleahs_Secret_Technique_Haste_304-Forbidden_Necromantic_Tome_297"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soleahs_Secret_Technique_Haste_304-Forbidden_Necromantic_Tome_297"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=304
-profileset."Soleahs_Secret_Technique_Haste_304-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
+profileset."Soleahs_Secret_Technique_Haste_304-Forbidden_Necromantic_Tome_298"+=shadowlands.soleahs_secret_technique_type=haste
+profileset."Soleahs_Secret_Technique_Haste_304-Forbidden_Necromantic_Tome_298"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=304
+profileset."Soleahs_Secret_Technique_Haste_304-Forbidden_Necromantic_Tome_298"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=298
 
 profileset."Soleahs_Secret_Technique_Haste_304-Forbidden_Necromantic_Tome_311"+=shadowlands.soleahs_secret_technique_type=haste
 profileset."Soleahs_Secret_Technique_Haste_304-Forbidden_Necromantic_Tome_311"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=304
@@ -516,9 +320,9 @@ profileset."Soleahs_Secret_Technique_Haste_304-The_First_Sigil_304"+=shadowlands
 profileset."Soleahs_Secret_Technique_Haste_304-The_First_Sigil_304"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=304
 profileset."Soleahs_Secret_Technique_Haste_304-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Soleahs_Secret_Technique_Haste_304-Scars_of_Fraternal_Strife_297"+=shadowlands.soleahs_secret_technique_type=haste
-profileset."Soleahs_Secret_Technique_Haste_304-Scars_of_Fraternal_Strife_297"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=304
-profileset."Soleahs_Secret_Technique_Haste_304-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Soleahs_Secret_Technique_Haste_304-Scars_of_Fraternal_Strife_298"+=shadowlands.soleahs_secret_technique_type=haste
+profileset."Soleahs_Secret_Technique_Haste_304-Scars_of_Fraternal_Strife_298"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=304
+profileset."Soleahs_Secret_Technique_Haste_304-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Soleahs_Secret_Technique_Haste_304-Scars_of_Fraternal_Strife_311"+=shadowlands.soleahs_secret_technique_type=haste
 profileset."Soleahs_Secret_Technique_Haste_304-Scars_of_Fraternal_Strife_311"+=trinket1=soleahs_secret_technique_haste,id=190958,ilevel=304
@@ -532,23 +336,15 @@ profileset."Soleahs_Secret_Technique_Mastery_304-Tovras_Lightning_Repository_304
 profileset."Soleahs_Secret_Technique_Mastery_304-Tovras_Lightning_Repository_304"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=304
 profileset."Soleahs_Secret_Technique_Mastery_304-Tovras_Lightning_Repository_304"+=trinket2=tovras_lightning_repository,id=110001,ilevel=304
 
-profileset."Soleahs_Secret_Technique_Mastery_304-Fleshrenders_Meathook_298"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soleahs_Secret_Technique_Mastery_304-Fleshrenders_Meathook_298"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=304
-profileset."Soleahs_Secret_Technique_Mastery_304-Fleshrenders_Meathook_298"+=trinket2=fleshrenders_meathook,id=110002,ilevel=298
+profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_0_298"+=shadowlands.soleahs_secret_technique_type=mastery
+profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_0_298"+=shadowlands.crimson_choir_in_party=0
+profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_0_298"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=304
+profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_0_298"+=trinket2=cabalists_hymnal,id=184028,ilevel=298
 
-profileset."Soleahs_Secret_Technique_Mastery_304-Fleshrenders_Meathook_304"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soleahs_Secret_Technique_Mastery_304-Fleshrenders_Meathook_304"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=304
-profileset."Soleahs_Secret_Technique_Mastery_304-Fleshrenders_Meathook_304"+=trinket2=fleshrenders_meathook,id=110002,ilevel=304
-
-profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_0_297"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_0_297"+=shadowlands.crimson_choir_in_party=0
-profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_0_297"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=304
-profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_0_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
-
-profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_4_297"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_4_297"+=shadowlands.crimson_choir_in_party=4
-profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_4_297"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=304
-profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_4_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
+profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_4_298"+=shadowlands.soleahs_secret_technique_type=mastery
+profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_4_298"+=shadowlands.crimson_choir_in_party=4
+profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_4_298"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=304
+profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_4_298"+=trinket2=cabalists_hymnal,id=184028,ilevel=298
 
 profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_0_311"+=shadowlands.soleahs_secret_technique_type=mastery
 profileset."Soleahs_Secret_Technique_Mastery_304-Cabalists_Hymnal_Allies_0_311"+=shadowlands.crimson_choir_in_party=0
@@ -568,9 +364,9 @@ profileset."Soleahs_Secret_Technique_Mastery_304-Titanic_Ocular_Gland_304"+=shad
 profileset."Soleahs_Secret_Technique_Mastery_304-Titanic_Ocular_Gland_304"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=304
 profileset."Soleahs_Secret_Technique_Mastery_304-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
 
-profileset."Soleahs_Secret_Technique_Mastery_304-Forbidden_Necromantic_Tome_297"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soleahs_Secret_Technique_Mastery_304-Forbidden_Necromantic_Tome_297"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=304
-profileset."Soleahs_Secret_Technique_Mastery_304-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
+profileset."Soleahs_Secret_Technique_Mastery_304-Forbidden_Necromantic_Tome_298"+=shadowlands.soleahs_secret_technique_type=mastery
+profileset."Soleahs_Secret_Technique_Mastery_304-Forbidden_Necromantic_Tome_298"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=304
+profileset."Soleahs_Secret_Technique_Mastery_304-Forbidden_Necromantic_Tome_298"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=298
 
 profileset."Soleahs_Secret_Technique_Mastery_304-Forbidden_Necromantic_Tome_311"+=shadowlands.soleahs_secret_technique_type=mastery
 profileset."Soleahs_Secret_Technique_Mastery_304-Forbidden_Necromantic_Tome_311"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=304
@@ -600,27 +396,21 @@ profileset."Soleahs_Secret_Technique_Mastery_304-The_First_Sigil_304"+=shadowlan
 profileset."Soleahs_Secret_Technique_Mastery_304-The_First_Sigil_304"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=304
 profileset."Soleahs_Secret_Technique_Mastery_304-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Soleahs_Secret_Technique_Mastery_304-Scars_of_Fraternal_Strife_297"+=shadowlands.soleahs_secret_technique_type=mastery
-profileset."Soleahs_Secret_Technique_Mastery_304-Scars_of_Fraternal_Strife_297"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=304
-profileset."Soleahs_Secret_Technique_Mastery_304-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Soleahs_Secret_Technique_Mastery_304-Scars_of_Fraternal_Strife_298"+=shadowlands.soleahs_secret_technique_type=mastery
+profileset."Soleahs_Secret_Technique_Mastery_304-Scars_of_Fraternal_Strife_298"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=304
+profileset."Soleahs_Secret_Technique_Mastery_304-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Soleahs_Secret_Technique_Mastery_304-Scars_of_Fraternal_Strife_311"+=shadowlands.soleahs_secret_technique_type=mastery
 profileset."Soleahs_Secret_Technique_Mastery_304-Scars_of_Fraternal_Strife_311"+=trinket1=soleahs_secret_technique_mastery,id=190958,ilevel=304
 profileset."Soleahs_Secret_Technique_Mastery_304-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
 
-profileset."Tovras_Lightning_Repository_298-Fleshrenders_Meathook_298"+=trinket1=tovras_lightning_repository,id=110001,ilevel=298
-profileset."Tovras_Lightning_Repository_298-Fleshrenders_Meathook_298"+=trinket2=fleshrenders_meathook,id=110002,ilevel=298
+profileset."Tovras_Lightning_Repository_298-Cabalists_Hymnal_Allies_0_298"+=shadowlands.crimson_choir_in_party=0
+profileset."Tovras_Lightning_Repository_298-Cabalists_Hymnal_Allies_0_298"+=trinket1=tovras_lightning_repository,id=110001,ilevel=298
+profileset."Tovras_Lightning_Repository_298-Cabalists_Hymnal_Allies_0_298"+=trinket2=cabalists_hymnal,id=184028,ilevel=298
 
-profileset."Tovras_Lightning_Repository_298-Fleshrenders_Meathook_304"+=trinket1=tovras_lightning_repository,id=110001,ilevel=298
-profileset."Tovras_Lightning_Repository_298-Fleshrenders_Meathook_304"+=trinket2=fleshrenders_meathook,id=110002,ilevel=304
-
-profileset."Tovras_Lightning_Repository_298-Cabalists_Hymnal_Allies_0_297"+=shadowlands.crimson_choir_in_party=0
-profileset."Tovras_Lightning_Repository_298-Cabalists_Hymnal_Allies_0_297"+=trinket1=tovras_lightning_repository,id=110001,ilevel=298
-profileset."Tovras_Lightning_Repository_298-Cabalists_Hymnal_Allies_0_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
-
-profileset."Tovras_Lightning_Repository_298-Cabalists_Hymnal_Allies_4_297"+=shadowlands.crimson_choir_in_party=4
-profileset."Tovras_Lightning_Repository_298-Cabalists_Hymnal_Allies_4_297"+=trinket1=tovras_lightning_repository,id=110001,ilevel=298
-profileset."Tovras_Lightning_Repository_298-Cabalists_Hymnal_Allies_4_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
+profileset."Tovras_Lightning_Repository_298-Cabalists_Hymnal_Allies_4_298"+=shadowlands.crimson_choir_in_party=4
+profileset."Tovras_Lightning_Repository_298-Cabalists_Hymnal_Allies_4_298"+=trinket1=tovras_lightning_repository,id=110001,ilevel=298
+profileset."Tovras_Lightning_Repository_298-Cabalists_Hymnal_Allies_4_298"+=trinket2=cabalists_hymnal,id=184028,ilevel=298
 
 profileset."Tovras_Lightning_Repository_298-Cabalists_Hymnal_Allies_0_311"+=shadowlands.crimson_choir_in_party=0
 profileset."Tovras_Lightning_Repository_298-Cabalists_Hymnal_Allies_0_311"+=trinket1=tovras_lightning_repository,id=110001,ilevel=298
@@ -636,8 +426,8 @@ profileset."Tovras_Lightning_Repository_298-Titanic_Ocular_Gland_291"+=trinket2=
 profileset."Tovras_Lightning_Repository_298-Titanic_Ocular_Gland_304"+=trinket1=tovras_lightning_repository,id=110001,ilevel=298
 profileset."Tovras_Lightning_Repository_298-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
 
-profileset."Tovras_Lightning_Repository_298-Forbidden_Necromantic_Tome_297"+=trinket1=tovras_lightning_repository,id=110001,ilevel=298
-profileset."Tovras_Lightning_Repository_298-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
+profileset."Tovras_Lightning_Repository_298-Forbidden_Necromantic_Tome_298"+=trinket1=tovras_lightning_repository,id=110001,ilevel=298
+profileset."Tovras_Lightning_Repository_298-Forbidden_Necromantic_Tome_298"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=298
 
 profileset."Tovras_Lightning_Repository_298-Forbidden_Necromantic_Tome_311"+=trinket1=tovras_lightning_repository,id=110001,ilevel=298
 profileset."Tovras_Lightning_Repository_298-Forbidden_Necromantic_Tome_311"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=311
@@ -660,25 +450,19 @@ profileset."Tovras_Lightning_Repository_298-The_First_Sigil_291"+=trinket2=the_f
 profileset."Tovras_Lightning_Repository_298-The_First_Sigil_304"+=trinket1=tovras_lightning_repository,id=110001,ilevel=298
 profileset."Tovras_Lightning_Repository_298-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Tovras_Lightning_Repository_298-Scars_of_Fraternal_Strife_297"+=trinket1=tovras_lightning_repository,id=110001,ilevel=298
-profileset."Tovras_Lightning_Repository_298-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Tovras_Lightning_Repository_298-Scars_of_Fraternal_Strife_298"+=trinket1=tovras_lightning_repository,id=110001,ilevel=298
+profileset."Tovras_Lightning_Repository_298-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Tovras_Lightning_Repository_298-Scars_of_Fraternal_Strife_311"+=trinket1=tovras_lightning_repository,id=110001,ilevel=298
 profileset."Tovras_Lightning_Repository_298-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
 
-profileset."Tovras_Lightning_Repository_304-Fleshrenders_Meathook_298"+=trinket1=tovras_lightning_repository,id=110001,ilevel=304
-profileset."Tovras_Lightning_Repository_304-Fleshrenders_Meathook_298"+=trinket2=fleshrenders_meathook,id=110002,ilevel=298
+profileset."Tovras_Lightning_Repository_304-Cabalists_Hymnal_Allies_0_298"+=shadowlands.crimson_choir_in_party=0
+profileset."Tovras_Lightning_Repository_304-Cabalists_Hymnal_Allies_0_298"+=trinket1=tovras_lightning_repository,id=110001,ilevel=304
+profileset."Tovras_Lightning_Repository_304-Cabalists_Hymnal_Allies_0_298"+=trinket2=cabalists_hymnal,id=184028,ilevel=298
 
-profileset."Tovras_Lightning_Repository_304-Fleshrenders_Meathook_304"+=trinket1=tovras_lightning_repository,id=110001,ilevel=304
-profileset."Tovras_Lightning_Repository_304-Fleshrenders_Meathook_304"+=trinket2=fleshrenders_meathook,id=110002,ilevel=304
-
-profileset."Tovras_Lightning_Repository_304-Cabalists_Hymnal_Allies_0_297"+=shadowlands.crimson_choir_in_party=0
-profileset."Tovras_Lightning_Repository_304-Cabalists_Hymnal_Allies_0_297"+=trinket1=tovras_lightning_repository,id=110001,ilevel=304
-profileset."Tovras_Lightning_Repository_304-Cabalists_Hymnal_Allies_0_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
-
-profileset."Tovras_Lightning_Repository_304-Cabalists_Hymnal_Allies_4_297"+=shadowlands.crimson_choir_in_party=4
-profileset."Tovras_Lightning_Repository_304-Cabalists_Hymnal_Allies_4_297"+=trinket1=tovras_lightning_repository,id=110001,ilevel=304
-profileset."Tovras_Lightning_Repository_304-Cabalists_Hymnal_Allies_4_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
+profileset."Tovras_Lightning_Repository_304-Cabalists_Hymnal_Allies_4_298"+=shadowlands.crimson_choir_in_party=4
+profileset."Tovras_Lightning_Repository_304-Cabalists_Hymnal_Allies_4_298"+=trinket1=tovras_lightning_repository,id=110001,ilevel=304
+profileset."Tovras_Lightning_Repository_304-Cabalists_Hymnal_Allies_4_298"+=trinket2=cabalists_hymnal,id=184028,ilevel=298
 
 profileset."Tovras_Lightning_Repository_304-Cabalists_Hymnal_Allies_0_311"+=shadowlands.crimson_choir_in_party=0
 profileset."Tovras_Lightning_Repository_304-Cabalists_Hymnal_Allies_0_311"+=trinket1=tovras_lightning_repository,id=110001,ilevel=304
@@ -694,8 +478,8 @@ profileset."Tovras_Lightning_Repository_304-Titanic_Ocular_Gland_291"+=trinket2=
 profileset."Tovras_Lightning_Repository_304-Titanic_Ocular_Gland_304"+=trinket1=tovras_lightning_repository,id=110001,ilevel=304
 profileset."Tovras_Lightning_Repository_304-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
 
-profileset."Tovras_Lightning_Repository_304-Forbidden_Necromantic_Tome_297"+=trinket1=tovras_lightning_repository,id=110001,ilevel=304
-profileset."Tovras_Lightning_Repository_304-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
+profileset."Tovras_Lightning_Repository_304-Forbidden_Necromantic_Tome_298"+=trinket1=tovras_lightning_repository,id=110001,ilevel=304
+profileset."Tovras_Lightning_Repository_304-Forbidden_Necromantic_Tome_298"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=298
 
 profileset."Tovras_Lightning_Repository_304-Forbidden_Necromantic_Tome_311"+=trinket1=tovras_lightning_repository,id=110001,ilevel=304
 profileset."Tovras_Lightning_Repository_304-Forbidden_Necromantic_Tome_311"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=311
@@ -718,211 +502,107 @@ profileset."Tovras_Lightning_Repository_304-The_First_Sigil_291"+=trinket2=the_f
 profileset."Tovras_Lightning_Repository_304-The_First_Sigil_304"+=trinket1=tovras_lightning_repository,id=110001,ilevel=304
 profileset."Tovras_Lightning_Repository_304-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Tovras_Lightning_Repository_304-Scars_of_Fraternal_Strife_297"+=trinket1=tovras_lightning_repository,id=110001,ilevel=304
-profileset."Tovras_Lightning_Repository_304-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Tovras_Lightning_Repository_304-Scars_of_Fraternal_Strife_298"+=trinket1=tovras_lightning_repository,id=110001,ilevel=304
+profileset."Tovras_Lightning_Repository_304-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Tovras_Lightning_Repository_304-Scars_of_Fraternal_Strife_311"+=trinket1=tovras_lightning_repository,id=110001,ilevel=304
 profileset."Tovras_Lightning_Repository_304-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
 
-profileset."Fleshrenders_Meathook_298-Cabalists_Hymnal_Allies_0_297"+=shadowlands.crimson_choir_in_party=0
-profileset."Fleshrenders_Meathook_298-Cabalists_Hymnal_Allies_0_297"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-Cabalists_Hymnal_Allies_0_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
+profileset."Cabalists_Hymnal_Allies_0_298-Titanic_Ocular_Gland_291"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_298-Titanic_Ocular_Gland_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_0_298-Titanic_Ocular_Gland_291"+=trinket2=titanic_ocular_gland,id=186423,ilevel=291
 
-profileset."Fleshrenders_Meathook_298-Cabalists_Hymnal_Allies_4_297"+=shadowlands.crimson_choir_in_party=4
-profileset."Fleshrenders_Meathook_298-Cabalists_Hymnal_Allies_4_297"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-Cabalists_Hymnal_Allies_4_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
+profileset."Cabalists_Hymnal_Allies_0_298-Titanic_Ocular_Gland_304"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_298-Titanic_Ocular_Gland_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_0_298-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
 
-profileset."Fleshrenders_Meathook_298-Cabalists_Hymnal_Allies_0_311"+=shadowlands.crimson_choir_in_party=0
-profileset."Fleshrenders_Meathook_298-Cabalists_Hymnal_Allies_0_311"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-Cabalists_Hymnal_Allies_0_311"+=trinket2=cabalists_hymnal,id=184028,ilevel=311
+profileset."Cabalists_Hymnal_Allies_0_298-Forbidden_Necromantic_Tome_298"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_298-Forbidden_Necromantic_Tome_298"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_0_298-Forbidden_Necromantic_Tome_298"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=298
 
-profileset."Fleshrenders_Meathook_298-Cabalists_Hymnal_Allies_4_311"+=shadowlands.crimson_choir_in_party=4
-profileset."Fleshrenders_Meathook_298-Cabalists_Hymnal_Allies_4_311"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-Cabalists_Hymnal_Allies_4_311"+=trinket2=cabalists_hymnal,id=184028,ilevel=311
+profileset."Cabalists_Hymnal_Allies_0_298-Forbidden_Necromantic_Tome_311"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_298-Forbidden_Necromantic_Tome_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_0_298-Forbidden_Necromantic_Tome_311"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=311
 
-profileset."Fleshrenders_Meathook_298-Titanic_Ocular_Gland_291"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-Titanic_Ocular_Gland_291"+=trinket2=titanic_ocular_gland,id=186423,ilevel=291
+profileset."Cabalists_Hymnal_Allies_0_298-Shadowed_Orb_of_Torment_291"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_298-Shadowed_Orb_of_Torment_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_0_298-Shadowed_Orb_of_Torment_291"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=291
 
-profileset."Fleshrenders_Meathook_298-Titanic_Ocular_Gland_304"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
+profileset."Cabalists_Hymnal_Allies_0_298-Shadowed_Orb_of_Torment_304"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_298-Shadowed_Orb_of_Torment_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_0_298-Shadowed_Orb_of_Torment_304"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=304
 
-profileset."Fleshrenders_Meathook_298-Forbidden_Necromantic_Tome_297"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
+profileset."Cabalists_Hymnal_Allies_0_298-Elegy_of_the_Eternals_291"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_298-Elegy_of_the_Eternals_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_0_298-Elegy_of_the_Eternals_291"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=291
 
-profileset."Fleshrenders_Meathook_298-Forbidden_Necromantic_Tome_311"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-Forbidden_Necromantic_Tome_311"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=311
+profileset."Cabalists_Hymnal_Allies_0_298-Elegy_of_the_Eternals_304"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_298-Elegy_of_the_Eternals_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_0_298-Elegy_of_the_Eternals_304"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=304
 
-profileset."Fleshrenders_Meathook_298-Shadowed_Orb_of_Torment_291"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-Shadowed_Orb_of_Torment_291"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=291
+profileset."Cabalists_Hymnal_Allies_0_298-The_First_Sigil_291"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_298-The_First_Sigil_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_0_298-The_First_Sigil_291"+=trinket2=the_first_sigil,id=188271,ilevel=291
 
-profileset."Fleshrenders_Meathook_298-Shadowed_Orb_of_Torment_304"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-Shadowed_Orb_of_Torment_304"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=304
+profileset."Cabalists_Hymnal_Allies_0_298-The_First_Sigil_304"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_298-The_First_Sigil_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_0_298-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Fleshrenders_Meathook_298-Elegy_of_the_Eternals_291"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-Elegy_of_the_Eternals_291"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=291
+profileset."Cabalists_Hymnal_Allies_0_298-Scars_of_Fraternal_Strife_298"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_298-Scars_of_Fraternal_Strife_298"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_0_298-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
-profileset."Fleshrenders_Meathook_298-Elegy_of_the_Eternals_304"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-Elegy_of_the_Eternals_304"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=304
+profileset."Cabalists_Hymnal_Allies_0_298-Scars_of_Fraternal_Strife_311"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_298-Scars_of_Fraternal_Strife_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_0_298-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
 
-profileset."Fleshrenders_Meathook_298-The_First_Sigil_291"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-The_First_Sigil_291"+=trinket2=the_first_sigil,id=188271,ilevel=291
+profileset."Cabalists_Hymnal_Allies_4_298-Titanic_Ocular_Gland_291"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_298-Titanic_Ocular_Gland_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_4_298-Titanic_Ocular_Gland_291"+=trinket2=titanic_ocular_gland,id=186423,ilevel=291
 
-profileset."Fleshrenders_Meathook_298-The_First_Sigil_304"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
+profileset."Cabalists_Hymnal_Allies_4_298-Titanic_Ocular_Gland_304"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_298-Titanic_Ocular_Gland_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_4_298-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
 
-profileset."Fleshrenders_Meathook_298-Scars_of_Fraternal_Strife_297"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Cabalists_Hymnal_Allies_4_298-Forbidden_Necromantic_Tome_298"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_298-Forbidden_Necromantic_Tome_298"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_4_298-Forbidden_Necromantic_Tome_298"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=298
 
-profileset."Fleshrenders_Meathook_298-Scars_of_Fraternal_Strife_311"+=trinket1=fleshrenders_meathook,id=110002,ilevel=298
-profileset."Fleshrenders_Meathook_298-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
+profileset."Cabalists_Hymnal_Allies_4_298-Forbidden_Necromantic_Tome_311"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_298-Forbidden_Necromantic_Tome_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_4_298-Forbidden_Necromantic_Tome_311"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=311
 
-profileset."Fleshrenders_Meathook_304-Cabalists_Hymnal_Allies_0_297"+=shadowlands.crimson_choir_in_party=0
-profileset."Fleshrenders_Meathook_304-Cabalists_Hymnal_Allies_0_297"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-Cabalists_Hymnal_Allies_0_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
+profileset."Cabalists_Hymnal_Allies_4_298-Shadowed_Orb_of_Torment_291"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_298-Shadowed_Orb_of_Torment_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_4_298-Shadowed_Orb_of_Torment_291"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=291
 
-profileset."Fleshrenders_Meathook_304-Cabalists_Hymnal_Allies_4_297"+=shadowlands.crimson_choir_in_party=4
-profileset."Fleshrenders_Meathook_304-Cabalists_Hymnal_Allies_4_297"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-Cabalists_Hymnal_Allies_4_297"+=trinket2=cabalists_hymnal,id=184028,ilevel=297
+profileset."Cabalists_Hymnal_Allies_4_298-Shadowed_Orb_of_Torment_304"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_298-Shadowed_Orb_of_Torment_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_4_298-Shadowed_Orb_of_Torment_304"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=304
 
-profileset."Fleshrenders_Meathook_304-Cabalists_Hymnal_Allies_0_311"+=shadowlands.crimson_choir_in_party=0
-profileset."Fleshrenders_Meathook_304-Cabalists_Hymnal_Allies_0_311"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-Cabalists_Hymnal_Allies_0_311"+=trinket2=cabalists_hymnal,id=184028,ilevel=311
+profileset."Cabalists_Hymnal_Allies_4_298-Elegy_of_the_Eternals_291"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_298-Elegy_of_the_Eternals_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_4_298-Elegy_of_the_Eternals_291"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=291
 
-profileset."Fleshrenders_Meathook_304-Cabalists_Hymnal_Allies_4_311"+=shadowlands.crimson_choir_in_party=4
-profileset."Fleshrenders_Meathook_304-Cabalists_Hymnal_Allies_4_311"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-Cabalists_Hymnal_Allies_4_311"+=trinket2=cabalists_hymnal,id=184028,ilevel=311
+profileset."Cabalists_Hymnal_Allies_4_298-Elegy_of_the_Eternals_304"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_298-Elegy_of_the_Eternals_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_4_298-Elegy_of_the_Eternals_304"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=304
 
-profileset."Fleshrenders_Meathook_304-Titanic_Ocular_Gland_291"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-Titanic_Ocular_Gland_291"+=trinket2=titanic_ocular_gland,id=186423,ilevel=291
+profileset."Cabalists_Hymnal_Allies_4_298-The_First_Sigil_291"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_298-The_First_Sigil_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_4_298-The_First_Sigil_291"+=trinket2=the_first_sigil,id=188271,ilevel=291
 
-profileset."Fleshrenders_Meathook_304-Titanic_Ocular_Gland_304"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
+profileset."Cabalists_Hymnal_Allies_4_298-The_First_Sigil_304"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_298-The_First_Sigil_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_4_298-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Fleshrenders_Meathook_304-Forbidden_Necromantic_Tome_297"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
+profileset."Cabalists_Hymnal_Allies_4_298-Scars_of_Fraternal_Strife_298"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_298-Scars_of_Fraternal_Strife_298"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_4_298-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
-profileset."Fleshrenders_Meathook_304-Forbidden_Necromantic_Tome_311"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-Forbidden_Necromantic_Tome_311"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=311
-
-profileset."Fleshrenders_Meathook_304-Shadowed_Orb_of_Torment_291"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-Shadowed_Orb_of_Torment_291"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=291
-
-profileset."Fleshrenders_Meathook_304-Shadowed_Orb_of_Torment_304"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-Shadowed_Orb_of_Torment_304"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=304
-
-profileset."Fleshrenders_Meathook_304-Elegy_of_the_Eternals_291"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-Elegy_of_the_Eternals_291"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=291
-
-profileset."Fleshrenders_Meathook_304-Elegy_of_the_Eternals_304"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-Elegy_of_the_Eternals_304"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=304
-
-profileset."Fleshrenders_Meathook_304-The_First_Sigil_291"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-The_First_Sigil_291"+=trinket2=the_first_sigil,id=188271,ilevel=291
-
-profileset."Fleshrenders_Meathook_304-The_First_Sigil_304"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
-
-profileset."Fleshrenders_Meathook_304-Scars_of_Fraternal_Strife_297"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
-
-profileset."Fleshrenders_Meathook_304-Scars_of_Fraternal_Strife_311"+=trinket1=fleshrenders_meathook,id=110002,ilevel=304
-profileset."Fleshrenders_Meathook_304-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
-
-profileset."Cabalists_Hymnal_Allies_0_297-Titanic_Ocular_Gland_291"+=shadowlands.crimson_choir_in_party=0
-profileset."Cabalists_Hymnal_Allies_0_297-Titanic_Ocular_Gland_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_0_297-Titanic_Ocular_Gland_291"+=trinket2=titanic_ocular_gland,id=186423,ilevel=291
-
-profileset."Cabalists_Hymnal_Allies_0_297-Titanic_Ocular_Gland_304"+=shadowlands.crimson_choir_in_party=0
-profileset."Cabalists_Hymnal_Allies_0_297-Titanic_Ocular_Gland_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_0_297-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
-
-profileset."Cabalists_Hymnal_Allies_0_297-Forbidden_Necromantic_Tome_297"+=shadowlands.crimson_choir_in_party=0
-profileset."Cabalists_Hymnal_Allies_0_297-Forbidden_Necromantic_Tome_297"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_0_297-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
-
-profileset."Cabalists_Hymnal_Allies_0_297-Forbidden_Necromantic_Tome_311"+=shadowlands.crimson_choir_in_party=0
-profileset."Cabalists_Hymnal_Allies_0_297-Forbidden_Necromantic_Tome_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_0_297-Forbidden_Necromantic_Tome_311"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=311
-
-profileset."Cabalists_Hymnal_Allies_0_297-Shadowed_Orb_of_Torment_291"+=shadowlands.crimson_choir_in_party=0
-profileset."Cabalists_Hymnal_Allies_0_297-Shadowed_Orb_of_Torment_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_0_297-Shadowed_Orb_of_Torment_291"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=291
-
-profileset."Cabalists_Hymnal_Allies_0_297-Shadowed_Orb_of_Torment_304"+=shadowlands.crimson_choir_in_party=0
-profileset."Cabalists_Hymnal_Allies_0_297-Shadowed_Orb_of_Torment_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_0_297-Shadowed_Orb_of_Torment_304"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=304
-
-profileset."Cabalists_Hymnal_Allies_0_297-Elegy_of_the_Eternals_291"+=shadowlands.crimson_choir_in_party=0
-profileset."Cabalists_Hymnal_Allies_0_297-Elegy_of_the_Eternals_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_0_297-Elegy_of_the_Eternals_291"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=291
-
-profileset."Cabalists_Hymnal_Allies_0_297-Elegy_of_the_Eternals_304"+=shadowlands.crimson_choir_in_party=0
-profileset."Cabalists_Hymnal_Allies_0_297-Elegy_of_the_Eternals_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_0_297-Elegy_of_the_Eternals_304"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=304
-
-profileset."Cabalists_Hymnal_Allies_0_297-The_First_Sigil_291"+=shadowlands.crimson_choir_in_party=0
-profileset."Cabalists_Hymnal_Allies_0_297-The_First_Sigil_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_0_297-The_First_Sigil_291"+=trinket2=the_first_sigil,id=188271,ilevel=291
-
-profileset."Cabalists_Hymnal_Allies_0_297-The_First_Sigil_304"+=shadowlands.crimson_choir_in_party=0
-profileset."Cabalists_Hymnal_Allies_0_297-The_First_Sigil_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_0_297-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
-
-profileset."Cabalists_Hymnal_Allies_0_297-Scars_of_Fraternal_Strife_297"+=shadowlands.crimson_choir_in_party=0
-profileset."Cabalists_Hymnal_Allies_0_297-Scars_of_Fraternal_Strife_297"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_0_297-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
-
-profileset."Cabalists_Hymnal_Allies_0_297-Scars_of_Fraternal_Strife_311"+=shadowlands.crimson_choir_in_party=0
-profileset."Cabalists_Hymnal_Allies_0_297-Scars_of_Fraternal_Strife_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_0_297-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
-
-profileset."Cabalists_Hymnal_Allies_4_297-Titanic_Ocular_Gland_291"+=shadowlands.crimson_choir_in_party=4
-profileset."Cabalists_Hymnal_Allies_4_297-Titanic_Ocular_Gland_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_4_297-Titanic_Ocular_Gland_291"+=trinket2=titanic_ocular_gland,id=186423,ilevel=291
-
-profileset."Cabalists_Hymnal_Allies_4_297-Titanic_Ocular_Gland_304"+=shadowlands.crimson_choir_in_party=4
-profileset."Cabalists_Hymnal_Allies_4_297-Titanic_Ocular_Gland_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_4_297-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
-
-profileset."Cabalists_Hymnal_Allies_4_297-Forbidden_Necromantic_Tome_297"+=shadowlands.crimson_choir_in_party=4
-profileset."Cabalists_Hymnal_Allies_4_297-Forbidden_Necromantic_Tome_297"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_4_297-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
-
-profileset."Cabalists_Hymnal_Allies_4_297-Forbidden_Necromantic_Tome_311"+=shadowlands.crimson_choir_in_party=4
-profileset."Cabalists_Hymnal_Allies_4_297-Forbidden_Necromantic_Tome_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_4_297-Forbidden_Necromantic_Tome_311"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=311
-
-profileset."Cabalists_Hymnal_Allies_4_297-Shadowed_Orb_of_Torment_291"+=shadowlands.crimson_choir_in_party=4
-profileset."Cabalists_Hymnal_Allies_4_297-Shadowed_Orb_of_Torment_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_4_297-Shadowed_Orb_of_Torment_291"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=291
-
-profileset."Cabalists_Hymnal_Allies_4_297-Shadowed_Orb_of_Torment_304"+=shadowlands.crimson_choir_in_party=4
-profileset."Cabalists_Hymnal_Allies_4_297-Shadowed_Orb_of_Torment_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_4_297-Shadowed_Orb_of_Torment_304"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=304
-
-profileset."Cabalists_Hymnal_Allies_4_297-Elegy_of_the_Eternals_291"+=shadowlands.crimson_choir_in_party=4
-profileset."Cabalists_Hymnal_Allies_4_297-Elegy_of_the_Eternals_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_4_297-Elegy_of_the_Eternals_291"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=291
-
-profileset."Cabalists_Hymnal_Allies_4_297-Elegy_of_the_Eternals_304"+=shadowlands.crimson_choir_in_party=4
-profileset."Cabalists_Hymnal_Allies_4_297-Elegy_of_the_Eternals_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_4_297-Elegy_of_the_Eternals_304"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=304
-
-profileset."Cabalists_Hymnal_Allies_4_297-The_First_Sigil_291"+=shadowlands.crimson_choir_in_party=4
-profileset."Cabalists_Hymnal_Allies_4_297-The_First_Sigil_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_4_297-The_First_Sigil_291"+=trinket2=the_first_sigil,id=188271,ilevel=291
-
-profileset."Cabalists_Hymnal_Allies_4_297-The_First_Sigil_304"+=shadowlands.crimson_choir_in_party=4
-profileset."Cabalists_Hymnal_Allies_4_297-The_First_Sigil_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_4_297-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
-
-profileset."Cabalists_Hymnal_Allies_4_297-Scars_of_Fraternal_Strife_297"+=shadowlands.crimson_choir_in_party=4
-profileset."Cabalists_Hymnal_Allies_4_297-Scars_of_Fraternal_Strife_297"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_4_297-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
-
-profileset."Cabalists_Hymnal_Allies_4_297-Scars_of_Fraternal_Strife_311"+=shadowlands.crimson_choir_in_party=4
-profileset."Cabalists_Hymnal_Allies_4_297-Scars_of_Fraternal_Strife_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_4_297-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
+profileset."Cabalists_Hymnal_Allies_4_298-Scars_of_Fraternal_Strife_311"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_298-Scars_of_Fraternal_Strife_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_4_298-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
 
 profileset."Cabalists_Hymnal_Allies_0_311-Titanic_Ocular_Gland_291"+=shadowlands.crimson_choir_in_party=0
 profileset."Cabalists_Hymnal_Allies_0_311-Titanic_Ocular_Gland_291"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
@@ -932,9 +612,9 @@ profileset."Cabalists_Hymnal_Allies_0_311-Titanic_Ocular_Gland_304"+=shadowlands
 profileset."Cabalists_Hymnal_Allies_0_311-Titanic_Ocular_Gland_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
 profileset."Cabalists_Hymnal_Allies_0_311-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
 
-profileset."Cabalists_Hymnal_Allies_0_311-Forbidden_Necromantic_Tome_297"+=shadowlands.crimson_choir_in_party=0
-profileset."Cabalists_Hymnal_Allies_0_311-Forbidden_Necromantic_Tome_297"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
-profileset."Cabalists_Hymnal_Allies_0_311-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
+profileset."Cabalists_Hymnal_Allies_0_311-Forbidden_Necromantic_Tome_298"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_311-Forbidden_Necromantic_Tome_298"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
+profileset."Cabalists_Hymnal_Allies_0_311-Forbidden_Necromantic_Tome_298"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=298
 
 profileset."Cabalists_Hymnal_Allies_0_311-Forbidden_Necromantic_Tome_311"+=shadowlands.crimson_choir_in_party=0
 profileset."Cabalists_Hymnal_Allies_0_311-Forbidden_Necromantic_Tome_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
@@ -964,9 +644,9 @@ profileset."Cabalists_Hymnal_Allies_0_311-The_First_Sigil_304"+=shadowlands.crim
 profileset."Cabalists_Hymnal_Allies_0_311-The_First_Sigil_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
 profileset."Cabalists_Hymnal_Allies_0_311-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Cabalists_Hymnal_Allies_0_311-Scars_of_Fraternal_Strife_297"+=shadowlands.crimson_choir_in_party=0
-profileset."Cabalists_Hymnal_Allies_0_311-Scars_of_Fraternal_Strife_297"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
-profileset."Cabalists_Hymnal_Allies_0_311-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Cabalists_Hymnal_Allies_0_311-Scars_of_Fraternal_Strife_298"+=shadowlands.crimson_choir_in_party=0
+profileset."Cabalists_Hymnal_Allies_0_311-Scars_of_Fraternal_Strife_298"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
+profileset."Cabalists_Hymnal_Allies_0_311-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Cabalists_Hymnal_Allies_0_311-Scars_of_Fraternal_Strife_311"+=shadowlands.crimson_choir_in_party=0
 profileset."Cabalists_Hymnal_Allies_0_311-Scars_of_Fraternal_Strife_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
@@ -980,9 +660,9 @@ profileset."Cabalists_Hymnal_Allies_4_311-Titanic_Ocular_Gland_304"+=shadowlands
 profileset."Cabalists_Hymnal_Allies_4_311-Titanic_Ocular_Gland_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
 profileset."Cabalists_Hymnal_Allies_4_311-Titanic_Ocular_Gland_304"+=trinket2=titanic_ocular_gland,id=186423,ilevel=304
 
-profileset."Cabalists_Hymnal_Allies_4_311-Forbidden_Necromantic_Tome_297"+=shadowlands.crimson_choir_in_party=4
-profileset."Cabalists_Hymnal_Allies_4_311-Forbidden_Necromantic_Tome_297"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
-profileset."Cabalists_Hymnal_Allies_4_311-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
+profileset."Cabalists_Hymnal_Allies_4_311-Forbidden_Necromantic_Tome_298"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_311-Forbidden_Necromantic_Tome_298"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
+profileset."Cabalists_Hymnal_Allies_4_311-Forbidden_Necromantic_Tome_298"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=298
 
 profileset."Cabalists_Hymnal_Allies_4_311-Forbidden_Necromantic_Tome_311"+=shadowlands.crimson_choir_in_party=4
 profileset."Cabalists_Hymnal_Allies_4_311-Forbidden_Necromantic_Tome_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
@@ -1012,16 +692,16 @@ profileset."Cabalists_Hymnal_Allies_4_311-The_First_Sigil_304"+=shadowlands.crim
 profileset."Cabalists_Hymnal_Allies_4_311-The_First_Sigil_304"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
 profileset."Cabalists_Hymnal_Allies_4_311-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Cabalists_Hymnal_Allies_4_311-Scars_of_Fraternal_Strife_297"+=shadowlands.crimson_choir_in_party=4
-profileset."Cabalists_Hymnal_Allies_4_311-Scars_of_Fraternal_Strife_297"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
-profileset."Cabalists_Hymnal_Allies_4_311-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Cabalists_Hymnal_Allies_4_311-Scars_of_Fraternal_Strife_298"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_311-Scars_of_Fraternal_Strife_298"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
+profileset."Cabalists_Hymnal_Allies_4_311-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Cabalists_Hymnal_Allies_4_311-Scars_of_Fraternal_Strife_311"+=shadowlands.crimson_choir_in_party=4
 profileset."Cabalists_Hymnal_Allies_4_311-Scars_of_Fraternal_Strife_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
 profileset."Cabalists_Hymnal_Allies_4_311-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
 
-profileset."Titanic_Ocular_Gland_291-Forbidden_Necromantic_Tome_297"+=trinket1=titanic_ocular_gland,id=186423,ilevel=291
-profileset."Titanic_Ocular_Gland_291-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
+profileset."Titanic_Ocular_Gland_291-Forbidden_Necromantic_Tome_298"+=trinket1=titanic_ocular_gland,id=186423,ilevel=291
+profileset."Titanic_Ocular_Gland_291-Forbidden_Necromantic_Tome_298"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=298
 
 profileset."Titanic_Ocular_Gland_291-Forbidden_Necromantic_Tome_311"+=trinket1=titanic_ocular_gland,id=186423,ilevel=291
 profileset."Titanic_Ocular_Gland_291-Forbidden_Necromantic_Tome_311"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=311
@@ -1044,14 +724,14 @@ profileset."Titanic_Ocular_Gland_291-The_First_Sigil_291"+=trinket2=the_first_si
 profileset."Titanic_Ocular_Gland_291-The_First_Sigil_304"+=trinket1=titanic_ocular_gland,id=186423,ilevel=291
 profileset."Titanic_Ocular_Gland_291-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Titanic_Ocular_Gland_291-Scars_of_Fraternal_Strife_297"+=trinket1=titanic_ocular_gland,id=186423,ilevel=291
-profileset."Titanic_Ocular_Gland_291-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Titanic_Ocular_Gland_291-Scars_of_Fraternal_Strife_298"+=trinket1=titanic_ocular_gland,id=186423,ilevel=291
+profileset."Titanic_Ocular_Gland_291-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Titanic_Ocular_Gland_291-Scars_of_Fraternal_Strife_311"+=trinket1=titanic_ocular_gland,id=186423,ilevel=291
 profileset."Titanic_Ocular_Gland_291-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
 
-profileset."Titanic_Ocular_Gland_304-Forbidden_Necromantic_Tome_297"+=trinket1=titanic_ocular_gland,id=186423,ilevel=304
-profileset."Titanic_Ocular_Gland_304-Forbidden_Necromantic_Tome_297"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=297
+profileset."Titanic_Ocular_Gland_304-Forbidden_Necromantic_Tome_298"+=trinket1=titanic_ocular_gland,id=186423,ilevel=304
+profileset."Titanic_Ocular_Gland_304-Forbidden_Necromantic_Tome_298"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=298
 
 profileset."Titanic_Ocular_Gland_304-Forbidden_Necromantic_Tome_311"+=trinket1=titanic_ocular_gland,id=186423,ilevel=304
 profileset."Titanic_Ocular_Gland_304-Forbidden_Necromantic_Tome_311"+=trinket2=forbidden_necromantic_tome,id=186421,ilevel=311
@@ -1074,35 +754,35 @@ profileset."Titanic_Ocular_Gland_304-The_First_Sigil_291"+=trinket2=the_first_si
 profileset."Titanic_Ocular_Gland_304-The_First_Sigil_304"+=trinket1=titanic_ocular_gland,id=186423,ilevel=304
 profileset."Titanic_Ocular_Gland_304-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Titanic_Ocular_Gland_304-Scars_of_Fraternal_Strife_297"+=trinket1=titanic_ocular_gland,id=186423,ilevel=304
-profileset."Titanic_Ocular_Gland_304-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Titanic_Ocular_Gland_304-Scars_of_Fraternal_Strife_298"+=trinket1=titanic_ocular_gland,id=186423,ilevel=304
+profileset."Titanic_Ocular_Gland_304-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Titanic_Ocular_Gland_304-Scars_of_Fraternal_Strife_311"+=trinket1=titanic_ocular_gland,id=186423,ilevel=304
 profileset."Titanic_Ocular_Gland_304-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
 
-profileset."Forbidden_Necromantic_Tome_297-Shadowed_Orb_of_Torment_291"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=297
-profileset."Forbidden_Necromantic_Tome_297-Shadowed_Orb_of_Torment_291"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=291
+profileset."Forbidden_Necromantic_Tome_298-Shadowed_Orb_of_Torment_291"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=298
+profileset."Forbidden_Necromantic_Tome_298-Shadowed_Orb_of_Torment_291"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=291
 
-profileset."Forbidden_Necromantic_Tome_297-Shadowed_Orb_of_Torment_304"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=297
-profileset."Forbidden_Necromantic_Tome_297-Shadowed_Orb_of_Torment_304"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=304
+profileset."Forbidden_Necromantic_Tome_298-Shadowed_Orb_of_Torment_304"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=298
+profileset."Forbidden_Necromantic_Tome_298-Shadowed_Orb_of_Torment_304"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=304
 
-profileset."Forbidden_Necromantic_Tome_297-Elegy_of_the_Eternals_291"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=297
-profileset."Forbidden_Necromantic_Tome_297-Elegy_of_the_Eternals_291"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=291
+profileset."Forbidden_Necromantic_Tome_298-Elegy_of_the_Eternals_291"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=298
+profileset."Forbidden_Necromantic_Tome_298-Elegy_of_the_Eternals_291"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=291
 
-profileset."Forbidden_Necromantic_Tome_297-Elegy_of_the_Eternals_304"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=297
-profileset."Forbidden_Necromantic_Tome_297-Elegy_of_the_Eternals_304"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=304
+profileset."Forbidden_Necromantic_Tome_298-Elegy_of_the_Eternals_304"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=298
+profileset."Forbidden_Necromantic_Tome_298-Elegy_of_the_Eternals_304"+=trinket2=elegy_of_the_eternals,id=188270,ilevel=304
 
-profileset."Forbidden_Necromantic_Tome_297-The_First_Sigil_291"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=297
-profileset."Forbidden_Necromantic_Tome_297-The_First_Sigil_291"+=trinket2=the_first_sigil,id=188271,ilevel=291
+profileset."Forbidden_Necromantic_Tome_298-The_First_Sigil_291"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=298
+profileset."Forbidden_Necromantic_Tome_298-The_First_Sigil_291"+=trinket2=the_first_sigil,id=188271,ilevel=291
 
-profileset."Forbidden_Necromantic_Tome_297-The_First_Sigil_304"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=297
-profileset."Forbidden_Necromantic_Tome_297-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
+profileset."Forbidden_Necromantic_Tome_298-The_First_Sigil_304"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=298
+profileset."Forbidden_Necromantic_Tome_298-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Forbidden_Necromantic_Tome_297-Scars_of_Fraternal_Strife_297"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=297
-profileset."Forbidden_Necromantic_Tome_297-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Forbidden_Necromantic_Tome_298-Scars_of_Fraternal_Strife_298"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=298
+profileset."Forbidden_Necromantic_Tome_298-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
-profileset."Forbidden_Necromantic_Tome_297-Scars_of_Fraternal_Strife_311"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=297
-profileset."Forbidden_Necromantic_Tome_297-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
+profileset."Forbidden_Necromantic_Tome_298-Scars_of_Fraternal_Strife_311"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=298
+profileset."Forbidden_Necromantic_Tome_298-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
 
 profileset."Forbidden_Necromantic_Tome_311-Shadowed_Orb_of_Torment_291"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=311
 profileset."Forbidden_Necromantic_Tome_311-Shadowed_Orb_of_Torment_291"+=trinket2=shadowed_orb_of_torment,id=186428,ilevel=291
@@ -1122,8 +802,8 @@ profileset."Forbidden_Necromantic_Tome_311-The_First_Sigil_291"+=trinket2=the_fi
 profileset."Forbidden_Necromantic_Tome_311-The_First_Sigil_304"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=311
 profileset."Forbidden_Necromantic_Tome_311-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Forbidden_Necromantic_Tome_311-Scars_of_Fraternal_Strife_297"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=311
-profileset."Forbidden_Necromantic_Tome_311-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Forbidden_Necromantic_Tome_311-Scars_of_Fraternal_Strife_298"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=311
+profileset."Forbidden_Necromantic_Tome_311-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Forbidden_Necromantic_Tome_311-Scars_of_Fraternal_Strife_311"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=311
 profileset."Forbidden_Necromantic_Tome_311-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
@@ -1140,8 +820,8 @@ profileset."Shadowed_Orb_of_Torment_291-The_First_Sigil_291"+=trinket2=the_first
 profileset."Shadowed_Orb_of_Torment_291-The_First_Sigil_304"+=trinket1=shadowed_orb_of_torment,id=186428,ilevel=291
 profileset."Shadowed_Orb_of_Torment_291-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Shadowed_Orb_of_Torment_291-Scars_of_Fraternal_Strife_297"+=trinket1=shadowed_orb_of_torment,id=186428,ilevel=291
-profileset."Shadowed_Orb_of_Torment_291-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Shadowed_Orb_of_Torment_291-Scars_of_Fraternal_Strife_298"+=trinket1=shadowed_orb_of_torment,id=186428,ilevel=291
+profileset."Shadowed_Orb_of_Torment_291-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Shadowed_Orb_of_Torment_291-Scars_of_Fraternal_Strife_311"+=trinket1=shadowed_orb_of_torment,id=186428,ilevel=291
 profileset."Shadowed_Orb_of_Torment_291-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
@@ -1158,8 +838,8 @@ profileset."Shadowed_Orb_of_Torment_304-The_First_Sigil_291"+=trinket2=the_first
 profileset."Shadowed_Orb_of_Torment_304-The_First_Sigil_304"+=trinket1=shadowed_orb_of_torment,id=186428,ilevel=304
 profileset."Shadowed_Orb_of_Torment_304-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Shadowed_Orb_of_Torment_304-Scars_of_Fraternal_Strife_297"+=trinket1=shadowed_orb_of_torment,id=186428,ilevel=304
-profileset."Shadowed_Orb_of_Torment_304-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Shadowed_Orb_of_Torment_304-Scars_of_Fraternal_Strife_298"+=trinket1=shadowed_orb_of_torment,id=186428,ilevel=304
+profileset."Shadowed_Orb_of_Torment_304-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Shadowed_Orb_of_Torment_304-Scars_of_Fraternal_Strife_311"+=trinket1=shadowed_orb_of_torment,id=186428,ilevel=304
 profileset."Shadowed_Orb_of_Torment_304-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
@@ -1170,8 +850,8 @@ profileset."Elegy_of_the_Eternals_291-The_First_Sigil_291"+=trinket2=the_first_s
 profileset."Elegy_of_the_Eternals_291-The_First_Sigil_304"+=trinket1=elegy_of_the_eternals,id=188270,ilevel=291
 profileset."Elegy_of_the_Eternals_291-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Elegy_of_the_Eternals_291-Scars_of_Fraternal_Strife_297"+=trinket1=elegy_of_the_eternals,id=188270,ilevel=291
-profileset."Elegy_of_the_Eternals_291-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Elegy_of_the_Eternals_291-Scars_of_Fraternal_Strife_298"+=trinket1=elegy_of_the_eternals,id=188270,ilevel=291
+profileset."Elegy_of_the_Eternals_291-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Elegy_of_the_Eternals_291-Scars_of_Fraternal_Strife_311"+=trinket1=elegy_of_the_eternals,id=188270,ilevel=291
 profileset."Elegy_of_the_Eternals_291-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
@@ -1182,20 +862,20 @@ profileset."Elegy_of_the_Eternals_304-The_First_Sigil_291"+=trinket2=the_first_s
 profileset."Elegy_of_the_Eternals_304-The_First_Sigil_304"+=trinket1=elegy_of_the_eternals,id=188270,ilevel=304
 profileset."Elegy_of_the_Eternals_304-The_First_Sigil_304"+=trinket2=the_first_sigil,id=188271,ilevel=304
 
-profileset."Elegy_of_the_Eternals_304-Scars_of_Fraternal_Strife_297"+=trinket1=elegy_of_the_eternals,id=188270,ilevel=304
-profileset."Elegy_of_the_Eternals_304-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Elegy_of_the_Eternals_304-Scars_of_Fraternal_Strife_298"+=trinket1=elegy_of_the_eternals,id=188270,ilevel=304
+profileset."Elegy_of_the_Eternals_304-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."Elegy_of_the_Eternals_304-Scars_of_Fraternal_Strife_311"+=trinket1=elegy_of_the_eternals,id=188270,ilevel=304
 profileset."Elegy_of_the_Eternals_304-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
 
-profileset."The_First_Sigil_291-Scars_of_Fraternal_Strife_297"+=trinket1=the_first_sigil,id=188271,ilevel=291
-profileset."The_First_Sigil_291-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."The_First_Sigil_291-Scars_of_Fraternal_Strife_298"+=trinket1=the_first_sigil,id=188271,ilevel=291
+profileset."The_First_Sigil_291-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."The_First_Sigil_291-Scars_of_Fraternal_Strife_311"+=trinket1=the_first_sigil,id=188271,ilevel=291
 profileset."The_First_Sigil_291-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311
 
-profileset."The_First_Sigil_304-Scars_of_Fraternal_Strife_297"+=trinket1=the_first_sigil,id=188271,ilevel=304
-profileset."The_First_Sigil_304-Scars_of_Fraternal_Strife_297"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."The_First_Sigil_304-Scars_of_Fraternal_Strife_298"+=trinket1=the_first_sigil,id=188271,ilevel=304
+profileset."The_First_Sigil_304-Scars_of_Fraternal_Strife_298"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=298
 
 profileset."The_First_Sigil_304-Scars_of_Fraternal_Strife_311"+=trinket1=the_first_sigil,id=188271,ilevel=304
 profileset."The_First_Sigil_304-Scars_of_Fraternal_Strife_311"+=trinket2=scars_of_fraternal_strife,id=188253,ilevel=311

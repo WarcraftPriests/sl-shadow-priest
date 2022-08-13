@@ -11,18 +11,18 @@ default_actions=1
 set_bonus=tier28_2pc=1
 set_bonus=tier28_4pc=1
 
-head=${gear.head},bonus_id=${covenant.id}/${legendary.id}
-neck=${gear.neck}
+head=${gear.head},bonus_id=${covenant.id}/${legendary.id},gem_id=173130
+neck=${gear.neck},gem_id=173130
 shoulders=${gear.shoulders}
 back=${gear.back}
 chest=${gear.chest},enchant=eternal_stats
-wrists=${gear.wrists},enchant=eternal_intellect
+wrists=${gear.wrists},enchant=eternal_intellect,gem_id=173130
 hands=${gear.hands}
 waist=${gear.waist}
 legs=${gear.legs}
 feet=${gear.feet}
-finger1=${gear.finger1},enchant=tenet_of_mastery
-finger2=${gear.finger2},enchant=tenet_of_mastery
+finger1=${gear.finger1},enchant=tenet_of_mastery,gem_id=173130
+finger2=${gear.finger2},enchant=tenet_of_mastery,gem_id=173130
 main_hand=${gear.main_hand},enchant=sinful_revelation
 ${gear.off_hand}
 
@@ -50,12 +50,12 @@ profileset."Architects_Ingenuity_Core_304"+=trinket1=architects_ingenuity_core,i
 # Sepulcher of the First Ones - Last 3
 profileset."Grim_Eclipse_272"+=trinket1=grim_eclipse,id=188254,ilevel=272
 profileset."Grim_Eclipse_285"+=trinket1=grim_eclipse,id=188254,ilevel=285
-profileset."Grim_Eclipse_297"+=trinket1=grim_eclipse,id=188254,ilevel=297
+profileset."Grim_Eclipse_298"+=trinket1=grim_eclipse,id=188254,ilevel=298
 profileset."Grim_Eclipse_311"+=trinket1=grim_eclipse,id=188254,ilevel=311
 
 profileset."Scars_of_Fraternal_Strife_272"+=trinket1=scars_of_fraternal_strife,id=188253,ilevel=272
 profileset."Scars_of_Fraternal_Strife_285"+=trinket1=scars_of_fraternal_strife,id=188253,ilevel=285
-profileset."Scars_of_Fraternal_Strife_297"+=trinket1=scars_of_fraternal_strife,id=188253,ilevel=297
+profileset."Scars_of_Fraternal_Strife_298"+=trinket1=scars_of_fraternal_strife,id=188253,ilevel=298
 profileset."Scars_of_Fraternal_Strife_311"+=trinket1=scars_of_fraternal_strife,id=188253,ilevel=311
 
 # World Boss - 285
@@ -85,7 +85,7 @@ profileset."Ebonsoul_Vise_304"+=trinket1=ebonsoul_vise,id=186431,ilevel=304
 ## Sanctum of Domination - Last 2
 profileset."Forbidden_Necromantic_Tome_272"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=272
 profileset."Forbidden_Necromantic_Tome_285"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=285
-profileset."Forbidden_Necromantic_Tome_297"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=297
+profileset."Forbidden_Necromantic_Tome_298"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=298
 profileset."Forbidden_Necromantic_Tome_311"+=trinket1=forbidden_necromantic_tome,id=186421,ilevel=311
 
 # Castle Nathria - Lower Tier
@@ -107,15 +107,15 @@ profileset."Macabre_Sheet_Music_304"+=trinket1=macabre_sheet_music,id=184024,ile
 # Castle Nathria - Last 2
 profileset."Cabalists_Hymnal_Allies_0_272"+=trinket1=cabalists_hymnal,id=184028,ilevel=272
 profileset."Cabalists_Hymnal_Allies_0_285"+=trinket1=cabalists_hymnal,id=184028,ilevel=285
-profileset."Cabalists_Hymnal_Allies_0_297"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
+profileset."Cabalists_Hymnal_Allies_0_298"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
 profileset."Cabalists_Hymnal_Allies_0_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
 
 profileset."Cabalists_Hymnal_Allies_1_272"+=trinket1=cabalists_hymnal,id=184028,ilevel=272
 profileset."Cabalists_Hymnal_Allies_1_272"+=shadowlands.crimson_choir_in_party=1
 profileset."Cabalists_Hymnal_Allies_1_285"+=trinket1=cabalists_hymnal,id=184028,ilevel=285
 profileset."Cabalists_Hymnal_Allies_1_285"+=shadowlands.crimson_choir_in_party=1
-profileset."Cabalists_Hymnal_Allies_1_297"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_1_297"+=shadowlands.crimson_choir_in_party=1
+profileset."Cabalists_Hymnal_Allies_1_298"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_1_298"+=shadowlands.crimson_choir_in_party=1
 profileset."Cabalists_Hymnal_Allies_1_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
 profileset."Cabalists_Hymnal_Allies_1_311"+=shadowlands.crimson_choir_in_party=1
 
@@ -123,8 +123,8 @@ profileset."Cabalists_Hymnal_Allies_2_272"+=trinket1=cabalists_hymnal,id=184028,
 profileset."Cabalists_Hymnal_Allies_2_272"+=shadowlands.crimson_choir_in_party=2
 profileset."Cabalists_Hymnal_Allies_2_285"+=trinket1=cabalists_hymnal,id=184028,ilevel=285
 profileset."Cabalists_Hymnal_Allies_2_285"+=shadowlands.crimson_choir_in_party=2
-profileset."Cabalists_Hymnal_Allies_2_297"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_2_297"+=shadowlands.crimson_choir_in_party=2
+profileset."Cabalists_Hymnal_Allies_2_298"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_2_298"+=shadowlands.crimson_choir_in_party=2
 profileset."Cabalists_Hymnal_Allies_2_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
 profileset."Cabalists_Hymnal_Allies_2_311"+=shadowlands.crimson_choir_in_party=2
 
@@ -132,8 +132,8 @@ profileset."Cabalists_Hymnal_Allies_3_272"+=trinket1=cabalists_hymnal,id=184028,
 profileset."Cabalists_Hymnal_Allies_3_272"+=shadowlands.crimson_choir_in_party=3
 profileset."Cabalists_Hymnal_Allies_3_285"+=trinket1=cabalists_hymnal,id=184028,ilevel=285
 profileset."Cabalists_Hymnal_Allies_3_285"+=shadowlands.crimson_choir_in_party=3
-profileset."Cabalists_Hymnal_Allies_3_297"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_3_297"+=shadowlands.crimson_choir_in_party=3
+profileset."Cabalists_Hymnal_Allies_3_298"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_3_298"+=shadowlands.crimson_choir_in_party=3
 profileset."Cabalists_Hymnal_Allies_3_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
 profileset."Cabalists_Hymnal_Allies_3_311"+=shadowlands.crimson_choir_in_party=3
 
@@ -141,12 +141,12 @@ profileset."Cabalists_Hymnal_Allies_4_272"+=trinket1=cabalists_hymnal,id=184028,
 profileset."Cabalists_Hymnal_Allies_4_272"+=shadowlands.crimson_choir_in_party=4
 profileset."Cabalists_Hymnal_Allies_4_285"+=trinket1=cabalists_hymnal,id=184028,ilevel=285
 profileset."Cabalists_Hymnal_Allies_4_285"+=shadowlands.crimson_choir_in_party=4
-profileset."Cabalists_Hymnal_Allies_4_297"+=trinket1=cabalists_hymnal,id=184028,ilevel=297
-profileset."Cabalists_Hymnal_Allies_4_297"+=shadowlands.crimson_choir_in_party=4
+profileset."Cabalists_Hymnal_Allies_4_298"+=trinket1=cabalists_hymnal,id=184028,ilevel=298
+profileset."Cabalists_Hymnal_Allies_4_298"+=shadowlands.crimson_choir_in_party=4
 profileset."Cabalists_Hymnal_Allies_4_311"+=trinket1=cabalists_hymnal,id=184028,ilevel=311
 profileset."Cabalists_Hymnal_Allies_4_311"+=shadowlands.crimson_choir_in_party=4
 
 profileset."Dreadfire_Vessel_272"+=trinket1=dreadfire_vessel,id=184030,ilevel=272
 profileset."Dreadfire_Vessel_285"+=trinket1=dreadfire_vessel,id=184030,ilevel=285
-profileset."Dreadfire_Vessel_297"+=trinket1=dreadfire_vessel,id=184030,ilevel=297
+profileset."Dreadfire_Vessel_298"+=trinket1=dreadfire_vessel,id=184030,ilevel=298
 profileset."Dreadfire_Vessel_311"+=trinket1=dreadfire_vessel,id=184030,ilevel=311

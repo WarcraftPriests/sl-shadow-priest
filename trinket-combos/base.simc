@@ -11,18 +11,18 @@ default_actions=1
 set_bonus=tier28_2pc=1
 set_bonus=tier28_4pc=1
 
-head=${gear.head},bonus_id=head=${gear.head},bonus_id=${covenant.id}/${legendary.id}
-neck=${gear.neck}
+head=${gear.head},bonus_id=${covenant.id}/${legendary.id},gem_id=173130
+neck=${gear.neck},gem_id=173130
 shoulders=${gear.shoulders}
 back=${gear.back}
 chest=${gear.chest},enchant=eternal_stats
-wrists=${gear.wrists},enchant=eternal_intellect
+wrists=${gear.wrists},enchant=eternal_intellect,gem_id=173130
 hands=${gear.hands}
 waist=${gear.waist}
 legs=${gear.legs}
 feet=${gear.feet}
-finger1=${gear.finger1},enchant=tenet_of_mastery
-finger2=${gear.finger2},enchant=tenet_of_mastery
+finger1=${gear.finger1},enchant=tenet_of_mastery,gem_id=173130
+finger2=${gear.finger2},enchant=tenet_of_mastery,gem_id=173130
 main_hand=${gear.main_hand},enchant=sinful_revelation
 ${gear.off_hand}
 

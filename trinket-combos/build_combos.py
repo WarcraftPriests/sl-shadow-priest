@@ -8,8 +8,6 @@ from itertools import combinations
 
 combos = {
     # dungeons
-    "Soulletting_Ruby_278": "soulletting_ruby,id=178809,ilevel=278",
-    "Soulletting_Ruby_272": "soulletting_ruby,id=178809,ilevel=272",
     "Moonlit_Prism_298": "moonlit_prism,id=137541,ilevel=298",
     "Soleahs_Secret_Technique_Haste_298": "soleahs_secret_technique_haste,id=190958,ilevel=298",
     "Soleahs_Secret_Technique_Mastery_298": "soleahs_secret_technique_mastery,id=190958,ilevel=298",
@@ -17,17 +15,15 @@ combos = {
     "Soleahs_Secret_Technique_Mastery_304": "soleahs_secret_technique_mastery,id=190958,ilevel=304",
     "Tovras_Lightning_Repository_298": "tovras_lightning_repository,id=110001,ilevel=298",
     "Tovras_Lightning_Repository_304": "tovras_lightning_repository,id=110001,ilevel=304",
-    "Fleshrenders_Meathook_298": "fleshrenders_meathook,id=110002,ilevel=298",
-    "Fleshrenders_Meathook_304": "fleshrenders_meathook,id=110002,ilevel=304",
     # castle nathria
-    "Cabalists_Hymnal_Allies_0_297": "cabalists_hymnal,id=184028,ilevel=297",
-    "Cabalists_Hymnal_Allies_4_297": "cabalists_hymnal,id=184028,ilevel=297",
+    "Cabalists_Hymnal_Allies_0_298": "cabalists_hymnal,id=184028,ilevel=298",
+    "Cabalists_Hymnal_Allies_4_298": "cabalists_hymnal,id=184028,ilevel=298",
     "Cabalists_Hymnal_Allies_0_311": "cabalists_hymnal,id=184028,ilevel=311",
     "Cabalists_Hymnal_Allies_4_311": "cabalists_hymnal,id=184028,ilevel=311",
     # sanctum of domination
     "Titanic_Ocular_Gland_291": "titanic_ocular_gland,id=186423,ilevel=291",
     "Titanic_Ocular_Gland_304": "titanic_ocular_gland,id=186423,ilevel=304",
-    "Forbidden_Necromantic_Tome_297": "forbidden_necromantic_tome,id=186421,ilevel=297",
+    "Forbidden_Necromantic_Tome_298": "forbidden_necromantic_tome,id=186421,ilevel=298",
     "Forbidden_Necromantic_Tome_311": "forbidden_necromantic_tome,id=186421,ilevel=311",
     "Shadowed_Orb_of_Torment_291": "shadowed_orb_of_torment,id=186428,ilevel=291",
     "Shadowed_Orb_of_Torment_304": "shadowed_orb_of_torment,id=186428,ilevel=304",
@@ -36,7 +32,7 @@ combos = {
     "Elegy_of_the_Eternals_304": "elegy_of_the_eternals,id=188270,ilevel=304",
     "The_First_Sigil_291": "the_first_sigil,id=188271,ilevel=291",
     "The_First_Sigil_304": "the_first_sigil,id=188271,ilevel=304",
-    "Scars_of_Fraternal_Strife_297": "scars_of_fraternal_strife,id=188253,ilevel=297",
+    "Scars_of_Fraternal_Strife_298": "scars_of_fraternal_strife,id=188253,ilevel=298",
     "Scars_of_Fraternal_Strife_311": "scars_of_fraternal_strife,id=188253,ilevel=311",
 }
 
